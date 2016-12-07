@@ -1,8 +1,8 @@
 package sigrist.jonathan.informatik1.nr17;
 
 /**
- * Das Interface stellt Methoden fuer Getter und Setter von der Geschwindigkeit
- * und der Anzahl an Sitzen bereit.
+ * Das Interface stellt Methoden fuer Getter und Setter von der Geschwindigkeit und der Anzahl an
+ * Sitzen bereit.
  * 
  * @author Carolin Wortmann, Leonhard Segger, Jonathan Sigrist
  *
@@ -14,7 +14,7 @@ public interface Fahrzeug {
 	 * @return Die momentane Geschwindigkeit des Fahrzeugs
 	 */
 	public int getGeschwindigkeit();
-
+	
 	/**
 	 * Setter fuer Geschwindigkeit
 	 * 
@@ -22,14 +22,14 @@ public interface Fahrzeug {
 	 *            Die neue Geschwindigkeit
 	 */
 	public void setGeschwindigkeit(int gesch);
-
+	
 	/**
 	 * Getter fuer die Anzahl an Sitzen
 	 * 
 	 * @return Die momentane Anzahl an Sitzen
 	 */
 	public int getAnzahlSitze();
-
+	
 	/**
 	 * Setter fuer die Anzahl an Sitzen
 	 * 

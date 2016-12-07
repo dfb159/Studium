@@ -1,23 +1,26 @@
 package sigrist.jonathan.informatik1.nr4;
 
 /**
- * Die Klasse enthaelt alle Teile eines Fahrrades (rahmen und vorder-/hinterreifen).
-	 * Mit getKosten() wird die Summe aller Teile zuruekgegeben.
+ * Die Klasse enthaelt alle Teile eines Fahrrades (rahmen und vorder-/hinterreifen). Mit getKosten()
+ * wird die Summe aller Teile zuruekgegeben.
  * 
  * @author jonathan
  *
  */
 public class Fahrrad {
 	
-	private Rahmen rahmen;
-	private Rad vRad, hRad;
+	private Rahmen	rahmen;
+	private Rad		vRad, hRad;
 	
 	/**
 	 * Der Konstruktor zum Erstellen eines neuen Fahrrades.
 	 * 
-	 * @param vorderrad Das Vorderrad des Fahrrades.
-	 * @param hinterrad Das Hinterrad des Fahrrades.
-	 * @param rahmen Der Rahmen des Fahrrades.
+	 * @param vorderrad
+	 *            Das Vorderrad des Fahrrades.
+	 * @param hinterrad
+	 *            Das Hinterrad des Fahrrades.
+	 * @param rahmen
+	 *            Der Rahmen des Fahrrades.
 	 */
 	public Fahrrad(Rad vorderrad, Rad hinterrad, Rahmen rahmen) {
 		vRad = vorderrad;
@@ -27,7 +30,9 @@ public class Fahrrad {
 	
 	/**
 	 * Setzt das Vorderrad des Fahrrades.
-	 * @param rad Das neue Vorderrad
+	 * 
+	 * @param rad
+	 *            Das neue Vorderrad
 	 */
 	public void setVorderrad(Rad rad) {
 		vRad = rad;
@@ -35,6 +40,7 @@ public class Fahrrad {
 	
 	/**
 	 * Gibt das momentane Vorderrad zurueck.
+	 * 
 	 * @return Das Vorderrad
 	 */
 	public Rad getVorderrad() {
@@ -43,7 +49,9 @@ public class Fahrrad {
 	
 	/**
 	 * Setzt das Hinterrad des Fahrrades.
-	 * @param rad Das neue Hinterrad
+	 * 
+	 * @param rad
+	 *            Das neue Hinterrad
 	 */
 	public void setHinterrad(Rad rad) {
 		hRad = rad;
@@ -51,6 +59,7 @@ public class Fahrrad {
 	
 	/**
 	 * Gibt das momentane Hinterrad zurueck.
+	 * 
 	 * @return Das Hinterrad.
 	 */
 	public Rad getHinterrad() {
@@ -59,7 +68,9 @@ public class Fahrrad {
 	
 	/**
 	 * Setzt den Rahmen fuer das Fahrrad.
-	 * @param rahmen Der neue Rahmen
+	 * 
+	 * @param rahmen
+	 *            Der neue Rahmen
 	 */
 	public void setRahmen(Rahmen rahmen) {
 		this.rahmen = rahmen;
@@ -67,19 +78,20 @@ public class Fahrrad {
 	
 	/**
 	 * Gibt den momentanen Rahmen des Fahrrades zurueck.
+	 * 
 	 * @return Der Rahmen
 	 */
 	public Rahmen getRahmen() {
-		return this.rahmen;	
+		return this.rahmen;
 	}
 	
 	/**
 	 * Errechnet die Kosten des gesammten Fahrrades, aus denen der Teilkosten.
+	 * 
 	 * @return Die Kosten des Fahrrades
 	 */
 	public int getKosten() {
-		return (rahmen!=null?rahmen.getKosten():0)
-				+ (vRad!=null?vRad.getKosten():0)
-				+ (hRad!=null?hRad.getKosten():0);
+		return (rahmen != null ? rahmen.getKosten() : 0) + (vRad != null ? vRad.getKosten() : 0)
+				+ (hRad != null ? hRad.getKosten() : 0);
 	}
 }

@@ -2,14 +2,17 @@ package sigrist.jonathan.informatik1.nr5;
 
 /**
  * Klasse stellt die geforderte Methode erzeugeStammbaum zur Verfuegung
+ * 
  * @author jonathan
  *
  */
 public class Standesamt {
-
+	
 	/**
 	 * Main Methode zum testen der Methode
-	 * @param args Arguments
+	 * 
+	 * @param args
+	 *            Arguments
 	 */
 	public static void main(String[] args) {
 		Standesamt s = new Standesamt();
@@ -18,24 +21,32 @@ public class Standesamt {
 	
 	/**
 	 * Gibt den Stammbaum zu einer spezifischen Person in der Konsole aus
-	 * @param p Die Person fuer den der Stammbaum ausgegeben werden soll
+	 * 
+	 * @param p
+	 *            Die Person fuer den der Stammbaum ausgegeben werden soll
 	 */
 	public void printStammbaum(Person p) {
-		if(p != null) {
-			if(p.getMutter() != null) {
-				System.out.printf("%1$10s",(p.getMutter().getMutter() != null ? p.getMutter().getMutter().getName() : " -------- "));
-				System.out.printf("%1$10s", (p.getMutter().getVater() != null ? p.getMutter().getVater().getName() : " -------- "));
+		if (p != null) {
+			if (p.getMutter() != null) {
+				System.out.printf("%1$10s", (p.getMutter().getMutter() != null
+						? p.getMutter().getMutter().getName() : " -------- "));
+				System.out.printf("%1$10s", (p.getMutter().getVater() != null
+						? p.getMutter().getVater().getName() : " -------- "));
 			}
-			if(p.getVater() != null) {
-				System.out.printf("%1$10s",(p.getVater().getMutter() != null ? p.getVater().getMutter().getName() : " -------- "));
-				System.out.printf("%1$10s", (p.getVater().getVater() != null ? p.getVater().getVater().getName() : " -------- "));
+			if (p.getVater() != null) {
+				System.out.printf("%1$10s", (p.getVater().getMutter() != null
+						? p.getVater().getMutter().getName() : " -------- "));
+				System.out.printf("%1$10s", (p.getVater().getVater() != null
+						? p.getVater().getVater().getName() : " -------- "));
 			}
-
+			
 			System.out.println();
 			System.out.println();
 			System.out.println();
-			System.out.printf("%1$15s",(p.getMutter() != null ? p.getMutter().getName() : " --------- "));
-			System.out.printf("%1$20s",(p.getVater() != null ? p.getVater().getName() : " --------- "));
+			System.out.printf("%1$15s",
+					(p.getMutter() != null ? p.getMutter().getName() : " --------- "));
+			System.out.printf("%1$20s",
+					(p.getVater() != null ? p.getVater().getName() : " --------- "));
 			
 			System.out.println();
 			System.out.println();
@@ -48,6 +59,7 @@ public class Standesamt {
 	
 	/**
 	 * Erstellt einen HardCode Stammbaum fuer die Person Magdalena
+	 * 
 	 * @return Person Magdalena mit gespeicherten Verwanten
 	 */
 	public Person erzeugeStammbaum() {
@@ -69,5 +81,5 @@ public class Standesamt {
 		
 		return magdalena;
 	}
-
+	
 }

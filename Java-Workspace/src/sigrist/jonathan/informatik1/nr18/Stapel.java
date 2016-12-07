@@ -1,9 +1,8 @@
 package sigrist.jonathan.informatik1.nr18;
 
 /**
- * Die Klasse stellt ein Datenkonstrukt nach FILO-Prinzip zur Verfuegung. Es
- * koennen Daten oben auf den Stapel draufgelegt oder oben vom Stapel herunter
- * genommen werden.
+ * Die Klasse stellt ein Datenkonstrukt nach FILO-Prinzip zur Verfuegung. Es koennen Daten oben auf
+ * den Stapel draufgelegt oder oben vom Stapel herunter genommen werden.
  * 
  * @author Carolin Wortmann, Leonhard Segger, Jonathan Sigrist
  * 
@@ -11,24 +10,22 @@ package sigrist.jonathan.informatik1.nr18;
  *            Der generische Datentyp der zu speichernden Daten
  */
 public class Stapel<T> {
-
+	
 	/**
-	 * Die innere Klasse stellt ein Element des Stapels dar. Dabei enthaelt sie
-	 * das naechste Element und das jeweilig repraesentative Objekt der Klasse
-	 * T.
+	 * Die innere Klasse stellt ein Element des Stapels dar. Dabei enthaelt sie das naechste Element
+	 * und das jeweilig repraesentative Objekt der Klasse T.
 	 * 
 	 * @author jonathan
 	 *
 	 */
 	class Item {
-
+		
 		Item	next;
 		T		object;
-
+		
 		/**
-		 * Konstruktor der inneren Klasse setzt die Klassenattribute der inneren
-		 * Klasse. Diese sind nicht protected oder private, da ohnehin nur die
-		 * Klasse Stapel auf sie zugreifen kann.
+		 * Konstruktor der inneren Klasse setzt die Klassenattribute der inneren Klasse. Diese sind
+		 * nicht protected oder private, da ohnehin nur die Klasse Stapel auf sie zugreifen kann.
 		 * 
 		 * @param next
 		 *            Das naechste Stapelelement
@@ -39,22 +36,20 @@ public class Stapel<T> {
 			this.next = next;
 			this.object = obj;
 		}
-
+		
 		/**
-		 * Fuer bessere Leserlichkeit kann die Methode rekursiv eine Kette von
-		 * allen toString-Methoden von Folgeelementen erzeugen.
+		 * Fuer bessere Leserlichkeit kann die Methode rekursiv eine Kette von allen
+		 * toString-Methoden von Folgeelementen erzeugen.
 		 */
 		public String toString() {
-			return object.toString()
-					+ (next == null ? "" : ", " + next.toString());
+			return object.toString() + (next == null ? "" : ", " + next.toString());
 		}
 	}
-
+	
 	protected Item head = null;
-
+	
 	/**
-	 * Legt ein neues Objekt der Klasse T auf den Stapel und ist somit das
-	 * oberste Objekt.
+	 * Legt ein neues Objekt der Klasse T auf den Stapel und ist somit das oberste Objekt.
 	 * 
 	 * @param item
 	 *            Neues Stapelobjekt
@@ -66,7 +61,7 @@ public class Stapel<T> {
 			head = new Item(head, item);
 		}
 	}
-
+	
 	/**
 	 * Gibt das oberste Objekt zurueck und loescht es vom Stapel.
 	 * 
@@ -83,7 +78,7 @@ public class Stapel<T> {
 			return obj;
 		}
 	}
-
+	
 	/**
 	 * Gibt zurueck, ob der Stapel leer ist.
 	 * 
@@ -92,10 +87,10 @@ public class Stapel<T> {
 	public boolean istLeer() {
 		return head == null;
 	}
-
+	
 	/**
-	 * Erstellt einen repraesentativen String fuer den Stapel. Dabei faengt die
-	 * Liste mit dem obersten Stapelobjekt an.
+	 * Erstellt einen repraesentativen String fuer den Stapel. Dabei faengt die Liste mit dem
+	 * obersten Stapelobjekt an.
 	 */
 	public String toString() {
 		return "[" + (head == null ? "" : head.toString()) + "]";

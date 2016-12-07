@@ -1,0 +1,6 @@
+Jochen;Ein Malbuch;Klein
+Martin;Den Weltfrieden;Gross
+Manuela;Einen kleinen Bruder;Mittel
+Ricarda;Batman Actionfigur;Klein
+Annemarie;Neue Schuhe;Klein
+Jochen;Eine Schaukel;Mittel

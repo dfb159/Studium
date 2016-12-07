@@ -1,13 +1,13 @@
 package sigrist.jonathan.informatik1.java3;
 
 public class SchleifenUndFelder {
-
+	
 	public static void main(String[] args) {
 		SchleifenUndFelder s = new SchleifenUndFelder();
 		System.out.println(s.hundertzwanzig());
 		s.pengPuff();
 	}
-
+	
 	public int hundertzwanzig() {
 		int i = 1;
 		int summe = 0;
@@ -18,7 +18,7 @@ public class SchleifenUndFelder {
 		}
 		return summe;
 	}
-
+	
 	public void pengPuff() {
 		for (int i = 1; i <= 100; i++) {
 			boolean fuenf = i % 5 == 0 || Integer.toString(i).contains("5");
@@ -33,8 +33,9 @@ public class SchleifenUndFelder {
 			} else {
 				System.out.print(i);
 			}
-			if(i < 100) System.out.print(", ");
+			if (i < 100)
+				System.out.print(", ");
 		}
 	}
-
+	
 }

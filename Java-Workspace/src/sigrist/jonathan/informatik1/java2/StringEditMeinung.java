@@ -1,11 +1,11 @@
 package sigrist.jonathan.informatik1.java2;
 
 public class StringEditMeinung {
-
+	
 	public static void main(String[] args) {
 		aendereMeinung();
 	}
-
+	
 	public static void aendereMeinung() {
 		String str = "ich hasse montage";
 		System.out.println(str);
@@ -15,5 +15,5 @@ public class StringEditMeinung {
 		str = first + "ich liebe" + last;
 		System.out.println(str);
 	}
-
+	
 }

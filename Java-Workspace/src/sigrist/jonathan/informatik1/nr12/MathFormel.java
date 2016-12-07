@@ -1,26 +1,25 @@
 package sigrist.jonathan.informatik1.nr12;
 
 /**
- * Klasse beinhaltet die Methoden loeseRekursiv und loeseSchleife, welche in der
- * Aufgabe verlangt wurden.
+ * Klasse beinhaltet die Methoden loeseRekursiv und loeseSchleife, welche in der Aufgabe verlangt
+ * wurden.
  * 
  * @author jonathan
  *
  */
 public class MathFormel {
-
+	
 	/**
-	 * epsilon ist die Konstante, durch welche die Genauigkeit der Berechnung
-	 * festgelegt ist. PI ist einfach eine Abkuerzung fuer die Zahl Pi, um sie
-	 * nachher besser (und ohne spaeteren Aufruf von java.lang.Math) nutzen zu
-	 * koennen.
+	 * epsilon ist die Konstante, durch welche die Genauigkeit der Berechnung festgelegt ist. PI ist
+	 * einfach eine Abkuerzung fuer die Zahl Pi, um sie nachher besser (und ohne spaeteren Aufruf
+	 * von java.lang.Math) nutzen zu koennen.
 	 */
 	private final double	epsilon	= 1e-7;
 	private final double	PI		= Math.PI;
-
+	
 	/**
-	 * Da sin(x) periodisch ist, wird x erst auf einen Wert im Intervall [0,
-	 * Pi/2] gebracht. Dies beschleunigt die Berechnung
+	 * Da sin(x) periodisch ist, wird x erst auf einen Wert im Intervall [0, Pi/2] gebracht. Dies
+	 * beschleunigt die Berechnung
 	 * 
 	 * @param x
 	 *            Abzisse, fuer welche der sinuswert berechnet werden soll
@@ -37,29 +36,25 @@ public class MathFormel {
 			return loeseRekursiv(PI - x);
 		return recursiveSin(x, 0);
 	}
-
+	
 	/**
 	 * 
 	 * @param x
 	 *            Abzisse, fuer welche der sinuswert berechnet werden soll
 	 * @param iteration
 	 *            Rekursive Variable fuer die Berechnung
-	 * @param value
-	 *            Uebergebener derzeitiger Funktionswert
 	 * @return Wert der Sinusfunktion an der Abzisse
 	 */
 	private double recursiveSin(double x, int iteration) {
-		double newValue = vZ(iteration) * pow(x, 2 * iteration + 1)
-				/ fakultaet(2 * iteration + 1);
+		double newValue = vZ(iteration) * pow(x, 2 * iteration + 1) / fakultaet(2 * iteration + 1);
 		if (newValue > -epsilon && newValue < epsilon)
 			return newValue;
 		else
 			return newValue + recursiveSin(x, iteration + 1);
 	}
-
+	
 	/**
-	 * Die Methode entscheidet, welches Vorzeichen die Iteration haben soll. Sie
-	 * entspricht (-1)^exp
+	 * Die Methode entscheidet, welches Vorzeichen die Iteration haben soll. Sie entspricht (-1)^exp
 	 * 
 	 * @param exp
 	 *            Exponent der Funktion (-1)^exp
@@ -71,13 +66,13 @@ public class MathFormel {
 		else
 			return -1;
 	}
-
+	
 	/**
 	 * @param base
 	 *            Basis der Funktion
 	 * @param exp
 	 *            Exponent der Funktion
-	 * @return Wert von base^exp, wobei fuer exp <= 0, 1 zurueckgegeben wird
+	 * @return Wert von base^exp, wobei fuer exp <\= 0, 1 zurueckgegeben wird
 	 */
 	private double pow(double base, int exp) {
 		double retVar = 1;
@@ -86,7 +81,7 @@ public class MathFormel {
 		}
 		return retVar;
 	}
-
+	
 	/**
 	 * @param n
 	 *            Zahl, fuer welche die Fakultaet berechnet werden soll
@@ -100,7 +95,7 @@ public class MathFormel {
 		else
 			return 1;
 	}
-
+	
 	/**
 	 * Methode berechner den Sinus an der Stelle x rekursiv
 	 * 
@@ -111,7 +106,7 @@ public class MathFormel {
 	public double solutionloaseRekursiv(double x) {
 		return solutionRecursiveSin(x, x, 1, 1, 1, epsilon);
 	}
-
+	
 	/**
 	 * Die Methode berechnet einen Teil des Sinus rekursiv
 	 * 
@@ -129,20 +124,19 @@ public class MathFormel {
 	 *            Genauigkeit der Berechnung (Abbruchbedingung)
 	 * @return Die Teilberechnung des Sinus
 	 */
-	private double solutionRecursiveSin(double x, double zaehler, double nenner,
-			double fakcounter, double vorzeichen, double epsilon) {
+	private double solutionRecursiveSin(double x, double zaehler, double nenner, double fakcounter,
+			double vorzeichen, double epsilon) {
 		double inkrement = vorzeichen * zaehler / nenner;
 		if (inkrement > epsilon || inkrement < epsilon) {
 			return inkrement + solutionRecursiveSin(x, zaehler * x * x,
-					nenner * ++fakcounter * ++fakcounter, fakcounter,
-					-vorzeichen, epsilon);
+					nenner * ++fakcounter * ++fakcounter, fakcounter, -vorzeichen, epsilon);
 		}
 		return inkrement;
 	}
-
+	
 	/**
-	 * Da die Sinusfunktion periodisch und symmetrisch ist, kann x als Wert im
-	 * Intervall [0;Pi/2] berechnet werden
+	 * Da die Sinusfunktion periodisch und symmetrisch ist, kann x als Wert im Intervall [0;Pi/2]
+	 * berechnet werden
 	 * 
 	 * @param x
 	 *            Abzisse, fuer welche der sinuswert berechnet werden soll
@@ -160,7 +154,7 @@ public class MathFormel {
 		}
 		if (x > PI / 2)
 			x = PI - x;
-
+		
 		double fakult = 1.0, potenz = x;
 		double result = x;
 		double summand = x;

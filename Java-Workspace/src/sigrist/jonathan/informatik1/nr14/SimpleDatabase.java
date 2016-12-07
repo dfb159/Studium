@@ -1,13 +1,5 @@
 package sigrist.jonathan.informatik1.nr14;
 
-/*
- * g = new GridBagLayout
- * c = ne wGridBagConstraint
- * c.fill = c.BOTH
- * c.{gridx, gridy, gridwidth, gridheight, weightx, weighty}
- * add(comp
- * g.setConstrains(c)
- */
 import java.awt.Button;
 import java.awt.Color;
 import java.awt.Component;
@@ -21,17 +13,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Klasse beinhaltet das geforderte Frame, welches mit der main-Methode
- * ausgefuehrt werden kann.
+ * Klasse beinhaltet das geforderte Frame, welches mit der main-Methode ausgefuehrt werden kann.
  * 
  * @author Leonhard Segger, Carolin Wortmann, Jonathan Sigrist
  *
  */
 public class SimpleDatabase extends Frame implements ActionListener {
-
+	
 	protected String[]	data			= new String[10];
 	protected int		index			= 0;
-
+	
 	protected TextField	tFTextEdit		= new TextField("", 22);
 	protected Button	btnWeiter		= new Button("Weiter");
 	protected Button	btnZurueck		= new Button("Zurueck");
@@ -39,7 +30,7 @@ public class SimpleDatabase extends Frame implements ActionListener {
 	protected Button	btnLaden		= new Button("Laden");
 	protected Button	btnBeenden		= new Button("Beenden");
 	protected Label		lIndex			= new Label("1", 2);
-
+	
 	/**
 	 * Startmethode zum kreieren eines neuen Fensters.
 	 * 
@@ -47,13 +38,12 @@ public class SimpleDatabase extends Frame implements ActionListener {
 	 *            Konsolen-Argumente
 	 */
 	public static void main(String[] args) {
-		@SuppressWarnings("unused")
-		SimpleDatabase inst = new SimpleDatabase();
+		@SuppressWarnings("unused") SimpleDatabase inst = new SimpleDatabase();
 	}
-
+	
 	/**
-	 * Konstruktor der Klasse. Erstellt ein neues Fenster in der man ein
-	 * String-Array bearbeiten kann.
+	 * Konstruktor der Klasse. Erstellt ein neues Fenster in der man ein String-Array bearbeiten
+	 * kann.
 	 */
 	public SimpleDatabase() {
 		super();
@@ -61,7 +51,7 @@ public class SimpleDatabase extends Frame implements ActionListener {
 		setTitle("SimpleDatabase");
 		setLayout(new GridBagLayout());
 		setBackground(Color.LIGHT_GRAY);
-
+		
 		put(this, btnZurueck, 1, 1, 1);
 		put(this, lIndex, 2, 1, 1);
 		put(this, btnWeiter, 3, 1, 1);
@@ -69,21 +59,20 @@ public class SimpleDatabase extends Frame implements ActionListener {
 		put(this, btnSpeichern, 1, 3, 1);
 		put(this, btnLaden, 2, 3, 1);
 		put(this, btnBeenden, 3, 3, 1);
-
+		
 		btnWeiter.addActionListener(this);
 		btnZurueck.addActionListener(this);
 		btnSpeichern.addActionListener(this);
 		btnLaden.addActionListener(this);
 		btnBeenden.addActionListener(this);
-
+		
 		pack();
 		validate();
 		setVisible(true);
 	}
-
+	
 	/**
-	 * Eine aus der Vorlesung bekannte Methode zum vereinfachen der Anordnung
-	 * von den Komponenten
+	 * Eine aus der Vorlesung bekannte Methode zum vereinfachen der Anordnung von den Komponenten
 	 * 
 	 * @param ctr
 	 *            Container in welche die Komponente plaziert werden soll
@@ -109,10 +98,10 @@ public class SimpleDatabase extends Frame implements ActionListener {
 		ctr.add(comp);
 		g.setConstraints(comp, c);
 	}
-
+	
 	/**
-	 * Methode vergleicht das uebergebene ActionEvent auf seine Ursache. Je
-	 * nachdem welcher Knopf gedrueckt wurde, wird eine Operation durchgefuehrt.
+	 * Methode vergleicht das uebergebene ActionEvent auf seine Ursache. Je nachdem welcher Knopf
+	 * gedrueckt wurde, wird eine Operation durchgefuehrt.
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {

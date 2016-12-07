@@ -7,9 +7,9 @@ package sigrist.jonathan.informatik1.nr17;
  *
  */
 public class LKW extends Auto {
-
+	
 	int maximaleLast;
-
+	
 	/**
 	 * Der Konstruktor setzt alle Klassenattribute
 	 * 
@@ -22,12 +22,11 @@ public class LKW extends Auto {
 	 * @param maximaleLast
 	 *            Die maximale Traglast des LKWs
 	 */
-	public LKW(int geschwindigkeit, int anzahlSitze, int anzahlRaeder,
-			int maximaleLast) {
+	public LKW(int geschwindigkeit, int anzahlSitze, int anzahlRaeder, int maximaleLast) {
 		super(geschwindigkeit, anzahlSitze, anzahlRaeder);
 		this.maximaleLast = maximaleLast;
 	}
-
+	
 	/**
 	 * Getter fuer die maximale Traglast
 	 * 
@@ -36,7 +35,7 @@ public class LKW extends Auto {
 	public int getMaximaleLast() {
 		return maximaleLast;
 	}
-
+	
 	/**
 	 * Setter fuer die maximale Traglast
 	 * 

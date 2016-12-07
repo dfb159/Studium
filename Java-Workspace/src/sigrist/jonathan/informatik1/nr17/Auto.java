@@ -1,18 +1,18 @@
 package sigrist.jonathan.informatik1.nr17;
 
 /**
- * Klasse enthaelt die geforderten Klassenattribute und Methoden fuer ein Auto.
- * Dabei werden die Methoden des implementierten Interfaces genauer definiert.
+ * Klasse enthaelt die geforderten Klassenattribute und Methoden fuer ein Auto. Dabei werden die
+ * Methoden des implementierten Interfaces genauer definiert.
  * 
  * @author Carolin Wortmann, Leonhard Segger, Jonathan Sigrist
  *
  */
 public abstract class Auto implements Fahrzeug {
-
+	
 	protected int	geschwindigkeit;
 	protected int	anzahlSitze;
 	protected int	anzahlRaeder;
-
+	
 	/**
 	 * Der Konstruktor setzt alle Klassenparameter
 	 * 
@@ -28,7 +28,7 @@ public abstract class Auto implements Fahrzeug {
 		this.anzahlSitze = anzahlSitze;
 		this.anzahlRaeder = anzahlRaeder;
 	}
-
+	
 	/**
 	 * Getter fuer die Anzahl an Raedern
 	 * 
@@ -37,7 +37,7 @@ public abstract class Auto implements Fahrzeug {
 	public int getAnzahlRaeder() {
 		return anzahlRaeder;
 	}
-
+	
 	/**
 	 * Setter fuer die Anzahl an Raedern
 	 * 
@@ -47,26 +47,26 @@ public abstract class Auto implements Fahrzeug {
 	public void setAnzahlRaeder(int anzahlRaeder) {
 		this.anzahlRaeder = anzahlRaeder;
 	}
-
+	
 	@Override
 	public int getGeschwindigkeit() {
 		return geschwindigkeit;
 	}
-
+	
 	@Override
 	public void setGeschwindigkeit(int gesch) {
 		this.geschwindigkeit = gesch;
-
+		
 	}
-
+	
 	@Override
 	public int getAnzahlSitze() {
 		return anzahlSitze;
 	}
-
+	
 	@Override
 	public void setAnzahlSitze(int anzahl) {
 		this.anzahlSitze = anzahl;
 	}
-
+	
 }

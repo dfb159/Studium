@@ -2,12 +2,13 @@ package sigrist.jonathan.informatik1.nr6;
 
 /**
  * Klasse stellt die geforderte Methode wasIstEs zur Verfuegung
+ * 
  * @author jonathan
  *
  */
 public class Orakel {
-
 	
+	//@formatter:off
 	private final Gegenstand[] obj = new Gegenstand[] {
 			new Gegenstand(150, "Gummi", false),
 			new Gegenstand(150, "Gummi", true),
@@ -21,7 +22,6 @@ public class Orakel {
 			new Gegenstand(300, "Fleisch", false),
 			new Gegenstand(1500, "Metall", true)
 	};
-	
 	private final String[] name = new String[] {
 			"Gummiente",
 			"Stromkabel",
@@ -35,20 +35,23 @@ public class Orakel {
 			"Steak",
 			"Laptop"
 	};
+	//@formatter:on
 	
 	/**
 	 * Die Methode gibt den Namen des zu ueberpruefenden Gegenstandes zurueck
-	 * @param gegenstand Der zu ueberpruefende Gegenstand
+	 * 
+	 * @param gegenstand
+	 *            Der zu ueberpruefende Gegenstand
 	 * @return Der Name des Gegenstandes
 	 */
 	public String wasIstEs(Gegenstand gegenstand) {
 		
-		if(gegenstand == null) {
+		if (gegenstand == null) {
 			return "kein Gegenstand angegeben!";
 		}
 		
-		for(int i = 0; i < obj.length; i++) {
-			if(vergleicheGegenstand(gegenstand, obj[i])) {
+		for (int i = 0; i < obj.length; i++) {
+			if (vergleicheGegenstand(gegenstand, obj[i])) {
 				return name[i];
 			}
 		}
@@ -58,54 +61,70 @@ public class Orakel {
 	
 	/**
 	 * Alternative Hardcode-Methode fuer wasIstEs
-	 * @param g Der zu ueberpruefende Gegenstand
+	 * 
+	 * @param g
+	 *            Der zu ueberpruefende Gegenstand
 	 * @return Der Name des Gegenstandes
 	 */
 	public String wasIstEs2(Gegenstand g) {
-		if(g.getGewicht() > 4000) {
-			if(g.isElektrisch()) {
-				if(g.getMaterial().equals("Wasser")) return "Wolken";
-				else return "Supercomputer";
+		if (g.getGewicht() > 4000) {
+			if (g.isElektrisch()) {
+				if (g.getMaterial().equals("Wasser"))
+					return "Wolken";
+				else
+					return "Supercomputer";
 			} else {
-				if(g.getMaterial().equals("Fleisch")) return "Student";
-				else return "Baum";
+				if (g.getMaterial().equals("Fleisch"))
+					return "Student";
+				else
+					return "Baum";
 			}
 		} else {
-			if(g.getMaterial().equals("Gummi")) {
-				if(g.isElektrisch()) return "Stromkabel";
-				else return "Gummiente";
+			if (g.getMaterial().equals("Gummi")) {
+				if (g.isElektrisch())
+					return "Stromkabel";
+				else
+					return "Gummiente";
 			} else {
-				if(g.getGewicht() == 150) return "Smartphone";
-				else return "Computer";
+				if (g.getGewicht() == 150)
+					return "Smartphone";
+				else
+					return "Computer";
 			}
 		}
 	}
-
+	
 	/**
 	 * Gibt einen den Gegenstand umschreibenden String zurueck
-	 * @param gegenstand Der zu beschreibender Gegenstand
+	 * 
+	 * @param gegenstand
+	 *            Der zu beschreibender Gegenstand
 	 * @return Die Beschreibung
 	 */
 	private String getString(Gegenstand gegenstand) {
-		return "("+gegenstand.getGewicht()+", "+gegenstand.getMaterial()+", "+gegenstand.isElektrisch()+")";
+		return "(" + gegenstand.getGewicht() + ", " + gegenstand.getMaterial() + ", "
+				+ gegenstand.isElektrisch() + ")";
 	}
 	
 	/**
 	 * Vergleicht zwei Gegenstaende auf gleiche Attribute
-	 * @param g1 Der erste Gegenstand
-	 * @param g2 Der zweite Gegenstand
+	 * 
+	 * @param g1
+	 *            Der erste Gegenstand
+	 * @param g2
+	 *            Der zweite Gegenstand
 	 * @return true, falls alle Attribute identisch sind, sonst false
 	 */
 	private boolean vergleicheGegenstand(Gegenstand g1, Gegenstand g2) {
 		
 		/*
-		 * Vergleiche ein Gegenstand mit einem anderen. Wenn beide die gleichen Attribute haben, dann gebe true zur�ck, sonst gebe false zur�ck.
+		 * Vergleiche ein Gegenstand mit einem anderen. Wenn beide die gleichen Attribute haben,
+		 * dann gebe true zur�ck, sonst gebe false zur�ck.
 		 */
-		if(g1.getMaterial() == null || g2.getMaterial() == null) {
+		if (g1.getMaterial() == null || g2.getMaterial() == null) {
 			return false;
 		}
-		if(g1.getGewicht() == g2.getGewicht() 
-				&& g1.getMaterial().equals(g2.getMaterial())
+		if (g1.getGewicht() == g2.getGewicht() && g1.getMaterial().equals(g2.getMaterial())
 				&& g1.isElektrisch() == g2.isElektrisch()) {
 			return true;
 		} else {
@@ -113,4 +132,3 @@ public class Orakel {
 		}
 	}
 }
-
