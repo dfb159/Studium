@@ -10,7 +10,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -49,7 +48,8 @@ public class DateiHochladenFrame extends MeinFrame implements ActionListener {
 	/**
 	 * Behandelt die Aktionen beim Klick der verschiedenen Buttons
 	 * 
-	 * @param event uebergebenes ActionEvent
+	 * @param event
+	 *            uebergebenes ActionEvent
 	 */
 	public void actionPerformed(ActionEvent event) {
 		// Setzt die Warnungsmeldung zurueck!
@@ -61,11 +61,16 @@ public class DateiHochladenFrame extends MeinFrame implements ActionListener {
 			
 			try {
 				dateiHochladen(dateiName.getText());
+			} catch (IOException e) {
+				warnung.setText("Die Datei konnte nicht gelesen werden!");
+			} catch (FalscherNameException e) {
+				warnung.setText("Ein Kind hat keinen Namen!");
+			} catch (GeschenkOhneTitelException e) {
+				warnung.setText("Ein Geschenk hat keinen Namen!");
 			} catch (ParseFileException e) {
 				warnung.setText(e.getMessage());
 			}
 		}
-		
 	}
 	
 	/**
@@ -75,56 +80,42 @@ public class DateiHochladenFrame extends MeinFrame implements ActionListener {
 	 * 
 	 * @param datei
 	 *            Name der Datei
+	 * @throws GeschenkOhneTitelException
+	 *             Wird geworfen, falls ein Geschenkeintrag keinen Namen enthaelt.
+	 * @throws FalscherNameException
+	 *             Wird geworfen, falls ein Kindeintrag keinen Namen enthaelt.
+	 * @throws IOException
+	 *             Wird geworfen, falls die Datei nicht gelesen werden kann.
 	 * @throws ParseFileException
-	 *             Fehler beim Parsen der Datei. Wird geworfen, wenn: 1. die Datei nicht geoeffnet
-	 *             werden kann, 2. die Datei nicht mehr weiter gelesen werden kann oder 3. Ein
-	 *             Eintrag falsch ist(Kind oder Geschenk hat keinen Namen hat.
+	 *             Wird geworfen, falls kein gueltiger Geschenktyp angegeben wurde.
 	 */
-	public void dateiHochladen(String datei) throws ParseFileException {
+	public void dateiHochladen(String datei) throws IOException, FalscherNameException,
+			GeschenkOhneTitelException, ParseFileException {
 		
-		FileReader fr = null;
-		try {
-			fr = new FileReader(new File(datei));
-		} catch (FileNotFoundException e) {
-			throw new ParseFileException("Die Datei kann nicht geoeffnet werden!");
-		}
+		FileReader fr = new FileReader(new File(datei));
 		BufferedReader in = new BufferedReader(fr);
 		
 		String line = "";
-		try {
-			while ((line = in.readLine()) != null) { // so lange line einlesen,
-														// bis EOF erreicht ist
-				String[] geschenkRaw = line.split(";");
-				
-				if (geschenkRaw.length == 3) {
-					Kind kind = KinderListe.getKind(geschenkRaw[0]);
-					GeschenkTyp typ = null;
-					if (geschenkRaw[2].equals("Klein")) {
-						typ = GeschenkTyp.Klein;
-					} else if (geschenkRaw[2].equals("Mittel")) {
-						typ = GeschenkTyp.Mittel;
-					} else if (geschenkRaw[2].equals("Gross")) {
-						typ = GeschenkTyp.Gross;
-					} else {
-						
-					}
-					kind.addGeschenk(new Geschenk(geschenkRaw[1], typ));
+		while ((line = in.readLine()) != null) { // so lange line einlesen,
+													// bis EOF erreicht ist
+			String[] geschenkRaw = line.split(";");
+			
+			if (geschenkRaw.length == 3) {
+				Kind kind = KinderListe.getKind(geschenkRaw[0]);
+				GeschenkTyp typ = null;
+				if (geschenkRaw[2].equals("Klein")) {
+					typ = GeschenkTyp.Klein;
+				} else if (geschenkRaw[2].equals("Mittel")) {
+					typ = GeschenkTyp.Mittel;
+				} else if (geschenkRaw[2].equals("Gross")) {
+					typ = GeschenkTyp.Gross;
+				} else {
+					throw new ParseFileException("Kein gueltiger Geschenktyp");
 				}
-			}
-		} catch (IOException e1) {
-			throw new ParseFileException("Die Datei konnte nicht vollstaendig gelesen werden!");
-		} catch (FalscherNameException e1) {
-			throw new ParseFileException("Ein Kind hat keinen Namen!");
-		} catch (GeschenkOhneTitelException e1) {
-			throw new ParseFileException("Ein Geschenk hat keinen Namen!");
-		} finally {
-			try {
-				in.close();
-			} catch (IOException e) {
-				System.err.println("Fatal: Datei kann nicht geschlossen werden!");
-				System.exit(-1);
+				kind.addGeschenk(new Geschenk(geschenkRaw[1], typ));
 			}
 		}
+		in.close();
 	}
 	
 	/**
