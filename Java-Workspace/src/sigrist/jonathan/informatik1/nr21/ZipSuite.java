@@ -34,7 +34,7 @@ public class ZipSuite extends TestCase {
 	}
 	
 	int[]	array1, array2;
-	int[]	loesungAddition, loesungMultiplikation, loesungModulo;
+	int[]	loesungMultiplikation, loesungXOR, loesungRechnung;
 	
 	/**
 	 * Bereitet den Test vor. Dabei werden zwei zufaellig lange Arrays mit zufaelligen Zahlen
@@ -52,19 +52,21 @@ public class ZipSuite extends TestCase {
 			array2[i] = r.nextInt(1000) - 500;
 		}
 		
-		loesungAddition = new int[Math.min(array1.length, array2.length)];
-		for (int i = 0; i < loesungAddition.length; i++) {
-			loesungAddition[i] = array1[i] + array2[i];
-		}
-		
 		loesungMultiplikation = new int[Math.min(array1.length, array2.length)];
 		for (int i = 0; i < loesungMultiplikation.length; i++) {
-			loesungMultiplikation[i] = array1[i] + array2[i];
+			loesungMultiplikation[i] = array1[i] * array2[i];
 		}
 		
-		loesungModulo = new int[Math.min(array1.length, array2.length)];
-		for (int i = 0; i < loesungModulo.length; i++) {
-			loesungModulo[i] = array1[i] + array2[i];
+		loesungXOR = new int[Math.min(array1.length, array2.length)];
+		for (int i = 0; i < loesungXOR.length; i++) {
+			loesungXOR[i] = array1[i] ^ array2[i];
+		}
+		
+		loesungRechnung = new int[Math.min(array1.length, array2.length)];
+		for (int i = 0; i < loesungRechnung.length; i++) {
+			int summe = array1[i] + array2[i];
+			int divergenz = array1[i] - array2[i];
+			loesungRechnung[i] = (summe * divergenz) % 13;
 		}
 	}
 	
@@ -80,20 +82,20 @@ public class ZipSuite extends TestCase {
 	 * Testet die Zip.zip-Methode anhand der Addition zwei Arrays.
 	 */
 	@org.junit.Test
-	public void testAddition() {
-		int[] result = Zip.zip(array1, array2, (a, b) -> a + b);
+	public void testRechnung() {
+		int[] result = Zip.zip(array1, array2, (a, b) -> ((a + b) * (a - b)) % 13);
 		
-		assertEquals(isIdentisch(result, loesungAddition), true);
+		checkIdentisch(result, loesungRechnung);
 	}
 	
 	/**
 	 * Testet die Zip.zip-Methode anhand von zwei Arrays und dem Modulo-Operator.
 	 */
 	@org.junit.Test
-	public void testModulo() {
-		int[] result = Zip.zip(array1, array2, (a, b) -> a % b);
+	public void testXOR() {
+		int[] result = Zip.zip(array1, array2, (a, b) -> a ^ b);
 		
-		assertEquals(isIdentisch(result, loesungModulo), true);
+		checkIdentisch(result, loesungXOR);
 	}
 	
 	/**
@@ -103,7 +105,7 @@ public class ZipSuite extends TestCase {
 	public void testMultiplikation() {
 		int[] result = Zip.zip(array1, array2, (a, b) -> a * b);
 		
-		assertEquals(isIdentisch(result, loesungMultiplikation), true);
+		checkIdentisch(result, loesungMultiplikation);
 	}
 	
 	/**
@@ -116,13 +118,11 @@ public class ZipSuite extends TestCase {
 	 * @return true, falls beide gleich lang sind und die Elemente beider Arrays gleiche Werte
 	 *         haben, sonst false
 	 */
-	private boolean isIdentisch(int[] array1, int[] array2) {
+	private void checkIdentisch(int[] array1, int[] array2) {
 		if (array1.length != array2.length)
-			return false;
+			assertFalse(true);
 		for (int i = 0; i < array1.length; i++) {
-			if (array1[i] != array2[i])
-				return false;
+			assertEquals(array1[i], array2[i]);
 		}
-		return true;
 	}
 }

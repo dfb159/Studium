@@ -93,7 +93,8 @@ public class DateiHochladenFrame extends MeinFrame implements ActionListener {
 			GeschenkOhneTitelException, ParseFileException {
 		
 		FileReader fr = new FileReader(new File(datei));
-		BufferedReader in = new BufferedReader(fr);
+		@SuppressWarnings("resource") BufferedReader in = new BufferedReader(fr);
+		// Wird nicht geschlossen, wenn beim lesen ein Fehler auftritt
 		
 		String line = "";
 		while ((line = in.readLine()) != null) { // so lange line einlesen,
