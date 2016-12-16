@@ -115,8 +115,6 @@ public class ZipSuite extends TestCase {
 	 *            erstes Array
 	 * @param array2
 	 *            zweites Array
-	 * @return true, falls beide gleich lang sind und die Elemente beider Arrays gleiche Werte
-	 *         haben, sonst false
 	 */
 	private void checkIdentisch(int[] array1, int[] array2) {
 		if (array1.length != array2.length)
