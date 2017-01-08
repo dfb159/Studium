@@ -10,12 +10,49 @@ public class SequentialSolver extends Solver {
 	}
 	
 	/**
-	 * Startet einen Subthread, welcher die Berechnung bis zu einer Genauigkeit von epsilon
-	 * durchfuehrt. Das Programm kann dann weiter ausgefuehrt werden, was eine Betrachtung des
-	 * Bildes weiterhin ermoeglicht.
+	 * Startet einen Subthread, welcher die Berechnung durchfuehrt. Das Programm kann dann weiter
+	 * das Bild darstellen. Alternative fuer solve().
+	 */
+	public void solveSmooth() {
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				solve();
+			}
+		}).start();
+	}
+	
+	/**
+	 * Berechnet die Hitzeverteilung der Metallplatte bis zu einer Genauigkeit von epsilon. Dabei
+	 * kann das Bild nicht weiter aktualisiert werden.
 	 */
 	public void solve() {
-		new SequencialThread().start();
+		abbruch = false;
+		while (!abbruch) {
+			abbruch = true;
+			// Alle Punkte ueber Flaeche der Platte
+			for (int x = 0; x < matrix.getSize(); x++) {
+				for (int y = 0; y < matrix.getSize(); y++) {
+					// Nachbartemperaturen
+					double oben = getValue(x, y - 1);
+					double unten = getValue(x, y + 1);
+					double links = getValue(x - 1, y);
+					double rechts = getValue(x + 1, y);
+					
+					// Mittelwert
+					double value = 0.25 * (oben + unten + links + rechts);
+					// Abbruchbedingung
+					double delta = Math.abs(value - matrix.getValue(x, y));
+					if (delta > epsilon) {
+						abbruch = false;
+					}
+					matrix.setValue(value, x, y);
+				}
+			}
+			matrix.nextIteration();
+		}
+		finish();
 	}
 	
 	/**
@@ -39,42 +76,6 @@ public class SequentialSolver extends Solver {
 			return unten;
 		} else {
 			return matrix.getValue(x, y);
-		}
-	}
-	
-	/**
-	 * Subthread um eine Visualisierung der Rechnung zu ermoeglichen.
-	 * 
-	 * @author Carolin Wortmann, Leonhard Segger, Jonathan Sigrist
-	 *
-	 */
-	private class SequencialThread extends Thread {
-		
-		/**
-		 * Startet die Berechnung des Bildes
-		 */
-		public void run() {
-			abbruch = false;
-			while (!abbruch) {
-				abbruch = true;
-				for (int x = 0; x < matrix.getSize(); x++) {
-					for (int y = 0; y < matrix.getSize(); y++) {
-						double oben = getValue(x, y - 1);
-						double unten = getValue(x, y + 1);
-						double links = getValue(x - 1, y);
-						double rechts = getValue(x + 1, y);
-						
-						double value = 0.25 * (oben + unten + links + rechts);
-						double delta = Math.abs(value - matrix.getValue(x, y));
-						if (delta > epsilon) {
-							abbruch = false;
-						}
-						matrix.setValue(value, x, y);
-					}
-				}
-				matrix.nextIteration();
-			}
-			finish();
 		}
 	}
 }

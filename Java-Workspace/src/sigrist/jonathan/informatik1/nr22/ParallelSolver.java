@@ -123,7 +123,7 @@ public class ParallelSolver extends Solver {
 		if (beenden) {
 			tmpAbbruch = true;
 		}
-		if (warteThreads != 4) {
+		if (warteThreads < 4) {
 			try {
 				wait();
 			} catch (InterruptedException e) {
