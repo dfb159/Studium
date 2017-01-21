@@ -13,12 +13,12 @@ public class SequentialSolver extends Solver {
 	 * Startet einen Subthread, welcher die Berechnung durchfuehrt. Das Programm kann dann weiter
 	 * das Bild darstellen. Alternative fuer solve().
 	 */
-	public void solveSmooth() {
+	public void solve() {
 		new Thread(new Runnable() {
 			
 			@Override
 			public void run() {
-				solve();
+				solveIt();
 			}
 		}).start();
 	}
@@ -27,7 +27,7 @@ public class SequentialSolver extends Solver {
 	 * Berechnet die Hitzeverteilung der Metallplatte bis zu einer Genauigkeit von epsilon. Dabei
 	 * kann das Bild nicht weiter aktualisiert werden.
 	 */
-	public void solve() {
+	public void solveIt() {
 		abbruch = false;
 		while (!abbruch) {
 			abbruch = true;

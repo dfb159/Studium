@@ -115,8 +115,8 @@ public class ParallelSolver extends Solver {
 		}
 	}
 	
-	private int warteThreads = 0;
-	private boolean tmpAbbruch = false;
+	private int		warteThreads	= 0;
+	private boolean	tmpAbbruch		= false;
 	
 	private synchronized void warteAufThreads(boolean beenden) {
 		warteThreads++;
