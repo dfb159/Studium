@@ -8,128 +8,174 @@
 \usepackage{siunitx}
 
 \begin{document}
+	\setlength{\parindent}{0em} 
 	
-\begin{titlepage}
-	\centering
-	{\scshape\LARGE Versuchsbericht zu \par}
-	\vspace{1cm}
-	{\scshape\huge S1 -- Was ist Experimentieren?\par}
-	\vspace{2.5cm}
-	{\LARGE Gruppe 10 Mi\par}
-	\vspace{0.5cm}
-	{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
-	{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de ) \par}
-	\vfill
-	durchgeführt am 18.10.2017\par
-	betreut von\par
-	{\large Dr. Anke \textsc{Schmidt}}
-
-	\vfill
-
-	{\large \today\par}
-\end{titlepage}
-
-
-\tableofcontents
-
-\newpage
-
-\section{Kurzfassung}
-	In diesem Bericht, zur ersten experimentellen Übung, beschäftigen wir uns mit der Frage, was genau man unter dem Begriff \glqq Experimentieren\grqq\ verstehen sollte. Dazu betrachten wir zunächst folgende Fragen:
+	\begin{titlepage}
+		\centering
+		{\scshape\LARGE Versuchsbericht zu \par}
+		\vspace{1cm}
+		{\scshape\huge S1 -- Was ist Experimentieren?\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de ) \par}
+		\vfill
+		durchgeführt am 18.10.2017\par
+		betreut von\par
+		{\large Dr. Anke \textsc{Schmidt}}
+		
+		\vfill
+		
+		{\large \today\par}
+	\end{titlepage}
+		
+	\tableofcontents
 	
-	\begin{enumerate}
-		 \item Was ist mit \glqq Messgröße\grqq\ gemeint?
-		 \item Warum führt man Experimente in der Naturwissenschaft durch? und
-		 \item Weshalb kann der \glqq wahre Wert\grqq\ einer Messgröße niemals bestimmt werden?
-	\end{enumerate}
-
-	Zur Beantwortung dieser Fragen, wenden wir uns nun drei einfachen Versuchen zu. In diesen wird zusätzlich durch unterschiedliche Messverfahren die Bedeutung von Messungenauigkeiten verdeutlicht. In dem ersten Versuch haben wir die Leerlaufspannung einer 9V-Batterie gemessen, in dem zweiten Versuch die Länge eines \glqq STABILO point 88\grqq\ Stiftes und in dem dritten Versuch dann die Zeit, die Kugeln verschiedener Masse zum Herunterrollen einer schiefen Ebene benötigen.
+	\newpage
 	
-	Die Auswertungen dieser Versuche werden wir dann in \textbf{(\ref{Diskussion} Diskussion)} mit den obigen Fragen verknüpfen und damit den Begriff \glqq Experimentieren\grqq {} erklären.
-
-\section{Durchführung}
-
-	\subsection{Versuch 1: Leerlaufspannung}
-		In diesem Versuch ging es um die Messung der Leerlaufspannung einer \SI{9}{\V}-Batterie. Dafür wurde ein digitales Multimeter benutzt.
+	\section{Einleitung}
+		\label{Einleitung}
 		
-		\subsubsection{Methoden}
-			Bevor wir die Messung durchgeführt haben, haben wir uns gefragt, welche Werte für die Leerlaufspannung $U_0$ zu erwarten sind.
-		
-			Da es sich um eine \SI{9}{\V}-Batterie handelte, und da keine negativen Werte für $U_0$ vorliegen können, haben wir darauf geschlossen, dass der Wert für die Leerlaufspannung sich mindestens im Bereich von \SIrange{0}{9}{\V} befinden sollte.
-			Das, am Boden der Batterie, gegebene Mindesthaltbarkeitsdatum (\glqq 2020\grqq) wurde noch nicht überschritten.
-			Bis dahin sollten die \SI{9}{\V} garantiert sein, also haben wir gefolgert, dass die Batterie, im unbenutzten Falle, auch mehr als \SI{9}{\V} Leerlaufspannung besitzen könnte.
-			Deswegen haben wir unseren Erwartungsbereich von \SIrange{0}{9}{\V} auf \SIrange{0}{10}{\V} erweitert. %TODO Hier Verweis auf Diagramm 1 (Hypothese)
-		
-			Die eigentliche Messung der Leerlaufspannung $U_0$ wurde mit Hilfe eines Multimeters durchgeführt.
-		
-		\subsubsection{Datenanalyse}
-			Die Messung ergab einen Wert von \SI{9,46}{\V} bzw. \SI{9,47}{\V}.
-			Da das Messgerät rundet betrachten wir hierbei Werte von \SIrange{9,455}{9,475}{\V}.
-			Zudem besitzt das Messgerät eine Ungenauigkeit von $0.5\%$ des angegebenen Wertes, weswegen der eigentliche Wert im Bereich von \SIrange{9,407}{9,522}{\V} liegt.
-		
-			\begin{flushleft}
-				Somit ergibt sich:\\
-		
-				\vspace{0.5cm}
-				$U_0 \in [\SI{9.407}{\V},\SI{9.522}{\V}]$\\
-				$a = \SI{0.115}{\V}$ \\
-				$\sigma = \SI{0,0332}{\V}$ \\
-				\vspace{0.5cm}
-				wir erhalten einen den Erwartungen entsprechenden Wert von: \\ 
-				\vspace{0.5cm}
-				$U_0 = (9,4645 \pm 0,0332)\si{\V}$\\ %TODO Hier Verweis auf Diagramm 2 (Messung)
-			\end{flushleft}
+		In diesem Bericht, zur ersten experimentellen Übung, beschäftigen wir uns mit der Frage, was genau man unter dem Begriff \glqq Experimentieren\grqq\ verstehen sollte. Dazu betrachten wir zunächst folgende Fragen:
 	
-	\subsection{Versuch 2: Längenmessung}
-		Der zweite Versuch bestand in der Messung der Länge eines Stiftes.
-		
-		\subsubsection{Methoden}
-			Wie auch im ersten Versuch haben wir uns zunächst gefragt, welche Werte für die Länge des Stiftes in Frage kämen.
-			So haben wir die Stiftlänge über die Spannbreite von Daumen und Zeigefinger in ein Intervall von \SIrange{15}{20}{\cm} abgeschätzt.
-			%TODO Hier Verweis auf Diagramm 3 (Schätzung)
+		\begin{enumerate}
 			
-			Die Messung wurde mit Hilfe eines handelsüblichen Maßbandes gemacht.
+			\item Was ist mit \glqq Messgröße\grqq\ gemeint?
+			\item Warum führt man Experimente in der Naturwissenschaft durch? und
+			\item Weshalb kann der \glqq wahre Wert\grqq\ einer Messgröße niemals bestimmt werden?
 			
-		\subsubsection{Datenanalyse}
-			Die Messung ergab eine Länge von ca. \SI{16,6}{\cm} von beiden Seiten. Die Unsicherheit des Maßbandes wurde hierbei nicht betrachtet, da kein realistischer Wert dafür gegeben war (\SI{6}{\cm} Ungenauigkeit auf \SI{2}{\m}).
-			%TODO Hier Verweis auf Diagramm 4 (Messung) 
-		
-	\subsection{Versuch 3: Schiefe Ebene}
-		Für den dritten Versuch haben wir die Hypothese aufgestellt, dass schwerere Kugeln schneller die schiefe Ebene herunterrollen als leichtere Kugeln gleichen Volumens.
-		
-		\subsubsection{Methoden}
-			Um unsere Hypothese zu verifizieren bzw. zu falsifizieren, haben wir eine Holzkugel und eine Metallkugel mit gleichem Radius mehrfach eine schiefe Ebene herunterrollen lassen und dabei die Zeit gemessen, die sie gebraucht haben.
-			Diese Messung haben wir 15 mal pro Kugel durchgeführt, sodass der Mittelwert über alle Messungen sich mit jeder neuen Messung nicht groß geändert hat und der direkte Vergleich beider Mittelwerte auf ein Ergebnis schließen lässt.
+		\end{enumerate}
 			
-		\subsubsection{Datenanalyse}
-			Die einzelnen Messungen sind in %TODO referenz zu datensatz
-			zusammengefasst.
-			%TODO Messwerte-Tabelle/Diagramm mit referenz zu datasheet(besteht aus messungen, bisheriger mittelwert und fehlergenauigkeit)
+			Zur Beantwortung dieser Fragen, wenden wir uns nun drei einfachen Versuchen zu, welche die Bedeutung von Messungenauigkeiten durch unterschiedliche Messverfahren verdeutlichen sollen. In dem ersten Versuch haben wir die Leerlaufspannung einer 9V-Batterie gemessen, in dem zweiten Versuch die Länge eines \glqq STABILO point 88\grqq\ Stiftes und in dem dritten Versuch dann die Zeit, die Kugeln verschiedener Masse zum Herunterrollen einer schiefen Ebene benötigen. \\
+		
+			Die Auswertungen dieser Versuche werden wir dann in \textbf{(\ref{Diskussion} Diskussion)} mit den obigen Fragen verknüpfen und damit den Begriff \glqq Experimentieren\grqq {} erklären.
+	
+	\newpage
+	\section{Durchführung}
+		\label{Durchführung}
+		
+		\vfill
+		\subsection{Versuch 1: Leerlaufspannung}
+			\label{2.1}
+			
+			In diesem Versuch geht es um die Messung der Leerlaufspannung einer \SI{9}{\V}-Batterie mit Hilfe eines digitalen Multimeters. Wir fragen uns zunächst, welche Werte für die Leerlaufspannung $U_0$ realistisch wirken und stellen eine Hypothese bzw. Erwartungsbereich auf.
+			
+			\vfill
+			\subsubsection{Vorwissen und Aufstellen einer Hypothese}
+				\label{2.1.1}
+				
+				Da es sich um eine \SI{9}{\V}-Batterie handelt und da keine negativen Werte für $U_0$ vorliegen können, schließen wir darauf, dass der Wert für die Leerlaufspannung sich mindestens im Bereich von \SIrange{0}{9}{\V} befinden sollte.
+				Das, am Boden der Batterie, gegebene Mindesthaltbarkeitsdatum (\glqq 2020\grqq) wurde noch nicht überschritten, weswegen bis dahin die \SI{9}{\V} garantiert sein sollten. Also folgern wir, dass die Batterie, im unbenutzten Falle, auch mehr als \SI{9}{\V} Leerlaufspannung besitzen könnte.
+				Deswegen haben wir unseren Erwartungsbereich von \SIrange{0}{9}{\V} auf \SIrange{0}{10}{\V} erweitert. 
+				%TODO Hier Verweis auf Diagramm 1 (Kastendiagramm 0-10V)		
+			
+			\vfill
+			\subsubsection{Messwerte, Ungenauigkeitsbetrachtung und Ergebnis}
+				\label{2.1.2}
+				
+				Zur Durchführung der Messung haben wir das Multimeter erst auf den zu erwartenden Messbereich von ungefähr \SI{10}{\V} kalibriert und dann mit einfachen Kabeln an die \SI{9}{\V}-Batterie angeschlossen. \\			
+				Die, von dem Gerät, gemessenen Werte schwankten zwischen \SI{9,46}{\V} und \SI{9,47}{\V}.
+				Da das Messgerät rundet betrachten wir hierbei Werte von \SIrange{9,455}{9,475}{\V}.
+				Zudem besitzt das Messgerät eine Ungenauigkeit von $0.5\%$ des angegebenen Wertes, weswegen der eigentliche Wert im Bereich von \SIrange{9,407}{9,522}{\V} liegt.
+			
+				\vfill
+				\begin{flushleft}
 					
-			Trotz 15 Messungen hat sich der Mittelwert für die Holzkugel sich noch um ca. \SI{0.02}{s} vom vorherigen Mittelwert unterschieden. Dies könnte an ungenauer Zeitmessung gelegen haben, weswegen weitere Messungen mit Sicherheit hilfreich gewesen wären um das Ergebnis zu stützen.
+					Somit ergibt sich:\\
+					
+					\vspace{0.5cm}
+					$U_0 \in [\SI{9.407}{\V},\SI{9.522}{\V}]$\\
+					$a = \SI{0.115}{\V}$ \\
+					$\sigma = \SI{0,0332}{\V}$ \\
+					\vspace{0.5cm}
+					wir erhalten einen den Erwartungen entsprechenden Wert von: \\ 
+					\vspace{0.5cm}
+					$U_0 = (9,4645 \pm 0,0332)\si{\V}$\\ 
+					%TODO Hier Verweis auf Diagramm 2 (Kastendiagramm 9.407 bis 9.522V)
+					
+				\end{flushleft}
+	
+		\newpage
+		\subsection{Versuch 2: Längenmessung}
+			\label{2.2}
 			
-			Zudem haben wir jedoch beim zeitgleichen Herunterrollen beider Kugeln festgestellt, dass wenn die Holzkugel vorne ist, immer beide Kugeln gleichzeitig unten ankommen.
-			Ist die Metallkugel vorne, so kommt sie eher als die Holzkugel an.
-			
-			%TODO Signifikanz der Messwerte(Fehlergenauigkeit und mittelwert) auf Hypothese deuten
+			Der zweite Versuch beschäftigt sich mit der Messung der Länge eines Stiftes. Und auch hier fragen wir uns zuerst, welche Werte für die Länge des Stiftes in Frage kommen.
 		
-			%TODO stimmt das überhaupt?
-			Dieser Effekt kann durch das uns bekannte Trägheitsmoment erklärt werden, welches ebenfalls von der Masse des Körpers abhängt.
-			%TODO Erklärung und deutung des Trägkeitsmoment
+			\subsubsection{Schätzung}
+				\label{2.2.1}
+				
+				Die Stiftlänge haben wir über die Spannbreite von Daumen und Zeigefinger in ein Intervall von \SIrange{15}{20}{\cm} abgeschätzt.
+				%TODO Hier Verweis auf Diagramm 3 (Schätzung)
+				
+			\subsubsection{Messung}
+				\label{2.2.2}
+				
+				Mit Hilfe eines handelsüblichen Maßbandes haben wir die Messung durchgeführt. Sie ergab eine Länge von ca. \SI{16,6}{\cm} von beiden Seiten. Die Unsicherheit des Maßbandes wurde hierbei nicht betrachtet, da kein realistischer Wert dafür gegeben war (\SI{6}{\cm} Ungenauigkeit auf \SI{2}{\m}).
+				%TODO Hier Verweis auf Diagramm 4 (Messung) 
 			
+		\vspace{1cm}
+		\subsection{Versuch 3: Schiefe Ebene}
+			\label{2.3}
+			
+			In dem dritten Versuch messen wir die Zeit, die zwei Kugeln aus verschiedenem Material für das Herunterrollen einer schiefen Ebene benötigen, um die Frage zu beantworten, ob die Masse einer Kugel zu ihrer Geschwindigkeit beim Herunterrollen beiträgt.	
+					
+			\subsubsection{Hypothese}
+				\label{2.3.1}
+				
+				Hierfür haben wir die Hypothese aufgestellt, dass schwere Kugeln schneller als Leichtere, gleichen Volumens, die schiefe Ebene herunterrollen. Also: 
+				\begin{center}
+					$(m_1 < m_2 \wedge V_1 = V_2) \Rightarrow v_1 < v_2$
+				\end{center}
+					
+			\subsubsection{Messung, Beobachtung und Messwerte}
+				\label{2.3.2}
+				
+				Um die Hypothese zu verifizieren bzw. falsifizieren, haben wir eine Holzkugel und eine Metallkugel, mit gleichem Radius, mehrfach eine schiefe Ebene herunterrollen lassen und dabei die Zeit gemessen, die sie dafür gebraucht haben. \\
+				Dabei haben wir kleine Ungenauigkeiten, welche u.A. durch den Luftwiderstand und Reibung aufgerufen werden, nicht genauer betrachtet. \\
+				
+				Diese Messung haben wir 15 mal pro Kugel durchgeführt, sodass der Mittelwert über alle Messungen sich mit jeder neuen Messung nicht merklich geändert hat: \SI{1.713}{\s} für die Metallkugel und \SI{1.791}{\s} für die Holzkugel. \\
+								
+				Trotz 15 Messungen hat der Mittelwert für die Holzkugel sich noch um ca. \SI{0.02}{s} vom vorherigen Mittelwert unterschieden. Dies könnte an ungenauer Zeitmessung gelegen haben, weswegen weitere Messungen mit Sicherheit hilfreich gewesen wären um das Ergebnis zu stützen. \\
+				
+				Die einzelnen Messwerte sind im \textbf{(\ref{Anhang} Anhang)} zu finden. \\
+
+				Außerdem haben wir zudem noch das zeitgleiche Herunterrollen beider Kugeln betrachtet und festgestellt, dass wenn die Holzkugel vorne ist, immer beide Kugeln gleichzeitig unten ankommen. Ist jedoch die Metallkugel vorne, so kommt sie vor der Holzkugel an.	
+				
 			\subsubsection{Schlussfolgerung}
-				%TODO Beantwortung der Hypothese
-
-\section{Diskussion}
-
-	\label{Diskussion}
-	
-	Soon\texttrademark
-	%TODO Beantwortung der Fragen aus 1
-	
-\begin{thebibliography}{}
-
-\end{thebibliography}
-
-
+				\label{2.3.3}
+				
+				Der direkte Vergleich der Messwerte und die Beobachtung für zwei zeitgleich rollende Kugeln deuten darauf hin, dass die Hypothese stimmt.
+				Das kann durch die wirkende Gravitationskraft und das Trägheitsmoment erklärt werden, welche bei einer schiefen Ebene auf einen Körper ebenfalls von der Masse der Körper abhängen.
+				
+	\vspace{1cm}
+	\section{Diskussion}	
+		\label{Diskussion}
+		
+		Betrachten wir nun die Fragen aus \textbf{(\ref{Einleitung} Einleitung)}: \\
+		
+		\begin{enumerate}
+			\item Was ist mit \glqq Messgröße\grqq\ gemeint? \\ 
+			
+				Eine Messgröße ist, eine zu messende Größe bzw. das, was gemessen wird. In \ref{2.1} war es die Leerlaufspannung $U_0$, in \ref{2.2} war es die Länge des Stiftes und in \ref{2.3} die Zeit, welche die Kugeln zum Herunterrollen benötigten. Messgrößen bieten uns die Möglichkeit verschiedene Werte im selben Maß zu betrachten, um damit einzuordnen welche Werte größer, kleiner oder realistischer sind, wenn man sie mit dem Erwartungswert vergleicht. \\
+				
+			\item Warum führt man Experimente in der Naturwissenschaft durch? \\
+			
+				Das Ziel der Naturwissenschaft war es schon immer natürliche Vorgänge zu erklären und Fragen zu beantworten. \\ Oft wurden und werden Experimente genutzt um Theorien/Hypothesen zu überprüfen. In unserem Falle, waren es die Vermutungen und Hypothesen, die wir durch die Versuche verifiziert haben.
+				Viele Sachverhalte wurden jedoch erst durch, in Experimenten gemachte, Beobachtungen erkannt. \\
+				 
+			\item Weshalb kann der \glqq wahre Wert\grqq\ einer Messgröße niemals bestimmt werden? \\
+				
+				Nein, der wahre Wert einer Messgröße kann nicht bestimmt werden. Unsere Versuche zeigen bereits, dass für die verschiedenen Messgrößen nur Erwartungswerte gefunden werden können, welche meistens ein \glqq breites Intervall\grqq aufgrund von Ungenauigkeiten beschreiben. %TODO Wahrscheinlichkeitskurven referenzieren 
+				Auch Seiteneffekte wie z.B. Reibung müssen für einen möglichst genauen Wert betrachtet werden, was das Finden eines \glqq wahren Werts\grqq durch experimentiere. \\
+				
+		\end{enumerate}
+		
+		Also was genau sollte man unter dem Begriff \glqq Experimentieren\grqq\ verstehen? \\
+		
+		\glqq Experimentieren\grqq\ ist, wenn man unter kontrollierten Umgebungen Hypothesen, durch Messungen, auf ihre \glqq Richtigkeit\grqq überprüft. Hierbei ist das Ziel jedoch nicht die Bestimmung eines \glqq wahren Werts\grqq sondern der eines Erwartungswerts, da ein solcher sich in der Regel bestimmen lassen sollte.
+		
+	\section{Anhang}
+		\label{Anhang}
+			%TODO Messwerte-Tabelle/Diagramm mit referenz zu datasheet(besteht aus messungen, bisheriger mittelwert und fehlergenauigkeit) zu 2.3.2
 \end{document} 
