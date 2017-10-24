@@ -1,13 +1,14 @@
-\contentsline {section}{\numberline {1}Kurzfassung}{2}
-\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{2}
-\contentsline {subsection}{\numberline {2.1}Versuch 1: Leerlaufspannung}{2}
-\contentsline {subsubsection}{\numberline {2.1.1}Methoden}{2}
-\contentsline {subsubsection}{\numberline {2.1.2}Datenanalyse}{3}
-\contentsline {subsection}{\numberline {2.2}Versuch 2: L\IeC {\"a}ngenmessung}{3}
-\contentsline {subsubsection}{\numberline {2.2.1}Methoden}{3}
-\contentsline {subsubsection}{\numberline {2.2.2}Datenanalyse}{3}
-\contentsline {subsection}{\numberline {2.3}Versuch 3: Schiefe Ebene}{3}
-\contentsline {subsubsection}{\numberline {2.3.1}Methoden}{3}
-\contentsline {subsubsection}{\numberline {2.3.2}Datenanalyse}{4}
-\contentsline {subsubsection}{\numberline {2.3.3}Schlussfolgerung}{4}
-\contentsline {section}{\numberline {3}Diskussion}{4}
+\contentsline {section}{\numberline {1}Einleitung}{2}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{3}
+\contentsline {subsection}{\numberline {2.1}Versuch 1: Leerlaufspannung}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Vorwissen und Aufstellen einer Hypothese}{3}
+\contentsline {subsubsection}{\numberline {2.1.2}Messwerte, Ungenauigkeitsbetrachtung und Ergebnis}{3}
+\contentsline {subsection}{\numberline {2.2}Versuch 2: L\IeC {\"a}ngenmessung}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Sch\IeC {\"a}tzung}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Messung}{4}
+\contentsline {subsection}{\numberline {2.3}Versuch 3: Schiefe Ebene}{4}
+\contentsline {subsubsection}{\numberline {2.3.1}Hypothese}{4}
+\contentsline {subsubsection}{\numberline {2.3.2}Messung, Beobachtung und Messwerte}{4}
+\contentsline {subsubsection}{\numberline {2.3.3}Schlussfolgerung}{5}
+\contentsline {section}{\numberline {3}Diskussion}{5}
+\contentsline {section}{\numberline {4}Anhang}{6}
