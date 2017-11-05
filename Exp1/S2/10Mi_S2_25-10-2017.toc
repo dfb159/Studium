@@ -1,5 +1,4 @@
 \contentsline {section}{\numberline {1}Einleitung}{2}
-\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{3}
-\contentsline {subsection}{\numberline {2.1}Versuch}{3}
-\contentsline {section}{\numberline {3}Diskussion}{4}
-\contentsline {section}{\numberline {4}Anhang}{5}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{2}
+\contentsline {section}{\numberline {3}Diskussion}{2}
+\contentsline {section}{\numberline {4}Anhang}{2}
