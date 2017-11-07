@@ -3,3 +3,5 @@
 \contentsline {subsection}{\numberline {2.1}Versuchsaufbau}{2}
 \contentsline {subsection}{\numberline {2.2}Messung}{3}
 \contentsline {section}{\numberline {3}Diskussion}{4}
+\contentsline {subsection}{\numberline {3.1}Mathematisches Pendel}{4}
+\contentsline {subsection}{\numberline {3.2}Auswertung der Messergebnisse}{5}
