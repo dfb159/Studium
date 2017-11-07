@@ -58,17 +58,17 @@
 			
 			Für unsere Messung haben wir eine, an einem Faden befestigte, Metallkugel verwendet. Der Faden war dabei an einer Halterung angebracht und seine Länge ließ sich beliebig einstellen.
 			
-					\begin{figure}[ht]
-						\centering
-						\includegraphics[scale=0.4]{Pendel.png}		
-						\caption{Versuchsskizze}
-						\label{fig:pendel}
-					\end{figure}
+				\begin{figure}[ht]
+					\centering
+					\includegraphics[scale=0.4]{Pendel.png}		
+					\caption{Versuchsskizze}
+					\label{fig:pendel}
+				\end{figure}
 			
 			\newpage
 			 Die Kugel wurde am Punkt $x = a$ losgelassen und wir haben die Zeit gemessen, welche die Metallkugel benötigt hat, um eine Schwingung zu durchlaufen, also bis die Metallkugel wieder bei ca. $x = a$ angekommen war. 
 			
-			Bei diesem Versuch verwendeten wir einen Faden der Länge $L$, kleine Auslenkungswinkel $\varphi$ und eine Metallkugel mit einen Durchmesser von \SI{3}{cm} (bzw. einem Radius von \SI{1,5}{cm}). Die Ungenauigkeiten werden in (\ref{Diskussion} Diskussion) betrachtet.
+			Bei diesem Versuch verwendeten wir einen Faden der Länge $L$, kleine Auslenkungswinkel $\varphi$ und eine Metallkugel mit Masse $m$ und einem Durchmesser von \SI{3}{cm} (bzw. einem Radius von \SI{1,5}{cm}). Die Ungenauigkeiten werden in (\ref{Diskussion} Diskussion) betrachtet.
 			\vspace{0.25cm}
 		
 		\subsection{Messung}
@@ -103,6 +103,79 @@
 	\section{Diskussion}	
 		\label{Diskussion}		
 		
+		\subsection{Mathematisches Pendel}
+			
+			Wir betrachten für die Auswertung unserer Messungen das Modell des mathematischen Pendels unter folgenden Annahmen:
+			
+			\begin{enumerate}
+				\item Die gesamte Masse $m$ ist im Schwerpunkt vereinigt (Massepunkt).
+				\item Der Massepunkt m ist durch einen masselosen Faden oder alternativ durch eine masselose starre Verbindung der Länge $L$ mit dem Aufhängepunkt verbunden.
+				\item Die Bewegung erfolgt ohne Reibung.
+			\end{enumerate}
+			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[scale=0.4]{mathematischesPendel.png}		
+				\caption{mathematisches Pendel}
+				\label{fig:matpendel}
+			\end{figure}
+			
+			Auf den Massepunkt m wirkt die Schwerkraft $ \vec{G}$ bzw. $ \vec{F_\textsc{g}}$ (vgl. Abbildung \ref{fig:matpendel}) \\
+			
+			\begin{center}
+				{ $ \vec{F_\textsc{g}} = m\vec{g}$} 
+			\end{center}
+			
+			Nur die Tangentialkompenente $F_\varphi$ der angreifenden Kraft $ \vec{F_\textsc{g}}$ ist für die Bewegung des Massepunktes entlang des Kreisbogens verantwortlich.   	
+			  
+			$F_\varphi$ ist der Auslenkung $\varphi$ entgegengerichtet und wirkt  rücktreibend auf den Massepunkt:
+			
+			\begin{center}  
+				$F_\varphi = - m\vec{g} \sin\varphi.$ 
+			\end{center}
+			
+			Mit den Gleichungen 
+			\begin{center}
+				$a = L \ddot{\varphi}$ und $F = ma$ 
+			\end{center}
 		
+			ergibt sich die Bewegungsgleichung eines frei schwingenden Fadenpendels: 
+			\begin{center}
+				$\ddot{\varphi}+\left( \frac{g}{L}\right)  \sin \varphi = 0$	
+			\end{center}
+			
+			Diese nichtlineare Differentialgleichung zweiter Ordnung vereinfachen wir mit der Kleinwinkelnäherung
+			\begin{center}
+				$\sin \varphi \approx \varphi $	
+			\end{center} 
+			
+			Somit haben wir nun eine dem harmonischen Oszillator entsprechende DGL:
+			\begin{center}
+				$\ddot{\varphi}+\frac{g}{L} \varphi = 0$	
+			\end{center}
+			
+			Die Frequenz lässt sich hierbei einfach bestimmen: 
+			\begin{center}
+				$\omega =  \sqrt{\frac{g}{L}}$
+			\end{center}
+			
+			Damit ist die Periodendauer:
+			\begin{center}
+				$T =  2\pi \sqrt{\frac{L}{g}}$
+			\end{center} 
+		
+			Die Schwingungsdauer ist also unabhängig von der Masse und unsere Gravitationskonstante $g$ bestimmt sich wie folgt:
+			\begin{center}
+				$g = (\frac{2 \pi}{T})^2 L$
+			\end{center} 
+		
+		\subsection{Auswertung der Messergebnisse}
+		\label{Auswertung}
+		
+		
+		
+		\begin{thebibliography}{9}		
+			\item[Abbildung 2:] \url{http://people.physik.hu-berlin.de/~mitdank/dist/scriptenm/pendel-Dateien/image001.gif}			
+		\end{thebibliography}	
 			
 \end{document} 
