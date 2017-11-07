@@ -77,55 +77,36 @@
 		Für zwei Fadenlängen wurden viele Schwingungen gemessen und für vier weitere weniger.
 		Dadurch konnten zusätzliche Referenzwerte geliefert werden, welche ebenfalls gegen die Behauptung gehen.
 		
-	\section{Datenanalyse und Diskussion}
-		Die Ergebnisse der beiden Messungen mit vielen Messwerten bei konstanter Seillänge sind in Abb. \ref{fig:seilKonst} dargestellt.
-		Dabeifällt einem sofort ins Auge, dass Messung 2 eine kleinere Streuung aufweisst.
-				
-		\begin{figure}[ht]
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[scale=0.35]{VerteilungMessung1.pdf}
-			\end{subfigure}
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[scale=0.35]{VerteilungMessung2.pdf}
-			\end{subfigure}		
-			\caption{Messergebnisse bei konstanter Seillänge}
-			\label{fig:seilKonst}
-		\end{figure}
-			
-		
-	
 	\section{Durchführung}
 		\label{Durchführung}
 		
 		
 		\subsection{Messung}
 		\label{Messung}
-			Es folgen die durchgeführten Messungen für verschiedene Fadenlängen $L$: 
+			Es folgen durchschnittliche Zeiten für die Periodendauern, welche sich durch die durchgeführten Messungen für verschiedene Fadenlängen $L$ ergaben: 
 			\vspace{0.25cm} 
 			
 			\begin{description}
 				
 				\item[Fadenlänge 1:]($L = \SI{111,6}{cm}$)\\
 				Für die erste Fadenlänge haben wir 110 Schwingungsdauern in 10er Schritten gemessen. (D.h. jeweils die Periodendauer für zehn Schwingungen auf einmal) \\
-				Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{2.134182}{s}
+				Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{2.134}{s}
 				
 				\item[Fadenlänge 2:]($L = \SI{104,5}{cm}$)\\ 				 
-				Bei dieser und der folgenden Messung haben wir nur 20 Perioden, in 5er Schritten, gemessen. Hier betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{0}{s}
+				Bei dieser und der folgenden Messung haben wir nur 20 Perioden, in 5er Schritten, gemessen. Hier betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{2,060}{s}
 				
 				\item[Fadenlänge 3:]($L = \SI{86,9}{cm}$)\\ 			
-				Wie auch bei der vorherigen Messung wurden hier nur 20 Schwingungen betrachtet. Dabei ergab sich, für eine Pendelschwingung, die durchschnittliche Zeit: \SI{0}{s}		
+				Wie auch bei der vorherigen Messung wurden hier nur 20 Schwingungen betrachtet. Dabei ergab sich, für eine Pendelschwingung, die durchschnittliche Zeit: \SI{1,879}{s}		
 				
 				\item[Fadenlänge 4:]($L = \SI{65,8}{cm}$)\\ 				
-				Diese Messung und die Folgende betrachten wir 25 Perioden, ebenfalls in 5er Schritten. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
+				Diese Messung und die Folgende betrachten wir 25 Perioden, ebenfalls in 5er Schritten. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{1,876369}{s}
 				
 				\item[Fadenlänge 5:]($L = \SI{116,3}{cm}$)\\ 				
-				Hier erhalten wir für eine Pendelschwingung die durchschnittliche Zeit: \SI{0}{s}
+				Hier erhalten wir für eine Pendelschwingung die durchschnittliche Zeit: \SI{2,174}{s}
 				
 				\item[Fadenlänge 6:]($L = \SI{92,6}{cm}$)\\ 				
 				Da wir bei den letzten vier Messungen nicht viele Schwingungen betrachtet haben, haben wir für die sechste Fadenlänge noch einmal 100 Schwingungsdauern gemessen. Dabei haben wir eine Länge $L$ gewählt, die circa \SI{20}{cm} von der ersten abwich, um mehrere Werte für \glqq deutlich\grqq unterschiedliche Längen $L$ zu erhalten. 
-				Hierbei betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{0}{s}
+				Hierbei betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{1,936}{s}
 				
 			\end{description}
 		
@@ -135,17 +116,14 @@
 		\subsection{Mathematisches Pendel}
 		\label{pendel}
 		
-		
-		Die Bewegungsbahn der Kugel kann recht gut abgeschätzt werden %kleinere ungenauigkeiten
-		
-			Das Pendel wurde nur leicht ausgelenkt. %langsam und $\alpha$ ist klein.
-			
+			%%%%Die Bewegungsbahn der Kugel kann recht gut abgeschätzt werden %kleinere ungenauigkeiten Wir schätzen nicht, wir rechnen bzw. nähern
 			Wir betrachten für die Auswertung unserer Messungen das Modell des mathematischen Pendels unter folgenden Annahmen:
 			
 			\begin{enumerate}
 				\item Die gesamte Masse $m$ ist im Schwerpunkt vereinigt (Massepunkt).
 				\item Der Massepunkt m ist durch einen masselosen Faden oder alternativ durch eine masselose starre Verbindung der Länge $L$ mit dem Aufhängepunkt verbunden.
 				\item Die Bewegung erfolgt ohne Reibung.
+				\item Das Pendel wird nur leicht ausgelenkt %langsam und $\alpha$ ist klein.
 			\end{enumerate}
 			
 			\begin{figure}[ht]
@@ -164,7 +142,7 @@
 			
 			Nur die Tangentialkompenente $F_\varphi$ der angreifenden Kraft $ \vec{F_\textsc{g}}$ ist für die Bewegung des Massepunktes entlang des Kreisbogens verantwortlich.   	
 			  
-			$F_\varphi$ ist der Auslenkung $\varphi$ entgegengerichtet und wirkt  rücktreibend auf den Massepunkt:
+			$F_\varphi$ ist der Auslenkung $\varphi$ entgegen gerichtet und wirkt  rücktreibend auf den Massepunkt:
 			
 			\begin{center}  
 				$F_\varphi = - m\vec{g} \sin\varphi.$ 
@@ -205,10 +183,41 @@
 				$g = (\frac{2 \pi}{T})^2 L$
 			\end{center} 
 		
-		\subsection{Auswertung der Messergebnisse}
-		\label{Auswertung}
-		
-		
+		\subsection{Datenanalyse}
+		\label{Auswertung}	
+	
+			Die Ergebnisse der beiden genaueren Messungen sind in Abb. \ref{fig:seilKonst} dargestellt.
+			Hierbei beschreiben \glqq Messung 1/2\grqq {} die erste/zweite genauere Messung (Fadenlänge 1 bzw. 6).
+			Auffällig ist, dass die Streuung bei Messung 2 deutlich geringer war.
+			
+			Unsere Messwerte angewandt auf die obige Gleichung für $g$ ergaben unter Berücksichtigung der Messungenauigkeiten folgende Werte:
+			
+			\begin{table}
+				\label{Tab:WerteTabelle}
+				\centering
+				\begin{tabular}{l|S|S|S}
+					\hline
+					& {Messung 1} & {Messung 2} & {restliche Messungen (Mehrfachmessung)} \\ \hline
+					$g$ &  &  & \\ \hline %TODO
+				\end{tabular}
+				\caption{Ergebnisse der Messungen}
+			\end{table}
+			
+			Diese Werte deuten eindeutig darauf hin, dass die Gravitationskonstante nicht im Bereich von \SIrange{10,5}{11}{m/s^2} liegt, da alle Messwerte nahe dem Literaturwert liegen und die Streuung nicht bis \SI{10,5}{m/s^2} kommt.
+			So stellt sich die Frage, welche Faktoren Einfluss auf die Lichtschrankenmessung hatten, so dass sich Werte von $g$ in diesem Bereich ergaben. 
+							
+			\begin{figure}[ht]
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[scale=0.35]{VerteilungMessung1.pdf}
+				\end{subfigure}
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[scale=0.35]{VerteilungMessung2.pdf}
+				\end{subfigure}		
+				\caption{Messergebnisse bei konstanter Seillänge}
+				\label{fig:seilKonst}
+			\end{figure}
 		
 		\begin{thebibliography}{9}		
 			\item[Abbildung 2:] \url{http://people.physik.hu-berlin.de/~mitdank/dist/scriptenm/pendel-Dateien/image001.gif}			
