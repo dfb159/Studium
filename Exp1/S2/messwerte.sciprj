@@ -1,0 +1,159 @@
+SciDAVis 1.21.0 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+5022
+<table creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="Tabelle1" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="Periodendauer" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0594999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.8785000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.6355999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">2.1743999999999999e+00</row></column><column creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="kurzmessung" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.4689352030004796e+00</row><row type="TypeDouble" index="1" invalid="no">5.9075308854251398e+00</row><row type="TypeDouble" index="2" invalid="no">5.1545101656445098e+00</row><row type="TypeDouble" index="3" invalid="no">6.8194996838428699e+00</row></column><column creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Periodendauer/s von l = 1131mm]]></comment><input_filter><simple_filter creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.1530000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.1320000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">2.1410000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">2.1230000000000002e+00</row><row type="TypeDouble" index="4" invalid="no">2.1440000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">2.1309999999999998e+00</row><row type="TypeDouble" index="6" invalid="no">2.1339999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">2.1349999999999998e+00</row><row type="TypeDouble" index="8" invalid="no">2.1190000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">2.1429999999999998e+00</row><row type="TypeDouble" index="10" invalid="no">2.1160000000000001e+00</row></column><column creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.9390000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.9379999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">1.9339999999999999e+00</row><row type="TypeDouble" index="4" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="5" invalid="no">1.9410000000000001e+00</row><row type="TypeDouble" index="6" invalid="no">1.9370000000000001e+00</row><row type="TypeDouble" index="7" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="8" invalid="no">1.9440000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">1.9350000000000001e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width></table>
+geometry	14	64	806	382	
+
+</table>
+<multiLayer>
+Grafik1	1	1	07.11.2017 18:00:43
+geometry	27	407	514	438	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Verteilung Messung 2	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Periodendauer/s				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	dummy	Tabelle1_2	9	1	2	0	1	7	0	2	2	1	2	4	10	0	0	0.0025	1.92	1.95	2	0	0	29	1
+scale	0	0	4	1	5	0	0	0
+scale	1	0	4	1	8	5	0	0
+scale	2	-1	4	0	6	5	0	0
+scale	3	1.9	2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	07.11.2017 18:08:59
+geometry	565	410	514	438	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Verteilung Messung 1	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Periodendauer/s				
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	dummy	Tabelle1_1	9	1	1	0	1	7	0	0	0	1	1	4	10	0	0	0.01	2.1	2.2	2	0	0	29	1
+scale	0	0	5	1	6	0	0	0
+scale	1	0	5	1	8	5	0	0
+scale	2	-1	5	0	8	5	0	0
+scale	3	2.1	2.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<multiLayer>
+Grafik3	1	1	07.11.2017 18:39:58
+geometry	940	68	514	438	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Titel	#000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	X-Achsentitel	Y-Achsentitel			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_Periodendauer	Tabelle1_kurzmessung	1	0	0	0	1	7	1	0	0	0	0	14	1	2	0	0	3	1
+scale	0	0	7	0	5	5	0	0
+scale	1	0	7	0	8	5	0	0
+scale	2	0	2.2	0	7	5	0	0
+scale	3	0	2.2	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.0485651214128035	6.77198697068404	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Tabelle1_kurzmessung	</legend>
+</graph>
+</multiLayer>
+<log>
+</log>
