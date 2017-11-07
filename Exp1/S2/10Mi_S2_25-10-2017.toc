@@ -1,7 +1,8 @@
 \contentsline {section}{\numberline {1}Einleitung}{2}
-\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{2}
-\contentsline {subsection}{\numberline {2.1}Versuchsaufbau}{2}
-\contentsline {subsection}{\numberline {2.2}Messung}{3}
-\contentsline {section}{\numberline {3}Diskussion}{4}
-\contentsline {subsection}{\numberline {3.1}Mathematisches Pendel}{4}
-\contentsline {subsection}{\numberline {3.2}Auswertung der Messergebnisse}{5}
+\contentsline {section}{\numberline {2}Methoden}{2}
+\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{3}
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{3}
+\contentsline {subsection}{\numberline {3.2}Messung}{3}
+\contentsline {section}{\numberline {4}Diskussion}{4}
+\contentsline {subsection}{\numberline {4.1}Mathematisches Pendel}{4}
+\contentsline {subsection}{\numberline {4.2}Auswertung der Messergebnisse}{6}
