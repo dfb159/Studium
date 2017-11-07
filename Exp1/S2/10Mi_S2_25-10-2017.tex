@@ -99,14 +99,14 @@
 				Wie auch bei der vorherigen Messung wurden hier nur 20 Schwingungen betrachtet. Dabei ergab sich, für eine Pendelschwingung, die durchschnittliche Zeit: \SI{1,879}{s}		
 				
 				\item[Fadenlänge 4:]($L = \SI{65,8}{cm}$)\\ 				
-				Diese Messung und die Folgende betrachten wir 25 Perioden, ebenfalls in 5er Schritten. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{1,876369}{s}
+				Diese Messung und die Folgende betrachten wir 25 Perioden, ebenfalls in 5er Schritten. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{1,876}{s}
 				
 				\item[Fadenlänge 5:]($L = \SI{116,3}{cm}$)\\ 				
 				Hier erhalten wir für eine Pendelschwingung die durchschnittliche Zeit: \SI{2,174}{s}
 				
 				\item[Fadenlänge 6:]($L = \SI{92,6}{cm}$)\\ 				
-				Da wir bei den letzten vier Messungen nicht viele Schwingungen betrachtet haben, haben wir für die sechste Fadenlänge noch einmal 100 Schwingungsdauern gemessen. Dabei haben wir eine Länge $L$ gewählt, die circa \SI{20}{cm} von der ersten abwich, um mehrere Werte für \glqq deutlich\grqq unterschiedliche Längen $L$ zu erhalten. 
-				Hierbei betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{1,936}{s}
+				Da wir bei den letzten vier Messungen nicht viele Schwingungen betrachtet haben, haben wir für die sechste Fadenlänge noch einmal 100 Schwingungsdauern gemessen. Dabei haben wir eine Länge $L$ gewählt, die circa \SI{20}{cm} von der ersten abwich, um mehrere Werte für \glqq deutlich\grqq{} unterschiedliche Längen $L$ zu erhalten. 
+				Hierbei betrug die durchschnittliche Zeit für eine Pendelschwingung \SI{1,936}{s}.
 				
 			\end{description}
 		
@@ -132,79 +132,72 @@
 				\caption{mathematisches Pendel}
 				\label{fig:matpendel}
 			\end{figure}
-			
-			\setlength{\parindent}{0em}
-				Auf den Massepunkt m wirkt die Schwerkraft $ \vec{G}$ bzw. $ \vec{F_\textsc{g}}$ (vgl. Abbildung \ref{fig:matpendel}) \\
-			
+		
+		%	\setlength{\parindent}{0em}
+			Auf den Massepunkt m wirkt die Schwerkraft $ \vec{F_\textsc{g}}$ (vgl. Abbildung \ref{fig:matpendel})
 			\begin{center}
-				{ $ \vec{F_\textsc{g}} = m\vec{g}$} 
+				{ $ \vec{F_\textsc{g}} = m\vec{g}$}.
 			\end{center}
-			
 			Nur die Tangentialkompenente $F_\varphi$ der angreifenden Kraft $ \vec{F_\textsc{g}}$ ist für die Bewegung des Massepunktes entlang des Kreisbogens verantwortlich.   	
-			  
 			$F_\varphi$ ist der Auslenkung $\varphi$ entgegen gerichtet und wirkt  rücktreibend auf den Massepunkt:
-			
-			\begin{center}  
-				$F_\varphi = - m\vec{g} \sin\varphi.$ 
-			\end{center}
-			
+			\begin{equation*}  
+				F_\varphi = - m g \sin\varphi.
+			\end{equation*}
 			Mit den Gleichungen 
-			\begin{center}
-				$a = L \ddot{\varphi}$ und $F = ma$ 
-			\end{center}
-		
+			\begin{equation*}
+				a = L \ddot{\varphi} \text{\quad und \quad} F = ma
+			\end{equation*}
 			ergibt sich die Bewegungsgleichung eines frei schwingenden Fadenpendels: 
-			\begin{center}
-				$\ddot{\varphi}+\left( \frac{g}{L}\right)  \sin \varphi = 0$	
-			\end{center}
-			
+			\begin{equation*}
+				\ddot{\varphi}+\left( \frac{g}{L}\right)  \sin \varphi = 0.
+			\end{equation*}
 			Diese nichtlineare Differentialgleichung zweiter Ordnung vereinfachen wir mit der Kleinwinkelnäherung
-			\begin{center}
-				$\sin \varphi \approx \varphi $	
-			\end{center} 
-			
+			\begin{equation*}
+				\sin \varphi \approx \varphi
+			\end{equation*} 
 			Somit haben wir nun eine dem harmonischen Oszillator entsprechende DGL:
-			\begin{center}
-				$\ddot{\varphi}+\frac{g}{L} \varphi = 0$	
-			\end{center}
-			
+			\begin{equation*}
+				\ddot{\varphi}+\frac{g}{L} \varphi = 0	
+			\end{equation*}
 			Die Frequenz lässt sich hierbei einfach bestimmen: 
-			\begin{center}
-				$\omega =  \sqrt{\frac{g}{L}}$
-			\end{center}
-			
+			\begin{equation*}
+				\omega =  \sqrt{\frac{g}{L}}
+			\end{equation*}
 			Damit ist die Periodendauer:
-			\begin{center}
-				$T =  2\pi \sqrt{\frac{L}{g}}$
-			\end{center} 
-		
+			\begin{equation*}
+				T =  2\pi \sqrt{\frac{L}{g}}
+			\end{equation*} 
 			Die Schwingungsdauer ist also unabhängig von der Masse und unsere Gravitationskonstante $g$ bestimmt sich wie folgt:
-			\begin{center}
-				$g = (\frac{2 \pi}{T})^2 L$
-			\end{center} 
+			\begin{equation}
+				\label{eq:g}
+				g = \left(\frac{2 \pi}{T}\right)^2 L
+			\end{equation} 
 		
 		\subsection{Datenanalyse}
 		\label{Auswertung}	
 	
-			Die Ergebnisse der beiden genaueren Messungen sind in Abb. \ref{fig:seilKonst} dargestellt.
-			Hierbei beschreiben \glqq Messung 1/2\grqq {} die erste/zweite genauere Messung (Fadenlänge 1 bzw. 6).
-			Auffällig ist, dass die Streuung bei Messung 2 deutlich geringer war.
-			
-			Unsere Messwerte angewandt auf die obige Gleichung für $g$ ergaben unter Berücksichtigung der Messungenauigkeiten folgende Werte:
+			Unsere Messwerte angewandt auf die obige Gleichung für $g$ (\ref{eq:g}) ergaben unter Berücksichtigung der Messungenauigkeiten die Werte in Tab. \ref{tab:werteTabelle}.
+			Diese Werte deuten eindeutig darauf hin, dass die Gravitationskonstante nicht im Bereich von \SIrange{10,5}{11}{\meter\per\second\squared} liegt, da alle Messwerte nahe dem Literaturwert liegen und die Streuung nicht annähernd bis \SI{10,5}{\meter\per\second\squared} reicht.
+			Es stellt sich die Frage, welche Faktoren Einfluss auf die Lichtschrankenmessung hatten, so dass sich Werte von $g$ ergaben, die so stark vom Literaturwert entfernt liegen.
 			
 			\begin{table}
-				\label{Tab:WerteTabelle}
 				\centering
 				\begin{tabular}{l|S|S|S}
 					\hline
-					& {Messung 1} & {Messung 2} & {restliche Messungen (Mehrfachmessung)} \\ \hline
-					$g$ &  &  & \\ \hline %TODO
+					& {Messung 1} & {Messung 2} & {Mehrfachmessung} \\
+					\hline
+					$g$ & \SI{9,807 +- 0,190}{\meter\per\second\squared}
+					& \SI{9,907 +- 0,021}{\meter\per\second\squared}
+					& \SI{9,720 +- 0,102}{\meter\per\second\squared}\\
+					 \hline
 				\end{tabular}
 				\caption{Ergebnisse der Messungen}
+				\label{tab:werteTabelle}
 			\end{table}
 			
-			Diese Werte deuten eindeutig darauf hin, dass die Gravitationskonstante nicht im Bereich von \SIrange{10,5}{11}{m/s^2} liegt, da alle Messwerte nahe dem Literaturwert liegen und die Streuung nicht bis \SI{10,5}{m/s^2} kommt.
-			So stellt sich die Frage, welche Faktoren Einfluss auf die Lichtschrankenmessung hatten, so dass sich Werte von $g$ in diesem Bereich ergaben. 
+			Die Verteilungen der beiden genaueren Messungen sind in Abb. \ref{fig:seilKonst} dargestellt.
+			Hierbei beschreiben \glqq Messung 1/2\grqq {} die erste/zweite genauere Messung (Fadenlänge 1 bzw. 6).
+			Auffällig ist, dass die Streuung bei Messung 2 deutlich geringer war.
 							
 			\begin{figure}[ht]
 				\begin{subfigure}{0.5\textwidth}
@@ -218,6 +211,48 @@
 				\caption{Messergebnisse bei konstanter Seillänge}
 				\label{fig:seilKonst}
 			\end{figure}
+		
+			Die Unsicherheit berechnet sich durch die kombinierte Standardunsicherheit $u(g)$ mit
+			\begin{equation*}
+				u(g) = \sqrt{
+				\left( \frac{\partial f}{\partial T} u(T) \right)^2 +
+				\left( \frac{\partial f}{\partial L} u(L) \right)^2
+				}
+				= g \sqrt{\left(\frac{u(l)}{l}\right)^2 + \left(2\frac{u(T)}{T}\right)^2}.
+			\end{equation*}
+			Mit $T$ und $L$ für die jeweilige Messung (siehe Tab. \ref{tab:unsicherheiten}) ergeben sich die Werte in Tab. \ref{tab:werteTabelle}, diese stimmen in etwa mit den Werten aus dem Vortrag überein.
+			
+			\begin{table}
+			\centering
+			\begin{tabular}{S|S|S||S}
+				{Digitale Stopuhr} & {Reaktionszeit} & {Zeitlich} & {Maßband}\\
+				\hline
+				\SI{0,002887}{\second} & \SI{0,02041}{\second} & \SI{0,02062}{\second} & \SI{0,0002041}{\second}
+			\end{tabular}
+			\caption{Unsicherheiten der Messinstrumente}
+			\label{tab:unsicherheiten}
+			\end{table}
+		
+			Die Abb. \ref{fig:multi} stellt die linearisierte Funktion $T^2 = \frac{4 \pi^2}{g} L$ (Gl. (\ref{eq:g}) nach $T^2$ umgestellt) dar.
+			Dabei sind die Mittelwerte für Periodendauer und Seillänge der Messungen unter Variation der Länge direkt gegeneinander aufgetragen.
+			Es ergibt sich eine Steigung $m = \frac{4 \pi^2}{g}$ und somit folgt
+			\begin{equation}
+				g = \frac{4 \pi^2}{m} \approx \SI{9,720}{\meter\per\second\squared}.
+			\end{equation}
+			
+			\begin{figure}
+				\centering
+				\includegraphics[scale=0.6]{SteigungMultimessung.pdf}
+				\caption{Datenpunkte der Multimessung mit Ausgleichsgerade}
+				\label{fig:multi}
+			\end{figure}
+		
+			Analog zur Unsicherheit bei fester Seillänge sei $u(g)$ beschrieben durch
+			\begin{equation*}
+				u(g) = 4\pi^2 \frac{u(m)}{m^2}.
+			\end{equation*}
+		
+		\newpage
 		
 		\begin{thebibliography}{9}		
 			\item[Abbildung 2:] \url{http://people.physik.hu-berlin.de/~mitdank/dist/scriptenm/pendel-Dateien/image001.gif}			
