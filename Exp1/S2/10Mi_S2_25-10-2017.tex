@@ -9,6 +9,7 @@
 \usepackage{siunitx}
 \usepackage{amsmath}			% für equation*
 \usepackage{subcaption}
+\usepackage{wrapfig}
 
 \begin{document}
 	\setlength{\parindent}{0em} 
@@ -52,41 +53,56 @@
 	\section{Durchführung}
 		\label{Durchführung}
 		
-		Für unsere Messung haben wir eine an einem Faden befestigte Metallkugel verwendet, wobei der Faden selber an einer Halterung befestigt war und seine Länge sich beliebig einstellen ließ.
-		Die Metallkugel besaß einen Durchmesser von \SI{3}{cm} (bzw. einen Radius von \SI{1,5}{cm}).
+		\subsection{Versuchsaufbau}
+		\label{Versuchsaufbau}
+			
+			Für unsere Messung haben wir eine, an einem Faden befestigte, Metallkugel verwendet. Der Faden war dabei an einer Halterung angebracht und seine Länge ließ sich beliebig einstellen.
+			
+					\begin{figure}[ht]
+						\centering
+						\includegraphics[scale=0.4]{Pendel.png}		
+						\caption{Versuchsskizze}
+						\label{fig:pendel}
+					\end{figure}
+			
+			\newpage
+			 Die Kugel wurde am Punkt $x = a$ losgelassen und wir haben die Zeit gemessen, welche die Metallkugel benötigt hat, um eine Schwingung zu durchlaufen, also bis die Metallkugel wieder bei ca. $x = a$ angekommen war. 
+			
+			Bei diesem Versuch verwendeten wir einen Faden der Länge $L$, kleine Auslenkungswinkel $\varphi$ und eine Metallkugel mit einen Durchmesser von \SI{3}{cm} (bzw. einem Radius von \SI{1,5}{cm}). Die Ungenauigkeiten werden in (\ref{Diskussion} Diskussion) betrachtet.
+			\vspace{0.25cm}
 		
-		\begin{description}
-			\item[Seillänge 1:](\SI{111,6}{cm})\\ 
+		\subsection{Messung}
+		\label{Messung}
+			Es folgen die durchgeführten Messungen für verschiedene Fadenlängen $L$: 
+			\vspace{0.25cm} 
 			
-			Für die erste Seillänge haben wir elf mal zehn ganze Schwingungsdauern gemessen, insgesamt also 110 Schwingungen. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{2.134182}{s}
-			
-			\item[Seillänge 2:](\SI{104,5}{cm})\\ 
-			 
-			Bei dieser und der folgenden Messung haben wir nur 20 Perioden (vier mal fünf Schwingungen) gemessen. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
-			
-			\item[Seillänge 3:](\SI{86,9}{cm})\\ 
-			
-			Wie auch bei der vorherigen Messung wurden hier nur 20 Schwingungen betrachtet. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}		
-			
-			\item[Seillänge 4:](\SI{65,8}{cm})\\ 
-			
-			Diese und nächste Messung betrachten wir 25 Perioden ($5*5$Schwingungen). Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
-			
-			\item[Seillänge 5:](\SI{116,3}{cm})\\ 
-			
-			Auch hier wurden nur 25 Schwingungsdauern gemessen. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
-			
-			\item[Seillänge 6:](\SI{92,6}{cm})\\ 
-			
-			Da wir bei den letzten vier Fadenlängen nicht sonderlich viele Schwingungen betrachtet haben, haben wir für die sechste Fadenlänge noch einmal 100 Schwingungsdauern gemessen (zehn mal zehn Schwingungen). 
-			Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
-			
-		\end{description}
+			\begin{description}
+				
+				\item[Fadenlänge 1:]($L = \SI{111,6}{cm}$)\\ 				
+				Für die erste Fadenlänge haben wir 110 Schwingungsdauern in 10er Schritten gemessen. (D.h. jeweils die Periodendauer für zehn Schwingungen auf einmal) \\
+				Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{2.134182}{s}
+				
+				\item[Fadenlänge 2:]($L = \SI{104,5}{cm}$)\\ 				 
+				Bei dieser und der folgenden Messung haben wir nur 20 Perioden, in 5er Schritten, gemessen. Hier betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{0}{s}
+				
+				\item[Fadenlänge 3:]($L = \SI{86,9}{cm}$)\\ 			
+				Wie auch bei der vorherigen Messung wurden hier nur 20 Schwingungen betrachtet. Dabei ergab sich, für eine Pendelschwingung, die durchschnittliche Zeit: \SI{0}{s}		
+				
+				\item[Fadenlänge 4:]($L = \SI{65,8}{cm}$)\\ 				
+				Diese Messung und die Folgende betrachten wir 25 Perioden, ebenfalls in 5er Schritten. Die durchschnittliche Zeit für eine Pendelschwingung betrug hierbei: \SI{0}{s}
+				
+				\item[Fadenlänge 5:]($L = \SI{116,3}{cm}$)\\ 				
+				Hier erhalten wir für eine Pendelschwingung die durchschnittliche Zeit: \SI{0}{s}
+				
+				\item[Fadenlänge 6:]($L = \SI{92,6}{cm}$)\\ 				
+				Da wir bei den letzten vier Messungen nicht viele Schwingungen betrachtet haben, haben wir für die sechste Fadenlänge noch einmal 100 Schwingungsdauern gemessen. Dabei haben wir eine Länge $L$ gewählt, die circa \SI{20}{cm} von der ersten abwich, um mehrere Werte für \glqq deutlich\grqq unterschiedliche Längen $L$ zu erhalten. 
+				Hierbei betrug die durchschnittliche Zeit für eine Pendelschwingung: \SI{0}{s}
+				
+			\end{description}
 		
 	\section{Diskussion}	
 		\label{Diskussion}		
 		
-	\section{Anhang}
-		\label{Anhang}
-	
+		
+			
 \end{document} 

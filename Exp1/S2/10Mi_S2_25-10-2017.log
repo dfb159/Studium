@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  6 NOV 2017 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  7 NOV 2017 16:31
 entering extended mode
 **./10Mi_S2_25-10-2017.tex
 (10Mi_S2_25-10-2017.tex
@@ -832,38 +832,46 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@subfigure=\count273
 \c@subtable=\count274
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen167
+\WF@size=\dimen168
+\c@WF@wrappedlines=\count275
+\WF@box=\box51
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
 (10Mi_S2_25-10-2017.aux)
 \openout1 = `10Mi_S2_25-10-2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 14.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
-\scratchdimen=\dimen167
-\scratchbox=\box51
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count278
-\MPscratchDim=\dimen168
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count276
+\scratchdimen=\dimen169
+\scratchbox=\box52
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen170
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks25
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -996,44 +1004,45 @@ Dictionary: translator-basic-dictionary, Language: German
 File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count281
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
+\c__siunitx_mathsf_int=\count282
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 13.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 13.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 13.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 13.
+(Font)              <10.95> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 13.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 13.
+(Font)              <6> on input line 14.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 14.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count282
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 13.
+\c__siunitx_mathtt_int=\count283
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 14.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1045,70 +1054,37 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout3 = `10Mi_S2_25-10-2017.toc'.
 
  [1]
-Underfull \hbox (badness 10000) in paragraph at lines 44--51
+Underfull \hbox (badness 10000) in paragraph at lines 45--52
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Overfull \hbox (22.06346pt too wide) in paragraph at lines 73--74
-[]\T1/lmr/m/n/10.95 Diese und nächs-te Mes-sung be-trach-ten wir 25 Pe-ri-oden 
-($\OT1/lmr/m/n/10.95 5 \OMS/lmsy/m/n/10.95  \OT1/lmr/m/n/10.95 5$\T1/lmr/m/n/1
-0.95 Schwingungen).
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-[3] (10Mi_S2_25-10-2017.aux) ) 
+<Pendel.png, id=14, 450.18187pt x 657.95813pt>
+File: Pendel.png Graphic file (type png)
+ <use Pendel.png>
+Package pdftex.def Info: Pendel.png used on input line 63.
+(pdftex.def)             Requested size: 180.06955pt x 263.17859pt.
+ [2 <./Pendel.png>] [3] [4] (10Mi_S2_25-10-2017.aux) ) 
 Here is how much of TeX's memory you used:
- 14704 strings out of 493333
- 295675 string characters out of 3139197
- 313362 words of memory out of 3000000
- 18100 multiletter control sequences out of 15000+200000
- 593229 words of font info for 57 fonts, out of 3000000 for 9000
+ 14773 strings out of 493333
+ 296584 string characters out of 3139197
+ 315608 words of memory out of 3000000
+ 18163 multiletter control sequences out of 15000+200000
+ 596227 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,40p,10410b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Prog
-ram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 
-2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 10Mi_S2_25-10-2017.pdf (4 pages, 195983 bytes).
+ 42i,10n,40p,10410b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 
+2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr8.pfb>
+Output written on 10Mi_S2_25-10-2017.pdf (5 pages, 221586 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
