@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  8 NOV 2017 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  8 NOV 2017 01:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,15 +1086,15 @@ Package pdftex.def Info: mathematischesPendel.png  used on input line 131. on i
 nput line 131.
 Package pdftex.def Info: Requested size: 162.00237pt x 121.35121pt on input lin
 e 131.
- [4 <./mathematischesPendel.png>] [5]
-<VerteilungMessung1.pdf, id=42, pagebox=cropbox, 501.875pt x 381.425pt>
+ [4 <./mathematischesPendel.png>]
+<VerteilungMessung1.pdf, id=36, pagebox=cropbox, 501.875pt x 381.425pt>
 File: VerteilungMessung1.pdf Graphic file (type pdf)
 <use VerteilungMessung1.pdf>
 Package pdftex.def Info: VerteilungMessung1.pdf  used on input line 205. on inp
 ut line 205.
 Package pdftex.def Info: Requested size: 175.65887pt x 133.50075pt on input lin
 e 205.
-<VerteilungMessung2.pdf, id=43, pagebox=cropbox, 501.875pt x 381.425pt>
+<VerteilungMessung2.pdf, id=37, pagebox=cropbox, 501.875pt x 381.425pt>
 File: VerteilungMessung2.pdf Graphic file (type pdf)
 <use VerteilungMessung2.pdf>
 Package pdftex.def Info: VerteilungMessung2.pdf  used on input line 209. on inp
@@ -1106,26 +1106,33 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 203--211
 []$[]$ $[]$ 
  []
 
+[5]
 <SteigungMultimessung.pdf, id=44, pagebox=cropbox, 501.875pt x 381.425pt>
 File: SteigungMultimessung.pdf Graphic file (type pdf)
 <use SteigungMultimessung.pdf>
-Package pdftex.def Info: SteigungMultimessung.pdf  used on input line 245. on i
-nput line 245.
+Package pdftex.def Info: SteigungMultimessung.pdf  used on input line 247. on i
+nput line 247.
 Package pdftex.def Info: Requested size: 301.12732pt x 228.85675pt on input lin
-e 245.
-[6 <./VerteilungMessung1.pdf> <./VerteilungMessung2.pdf>] [7 <./SteigungMultime
-ssung.pdf>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 258.
+e 247.
+ [6 <./VerteilungMessung1.pdf> <./VerteilungMessung2.pdf>]
+Overfull \hbox (0.36108pt too wide) in paragraph at lines 267--270
+\T1/lmr/m/n/10.95 Nach ein-ge-hen-den Un-ter-su-chun-gen zur Gra-vi-ta-ti-ons-k
+on-stan-te durch ein Pen-
+ []
 
- (c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
+[7 <./SteigungMultimessung.pdf>] [8]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 277.
+
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []$\T1/lmtt/m/n/10.95 http : / / people . physik . hu-[]berlin . de / ~mitdank 
 / dist /
  []
 
-[8] (./10Mi_S2_25-10-2017.aux) ) 
+[9] (./10Mi_S2_25-10-2017.aux) ) 
 Here is how much of TeX's memory you used:
  14812 strings out of 492990
  299473 string characters out of 6129797
@@ -1154,10 +1161,10 @@ f-dist/fonts/type1/public/lm/lmr6.pfb><c:/Program Files/texlive/2017/texmf-dist
 /public/lm/lmsy10.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmsy8.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/l
 m/lmtt10.pfb>
-Output written on 10Mi_S2_25-10-2017.pdf (9 pages, 342068 bytes).
+Output written on 10Mi_S2_25-10-2017.pdf (10 pages, 347842 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

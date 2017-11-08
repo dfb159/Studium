@@ -5,3 +5,5 @@
 \contentsline {section}{\numberline {4}Diskussion}{4}
 \contentsline {subsection}{\numberline {4.1}Mathematisches Pendel}{4}
 \contentsline {subsection}{\numberline {4.2}Datenanalyse}{5}
+\contentsline {section}{\numberline {5}Zusammenfassung}{7}
+\contentsline {section}{\numberline {6}Schlussfolgerung}{7}
