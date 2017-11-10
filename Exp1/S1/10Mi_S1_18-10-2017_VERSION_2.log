@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  10 NOV 2017 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  10 NOV 2017 17:31
 entering extended mode
-**./10Mi_E4_8-11-2017.tex
-(10Mi_E4_8-11-2017.tex
+**./10Mi_S1_18-10-2017_VERSION_2.tex
+(10Mi_S1_18-10-2017_VERSION_2.tex
 LaTeX2e <2017/01/01> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -832,46 +832,39 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@subfigure=\count273
 \c@subtable=\count274
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen167
-\WF@size=\dimen168
-\c@WF@wrappedlines=\count275
-\WF@box=\box51
-\WF@everypar=\toks23
-Package: wrapfig 2003/01/31  v 3.6
-)
-(10Mi_E4_8-11-2017.aux)
-\openout1 = `10Mi_E4_8-11-2017.aux'.
+(10Mi_S1_18-10-2017_VERSION_2.aux)
+\openout1 = `10Mi_S1_18-10-2017_VERSION_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 14.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen169
-\scratchbox=\box52
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen170
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count275
+\scratchdimen=\dimen167
+\scratchbox=\box51
+\nofMPsegments=\count276
+\nofMParguments=\count277
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count278
+\MPscratchDim=\dimen168
+\MPnumerator=\count279
+\makeMPintoPDFobject=\count280
+\everyMPtoPDFconversion=\toks24
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1004,85 +997,153 @@ Dictionary: translator-basic-dictionary, Language: German
 File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count282
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
+\c__siunitx_mathsf_int=\count281
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 13.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 13.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 14.
+(Font)              <10.95> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 14.
+(Font)              <6> on input line 13.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 13.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count283
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 14.
+\c__siunitx_mathtt_int=\count282
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 13.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (10Mi_E4_8-11-2017.toc)
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (10Mi_S1_18-10-2017_VERSI
+ON_2.toc)
 \tf@toc=\write3
-\openout3 = `10Mi_E4_8-11-2017.toc'.
+\openout3 = `10Mi_S1_18-10-2017_VERSION_2.toc'.
 
- [1] [2]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 60.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-[]$\T1/lmtt/m/n/10.95 http : / / people . physik . hu-[]berlin . de / ~mitdank 
-/ dist /
+ [1]
+[2]
+Overfull \hbox (7.51653pt too wide) in paragraph at lines 63--64
+[]\T1/lmr/m/n/10.95 Das, am Bo-den der Bat-te-rie, ge-ge-be-ne Min-dest-halt-ba
+r-keits-da-tum (2020)
  []
 
-[3] (10Mi_E4_8-11-2017.aux) ) 
+<Spannungsschaetzung.pdf, id=17, 526.96875pt x 319.1925pt>
+File: Spannungsschaetzung.pdf Graphic file (type pdf)
+
+<use Spannungsschaetzung.pdf>
+Package pdftex.def Info: Spannungsschaetzung.pdf used on input line 68.
+(pdftex.def)             Requested size: 421.57556pt x 255.35434pt.
+
+Overfull \hbox (61.57556pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
+<Spannungsmessung.pdf, id=18, 528.97626pt x 320.19624pt>
+File: Spannungsmessung.pdf Graphic file (type pdf)
+
+<use Spannungsmessung.pdf>
+Package pdftex.def Info: Spannungsmessung.pdf used on input line 74.
+(pdftex.def)             Requested size: 423.18158pt x 256.15733pt.
+
+Overfull \hbox (63.18158pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+[3 <./Spannungsschaetzung.pdf>] [4 <./Spannungsmessung.pdf>]
+<Laengenschaetzung.pdf, id=61, 530.98375pt x 318.18875pt>
+File: Laengenschaetzung.pdf Graphic file (type pdf)
+
+<use Laengenschaetzung.pdf>
+Package pdftex.def Info: Laengenschaetzung.pdf used on input line 111.
+(pdftex.def)             Requested size: 424.78757pt x 254.55133pt.
+
+Overfull \hbox (64.78757pt too wide) in paragraph at lines 111--112
+ [][] 
+ []
+
+<Laengenmessung.pdf, id=62, 527.9725pt x 320.19624pt>
+File: Laengenmessung.pdf Graphic file (type pdf)
+ <use Laengenmessung.pdf>
+Package pdftex.def Info: Laengenmessung.pdf used on input line 117.
+(pdftex.def)             Requested size: 422.37857pt x 256.15733pt.
+
+Overfull \hbox (62.37857pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 126.
+[5 <./Laengenschaetzung.pdf>] [6 <./Laengenmessung.pdf>]
+<Histogramm.pdf, id=105, 544.0325pt x 375.4025pt>
+File: Histogramm.pdf Graphic file (type pdf)
+ <use Histogramm.pdf>
+Package pdftex.def Info: Histogramm.pdf used on input line 159.
+(pdftex.def)             Requested size: 380.82016pt x 262.77995pt.
+
+Overfull \hbox (20.82016pt too wide) in paragraph at lines 159--160
+ [][] 
+ []
+
+<Mittelwerte.pdf, id=106, 501.875pt x 381.425pt>
+File: Mittelwerte.pdf Graphic file (type pdf)
+ <use Mittelwerte.pdf>
+Package pdftex.def Info: Mittelwerte.pdf used on input line 165.
+(pdftex.def)             Requested size: 351.31009pt x 266.99567pt.
+ [7 <./Histogramm.pdf>] [8 <./Mittelwerte.pdf>] [9] [10]
+(10Mi_S1_18-10-2017_VERSION_2.aux) ) 
 Here is how much of TeX's memory you used:
- 14777 strings out of 493333
- 296737 string characters out of 3139197
- 311553 words of memory out of 3000000
- 18170 multiletter control sequences out of 15000+200000
- 583952 words of font info for 52 fonts, out of 3000000 for 9000
+ 14772 strings out of 493333
+ 296885 string characters out of 3139197
+ 314596 words of memory out of 3000000
+ 18155 multiletter control sequences out of 15000+200000
+ 610131 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,4n,40p,10409b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on 10Mi_E4_8-11-2017.pdf (4 pages, 183233 bytes).
+ 42i,12n,40p,10420b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
+s/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Pr
+ogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_S1_18-10-2017_VERSION_2.pdf (11 pages, 378491 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 209 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
