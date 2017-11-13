@@ -1,0 +1,279 @@
+SciDAVis 1.21.0 project file
+<scripting-lang>	muParser
+<windows>	9
+<table>
+4644
+<table creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="DiodeWerte" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Diode]]></comment><input_filter><simple_filter creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">1.8500000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">2.7500000000000002e-01</row><row type="TypeDouble" index="4" invalid="no">4.6100000000000002e-01</row><row type="TypeDouble" index="5" invalid="no">5.3200000000000003e-01</row><row type="TypeDouble" index="6" invalid="no">5.6799999999999995e-01</row><row type="TypeDouble" index="7" invalid="no">5.8999999999999997e-01</row><row type="TypeDouble" index="8" invalid="no">6.0999999999999999e-01</row><row type="TypeDouble" index="9" invalid="no">6.3000000000000000e-01</row><row type="TypeDouble" index="10" invalid="no">6.5500000000000003e-01</row><row type="TypeDouble" index="11" invalid="no">7.0899999999999996e-01</row><row type="TypeDouble" index="12" invalid="no">6.6400000000000003e-01</row><row type="TypeDouble" index="13" invalid="no">6.0399999999999998e-01</row><row type="TypeDouble" index="14" invalid="no">6.1599999999999999e-01</row><row type="TypeDouble" index="15" invalid="no">6.2500000000000000e-01</row><row type="TypeDouble" index="16" invalid="no">6.3700000000000001e-01</row><row type="TypeDouble" index="17" invalid="no">6.6700000000000004e-01</row><row type="TypeDouble" index="18" invalid="no">6.7300000000000004e-01</row><row type="TypeDouble" index="19" invalid="no">6.7600000000000005e-01</row><row type="TypeDouble" index="20" invalid="no">6.9399999999999995e-01</row></column><column creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Diode]]></comment><input_filter><simple_filter creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">9.0000000000000002e-01</row><row type="TypeDouble" index="7" invalid="no">1.6000000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">2.7000000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">4.7000000000000002e+00</row><row type="TypeDouble" index="10" invalid="no">9.0999999999999996e+00</row><row type="TypeDouble" index="11" invalid="no">4.0899999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">1.2000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="14" invalid="no">3.1000000000000001e+00</row><row type="TypeDouble" index="15" invalid="no">3.8999999999999999e+00</row><row type="TypeDouble" index="16" invalid="no">5.4000000000000004e+00</row><row type="TypeDouble" index="17" invalid="no">1.2600000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">1.4800000000000001e+01</row><row type="TypeDouble" index="19" invalid="no">1.6399999999999999e+01</row><row type="TypeDouble" index="20" invalid="no">2.6199999999999999e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	1209	67	573	382	minimized	
+
+</table>
+<table>
+10732
+<table creation_time="2017-13-11 19:06:15:728" caption_spec="%n%C{ - }%c" name="ZenerdiodeWerte" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:06:15:728" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Zenerdiode Sperrrichtung\n]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:06:15:728" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:06:15:728" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.7500000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">2.8639999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">3.1549999999999998e+00</row><row type="TypeDouble" index="4" invalid="no">3.2690000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">3.4079999999999999e+00</row><row type="TypeDouble" index="6" invalid="no">3.6760000000000002e+00</row><row type="TypeDouble" index="7" invalid="no">3.7780000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">3.8799999999999999e+00</row><row type="TypeDouble" index="9" invalid="no">3.9910000000000001e+00</row><row type="TypeDouble" index="10" invalid="no">4.0810000000000004e+00</row><row type="TypeDouble" index="11" invalid="no">4.1589999999999998e+00</row><row type="TypeDouble" index="12" invalid="no">4.2770000000000001e+00</row><row type="TypeDouble" index="13" invalid="no">4.3879999999999999e+00</row><row type="TypeDouble" index="14" invalid="no">4.5309999999999997e+00</row><row type="TypeDouble" index="15" invalid="no">4.6059999999999999e+00</row><row type="TypeDouble" index="16" invalid="no">4.6449999999999996e+00</row><row type="TypeDouble" index="17" invalid="no">4.6790000000000003e+00</row><row type="TypeDouble" index="18" invalid="no">4.7080000000000002e+00</row><row type="TypeDouble" index="19" invalid="no">4.7389999999999999e+00</row><row type="TypeDouble" index="20" invalid="no">4.7709999999999999e+00</row><row type="TypeDouble" index="21" invalid="no">4.7809999999999997e+00</row></column><column creation_time="2017-13-11 19:06:15:729" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Zenerdiode Sperrrichtung\n]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:06:15:729" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:06:15:729" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">1.0000000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="4" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="5" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="6" invalid="no">1.0000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">1.3000000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">2.5000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">3.2000000000000002e+00</row><row type="TypeDouble" index="11" invalid="no">4.0999999999999996e+00</row><row type="TypeDouble" index="12" invalid="no">5.7000000000000002e+00</row><row type="TypeDouble" index="13" invalid="no">8.0000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">1.2400000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">1.5900000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">1.8199999999999999e+01</row><row type="TypeDouble" index="17" invalid="no">2.0399999999999999e+01</row><row type="TypeDouble" index="18" invalid="no">2.2699999999999999e+01</row><row type="TypeDouble" index="19" invalid="no">2.5300000000000001e+01</row><row type="TypeDouble" index="20" invalid="no">2.8600000000000001e+01</row><row type="TypeDouble" index="21" invalid="no">2.9699999999999999e+01</row></column><column creation_time="2017-13-11 19:16:56:252" caption_spec="%n%C{ - }%c" name="U 1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Zenerdiode Durchlassrichtung]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:16:56:252" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:16:56:252" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">5.3400000000000003e-01</row><row type="TypeDouble" index="2" invalid="no">6.0799999999999998e-01</row><row type="TypeDouble" index="3" invalid="no">6.3500000000000001e-01</row><row type="TypeDouble" index="4" invalid="no">6.5400000000000003e-01</row><row type="TypeDouble" index="5" invalid="no">6.6400000000000003e-01</row><row type="TypeDouble" index="6" invalid="no">6.7000000000000004e-01</row><row type="TypeDouble" index="7" invalid="no">6.7500000000000004e-01</row><row type="TypeDouble" index="8" invalid="no">6.8200000000000005e-01</row><row type="TypeDouble" index="9" invalid="no">6.8500000000000005e-01</row><row type="TypeDouble" index="10" invalid="no">6.8899999999999995e-01</row><row type="TypeDouble" index="11" invalid="no">6.9299999999999995e-01</row><row type="TypeDouble" index="12" invalid="no">6.9599999999999995e-01</row><row type="TypeDouble" index="13" invalid="no">6.9799999999999995e-01</row><row type="TypeDouble" index="14" invalid="no">7.0099999999999996e-01</row><row type="TypeDouble" index="15" invalid="no">7.0299999999999996e-01</row><row type="TypeDouble" index="16" invalid="no">7.0499999999999996e-01</row><row type="TypeDouble" index="17" invalid="no">7.0599999999999996e-01</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2017-13-11 19:17:55:620" caption_spec="%n%C{ - }%c" name="I 2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Zenerdiode Durchlassrichtung]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:17:55:620" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:17:55:620" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">8.0000000000000004e-01</row><row type="TypeDouble" index="3" invalid="no">2.2999999999999998e+00</row><row type="TypeDouble" index="4" invalid="no">4.5999999999999996e+00</row><row type="TypeDouble" index="5" invalid="no">6.7000000000000002e+00</row><row type="TypeDouble" index="6" invalid="no">8.4000000000000004e+00</row><row type="TypeDouble" index="7" invalid="no">1.0199999999999999e+01</row><row type="TypeDouble" index="8" invalid="no">1.3300000000000001e+01</row><row type="TypeDouble" index="9" invalid="no">1.5000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">1.7600000000000001e+01</row><row type="TypeDouble" index="11" invalid="no">2.0399999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">2.2899999999999999e+01</row><row type="TypeDouble" index="13" invalid="no">2.5399999999999999e+01</row><row type="TypeDouble" index="14" invalid="no">2.8300000000000001e+01</row><row type="TypeDouble" index="15" invalid="no">3.1500000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">3.4299999999999997e+01</row><row type="TypeDouble" index="17" invalid="no">3.7000000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width></table>
+geometry	1063	31	693	382	minimized	
+
+</table>
+<table>
+5257
+<table creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="GluehlampeWerte" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glühlampe]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.7999999999999999e-02</row><row type="TypeDouble" index="2" invalid="no">6.6000000000000003e-02</row><row type="TypeDouble" index="3" invalid="no">2.7600000000000002e-01</row><row type="TypeDouble" index="4" invalid="no">5.5800000000000005e-01</row><row type="TypeDouble" index="5" invalid="no">9.8799999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">3.2700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">1.2700000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">1.5269999999999999e+00</row><row type="TypeDouble" index="9" invalid="no">2.1040000000000001e+00</row><row type="TypeDouble" index="10" invalid="no">2.5230000000000001e+00</row><row type="TypeDouble" index="11" invalid="no">2.6770000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">2.8190000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">2.9880000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">3.1400000000000001e+00</row><row type="TypeDouble" index="15" invalid="no">3.3940000000000001e+00</row><row type="TypeDouble" index="16" invalid="no">3.6720000000000002e+00</row><row type="TypeDouble" index="17" invalid="no">3.7709999999999999e+00</row><row type="TypeDouble" index="18" invalid="no">3.9510000000000001e+00</row><row type="TypeDouble" index="19" invalid="no">4.5850000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">4.8510000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">5.5179999999999998e+00</row><row type="TypeDouble" index="22" invalid="no">6.0549999999999997e+00</row><row type="TypeDouble" index="23" invalid="no">6.5099999999999998e+00</row><row type="TypeDouble" index="24" invalid="no">7.1699999999999999e+00</row></column><column creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glühlampe]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">7.2999999999999998e+00</row><row type="TypeDouble" index="4" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.4100000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">8.0999999999999996e+00</row><row type="TypeDouble" index="7" invalid="no">1.5900000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">1.7399999999999999e+01</row><row type="TypeDouble" index="9" invalid="no">2.0500000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">2.2600000000000001e+01</row><row type="TypeDouble" index="11" invalid="no">2.3399999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">2.4000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">2.4800000000000001e+01</row><row type="TypeDouble" index="14" invalid="no">2.5399999999999999e+01</row><row type="TypeDouble" index="15" invalid="no">2.6600000000000001e+01</row><row type="TypeDouble" index="16" invalid="no">2.7699999999999999e+01</row><row type="TypeDouble" index="17" invalid="no">2.8199999999999999e+01</row><row type="TypeDouble" index="18" invalid="no">2.8899999999999999e+01</row><row type="TypeDouble" index="19" invalid="no">3.1600000000000001e+01</row><row type="TypeDouble" index="20" invalid="no">3.2700000000000003e+01</row><row type="TypeDouble" index="21" invalid="no">3.5200000000000003e+01</row><row type="TypeDouble" index="22" invalid="no">3.7200000000000003e+01</row><row type="TypeDouble" index="23" invalid="no">3.8899999999999999e+01</row><row type="TypeDouble" index="24" invalid="no">4.1000000000000000e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	921	179	573	382	minimized	
+
+</table>
+<table>
+4489
+<table creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="NTCWerte" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[ Spannung NTC]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.9199999999999998e-01</row><row type="TypeDouble" index="1" invalid="no">5.4600000000000004e-01</row><row type="TypeDouble" index="2" invalid="no">9.8799999999999999e-01</row><row type="TypeDouble" index="3" invalid="no">1.3230000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.7589999999999999e+00</row><row type="TypeDouble" index="5" invalid="no">2.0899999999999999e+00</row><row type="TypeDouble" index="6" invalid="no">2.4140000000000001e+00</row><row type="TypeDouble" index="7" invalid="no">2.8990000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">3.2580000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">3.7860000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">4.5350000000000001e+00</row><row type="TypeDouble" index="11" invalid="no">5.0899999999999999e+00</row><row type="TypeDouble" index="12" invalid="no">5.8289999999999997e+00</row><row type="TypeDouble" index="13" invalid="no">6.5000000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">6.9900000000000002e+00</row><row type="TypeDouble" index="15" invalid="no">7.5700000000000003e+00</row><row type="TypeDouble" index="16" invalid="no">7.8300000000000001e+00</row><row type="TypeDouble" index="17" invalid="no">7.8899999999999997e+00</row><row type="TypeDouble" index="18" invalid="no">8.1199999999999992e+00</row><row type="TypeDouble" index="19" invalid="no">7.9699999999999998e+00</row></column><column creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom NTC]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:34:43:323" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000002e-01</row><row type="TypeDouble" index="1" invalid="no">6.9999999999999996e-01</row><row type="TypeDouble" index="2" invalid="no">1.3000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">1.8000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">2.3999999999999999e+00</row><row type="TypeDouble" index="5" invalid="no">2.8999999999999999e+00</row><row type="TypeDouble" index="6" invalid="no">3.2999999999999998e+00</row><row type="TypeDouble" index="7" invalid="no">4.0999999999999996e+00</row><row type="TypeDouble" index="8" invalid="no">4.7000000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">5.5999999999999996e+00</row><row type="TypeDouble" index="10" invalid="no">7.0000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">8.1999999999999993e+00</row><row type="TypeDouble" index="12" invalid="no">1.0199999999999999e+01</row><row type="TypeDouble" index="13" invalid="no">1.2400000000000000e+01</row><row type="TypeDouble" index="14" invalid="no">1.4699999999999999e+01</row><row type="TypeDouble" index="15" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">2.0699999999999999e+01</row><row type="TypeDouble" index="17" invalid="no">2.3699999999999999e+01</row><row type="TypeDouble" index="18" invalid="no">4.0899999999999999e+01</row><row type="TypeDouble" index="19" invalid="no">2.8000000000000000e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	1074	88	573	382	minimized	
+
+</table>
+<multiLayer>
+DiodeGrafik	1	1	13.11.2017 18:55:22
+geometry	0	0	514	438	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	444	307
+Alignement	0	0
+<graph>
+ggeometry	5	6	489	369
+PlotTitle	Kennlinie der Diode im Durchlassrichtung	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	DiodeWerte_U	DiodeWerte_I	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+scale	0	0	45	0	6	5	0	0
+scale	1	0	45	0	8	5	0	0
+scale	2	0	0.8	0	10	5	0	0
+scale	3	0	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.0181818181818182	43.538961038961	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte Diode</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+ZenerdiodeGrafikSperr	1	1	13.11.2017 19:08:51
+geometry	520	3	514	438	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Kennlinie der Zenerdiode im Sperrrichtung<br>	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	ZenerdiodeWerte_U	ZenerdiodeWerte_I	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+scale	0	0	35	10	8	5	0	0
+scale	1	0	35	10	8	5	0	0
+scale	2	0	5	0	7	5	0	0
+scale	3	0	5	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.112359550561798	33.8636363636364	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte Zenerdiode</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+ZenerdiodeGrafikDurch	1	1	13.11.2017 19:25:07
+geometry	3	440	514	438	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Kennlinie der Zenerdiode in Durchlassrichtung	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	ZenerdiodeWerte_U 1	ZenerdiodeWerte_I 2	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+scale	0	0	40	10	10	5	0	0
+scale	1	0	40	10	8	5	0	0
+scale	2	0	0.8	0	10	5	0	0
+scale	3	0	0.8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.0181818181818182	38.6798679867987	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte Zenerdiode</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+GluehlampeGrafik	1	1	13.11.2017 19:31:22
+geometry	0	0	514	438	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	444	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Kennlinie der Glühlampe	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	GluehlampeWerte_U	GluehlampeWerte_I	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+scale	0	0	50	0	7	5	0	0
+scale	1	0	50	0	8	5	0	0
+scale	2	0	8	0	10	5	0	0
+scale	3	0	8	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.179775280898876	48.3443708609271	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte Glühlampe</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+NTCGrafik	1	1	13.11.2017 19:35:06
+geometry	586	11	514	438	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	444	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Kennlinie des NTC-Widerstandes	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	1	0	1	0	#c0c0c0	1	1	#a0a0a4	2	1	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	NTCWerte_U	NTCWerte_I	1	0	0	0	1	7	1	0	0	0	0	14	1	2	0	0	29	1
+scale	0	0	50	0	7	5	0	0
+scale	1	0	50	0	6	5	0	0
+scale	2	0	9	0	8	4	0	0
+scale	3	0	9	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	0.201342281879195	48.3498349834983	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte NTC-Widerstand</legend>
+</graph>
+</multiLayer>
+<log>
+</log>
