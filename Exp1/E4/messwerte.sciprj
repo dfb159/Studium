@@ -1,6 +1,6 @@
 SciDAVis 1.21.0 project file
 <scripting-lang>	muParser
-<windows>	10
+<windows>	11
 <table>
 4644
 <table creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="DiodeWerte" columns="2" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Diode]]></comment><input_filter><simple_filter creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 18:54:36:567" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.0000000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">1.8500000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">2.7500000000000002e-01</row><row type="TypeDouble" index="4" invalid="no">4.6100000000000002e-01</row><row type="TypeDouble" index="5" invalid="no">5.3200000000000003e-01</row><row type="TypeDouble" index="6" invalid="no">5.6799999999999995e-01</row><row type="TypeDouble" index="7" invalid="no">5.8999999999999997e-01</row><row type="TypeDouble" index="8" invalid="no">6.0999999999999999e-01</row><row type="TypeDouble" index="9" invalid="no">6.3000000000000000e-01</row><row type="TypeDouble" index="10" invalid="no">6.5500000000000003e-01</row><row type="TypeDouble" index="11" invalid="no">7.0899999999999996e-01</row><row type="TypeDouble" index="12" invalid="no">6.6400000000000003e-01</row><row type="TypeDouble" index="13" invalid="no">6.0399999999999998e-01</row><row type="TypeDouble" index="14" invalid="no">6.1599999999999999e-01</row><row type="TypeDouble" index="15" invalid="no">6.2500000000000000e-01</row><row type="TypeDouble" index="16" invalid="no">6.3700000000000001e-01</row><row type="TypeDouble" index="17" invalid="no">6.6700000000000004e-01</row><row type="TypeDouble" index="18" invalid="no">6.7300000000000004e-01</row><row type="TypeDouble" index="19" invalid="no">6.7600000000000005e-01</row><row type="TypeDouble" index="20" invalid="no">6.9399999999999995e-01</row></column><column creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Diode]]></comment><input_filter><simple_filter creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 18:54:36:568" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">9.0000000000000002e-01</row><row type="TypeDouble" index="7" invalid="no">1.6000000000000001e+00</row><row type="TypeDouble" index="8" invalid="no">2.7000000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">4.7000000000000002e+00</row><row type="TypeDouble" index="10" invalid="no">9.0999999999999996e+00</row><row type="TypeDouble" index="11" invalid="no">4.0899999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">1.2000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="14" invalid="no">3.1000000000000001e+00</row><row type="TypeDouble" index="15" invalid="no">3.8999999999999999e+00</row><row type="TypeDouble" index="16" invalid="no">5.4000000000000004e+00</row><row type="TypeDouble" index="17" invalid="no">1.2600000000000000e+01</row><row type="TypeDouble" index="18" invalid="no">1.4800000000000001e+01</row><row type="TypeDouble" index="19" invalid="no">1.6399999999999999e+01</row><row type="TypeDouble" index="20" invalid="no">2.6199999999999999e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
@@ -26,9 +26,9 @@ geometry	1074	88	573	382	minimized
 
 </table>
 <table>
-5032
-<table creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="GlimmlichtWerte" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glimmlicht hochdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.8299999999999997e+01</row><row type="TypeDouble" index="1" invalid="no">8.9599999999999994e+01</row><row type="TypeDouble" index="2" invalid="no">9.0099999999999994e+01</row><row type="TypeDouble" index="3" invalid="no">9.1900000000000006e+01</row><row type="TypeDouble" index="4" invalid="no">8.8200000000000003e+01</row><row type="TypeDouble" index="5" invalid="no">8.7900000000000006e+01</row><row type="TypeDouble" index="6" invalid="no">8.8099999999999994e+01</row><row type="TypeDouble" index="7" invalid="no">8.9000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">8.8599999999999994e+01</row><row type="TypeDouble" index="9" invalid="no">8.8000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">8.7500000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">8.6700000000000003e+01</row><row type="TypeDouble" index="12" invalid="no">8.6500000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">8.7700000000000003e+01</row></column><column creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glimmlicht hochdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.7999999999999998e+00</row><row type="TypeDouble" index="1" invalid="no">1.0300000000000001e+01</row><row type="TypeDouble" index="2" invalid="no">1.1300000000000001e+01</row><row type="TypeDouble" index="3" invalid="no">1.5400000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">7.4000000000000004e+00</row><row type="TypeDouble" index="5" invalid="no">5.9000000000000004e+00</row><row type="TypeDouble" index="6" invalid="no">4.9000000000000004e+00</row><row type="TypeDouble" index="7" invalid="no">3.8999999999999999e+00</row><row type="TypeDouble" index="8" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">1.7000000000000000e+00</row><row type="TypeDouble" index="10" invalid="no">1.2000000000000000e+00</row><row type="TypeDouble" index="11" invalid="no">6.9999999999999996e-01</row><row type="TypeDouble" index="12" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="13" invalid="no">2.9999999999999999e-01</row></column><column creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="U 1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glimmlicht runterdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="I 1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glimmlicht runterdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width></table>
-geometry	471	35	1107	382	active
+5024
+<table creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="GlimmlampeWerte" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glimmlicht hochdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:46:21:531" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.8299999999999997e+01</row><row type="TypeDouble" index="1" invalid="no">8.9599999999999994e+01</row><row type="TypeDouble" index="2" invalid="no">9.0099999999999994e+01</row><row type="TypeDouble" index="3" invalid="no">9.1900000000000006e+01</row></column><column creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glimmlicht hochdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:46:21:532" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.7999999999999998e+00</row><row type="TypeDouble" index="1" invalid="no">1.0300000000000001e+01</row><row type="TypeDouble" index="2" invalid="no">1.1300000000000001e+01</row><row type="TypeDouble" index="3" invalid="no">1.5400000000000000e+01</row></column><column creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="U 1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glimmlicht runterdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:48:15:653" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">8.8200000000000003e+01</row><row type="TypeDouble" index="1" invalid="no">8.7900000000000006e+01</row><row type="TypeDouble" index="2" invalid="no">8.8099999999999994e+01</row><row type="TypeDouble" index="3" invalid="no">8.9000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">8.8599999999999994e+01</row><row type="TypeDouble" index="5" invalid="no">8.8000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">8.7500000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">8.6700000000000003e+01</row><row type="TypeDouble" index="8" invalid="no">8.6500000000000000e+01</row><row type="TypeDouble" index="9" invalid="no">8.7700000000000003e+01</row></column><column creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="I 1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glimmlicht runterdrehen]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:48:17:564" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.4000000000000004e+00</row><row type="TypeDouble" index="1" invalid="no">5.9000000000000004e+00</row><row type="TypeDouble" index="2" invalid="no">4.9000000000000004e+00</row><row type="TypeDouble" index="3" invalid="no">3.8999999999999999e+00</row><row type="TypeDouble" index="4" invalid="no">2.2000000000000002e+00</row><row type="TypeDouble" index="5" invalid="no">1.7000000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">1.2000000000000000e+00</row><row type="TypeDouble" index="7" invalid="no">6.9999999999999996e-01</row><row type="TypeDouble" index="8" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="9" invalid="no">2.9999999999999999e-01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width></table>
+geometry	471	35	1107	382	minimized	
 
 </table>
 <multiLayer>
@@ -183,7 +183,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 GluehlampeGrafik	1	1	13.11.2017 19:31:22
-geometry	0	0	514	438	
+geometry	0	0	514	438	minimized	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -279,6 +279,57 @@ DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
 <legend>	0.201342281879195	48.3498349834983	MS Shell Dlg 2	8	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Messpunkte NTC-Widerstand</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+GlimmlampeGrafik	1	1	13.11.2017 20:24:57
+geometry	0	0	514	438	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	448	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Messung der Glimmlampe	#000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	U / V	I / mA			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	GlimmlampeWerte_U	GlimmlampeWerte_I	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
+curve	GlimmlampeWerte_U 1	GlimmlampeWerte_I 1	1	0	1	0	1	7	2	1	1	0	0	14	0	2	0	0	29	1
+scale	0	0	20	0	6	5	0	0
+scale	1	0	20	0	8	5	0	0
+scale	2	86	93	0	8	5	0	0
+scale	3	86	93	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	86.237556561086	18.2178217821782	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Messpunkte beim hochregeln	\c{2}Messpunkte beim runterregeln</legend>
 </graph>
 </multiLayer>
 <log>
