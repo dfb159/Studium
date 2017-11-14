@@ -5,20 +5,20 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Diode}{2}
 \contentsline {subsubsection}{\numberline {2.2.2}Messung}{3}
 \contentsline {subsubsection}{\numberline {2.2.3}Schlussfolgerung}{3}
-\contentsline {subsection}{\numberline {2.3}b) Zenerdiode}{3}
-\contentsline {subsubsection}{\numberline {2.3.1}Messung}{3}
-\contentsline {subsubsection}{\numberline {2.3.2}Schlussfolgerung}{4}
-\contentsline {subsection}{\numberline {2.4}c) Gl\IeC {\"u}hlampe}{4}
-\contentsline {subsubsection}{\numberline {2.4.1}Messung}{4}
-\contentsline {subsubsection}{\numberline {2.4.2}Schlussfolgerung}{4}
-\contentsline {subsection}{\numberline {2.5}d) NTC-Widerstand}{4}
-\contentsline {subsubsection}{\numberline {2.5.1}Messung}{4}
-\contentsline {subsubsection}{\numberline {2.5.2}Schlussfolgerung}{4}
-\contentsline {subsection}{\numberline {2.6}e) Glimmlampe}{4}
-\contentsline {subsubsection}{\numberline {2.6.1}Gasentladungen}{4}
-\contentsline {subsubsection}{\numberline {2.6.2}Messung}{4}
-\contentsline {subsubsection}{\numberline {2.6.3}Schlussfolgerung}{4}
-\contentsline {section}{\numberline {3}Versuch 2: Widerstand in Abh\IeC {\"a}ngigkeit der Temperatur}{4}
-\contentsline {subsection}{\numberline {3.1}Methoden}{4}
-\contentsline {subsection}{\numberline {3.2}Messung}{4}
-\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{4}
+\contentsline {subsection}{\numberline {2.3}b) Zenerdiode}{4}
+\contentsline {subsubsection}{\numberline {2.3.1}Messung}{4}
+\contentsline {subsubsection}{\numberline {2.3.2}Schlussfolgerung}{5}
+\contentsline {subsection}{\numberline {2.4}c) Gl\IeC {\"u}hlampe}{6}
+\contentsline {subsubsection}{\numberline {2.4.1}Messung}{6}
+\contentsline {subsubsection}{\numberline {2.4.2}Schlussfolgerung}{7}
+\contentsline {subsection}{\numberline {2.5}d) NTC-Widerstand}{8}
+\contentsline {subsubsection}{\numberline {2.5.1}Messung}{8}
+\contentsline {subsubsection}{\numberline {2.5.2}Schlussfolgerung}{9}
+\contentsline {subsection}{\numberline {2.6}e) Glimmlampe}{11}
+\contentsline {subsubsection}{\numberline {2.6.1}Gasentladungen}{11}
+\contentsline {subsubsection}{\numberline {2.6.2}Messung}{11}
+\contentsline {subsubsection}{\numberline {2.6.3}Schlussfolgerung}{11}
+\contentsline {section}{\numberline {3}Versuch 2: Widerstand in Abh\IeC {\"a}ngigkeit der Temperatur}{11}
+\contentsline {subsection}{\numberline {3.1}Methoden}{11}
+\contentsline {subsection}{\numberline {3.2}Messung}{11}
+\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{11}

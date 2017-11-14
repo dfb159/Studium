@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  13 NOV 2017 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  14 NOV 2017 17:05
 entering extended mode
 **./10Mi_E4_08-11-2017.tex
 (10Mi_E4_08-11-2017.tex
@@ -840,7 +840,11 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
-(10Mi_E4_08-11-2017.aux)
+(10Mi_E4_08-11-2017.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `10Mi_E4_08-11-2017.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1057,52 +1061,105 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <Versuch1.png, id=14, 436.63126pt x 249.18094pt>
 File: Versuch1.png Graphic file (type png)
  <use Versuch1.png>
-Package pdftex.def Info: Versuch1.png used on input line 63.
+Package pdftex.def Info: Versuch1.png used on input line 65.
 (pdftex.def)             Requested size: 360.0pt x 205.44753pt.
  [2]
+<KennlinieDiode.pdf, id=23, 501.875pt x 381.425pt>
+File: KennlinieDiode.pdf Graphic file (type pdf)
+ <use KennlinieDiode.pdf>
+Package pdftex.def Info: KennlinieDiode.pdf used on input line 86.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 80.
+[3 <./Versuch1.png>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 109.
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 93.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 93.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 109.
 
+[4 <./KennlinieDiode.pdf>]
+<KennlinieZenerdiodeSperrrichtung.pdf, id=47, 501.875pt x 381.425pt>
+File: KennlinieZenerdiodeSperrrichtung.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 93.
+<use KennlinieZenerdiodeSperrrichtung.pdf>
+Package pdftex.def Info: KennlinieZenerdiodeSperrrichtung.pdf used on input lin
+e 116.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
+<KennlinieZenerdiodeDurchlassrichtung.pdf, id=48, 501.875pt x 381.425pt>
+File: KennlinieZenerdiodeDurchlassrichtung.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 94.
+<use KennlinieZenerdiodeDurchlassrichtung.pdf>
+Package pdftex.def Info: KennlinieZenerdiodeDurchlassrichtung.pdf used on input
+ line 127.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ [5 <./KennlinieZenerdiodeSperrrichtung.pdf>] [6 <./KennlinieZenerdiodeDurchlas
+srichtung.pdf>]
+<KennlinieGluehlampe.pdf, id=86, 501.875pt x 381.425pt>
+File: KennlinieGluehlampe.pdf Graphic file (type pdf)
 
-[3 <./Versuch1.png>]
-Overfull \hbox (4.15504pt too wide) in paragraph at lines 140--140
+<use KennlinieGluehlampe.pdf>
+Package pdftex.def Info: KennlinieGluehlampe.pdf used on input line 155.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+
+<KennlinieGluehlampeWiderstand.pdf, id=87, 501.875pt x 381.425pt>
+File: KennlinieGluehlampeWiderstand.pdf Graphic file (type pdf)
+
+<use KennlinieGluehlampeWiderstand.pdf>
+Package pdftex.def Info: KennlinieGluehlampeWiderstand.pdf used on input line 1
+61.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ [7 <./KennlinieGluehlampe.pdf>]
+<KennlinieNTCsubgitter.pdf, id=106, 501.875pt x 381.425pt>
+File: KennlinieNTCsubgitter.pdf Graphic file (type pdf)
+
+<use KennlinieNTCsubgitter.pdf>
+Package pdftex.def Info: KennlinieNTCsubgitter.pdf used on input line 189.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ [8 <./KennlinieGluehlampeWiderstand.pdf>]
+<KennlinieGlimmlampe.pdf, id=125, 501.875pt x 381.425pt>
+File: KennlinieGlimmlampe.pdf Graphic file (type pdf)
+
+<use KennlinieGlimmlampe.pdf>
+Package pdftex.def Info: KennlinieGlimmlampe.pdf used on input line 212.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+
+Overfull \hbox (4.15504pt too wide) in paragraph at lines 221--221
 []\T1/lmr/bx/n/14.4 Versuch 2: Wi-der-stand in Ab-hän-gig-keit der Tem-
  []
 
-<Versuch2.png, id=28, 234.1247pt x 277.035pt>
+<Versuch2.png, id=126, 234.1247pt x 277.035pt>
 File: Versuch2.png Graphic file (type png)
  <use Versuch2.png>
-Package pdftex.def Info: Versuch2.png used on input line 152.
+Package pdftex.def Info: Versuch2.png used on input line 229.
 (pdftex.def)             Requested size: 216.0022pt x 255.6066pt.
- [4]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 164.
+<MessungDraht.pdf, id=127, 501.875pt x 381.425pt>
+File: MessungDraht.pdf Graphic file (type pdf)
+ <use MessungDraht.pdf>
+Package pdftex.def Info: MessungDraht.pdf used on input line 240.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-[5 <./Versuch2.png>] (10Mi_E4_08-11-2017.aux)
+[9 <./KennlinieNTCsubgitter.pdf>] [10 <./KennlinieGlimmlampe.pdf> <./Versuch2.p
+ng>] [11 <./MessungDraht.pdf>]
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Empty `thebibliography' environment on input line 252.
+
+[12] (10Mi_E4_08-11-2017.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14781 strings out of 493333
- 296789 string characters out of 3139197
- 315594 words of memory out of 3000000
- 18172 multiletter control sequences out of 15000+200000
+ 14827 strings out of 493333
+ 298048 string characters out of 3139197
+ 315692 words of memory out of 3000000
+ 18210 multiletter control sequences out of 15000+200000
  583633 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,5n,40p,10410b,736s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,5n,40p,10410b,818s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
 ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
@@ -1114,9 +1171,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 10Mi_E4_08-11-2017.pdf (6 pages, 226516 bytes).
+Output written on 10Mi_E4_08-11-2017.pdf (13 pages, 352900 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 224 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

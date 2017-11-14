@@ -44,16 +44,18 @@
 		
 		Wir betrachten im Folgenden zwei Versuchen, die uns verschiedenen Arten von Widerständen näher bringen sollen. 
 		
-		In dem ersten Versuch betrachten wir fünf verschiedene Arten von Widerständen. Eine einfache Diode, eine Zenerdiode, einen NTC-Widerstand, eine Glüh- und eine Glimmlampe. Wir messen hierbei den Strom in Abhängigkeit von der Spannung und werten die Ergebnisse aus. Dazu gehen wir auf die Funktionsweise von Halbleitern und Glimmlampen ein. 
+		In dem ersten Versuch betrachten wir fünf verschiedene Arten von Widerständen. Eine einfache Diode, eine Zenerdiode, einen NTC-Widerstand, eine Glüh- und eine Glimmlampe. Wir messen hierbei den Strom in Abhängigkeit von der Spannung und werten die Ergebnisse aus. Dazu gehen wir auf die Funktionsweise von (dotierten) Halbleitern und Gasentladungen ein. 
 		
 		Die Abhängigkeit des Widerstands von der Temperatur wird dann in dem zweiten Versuch betrachtet.
-		Hierzu erhitzen wir einen Kupferdraht in Öl, lassen ihn danach abkühlen und messen durchgehend seinen Widerstand mit Hilfe einer Wheatstone'schen Brücke. Unsere Ergebnisse für den Kupferdraht verknüpfen wir dann mit der allgemeinen elektrischen Leitfähigkeit von Metallen.
+		Hierzu erhitzen wir einen Kupferdraht in Öl, lassen ihn danach abkühlen und messen durchgehend seinen Widerstand mit Hilfe einer Wheatstone'schen Brücke. Unsere Ergebnisse für den Kupferdraht verknüpfen wir dann mit der elektrischen Leitfähigkeit von Metallen.
 
 	\section{Versuch 1: Strom-Spannungs-Charakteristik}
 		
-		\subsection{Methoden} %Aufbau und wie/was gemessen wird
+		In diesem Versuch betrachten wir die Kennlinien von verschiedenen Bauteilen. Dafür messen wir den Strom und tragen diesen gegen unsere Eingangsspannung auf. Den sich daraus ergebenen Verlauf, die Kennlinie, erklären wir dann im Sachverhalt. 
 		
-		In Abb. \ref{Schaltskizze1} ist der Versuchsaufbau skizziert. Dabei fließt der Strom nur über jeweils einen Aufbau. 
+		\subsection{Methoden} 
+		
+		Der Versuchsaufbau ist In Abb. \ref{Schaltskizze1} skizziert. Dabei fließt der Strom nur über jeweils einen Aufbau. 
 		
 		Da die Spannungsquelle keine genaue Angabe der Eingangsspannung liefert, messen wir diese mit einem Multimeter, welches parallel zu dem Aufbau geschaltet ist. Den Strom hingegen messen wir mit einem zweiten Multimeter, welches in Reihe zu dem Aufbau geschaltet ist.
 		
@@ -77,51 +79,123 @@
 			
 			\subsubsection{Messung}
 				
-				Wie in Abb. \ref{} zu sehen ist, verläuft die Kennlinie bei einer Diode in Durchflussrichtung %TODO
+				Unsere Messwerte ergaben, wie in Abb. \ref{KL a} zu sehen ist, dass die Kennlinie bei einer Diode in Durchflussrichtung exponentiell verläuft. Einen messbaren Strom erhielten wir erst ab ca. \SI{0.5}{\V} und es ließen sich ab ungefähr \SI{0.72}{\V} keine weiteren Werte messen. 
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieDiode.pdf}
+					\caption{Messung zu Versuch 1a)}
+					\label{KL a}
+				\end{figure}
 			
 			\subsubsection{Schlussfolgerung}
 			
-				Unsere Ergebnisse deuten darauf hin, dass %TODO
+				Unsere Ergebnisse deuten darauf hin, dass mindestens \SI{0.5}{\V} nötig sind, um den Übergangsbereich, der Diode, so zu verkleinern, dass ein Strom fließen kann. 
 				
-		\subsection{b) Zenerdiode} %Erklärung Zenerdioden, Messung und Schlussfolgerung
+				Dass sich ab ca. \SI{0.72}{\V} keine weiteren Werte messen ließen, könnte daran liegen, dass die Diode, so modifiziert ist, dass nicht mehr Spannung als diese \SI{0.72}{\V} durchgelassen werden können. Somit geht der Widerstand nicht gegen null und wir vermeiden einen Kurzschluss.
+				
+				Die Größe des Übergangsbereichs steht in direktem Zusammenhang mit dem Widerstand.  Denn je mehr Spannung anliegt, desto kleiner wird der Übergangsbereich und umso leichter können freie Ladungsträger diesen Bereich passieren. Der Widerstand wird also geringer.
+				
+				Diesen Sachverhalt stützt der exponentielle Verlauf, der von uns gemessenen, Kennlinie. Demnach entspricht unser Ergebnis den Erwartungen.
+				
+		\subsection{b) Zenerdiode} 
 			
-			Die Zenerdiode funktioniert wie die in \ref{Diode} beschriebene Diode, nur dass bei der Zenerdiode auch in Sperrrichtung Strom fließen kann, insofern die angelegte Spannung groß genug ist. %TODO warum
+			Die Zenerdiode funktioniert wie die in \ref{Diode} beschriebene Diode, nur dass bei der Zenerdiode auch in Sperrrichtung Strom fließen kann, insofern die angelegte Spannung groß genug ist. Dies geschieht durch das Kleiner-werden der Potentialbarrieren bei hochdotierten p-n-Übergängen, wenn starke Ströme fließen. Hierbei kommt es zu dem quantenmechanischen Tunneleffekt, der dazu führt, dass Valenzelektronen in das Leitungsband gelangen. Es bildet sich ein Durchbruchstrom.
 			
 			\subsubsection{Messung}
 			
 				 \begin{itemize}
-				 	\item in Sperrrichtung: In Abb. \ref{} erkennt man %TODO was
-				 	\item in Durchlassrichtung: Wie in Abb. \ref{} dargestellt, verlief diese Messung analog zu der in \ref{a)} durchgeführten Messung.				 	
+				 	
+				 	\item Sperrrichtung: 
+				 	
+				 	In Abb. \ref{KL b1} erkennt man, dass wir auch hier einen exponentiellen Verlauf der Kennlinie gemessen haben. 				 	
+				 	Anders als in der vorausgehenden Messung, fließt hier jedoch erst ab ca. \SI{2.6}{\V} ein Strom und wir konnten dieses mal bis ungefähr \SI{5}{\V} einen Strom messen.
+				 	
+				 	\begin{figure}
+				 		\centering
+				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeSperrrichtung.pdf}
+				 		\caption{Erste Messung zu Versuch 1b)}
+				 		\label{KL b1}
+				 	\end{figure}
+				 	
+				 	\item Durchlassrichtung:  
+				 	
+				 	Diese Messung verlief analog zu der in \ref{a)} durchgeführten Messung, wie in Abb. \ref{KL b2} zu sehen. Verglichen mit der ersten Messung, ist diese genauer und der zu erkennende exponentielle Anstieg wirkt ein wenig stärker.
+				 	
+				 	\begin{figure}
+				 		\centering
+				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeDurchlassrichtung.pdf}
+				 		\caption{Zweite Messung zu Versuch 1b}
+				 		\label{KL b2}
+				 	\end{figure}
+				 					 	
 				\end{itemize}
-				
+											
 			\subsubsection{Schlussfolgerung}
 				
-				Auch dieses Ergebnisse führen zu %TODO was
+				Die Ergebnisse dieser Messung bezüglich der Durchlassrichtung stehen in direktem Zusammenhang zu dem Ergebnis aus \ref{a)}. 
+				Für die Sperrrichtung hingegen ermitteln wir, dass die Benötigte Spannung für einen Stromfluss bei ca. \SI{2.6}{\V} liegt. 
+				
+				Verglichen mit den \SI{0.5}{\V} in Durchflussrichtung ist dies ein beachtlicher und zu erwartender Unterschied. Im Gegenzug zu der Verkleinerung des Übergangsbereichs der Diode fließt in Sperrrichtung, wenn überhaupt, nur der Durchbruchstrom und für diesen benötigt man hohe Spannungen. 
+				
+				Dass auch in Sperrrichtung die Kennlinie exponentiell verläuft, hat einen ähnlichen Grund, wie in Durchflussrichtung. Denn je höher die Spannung, desto mehr Elektronen lösen sich aus dem Valenzband des p-Leiters und umso stärker ist folglich der Durchbruchstrom. Der Widerstand wird also auch hier mit höherer Spannung kleiner. 
 				
 		\subsection{c) Glühlampe} 
 			
-			Bei der Glühlampe betrachten wir ?
+			Bei der Glühlampe fließt der Strom durch einen Glühdraht, dieser erwärmt sich dabei und beginnt zu glühen. Wir betrachten also nun, wie sich der Widerstand nach Inbetriebnahme der Glühlampe ändert. Dazu messen wir, wie bisher, den Strom und tragen ihn gegen die Spannung auf. Um die Änderung des Widerstandes besser zu betrachten tragen wir zudem noch den Widerstand gegen die Spannung aus, wobei sich dieser aus dem Ohm'schen Gesetz und der vorausgegangen Strommessung ergibt.  
 			
 			\subsubsection{Messung}
 				
-				%TODO Kurve beschreiben
+				Die Kennlinie der Glühlampe verläuft zunächst krumm, richtet sich im späteren Verlauf jedoch annähernd linear aus. Wir beobachten, dass die Glühlampe ab ca. \SI{2.6}{\V} anfängt schwach zu glühen. In Abb. \ref{KL c} ist zu sehen, dass die Kennlinie sich in diesem Bereich beginnt sich linear auszurichten.
+				
+				Der letzte messbare Wert war hier bei ca. \SI{7.2}{\V}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieGluehlampe.pdf}
+					\caption{Messung zu Versuch 1c)}
+					\label{KL c}
+				\end{figure}
+				\begin{figure}
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieGluehlampeWiderstand.pdf}
+					\caption{Widerstand in Abhängigkeit der Spannung}
+					\label{R c}
+				\end{figure}
 			
 			\subsubsection{Schlussfolgerung}
 			
-				%TODO Schlussfolgerung
+				Der annähernd lineare Verlauf der Kennlinie deutet darauf hin, dass der Widerstand sich, bei höheren Spannungen, kaum ändert. In Abb. \ref{R c} erkennen wir auch, dass dies der Fall ist, wobei der Widerstand weiterhin langsam steigt.
 				
-		\subsection{d) NTC-Widerstand} %Erklärung NTC, Messung und Schlussfolgerung
+				Das Steigen des Widerstands lässt sich auf die steigende Temperatur zurückführen. Bei dem Glühdraht handelt es sich um ein Metall, vermutlich Wolfram. Metalle haben die Eigenschaft, dass ihre elektrische Leitfähigkeit mit steigender Temperatur abnimmt.
+				
+				Zu Beginn ist der Glühdraht bei Zimmertemperatur und wie in den beiden Abbildungen zu erkennen ist, steigt der Widerstand zunächst stark, weswegen die Kennlinie erst krumm verläuft. Ab dem Punkt, an dem der Draht glüht, steigt der Widerstand langsamer, da die Temperaturunterschiede schwächer werden.
+				
+				Dieses Verhalten stimmt mit der Änderung der elektrischen Leitfähigkeit von Metallen bei erhöhten Temperaturen überein.
+				
+		\subsection{d) NTC-Widerstand} 
 			
-			Das \glqq NTC\grqq in NTC-Widerstand steht für \glqq Negative Temperature Coefficient\grqq.
-			Dies bedeutet, dass der Widerstand hier bei steigenden Temperaturen ab- und nicht zunimmt. Dies ist der Fall bei Halbleitern. Bei Metallen sinkt der Widerstand bei fallenden Temperaturen.
+			NTC-Widerstände bestehen aus Halbleitern und verhalten sich, was den Innenwiderstand betrifft, anders als Metalle. Das \glqq NTC\grqq  steht für \glqq Negative Temperature Coefficient\grqq , soll also heißen, dass sie bei erhöhten Temperaturen, im Gegensatz zu Metallen, besser den elektrischen Strom leiten als bei geringeren Temperaturen.
+			
+			Bei dieser Messung betrachten wir einen solchen NTC-Widerstand. Bevor wir einen Messwert aufnehmen, lassen wir den Widerstand kurz in Ruhe, so dass er sich auf die Temperatur einstellt, die er bei gegebener Spannung annehmen sollte. 
 			
 			\subsubsection{Messung}
 			
-				%TODO Kurve beschreiben
+				In Abb. \ref{KL d} sehen wir ähnlich zu den Dioden einen exponentiellen Verlauf der Kennlinie, wobei dieser Widerstand von Anfang an den Strom durchlässt und nicht erst ab einer gewissen Spannung.
+				Hier konnten wir nur Werte bis \SI{8}{\V} Eingangsspannung aufnehmen.
 				
+				\begin{figure}
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieNTCsubgitter.pdf}
+					\caption{Messung zu Versuch 1d)}
+					\label{KL d}
+				\end{figure}
+			
 			\subsubsection{Schlussfolgerung}
 			
-				%TODO Schlussfolgerung
+				Hier ist klar zu erkennen, dass der Widerstand mit steigender Temperatur (durch steigende Spannung) sinkt, was für NTC-Widerstände charakteristisch ist. 
+				
+				Dass wir auch hier nicht mehr als bis zu \SI{8}{\V} Eingangsspannung messen konnten, wird ebenfalls aufgrund von Kurzschlussvermeidung gewesen sein.
 			
 		\subsection{e) Glimmlampe} %Erklärung Glimmlampe, Messung und Schlussfolgerung
 			
@@ -133,6 +207,13 @@
 			
 				%TODO Kurve beschreiben
 			
+				\begin{figure}
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieGlimmlampe.pdf}
+					\caption{}
+					\label{}
+				\end{figure}
+			
 			\subsubsection{Schlussfolgerung}
 			
 				%TODO Schlussfolgerung
@@ -142,18 +223,25 @@
 		\subsection{Methoden} %Aufbau und wie/was gemessen wird
 		
 			%TODO Wheatstone'sche Brücke erklären
+			
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.6\textwidth]{Versuch2.png}
+				\caption{Schaltskizze zu Versuch 1}
+				\label{Schaltskizze2}
+			\end{figure}
 		
 		\subsection{Messung}
 			
 			%TODO Kurve beschreiben
 			
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.6\textwidth]{Versuch2.png}
-			\caption{Schaltskizze zu Versuch 1}
-			\label{Schaltskizze2}
-		\end{figure}
-		
+				\begin{figure}
+				\centering
+				\includegraphics[width=\textwidth]{MessungDraht.pdf}
+				\caption{}
+				\label{}
+			\end{figure}
+			
 		\subsection{Schlussfolgerung}	
 			
 			%TODO Schlussfolgerung	
