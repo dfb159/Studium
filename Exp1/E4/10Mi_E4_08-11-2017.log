@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  14 NOV 2017 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  14 NOV 2017 19:46
 entering extended mode
 **./10Mi_E4_08-11-2017.tex
 (10Mi_E4_08-11-2017.tex
@@ -840,11 +840,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
-(10Mi_E4_08-11-2017.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-)
+(10Mi_E4_08-11-2017.aux)
 \openout1 = `10Mi_E4_08-11-2017.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -1119,61 +1115,66 @@ File: KennlinieNTCsubgitter.pdf Graphic file (type pdf)
 Package pdftex.def Info: KennlinieNTCsubgitter.pdf used on input line 189.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
  [8 <./KennlinieGluehlampeWiderstand.pdf>]
-<KennlinieGlimmlampe.pdf, id=125, 501.875pt x 381.425pt>
+[9 <./KennlinieNTCsubgitter.pdf>]
+<KennlinieGlimmlampe.pdf, id=143, 501.875pt x 381.425pt>
 File: KennlinieGlimmlampe.pdf Graphic file (type pdf)
 
 <use KennlinieGlimmlampe.pdf>
-Package pdftex.def Info: KennlinieGlimmlampe.pdf used on input line 212.
+Package pdftex.def Info: KennlinieGlimmlampe.pdf used on input line 229.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
-
-Overfull \hbox (4.15504pt too wide) in paragraph at lines 221--221
+ [10]
+Overfull \hbox (4.15504pt too wide) in paragraph at lines 241--241
 []\T1/lmr/bx/n/14.4 Versuch 2: Wi-der-stand in Ab-hän-gig-keit der Tem-
  []
 
-<Versuch2.png, id=126, 234.1247pt x 277.035pt>
+[11 <./KennlinieGlimmlampe.pdf>]
+<Versuch2.png, id=166, 234.1247pt x 277.035pt>
 File: Versuch2.png Graphic file (type png)
  <use Versuch2.png>
-Package pdftex.def Info: Versuch2.png used on input line 229.
+Package pdftex.def Info: Versuch2.png used on input line 263.
 (pdftex.def)             Requested size: 216.0022pt x 255.6066pt.
-
-<MessungDraht.pdf, id=127, 501.875pt x 381.425pt>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 270.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 270.
+ [12 <./Versuch2.png>] <MessungDraht.pdf, id=173, 501.875pt x 381.425pt>
 File: MessungDraht.pdf Graphic file (type pdf)
- <use MessungDraht.pdf>
-Package pdftex.def Info: MessungDraht.pdf used on input line 240.
+
+<use MessungDraht.pdf>
+Package pdftex.def Info: MessungDraht.pdf used on input line 276.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-[9 <./KennlinieNTCsubgitter.pdf>] [10 <./KennlinieGlimmlampe.pdf> <./Versuch2.p
-ng>] [11 <./MessungDraht.pdf>]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 252.
+LaTeX Warning: Empty `thebibliography' environment on input line 289.
 
-[12] (10Mi_E4_08-11-2017.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[13 <./MessungDraht.pdf>] (10Mi_E4_08-11-2017.aux) ) 
 Here is how much of TeX's memory you used:
- 14827 strings out of 493333
- 298048 string characters out of 3139197
- 315692 words of memory out of 3000000
- 18210 multiletter control sequences out of 15000+200000
- 583633 words of font info for 51 fonts, out of 3000000 for 9000
+ 14856 strings out of 493333
+ 298351 string characters out of 3139197
+ 315660 words of memory out of 3000000
+ 18227 multiletter control sequences out of 15000+200000
+ 608849 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,5n,40p,10410b,818s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 10Mi_E4_08-11-2017.pdf (13 pages, 352900 bytes).
+ 42i,8n,40p,10410b,820s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.
+9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:
+/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmsy9.pfb>
+Output written on 10Mi_E4_08-11-2017.pdf (14 pages, 413799 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
