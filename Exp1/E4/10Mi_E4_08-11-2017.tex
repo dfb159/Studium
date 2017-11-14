@@ -31,6 +31,8 @@
 		
 		\vfill
 		
+		%TODO Grafikbeschriftungen an die Messung/Versuch anpassen und keine nummer
+		
 		{\large \today\par}
 	\end{titlepage}
 		
@@ -40,9 +42,10 @@
 	
 	\section{Kurzfassung}
 		
-		In diesem Bericht befassen wir uns mit Kennlinien. Eine Kennlinie ist die Kurve, die entsteht, wenn man die Spannung gegen den Strom aufträgt. Aus dem Ohm'schen Gesetz $U=RI$ bzw. $I = \frac{1}{R}U $ ergibt sich, dass diese durch den Widerstand dargestellt wird. 
+		In diesem Bericht befassen wir uns mit Kennlinien. Eine Kennlinie ist die Kurve, die entsteht, wenn man die Spannung gegen den Strom aufträgt. Aus dem Ohm'schen Gesetz $U=RI$ bzw. $I = \frac{1}{R}U $ ergibt sich, dass diese durch den Widerstand dargestellt wird und bei konstanten Widerständen linear verläuft.
 		
-		Wir betrachten im Folgenden zwei Versuchen, die uns verschiedenen Arten von Widerständen näher bringen sollen. 
+		Wir betrachten im Folgenden zwei Versuchen, die uns verschiedenen Arten von Widerständen näher bringen sollen.
+		Diese hängen unter anderem von der Temperatur, den Materialien und der Bauteilgeometrie ab.
 		
 		In dem ersten Versuch betrachten wir fünf verschiedene Arten von Widerständen. Eine einfache Diode, eine Zenerdiode, einen NTC-Widerstand, eine Glüh- und eine Glimmlampe. Wir messen hierbei den Strom in Abhängigkeit von der Spannung und werten die Ergebnisse aus. Dazu gehen wir auf die Funktionsweise von (dotierten) Halbleitern und Gasentladungen ein. 
 		
@@ -55,11 +58,11 @@
 		
 		\subsection{Methoden} 
 		
-		Der Versuchsaufbau ist In Abb. \ref{Schaltskizze1} skizziert. Dabei fließt der Strom nur über jeweils einen Aufbau. 
+		Der Versuchsaufbau ist in Abb. \ref{Schaltskizze1} skizziert. Dabei fließt der Strom nur über jeweils eine Teilschaltung \textbf{a)} bis \textbf{e)}. 
+		Da die Spannungsquelle keine genaue Angabe der Eingangsspannung liefert, messen wir diese mit einem Multimeter über das relevante Bauteil.
+		Den Strom messen wir mit einem zweiten Multimeter, welches in Reihe geschaltet ist.
 		
-		Da die Spannungsquelle keine genaue Angabe der Eingangsspannung liefert, messen wir diese mit einem Multimeter, welches parallel zu dem Aufbau geschaltet ist. Den Strom hingegen messen wir mit einem zweiten Multimeter, welches in Reihe zu dem Aufbau geschaltet ist.
-		
-		Für die Teilversuche a) bis d) verwenden wir Eingangsspannungen im Bereich von \SIrange{0}{20}{\V} und für die Glimmlampe in e) Eingangsspannungen von \SIrange{0}{150}{\V}.
+		Für die Teilversuche \textbf{a)} bis \textbf{d)} verwenden wir Eingangsspannungen im Bereich von \SIrange{0}{20}{\V} und für die Glimmlampe in \textbf{e)} Eingangsspannungen von \SIrange{0}{150}{\V}.
 		
 		\begin{figure}
 			\includegraphics[width=\textwidth]{Versuch1.png}
@@ -73,13 +76,21 @@
 			\subsubsection*{Diode}
 				\label{Diode}
 				
-				Eine Diode ist ein Bauteil, mit dem Spannungen nur von einer Richtung durchgelassen werden. Diesen Effekt erhält man, wenn man einen Halbleiter mit einem Element aus der dritten Hauptgruppe dotiert (p-Leiter) und einen anderen mit einem Element aus der fünften Hauptgruppe (n-Leiter) und diese aneinander grenzen lässt. Hierbei entsteht eine Raumladungszone im Übergangsbereich, da die Elektronen des n-Leiters zu dem p-Leiter wandern. Da in dem Übergangsbereich weniger freie Ladungsträger sind, als im restlichen Leiter, nimmt die Leitfähigkeit an dieser Stelle stark ab.
+				% TODO Spannungen? eher Ströme
+				Eine Diode ist ein Bauteil, mit dem Spannungen nur von einer Richtung durchgelassen werden.
+				Diesen Effekt erhält man, wenn man einen Halbleiter mit einem Element aus der dritten Hauptgruppe dotiert (p-Leiter) und einen anderen mit einem Element aus der fünften Hauptgruppe (n-Leiter) und diese aneinander grenzen lässt.
+				Hierbei entsteht eine Raumladungszone im Übergangsbereich, da die Elektronen des n-Leiters zu dem p-Leiter wandern.
+				Da in diesem Übergangsbereich weniger freie Ladungsträger sind, als im restlichen Leiter, nimmt die Leitfähigkeit an dieser Stelle stark ab.
 				
-				Legt man den positiven Pol einer aüßeren Spannung an den n-Leiter an, so vergrößert sich der Übergangsbereich. Bei einem negativen Pol hingegen, verkleinert sich dieser, sodass der Strom durch den Leiter fließen kann. 
+% Bissl umgeschrieben
+				Legt man an den positiven Pol, also den n-Leiter eine äußere Spannung an, so vergrößert sich der Übergangsbereich.
+				Bei umgekehrter Polung hingegen, verkleinert sich dieser und verschwindet bei außreichend hoher Spannung komplett, sodass der Strom durch den Leiter fließen kann. 
 			
 			\subsubsection*{Messung}
 				
-				Unsere Messwerte ergaben, wie in Abb. \ref{KL a} zu sehen ist, dass die Kennlinie bei einer Diode in Durchflussrichtung exponentiell verläuft. Einen messbaren Strom erhielten wir erst ab ca. \SI{0.5}{\V} und es ließen sich ab ungefähr \SI{0.72}{\V} keine weiteren Werte messen. 
+				Unsere Messwerte ergaben, wie in Abb. \ref{KL a} zu sehen ist, dass die Kennlinie bei einer Diode in Durchflussrichtung exponentiell verläuft.
+				Einen messbaren Strom erhielten wir erst ab ca. \SI{0.5}{\V} und es ließen sich ab ungefähr \SI{0.72}{\V} keine weiteren Werte messen. %TODO? da die Spannungsquelle bereits voll aufgedreht war
+				%TODO? Im Bereich 0,65V - 0,7V wurde das Einstellen besonders schwer
 				
 				\begin{figure}
 					\centering
@@ -90,17 +101,30 @@
 			
 			\subsubsection*{Schlussfolgerung}
 			
-				Unsere Ergebnisse deuten darauf hin, dass mindestens \SI{0.5}{\V} nötig sind, um den Übergangsbereich, der Diode, so zu verkleinern, dass ein Strom fließen kann. 
+				%TODO? rewrite: deuten auf eine minimale Spannung hin, um ..
+				Unsere Ergebnisse deuten darauf hin, dass mindestens \SI{0.5}{\V} nötig sind, um den Übergangsbereich der Diode soweit zu verkleinern, dass überhaupt ein Strom fließen kann. 
 				
-				Dass sich ab ca. \SI{0.72}{\V} keine weiteren Werte messen ließen, könnte daran liegen, dass die Diode, so modifiziert ist, dass nicht mehr Spannung als diese \SI{0.72}{\V} durchgelassen werden können. Somit geht der Widerstand nicht gegen null und wir vermeiden einen Kurzschluss.
+				%TODO rewrite: sich keine höheren Spannungen einstellen ließen...
+				%TODO eher am innenwiderstand des netzteils würde ich sagen, aber keine ahnung
+				Dass sich ab ca. \SI{0.72}{\V} keine weiteren Werte messen ließen, könnte daran liegen, dass die Diode so modifiziert ist, dass nicht mehr Spannung als diese \SI{0.72}{\V} durchgelassen werden können.
+				Somit fällt der Widerstand nicht gegen null und wir vermeiden einen Kurzschluss.
 				
-				Die Größe des Übergangsbereichs steht in direktem Zusammenhang mit dem Widerstand.  Denn je mehr Spannung anliegt, desto kleiner wird der Übergangsbereich und umso leichter können freie Ladungsträger diesen Bereich passieren. Der Widerstand wird also geringer.
+				%TODO? größe der Spannung
+				Die Größe des Übergangsbereichs steht in direktem Zusammenhang mit dem Widerstand.
+				Denn bei einer höheren Spannung ist auch der Übergangsbereich kleiner und freie Ladungsträger können ihn leichter passieren.
+				Der Widerstand wird also geringer.
 				
-				Diesen Sachverhalt stützt der exponentielle Verlauf, der von uns gemessenen, Kennlinie. Demnach entspricht unser Ergebnis den Erwartungen.
+				Dieser Sachverhalt wird durch den exponentiellen Verlauf der von uns gemessenen Kennlinie unterstützt.
+				Somit entspricht unser Ergebnis den Erwartungen.
 				
 		\subsection{b) Zenerdiode} 
 			
-			Die Zenerdiode funktioniert wie die in \ref{Diode} beschriebene Diode, nur dass bei der Zenerdiode auch in Sperrrichtung Strom fließen kann, insofern die angelegte Spannung groß genug ist. Dies geschieht durch das Kleiner-werden der Potentialbarrieren bei hochdotierten p-n-Übergängen, wenn starke Ströme fließen. Hierbei kommt es zu dem quantenmechanischen Tunneleffekt, der dazu führt, dass Valenzelektronen in das Leitungsband gelangen. Es bildet sich ein Durchbruchstrom.
+			Die Zenerdiode funktioniert ähnlich wie die in \ref{Diode} beschriebene Diode, nur dass bei ihr auch in Sperrrichtung Strom fließen kann, insofern die angelegte Spannung groß genug ist.
+			%TODO sind das nicht eher hohe spannungen?
+			Dies geschieht durch das Kleiner-werden der Potentialbarrieren bei hochdotierten p-n-Übergängen, wenn starke Ströme fließen.
+			Hierbei kommt es zu dem quantenmechanischen Tunneleffekt, durch welchen Valenzelektronen in das Leitungsband gelangen.
+			Es bildet sich ein Durchbruchstrom.
+			%TODO zusatz: Dieser zerstört die Diode nicht, wie es beim Lawinendurchbruch der Diode der Fall ist.
 			
 			\subsubsection*{Messung}
 			
@@ -110,6 +134,7 @@
 				 	
 				 	In Abb. \ref{KL b1} erkennt man, dass wir auch hier einen exponentiellen Verlauf der Kennlinie gemessen haben. 				 	
 				 	Anders als in der vorausgehenden Messung, fließt hier jedoch erst ab ca. \SI{2.6}{\V} ein Strom und wir konnten dieses mal bis ungefähr \SI{5}{\V} einen Strom messen.
+				 	Damit liegt die Durchbruchspannung deutlich über der Durchlassspannung.
 				 	
 				 	\begin{figure}
 				 		\centering
@@ -120,7 +145,11 @@
 				 	
 				 	\item Durchlassrichtung:  
 				 	
-				 	Diese Messung verlief analog zu der in \ref{a)} durchgeführten Messung, wie in Abb. \ref{KL b2} zu sehen. Verglichen mit der ersten Messung, ist diese genauer und der zu erkennende exponentielle Anstieg wirkt ein wenig stärker.
+				 	Diese Messung verlief analog zu der in \ref{a)} durchgeführten Messung, wie in Abb. \ref{KL b2} zu sehen.
+				 	Auch hier beträgt die Durchlassspannung ca. \SI{0,55}{\V}.
+				 	%TODO? genauer? eher gleichmäßiger
+				 	%TODO? mit welcher messung \ref
+				 	Verglichen mit der ersten Messung, ist diese genauer und der zu erkennende exponentielle Anstieg wirkt ein wenig stärker.
 				 	
 				 	\begin{figure}
 				 		\centering
@@ -134,19 +163,28 @@
 			\subsubsection*{Schlussfolgerung}
 				
 				Die Ergebnisse dieser Messung bezüglich der Durchlassrichtung stehen in direktem Zusammenhang zu dem Ergebnis aus \ref{a)}. 
-				Für die Sperrrichtung hingegen ermitteln wir, dass die Benötigte Spannung für einen Stromfluss bei ca. \SI{2.6}{\V} liegt. 
+				Für die Sperrrichtung hingegen ermitteln wir, dass die benötigte Spannung für einen Stromfluss bei ca. \SI{2.6}{\V} liegt. 
 				
-				Verglichen mit den \SI{0.5}{\V} in Durchflussrichtung ist dies ein beachtlicher und zu erwartender Unterschied. Im Gegenzug zu der Verkleinerung des Übergangsbereichs der Diode fließt in Sperrrichtung, wenn überhaupt, nur der Durchbruchstrom und für diesen benötigt man hohe Spannungen. 
+				Verglichen mit den \SI{0.5}{\V} in Durchflussrichtung ist dies ein beachtlicher und zu erwartender Unterschied.
+				Im Gegenzug zu der Verkleinerung des Übergangsbereichs der Diode fließt in Sperrrichtung, wenn überhaupt, nur der Durchbruchstrom und für diesen benötigt man hohe Spannungen. 
 				
-				Dass auch in Sperrrichtung die Kennlinie exponentiell verläuft, hat einen ähnlichen Grund, wie in Durchflussrichtung. Denn je höher die Spannung, desto mehr Elektronen lösen sich aus dem Valenzband des p-Leiters und umso stärker ist folglich der Durchbruchstrom. Der Widerstand wird also auch hier mit höherer Spannung kleiner. 
+				Dass auch in Sperrrichtung die Kennlinie exponentiell verläuft, hat einen ähnlichen Grund, wie in Durchflussrichtung.
+				Denn mit höheren Spannungen lösen sich auch mehr Elektronen aus dem Valenzband des p-Leiters und folglich ist der Durchbruchstrom stärker.
+				Der Widerstand wird also auch hier mit höherer Spannung kleiner. 
 				
 		\subsection{c) Glühlampe} 
 			
-			Bei der Glühlampe fließt der Strom durch einen Glühdraht, dieser erwärmt sich dabei und beginnt zu glühen. Wir betrachten also nun, wie sich der Widerstand nach Inbetriebnahme der Glühlampe ändert. Dazu messen wir, wie bisher, den Strom und tragen ihn gegen die Spannung auf. Um die Änderung des Widerstandes besser zu betrachten tragen wir zudem noch den Widerstand gegen die Spannung aus, wobei sich dieser aus dem Ohm'schen Gesetz und der vorausgegangen Strommessung ergibt.  
+			Bei der Glühlampe fließt der Strom durch einen Glühdraht.
+			Dieser erwärmt sich dabei und beginnt zu glühen.
+			Wir betrachten also nun, wie sich der Widerstand nach Inbetriebnahme der Glühlampe ändert.
+			Dazu messen wir den Strom wie bisher und tragen ihn gegen die Spannung auf.
+			Um die Änderung des Widerstandes besser zu betrachten tragen wir zudem noch den Widerstand gegen die Spannung auf, wobei sich dieser aus dem Ohm'schen Gesetz ($R = U / I$) und der vorausgegangen Strommessung ergibt.  
 			
 			\subsubsection*{Messung}
 				
 				Die Kennlinie der Glühlampe verläuft zunächst krumm, richtet sich im späteren Verlauf jedoch annähernd linear aus. Wir beobachten, dass die Glühlampe ab ca. \SI{2.6}{\V} anfängt schwach zu glühen. In Abb. \ref{KL c} ist zu sehen, dass die Kennlinie sich in diesem Bereich beginnt sich linear auszurichten.
+				
+				%TODO Beschreibung bei U<2V: linearität un R/U zu erkennen => Widerstand bei Zimmertemperatur
 				
 				Der letzte messbare Wert war hier bei ca. \SI{7.2}{\V}
 				
@@ -165,19 +203,28 @@
 			
 			\subsubsection*{Schlussfolgerung}
 			
-				Der annähernd lineare Verlauf der Kennlinie deutet darauf hin, dass der Widerstand sich, bei höheren Spannungen, kaum ändert. In Abb. \ref{R c} erkennen wir auch, dass dies der Fall ist, wobei der Widerstand weiterhin langsam steigt.
+				%TODO ich würde nicht allzu stark auf diese linearität eingehen 0formeln und eher logarithmisch
+				Der annähernd lineare Verlauf der Kennlinie deutet darauf hin, dass der Widerstand sich bei höheren Spannungen kaum ändert.
+				In Abb. \ref{R c} erkennen wir auch, dass dies der Fall ist, wobei der Widerstand weiterhin langsam steigt.
 				
-				Das Steigen des Widerstands lässt sich auf die steigende Temperatur zurückführen. Bei dem Glühdraht handelt es sich um ein Metall, vermutlich Wolfram. Metalle haben die Eigenschaft, dass ihre elektrische Leitfähigkeit mit steigender Temperatur abnimmt.
+				Das allgemeine Steigen des Widerstands lässt sich auf die steigende Temperatur zurückführen.
+				Bei dem Glühdraht handelt es sich um ein Metall, vermutlich Wolfram.
+				Metalle haben die Eigenschaft, dass ihre elektrische Leitfähigkeit mit steigender Temperatur abnimmt.
 				
-				Zu Beginn ist der Glühdraht bei Zimmertemperatur und wie in den beiden Abbildungen zu erkennen ist, steigt der Widerstand zunächst stark, weswegen die Kennlinie erst krumm verläuft. Ab dem Punkt, an dem der Draht glüht, steigt der Widerstand langsamer, da die Temperaturunterschiede schwächer werden.
+				Zu Beginn ist der Glühdraht bei Zimmertemperatur und wie in Abb. \ref{R c} zu erkennen ist, steigt der Widerstand zunächst stark an, weswegen die Kennlinie erst krumm verläuft.
+				Ab dem Punkt, an dem der Draht glüht, steigt der Widerstand langsamer, da die Temperaturunterschiede schwächer werden.
+				%TODO zusatz: in Abb6 ist zu erkennen: erste paar Werte linearisieren und R_0 ausrechnen für Zimmertemperatur
 				
 				Dieses Verhalten stimmt mit der Änderung der elektrischen Leitfähigkeit von Metallen bei erhöhten Temperaturen überein.
 				
 		\subsection{d) NTC-Widerstand} 
 			
-			NTC-Widerstände bestehen aus Halbleitern und verhalten sich, was den Innenwiderstand betrifft, anders als Metalle. Das \glqq NTC\grqq  steht für \glqq Negative Temperature Coefficient\grqq , soll also heißen, dass sie bei erhöhten Temperaturen, im Gegensatz zu Metallen, besser den elektrischen Strom leiten als bei geringeren Temperaturen.
+			NTC-Widerstände bestehen aus Halbleitern und verhalten sich, was den Innenwiderstand betrifft, anders als Metalle.
+			Das \glqq NTC\grqq{} steht für \glqq Negative Temperature Coefficient\grqq{}, dass sie sich also bei erhöhten Temperaturen, im Gegensatz zu Metallen, besser den elektrischen Strom leiten als bei geringeren Temperaturen.
+			%TODO kalt (oder warm?) leiter
 			
-			Bei dieser Messung betrachten wir einen solchen NTC-Widerstand. Bevor wir einen Messwert aufnehmen, lassen wir den Widerstand kurz in Ruhe, so dass er sich auf die Temperatur einstellt, die er bei gegebener Spannung annehmen sollte. 
+			Bei dieser Messung betrachten wir einen solchen NTC-Widerstand.
+			Vor dem aufnehmen eines jeden Messwertes lassen wir den Widerstand zwei bis drei Minuten in Ruhe, damit er sich auf die Temperatur einstellen kann.%TODO del: , die er bei gegebener Spannung annehmen sollte. 
 			
 			\subsubsection*{Messung}
 			
@@ -193,36 +240,58 @@
 			
 			\subsubsection*{Schlussfolgerung}
 			
-				Hier ist klar zu erkennen, dass der Widerstand mit steigender Temperatur (durch steigende Spannung) sinkt, was für NTC-Widerstände charakteristisch ist. 
+				Hier ist klar zu erkennen, dass der Widerstand mit steigender Temperatur (durch steigende Ströme) sinkt, was für NTC-Widerstände charakteristisch ist. 
 				
+				%TODO edit vgl. oben diodenerklärung
 				Dass wir auch hier nicht mehr als bis zu \SI{8}{\V} Eingangsspannung messen konnten, wird ebenfalls aufgrund von Kurzschlussvermeidung gewesen sein.
 			
 		\subsection{e) Glimmlampe} 
 			
-			Bei der Glimmlampe kann der Strom nicht einfach durchfließen, da kein elektrischer Leiter die beiden Pole direkt verbindet. Damit ein Strom fließen kann, muss er von der Kathode zur Anode gelangen. Zwischen den beiden befindet sich lediglich ein Gas, welches als Leiter dienen soll. Dieses kann jedoch nur durch Gasentladungen den elektrischen Strom von der Kathode zur Anode führen.
+			Bei der Glimmlampe kann der Strom nicht einfach durchfließen, da kein elektrischer Leiter die beiden Pole direkt miteinander verbindet.
+			%TODO edit: technisch: anode -> kathode
+			Damit ein Strom fließen kann, muss er von der Kathode zur Anode gelangen.
+			Zwischen den beiden befindet sich lediglich ein Gas, welches als Leiter dienen soll.
+			%TODO edit: same
+			Dieses kann jedoch nur durch Gasentladungen den elektrischen Strom von der Kathode zur Anode führen.
 			
 			\subsubsection*{Gasentladungen}
 			
-				Die an der Kathode anliegende Spannung, sorgt dafür, dass freie Elektronen die Kathode verlassen. Je höher die anliegende Spannung, desto schneller die Elektronen. 
+				Die an der Kathode anliegende Spannung lässt freie Elektronen die Kathode verlassen.
+				%TODO elektronen werden schneller beschleunigt -> dunkelraum kleiner -> dann mehr energie -> heller
+				Je höher die anliegende Spannung, desto schneller werden die Elektronen beschleunigt und erreichen bei der Anode eine höhere Endgeschwindigkeit.
+				Sind sie schnell genug um die Gasatome durch Stoßionisation anzuregen, führt dies zu einer Kettenreaktion von sich lösenden Elektronen.
+				%TODO extra satz für neues thema
+				Die Spannung, welche man für die Anregung braucht, nennt man Zündspannung. 
 				
-				Sind sie schnell genug, so können sie die Gasatome ionisieren, auf die sie stoßen. Dies führt zu einer Kettenreaktion von sich lösenden Elektronen und die Spannung, welche man für die benötigte Geschwindigkeit braucht, nennt man Zündspannung. 
-				
-				Zudem wird Licht bei der Ionisation des Gases emittiert, was das \glqq Glimmen\grqq der Lampe ausmacht.
-				
-				An der Anode kommen schließlich aus den Gasatomen gelöste Elektronen an und ein Strom fließt, solange die Ionisation des Gases weiter stattfindet. Dazu bedarf es der sogenannten Löschspannung.
+				An der Anode kommen schließlich aus den Gasatomen gelöste Elektronen an und ein Strom fließt, solange die Ionisation des Gases aufrecht erhalten wird.
+				Sinkt die Spannung unter die sogenannte Löschspannung, dann ist dies nicht mehr möglich und die Entladung wird unterbrochen.
+				%TODO edit: ionisation nicht mehr, aber anregung?
 				Die Löschspannung ist geringer als die Zündspannung, da die Energie für das Starten der Ionisation nicht mehr benötigt wird, jedoch weitere beschleunigte Elektronen.
 					
+				%TODO edit: beim zurückfallen werden Ionen ausgesandt
+				Zudem wird Licht bei der Ionisation des Gases emittiert, was das \glqq Glimmen\grqq{} der Lampe ausmacht.
 			\subsubsection*{Messung}
 			
-				Wir messen zunächst, wie viel Volt wir benötigen um die Glimmlampe zu zünden. Diesen Wert haben wir bei ungefähr \SI{119}{\V} gefunden.
+				%TODO welche Spannung notwendig ist...
+				Wir messen zunächst, wie viel Volt wir benötigen um die Glimmlampe zu zünden.
+				%TODO Die Zündspannung haben wir auf \SI{119}{\V} bemessen.
+				Diesen Wert haben wir bei ungefähr \SI{119}{\V} gefunden.
+				Danach fiel die von uns gemessene Eingangsspannung instantan auf ca. \SI{88,4}{\V} ab und wir haben einen Strom gemessen.
+				%TODO chronologisch eher danach, weil nebensächlichkeiten hinten
 				Hier fing die Glimmlampe auch an zu leuchten.
-				Danach fiel die von uns gemessene Eingangsspannung instantan auf ca. \SI{88,4}{\V} und wir haben begonnen einen Strom zu messen. Bis zum erreichen der Zündspannung war dieser gleich null, weswegen wir nur den relevanten Bereich in Abb. \ref{KL e} dargestellt haben.
+				Bis zum Erreichen der Zündspannung war dieser gleich null, weswegen wir nur den relevanten Bereich in Abb. \ref{KL e} dargestellt haben.
 				
+				%TODO URTEIL(?) bei 4 messpunkten?!
 				Wir haben zunächst versucht die Eingangsspannung zu erhöhen, was bis zu ca. \SI{92}{\V} möglich war. In diesem Bereich verlief das Strom-Spannungs-Verhältnis nahezu linear.
 				
-				Das Herunterregeln der Eingangsspannung ergab unerwartete Effekte, wie z.B. dass das Herunterregeln der Spannung gelegentlich zu höheren Spannungen geführt hat (siehe Abb. \ref{KL e}). Der Strom hingegen wurde Erwartungsgemäß kleiner bis wir schließlich eine Stromstärke von \SI{0}{mA} erreicht haben.
+				%TODO das ist gar nicht im diagramm zu sehen, nur im laborbuch in der aufschriebreihenfolge
+				%TODO style: hört sich holperig an
+				Das Herunterregeln der Eingangsspannung ergab unerwartete Effekte, wie z. B. dass das Herunterregeln der Spannung am Netzgerät teilweise zu höheren Spannungen, nicht jedoch  geführt hat (siehe Abb. \ref{KL e}).
+				%TODO einfach 0
+				Der Strom hingegen wurde mit dem Herunterregeln kleiner bis wir schließlich eine Stromstärke von \SI{0}{mA} erreicht haben\footnote{siehe dazu Reihenfolge der Messwerte im Laborbuch, Seite 2}.
+				%TODO add: Die Löschspannung konnte folglich nicht eindeutig festgelegt werden, da zwar bei \SI{87,7}{\V} die Lampe erlischt, es jedoch auch deutlich niedrigere Spannungen gab.
 				
-				Das darauffolgende Erhöhen der Eingangsspannung spiegelte den Anfang der Messung wieder, also kein Strom bis die Zündspannung erreicht wurde. 
+				Nachdem die Glimmlampe erlischt war, musste die Zündspannung ein weiteres Mal angelegt werden, um sie zu entzünden.
 			
 				\begin{figure}
 					\centering
@@ -233,9 +302,12 @@
 			
 			\subsubsection*{Schlussfolgerung}
 			
-				Wir entnehmen unserer Messung, dass die Zündspannung der Glimmlampe bei ca. \SI{119}{\V} liegt und die Löschspannung bei ungefähr \SI{86,5}{\V}, was unser geringster Wert für die Eingangsspannung war, bei dem wir einen Strom messen konnten.
-				Für die Zündspannung wurde uns ein Wert von ungefähr \SI{120}{\V} vorgegeben, welcher mit unserer Messung weitgehend übereinstimmt, lediglich \SI{1}{\V} Differenz.
+				Wir entnehmen unserer Messung, dass die Zündspannung der Glimmlampe bei ca. \SI{119}{\V} liegt.
+				%TODO können wir nicht sagen, da die lampe eigentlich bei 87,7 ausgegangen ist
+				Die Löschspannung liegt bei ungefähr \SI{86,5}{\V}, was unser geringster Wert für die Eingangsspannung war, bei dem wir einen Strom messen konnten.
+				Für die Zündspannung wurde uns ein Wert von ungefähr \SI{120}{\V} vorgegeben, welcher mit unserer Messung weitgehend übereinstimmt, lediglich eine Differenz von \SI{1}{\V}.
 				
+				%TODO würde ich raus lassen, oder komplett mit dunkelraum etc. erklären
 				Was genau die unerwarteten Effekte beim Einstellen der Eingangsspannung hervorrief ist unklar, wobei wir vermuten können, dass sich nach dem Finden der Zündspannung ein Widerstand bildete, welcher in Abhängigkeit von der Eingangsspannung einen Teil der Spannung blockierte, was auch den plötzlichen Abfall von \SI{119}{\V} auf \SI{88.4}{\V} erklären könnte. Sodass beim Herunterregeln der Eingangsspannung der Widerstand kleiner wurde und die gemessene Spannung folglich größer.  
 			
 	\section{Versuch 2: Widerstand in Abhängigkeit der Temperatur}		
