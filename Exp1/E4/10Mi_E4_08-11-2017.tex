@@ -281,7 +281,8 @@
 				Die Löschspannung liegt zwischen \SI{86,5}{\V} und \SI{88}{\V}. Sie konnte nicht eindeutig festgelegt werden, da zwar bei \SI{87,7}{\V} die Lampe erlischt, es jedoch auch niedrigere Spannungen gab, bei denen die Lampe noch geleuchtet hat.
 				
 				Für die Zündspannung wurde uns ein Wert von ungefähr \SI{120}{\V} vorgegeben, welcher mit unserer Messung weitgehend übereinstimmt, lediglich eine Differenz von \SI{1}{\V}.
-						
+					
+	\newpage	
 	\section{Versuch 2: Widerstand in Abhängigkeit der Temperatur}		
 		
 		In diesem Versuch beschäftigen wir uns mit der Leitfähigkeit eines Kupferdrahtes in Abhängigkeit der Temperatur.
@@ -294,6 +295,7 @@
 				R = \varrho \frac{l}{A} \Rightarrow R_e(x) = \frac{x}{l} R_0 = \SI{11,3} x \cdot \si{\Omega\per\meter}
 			\end{equation*}				
 			$x$ sei hierbei die Position des Schiebereglers und $l$ die gesammte Länge des Drahtes.	
+			
 			Das Prinzip der Wheatstone'schen Brücke ermöglicht uns mit Hilfe der Kirchhoff'schen Regeln einen unbekannten Widerstand zu berechnen.
 			Wird an dem Strommessgerät, wie es in Abb. \ref{Schaltskizze2} verbaut ist, kein Strom gemessen, dann gilt nach dem Abgleichverfahren
 			\begin{equation*}
@@ -314,9 +316,11 @@
 		
 		\subsection{Messung}
 			
-			Abb. \ref{Ölbad} stellt die Position des Widerstandreglers in Abhängigkeit von der Temperatur dar. Die Gesamtlänge des Widerstands liegt bei \SI{100}{cm}, da wir hier jedoch nur Längen von \SIrange{50}{60}{cm} betrachtet haben, liegen die Werte für den Widerstand $R_\text{x}(T)$\footnote{aus der obigen Formel für $0.5\cdot R_\text{e}$ bis $0.6\cdot R_\text{e}$} zwischen \SI{0,65}{\Omega} und \SI{1,78}{\Omega}.
+			Abb. \ref{Ölbad} stellt die Position des Widerstandreglers in Abhängigkeit von der Temperatur dar.
+			Die Gesamtlänge des Widerstands liegt bei \SI{100}{cm}.
 			
-			In dem Diagramm erkennt man, dass der Widerstand des Kupferdrahtes sich mit steigender Temperatur nahezu linear erhöht und bei sinkender Temperatur ähnlich fällt.
+			In Abb. \ref{fig:drahtRT} sind die umgerechneten Widerstände gegen die Temperatur aufgetragen.
+			Die Ausgleichsgerade hat eine Steigung von $m = 0,021335$ und schneidet die y-Achse bei $y_0 = 5,005$.
 			
 			\begin{figure}
 				\centering
@@ -324,12 +328,22 @@
 				\caption{Position des Widerstandreglers in Abhängigkeit von der Temperatur}
 				\label{Ölbad}
 			\end{figure}
+			\begin{figure}
+				\centering
+				\includegraphics[width=\textwidth]{KennlinieDrahtRT.pdf}
+				\caption{Widerstand des Drahtes relativ zur Temperatur}
+				\label{fig:drahtRT}
+			\end{figure}
 			
 		\subsection{Schlussfolgerung}	
 			
 			Wie auch schon bei der Glühlampe erkennen wir, dass die Eigenschaft eines Metallleiters, mit steigender Temperatur schlechter den elektrischen Strom zu leiten, von dem Kupferdraht erfüllt wird.
 			
-			Entgegen der Erwartungen, ist der Widerstand beim Abkühlen, bei gleichen Temperaturen, stets geringer als beim Erhitzen. %TODO Wieso?
+			Entgegen der Erwartung ist der Widerstand des Drahtes nicht vorgelaufen, sondern eher im Gegenteil zurückgeblieben.
+			Das sieht man z. B. in {Abb. \ref{fig:drahtRT}} gut daran, dass die meisten Werte beim erwärmen über der Geraden liegen, während sie beim abkühlen größtenteils unter dieser sind.
+			
+			Der Temperaturkoeffizient $\alpha$ ist gerade die Steigung $m$ der Ausgleichsgerade.
+			Also $\alpha = 0,021335$.
 		
 	\begin{thebibliography}	
 		e Abbildungen \ref{Schaltskizze1} und \ref{Schaltskizze2} wurden der Versuchsanleitung entnommen

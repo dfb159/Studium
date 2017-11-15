@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  15 NOV 2017 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  15 NOV 2017 02:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1155,62 +1155,67 @@ Package pdftex.def Info: KennlinieGlimmlampe.pdf  used on input line 272. on in
 put line 272.
 Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 27
 2.
-
-Overfull \hbox (4.15504pt too wide) in paragraph at lines 285--285
+ [11 <./KennlinieGlimmlampe.pdf>]
+Overfull \hbox (4.15504pt too wide) in paragraph at lines 286--286
 []\T1/lmr/bx/n/14.4 Versuch 2: Wi-der-stand in Ab-hän-gig-keit der Tem-
  []
 
-[11 <./KennlinieGlimmlampe.pdf>]
 <Versuch2.png, id=170, 234.1247pt x 277.035pt>
 File: Versuch2.png Graphic file (type png)
 <use Versuch2.png>
-Package pdftex.def Info: Versuch2.png  used on input line 310. on input line 31
-0.
+Package pdftex.def Info: Versuch2.png  used on input line 312. on input line 31
+2.
 Package pdftex.def Info: Requested size: 216.0022pt x 255.6066pt on input line 
-310.
+312.
 <MessungDraht.pdf, id=171, pagebox=cropbox, 501.875pt x 381.425pt>
 File: MessungDraht.pdf Graphic file (type pdf)
 <use MessungDraht.pdf>
-Package pdftex.def Info: MessungDraht.pdf  used on input line 323. on input lin
-e 323.
+Package pdftex.def Info: MessungDraht.pdf  used on input line 327. on input lin
+e 327.
 Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 32
+7.
+<KennlinieDrahtRT.pdf, id=172, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieDrahtRT.pdf Graphic file (type pdf)
+<use KennlinieDrahtRT.pdf>
+Package pdftex.def Info: KennlinieDrahtRT.pdf  used on input line 333. on input
+ line 333.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 33
 3.
- [12]
+[12]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 336.
+LaTeX Warning: Empty `thebibliography' environment on input line 350.
 
-[13 <./Versuch2.png>] [14 <./MessungDraht.pdf>] (./10Mi_E4_08-11-2017.aux) ) 
+[13 <./Versuch2.png>] [14 <./MessungDraht.pdf>] [15 <./KennlinieDrahtRT.pdf>]
+(./10Mi_E4_08-11-2017.aux) ) 
 Here is how much of TeX's memory you used:
- 14809 strings out of 492990
- 299873 string characters out of 6129797
- 313306 words of memory out of 5000000
- 18206 multiletter control sequences out of 15000+600000
- 608849 words of font info for 65 fonts, out of 8000000 for 9000
+ 14813 strings out of 492990
+ 300010 string characters out of 6129797
+ 313316 words of memory out of 5000000
+ 18210 multiletter control sequences out of 15000+600000
+ 605868 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,10410b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:
-/Program Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Pro
-gram Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/Program
- Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/Program Files/t
-exlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Program Files/texlive/2
-017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/Program Files/texlive/2017/
-texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/Program Files/texlive/2017/texm
-f-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/Program Files/texlive/2017/texmf-d
-ist/fonts/type1/public/lm/lmmi10.pfb><c:/Program Files/texlive/2017/texmf-dist/
-fonts/type1/public/lm/lmmi8.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts
-/type1/public/lm/lmmi9.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type
-1/public/lm/lmr10.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/l
-m/lmr17.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr
-6.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
-<c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Pr
-ogram Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/Progra
-m Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Program Fil
-es/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on 10Mi_E4_08-11-2017.pdf (15 pages, 394054 bytes).
+{c:/Program Files/texlive/2017/texmf-dist/fonts/enc
+/dvips/lm/lm-mathsy.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/dvi
+ps/lm/lm-ec.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm
+-mathit.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.
+enc}<c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb>
+<c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/
+Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/Pro
+gram Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Program
+ Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Program File
+s/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Program Files/tex
+live/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Program Files/texlive/
+2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Program Files/texlive/2017/
+texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Program Files/texlive/2017/texmf-
+dist/fonts/type1/public/lm/lmr8.pfb><c:/Program Files/texlive/2017/texmf-dist/f
+onts/type1/public/lm/lmr9.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/t
+ype1/public/lm/lmsy10.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1
+/public/lm/lmsy8.pfb>
+Output written on 10Mi_E4_08-11-2017.pdf (16 pages, 396360 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
+ 266 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
