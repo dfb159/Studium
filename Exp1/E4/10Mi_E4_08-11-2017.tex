@@ -291,27 +291,19 @@
 			Wir schließen unseren Kupferdraht an eine Wheatstone'sche Brückenschaltung an (siehe Abb. \ref{Schaltskizze2}). Hierbei bezeichnet $R_\text{x}(T)$ unseren Kupferdraht, $R_\text{v}$ einen einfachen \SI{5}{\Omega} Widerstand und $R_\text{e}$ den \SI{11,3}{\Omega} Widerstand, welcher sich wie ein Potentiometer einstellen lässt. Bei diesem handelt es sich um einen Widerstand über ein Metall. Widerstände dieser Art sind proportional zur Länge $l$ des Metalls und antiproportional zur ihrer Querschnittsfläche $A$. 
 			
 			\begin{equation*}
-				R = \varrho \frac{l}{A} 
+				R = \varrho \frac{l}{A} \Rightarrow R_e(x) = \frac{x}{l} R_0 = \SI{11,3} x \cdot \si{\Omega\per\meter}
 			\end{equation*}				
-			Unser l ist hierbei durch die Position des Schiebereglers x gegeben. Der Widerstand ist somit
-			\begin{equation*}
-			R_e(x) = \varrho \frac{x}{A}
-			\end{equation*}
-			wobei
-			\begin{equation*}
-			R_e(L) = \varrho \frac{L}{A} = \SI{11,3}{\Omega}
-			\end{equation*}		
+			$x$ sei hierbei die Position des Schiebereglers und $l$ die gesammte Länge des Drahtes.	
 			Das Prinzip der Wheatstone'schen Brücke ermöglicht uns mit Hilfe der Kirchhoff'schen Regeln einen unbekannten Widerstand zu berechnen.
-			Wird an dem Strommessgerät, wie es in Abb. \ref{Schaltskizze2} verbaut ist, kein Strom gemessen, dann gilt:
-			
+			Wird an dem Strommessgerät, wie es in Abb. \ref{Schaltskizze2} verbaut ist, kein Strom gemessen, dann gilt nach dem Abgleichverfahren
 			\begin{equation*}
-				R_\text{x}(T) + R_\text{v} =  R_\text{e}
+				\frac{R_e(x)}{R_0-R_e(x)} = \frac{R_\nu}{R_x} \Rightarrow R_x = \frac{x}{l-x} R_\nu.
 			\end{equation*}
 			Wir stellen unseren Widerstand $R_\text{e}$ über den Schieberegler also für jede Messung so ein, dass $I = 0$ erfüllt ist. Es wird erst über den \SI{20}{k\Omega} kalibriert und dann über den geschlossenem Schalter für genauere Messungen.
 			
-			Bevor wir die Messung beginnen, kühlen wir unseren Draht auf ca. \SI{0}{\celsius}, erhitzen ihn auf nahezu \SI{100}{\celsius} und lassen ihn wieder bis zu \SI{15}{\celsius} abkühlen.
-			
-			Wir messen für steigende, und später fallende, Temperaturen die Position des Schiebereglers und tragen diese auf.
+			Bevor wir die Messung beginnen, kühlen wir unseren Draht auf ca. \SI{0}{\celsius} ab.
+			Nun erhitzen wir ihn langsam auf nahezu \SI{100}{\celsius} und messen währenddessen kontinuierlich die Temperatur und die Position des Schiebereglers.
+			Das gleiche wiederholen wir für die Abkühlung bis \SI{15}{\celsius}, wobei wir Eis genutzt haben, um den Prozess etwas zu beschleunigen.
 						
 			\begin{figure}
 				\centering

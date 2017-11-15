@@ -9,4 +9,4 @@
 \contentsline {section}{\numberline {3}Versuch 2: Widerstand in Abh\IeC {\"a}ngigkeit der Temperatur}{11}
 \contentsline {subsection}{\numberline {3.1}Methoden}{12}
 \contentsline {subsection}{\numberline {3.2}Messung}{12}
-\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{13}
+\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{12}
