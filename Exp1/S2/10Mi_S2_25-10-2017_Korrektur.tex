@@ -66,6 +66,7 @@
 		\end{enumerate}
 		In Abb. \ref{fig:matpendel} ist dies schematisch dargestellt. $\vec{G}$ sei die Gewichtskraft.
 		Es sei angemerkt, dass $\varphi$ deutlich überzeichnet ist.
+		Zu beachten ist, dass $\varphi$ deutlich kleiner ist, als in der Abbildung dargestellt.
 		
 		\begin{figure}[ht]
 			\centering
@@ -176,6 +177,7 @@
 		
 		Die Ergebnisse 1 und 2 aus Tab. \ref{tab:werteTabelle} folgen direkt nach der Gl. (\ref{eq:g}).
 		Dabei sind die Messunsiherheiten gegeben durch
+		Dabei sind die Messunsicherheiten gegeben durch
 		\begin{equation*}
 			u(g) = \sqrt{
 				\left( \frac{\partial f}{\partial T} u(T) \right)^2 +
@@ -189,6 +191,9 @@
 		Die Skallierung auf der Zeitachse ist in beiden Diagrammen gleich gewählt.
 		Vergleicht man beide Verteilungen, so fällt die deutlich geringere Streuung bei Messung 6 auf.
 		Vielleicht hat man nach 5 Messungen einfach eine gewisse Technik entwickelt, die eine solche Steigerung erklärt.
+		Bei beiden Diagrammen ist die Skalierung der Zeitachse gleich gewählt.
+		Vergleicht man nun diese Verteilungen, so fällt die deutlich geringere Streuung bei Messung 6 auf.
+		Dies liegt vermutlich daran, dass wir, verglichen mit der ersten Messung, vertrauter mit dem Messvorgang waren und somit besser abschätzen konnten, wann die Geschwindigkeitsänderung gegen null ging.
 							
 		\begin{figure}[ht]
 			\centering
@@ -205,12 +210,22 @@
 			
 		Die Abb. \ref{fig:multi} stellt die linearisierte Funktion $T^2 = \frac{4 \pi^2}{g} L$ (Gl. (\ref{eq:g}) nach $T^2$ umgestellt) dar.
 		Die Unsicherheit $T^2$ muss nun neu berechnet werden mit $u(T^2) = \frac{\partial T^2}{\partial T} u(T) = 2 T \cdot u(T)$.
+<<<<<<< HEAD
 		Für die Seillänge können direkt die Werte aus (\ref{Messung} Messung) genommen werden.
 		Bei der Funktion $T^2$ lässt sich ein Steigung von $m = \frac{4 \pi^2}{g}$.
 		Mit der Ausgleichsgerade aus Abb. \ref{fig:multi} ist die Steigung $m = \SI{4,094}{\second\squared\per\meter}$.
 		Die Unsicherheit muss mit Hilfe der Student'schen t-Verteilung korrigiert werden und beläuft sich bei $p = \SI{68,27}{\%}$ auf $u(m) = t_3 \cdot \SI{0,040}{\second\squared\per\meter} = \SI{0,047}{\second\squared\per\meter}$.
 		
 		\begin{figure}[ht]
+=======
+		Für die Seillänge können direkt die Werte aus (Messung \ref{Messung}) genommen werden.
+		Es ergibt sich eine Steigung $m = \frac{4 \pi^2}{g}$ und somit folgt
+		\begin{equation}
+			g = \frac{4 \pi^2}{m} \approx \SI{9,720}{\meter\per\second\squared}.
+		\end{equation}
+			
+		\begin{figure}
+>>>>>>> f5b71790cc5de4d26875011d1bf33a905d20556f
 			\centering
 			\includegraphics[width=\textwidth]{SteigungMultimessung_2.pdf}
 			\caption{Datenpunkte der Multimessung mit Ausgleichsgerade}
@@ -226,6 +241,7 @@
 		Damit folgt eine Gravitationskonstante von $g = \SI{9,643 +- 0,111}{\meter\per\second\squared}$.
 		
 	\section{Zusammenfassung}
+<<<<<<< HEAD
 		Durch ein Pendelexperiment haben wir die Gravitationskonstante auf einen Wert nahe dem Literaturwert ermittelt.
 		Als mathematische Grundlage diente hierzu das ideale Pendel, wobei z. B. der Luftwiderstand ignoriert wurde.
 		Zur weiteren Überprüfung haben wir mit zwei unterschiedlichen Messverfahren gearbeitet.
@@ -240,6 +256,22 @@
 		Es stellt sich die Frage, welche Faktoren Einfluss auf die Lichtschrankenmessung hatten, so dass sich Werte von $g$ ergaben, die so stark vom Literaturwert abweichen.
 		Um das Problem der WWU-Messung zu finden, müsste man Nebeneffekte, wie z. B. die Luftreibung, genauer betrachten und diese berücksichtigen.	
 		
+=======
+		Durch ein Pendelexperiment haben wir die Gravitationskonstante in Näherung ermittelt.
+		Dieser lag nahe dem Literaturwert.
+		Als mathematische Grundlage diente hierzu das ideale Pendel.
+		Zur weiteren Überprüfung haben wir mit zwei unterschiedlichen Messverfahren gearbeitet.
+		Zum einen sei die Seillänge des Pendels für eine große Anzahl an Messungen gleich, zum anderen wurden mehrere kleinere Messreihen zu unterschiedlichen Seillängen durchgeführt.
+		Dabei sind die Messunsicherheiten weitgehend berücksichtigt worden.		
+		
+	\section{Schlussfolgerung}
+		Nach eingehenden Untersuchungen zur Gravitationskonstante durch ein Pendel sind wir zu dem Ergebnis gekommen, dass die von der WWU gemessenen Größen nicht realistisch sind.
+		Die Gravitationskonstante in Münster unterliegt keiner Anomalie und einem dem Literaturwert entgegengesetzten Wert können wir mit unseren Ergebnissen nicht zustimmen.
+		Der Literaturwert liegt meist innerhalb einer Standardabweichung und stets ist dieser näher am ermittelten Wert, als der von der WWU Gemessene.
+		
+		Um das Problem der WWU-Messung zu finden, müsste man Nebeneffekte, wie z. B. die Luftreibung, genauer betrachten und diese berücksichtigen.
+				
+>>>>>>> f5b71790cc5de4d26875011d1bf33a905d20556f
 		\newpage
 		
 		\begin{thebibliography}{9}		
