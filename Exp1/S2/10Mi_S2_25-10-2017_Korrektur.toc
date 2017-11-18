@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Einleitung}{2}
+\contentsline {section}{\numberline {2}Methoden}{2}
+\contentsline {subsection}{\numberline {2.1}Mathematisches Pendel}{2}
+\contentsline {section}{\numberline {3}Messung}{3}
+\contentsline {section}{\numberline {4}Datenanalyse}{4}
+\contentsline {section}{\numberline {5}Zusammenfassung}{6}
+\contentsline {section}{\numberline {6}Schlussfolgerung}{7}
