@@ -105,31 +105,27 @@
 	mit speziefisch $B_r = \SI{1,87+-0,1}{T}$, sowie Radius $R = \SI{30}{\milli\meter}$ und Dicke $D = \SI{15}{\milli\meter}$.
 	
 	Rechnet man eine Formel nach der anderen aus, so bekommt man für jedes Material eine Volumensuszeptibilität.
-	Die Unsicherheit $u(B_r) = \SI{0,1}{T}$ pflanzt sich in folgender Weise fort:
-	\begin{align}
-		u\big(B(z)\big) &= \frac{\partial\,B(z)}{\partial\,B_r} \cdot u(B_r) = \frac{u(B_r)}{2}\left( \frac{D+z}{\sqrt{R^2 + (D+z)^2}} - \frac{z}{\sqrt{R^2 + z^2}}\right)\\
-		u\left( \frac{\partial\,B^2_z}{\partial\,z}\right)
-		&= \frac{\partial\,}{\partial\,B}\left[ \frac{B_z^2(d) - B_z^2(d+h_s)}{h_s}\right]  \cdot u\big(B(z)\big)\\
-		&= \frac{\partial\,}{\partial\,B} \left[ \frac{B_z^2(d)}{h_s}\right]  \cdot u\big(B(d)\big) - \frac{\partial\,}{\partial\,B} \left[ \frac{ B_z^2(d+h_s)}{h_s}\right]  \cdot u\big(B(d+h_s)\big)\\
-		&= \frac{2B_z(d)}{h_s} \cdot u\big(B(d)\big) - \frac{2B_z(d+h_s)}{h_s} \cdot u\big(B(d+h_s)\big)\\
-		u\left( \chi_V\right) &= \frac{\partial\,}{\partial\,\frac{\partial\,B_z^2}{\partial\,z}} \left[ \frac{2 \cdot \mu_0 \cdot \Delta m \cdot g}{V_S \cdot \frac{\partial\,B_z^2}{\partial\,z}}\right] \cdot u\left( \frac{\partial\,B_z^2}{\partial\,z}\right) \\
-		&= - \frac{2 \cdot \mu_0 \cdot \Delta m \cdot g}{V_S \cdot \left( \frac{\partial\,B_z^2}{\partial\,z}\right) ^2} \cdot u\left( \frac{\partial\,B_z^2}{\partial\,z}\right)
-	\end{align}
-	Damit ergeben sich die Endformeln:
+	Insgesammt ergibt sich
 	\begin{equation}
-		\chi_V = \frac{2 \cdot \mu_0 \cdot \Delta m \cdot g}{\pi r^2 \cdot \left[ \frac{B_r^2}{4}\left( \frac{D+d}{\sqrt{R^2 + (D+d)^2}} - \frac{d}{\sqrt{R^2 + d^2}}\right)^2 - \frac{B_r^2}{4}\left( \frac{D+d+h_s}{\sqrt{R^2 + (D+d+h_s)^2}} - \frac{d+h_s}{\sqrt{R^2 + (d+h_s)^2}}\right)^2\right] },
+		\chi_V = \gamma \frac{\Delta m}{B_r^2}
 	\end{equation}
-	\begin{align}
-		u(\chi_V) = - \frac{2 \cdot \mu_0 \cdot \Delta m \cdot g}{\pi r^2 \cdot \left[ \frac{B_r^2}{4}\left( \frac{D+d}{\sqrt{R^2 + (D+d)^2}} - \frac{d}{\sqrt{R^2 + d^2}}\right)^2 - \frac{B_r^2}{4}\left( \frac{D+d+h_s}{\sqrt{R^2 + (D+d+h_s)^2}} - \frac{d+h_s}{\sqrt{R^2 + (d+h_s)^2}}\right)^2\right] ^2}\\
-		\cdot \left[ B_r \left( \frac{D+d}{\sqrt{R^2 + (D+d)^2}} - \frac{d}{\sqrt{R^2 + d^2}}\right) \cdot \frac{u(B_r)}{2}\left( \frac{D+d}{\sqrt{R^2 + (D+d)^2}} - \frac{d}{\sqrt{R^2 + d^2}}\right)\right.\\
-		- \left. B_r\left( \frac{D+d+h_s}{\sqrt{R^2 + (D+d+h_s)^2}} - \frac{d+h_s}{\sqrt{R^2 + (d+h_s)^2}}\right) \cdot \frac{u(B_r)}{2}\left( \frac{D+d+h_s}{\sqrt{R^2 + (D+z)^2}} - \frac{d+h_s}{\sqrt{R^2 + (d+h_s)^2}}\right)\right] 
-	\end{align}
-	Mit den angegebenen Werten von
-	\begin{align}
-		D = \SI{15}{\milli\meter}; \quad R = \SI{30}{\milli\meter}; \quad B_r = \SI{1,87}{T}; \quad u(B_r) = \SI{0,1}{T}\\
-		d = \SI{1}{\milli\meter}; \quad r = ?? (\text{Wert fehlt!!! Radius der Probe})\\
-		V_s = h_s \cdot \pi r^2
-	\end{align}
+	mit den Konstanten
+	\begin{equation*}
+		\gamma = \frac{8 \cdot \mu_0\cdot g \cdot h_S}{V_S \cdot \alpha};\quad
+		\alpha = \left( B_z^{'}(d)\right)^2-\left( B_z^{'}(d+h_S)\right) ^2;\quad
+		B_z^{'}(z) = \frac{D+z}{\sqrt{R^2 + (D+z)^2}} - \frac{z}{\sqrt{R^2+z^2}}
+	\end{equation*}.
+	
+	Die Unsicherheit $u(\chi_V)$ berechnet sich folgendermaßen:
+	\begin{equation}
+		u(\chi_V) = \gamma\sqrt{\left( \frac{u(\Delta m)}{B_z^2}\right) ^2+\left( \frac{\Delta m}{2B_z^3}u(B_r)\right) ^2}
+	\end{equation}
+	
+	Es folgen die Volumensuszeptibilitäten für die untersuchten Stoffe.
+	%\begin{table}[S|S|S]
+	%	Aluminium & Graphit & Glas \\
+	%	\SI{13,79E-06 +- 4,61E-06}{} & \SI{value}{634,42E-06+-17,578E-06}{} & \SI{11,60E-06+-2,92E-06}{}
+	%\end{table}
 	
 	\section{Schaukel}
 	\begin{figure}[ht]
