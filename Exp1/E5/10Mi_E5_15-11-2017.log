@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  21 NOV 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  21 NOV 2017 16:55
 entering extended mode
 **./10Mi_E5_15-11-2017.tex
 (10Mi_E5_15-11-2017.tex
@@ -1053,98 +1053,101 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@toc=\write3
 \openout3 = `10Mi_E5_15-11-2017.toc'.
 
- [1] [2]
+ [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 51.
+(Font)              <9> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 51.
- [3]
-<SkizzeFermi1.png, id=26, 935.74594pt x 628.59843pt>
+(Font)              <5> on input line 53.
+ [2]
+<SkizzeFermi1.png, id=20, 935.74594pt x 628.59843pt>
 File: SkizzeFermi1.png Graphic file (type png)
  <use SkizzeFermi1.png>
-Package pdftex.def Info: SkizzeFermi1.png used on input line 98.
+Package pdftex.def Info: SkizzeFermi1.png used on input line 100.
 (pdftex.def)             Requested size: 360.0pt x 241.8337pt.
 
-<SkizzeFermi2.png, id=27, 935.74594pt x 628.59843pt>
+<SkizzeFermi2.png, id=21, 935.74594pt x 628.59843pt>
 File: SkizzeFermi2.png Graphic file (type png)
  <use SkizzeFermi2.png>
-Package pdftex.def Info: SkizzeFermi2.png used on input line 103.
+Package pdftex.def Info: SkizzeFermi2.png used on input line 105.
 (pdftex.def)             Requested size: 360.0pt x 241.8337pt.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 118.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 120.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4 <./SkizzeFermi1.png>] <SkizzeZeitverlaufLichtpunktWasser.png, id=37, 935.7
-4594pt x 628.59843pt>
+) [3] [4 <./SkizzeFermi1.png> <./SkizzeFermi2.png>]
+<SkizzeZeitverlaufLichtpunktWasser.png, id=38, 935.74594pt x 628.59843pt>
 File: SkizzeZeitverlaufLichtpunktWasser.png Graphic file (type png)
 
 <use SkizzeZeitverlaufLichtpunktWasser.png>
 Package pdftex.def Info: SkizzeZeitverlaufLichtpunktWasser.png used on input li
-ne 121.
+ne 123.
 (pdftex.def)             Requested size: 360.0pt x 241.8337pt.
-
-
-LaTeX Warning: Reference `' on page 5 undefined on input line 136.
-
-[5 <./SkizzeFermi2.png>]
-<SkizzeMagnetwaage.png, id=42, 935.74594pt x 628.59843pt>
+ [5 <./SkizzeZeitverlaufLichtpunktWasser.png>] <SkizzeMagnetwaage.png, id=42, 9
+35.74594pt x 628.59843pt>
 File: SkizzeMagnetwaage.png Graphic file (type png)
 
 <use SkizzeMagnetwaage.png>
-Package pdftex.def Info: SkizzeMagnetwaage.png used on input line 147.
+Package pdftex.def Info: SkizzeMagnetwaage.png used on input line 149.
 (pdftex.def)             Requested size: 360.0pt x 241.8337pt.
+ [6]
+Overfull \hbox (45.56844pt too wide) detected at line 184
+\OML/lmm/m/it/10.95 [] \OT1/lmr/m/n/10.95 = []\OML/lmm/m/it/10.95 ;
+ []
+
+[7 <./SkizzeMagnetwaage.png>]
+Overfull \hbox (119.65099pt too wide) in paragraph at lines 189--189
+[] 
+ []
 
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 159.
-
-
-Overfull \hbox (12.81944pt too wide) in paragraph at lines 163--175
+Overfull \hbox (7.56708pt too wide) in paragraph at lines 202--214
  [][] 
  []
 
-[6 <./SkizzeZeitverlaufLichtpunktWasser.png>]
-<Neodymmagnet.png, id=47, 342.5297pt x 664.73344pt>
+<Neodymmagnet.png, id=52, 342.5297pt x 664.73344pt>
 File: Neodymmagnet.png Graphic file (type png)
  <use Neodymmagnet.png>
-Package pdftex.def Info: Neodymmagnet.png used on input line 193.
+Package pdftex.def Info: Neodymmagnet.png used on input line 232.
 (pdftex.def)             Requested size: 143.9978pt x 279.46pt.
 
-[7 <./SkizzeMagnetwaage.png>] [8 <./Neodymmagnet.png>]
+[8] [9 <./Neodymmagnet.png>]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 211.
+LaTeX Warning: Reference `' on page 10 undefined on input line 250.
 
-[9] (10Mi_E5_15-11-2017.aux)
+[10] (10Mi_E5_15-11-2017.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14853 strings out of 493333
- 298266 string characters out of 3139197
- 316684 words of memory out of 3000000
- 18225 multiletter control sequences out of 15000+200000
+ 14854 strings out of 493333
+ 298283 string characters out of 3139197
+ 322692 words of memory out of 3000000
+ 18226 multiletter control sequences out of 15000+200000
  610321 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,40p,10391b,995s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
-x.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program
+ 42i,13n,40p,10391b,866s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-r
+m.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program
  Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 10Mi_E5_15-11-2017.pdf (10 pages, 350480 bytes).
+pe1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsy8.pfb>
+Output written on 10Mi_E5_15-11-2017.pdf (11 pages, 373149 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

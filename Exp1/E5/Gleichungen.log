@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  21 NOV 2017 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  21 NOV 2017 16:22
 entering extended mode
 **./Gleichungen.tex
 (Gleichungen.tex
@@ -1082,32 +1082,32 @@ ne 65.
 File: SkizzeMagnetwaage.png Graphic file (type png)
 
 <use SkizzeMagnetwaage.png>
-Package pdftex.def Info: SkizzeMagnetwaage.png used on input line 83.
+Package pdftex.def Info: SkizzeMagnetwaage.png used on input line 85.
 (pdftex.def)             Requested size: 360.0pt x 241.8337pt.
  [3 <./SkizzeFermi2.png>] [4 <./SkizzeZeitverlaufLichtpunktWasser.png>]
-Overfull \hbox (45.56844pt too wide) detected at line 119
+Overfull \hbox (45.56844pt too wide) detected at line 121
 \OML/lmm/m/it/10.95 [] \OT1/lmr/m/n/10.95 = []\OML/lmm/m/it/10.95 ;
  []
 
 [5 <./SkizzeMagnetwaage.png>]
-Overfull \hbox (119.65099pt too wide) in paragraph at lines 124--124
+Overfull \hbox (119.65099pt too wide) in paragraph at lines 126--126
 [] 
  []
 
 <Alu-Platte.png, id=36, 582.67688pt x 601.4972pt>
 File: Alu-Platte.png Graphic file (type png)
  <use Alu-Platte.png>
-Package pdftex.def Info: Alu-Platte.png used on input line 134.
+Package pdftex.def Info: Alu-Platte.png used on input line 136.
 (pdftex.def)             Requested size: 360.0pt x 371.63947pt.
 
 <Neodymmagnet.png, id=37, 342.5297pt x 664.73344pt>
 File: Neodymmagnet.png Graphic file (type png)
  <use Neodymmagnet.png>
-Package pdftex.def Info: Neodymmagnet.png used on input line 141.
+Package pdftex.def Info: Neodymmagnet.png used on input line 143.
 (pdftex.def)             Requested size: 360.0pt x 698.6906pt.
 
 
-LaTeX Warning: Float too large for page by 126.49033pt on input line 144.
+LaTeX Warning: Float too large for page by 126.49033pt on input line 146.
 
 [6] [7 <./Alu-Platte.png>] [8 <./Neodymmagnet.png>] (Gleichungen.aux) ) 
 Here is how much of TeX's memory you used:
@@ -1133,7 +1133,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
 
-Output written on Gleichungen.pdf (8 pages, 263414 bytes).
+Output written on Gleichungen.pdf (8 pages, 263247 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
