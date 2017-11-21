@@ -52,19 +52,25 @@
 				
 		Alle Stoffe besitzen magnetische Eigenschaften, wobei die beim Anlegen eines äußeren Magnetfeldes auftretenden Effekte bei den meisten Stoffen verschwindend gering sind. Die \glqq Stärke \grqq dieser Effekte ist abhängig von dem Magnetismustypen des Stoffes\footnote{dieser steht in Abhängigkeit von der Temperatur, kann sich demnach ändern}. 
 				
-		Wir betrachten im Folgenden zwei Typen von Magnetismus, welche für die durchgeführten Versuche relevant sind: Dia- und Paramagnetismus.
-		
+		Wir betrachten im Folgenden zwei Typen von Magnetismus, welche für die durchgeführten Versuche relevant sind: Dia- und Paramagnetismus. Hier gehen wir zuerst auf die makroskopische und dann auf die mikroskopische Betrachtung dieser Phänomene ein.
+					
+		\subsection{Diamagnetismus}
+			
+			Ist ein Stoff diamagnetisch, so bedeutet das, dass bei Anlegen eines äußeren Magnetfeldes eine kleine Magnetisierung des Stoffes entgegengesetzt zu Richtung dieses Feldes induziert wird.
+			Dies bedeutet, dass Diamagnete in einem inhomogenen äußeren Magnetfeld aus Bereichen mit stärkerem Feld leicht abgestoßen werden. Ohne ein solches äußeres Magnetfeld verschwinden die diamagnetischen Eigenschaften des Stoffes.
+			
+			Aufgrund der Struktur von diamagnetischen Stoffen, besitzen diese keine freien Elektronenspins, was bedeutet, dass nur die magnetischen Strommomente $\mu _Strom$ zum magnetischen Verhalten des Stoffes beitragen.
+						
 		\subsection{Paramagnetismus}
 			
-			Bei Paramagnetismus %TODO
+			Paramagnetische Stoffe hingegen werden durch kleine Magnetisierung in Richtung des äußeren Magnetfeldes zu diesem gezogen, da sie hierbei eine Kraft in Richtung höherer Magnetfeldstärke erfahren. 
+			Wie auch bei diamagnetischen Stoffen, verschwinden die paramagnetischen Eigenschaften, wenn das äußere Magnetfeld nicht weiter vorhanden ist.
+				
+			Im Gegensatz zu den diamagnetischen Stoffen besitzen paramagnetische Stoffe magnetische Momente $\mu _Spin$, welche sich stärker auswirken als die magnetischen Strommomente $\mu _Strom$, die paramagnetische wie auch diamagnetische Stoffe besitzen.
+			Das magnetische	Moment $\mu _Spin$ ergibt sich aus dem Spin- und Bahnmoment ungepaarter Elektronen. 
+			Diese richten sich in Richtung des äußeren Magnetfeldes aus. Für vollständig gefüllte Atomschalen ist dieser Effekt nicht möglich.			
 			
-			%Anziehung (schwach), weil
-			
-		\subsection{Diamagnetismus}
-		
-			Diamagnetismus hingegen %TODO
-			
-			%Abstoßung (sehr schwach), weil
+			Das magnetische Strommoment $\mu _Strom$ führt wie auch bei Diamagneten zu einem entgegengerichteten Magnetfeld, dieser Effekt wird aber bei paramagnetischen Stoffen durch die magnetischen Momente $\mu _Spin$, welche deutlich stärker sind unkenntlich gemacht.
 			
 	\section{Versuch 1: Demonstrationsversuch} 
 		
@@ -141,7 +147,7 @@
 			Damit der Magnet die einfache Messung des Gewichts der Stoffprobe nicht beeinflusst, wird er mit dem Schwenkkran zunächst wegbewegt.
 			Für die Messung selber nullen wir zuerst das Gewicht unserer Stoffprobe und fahren dann den Magneten über die Probe und messen dann den Gewichtsunterschied.
 			
-			Die Waage besitzt eine Unsicherheit von \SI{0,001}{\g} und es ergibt sich mit der Unsicherheit der Digitalanzeige eine Gesamtunsicherheit von %TODO
+			Die Waage besitzt eine Unsicherheit von \SI{0,001}{\g} und es ergibt sich mit der Unsicherheit der Digitalanzeige eine Gesamtunsicherheit der Masse von %TODO
 			
 			Unsere Stoffproben für diesen Versuch sind Aluminium, pyrolitisches Graphit, Glashalterung (mit und ohne Glas) und eine leere Kunststoffhalterung.
 			
@@ -167,7 +173,7 @@
 			\end{equation}
 			mit spezifisch $B_r = \SI{1,87+-0,1}{T}$, sowie Radius $R = \SI{30}{\milli\meter}$ und Dicke $D = \SI{15}{\milli\meter}$.
 			
-			%TODO Nicht alles		
+			%TODO kürzen, richtigen Kram hinschreiben		
 			Die Unsicherheit von $u(B_r) = \SI{0,1}{T}$ pflanzt sich in folgender Weise fort:
 			\begin{align}
 				u\big(B(z)\big) &= \frac{\partial\,B(z)}{\partial\,B_r} \cdot u(B_r) = \frac{u(B_r)}{2}\left( \frac{D+z}{\sqrt{R^2 + (D+z)^2}} - \frac{z}{\sqrt{R^2 + z^2}}\right)\\
@@ -217,20 +223,21 @@
 					
 		\subsection*{Schlussfolgerung}	
 			
-			Die von uns erhaltenen Wert für die Volumensuszeptibilitäten entsprechen den Erwartungen. %TODO
+			Die von uns erhaltenen Wert für die Volumensuszeptibilitäten korrelieren weitgehend mit den Literaturwerten. Die einzige Ausnahme bildet die Volumensuszeptibilität der Aluminiumprobe. %TODO Warum?
 			
+			Zudem können wir unserer Messung entnehmen, welche magnetischen Eigenschaften den Proben zugewiesen werden können.
 			%Glas -> Dia? (Si dia, O_2 para) 
 			%Al -> Para
 			%C -> Dia
 		
 	\section{Versuch 3: Fallender Neodymmagnet}		
 	
-		Bei diesem Versuch lassen wir einen Neodymmagneten durch zwei Röhren aus Aluminium fallen. Eine der beiden Röhren besitzt einen Schlitz, der sich über die ganze Länge zieht. Der Aufbau ist in Abb. \ref{fig:Neodymmagnet} dargestellt.
+		Bei diesem Versuch lassen wir einen Neodymmagnet durch zwei Röhren aus Aluminium fallen. Eine der beiden Röhren besitzt einen Schlitz, der sich über die ganze Länge zieht. Der Aufbau ist in Abb. \ref{fig:Neodymmagnet} dargestellt.
 		
 		\begin{figure}
 			\centering
 			\includegraphics[width=0.4\textwidth]{Neodymmagnet.png}
-			\caption{Aufbau des dritten Versuches} %TODO Hier andere Caption?
+			\caption{Darstellung des fallenden Neodymmagnets} 
 			\label{fig:Neodymmagnet}
 		\end{figure}
 		
@@ -249,6 +256,13 @@
 	
 		Hier haben wir eine Aluminiumplatte und einen -kamm, welche an einer Aufhängung befestigt sind, siehe Abbildung \ref{}. An diesen beiden Objekten bewegen wir nun drei starke aneinander gebundene Magneten von verschiedenen Richtungen und mit unterschiedlichen Geschwindigkeiten.
 		Dazu vergleichen wir unsere Beobachtungen für beide Objekte.
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.6\textwidth]{Alu-Platte.png}
+			\caption{Eine Aluminiumplatte und -Kamm an einer Aufhängung} 
+			\label{fig:Aluplatte}
+		\end{figure}
 		
 		\subsection*{Beobachtung}
 		

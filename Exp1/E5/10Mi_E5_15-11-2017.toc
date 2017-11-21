@@ -1,8 +1,8 @@
 \contentsline {section}{\numberline {1}Kurzfassung}{2}
 \contentsline {section}{\numberline {2}Arten von Magnetismus}{2}
-\contentsline {subsection}{\numberline {2.1}Paramagnetismus}{2}
-\contentsline {subsection}{\numberline {2.2}Diamagnetismus}{2}
-\contentsline {section}{\numberline {3}Versuch 1: Demonstrationsversuch}{2}
+\contentsline {subsection}{\numberline {2.1}Diamagnetismus}{2}
+\contentsline {subsection}{\numberline {2.2}Paramagnetismus}{3}
+\contentsline {section}{\numberline {3}Versuch 1: Demonstrationsversuch}{3}
 \contentsline {section}{\numberline {4}Versuch 2: Magnetismuswaage und Volumensuszeptibilit\IeC {\"a}t}{6}
-\contentsline {section}{\numberline {5}Versuch 3: Fallender Neodymmagnet}{8}
-\contentsline {section}{\numberline {6}Versuch 4: Aluminium-Kamm und -Platte}{10}
+\contentsline {section}{\numberline {5}Versuch 3: Fallender Neodymmagnet}{9}
+\contentsline {section}{\numberline {6}Versuch 4: Aluminium-Kamm und -Platte}{11}
