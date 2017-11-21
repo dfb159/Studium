@@ -1,15 +1,21 @@
 SciDAVis 1.21.0 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	6
 <table>
 5068
 <table creation_time="2017-07-11 16:39:30:000" caption_spec="%n%C{ - }%c" name="Tabelle1" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="seillaenge" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Laenge des Seils in Meten\n]]></comment><input_filter><simple_filter creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 16:39:30:504" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0600000000000001e+00</row><row type="TypeDouble" index="1" invalid="no">8.8400000000000001e-01</row><row type="TypeDouble" index="2" invalid="no">6.7300000000000004e-01</row><row type="TypeDouble" index="3" invalid="no">1.1779999999999999e+00</row></column><column creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="Zeitmessung" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Periodendauer^2 in s^2]]></comment><input_filter><simple_filter creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 18:38:02:085" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.2415402499999999e+00</row><row type="TypeDouble" index="1" invalid="no">3.5287622500000002e+00</row><row type="TypeDouble" index="2" invalid="no">2.6751873599999998e+00</row><row type="TypeDouble" index="3" invalid="no">4.7280153599999997e+00</row></column><column creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Periodendauer/s von l = 1131mm]]></comment><input_filter><simple_filter creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 16:39:30:507" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.1530000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.1320000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">2.1410000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">2.1230000000000002e+00</row><row type="TypeDouble" index="4" invalid="no">2.1440000000000001e+00</row><row type="TypeDouble" index="5" invalid="no">2.1309999999999998e+00</row><row type="TypeDouble" index="6" invalid="no">2.1339999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">2.1349999999999998e+00</row><row type="TypeDouble" index="8" invalid="no">2.1190000000000002e+00</row><row type="TypeDouble" index="9" invalid="no">2.1429999999999998e+00</row><row type="TypeDouble" index="10" invalid="no">2.1160000000000001e+00</row></column><column creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-07-11 17:59:42:951" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.9390000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.9379999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">1.9339999999999999e+00</row><row type="TypeDouble" index="4" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="5" invalid="no">1.9410000000000001e+00</row><row type="TypeDouble" index="6" invalid="no">1.9370000000000001e+00</row><row type="TypeDouble" index="7" invalid="no">1.9319999999999999e+00</row><row type="TypeDouble" index="8" invalid="no">1.9440000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">1.9350000000000001e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width></table>
-geometry	19	-168	806	382	
+geometry	19	0	806	382	
+
+</table>
+<table>
+6155
+<table creation_time="2017-18-11 21:28:36:303" caption_spec="%n" name="MultiWerte" columns="6" rows="4"><comment><![CDATA[]]></comment><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Länge des Seils]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0500000000000000e+02</row><row type="TypeDouble" index="1" invalid="no">8.8400000000000006e+01</row><row type="TypeDouble" index="2" invalid="no">6.7299999999999997e+01</row><row type="TypeDouble" index="3" invalid="no">1.1780000000000000e+02</row></column><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L Err" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[Error der Länge]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000000e-02</row></column><column creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="T" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0594999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.8785000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.6355999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">2.1743999999999999e+00</row></column><column creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="T Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000001e-03</row></column><column creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="T2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[linearisierte Zeit]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">col(&quot;T&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">4.2415402499999999e+00</row><row type="TypeDouble" index="1" invalid="no">3.5287622500000002e+00</row><row type="TypeDouble" index="2" invalid="no">2.6751873599999998e+00</row><row type="TypeDouble" index="3" invalid="no">4.7280153599999997e+00</row></column><column creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="T2 Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">2 * col(&quot;T&quot;) * col(&quot;T Err&quot;)</formula><row type="TypeDouble" index="0" invalid="no">1.6476000000000001e-02</row><row type="TypeDouble" index="1" invalid="no">1.5028000000000001e-02</row><row type="TypeDouble" index="2" invalid="no">1.3084800000000001e-02</row><row type="TypeDouble" index="3" invalid="no">1.7395200000000000e-02</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width><column_width column="5">120</column_width></table>
+geometry	180	72	1066	382	
 
 </table>
 <multiLayer>
 Grafik1	1	1	07.11.2017 18:00:43
-geometry	27	223	514	438	
+geometry	27	391	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -58,7 +64,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Grafik2	1	1	07.11.2017 18:08:59
-geometry	565	226	514	438	
+geometry	565	394	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -107,14 +113,14 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Grafik3	1	1	07.11.2017 21:34:07
-geometry	1133	118	514	438	active
+geometry	1191	169	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
+ggeometry	5	5	490	370
 PlotTitle	Verhältnis der Periodendauer zur Seillänge	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
@@ -140,19 +146,21 @@ AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Tabelle1_seillaenge	Tabelle1_Zeitmessung	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
-FunctionCurve	0,NichtlinearAnpassung1,x,1.06,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	111350080	1263159624	1
+FunctionCurve	0,NichtlinearAnpassung1,x,1.06,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	84793968	86568880	1
 <formula>
 a=-0.128490399152565
 m=4.12267042372878
 
 a+m*x
+
 </formula>
-FunctionCurve	0,NichtlinearAnpassung2,x,0.673,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	111349640	1263159624	1
+FunctionCurve	0,NichtlinearAnpassung2,x,0.673,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	84802648	0	1
 <formula>
 a=-0.0601031541660758
 m=4.06163842863607
 
 a+m*x
+
 </formula>
 scale	0	2.5	5	0	8	5	0	0
 scale	1	2.5	5	0	8	5	0	0
@@ -167,6 +175,58 @@ DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
 <legend>	0.620642201834863	4.81023102310231	MS Shell Dlg 2	10	50	0	0	0	#000000	0	0	#ffffff	0	\c{1}Mittelwerte der Messungen	\c{2}Fit-Funktion mit Steigung 	m = (4,0616 +/- 0,0105) s<sup>2</sup> / m</legend>
+</graph>
+</multiLayer>
+<multiLayer>
+Grafik4	1	1	18.11.2017 21:55:43
+geometry	466	129	514	438	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	444	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Titel	#000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	X-Achsentitel	Y-Achsentitel			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	MultiWerte_L	MultiWerte_T2	1	0	0	0	1	7	1	0	0	0	0	14	1	2	0	0	3	1
+ErrorBars	0	MultiWerte_L	MultiWerte_T2	MultiWerte_L Err	1	8	#000000	1	1	1
+ErrorBars	1	MultiWerte_L	MultiWerte_T2	MultiWerte_T2 Err	1	8	#000000	1	1	1
+scale	0	2.5	5	0	8	5	0	0
+scale	1	2.5	5	0	8	5	0	0
+scale	2	60	120	0	8	5	0	0
+scale	3	60	120	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<legend>	61.3761467889908	4.91776315789474	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}MultiWerte_T2	</legend>
 </graph>
 </multiLayer>
 <log>

@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Fermi}{2}
+\contentsline {section}{\numberline {2}Magnetwaage}{3}
+\contentsline {section}{\numberline {3}Schaukel}{6}
+\contentsline {section}{\numberline {4}Fallrohr}{6}

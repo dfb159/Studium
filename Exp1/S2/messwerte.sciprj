@@ -9,8 +9,8 @@ geometry	19	0	806	382
 </table>
 <table>
 6155
-<table creation_time="2017-18-11 21:28:36:303" caption_spec="%n" name="MultiWerte" columns="6" rows="4"><comment><![CDATA[]]></comment><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Länge des Seils]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.0500000000000000e+02</row><row type="TypeDouble" index="1" invalid="no">8.8400000000000006e+01</row><row type="TypeDouble" index="2" invalid="no">6.7299999999999997e+01</row><row type="TypeDouble" index="3" invalid="no">1.1780000000000000e+02</row></column><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L Err" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[Error der Länge]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000000e-02</row></column><column creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="T" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0594999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.8785000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">1.6355999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">2.1743999999999999e+00</row></column><column creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="T Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000001e-03</row></column><column creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="T2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[linearisierte Zeit]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">col(&quot;T&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">4.2415402499999999e+00</row><row type="TypeDouble" index="1" invalid="no">3.5287622500000002e+00</row><row type="TypeDouble" index="2" invalid="no">2.6751873599999998e+00</row><row type="TypeDouble" index="3" invalid="no">4.7280153599999997e+00</row></column><column creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="T2 Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">2 * col(&quot;T&quot;) * col(&quot;T Err&quot;)</formula><row type="TypeDouble" index="0" invalid="no">1.6476000000000001e-02</row><row type="TypeDouble" index="1" invalid="no">1.5028000000000001e-02</row><row type="TypeDouble" index="2" invalid="no">1.3084800000000001e-02</row><row type="TypeDouble" index="3" invalid="no">1.7395200000000000e-02</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width><column_width column="5">120</column_width></table>
-geometry	180	72	1066	382	
+<table creation_time="2017-18-11 21:28:36:000" caption_spec="%n" name="MultiWerte" columns="6" rows="4"><comment><![CDATA[]]></comment><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Länge des Seils]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">6.7299999999999997e+01</row><row type="TypeDouble" index="1" invalid="no">8.8400000000000006e+01</row><row type="TypeDouble" index="2" invalid="no">1.0500000000000000e+02</row><row type="TypeDouble" index="3" invalid="no">1.1780000000000000e+02</row></column><column creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="L Err" type="TypeDouble" mode="Numeric" plot_designation="xErr"><comment><![CDATA[Error der Länge]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:28:36:303" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="1" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e-02</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000000e-02</row></column><column creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="T" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:58:938" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.6355999999999999e+00</row><row type="TypeDouble" index="1" invalid="no">1.8785000000000001e+00</row><row type="TypeDouble" index="2" invalid="no">2.0594999999999999e+00</row><row type="TypeDouble" index="3" invalid="no">2.1743999999999999e+00</row></column><column creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="T Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:45:56:093" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="1" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="2" invalid="no">4.0000000000000001e-03</row><row type="TypeDouble" index="3" invalid="no">4.0000000000000001e-03</row></column><column creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="T2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[linearisierte Zeit]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:411" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">col(&quot;T&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">2.6751873599999998e+00</row><row type="TypeDouble" index="1" invalid="no">3.5287622500000002e+00</row><row type="TypeDouble" index="2" invalid="no">4.2415402499999999e+00</row><row type="TypeDouble" index="3" invalid="no">4.7280153599999997e+00</row></column><column creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="T2 Err" type="TypeDouble" mode="Numeric" plot_designation="yErr"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-18-11 21:30:28:412" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="3">2 * col(&quot;T&quot;) * col(&quot;T Err&quot;)</formula><row type="TypeDouble" index="0" invalid="no">1.3084800000000001e-02</row><row type="TypeDouble" index="1" invalid="no">1.5028000000000001e-02</row><row type="TypeDouble" index="2" invalid="no">1.6476000000000001e-02</row><row type="TypeDouble" index="3" invalid="no">1.7395200000000000e-02</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">120</column_width><column_width column="5">120</column_width></table>
+geometry	81	54	1066	382	
 
 </table>
 <multiLayer>
@@ -113,7 +113,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Grafik3	1	1	07.11.2017 21:34:07
-geometry	1191	169	514	438	
+geometry	1212	69	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -146,20 +146,22 @@ AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Tabelle1_seillaenge	Tabelle1_Zeitmessung	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
-FunctionCurve	0,NichtlinearAnpassung1,x,1.06,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	84793968	86568880	1
+FunctionCurve	0,NichtlinearAnpassung1,x,1.06,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	82887472	0	1
 <formula>
 a=-0.128490399152565
 m=4.12267042372878
 
 a+m*x
 
+
 </formula>
-FunctionCurve	0,NichtlinearAnpassung2,x,0.673,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	84802648	0	1
+FunctionCurve	0,NichtlinearAnpassung2,x,0.673,1.178	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	82887712	3211316	1
 <formula>
 a=-0.0601031541660758
 m=4.06163842863607
 
 a+m*x
+
 
 </formula>
 scale	0	2.5	5	0	8	5	0	0
@@ -178,25 +180,25 @@ LabelsRotation	0	0
 </graph>
 </multiLayer>
 <multiLayer>
-Grafik4	1	1	18.11.2017 21:55:43
-geometry	466	129	514	438	active
-WindowLabel		2
+MultiGrafik	1	1	18.11.2017 21:55:43
+geometry	390	115	514	438	minimized	active
+WindowLabel		0
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Titel	#000000	4228
+ggeometry	5	5	490	370
+PlotTitle	Multimessung: Periodendauer in Abhängigkeit der Seillänge	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
 Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
 EnabledAxes	1	0	1	0	
-AxesTitles	X-Achsentitel	Y-Achsentitel			
+AxesTitles	Seillänge L / cm	Periodendauer T<sup>2</sup> / s<sup>2</sup><br>			
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	4	5124	4
+AxesTitleAlignment	4	4	4	4
 TitleFont	MS Shell Dlg 2	10	75	0	0	0
 ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
 ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
@@ -211,9 +213,16 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
-curve	MultiWerte_L	MultiWerte_T2	1	0	0	0	1	7	1	0	0	0	0	14	1	2	0	0	3	1
+curve	MultiWerte_L	MultiWerte_T2	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	3	1
 ErrorBars	0	MultiWerte_L	MultiWerte_T2	MultiWerte_L Err	1	8	#000000	1	1	1
 ErrorBars	1	MultiWerte_L	MultiWerte_T2	MultiWerte_T2 Err	1	8	#000000	1	1	1
+FunctionCurve	0,LinearAnpassung1,x,67.3,117.8	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	97404768	8960	1
+<formula>
+B=-0.0805876973614902
+A=0.040939649588809
+
+A*x+B
+</formula>
 scale	0	2.5	5	0	8	5	0	0
 scale	1	2.5	5	0	8	5	0	0
 scale	2	60	120	0	8	5	0	0
@@ -226,7 +235,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	61.3761467889908	4.91776315789474	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}MultiWerte_T2	</legend>
+<legend>	61.651376146789	4.94243421052632	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Messpunkte bei variabler Seillänge	\c{4}Ausgleichsgerade mit	\c{}m = [4,094(40)] s<sup>2</sup> / m	</legend>
 </graph>
 </multiLayer>
 <log>
@@ -361,5 +370,25 @@ R^2 = 0,999986699245192
 ---------------------------------------------------------------------------------------
 Iterationen = 0
 Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+[18.11.2017 22:07:59	Diagramm: ''Grafik4'']
+Lineare Regression Anpassung an den Datensatz: MultiWerte_T2, unter Benutzung der Funktion: A*x+B
+Y Standardfehler: Zugeordneter Datensatz (MultiWerte_T2 Err)
+Von x = 67,3 bis x = 117,8
+B (y-Achsenabschnitt) = -0,0805876973614902 +/- 0,0365461875510058
+A (Steigung) = 0,040939649588809 +/- 0,0003952635796876
+--------------------------------------------------------------------------------------
+Chi^2 = 3,10375127733951
+R^2 = 0,999710767802041
+---------------------------------------------------------------------------------------
+[18.11.2017 22:09:10	Diagramm: ''Grafik4'']
+Lineare Regression Anpassung an den Datensatz: MultiWerte_T2, unter Benutzung der Funktion: A*x+B
+Y Standardfehler: Zugeordneter Datensatz (MultiWerte_T2 Err)
+Von x = 67,3 bis x = 117,8
+B (y-Achsenabschnitt) = -0,0805876973614902 +/- 0,0365461875510058
+A (Steigung) = 0,040939649588809 +/- 0,0003952635796876
+--------------------------------------------------------------------------------------
+Chi^2 = 3,10375127733951
+R^2 = 0,999710767802041
 ---------------------------------------------------------------------------------------
 </log>
