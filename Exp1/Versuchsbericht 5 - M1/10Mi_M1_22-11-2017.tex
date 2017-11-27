@@ -93,10 +93,10 @@
 			
 			Zur Bestimmung der Eigenfrequenz betrachten wir zunächst harmonische Schwingungen.					
 			Für einen Drehschwinger mit Trägheitsmoment der Kreisscheibe $J$, rücktreibendem Drehmoment $-D\varphi$ (wobei $D$ Federkonstante) und bremsendem Drehmoment $-r\dot{\varphi}$, welches proportional zur Winkelgeschwindigkeit $\omega$ ist, lautet die Bewegungsgleichung der harmonischen Schwingung:
-			\begin{align} %TODO schöner machen
+			\begin{align} 
 				J\ddot{\varphi}+r\dot{\varphi}+D\varphi=0 \\
-				\text{und in der Normalform: } \ddot{\varphi}+2\rho\dot{\varphi}+\omega_0^2\varphi=0 \label{eq:HarmonischeSchwingung}\\
-				\text{wobei: } \omega_0^2 = \frac{D}{J} \text{und } 2\rho = \frac{r}{J}
+				\text{und in der Normalform: } \quad  \ddot{\varphi}+2\rho\dot{\varphi}+\omega_0^2\varphi=0 \label{eq:HarmonischeSchwingung}\\
+				\text{wobei: } \quad  \omega_0^2 = \frac{D}{J} \text{und } 2\rho = \frac{r}{J}
 			\end{align} 
 			Da wir bei der freien Schwingung jedoch keine Dämpfung vorliegen haben, ist $2\rho = 0$ und $\omega_0$ somit unsere Eigenfrequenz.
 			
@@ -145,30 +145,31 @@
 			
 	\section{Versuch zu erzwungenen Schwingungen}
 	
-		Nun betrachten wir erzwungene Schwingungen %TODO
+		Nun betrachten wir erzwungene Schwingungen, welche wir mit Hilfe eines Motors an unserem Pendel erzeugen.
 			
 		\subsection*{Methoden}
 			
-			\subsubsection*{Erzwungene Schwingungen}
+			Erneut betrachten wir \refeq{HarmonischeSchwingung}, jetzt steht auf der anderen Seite jedoch nicht null sondern:
+			\begin{align}
+				\ddot{\varphi}+2\rho\dot{\varphi}+\omega_0^2\varphi= \mu cos(\omega t) \label{eq:ErzwungeneSchwingung}\\
+				\text{wobei } \mu = \frac{M_0}{J}
+			\end{align}
+			$M_0$ ist hierbei die Amplitude der äußeren Anregung und $J$ wie zuvor das Trägheitsmoment der Kreisscheibe. Die angeregte Schwingung hat zudem die Frequenz $\omega$.
+			Es bildet sich eine Überlagerung des harmonischen Teils mit der angeregten Schwingung. Da der harmonische Teil jedoch abfällt, schwingt das System nach dem Abfallen bzw. nach dem sogenannten Einschwingvorgang genau so wie die Anregung.
+			Eine mögliche Lösung von \refeq{ErzwungeneSchwingung} setzt sich wie folgt zusammen:
+			\begin{align}
+				\varphi = \varphi_0 \cos{(\omega t-\alpha)} \label{eq:ErzwungeneSchwingungLsg}\\
+				\text{mit } \quad \varphi_0 = \frac{\mu}{\sqrt{(\omega^2-\omega_0^2)^2+4\rho^2\omega^2}} \label{eq:ErzwungeneSchwingungAmp}\\
+				\text{und der Phase} \quad \tan{\alpha} = \frac{-2\rho\omega}{\omega^2-\omega_0^2}
+			\end{align}
+			Die erzwungene Schwingung ist somit eine mit der Frequenz $\omega$ schwingende Kosinusfunktion. Die Phase von $\varphi$ hängt der Phase der Anregung um $\alpha$ hinterher (vgl. \refeq{ErzwungeneSchwingung} und \refeq{ErzwungeneSchwingungLsg}) und die Amplitude $\varphi_0$ von $\varphi$ ist zeitlich konstant und hängt von der Dämpfung $\rho$ des Systems ab.
 			
-				%TODO
-				% Beschreibung erzwungene Schwingung
+			Im Resonanzfall ist die Amplitude maximal. Betrachten wir hierzu \refeq{ErzwungeneSchwingungAmp}, so erhalten wir, dass die Resonanzfrequenz bei $\omega = \sqrt{\omega_0^2-2\rho^2}$ liegt.
+			
+			Um die Frequenz der Anregung zu bestimmen, erstellen wir eine Kalibrierkurve, messen also die Umlaufdauer $T$ der Anregung, für verschiedene Spannungen an dem Motor, mit einer Stoppuhr. Die Spannungen messen wir an dem Ausgang des Motors mit einem Multimeter.
+			Zusätzlich bestimmen wir die Resonanzfrequenz für drei verschiedene Dämpfungen, die ungleich null sind [um die Resonanzkatastrophe zu vermeiden (dass die Amplitude $\varphi_0$ gegen unendlich geht)].
 				
-			\subsubsection*{Bestimmung der Resonanzfrequenz}
-			
-				%TODO
-				% Bestimmung der Resonanzfrequenz bei erzwungener Schwingung
-				% Frequenz der Anregung (Kalibrierkurve)
-					% Frequenz über Ausgangsspannung (mit Multimeter gemessen)
-				% Resonanzfrequenzbestimmung bei 3 Dämpfungen mit min. 20 Messpunkten
-				% Darstellen dieser Resonanzkurven
-				
-			\subsubsection*{Phasenverschiebung}
-			
-				%TODO
-				% Betrachtung der Phasenverschiebung zwischen Anreger und Pendel
-					% bei schwacher/starker Dämpfung und niedriger/hoher Frequenz
-					% Auf Fadenpendel übertragen
+			Zuletzt betrachten wir die Phasenverschiebung $\alpha$ zwischen Anregung und Pendel für verschiedene Dämpfungen und Frequenzen. Dies übertragen wir zusätzlich auf das Fadenpendel.
 		
 		\subsection*{Messung}
 		
@@ -185,15 +186,8 @@
 		Der letzte Versuch behandelt nichtlineare Schwingungen. %TODO
 		
 		\subsection*{Methoden}
-			
-			\subsubsection*{nichtlineare Schwingungen}
-			
-				%TODO
-				% Beschreibung nichtlineare Schwingung
-			
-			\subsubsection*{Resonanzbetrachtung}
-			
-				%TODO
+						
+				% Beschreibung nichtlineare Schwingung			
 				% Einbringen einer Nichtlinearität und Betrachtung der Resonanz
 		
 		\subsection*{Messung}
