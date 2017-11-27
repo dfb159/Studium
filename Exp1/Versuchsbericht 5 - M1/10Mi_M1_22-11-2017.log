@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  25 NOV 2017 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  27 NOV 2017 20:26
 entering extended mode
 **./10Mi_M1_22-11-2017.tex
 (10Mi_M1_22-11-2017.tex
@@ -840,39 +840,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \WF@everypar=\toks23
 Package: wrapfig 2003/01/31  v 3.6
 )
-(10Mi_M1_22-11-2017.aux)
-\openout1 = `10Mi_M1_22-11-2017.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2017/11/21 v3.9 programmable bibliographies (PK/JW/AB)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen169
-\scratchbox=\box52
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen170
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks25
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
@@ -888,15 +859,10 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count276
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
@@ -910,6 +876,260 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count277
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count278
+\decimalpart=\count279
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count280
+\c@listtotal=\count281
+\c@listcount=\count282
+\c@liststart=\count283
+\c@liststop=\count284
+\c@citecount=\count285
+\c@citetotal=\count286
+\c@multicitecount=\count287
+\c@multicitetotal=\count288
+\c@instcount=\count289
+\c@maxnames=\count290
+\c@minnames=\count291
+\c@maxitems=\count292
+\c@minitems=\count293
+\c@citecounter=\count294
+\c@savedcitecounter=\count295
+\c@uniquelist=\count296
+\c@uniquename=\count297
+\c@refsection=\count298
+\c@refsegment=\count299
+\c@maxextratitle=\count300
+\c@maxextratitleyear=\count301
+\c@maxextradate=\count302
+\c@maxextraalpha=\count303
+\c@abbrvpenalty=\count304
+\c@highnamepenalty=\count305
+\c@lownamepenalty=\count306
+\c@maxparens=\count307
+\c@parenlevel=\count308
+\blx@tempcnta=\count309
+\blx@tempcntb=\count310
+\blx@tempcntc=\count311
+\blx@maxsection=\count312
+\blx@maxsegment@0=\count313
+\blx@notetype=\count314
+\blx@parenlevel@text=\count315
+\blx@parenlevel@foot=\count316
+\blx@sectionciteorder@0=\count317
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count318
+\c@maxcomprange=\count319
+\c@mincompwidth=\count320
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count321
+\c@savedafterword=\count322
+\c@annotator=\count323
+\c@savedannotator=\count324
+\c@author=\count325
+\c@savedauthor=\count326
+\c@bookauthor=\count327
+\c@savedbookauthor=\count328
+\c@commentator=\count329
+\c@savedcommentator=\count330
+\c@editor=\count331
+\c@savededitor=\count332
+\c@editora=\count333
+\c@savededitora=\count334
+\c@editorb=\count335
+\c@savededitorb=\count336
+\c@editorc=\count337
+\c@savededitorc=\count338
+\c@foreword=\count339
+\c@savedforeword=\count340
+\c@holder=\count341
+\c@savedholder=\count342
+\c@introduction=\count343
+\c@savedintroduction=\count344
+\c@namea=\count345
+\c@savednamea=\count346
+\c@nameb=\count347
+\c@savednameb=\count348
+\c@namec=\count349
+\c@savednamec=\count350
+\c@translator=\count351
+\c@savedtranslator=\count352
+\c@shortauthor=\count353
+\c@savedshortauthor=\count354
+\c@shorteditor=\count355
+\c@savedshorteditor=\count356
+\c@labelname=\count357
+\c@savedlabelname=\count358
+\c@institution=\count359
+\c@savedinstitution=\count360
+\c@lista=\count361
+\c@savedlista=\count362
+\c@listb=\count363
+\c@savedlistb=\count364
+\c@listc=\count365
+\c@savedlistc=\count366
+\c@listd=\count367
+\c@savedlistd=\count368
+\c@liste=\count369
+\c@savedliste=\count370
+\c@listf=\count371
+\c@savedlistf=\count372
+\c@location=\count373
+\c@savedlocation=\count374
+\c@organization=\count375
+\c@savedorganization=\count376
+\c@origlocation=\count377
+\c@savedoriglocation=\count378
+\c@origpublisher=\count379
+\c@savedorigpublisher=\count380
+\c@publisher=\count381
+\c@savedpublisher=\count382
+\c@language=\count383
+\c@savedlanguage=\count384
+\c@origlanguage=\count385
+\c@savedoriglanguage=\count386
+\c@pageref=\count387
+\c@savedpageref=\count388
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2017/11/21 v3.9 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2017/11/21 v3.9 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count389
+\c@textcitetotal=\count390
+\c@textcitemaxnames=\count391
+\c@biburlnumpenalty=\count392
+\c@biburlucpenalty=\count393
+\c@biburllcpenalty=\count394
+\c@smartand=\count395
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2017/11/21 v3.9 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2017/11/21 v3.9 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count396
+\c@bbx:relatedtotal=\count397
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+File: numeric.cbx 2017/11/21 v3.9 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count398
+\@quotereset=\count399
+
+(10Mi_M1_22-11-2017.aux)
+\openout1 = `10Mi_M1_22-11-2017.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count400
+\scratchdimen=\dimen169
+\scratchbox=\box52
+\nofMPsegments=\count401
+\nofMParguments=\count402
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count403
+\MPscratchDim=\dimen170
+\MPnumerator=\count404
+\makeMPintoPDFobject=\count405
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -1006,43 +1226,53 @@ File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count282
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `10Mi_M1_22-11-2017.bcf'.
 
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '10Mi_M1_22-11-2017.bbl' not found.
+
+No file 10Mi_M1_22-11-2017.bbl.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+\c__siunitx_mathsf_int=\count406
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 18.
+(Font)              <6> on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c__siunitx_mathtt_int=\count283
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 18.
+\c__siunitx_mathtt_int=\count407
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1050,28 +1280,60 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (10Mi_M1_22-11-2017.toc)
-\tf@toc=\write3
-\openout3 = `10Mi_M1_22-11-2017.toc'.
+\tf@toc=\write5
+\openout5 = `10Mi_M1_22-11-2017.toc'.
 
- [1] [2]
-(10Mi_M1_22-11-2017.aux) ) 
+ [1]
+Overfull \hbox (6.93169pt too wide) in paragraph at lines 66--67
+[]\T1/lmr/m/n/10.95 Durch In-be-trieb-nah-me der Wir-bel-strom-brem-
+ []
+
+<Drehpendel.png, id=14, 601.4972pt x 387.69844pt>
+File: Drehpendel.png Graphic file (type png)
+ <use Drehpendel.png>
+Package pdftex.def Info: Drehpendel.png used on input line 73.
+(pdftex.def)             Requested size: 360.0pt x 232.04701pt.
+ [2]
+Overfull \hbox (2.01732pt too wide) in paragraph at lines 94--96
+\T1/lmr/m/n/10.95 schwin-dig-keit $\OML/lmm/m/it/10.95 !$ \T1/lmr/m/n/10.95 ist
+, lau-tet die Be-we-gungs-glei-chung der har-mo-ni-schen Schwin-
+ []
+
+[3 <./Drehpendel.png>] [4] [5]
+Overfull \hbox (35.95717pt too wide) in paragraph at lines 212--213
+[]\T1/lmr/m/n/10.95 Das hier ver-wen-de-te Bild stammt aus Dreh-pen-del_Pohl_E
+inführung.pdf 
+ []
+
+[6] (10Mi_M1_22-11-2017.aux)
+Package logreq Info: Writing requests to '10Mi_M1_22-11-2017.run.xml'.
+\openout1 = `10Mi_M1_22-11-2017.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 14744 strings out of 493333
- 296200 string characters out of 3139197
- 312604 words of memory out of 3000000
- 18141 multiletter control sequences out of 15000+200000
- 580838 words of font info for 50 fonts, out of 3000000 for 9000
+ 21048 strings out of 493333
+ 412216 string characters out of 3139197
+ 773095 words of memory out of 3000000
+ 24386 multiletter control sequences out of 15000+200000
+ 586818 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,4n,40p,10391b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb>
-Output written on 10Mi_M1_22-11-2017.pdf (3 pages, 161710 bytes).
+ 42i,10n,40p,10391b,740s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmsy10.pfb>
+Output written on 10Mi_M1_22-11-2017.pdf (7 pages, 262921 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

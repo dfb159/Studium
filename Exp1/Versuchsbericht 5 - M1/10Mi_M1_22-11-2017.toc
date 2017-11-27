@@ -1,7 +1,8 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {section}{\numberline {1}Kurzfassung}{2}
 \contentsline {section}{\numberline {2}Pohl'sches Rad}{2}
-\contentsline {section}{\numberline {3}Messunsicherheiten der folgenden Versuche}{2}
-\contentsline {section}{\numberline {4}Versuch zu freien Schwingungen}{2}
-\contentsline {section}{\numberline {5}Versuch zu ged\IeC {\"a}mpften Schwingungen}{2}
-\contentsline {section}{\numberline {6}Versuch zu erzwungenen Schwingungen}{2}
-\contentsline {section}{\numberline {7}Versuch zu nichtlinearen Schwingungen}{2}
+\contentsline {section}{\numberline {3}Messunsicherheiten der folgenden Versuche}{3}
+\contentsline {section}{\numberline {4}Versuch zu freien Schwingungen}{3}
+\contentsline {section}{\numberline {5}Versuch zu ged\IeC {\"a}mpften Schwingungen}{4}
+\contentsline {section}{\numberline {6}Versuch zu erzwungenen Schwingungen}{5}
+\contentsline {section}{\numberline {7}Versuch zu nichtlinearen Schwingungen}{5}
