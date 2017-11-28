@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 20:21
 entering extended mode
 **./10Mi_M1_22-11-2017.tex
 (10Mi_M1_22-11-2017.tex
@@ -1293,44 +1293,60 @@ File: Drehpendel.png Graphic file (type png)
  <use Drehpendel.png>
 Package pdftex.def Info: Drehpendel.png used on input line 73.
 (pdftex.def)             Requested size: 360.0pt x 232.04701pt.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 81.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 81.
  [2]
-Overfull \hbox (2.01732pt too wide) in paragraph at lines 94--96
+Overfull \hbox (7.87592pt too wide) in paragraph at lines 94--98
+[]\T1/lmr/m/n/10.95 Unsicherheit des Mul-ti-me-ters: $\OML/lmm/m/it/10.95 u[]\O
+T1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 U\OT1/lmr/m/n/10.95 ) = []$\T1/lmr/m/n/10
+.95 .
+ []
+
+[3 <./Drehpendel.png>]
+Overfull \hbox (2.01732pt too wide) in paragraph at lines 111--113
 \T1/lmr/m/n/10.95 schwin-dig-keit $\OML/lmm/m/it/10.95 !$ \T1/lmr/m/n/10.95 ist
 , lau-tet die Be-we-gungs-glei-chung der har-mo-ni-schen Schwin-
  []
 
-[3 <./Drehpendel.png>]
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 107.
+Overfull \hbox (1.40472pt too wide) in paragraph at lines 128--133
+[]\T1/lmr/m/n/10.95 Bei der Com-pu-ter-mes-sung hin-ge-gen ha-ben wir nur zehn 
+mal zehn Schwin-
+ []
 
-[4]
+[4] [5]
 
-LaTeX Warning: Reference `' on page 5 undefined on input line 156.
-
-[5]
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 195.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 197.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 197.
-
-
-LaTeX Warning: Reference `' on page 6 undefined on input line 197.
+LaTeX Warning: Reference `' on page 6 undefined on input line 189.
 
 [6]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 242.
+LaTeX Warning: Reference `' on page 7 undefined on input line 228.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 230.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 230.
+
+
+LaTeX Warning: Reference `' on page 7 undefined on input line 230.
 
 [7]
-Overfull \hbox (35.95717pt too wide) in paragraph at lines 254--255
+
+LaTeX Warning: Reference `' on page 8 undefined on input line 275.
+
+[8]
+Overfull \hbox (35.95717pt too wide) in paragraph at lines 287--288
 []\T1/lmr/m/n/10.95 Das hier ver-wen-de-te Bild stammt aus Dreh-pen-del_Pohl_E
 inführung.pdf 
  []
 
-[8] (10Mi_M1_22-11-2017.aux)
+[9] (10Mi_M1_22-11-2017.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1339,17 +1355,17 @@ Package logreq Info: Writing requests to '10Mi_M1_22-11-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21069 strings out of 493333
- 412528 string characters out of 3139197
- 776143 words of memory out of 3000000
- 24403 multiletter control sequences out of 15000+200000
+ 21086 strings out of 493333
+ 412814 string characters out of 3139197
+ 776145 words of memory out of 3000000
+ 24417 multiletter control sequences out of 15000+200000
  602003 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,18n,40p,10391b,1003s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
@@ -1357,12 +1373,12 @@ c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
 /MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmsy8.pfb>
-Output written on 10Mi_M1_22-11-2017.pdf (9 pages, 279243 bytes).
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M1_22-11-2017.pdf (10 pages, 310058 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
