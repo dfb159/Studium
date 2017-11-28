@@ -77,13 +77,30 @@
 		
 	\section{Messunsicherheiten der folgenden Versuche}
 		
-		- - -
-		%TODO
-		% Computermessung (?)
-		% Stoppuhr (Digital + Reaktionszeit)
-		% Multimeter (Digitalanzeige + 0,5% des Wertes)
-		% Stromquelle (Digitalanzeige)
-		% Auslenkungsbestimmung (Fehlertoleranzbereich von +- 1mm) ?
+		\begin{itemize}
+			\item Unsicherheit bei der Computermessung: 
+			\begin{itemize}
+				\item Zeitungenauigkeit: $u(t) = \frac{\SI{0,05}{\second}}{2\sqrt{3}}$
+				
+				Hierbei handelt es sich um die Breite der Abtastrate.
+				
+				\item Positionsunsicherheit: $u(x) = \frac{\SI{1}{mm}}{2\sqrt{3}}$
+				
+				Dies ist die Summe aller nicht einzeln bestimmbarer Unsicherheiten (Seildehnung, CASSY-Unsicherheit)			
+			\end{itemize}
+			\item Unsicherheit der Stoppuhr:
+			$u_\text{Uhr}(t) = \sqrt{u_\text{Digital}(t)^2 + u_\text{Reaktion}(t)^2}$.
+			Dabei ist $u_\text{Digital}(t) = \frac{\SI{10}{ms}}{2\sqrt{3}}$ und $u_\text{Reaktion}(t) = \frac{\SI{100}{ms}}{2\sqrt{6}}$ für die Reaktionszeit
+			\item Unsicherheit des Multimeters: 
+			$u_\text{Multi}(U) = \sqrt{u_\text{Digital}(U)^2 + u_\text{Prozent}(U)^2}$.
+			Messreichweite von \SI{20}{V}.
+			Mit $u_\text{Digital}(U) = \frac{\SI{0,01}{V}}{2\sqrt{3}}$ und $u_\text{Prozent}(U) = 0,005 \cdot U$  (0.5\% des angegebenen Wertes)
+			\item Unsicherheit für die Stromquelle: 
+			$u_\text{Strom}(I) = u_\text{Digital}(I) = \frac{\SI{0,01}{A}}{2\sqrt{3}}$
+			\item Unsicherheit für die manuelle Ablesung der Auslenkung: 
+			$a = \SI{2}{mm}$, da der Wert nicht immer leicht abzulesen war.		
+			Es sei $u_\text{Analog}(x) = \frac{\SI{2}{mm}}{2\sqrt{6}}$.
+		\end{itemize}
 	
 	\section{Versuch zu freien Schwingungen}
 		
@@ -104,11 +121,27 @@
 		
 		\subsection*{Messung}
 			
-			Nach 20 Messungen mit jeweils zehn Schwingungen mit der Stoppuhr haben wir eine Frequenz $\omega$ von \SI{0 +- 1}{\s^{-1}} erhalten. Die Computermessung hingegen lieferte uns einen Wert $\omega = \SI{0 +- 1}{\s^{-1}}$. Dazu betrachten wir \ref{} - - - %TODO
+			Nach 20 Messungen mit jeweils zehn Schwingungen erhalten wir einen Mittelwert für die Periodendauer von
+			$\bar{T} = \SI{1,8332+-0,03863}{\second}$.		
+			Und somit für die Frequenz $\omega=1/T = \SI{0,5454+-0,0114}{\per\second}$ mit der Unsicherheit $u(\omega) = \frac{u(T)}{T^2}$.
 			
+			Bei der Computermessung hingegen haben wir nur zehn mal zehn Schwingungen betrachtet, da der mit dem Messgerät verbundene Faden sich nach der zehnten Messung löste.
+			Auch hier haben wir für die ersten zehn gemessenen Schwingungen die Periodendauer bestimmt (von erstem bis zum elften Minimum), um den erhaltenen Wert besser mit dem der Stoppuhr vergleichen zu können. 
+			Dies lieferte uns einen Wert für die gemittelte Periodendauer: $\bar{T}=\SI{1,8255+-0,0020}{s}$.
+			Wir haben diesen Wert erhalten, indem wir $dT = T_2 - T_1$ als zeitlichen Abstand zwischen dem ersten Minimum($T_1$) und dem Elften($T_2$) wählten. Für die Unsicherheiten nehmen wir an, dass
+			$u(T_1) = u(T_2)$ gilt. Insgesamt ergab sich für die Unsicherheit der Periodendauer:
+			\begin{align}
+				u(dT) &= \sqrt{\left( \frac{\partial\,dT}{\partial\,T_1} \cdot u(T_1)\right)^2 +\left( \frac{\partial\,dT}{\partial\,T_2} \cdot u(T_2)\right)^2}\\
+				&= \sqrt{(-u(T_1))^2 + (u(T_2))^2}\\
+				&= \sqrt{2 u(T)^2} = \sqrt{2} u(T)
+			\end{align}		
+			Für die Frequenz $\omega$ ergibt sich damit dann: $\omega=\SI{0,5477+-0,0006}{\per\second}$.
+					
 		\subsection*{Schlussfolgerung}
 			
-			Wie im Methodenteil beschrieben können wir im Fall einer ungedämpften Schwingung davon ausgehen, dass die von uns gemessene Eigenfrequenz $\omega$ gerade der Frequenz $\omega_0$ des Systems ohne äußeren Einfluss entspricht. Der Vergleich der von Computer und Stoppuhr gemessenen Werte - - - %TODO
+			Wie im Methodenteil beschrieben können wir im Fall einer ungedämpften Schwingung davon ausgehen, dass die von uns gemessene Eigenfrequenz $\omega$ gerade der Frequenz $\omega_0$ des Systems ohne äußeren Einfluss entspricht. 
+			
+			Entsprechend den Erwartungen erhalten wir ähnliche Werte bei beiden Messungen für die Frequenz des Systems. Merklich ist, dass die Unsicherheit der Computermessung deutlich geringer als die der Messung von Hand ausfiel, was ebenfalls zu erwarten war.
 				
 	\section{Versuch zu gedämpften Schwingungen}
 		
@@ -125,13 +158,13 @@
 			An dieser Stelle müssen wir differenzieren, in welchem Verhältnis $\rho$ und $\omega_0$ stehen.
 			Die beiden Fälle, bei denen reelle Werte aus dem Wurzelausdruck entstehen, den sogenannten Kriechfall (bei $\rho > \omega_0$) bzw. aperiodischen Grenzfall (bei $\rho = \omega_0 $), werden wir im Folgenden nicht genauer betrachten. 
 			
-			Für den Fall, dass $\rho < \omega_0 $ ist, erhalten wir eine mit $e^{\rho t}$ gedämpfte Kosinusschwingung mit der Frequenz $\omega = \sqrt{\omega_0^2-\rho^2}$, da wir nur den Realteil unserer Lösung betrachten. Wir messen die Eigenfrequenz $\omega$ und bestimmen die Dämpfung $\rho$, indem wir für $\omega_0$ die Frequenz des ersten Versuches nehmen. 
+			Für den Fall, dass $\rho < \omega_0 $ ist, erhalten wir eine mit $e^{\rho t}$ gedämpfte Kosinusschwingung mit der Frequenz $\omega = \sqrt{\omega_0^2-\rho^2}$, da wir nur den Realteil unserer Lösung betrachten. Wir messen die Eigenfrequenz $\omega$ und bestimmen die Dämpfung $\rho$ aus den gemessenen Amplituden. 
 						
 			Hier und in den folgenden Versuchen betrachten wir nur noch die von dem Computer aufgenommenen Messergebnisse. Wir messen hier die Zeit, bis das Pendel komplett aufhört zu schwingen zur Bestimmung der Eigenfrequenz und führen die Messung für verschiedene Dämpfungen $\rho$ durch. Um die Stärke der Dämpfung einzustellen verwenden wir verschiedene Eingabestromstärken für die Wirbelstrombremse.
 		
 		\subsection*{Messung}
 		
-			Für die folgenden Stromstärken haben wir die Frequenz $\omega$ gemessen. Das Umstellen von \refeq{HarmonischeFrequenz}, zur Berechnung der Dämpfung $\rho$, lieferte uns folgende Messergebnisse:	
+			Für die folgenden Stromstärken haben wir die Frequenz $\omega$ gemessen, sowie die Dämpfung $\rho$ aus den Amplituden der Messung bestimmt. Diese Ergebnisse sind in \reftab{MessungGedämpft} zu sehen.	
 			
 			\begin{table}[ht]
 				\centering
@@ -194,12 +227,28 @@
 			
 			Für unsere Anregungsfrequenz haben wir in Abhängigkeit der Spannung die in \ref{} dargestellte Kurve aufgenommen. Diese verläuft linear.
 			
-			Die Ermittlung der Resonanzfrequenz  $\omega_\textsc{R}$ geschah hier für drei unterschiedliche Dämpfungen. Dazu haben wir jeweils ca. 20 Amplituden für die verschiedenen Anregungsfrequenzen aufgezeichnet, welche in den Figuren \ref{}, \ref{} und \ref{} dargestellt sind. Daraus nähern wir die in \reftab{MessungErzwungen} dargestellten Resonanzfrequenzen und Dämpfungen (anhand der Amplitudenposition) für die verschiedenen Stromstärken bei der Wirbelstrombremse.
+			Die Ermittlung der Resonanzfrequenz  $\omega_\textsc{R}$ geschah hier für drei unterschiedliche Dämpfungen. Dazu haben wir jeweils ca. 20 Amplituden für die verschiedenen Anregungsfrequenzen aufgezeichnet, welche in den Figuren \reffig{Resonanz1}, \reffig{Resonanz2} und \reffig{Resonanz3} dargestellt sind. 
+			\begin{figure}[ht]
+				\includegraphics[width=\textwidth]{Resonanzkurve0,25A.png}
+				\caption{Resonanzkurve bei \SI{0,25}{\A}}
+				\label{fig:Resonanz1}
+			\end{figure}
+			\begin{figure}[ht]
+				\includegraphics[width=\textwidth]{Resonanzkurve0,4A.png}
+				\caption{Resonanzkurve bei \SI{0,4}{\A}}
+				\label{fig:Resonanz2}
+			\end{figure}		
+			\begin{figure}[ht]
+				\includegraphics[width=\textwidth]{Resonanzkurve0,7A.png}
+				\caption{Resonanzkurve bei \SI{0,7}{\A}}
+				\label{fig:Resonanz3}
+			\end{figure}
+			Daraus nähern wir die in \reftab{MessungErzwungen} dargestellten Resonanzfrequenzen und Dämpfungen (anhand der Amplitudenposition) für die verschiedenen Stromstärken bei der Wirbelstrombremse.
 			\begin{table}[ht]
 				\centering
 				\begin{tabular}{l|S|S|S}
 					\hline
-					{Stromstärke $I$} & {\SI{0.7}{\A}} & {\SI{0.4}{\A}} & {\SI{0.25}{\A}} \\
+					{Stromstärke $I$} & {\SI{0.25}{\A}} & {\SI{0.4}{\A}} & {\SI{0.7}{\A}} \\
 					\hline
 					{Resonanzfrequenz $\omega_\textsc{R}$} \quad
 					& \SI{10000}{\s^{-1}}	%TODO
