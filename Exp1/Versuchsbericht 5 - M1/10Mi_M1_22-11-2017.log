@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 21:34
 entering extended mode
 **./10Mi_M1_22-11-2017.tex
 (10Mi_M1_22-11-2017.tex
@@ -1334,12 +1334,12 @@ File: Resonanzkurve0,25A.png Graphic file (type png)
 Package pdftex.def Info: Resonanzkurve0,25A.png used on input line 232.
 (pdftex.def)             Requested size: 360.0pt x 211.14317pt.
 
-<Resonanzkurve0,4A.png, id=43, 849.92531pt x 503.63156pt>
+<Resonanzkurve0,4A.png, id=43, 849.92531pt x 477.28313pt>
 File: Resonanzkurve0,4A.png Graphic file (type png)
 
 <use Resonanzkurve0,4A.png>
 Package pdftex.def Info: Resonanzkurve0,4A.png used on input line 237.
-(pdftex.def)             Requested size: 360.0pt x 213.32205pt.
+(pdftex.def)             Requested size: 360.0pt x 202.1617pt.
 
 <Resonanzkurve0,7A.png, id=44, 855.94781pt x 505.13719pt>
 File: Resonanzkurve0,7A.png Graphic file (type png)
@@ -1349,15 +1349,16 @@ Package pdftex.def Info: Resonanzkurve0,7A.png used on input line 242.
 (pdftex.def)             Requested size: 360.0pt x 212.44907pt.
  [7] [8 <./Resonanzkurve0,25A.png>]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 291.
+LaTeX Warning: Reference `' on page 9 undefined on input line 292.
 
-[9 <./Resonanzkurve0,4A.png>]
-Overfull \hbox (35.95717pt too wide) in paragraph at lines 303--304
+
+Overfull \hbox (35.95717pt too wide) in paragraph at lines 304--305
 []\T1/lmr/m/n/10.95 Das hier ver-wen-de-te Bild stammt aus Dreh-pen-del_Pohl_E
 inführung.pdf 
  []
 
-[10 <./Resonanzkurve0,7A.png>] (10Mi_M1_22-11-2017.aux)
+[9 <./Resonanzkurve0,4A.png>] [10 <./Resonanzkurve0,7A.png>]
+(10Mi_M1_22-11-2017.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1387,7 +1388,7 @@ r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M1_22-11-2017.pdf (11 pages, 360976 bytes).
+Output written on 10Mi_M1_22-11-2017.pdf (11 pages, 364331 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
