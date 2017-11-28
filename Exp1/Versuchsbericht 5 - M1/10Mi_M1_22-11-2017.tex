@@ -164,7 +164,7 @@
 		
 		\subsection*{Messung}
 		
-			Für die folgenden Stromstärken haben wir die Frequenz $\omega$ gemessen, sowie die Dämpfung $\rho$ aus den Amplituden der Messung bestimmt. Diese Ergebnisse sind in \reftab{MessungGedämpft} zu sehen.	
+			Für die folgenden Stromstärken haben wir die Frequenz $\omega$ gemessen, sowie die Dämpfung $\rho$ aus den Amplituden der Messung bestimmt. Diese Ergebnisse sind in \reftab{MessungGedämpft} zu sehen, dabei sind die Unsicherheiten, wie oben berechnet.	
 			
 			\begin{table}[ht]
 				\centering
@@ -173,28 +173,33 @@
 					{Stromstärke $I$} & {\SI{0.25}{\A}} & {\SI{0.5}{\A}} & {\SI{0.75}{\A}} \\
 					\hline
 					{Eigenfrequenz $\omega$} \quad
-					& \SI{10000}{\s^{-1}}	%TODO
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}}\\
+					& \SI{0,5501+-0,0096}{\s^{-1}}	
+					& \SI{0,5498+-0,0078}{\s^{-1}}
+					& \SI{0,5495+-0,0135}{\s^{-1}}\\
 					\hline
 					{Dämpfung $\rho$}
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}} \\
+					& \SI{-0.4368+-0,0011}{\s^{-1}}
+					& \SI{-0,2677+-0,0026}{\s^{-1}}
+					& \SI{-0,4456+-0,0006}{\s^{-1}} \\
 					\hline
 				\end{tabular}
 				\caption{Messergebnisse zur gedämpften Schwingung}
 				\label{tab:MessungGedämpft}
 			\end{table}
-			Hierbei sind $\omega$ und $\rho$ positiv gewählt, da die negativen Werte physikalisch nicht sinnvoll sind. Die gemessenen Kurven der Auslenkung gegenüber der Zeit sind in \ref{} dargestellt. Wir erkennen  - - - %TODO
-					
+			Hierbei wurden $\omega$ positiv und $\rho$ negativ gewählt, da die anderen Werte physikalisch nicht sinnvoll schienen. Die gemessenen Kurven der Auslenkung gegenüber der Zeit sind in \refabb{Dämpfung} dargestellt. Wir erkennen, dass bei höheren Stromstärken weniger Schwingungen stattfinden.
+			\begin{figure}[ht]
+				\includegraphics[width=\textwidth]{GedaempfteSchwingungen.pdf}
+				\caption{Harmonische Schwingung bei verschiedenen Dämpfungen}
+				\label{abb:Dämpfung}
+			\end{figure}
+				
 		\subsection*{Schlussfolgerung}
 			
 			Da wir hier den leicht gedämpften Fall betrachten sieht die Lösung der Differentialgleichung wie folgt aus:
 			\begin{equation}
 				\varphi (t)=C\cdot e^{\rho t}\cdot \cos{(\sqrt{\omega_0^2-\rho^2}t)}
 			\end{equation}
-			Übertragen wir diese Bewegung nun auf die Ergebnisse unserer Messung, so erkennen wir, dass - - - %TODO
+			Übertragen wir diese Bewegung nun auf die Ergebnisse unserer Messung, so erkennen wir, dass in \refabb{Dämpfung} zwar die Kosinusschwingung mit annähernd exponentiellem Abfall zu erkennen ist, jedoch die Dämpfung bei \SI{0.25}{\A}, wie wir sie anhand des Verlaufs entlang der Extrema bestimmt haben, viel zu groß ist und somit nicht der Erwartung entspricht, dass für \SI{0.25}{\A} gerade die schwächste Dämpfung vorliegt. Da \refabb{Dämpfung} bereits zeigt, dass bei \SI{0.25}{\A} noch die meisten Schwingungen durchgeführt wurden, wird uns bei der Berechnung ein Fehler unterlaufen sein, welchen wir trotz genauerer Betrachtung nicht gefunden haben, wobei ein Faktor von zehn, welcher verloren gegangen ist, hierbei realistisch.
 			
 	\section{Versuch zu erzwungenen Schwingungen}
 	
@@ -225,27 +230,27 @@
 		
 		\subsection*{Messung}
 			
-			Für unsere Anregungsfrequenz haben wir in Abhängigkeit der Spannung die in \reffig{Kalibrierkurve} dargestellte Kurve aufgenommen. Diese verläuft linear.			
+			Für unsere Anregungsfrequenz haben wir in Abhängigkeit der Spannung die in \refabb{Kalibrierkurve} dargestellte Kurve aufgenommen. Diese verläuft linear.			
 			\begin{figure}[ht]
 				\includegraphics[width=\textwidth]{Kalibrierungskurve.pdf}
 				\caption{Frequenz in Abhängigkeit der Spannung}
-				\label{fig:Kalibrierkurve}
+				\label{abb:Kalibrierkurve}
 			\end{figure}
-			Die Ermittlung der Resonanzfrequenz  $\omega_\textsc{R}$ geschah hier für drei unterschiedliche Dämpfungen. Dazu haben wir jeweils ca. 20 Amplituden für die verschiedenen Anregungsfrequenzen aufgezeichnet, welche in den Figuren \reffig{Resonanz1}, \reffig{Resonanz2} und \reffig{Resonanz3} dargestellt sind. 
+			Die Ermittlung der Resonanzfrequenz  $\omega_\textsc{R}$ geschah hier für drei unterschiedliche Dämpfungen. Dazu haben wir jeweils ca. 20 Amplituden für die verschiedenen Anregungsfrequenzen mit Betrachtung der Fehler aufgezeichnet, welche in \refabb{Resonanz1}, \refabb{Resonanz2} und \refabb{Resonanz3} dargestellt sind. 
 			\begin{figure}[ht]
 				\includegraphics[width=\textwidth]{Resonanzkurve0,25A.png}
 				\caption{Resonanzkurve bei \SI{0,25}{\A}}
-				\label{fig:Resonanz1}
+				\label{abb:Resonanz1}
 			\end{figure}
 			\begin{figure}[ht]
 				\includegraphics[width=\textwidth]{Resonanzkurve0,4A.png}
 				\caption{Resonanzkurve bei \SI{0,4}{\A}}
-				\label{fig:Resonanz2}
+				\label{abb:Resonanz2}
 			\end{figure}		
 			\begin{figure}[ht]
 				\includegraphics[width=\textwidth]{Resonanzkurve0,7A.png}
 				\caption{Resonanzkurve bei \SI{0,7}{\A}}
-				\label{fig:Resonanz3}
+				\label{abb:Resonanz3}
 			\end{figure}
 			Daraus nähern wir die in \reftab{MessungErzwungen} dargestellten Resonanzfrequenzen und Dämpfungen (anhand der Amplitudenposition) für die verschiedenen Stromstärken bei der Wirbelstrombremse.
 			Für die Frequenzen verwenden wir den
@@ -256,14 +261,14 @@
 					{Stromstärke $I$} & {\SI{0.25}{\A}} & {\SI{0.4}{\A}} & {\SI{0.7}{\A}} \\
 					\hline
 					{Resonanzfrequenz $\omega_\textsc{R}$} \quad
-					& \SI{10000}{\s^{-1}}	%TODO
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}}\\
+					& \SI{0,6268+-0,0314}{\s^{-1}}
+					& \SI{0,6299+-0,0315}{\s^{-1}}
+					& \SI{0,6385+-0,0320}{\s^{-1}}\\
 					\hline
 					{Dämpfung $\rho$}
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}}
-					& \SI{10000}{\s^{-1}} \\
+					& \SI{0,5424+-0,0074}{\s^{-1}}
+					& \SI{0,5431+-0,0074}{\s^{-1}}
+					& \SI{0,5450+-0,0075}{\s^{-1}} \\
 					\hline
 				\end{tabular}
 				\caption{Messergebnisse zur erzwungenen Schwingung}
@@ -276,9 +281,9 @@
 			
 		\subsection*{Schlussfolgerung}
 			
-			- - -
-			%TODO
-			% Schlussfolgerung
+			Aus dem linearen Verlauf der Kalibrierkurve entnehmen wir, dass die Frequenz der Anregung sich proportional zu der an dem Motor anliegenden Spannung verhält. Unserer Messung nach mit dem Faktor \SI{0,07786+-0,00158}{\V^{-1}\s^{-1}}.
+			Zudem können wir aus unserer Messung folgern, dass hier die Dämpfung wie erwartet mit steigender Stromstärke stärker wird und dass die Resonanzfrequenz sich dann ebenfalls hebt, was jedoch der oben stehenden Gleichung für die Resonanzfrequenz widerspricht, was erneut auf Fehler in der Berechnung bzw. in der Aufnahme der Werte schließen lässt.
+			Dass sich die Beobachtung der Phasenverschiebung für Drehpendel und Fadenpendel gleich ergaben, ist wenig verwunderlich, da es sich bei beiden Pendeln um Drehschwinger handelt, welche den gleichen Bewegungsgleichungen unterliegen.
 			
 	\section{Versuch zu nichtlinearen Schwingungen}
 	
@@ -293,14 +298,18 @@
 		
 		\subsection*{Messung}
 			
-			Unsere Messung, wie sie in \ref{} dargestellt ist, zeigt dass sich die Resonanzfrequenz mit der Zeit ändert. Bei dem Erhöhen der Anregungsfrequenz haben wir die Resonanzfrequenz zunächst bei einer Ausgangsspannung von ca. \SI{8,2}{\V} gemessen. Nach dem Verringern der Anregungsfrequenz jedoch haben wir unsere Resonanzfrequenz bei ca. \SI{6,4}{\V} gefunden. Nahe den gemessenen Resonanzfrequenzen, fiel die Auslenkung stark ab.
-			Nahe der Resonanzfrequenz konnten wir für sie stabilen Schwingungszustände zwei gemischte Frequenzen ermitteln. %TODO
+			\begin{figure}[ht]
+				\includegraphics[width=\textwidth]{Frequenzaenderung.pdf}
+				\caption{Änderung der Amplitude bei Nichtlinearität}
+				\label{abb:Nichtlinearität}
+			\end{figure}
+			Unsere Messung, wie sie in \refabb{Nichtlinearität} dargestellt ist, zeigt dass sich die Resonanzfrequenz mit der Zeit ändert. Bei dem Erhöhen der Anregungsfrequenz haben wir die Resonanzfrequenz zunächst bei einer Ausgangsspannung von ca. \SI{8,2}{\V} gemessen. Nach dem Verringern der Anregungsfrequenz jedoch haben wir unsere Resonanzfrequenz bei ca. \SI{6,4}{\V} gefunden. Nahe den gemessenen Resonanzfrequenzen, fiel die Auslenkung stark ab.
 			
 		\subsection*{Schlussfolgerung}
 			
-			- - -
-			%TODO
-			% Schlussfolgerung
+			Wie erwartet, sind die gemessenen Frequenzen bei Einführung einer Nichtlinearität willkürlich und waren für verschiedene Messungen leicht unterschiedlich und sich keine Parallelen finden ließen, weswegen wir uns entschieden haben nur eine Messung aufzunehmen.
+			
+			Nahe der Resonanzfrequenz konnten wir für sie stabilen Schwingungszustände zwei gemischte Frequenzen ermitteln. Bei richtiger Einstellung der Anregungsfrequenz sollte es zu einer Schwebung führen. Dies nachzustellen war uns jedoch nicht möglich.
 
 	\vspace{1cm}		
 	\section*{Literatur}

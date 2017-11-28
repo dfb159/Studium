@@ -5,4 +5,4 @@
 \contentsline {section}{\numberline {4}Versuch zu freien Schwingungen}{4}
 \contentsline {section}{\numberline {5}Versuch zu ged\IeC {\"a}mpften Schwingungen}{5}
 \contentsline {section}{\numberline {6}Versuch zu erzwungenen Schwingungen}{6}
-\contentsline {section}{\numberline {7}Versuch zu nichtlinearen Schwingungen}{9}
+\contentsline {section}{\numberline {7}Versuch zu nichtlinearen Schwingungen}{10}
