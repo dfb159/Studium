@@ -54,7 +54,7 @@
 	\section{Pohl'sches Rad}
 		
 		Das Drehpendel nach Pohl oder auch Pohl'sches Rad ist wie in Abbildung \ref{abb:Drehpendel} zu sehen aufgebaut.
-		Die zu sehende Scheibe ist mit einer Spiralfeder verbunden und erfährt bei Auslenkung die Rückstellkraft dieser. Dies führt zu einer Schwingung.
+		Die zu sehende Scheibe ist mit einer Spiralfeder verbunden und erfährt bei Auslenkung die Rückstellkraft dieser, was zur Schwingung der Scheibe führt.
 		Dabei lässt sich die Auslenkung an dem Maß außerhalb der Scheibe mit Hilfe des Pfeils, welcher an dieser angebracht ist, ablesen. 
 		Zusätzlich ist an der Scheibe ein Faden angebracht, welcher mit einem Messgerät verbunden ist, um die Auslenkung zu bestimmen. Ein Computer, welcher an das Messgerät geschlossen ist, wertet die gemessenen Auslenkungen aus und trägt diese gegen die Zeit auf. 
 		
@@ -127,9 +127,11 @@
 				\omega_{1,2}= -\rho \pm \sqrt{\rho^2-\omega_0^2}
 			\end{equation}
 			An dieser Stelle müssen wir differenzieren, in welchem Verhältnis $\rho$ und $\omega_0$ stehen.
-			%TODO 3Fälle kurz beschreiben
+			Die beiden Fälle, bei denen reelle Werte aus dem Wurzelausdruck entstehen, den sogenannten Kriechfall (bei $\rho > \omega_0$) bzw. aperiodischen Grenzfall (bei $\rho = \omega_0 $), werden wir im Folgenden nicht genauer betrachten. 
+			
+			Für den Fall, dass $\rho < \omega_0 $ ist, erhalten wir eine mit $e^{\rho t}$ gedämpfte Kosinusschwingung mit der Frequenz $\omega = \sqrt{\omega_0^2-\rho^2}$, da wir nur den Realteil unserer Lösung betrachten. Wir bestimmen die Dämpfung $\rho$, indem wir für $\omega_0$ die Eigenfrequenz aus dem ersten Versuch nehmen. Die aus dem Lösungsansatz verwendete Amplitude entnehmen wir unserer Messung bei $t=0$.
 						
-			Hier und in den folgenden Versuchen betrachten wir nur noch die von dem Computer aufgenommenen Messergebnisse. Wir messen auch hier die Zeit, dieses mal jedoch bis das Pendel komplett aufhört zu schwingen und führen die Messung für verschiedene Dämpfungen durch. Um die Stärke der Dämpfung einzustellen betrachten wir verschiedene Eingabestromstärken für die Wirbelstrombremse.
+			Hier und in den folgenden Versuchen betrachten wir nur noch die von dem Computer aufgenommenen Messergebnisse. Wir messen hier die Zeit, bis das Pendel komplett aufhört zu schwingen und führen die Messung für verschiedene Dämpfungen durch. Um die Stärke der Dämpfung einzustellen verwenden wir verschiedene Eingabestromstärken für die Wirbelstrombremse.
 		
 		\subsection*{Messung}
 		
@@ -172,31 +174,37 @@
 			Zuletzt betrachten wir die Phasenverschiebung $\alpha$ zwischen Anregung und Pendel für verschiedene Dämpfungen und Frequenzen. Dies übertragen wir zusätzlich auf das Fadenpendel.
 		
 		\subsection*{Messung}
-		
+			
+			- - -
 			%TODO
 			% Messung
 			
 		\subsection*{Schlussfolgerung}
-		
+			
+			- - -
 			%TODO
 			% Schlussfolgerung
 			
 	\section{Versuch zu nichtlinearen Schwingungen}
 	
-		Der letzte Versuch behandelt nichtlineare Schwingungen. %TODO
+		Der letzte Versuch behandelt nichtlineare Schwingungen. Auch diese stellen wir mit Hilfe des Drehpendels dar. Dazu bringen wir ein Gewicht an der Scheibe des Pendels an.
 		
 		\subsection*{Methoden}
-						
-				% Beschreibung nichtlineare Schwingung			
-				% Einbringen einer Nichtlinearität und Betrachtung der Resonanz
+				
+				Die Resonanzfrequenzen nichtlinearer Schwingungen lassen sich nicht, wie bei den vorherigen Schwingungstypen berechnen, da diese sich auch bei gleichen Anfangsbedingungen nicht gleich verhalten.
+				
+				Wir können die Resonanzfrequenz jedoch annähernd messen, indem wir die Auslenkung des Pendels mit Anregung messen und dabei die Frequenz der erzwungenen Schwingung langsam ändern.
+				Hier fangen wir bei niedrigen Frequenzen an, erhöhen diese und nahe der Maximalfrequenz verringern wir sie wieder, bis wir bei unserem Ausgangspunkt angelangt sind.
 		
 		\subsection*{Messung}
 			
+			- - -
 			%TODO
 			% Messung
 			
 		\subsection*{Schlussfolgerung}
 			
+			- - -
 			%TODO
 			% Schlussfolgerung
 
