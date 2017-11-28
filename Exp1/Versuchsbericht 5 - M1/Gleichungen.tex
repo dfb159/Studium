@@ -1,0 +1,167 @@
+\documentclass[11pt,a4paper,titlepage, ngerman]{article}
+
+\usepackage[utf8]{inputenc}	
+\usepackage[T1]{fontenc}	
+\usepackage{ngerman}			
+\usepackage{lmodern}			
+\usepackage{graphicx}			
+\usepackage{url}				
+\usepackage{siunitx}
+\usepackage{amsmath}			
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{biblatex}
+
+\newcommand{\refeq}[1]{Gl. (\ref{eq:#1})}
+\newcommand{\refabb}[1]{Abb. \ref{abb:#1}}
+\newcommand{\reffig}[1]{Fig. \ref{fig:#1}}
+\newcommand{\reftab}[1]{Tab. \ref{tab:#1}}
+
+\begin{document}
+
+	\begin{titlepage}
+		
+		\centering
+		{\scshape\LARGE Gleichungen zu \par}
+		\vspace{1cm}
+		{\scshape\huge M1 -- Drehpendel nach Pohl\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de) \par}
+		\vfill
+		durchgeführt am 15.11.2017\par
+		betreut von\par
+		{\large Johann Preuß}		
+		\vfill	
+		{\large \today\par}
+		
+	\end{titlepage}
+		
+	\tableofcontents
+		
+	\newpage
+		
+	\section{Messunsicherheiten der folgenden Versuche}
+		
+		Für die Zeitungenauigkeit am Computer: $u(t) = \frac{\SI{0,05}{\second}}{2\sqrt{3}}$.
+		Das ist gerade die Breite der Abtastrate.
+		
+		Für die Positionsunsicherheit am Computer: $u(x) = \frac{\SI{1}{mm}}{2\sqrt{3}}$.
+		Summe von allem (Seildehnung, CASSY-Unsicherheit), weil nicht gut einzeln bestimmbar.
+		
+		Für die Stoppuhr: $u_\text{Uhr}(t) = \sqrt{u_\text{Digit}(t)^2 + u_\text{Reaktion}(t)^2}$.
+		Dabei ist $u_\text{Digital}(t) = \frac{\SI{10}{ms}}{2\sqrt{3}}$ und $u_\text{Reaktion}(t) = \frac{\SI{100}{ms}}{2\sqrt{6}}$.
+		
+		Für das Multimeter (0.5\%): $u_\text{Multi}(U) = \sqrt{u_\text{Digit}(U)^2 + u_\text{Prozent}(U)^2}$.
+		Messreichweite von \SI{20}{V}.
+		Mit $u_\text{Digit}(U) = \frac{\SI{0,01}{V}}{2\sqrt{3}}$ und $u_\text{Prozent}(U) = 0,005 U$.
+		
+		Stromquelle: $u_\text{Strom}(I) = u_\text{Digital}(I) = \frac{\SI{0,01}{A}}{2\sqrt{3}}$.
+		
+		Für manuelle Auslenkungsablesung sei $a = \SI{2}{mm}$, weil der Wert manchmal ein wenig schwer abzulesen war.		
+		Es sei $u_\text{Analog}(x) = \frac{\SI{2}{mm}}{2\sqrt{6}}$.
+	
+	\section{Versuch zu freien Schwingungen}
+		
+		\subsection*{Computer}
+		Es wurden 20 Messreihen aufgenommen, da nach 10ter der Faden rausgesprungen ist, nur 10 erste Messreihen betrachten.
+		Es werden von jeder Messreihe die Dauer für 10 Schwingungsperioden genommen, dabei ab dem ersten Minima bis zum 11 Minima für höhere genauigkeit.
+		
+		Periodendauer: $T=\SI{1,8255}{s}$ mit $u(T) = \SI{0,002041241452319}{s}$.
+		Errechnet: $dT = T_2 - T_1$ sei zeitl. Abstand zwischen dem 1. Minima($T_1$) und dem 11. Minima ($T_2$).
+		$u(T_1) = u(T_2)$.
+		\begin{align}
+			u(dT) &= \sqrt{\left( \frac{\partial\,dT}{\partial\,T_1} \cdot u(T_1)\right)^2 +\left( \frac{\partial\,dT}{\partial\,T_2} \cdot u(T_2)\right)^2}\\
+			&= \sqrt{(-u(T_1))^2 + (u(T_2))^2}\\
+			&= \sqrt{2 u(T)^2} = \sqrt{2} u(T)
+		\end{align}
+		
+		Für die Frequenz ergibt sich: $f=\frac{1}{T} = \SI{0,547795124623391}{\per\second}$, 
+		$u(f) = \frac{u(T)}{T^2} =\SI{ 0,000612534711454}{\per\second}$.
+		
+		\subsection*{Stoppuhr}
+		20  mal 10 Zeitstoppungen.
+		Mittelwert $\bar{T} = \SI{1,8332}{\second}$ und $u(T) = \SI{0,03863949438483623}{\second}$.
+		Dabei sei $u(T)$ nicht kombiniert aus Stoppuhr und Messwerte, weil die Uhr schon in den Messwerten drinsteckt.
+		Diese Unsicherheit ist doppelt so groß wie die kombinierte.(schlechte Messung? doch keine Reaktionszeit von 100ms?)
+		Es seien $f=1/T = \SI{0,545494217761292}{\per\second}$ und $u(f) = \frac{u(T)}{T^2}= \SI{0,011497720251008}{\per\second}$.
+		
+		Man sieht direkt, dass die Computeranalyse deutlich genauer war, selbst mit den gewählten, immer noch sehr großen Unsicherheiten(für das CASSY).
+		
+	\section{Versuch zu gedämpften Schwingungen}
+		
+		Mittelwert: $T = \SI{1,814285714285714}{s}$ und $u(T) = \SI{0,03779644730092253}{s}$.\\
+		Mittelwert: $f = \SI{0,55118110236220481120962241924485}{\per\second}$ und $u(f) = $
+		Dabei ist $u(f)$ wie in M1.2 berechnet. $u(T)$ ist aus SciDaVis.
+		
+	\section{Versuch zu erzwungenen Schwingungen}
+	
+		Nun betrachten wir erzwungene Schwingungen, welche wir mit Hilfe eines Motors an unserem Pendel erzeugen.
+			
+		\subsection*{Methoden}
+			
+			Erneut betrachten wir \refeq{HarmonischeSchwingung}, jetzt steht auf der anderen Seite jedoch nicht null sondern:
+			\begin{align}
+				\ddot{\varphi}+2\rho\dot{\varphi}+\omega_0^2\varphi= \mu cos(\omega t) \label{eq:ErzwungeneSchwingung}\\
+				\text{wobei } \mu = \frac{M_0}{J}
+			\end{align}
+			$M_0$ ist hierbei die Amplitude der äußeren Anregung und $J$ wie zuvor das Trägheitsmoment der Kreisscheibe. Die angeregte Schwingung hat zudem die Frequenz $\omega$.
+			Es bildet sich eine Überlagerung des harmonischen Teils mit der angeregten Schwingung. Da der harmonische Teil jedoch abfällt, schwingt das System nach dem Abfallen bzw. nach dem sogenannten Einschwingvorgang genau so wie die Anregung.
+			Eine mögliche Lösung von \refeq{ErzwungeneSchwingung} setzt sich wie folgt zusammen:
+			\begin{align}
+				\varphi = \varphi_0 \cos{(\omega t-\alpha)} \label{eq:ErzwungeneSchwingungLsg}\\
+				\text{mit } \quad \varphi_0 = \frac{\mu}{\sqrt{(\omega^2-\omega_0^2)^2+4\rho^2\omega^2}} \label{eq:ErzwungeneSchwingungAmp}\\
+				\text{und der Phase} \quad \tan{\alpha} = \frac{-2\rho\omega}{\omega^2-\omega_0^2}
+			\end{align}
+			Die erzwungene Schwingung ist somit eine mit der Frequenz $\omega$ schwingende Kosinusfunktion. Die Phase von $\varphi$ hängt der Phase der Anregung um $\alpha$ hinterher (vgl. \refeq{ErzwungeneSchwingung} und \refeq{ErzwungeneSchwingungLsg}) und die Amplitude $\varphi_0$ von $\varphi$ ist zeitlich konstant und hängt von der Dämpfung $\rho$ des Systems ab.
+			
+			Im Resonanzfall ist die Amplitude maximal. Betrachten wir hierzu \refeq{ErzwungeneSchwingungAmp}, so erhalten wir, dass die Resonanzfrequenz bei $\omega = \sqrt{\omega_0^2-2\rho^2}$ liegt.
+			
+			Um die Frequenz der Anregung zu bestimmen, erstellen wir eine Kalibrierkurve, messen also die Umlaufdauer $T$ der Anregung, für verschiedene Spannungen an dem Motor, mit einer Stoppuhr. Die Spannungen messen wir an dem Ausgang des Motors mit einem Multimeter.
+			Zusätzlich bestimmen wir die Resonanzfrequenz für drei verschiedene Dämpfungen, die ungleich null sind [um die Resonanzkatastrophe zu vermeiden (dass die Amplitude $\varphi_0$ gegen unendlich geht)].
+				
+			Zuletzt betrachten wir die Phasenverschiebung $\alpha$ zwischen Anregung und Pendel für verschiedene Dämpfungen und Frequenzen. Dies übertragen wir zusätzlich auf das Fadenpendel.
+		
+		\subsection*{Messung}
+			
+			- - -
+			%TODO
+			% Messung
+			
+		\subsection*{Schlussfolgerung}
+			
+			- - -
+			%TODO
+			% Schlussfolgerung
+			
+	\section{Versuch zu nichtlinearen Schwingungen}
+	
+		Der letzte Versuch behandelt nichtlineare Schwingungen. Auch diese stellen wir mit Hilfe des Drehpendels dar. Dazu bringen wir ein Gewicht an der Scheibe des Pendels an.
+		
+		\subsection*{Methoden}
+				
+				Die Resonanzfrequenzen nichtlinearer Schwingungen lassen sich nicht, wie bei den vorherigen Schwingungstypen berechnen, da diese sich auch bei gleichen Anfangsbedingungen nicht gleich verhalten.
+				
+				Wir können die Resonanzfrequenz jedoch annähernd messen, indem wir die Auslenkung des Pendels mit Anregung messen und dabei die Frequenz der erzwungenen Schwingung langsam ändern.
+				Hier fangen wir bei niedrigen Frequenzen an, erhöhen diese und nahe der Maximalfrequenz verringern wir sie wieder, bis wir bei unserem Ausgangspunkt angelangt sind.
+		
+		\subsection*{Messung}
+			
+			- - -
+			%TODO
+			% Messung
+			
+		\subsection*{Schlussfolgerung}
+			
+			- - -
+			%TODO
+			% Schlussfolgerung
+
+	\newpage			
+	\section*{Literatur}
+		\begin{description}
+			\item[\refabb{Drehpendel}] Das hier verwendete Bild stammt aus \glqq Drehpendel\_Pohl\_Einführung.pdf\grqq
+		\end{description}
+\end{document} 

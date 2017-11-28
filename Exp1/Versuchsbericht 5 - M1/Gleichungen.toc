@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Messunsicherheiten der folgenden Versuche}{2}
+\contentsline {section}{\numberline {2}Versuch zu freien Schwingungen}{2}
+\contentsline {section}{\numberline {3}Versuch zu ged\IeC {\"a}mpften Schwingungen}{3}
+\contentsline {section}{\numberline {4}Versuch zu erzwungenen Schwingungen}{3}
+\contentsline {section}{\numberline {5}Versuch zu nichtlinearen Schwingungen}{4}
