@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  28 NOV 2017 21:46
 entering extended mode
 **./10Mi_M1_22-11-2017.tex
 (10Mi_M1_22-11-2017.tex
@@ -1323,41 +1323,44 @@ mal zehn Schwin-
 
 LaTeX Warning: Reference `' on page 6 undefined on input line 189.
 
-[6]
+[6] <Kalibrierungskurve.pdf, id=42, 501.875pt x 381.425pt>
+File: Kalibrierungskurve.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 228.
+<use Kalibrierungskurve.pdf>
+Package pdftex.def Info: Kalibrierungskurve.pdf used on input line 230.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-<Resonanzkurve0,25A.png, id=42, 848.4197pt x 497.60907pt>
+<Resonanzkurve0,25A.png, id=43, 848.4197pt x 497.60907pt>
 File: Resonanzkurve0,25A.png Graphic file (type png)
 
 <use Resonanzkurve0,25A.png>
-Package pdftex.def Info: Resonanzkurve0,25A.png used on input line 232.
+Package pdftex.def Info: Resonanzkurve0,25A.png used on input line 236.
 (pdftex.def)             Requested size: 360.0pt x 211.14317pt.
 
-<Resonanzkurve0,4A.png, id=43, 849.92531pt x 477.28313pt>
+<Resonanzkurve0,4A.png, id=44, 849.92531pt x 477.28313pt>
 File: Resonanzkurve0,4A.png Graphic file (type png)
 
 <use Resonanzkurve0,4A.png>
-Package pdftex.def Info: Resonanzkurve0,4A.png used on input line 237.
+Package pdftex.def Info: Resonanzkurve0,4A.png used on input line 241.
 (pdftex.def)             Requested size: 360.0pt x 202.1617pt.
 
-<Resonanzkurve0,7A.png, id=44, 855.94781pt x 505.13719pt>
+<Resonanzkurve0,7A.png, id=45, 855.94781pt x 505.13719pt>
 File: Resonanzkurve0,7A.png Graphic file (type png)
 
 <use Resonanzkurve0,7A.png>
-Package pdftex.def Info: Resonanzkurve0,7A.png used on input line 242.
+Package pdftex.def Info: Resonanzkurve0,7A.png used on input line 246.
 (pdftex.def)             Requested size: 360.0pt x 212.44907pt.
- [7] [8 <./Resonanzkurve0,25A.png>]
+ [7] [8 <./Kalibrierungskurve.pdf>]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 292.
+LaTeX Warning: Reference `' on page 9 undefined on input line 296.
 
-
-Overfull \hbox (35.95717pt too wide) in paragraph at lines 304--305
+[9 <./Resonanzkurve0,25A.png>]
+Overfull \hbox (35.95717pt too wide) in paragraph at lines 308--309
 []\T1/lmr/m/n/10.95 Das hier ver-wen-de-te Bild stammt aus Dreh-pen-del_Pohl_E
 inführung.pdf 
  []
 
-[9 <./Resonanzkurve0,4A.png>] [10 <./Resonanzkurve0,7A.png>]
+[10 <./Resonanzkurve0,4A.png>] [11 <./Resonanzkurve0,7A.png>]
 (10Mi_M1_22-11-2017.aux)
 
 LaTeX Warning: There were undefined references.
@@ -1367,10 +1370,10 @@ Package logreq Info: Writing requests to '10Mi_M1_22-11-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21104 strings out of 493333
- 413236 string characters out of 3139197
- 778170 words of memory out of 3000000
- 24432 multiletter control sequences out of 15000+200000
+ 21110 strings out of 493333
+ 413385 string characters out of 3139197
+ 778179 words of memory out of 3000000
+ 24437 multiletter control sequences out of 15000+200000
  602003 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,18n,49p,10391b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1388,9 +1391,9 @@ r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M1_22-11-2017.pdf (11 pages, 364331 bytes).
+Output written on 10Mi_M1_22-11-2017.pdf (12 pages, 380646 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
