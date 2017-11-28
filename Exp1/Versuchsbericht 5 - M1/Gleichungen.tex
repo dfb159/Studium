@@ -91,73 +91,36 @@
 		Man sieht direkt, dass die Computeranalyse deutlich genauer war, selbst mit den gewählten, immer noch sehr großen Unsicherheiten(für das CASSY).
 		
 	\section{Versuch zu gedämpften Schwingungen}
+	
+	%TODO Student'sche Faktoren einbringen auf u(T) und u(f)
+		Dabei sind $f$ und $u(f)$ wie in M1.2 berechnet. $T$ und $u(T)$ sind aus SciDaVis Spaltenstatistik der dT's.
 		
-		Mittelwert: $T = \SI{1,814285714285714}{s}$ und $u(T) = \SI{0,03779644730092253}{s}$.\\
-		Mittelwert: $f = \SI{0,55118110236220481120962241924485}{\per\second}$ und $u(f) = $
-		Dabei ist $u(f)$ wie in M1.2 berechnet. $u(T)$ ist aus SciDaVis.
+		\subsection*{0,25A}
+		Mittelwert: $T = \SI{1,81785714285714}{s}$ und $u(T) = \SI{0,031666184688832}{s}$.\\
+		Mittelwert: $f = \SI{0,550098231827112}{\per\second}$ und $u(f) = \SI{0,009582442863832}{\per\second}$\\
+		$A_0 = \SI{0,848098764533296}{m}$ und $u(A_0) = \SI{9,27988502510862E-05}{m}$.\\
+		$a = \SI{0,436801095407458}{\per\second}$ und $u(a) = \SI{0,001141232808895}{\per\second}$.\\
+		Student: 12 FG, auf 1 sigma
+		
+		\subsection*{0,5A}
+		$T = \SI{1,81875}{s}$ und $u(T) = \SI{0,025877458475339}{s}$.\\
+		$f = \SI{0,549828178694158}{\per\second}$ und $u(f) = \SI{0,007823041024181}{\per\second}$.\\
+		$A_0 = \SI{0,891244481206147}{m}$ und $u(A_0) = \SI{0,018701665906075}{m}$.\\
+		$a = \SI{0,267687202893829}{\per\second}$ und $u(a) = \SI{0,00255559233324}{\per\second}$.\\
+		Student: 6 FG, auf 1 sigma
+			
+		
+		\subsection*{0,75A}
+		Mittelwert: $T = \SI{1,82}{s}$ und $u(T) = \SI{0,044721359549996}{s}$.\\
+		Mittelwert: $f = \SI{0,549450549450549}{\per\second}$ und $u(f) = \SI{0,013501195371935}{\per\second}$.\\
+		$A_0 = \SI{1,10527437944171}{m}$ und $u(A_0) = \SI{0,003855449459945}{m}$.\\
+		$a = \SI{0,445639253818205}{\per\second}$ und $u(a) = \SI{0,000570284053541}{\per\second}$.\\
+		Student: 3 FG, auf 1 sigma
+		
 		
 	\section{Versuch zu erzwungenen Schwingungen}
-	
-		Nun betrachten wir erzwungene Schwingungen, welche wir mit Hilfe eines Motors an unserem Pendel erzeugen.
-			
-		\subsection*{Methoden}
-			
-			Erneut betrachten wir \refeq{HarmonischeSchwingung}, jetzt steht auf der anderen Seite jedoch nicht null sondern:
-			\begin{align}
-				\ddot{\varphi}+2\rho\dot{\varphi}+\omega_0^2\varphi= \mu cos(\omega t) \label{eq:ErzwungeneSchwingung}\\
-				\text{wobei } \mu = \frac{M_0}{J}
-			\end{align}
-			$M_0$ ist hierbei die Amplitude der äußeren Anregung und $J$ wie zuvor das Trägheitsmoment der Kreisscheibe. Die angeregte Schwingung hat zudem die Frequenz $\omega$.
-			Es bildet sich eine Überlagerung des harmonischen Teils mit der angeregten Schwingung. Da der harmonische Teil jedoch abfällt, schwingt das System nach dem Abfallen bzw. nach dem sogenannten Einschwingvorgang genau so wie die Anregung.
-			Eine mögliche Lösung von \refeq{ErzwungeneSchwingung} setzt sich wie folgt zusammen:
-			\begin{align}
-				\varphi = \varphi_0 \cos{(\omega t-\alpha)} \label{eq:ErzwungeneSchwingungLsg}\\
-				\text{mit } \quad \varphi_0 = \frac{\mu}{\sqrt{(\omega^2-\omega_0^2)^2+4\rho^2\omega^2}} \label{eq:ErzwungeneSchwingungAmp}\\
-				\text{und der Phase} \quad \tan{\alpha} = \frac{-2\rho\omega}{\omega^2-\omega_0^2}
-			\end{align}
-			Die erzwungene Schwingung ist somit eine mit der Frequenz $\omega$ schwingende Kosinusfunktion. Die Phase von $\varphi$ hängt der Phase der Anregung um $\alpha$ hinterher (vgl. \refeq{ErzwungeneSchwingung} und \refeq{ErzwungeneSchwingungLsg}) und die Amplitude $\varphi_0$ von $\varphi$ ist zeitlich konstant und hängt von der Dämpfung $\rho$ des Systems ab.
-			
-			Im Resonanzfall ist die Amplitude maximal. Betrachten wir hierzu \refeq{ErzwungeneSchwingungAmp}, so erhalten wir, dass die Resonanzfrequenz bei $\omega = \sqrt{\omega_0^2-2\rho^2}$ liegt.
-			
-			Um die Frequenz der Anregung zu bestimmen, erstellen wir eine Kalibrierkurve, messen also die Umlaufdauer $T$ der Anregung, für verschiedene Spannungen an dem Motor, mit einer Stoppuhr. Die Spannungen messen wir an dem Ausgang des Motors mit einem Multimeter.
-			Zusätzlich bestimmen wir die Resonanzfrequenz für drei verschiedene Dämpfungen, die ungleich null sind [um die Resonanzkatastrophe zu vermeiden (dass die Amplitude $\varphi_0$ gegen unendlich geht)].
-				
-			Zuletzt betrachten wir die Phasenverschiebung $\alpha$ zwischen Anregung und Pendel für verschiedene Dämpfungen und Frequenzen. Dies übertragen wir zusätzlich auf das Fadenpendel.
-		
-		\subsection*{Messung}
-			
-			- - -
-			%TODO
-			% Messung
-			
-		\subsection*{Schlussfolgerung}
-			
-			- - -
-			%TODO
-			% Schlussfolgerung
 			
 	\section{Versuch zu nichtlinearen Schwingungen}
-	
-		Der letzte Versuch behandelt nichtlineare Schwingungen. Auch diese stellen wir mit Hilfe des Drehpendels dar. Dazu bringen wir ein Gewicht an der Scheibe des Pendels an.
-		
-		\subsection*{Methoden}
-				
-				Die Resonanzfrequenzen nichtlinearer Schwingungen lassen sich nicht, wie bei den vorherigen Schwingungstypen berechnen, da diese sich auch bei gleichen Anfangsbedingungen nicht gleich verhalten.
-				
-				Wir können die Resonanzfrequenz jedoch annähernd messen, indem wir die Auslenkung des Pendels mit Anregung messen und dabei die Frequenz der erzwungenen Schwingung langsam ändern.
-				Hier fangen wir bei niedrigen Frequenzen an, erhöhen diese und nahe der Maximalfrequenz verringern wir sie wieder, bis wir bei unserem Ausgangspunkt angelangt sind.
-		
-		\subsection*{Messung}
-			
-			- - -
-			%TODO
-			% Messung
-			
-		\subsection*{Schlussfolgerung}
-			
-			- - -
-			%TODO
-			% Schlussfolgerung
 
 	\newpage			
 	\section*{Literatur}

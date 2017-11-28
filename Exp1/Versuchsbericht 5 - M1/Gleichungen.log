@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  28 NOV 2017 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  28 NOV 2017 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,28 +1313,31 @@ ML/lmm/m/it/10.95 T\OT1/lmr/m/n/10.95 ) = [][] []$\T1/lmr/m/n/10.95 .
  []
 
 [2]
-Overfull \hbox (3.33797pt too wide) in paragraph at lines 95--96
-\T1/lmr/m/n/10.95 Mttlwert: $\OML/lmm/m/it/10.95 T \OT1/lmr/m/n/10.95 = [][][] 
-[]$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (\OML/lmm/m/
-it/10.95 T\OT1/lmr/m/n/10.95 ) = [][] []$ 
+Overfull \hbox (7.07231pt too wide) in paragraph at lines 99--104
+\T1/lmr/m/n/10.95 Mittelwert: $\OML/lmm/m/it/10.95 f \OT1/lmr/m/n/10.95 = [][][
+] []$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (\OML/lmm/
+m/it/10.95 f\OT1/lmr/m/n/10.95 ) = [][][] []$ 
  []
 
 
-LaTeX Warning: Reference `eq:HarmonischeSchwingung' on page 3 undefined on inpu
-t line 103.
+Overfull \hbox (10.11395pt too wide) in paragraph at lines 114--119
+\T1/lmr/m/n/10.95 Mittelwert: $\OML/lmm/m/it/10.95 f \OT1/lmr/m/n/10.95 = [][][
+] []$ \T1/lmr/m/n/10.95 und $\OML/lmm/m/it/10.95 u\OT1/lmr/m/n/10.95 (\OML/lmm/
+m/it/10.95 f\OT1/lmr/m/n/10.95 ) = [][][] []$\T1/lmr/m/n/10.95 . 
+ []
 
-[3] [4]
+[3]
 
-LaTeX Warning: Reference `abb:Drehpendel' on page 5 undefined on input line 163
+LaTeX Warning: Reference `abb:Drehpendel' on page 4 undefined on input line 128
 .
 
 
-Overfull \hbox (41.5537pt too wide) in paragraph at lines 163--164
+Overfull \hbox (41.5537pt too wide) in paragraph at lines 128--129
 []\T1/lmr/m/n/10.95 Das hier ver-wen-de-te Bild stammt aus ^^RDreh-pen-del_Pohl
 _Einführung.pdf^^P 
  []
 
-[5] (./Gleichungen.aux)
+[4] (./Gleichungen.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1343,10 +1346,10 @@ Package logreq Info: Writing requests to 'Gleichungen.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20834 strings out of 492990
- 409792 string characters out of 6129797
- 789417 words of memory out of 5000000
- 24197 multiletter control sequences out of 15000+600000
+ 20830 strings out of 492990
+ 409685 string characters out of 6129797
+ 789393 words of memory out of 5000000
+ 24193 multiletter control sequences out of 15000+600000
  596413 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,13n,40p,10384b,772s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1367,10 +1370,10 @@ ublic/lm/lmr12.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public
 mr6.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pf
 b><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c
 :/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Gleichungen.pdf (6 pages, 232444 bytes).
+Output written on Gleichungen.pdf (5 pages, 227269 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
