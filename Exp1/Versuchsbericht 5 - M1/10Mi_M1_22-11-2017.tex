@@ -104,18 +104,16 @@
 		
 		\subsection*{Messung}
 			
-			Nach 20 Messungen mit jeweils zehn Schwingungen mit der Stoppuhr haben wir eine Frequenz $\omega$ von \SI{0 +- 1}{\s^{-1}} erhalten. Die Computermessung hingegen lieferte uns einen Wert $\omega = \SI{0 +- 1}{\s^{-1}}$.  
+			Nach 20 Messungen mit jeweils zehn Schwingungen mit der Stoppuhr haben wir eine Frequenz $\omega$ von \SI{0 +- 1}{\s^{-1}} erhalten. Die Computermessung hingegen lieferte uns einen Wert $\omega = \SI{0 +- 1}{\s^{-1}}$. Dazu betrachten wir \ref{} - - - %TODO
 			
 		\subsection*{Schlussfolgerung}
 			
-			- - -
-			%TODO
-			% Schlussfolgerung
+			Wie im Methodenteil beschrieben können wir im Fall einer ungedämpften Schwingung davon ausgehen, dass die von uns gemessene Eigenfrequenz $\omega$ gerade der Frequenz $\omega_0$ des Systems ohne äußeren Einfluss entspricht. Der Vergleich der von Computer und Stoppuhr gemessenen Werte - - - %TODO
 				
 	\section{Versuch zu gedämpften Schwingungen}
 		
-		In diesem Versuch betrachten wir gedämpfte Schwingungen, welche ebenfalls harmonisch sind.
-		Zum Dämpfen des Pendels verwenden wir die Wirbelstrombremse, wie oben beschrieben. 
+		In diesem Versuch betrachten wir gedämpfte Schwingungen, welche wie auch Ungedämpfte harmonisch sind.
+		Zum Dämpfen des Pendels verwenden wir die Wirbelstrombremse welche an dem Pendel angebracht ist, wie oben beschrieben. 
 				
 		\subsection*{Methoden}
 			
@@ -127,19 +125,43 @@
 			An dieser Stelle müssen wir differenzieren, in welchem Verhältnis $\rho$ und $\omega_0$ stehen.
 			Die beiden Fälle, bei denen reelle Werte aus dem Wurzelausdruck entstehen, den sogenannten Kriechfall (bei $\rho > \omega_0$) bzw. aperiodischen Grenzfall (bei $\rho = \omega_0 $), werden wir im Folgenden nicht genauer betrachten. 
 			
-			Für den Fall, dass $\rho < \omega_0 $ ist, erhalten wir eine mit $e^{\rho t}$ gedämpfte Kosinusschwingung mit der Frequenz $\omega = \sqrt{\omega_0^2-\rho^2}$, da wir nur den Realteil unserer Lösung betrachten. Wir bestimmen die Dämpfung $\rho$, indem wir für $\omega_0$ die Eigenfrequenz aus dem ersten Versuch nehmen. Die aus dem Lösungsansatz verwendete Amplitude entnehmen wir unserer Messung bei $t=0$.
+			Für den Fall, dass $\rho < \omega_0 $ ist, erhalten wir eine mit $e^{\rho t}$ gedämpfte Kosinusschwingung mit der Frequenz $\omega = \sqrt{\omega_0^2-\rho^2}$, da wir nur den Realteil unserer Lösung betrachten. Wir messen die Eigenfrequenz $\omega$ und bestimmen die Dämpfung $\rho$, indem wir für $\omega_0$ die Frequenz des ersten Versuches nehmen. 
 						
-			Hier und in den folgenden Versuchen betrachten wir nur noch die von dem Computer aufgenommenen Messergebnisse. Wir messen hier die Zeit, bis das Pendel komplett aufhört zu schwingen und führen die Messung für verschiedene Dämpfungen durch. Um die Stärke der Dämpfung einzustellen verwenden wir verschiedene Eingabestromstärken für die Wirbelstrombremse.
+			Hier und in den folgenden Versuchen betrachten wir nur noch die von dem Computer aufgenommenen Messergebnisse. Wir messen hier die Zeit, bis das Pendel komplett aufhört zu schwingen zur Bestimmung der Eigenfrequenz und führen die Messung für verschiedene Dämpfungen $\rho$ durch. Um die Stärke der Dämpfung einzustellen verwenden wir verschiedene Eingabestromstärken für die Wirbelstrombremse.
 		
 		\subsection*{Messung}
 		
-			Wir messen die Frequenz $\omega$ für drei verschiedene Dämpfungen
+			Für die folgenden Stromstärken haben wir die Frequenz $\omega$ gemessen. Das Umstellen von \refeq{HarmonischeFrequenz}, zur Berechnung der Dämpfung $\rho$, lieferte uns folgende Messergebnisse:	
 			
+			\begin{table}[ht]
+				\centering
+				\begin{tabular}{l|S|S|S}
+					\hline
+					{Stromstärke $I$} & {\SI{0.7}{\A}} & {\SI{0.4}{\A}} & {\SI{0.25}{\A}} \\
+					\hline
+					{Eigenfrequenz $\omega$} \quad
+					& \SI{10000}{\s^{-1}}	%TODO
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}}\\
+					\hline
+					{Dämpfung $\rho$}
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}} \\
+					\hline
+				\end{tabular}
+				\caption{Messergebnisse zur gedämpften Schwingung}
+				\label{tab:MessungGedämpft}
+			\end{table}
+			Hierbei sind $\omega$ und $\rho$ positiv gewählt, da die negativen Werte physikalisch nicht sinnvoll sind. Die gemessenen Kurven der Auslenkung gegenüber der Zeit sind in \ref{} dargestellt. Wir erkennen  - - - %TODO
+					
 		\subsection*{Schlussfolgerung}
 			
-			- - -
-			%TODO
-			% Schlussfolgerung
+			Da wir hier den leicht gedämpften Fall betrachten sieht die Lösung der Differentialgleichung wie folgt aus:
+			\begin{equation}
+				\varphi (t)=C\cdot e^{\rho t}\cdot \cos{(\sqrt{\omega_0^2-\rho^2}t)}
+			\end{equation}
+			Übertragen wir diese Bewegung nun auf die Ergebnisse unserer Messung, so erkennen wir, dass - - - %TODO
 			
 	\section{Versuch zu erzwungenen Schwingungen}
 	
@@ -158,22 +180,45 @@
 			\begin{align}
 				\varphi = \varphi_0 \cos{(\omega t-\alpha)} \label{eq:ErzwungeneSchwingungLsg}\\
 				\text{mit } \quad \varphi_0 = \frac{\mu}{\sqrt{(\omega^2-\omega_0^2)^2+4\rho^2\omega^2}} \label{eq:ErzwungeneSchwingungAmp}\\
-				\text{und der Phase} \quad \tan{\alpha} = \frac{-2\rho\omega}{\omega^2-\omega_0^2}
 			\end{align}
 			Die erzwungene Schwingung ist somit eine mit der Frequenz $\omega$ schwingende Kosinusfunktion. Die Phase von $\varphi$ hängt der Phase der Anregung um $\alpha$ hinterher (vgl. \refeq{ErzwungeneSchwingung} und \refeq{ErzwungeneSchwingungLsg}) und die Amplitude $\varphi_0$ von $\varphi$ ist zeitlich konstant und hängt von der Dämpfung $\rho$ des Systems ab.
 			
-			Im Resonanzfall ist die Amplitude maximal. Betrachten wir hierzu \refeq{ErzwungeneSchwingungAmp}, so erhalten wir, dass die Resonanzfrequenz bei $\omega = \sqrt{\omega_0^2-2\rho^2}$ liegt.
+			Im Resonanzfall ist die Amplitude maximal. Betrachten wir hierzu \refeq{ErzwungeneSchwingungAmp}, so erhalten wir, dass die Resonanzfrequenz bei $\omega_\textsc{R} = \sqrt{\omega_0^2-2\rho^2}$ liegt.
 			
-			Um die Frequenz der Anregung zu bestimmen, erstellen wir eine Kalibrierkurve, messen also die Umlaufdauer $T$ der Anregung, für verschiedene Spannungen an dem Motor, mit einer Stoppuhr. Die Spannungen messen wir an dem Ausgang des Motors mit einem Multimeter.
-			Zusätzlich bestimmen wir die Resonanzfrequenz für drei verschiedene Dämpfungen, die ungleich null sind [um die Resonanzkatastrophe zu vermeiden (dass die Amplitude $\varphi_0$ gegen unendlich geht)].
+			Um die Frequenz der Anregung zu bestimmen, erstellen wir eine Kalibrierkurve, messen also die Umlaufdauer $T$ der Anregung, für verschiedene Spannungen an dem Motor, mit einer Stoppuhr. Diese Spannungen messen wir an dem Ausgang des Motors mit einem Multimeter.
+			Zusätzlich bestimmen wir die Resonanzfrequenz $\omega_\textsc{R}$ für drei verschiedene Dämpfungen, die ungleich null sind [um die Resonanzkatastrophe zu vermeiden (dass die Amplitude $\varphi_0$ gegen unendlich geht)].
 				
 			Zuletzt betrachten wir die Phasenverschiebung $\alpha$ zwischen Anregung und Pendel für verschiedene Dämpfungen und Frequenzen. Dies übertragen wir zusätzlich auf das Fadenpendel.
 		
 		\subsection*{Messung}
 			
-			- - -
-			%TODO
-			% Messung
+			Für unsere Anregungsfrequenz haben wir in Abhängigkeit der Spannung die in \ref{} dargestellte Kurve aufgenommen. Diese verläuft linear.
+			
+			Die Ermittlung der Resonanzfrequenz  $\omega_\textsc{R}$ geschah hier für drei unterschiedliche Dämpfungen. Dazu haben wir jeweils ca. 20 Amplituden für die verschiedenen Anregungsfrequenzen aufgezeichnet, welche in den Figuren \ref{}, \ref{} und \ref{} dargestellt sind. Daraus nähern wir die in \reftab{MessungErzwungen} dargestellten Resonanzfrequenzen und Dämpfungen (anhand der Amplitudenposition) für die verschiedenen Stromstärken bei der Wirbelstrombremse.
+			\begin{table}[ht]
+				\centering
+				\begin{tabular}{l|S|S|S}
+					\hline
+					{Stromstärke $I$} & {\SI{0.7}{\A}} & {\SI{0.4}{\A}} & {\SI{0.25}{\A}} \\
+					\hline
+					{Resonanzfrequenz $\omega_\textsc{R}$} \quad
+					& \SI{10000}{\s^{-1}}	%TODO
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}}\\
+					\hline
+					{Dämpfung $\rho$}
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}}
+					& \SI{10000}{\s^{-1}} \\
+					\hline
+				\end{tabular}
+				\caption{Messergebnisse zur erzwungenen Schwingung}
+				\label{tab:MessungErzwungen}
+			\end{table}
+			
+			Danach haben wir die Phasenverschiebung $\alpha$ zwischen Anregung und Drehpendel beobachtet. Für niedrige Anregungsfrequenzen war $\alpha \approx 0$. Beide Schwingungen verliefen demnach in gleicher Phase. Im Resonanzfall war zu erkennen, dass die Phase der Anregung stets der Phase des Pendels um $\pi\cdot\frac{1}{2}$ voraus, war also bereits wieder bei null, wenn das Pendel bei einem Maximum/Minimum war. Bei hohen Frequenzen lag der Phasenunterschied $\alpha = \pi$, da wenn das Pendel bei einem Maximum war, die Anregung gerade bei einem Minimum war und umgekehrt.
+			
+			Das Übertagen der Phasenverschiebung auf ein Fadenpendel lieferte die gleichen Beobachtungen wie bei dem Drehpendel. Die Anregung wurde hierbei an dem Aufhängepunkt des Pendels simuliert.   
 			
 		\subsection*{Schlussfolgerung}
 			
@@ -187,16 +232,15 @@
 		
 		\subsection*{Methoden}
 				
-				Die Resonanzfrequenzen nichtlinearer Schwingungen lassen sich nicht, wie bei den vorherigen Schwingungstypen berechnen, da diese sich auch bei gleichen Anfangsbedingungen nicht gleich verhalten.
-				
-				Wir können die Resonanzfrequenz jedoch annähernd messen, indem wir die Auslenkung des Pendels mit Anregung messen und dabei die Frequenz der erzwungenen Schwingung langsam ändern.
-				Hier fangen wir bei niedrigen Frequenzen an, erhöhen diese und nahe der Maximalfrequenz verringern wir sie wieder, bis wir bei unserem Ausgangspunkt angelangt sind.
+			Die Resonanzfrequenzen nichtlinearer Schwingungen lassen sich nicht, wie bei den vorherigen Schwingungstypen berechnen, da diese sich auch bei gleichen Anfangsbedingungen nicht gleich verhalten.
+			
+			Wir können die Resonanzfrequenz jedoch annähernd messen, indem wir die Auslenkung des Pendels mit Anregung messen und dabei die Frequenz der erzwungenen Schwingung langsam ändern.
+			Hier fangen wir bei niedrigen Frequenzen an, erhöhen diese und nahe der Maximalfrequenz verringern wir sie wieder, bis wir bei unserem Ausgangspunkt angelangt sind.
 		
 		\subsection*{Messung}
 			
-			- - -
-			%TODO
-			% Messung
+			Unsere Messung, wie sie in \ref{} dargestellt ist, zeigt dass sich die Resonanzfrequenz mit der Zeit ändert. Bei dem Erhöhen der Anregungsfrequenz haben wir die Resonanzfrequenz zunächst bei einer Ausgangsspannung von ca. \SI{8,2}{\V} gemessen. Nach dem Verringern der Anregungsfrequenz jedoch haben wir unsere Resonanzfrequenz bei ca. \SI{6,4}{\V} gefunden. Nahe den gemessenen Resonanzfrequenzen, fiel die Auslenkung stark ab.
+			Nahe der Resonanzfrequenz konnten wir für sie stabilen Schwingungszustände zwei gemischte Frequenzen ermitteln. %TODO
 			
 		\subsection*{Schlussfolgerung}
 			
@@ -204,7 +248,7 @@
 			%TODO
 			% Schlussfolgerung
 
-	\newpage			
+	\vspace{1cm}		
 	\section*{Literatur}
 		\begin{description}
 			\item[\refabb{Drehpendel}] Das hier verwendete Bild stammt aus \glqq Drehpendel\_Pohl\_Einführung.pdf\grqq
