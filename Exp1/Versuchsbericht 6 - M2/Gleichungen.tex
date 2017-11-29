@@ -1,0 +1,59 @@
+\documentclass[11pt,a4paper,titlepage, ngerman]{article}
+
+\usepackage[utf8]{inputenc}	
+\usepackage[T1]{fontenc}	
+\usepackage{ngerman}			
+\usepackage{lmodern}			
+\usepackage{graphicx}			
+\usepackage{url}				
+\usepackage{siunitx}
+\usepackage{amsmath}			
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{biblatex}
+
+\newcommand{\refeq}[1]{Gl. (\ref{eq:#1})}
+\newcommand{\refabb}[1]{Abb. \ref{abb:#1}}
+\newcommand{\reffig}[1]{Fig. \ref{fig:#1}}
+\newcommand{\reftab}[1]{Tab. \ref{tab:#1}}
+
+\begin{document}
+
+	\begin{titlepage}
+		
+		\centering
+		{\scshape\LARGE Gleichungen zu \par}
+		\vspace{1cm}
+		{\scshape\huge M1 -- Drehpendel nach Pohl\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de) \par}
+		\vfill
+		durchgeführt am 15.11.2017\par
+		betreut von\par
+		{\large Johann Preuß}		
+		\vfill	
+		{\large \today\par}
+		
+	\end{titlepage}
+		
+	\tableofcontents
+		
+	\newpage
+	
+	\section{Unsicherheiten}
+	
+	\subsection*{Computer}
+	Das Computerprogram hatte eine Abtastrate von $\SI{50}{Hz}$. Daraus folgt $u_C(T) = \frac{\SI{0,02}{s}}{2\sqrt{3}}$.
+	Der Ultraschallsensor hatte eine Genauigkeit von 2 Nachkommastellen, also \SI{1}{cm}. Es folgt $u_C(x) = \frac{\SI{0,01}{m}}{2\sqrt{3}}$.
+	
+	\subsection*{Per Hand}
+	Wir konnten auf dem Maßstab bis \SI{1}{mm} ablesen. Also ist $u(x) = \frac{\SI{0,001}{m}}{2\sqrt{6}}$.
+	
+	\section{Eigenschwingung}
+
+	\newpage			
+	\section*{Literatur}
+\end{document} 
