@@ -7,7 +7,8 @@
 \usepackage{graphicx}			
 \usepackage{url}				
 \usepackage{siunitx}
-\usepackage{amsmath}			
+\usepackage{amsmath}	
+\usepackage{xfrac}		
 \usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage{biblatex}
@@ -17,8 +18,18 @@
 \newcommand{\reffig}[1]{Fig. \ref{fig:#1}}
 \newcommand{\reftab}[1]{Tab. \ref{tab:#1}}
 
-\begin{document}
+% Setup SI unit environment
+\sisetup{separate-uncertainty = true}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{
+	per-mode=fraction,
+	fraction-function=\sfrac
+	% or \frac, \tfrac
+}
 
+\begin{document}
+	
+	
 	\begin{titlepage}
 		
 		\centering
@@ -44,13 +55,16 @@
 	\newpage
 	
 	\section{Unsicherheiten}
+	Unsicherheiten mit SI-Befehl:\\
+	 \SI{123.45 +- 5.845}{\meter\per\second\cubed}
+	
 	
 	\subsection*{Computer}
-	Das Computerprogram hatte eine Abtastrate von $\SI{50}{Hz}$. Daraus folgt $u_C(T) = \frac{\SI{0,02}{s}}{2\sqrt{3}}$.
+	Das Computerprogram hatte eine Abtastrate von $\SI{50}{\hertz}$. Daraus folgt $u_C(T) = \frac{\SI{0,02}{\second}}{2\sqrt{3}}$.
 	Der Ultraschallsensor hatte eine Genauigkeit von 2 Nachkommastellen, also \SI{1}{cm}. Es folgt $u_C(x) = \frac{\SI{0,01}{m}}{2\sqrt{3}}$.
 	
 	\subsection*{Per Hand}
-	Wir konnten auf dem Maßstab bis \SI{1}{mm} ablesen. Also ist $u(x) = \frac{\SI{0,001}{m}}{2\sqrt{6}}$.
+	Wir konnten auf dem Maßstab bis \SI{0,5}{mm} ablesen. Also ist $u(x) = \frac{\SI{0,001}{m}}{2\sqrt{6}}$.
 	
 	\section{Eigenschwingung}
 
