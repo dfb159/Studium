@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  4 DEC 2017 21:22
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  4 DEC 2017 20:01
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1070,6 +1074,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout3 = `10Mi_M2_29-11-2017.toc'.
 
  [1]
+<<<<<<< HEAD
 <gFadenpendel.png, id=15, 72.27pt x 69.25874pt>
 File: gFadenpendel.png Graphic file (type png)
 <use gFadenpendel.png>
@@ -1077,41 +1082,82 @@ Package pdftex.def Info: gFadenpendel.png  used on input line 55. on input line
  55.
 Package pdftex.def Info: Requested size: 360.0pt x 345.09438pt on input line 55
 .
+=======
+<gFadenpendel.png, id=14, 72.27pt x 69.25874pt>
+File: gFadenpendel.png Graphic file (type png)
+ <use gFadenpendel.png>
+Package pdftex.def Info: gFadenpendel.png used on input line 55.
+(pdftex.def)             Requested size: 360.0pt x 345.09438pt.
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 
 Overfull \hbox (6.45845pt too wide) in paragraph at lines 61--65
 \T1/lmr/m/n/10.95 gegen-gesinnte Be-we-gun-gen so-wie für den Fall der Schwe-bu
 ng bei Kupferfeder-
  []
 
+<<<<<<< HEAD
 <Doppelpendel_Ruhelage.png, id=17, 60.225pt x 90.3375pt>
+=======
+<Doppelpendel_Ruhelage.png, id=16, 60.225pt x 90.3375pt>
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 File: Doppelpendel_Ruhelage.png Graphic file (type png)
 <use Doppelpendel_Ruhelage.png>
+<<<<<<< HEAD
 Package pdftex.def Info: Doppelpendel_Ruhelage.png  used on input line 106. on 
 input line 106.
 Package pdftex.def Info: Requested size: 90.0pt x 135.0124pt on input line 106.
 
 <Doppelpendel_Auslenkung_P2.png, id=18, 60.225pt x 90.3375pt>
+=======
+Package pdftex.def Info: Doppelpendel_Ruhelage.png used on input line 106.
+(pdftex.def)             Requested size: 90.0pt x 135.0124pt.
+
+<Doppelpendel_Auslenkung_P2.png, id=17, 60.225pt x 90.3375pt>
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 File: Doppelpendel_Auslenkung_P2.png Graphic file (type png)
 <use Doppelpendel_Auslenkung_P2.png>
+<<<<<<< HEAD
 Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png  used on input line 112
 . on input line 112.
 Package pdftex.def Info: Requested size: 90.0pt x 135.0124pt on input line 112.
 
 <Doppelpendel_Auslenkung_P1.png, id=19, 60.225pt x 90.3375pt>
+=======
+Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png used on input line 112.
+
+(pdftex.def)             Requested size: 90.0pt x 135.0124pt.
+
+<Doppelpendel_Auslenkung_P1.png, id=18, 60.225pt x 90.3375pt>
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 File: Doppelpendel_Auslenkung_P1.png Graphic file (type png)
 <use Doppelpendel_Auslenkung_P1.png>
+<<<<<<< HEAD
 Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png  used on input line 118
 . on input line 118.
 Package pdftex.def Info: Requested size: 90.0pt x 135.0124pt on input line 118.
 
 <Doppelpendel_Auslenkung_beide.png, id=20, 60.225pt x 90.3375pt>
+=======
+Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png used on input line 118.
+
+(pdftex.def)             Requested size: 90.0pt x 135.0124pt.
+
+<Doppelpendel_Auslenkung_beide.png, id=19, 60.225pt x 90.3375pt>
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 File: Doppelpendel_Auslenkung_beide.png Graphic file (type png)
 <use Doppelpendel_Auslenkung_beide.png>
+<<<<<<< HEAD
 Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png  used on input line 
 124. on input line 124.
 Package pdftex.def Info: Requested size: 90.0pt x 135.0124pt on input line 124.
 
 
+=======
+Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png used on input line 1
+24.
+(pdftex.def)             Requested size: 90.0pt x 135.0124pt.
+
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
 Overfull \hbox (2.43333pt too wide) in paragraph at lines 104--128
 []$[]$ $[]$
  []
@@ -1127,6 +1173,7 @@ Overfull \vbox (10.51158pt too high) has occurred while \output is active []
 
 [3 <./gFadenpendel.png>] [4 <./Doppelpendel_Ruhelage.png> <./Doppelpendel_Ausle
 nkung_P2.png> <./Doppelpendel_Auslenkung_P1.png> <./Doppelpendel_Auslenkung_bei
+<<<<<<< HEAD
 de.png>] [5] (./10Mi_M2_29-11-2017.aux) ) 
 Here is how much of TeX's memory you used:
  14757 strings out of 492990
@@ -1154,6 +1201,32 @@ Output written on 10Mi_M2_29-11-2017.pdf (6 pages, 490921 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
+=======
+de.png>] [5] (10Mi_M2_29-11-2017.aux) ) 
+Here is how much of TeX's memory you used:
+ 14804 strings out of 493333
+ 297495 string characters out of 3139197
+ 317680 words of memory out of 3000000
+ 18190 multiletter control sequences out of 15000+200000
+ 599217 words of font info for 59 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,8n,40p,10391b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb
+x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M2_29-11-2017.pdf (6 pages, 508842 bytes).
+PDF statistics:
+ 80 PDF objects out of 1000 (max. 8388607)
+>>>>>>> 0eebe1516f71cf982e89b8007708506b43ef22b2
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
