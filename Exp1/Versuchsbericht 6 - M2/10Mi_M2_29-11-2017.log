@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  4 DEC 2017 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  4 DEC 2017 20:01
 entering extended mode
 **./10Mi_M2_29-11-2017.tex
 (10Mi_M2_29-11-2017.tex
@@ -1054,91 +1054,87 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout3 = `10Mi_M2_29-11-2017.toc'.
 
  [1]
+<gFadenpendel.png, id=14, 72.27pt x 69.25874pt>
+File: gFadenpendel.png Graphic file (type png)
+ <use gFadenpendel.png>
+Package pdftex.def Info: gFadenpendel.png used on input line 55.
+(pdftex.def)             Requested size: 360.0pt x 345.09438pt.
 
-LaTeX Warning: Reference `abb:' on page 2 undefined on input line 56.
+Overfull \hbox (6.45845pt too wide) in paragraph at lines 61--65
+\T1/lmr/m/n/10.95 gegen-gesinnte Be-we-gun-gen so-wie für den Fall der Schwe-bu
+ng bei Kupferfeder-
+ []
 
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 77.
-
-<Doppelpendel_Ruhelage.png, id=14, 60.225pt x 90.3375pt>
+<Doppelpendel_Ruhelage.png, id=16, 60.225pt x 90.3375pt>
 File: Doppelpendel_Ruhelage.png Graphic file (type png)
 
 <use Doppelpendel_Ruhelage.png>
-Package pdftex.def Info: Doppelpendel_Ruhelage.png used on input line 81.
+Package pdftex.def Info: Doppelpendel_Ruhelage.png used on input line 106.
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_P2.png, id=16, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_P2.png, id=17, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_P2.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_P2.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png used on input line 87.
+Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png used on input line 112.
+
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_P1.png, id=17, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_P1.png, id=18, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_P1.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_P1.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png used on input line 93.
+Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png used on input line 118.
+
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_beide.png, id=18, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_beide.png, id=19, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_beide.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_beide.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png used on input line 9
-9.
+Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png used on input line 1
+24.
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 79--103
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 104--128
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 79--103
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 104--128
 []$ $[]$ 
  []
 
-
-LaTeX Warning: Reference `abb:' on page 2 undefined on input line 107.
-
-
-LaTeX Warning: Reference `abb:' on page 2 undefined on input line 107.
+[2]
+Overfull \vbox (10.51158pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Reference `abb:' on page 2 undefined on input line 107.
-
-[2] [3 <./Doppelpendel_Ruhelage.png> <./Doppelpendel_Auslenkung_P2.png> <./Dopp
-elpendel_Auslenkung_P1.png> <./Doppelpendel_Auslenkung_beide.png>]
-(10Mi_M2_29-11-2017.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[3 <./gFadenpendel.png>] [4 <./Doppelpendel_Ruhelage.png> <./Doppelpendel_Ausle
+nkung_P2.png> <./Doppelpendel_Auslenkung_P1.png> <./Doppelpendel_Auslenkung_bei
+de.png>] [5] (10Mi_M2_29-11-2017.aux) ) 
 Here is how much of TeX's memory you used:
- 14799 strings out of 493333
- 297380 string characters out of 3139197
- 317672 words of memory out of 3000000
- 18186 multiletter control sequences out of 15000+200000
+ 14804 strings out of 493333
+ 297495 string characters out of 3139197
+ 317680 words of memory out of 3000000
+ 18190 multiletter control sequences out of 15000+200000
  599217 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,10391b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M2_29-11-2017.pdf (4 pages, 402162 bytes).
+ 42i,8n,40p,10391b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc
+}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmb
+x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M2_29-11-2017.pdf (6 pages, 508842 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

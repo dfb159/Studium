@@ -30,7 +30,7 @@
 		\vfill
 		durchgeführt am 29.11.2017\par
 		betreut von\par
-		{\large Martin \textsc{Nösgen}}		
+		{\large Martin \textsc{Körsgen}}		
 		\vfill	
 		{\large \today\par}
 	\end{titlepage}
@@ -41,69 +41,98 @@
 	
 	\section{Kurzfassung}
 		
-		%TODO
 		Dieser Bericht beschäftigt sich mit der Betrachtung von gekoppelten Pendeln. Dazu wird auf zwei verschiedene Arten solcher Pendel genauer eingegangen. Dabei handelt es sich einerseits um gekoppelte Fadenpendel und andererseits um das sogenannte Doppelpendel. 
 		
-		Zu den gekoppelten Fadenpendeln wird eine Reihe von Messungen durchgeführt. Bei diesen variieren die Kopplungen und Anfangsauslenkungen. Die verschiedenen erhaltenen Schwingungsdauern werden miteinander verglichen und die Kopplungsgrade $k$ des Systems statisch und dynamisch bestimmt. Zudem wird die Bewegung des Doppelpendels beschrieben.
+		Zu den gekoppelten Fadenpendeln wird eine Reihe von Messungen durchgeführt. Bei diesen variieren die Kopplungen und Anfangsauslenkungen. Die verschiedenen erhaltenen Schwingungsdauern werden miteinander verglichen und die Kopplungsgrade $k$ des Systems statisch und dynamisch bestimmt. Zudem wird die Bewegung des Doppelpendels beschrieben und kurz mit der Bewegung der gekoppelten Fadenpendel verglichen.
 		
 	\section{Gekoppelte Fadenpendel}
-				
-		%TODO
 		
 		\subsection{Methoden}
 			
-			%TODO
-			Der Aufbau für den Versuch zu gekoppelten Fadenpendel ist in \refabb{} dargestellt. Dabei besitzen beide Pendel die gleiche Länge $l$ und Masse $m$. Des weiteren werden die Fäden für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
+			Der Aufbau für den Versuch zu gekoppelten Fadenpendel ist in \refabb{gFadenpendel} dargestellt. 
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{gFadenpendel.png}
+				\caption{gekoppelte Fadenpendel}
+				\label{abb:gFadenpendel}	
+			\end{figure}
+			Hier besitzen beide Pendel die gleiche Länge $l$, hier bei ca. \SI{159}{\cm}, und Gewichte der Masse $m$. Des Weiteren werden die Fäden für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
 			
+			Gemessen wird die Auslenkung des Pendels mit Hilfe eines Ultraschall-Entfernungssensors um die Schwingungsdauer $T$ bzw. die Frequenz $\omega$ zu ermitteln. Dies erfolgt zunächst ohne Kopplung und dann für gleich- und gegen-gesinnte Bewegungen sowie für den Fall der Schwebung bei Kupferfeder- und Stahlfederkopplung.
+			Zudem wird die Auslenkung beider Pendel zur statischen Bestimmung des Kopplungsgrades mit einem Maßband gemessen. 
 			%TODO
 			Zur Berechnung des Kopplungsgrades wird folgende Formel für den statischen Fall verwendet: 
 			\begin{equation}
 				k = \frac{x_1}{x_2}.
 			\end{equation}
-			Für den dynamischen Fall werden die gemessenen Schwingungsdauern für die gleich- und gegensinnige Bewegung verwendet:
+			Für den dynamischen Fall werden die gemessenen Schwingungsdauern für die gleich- und gegen-gesinnte Bewegung verwendet:
 			\begin{equation}
 			k = \frac{T_\text{gl}^2-T_\text{geg}^2}{T_\text{gl}^2+T_\text{geg}^2}.
 			\end{equation}
-		\subsection{Messung}
 			
+		\subsection{Messung ohne Kopplung}
+										
+			%TODO
+			
+		\subsection{Messung mit Kupferfeder als Kopplung}
+			
+			\subsection{Statische Ermittlung des Kopplungsgrades}							
+			%TODO
+			
+		\subsection{Messung mit Stahlfeder als Kopplung}	
+										
+			%TODO
+			
+		\subsection{Relative Frequenzaufspaltung und Näherung dieser}
+										
+			%TODO
+			
+		\subsection{Ergebnisse}	
+		
 			%TODO
 			
 		\subsection{Schlussfolgerung}
 							
 			%TODO
-				
+			
 	\section{Doppelpendel}
-				
-		Das Doppelpendel besteht aus zwei gekoppelten Pendeln. Hierbei ist das obere Pendel an einem festen Aufhängepunkt angebracht. Das Untere  hingegen ist an dem beweglichen Massepunkt des oberen Pendels befestigt. Die Abbildungen \ref{} bis \ref{} zeigen die Funktionsweise des Doppelpendels. Hier sind die verschiedenen Auslenkungsmöglichkeiten zu erkennen, wobei die Massepunkte der einzelnen Pendel sich jeweils auf Kreisbahnen um deren Aufhängepunkte bewegen können.	
-		\begin{figure}[ht]
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[width=0.5\textwidth]{Doppelpendel_Ruhelage.png}
-				\caption{Doppelpendel in Ruhelage}
-				\label{abb:DP_Ruhe}	
-			\end{subfigure}
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_P2.png}
-				\caption{Oberes Pendel in Ruhelage, Unteres ausgelenkt}
-				\label{abb:DP_RobenAunten}
-			\end{subfigure}
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_P1.png}
-				\caption{Unteres Pendel in Ruhelage, Oberes ausgelenkt}
-				\label{abb:DP_RuntenAoben}
-			\end{subfigure}
-			\begin{subfigure}{0.5\textwidth}
-				\centering
-				\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_beide.png}
-				\caption{Beide Pendel ausgelenkt}
-				\label{abb:DP_ausgelenkt}
-			\end{subfigure}	
-
-		\end{figure}
 	
-		Bei der Auslenkung des Doppelpendels lässt sich ein nichtlineares bzw. chaotisches Verhalten erkennen, da nach nur wenigen Schwingungen, bei nahezu gleichen Anfangsbedingungen, bereits stark unterschiedliche Bewegungen beobachtet wurden. 
-		Die Ausnahmen hierzu bilden die Schwingungen, bei Auslenkungen ähnlich zu den, wie sie in \refabb{} und \refabb{} dargestellt sind. Bei der ersten linearen Bewegung bewegt sich der Massepunkt des unteren Pendels auf einer Kreisbahn um den Aufhängepunkt des Oberen. Die beiden Pendel liegen bei dieser Bewegung parallel. Für den zweiten Fall einer linearen Bewegung sind die beide Pendel um den gleichen Winkel, jedoch in entgegengesetzte Richtung ausgelenkt, wie es in \refabb{} dargestellt ist. Hier bewegt sich der Massepunkt des unteren Pendels weder nach links noch nach rechts, sondern nur näher dem Aufhängepunkt des oberen Pendels. Dieser Effekt war jedoch nur bei einem Auslenkungswinkel von ca. $\pm \ang{10}$ zu beobachten. Bei größeren Auslenkungen traten erneut nichtlineare Bewegungen auf. 
+		\subsection{Aufbau und Funktionsweise}	
+			
+			Das Doppelpendel besteht aus zwei gekoppelten Pendeln. Hierbei ist das obere Pendel an einem festen Aufhängepunkt angebracht. Das Untere  hingegen ist an dem beweglichen Massepunkt des oberen Pendels befestigt. Die Abbildungen \ref{abb:DP_Ruhe}) bis \ref{abb:DP_ausgelenkt}) zeigen die Funktionsweise des Doppelpendels. Hier sind die verschiedenen Auslenkungsmöglichkeiten zu erkennen, wobei die Massepunkte der einzelnen Pendel sich jeweils auf Kreisbahnen um deren Aufhängepunkte bewegen können.	
+			\begin{figure}[ht]
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{Doppelpendel_Ruhelage.png}
+					\caption{Doppelpendel in Ruhelage}
+					\label{abb:DP_Ruhe}	
+				\end{subfigure}
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_P2.png}
+					\caption{Oberes Pendel in Ruhelage, Unteres ausgelenkt}
+					\label{abb:DP_RobenAunten}
+				\end{subfigure}
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_P1.png}
+					\caption{Unteres Pendel in Ruhelage, Oberes ausgelenkt}
+					\label{abb:DP_RuntenAoben}
+				\end{subfigure}
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{Doppelpendel_Auslenkung_beide.png}
+					\caption{Beide Pendel ausgelenkt}
+					\label{abb:DP_ausgelenkt}
+				\end{subfigure}		
+			\end{figure}
+		
+		\subsection{Beobachtung bei Auslenkung}
+		
+			Bei der Auslenkung des Doppelpendels lässt sich ein nichtlineares bzw. chaotisches Verhalten erkennen, da nach nur wenigen Schwingungen, bei nahezu gleichen Anfangsbedingungen, bereits stark unterschiedliche Bewegungen beobachtet wurden. Ein periodisches Verhalten ließ sich hierbei nicht erkennen.
+		
+			Die Ausnahmen hierzu bilden die Schwingungen, bei Auslenkungen ähnlich zu den, wie sie in \refabb{DP_Ruhe}) und \refabb{DP_ausgelenkt}) dargestellt sind. Bei der ersten linearen Bewegung bewegt sich der Massepunkt des unteren Pendels auf einer Kreisbahn um den Aufhängepunkt des Oberen. Die beiden Pendel liegen bei dieser Bewegung parallel. Für den zweiten Fall einer linearen Bewegung sind die beide Pendel um den gleichen Winkel, jedoch in entgegengesetzte Richtung ausgelenkt, wie es in \refabb{DP_ausgelenkt} dargestellt ist (hier $\pm \ang{45}$). Hier bewegt sich der Massepunkt des unteren Pendels weder nach links noch nach rechts, sondern nur näher dem Aufhängepunkt des oberen Pendels. Dieser Effekt war jedoch nur bei einem Auslenkungswinkel von ca. $\pm \ang{10}$ zu beobachten. Bei größeren Auslenkungen traten erneut nichtlineare Bewegungen auf.
+			
+			Diese linearen Bewegung ähneln der gleich- bzw. gegen-gesinnten Bewegung der gekoppelten Fadenpendel.  
 		
 \end{document} 
