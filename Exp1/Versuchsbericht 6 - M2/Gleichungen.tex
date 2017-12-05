@@ -66,7 +66,46 @@
 	\subsection*{Per Hand}
 	Wir konnten auf dem Maßstab bis \SI{0,5}{mm} ablesen. Also ist $u(x) = \frac{\SI{0,001}{m}}{2\sqrt{6}}$.
 	
-	\section{Eigenschwingung}
+	\subsection{Messung über mehrere Perioden}
+	Der Mittelwert ist gegeben mit $T = \frac{T_j - T_i}{j-i}$.
+	Da $T_i$ und $T_j$ jeweils einzelne Messpunkte sind, gilt $u(T_i) = u(T_j) = u(T)$, somit folgt:
+	\begin{equation}
+		u(T) = \sqrt{\left( \frac{\partial\, T}{\partial\, T_i} u(T)\right)^2 + \left( \frac{\partial\, T}{\partial\, T_j} u(T)\right)^2}
+		=\frac{u(T)}{j-i}
+	\end{equation}
+	
+	\subsection{Schwebung}
+	Da sich das Pendel bei der Schwebung an den Knoten nicht bewegt, ist eine entsprechend große Unsicherheit für einen einzelnen Schwingungsbauch zu wählen (Gerade der Breite des Intervalls mit gleichbleibenden Werten).
+	Die gemittelte Zeit ist gegeben mit $T_S = 2\frac{T_j - T_i}{j-i}$, wobei der Vorfaktor $2$ daher stammt, dass eine Periode jeweils zwischen zwei Bäuchen liegt.
+	Mit der Formel für kombinierte Unsicherheiten ergibt sich:
+	\begin{equation}
+		u(T_S) = \sqrt{\left( \frac{\partial\, T}{\partial\, T_i} u(T_i)\right)^2 + \left( \frac{\partial\, T}{\partial\, T_j} u(T_j)\right)^2}
+		=\frac{2}{j-i} \sqrt{u^2(T_i) + u^2(T_j)}.
+	\end{equation}
+	$T_i$ beschreibt dabei die Zeit des $i$-ten Bauchs.
+	
+	\section{Schwingungsperioden}
+	Es wurden zum Teil die Minima betrachtet, da man so mehr Messpunkte hatte. Die ausgewerteten Ergebnisse sammt Unsicherheiten sind in Tab. \ref{tab:result} abzulesen.
+	
+	\begin{table}[ht]
+		\caption{Schwingungsdauern einer Periode mit Unsicherheiten.}
+		\centering
+		\label{tab:result}
+		\begin{tabular}{c|S}
+			{Schwingungsart} & {Schwingungsdauer $T$} \\
+			\hline
+			{Eigenschwingung eines Pendels} & \SI{2,4833 +- 0,0001}{\second} \\
+			\hline
+			{Gleichschwingung der Kupferfeder} & \SI{2,4736 +- 0,0001}{\second} \\
+			{Gegenschwingung der Kupferfeder} & \SI{2,4157 +- 0,0001}{\second} \\
+			{Schwebung der Kupferfeder} & \SI{206,03 +-0,68}{\second} \\
+			\hline
+			{Gleichschwingung der Stahlfeder} & \SI{2,4697 +- 0,0001}{\second} \\
+			{Gegenschwingung der Stahlfeder} & \SI{2,3753 +- 0,0001}{\second} \\
+			{Schwebung der Stahlfeder} & \SI{104,52 +- 0,24}{\second} \\
+		\end{tabular}
+	\end{table}
+	
 
 	\newpage			
 	\section*{Literatur}
