@@ -7,15 +7,15 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Gleich-gesinnte Schwingung}{5}
 \contentsline {subsubsection}{\numberline {2.3.3}Gegen-gesinnte Schwingung}{5}
 \contentsline {subsubsection}{\numberline {2.3.4}Schwebung}{5}
-\contentsline {subsubsection}{\numberline {2.3.5}Relative Frequenzaufspaltung}{5}
-\contentsline {subsection}{\numberline {2.4}Messung mit Stahlfeder als Kopplung}{5}
-\contentsline {subsubsection}{\numberline {2.4.1}Statische Ermittlung des Kopplungsgrades}{5}
-\contentsline {subsubsection}{\numberline {2.4.2}Gleich-gesinnte Schwingung}{5}
-\contentsline {subsubsection}{\numberline {2.4.3}Gegen-gesinnte Schwingung}{5}
-\contentsline {subsubsection}{\numberline {2.4.4}Schwebung}{6}
-\contentsline {subsubsection}{\numberline {2.4.5}Relative Frequenzaufspaltung}{6}
-\contentsline {subsection}{\numberline {2.5}Ergebnisse und Diskussion}{6}
-\contentsline {subsection}{\numberline {2.6}Schlussfolgerung}{6}
-\contentsline {section}{\numberline {3}Doppelpendel}{6}
-\contentsline {subsection}{\numberline {3.1}Aufbau und Funktionsweise}{6}
-\contentsline {subsection}{\numberline {3.2}Beobachtung bei Auslenkung}{7}
+\contentsline {subsubsection}{\numberline {2.3.5}Relative Frequenzaufspaltung}{6}
+\contentsline {subsection}{\numberline {2.4}Messung mit Stahlfeder als Kopplung}{6}
+\contentsline {subsubsection}{\numberline {2.4.1}Statische Ermittlung des Kopplungsgrades}{6}
+\contentsline {subsubsection}{\numberline {2.4.2}Gleich-gesinnte Schwingung}{6}
+\contentsline {subsubsection}{\numberline {2.4.3}Gegen-gesinnte Schwingung}{7}
+\contentsline {subsubsection}{\numberline {2.4.4}Schwebung}{7}
+\contentsline {subsubsection}{\numberline {2.4.5}Relative Frequenzaufspaltung}{7}
+\contentsline {subsection}{\numberline {2.5}Ergebnisse und Diskussion}{7}
+\contentsline {subsection}{\numberline {2.6}Schlussfolgerung}{7}
+\contentsline {section}{\numberline {3}Doppelpendel}{8}
+\contentsline {subsection}{\numberline {3.1}Aufbau und Funktionsweise}{8}
+\contentsline {subsection}{\numberline {3.2}Beobachtung bei Auslenkung}{9}
