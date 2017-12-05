@@ -56,43 +56,114 @@
 				\caption{gekoppelte Fadenpendel}
 				\label{abb:gFadenpendel}	
 			\end{figure}
-			Hier besitzen beide Pendel die gleiche Länge $l$, hier bei ca. \SI{159}{\cm}, und Gewichte der Masse $m$. Des Weiteren werden die Fäden für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
+			Hier besitzen beide Pendel die gleiche Länge $l$, hier bei ca. \SI{159}{\cm} (von dem Aufhängepunkt zum Schwerpunkt der Pendel), und Gewichte der Masse $m$. Des Weiteren werden die Fäden für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn, welche bei ungefähr $z=d=\SI{113}{\cm}$ zwischen den Pendeln angebracht werden. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
 			
-			Gemessen wird die Auslenkung des Pendels mit Hilfe eines Ultraschall-Entfernungssensors um die Schwingungsdauer $T$ bzw. die Frequenz $\omega$ zu ermitteln. Dies erfolgt zunächst ohne Kopplung und dann für gleich- und gegen-gesinnte Bewegungen sowie für den Fall der Schwebung bei Kupferfeder- und Stahlfederkopplung.
+			Gemessen wird die Auslenkung des Pendels mit Hilfe eines Ultraschall-Entfernungssensors. Diese wird gegen die Zeit aufgetragen, um die Schwingungsdauer $T$ bzw. die Frequenz $\omega$ zu ermitteln. Der Sensor misst mit \SI{50}{\Hz}. Die Messung wird für die Schwingungsdauer ohne Kopplung, für gleich- und gegen-gesinnte Bewegungen sowie für den Fall der Schwebung bei beiden Feder.
 			Zudem wird die Auslenkung beider Pendel zur statischen Bestimmung des Kopplungsgrades mit einem Maßband gemessen. 
-			%TODO
+
 			Zur Berechnung des Kopplungsgrades wird folgende Formel für den statischen Fall verwendet: 
 			\begin{equation}
-				k = \frac{x_1}{x_2}.
+				k = \frac{x_1}{x_2}. \label{eq:statisch}
 			\end{equation}
 			Für den dynamischen Fall werden die gemessenen Schwingungsdauern für die gleich- und gegen-gesinnte Bewegung verwendet:
+			\begin{align}
+				k = \frac{T_\text{gl}^2-T_\text{geg}^2}{T_\text{gl}^2+T_\text{geg}^2}. \label{eq:dynamisch} \\
+				\text{bzw. für die Frequenz:} \quad k = \frac{\omega_\text{geg}^2-\omega_\text{gl}^2}{\omega_\text{geg}^2+\omega_\text{gl}^2}.
+			\end{align}
+			Zuletzt wird die relative Frequenzaufspaltung $\frac{\Delta\omega}{\omega_0}$ mit Hilfe der ermittelten Schwingungsdauern berechnet, dazu:
 			\begin{equation}
-			k = \frac{T_\text{gl}^2-T_\text{geg}^2}{T_\text{gl}^2+T_\text{geg}^2}.
+				\frac{\Delta\omega}{\omega_0} = \frac{\omega_\text{geg}-\omega_\text{gl}}{\omega_\text{gl}} = 2\frac{T_\text{gl}}{T_\text{geg}}. \label{eq:freqfrac} 	
+			\end{equation}		
+			Ebenso lässt sich die Frequenzaufspaltung auch mit der Näherung über die Reihenentwicklung von $\sqrt{1\pm k}$ bis zur 3. Ordnung bestimmen. Umformen von \refeq{dynamisch} führt zu Folgendem:
+			\begin{equation}
+				\frac{\Delta\omega}{\omega_0} = \sqrt\frac{1+k}{1-k}-1 = k + \frac{k^2}{2} + \frac{k^3}{2}. \label{eq:freqfrac2} 
 			\end{equation}
+					
+		\subsection*{Unsicherheiten}
+			
+			Die Unsicherheiten wurden wie folgt festgelegt:
+			\begin{itemize}
+				\item 1 nice Unsicherheit
+			\end{itemize}
+			%TODO
+			%Unsicherheiten
 			
 		\subsection{Messung ohne Kopplung}
 										
+			Die Messung ergab für den ungekoppelten Fall, dass die Schwingungsdauer $T_0 = \SI{0}{\s}$ bzw. die Frequenz $\omega_0 = \SI{0}{\per\s}$ entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
 			%TODO
+			% Grafik, Referenz, Werte
 			
 		\subsection{Messung mit Kupferfeder als Kopplung}
 			
-			\subsection{Statische Ermittlung des Kopplungsgrades}							
-			%TODO
+			\subsubsection{Statische Ermittlung des Kopplungsgrades}							
+				
+				Der Kopplungsgrad wird durch Einsetzen in \refeq{statisch} statisch bestimmt. Dies liefert einen Wert von $k=$. Hierfür wurden acht Wertepaare verwendet. 
+				
+			\subsubsection{Gleich-gesinnte Schwingung}
 			
+				Für die gleich-gesinnte Bewegung bei der Kupferfeder ergab sich, dass die Schwingungsdauer $T_\text{gl} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{gl}  = \SI{0}{\per\s}$ entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+			
+			\subsubsection{Gegen-gesinnte Schwingung}
+				
+				Bei der gegen-gesinnten Bewegung der Kupferfeder ergab sich, dass die Schwingungsdauer $T_\text{geg} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{geg}  = \SI{0}{\per\s}$ entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+				
+			\subsubsection{Schwebung}
+				
+				Die Messung ergab, dass die Schwingungsdauer $T_\text{S} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{S} = \SI{0}{\per\s}$ im Falle der Schwebung entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+				
+			\subsubsection{Relative Frequenzaufspaltung}
+				
+				Einsetzten in \refeq{freqfrac} liefert eine relative Frequenzaufspaltung von $\frac{\Delta\omega}{\omega_0} = 0$ über die ermittelten Schwingungsdauern. Über die Näherung aus \refeq{freqfrac2} erhalten wir hierbei eine Aufspaltung von $\frac{\Delta\omega}{\omega_0} = 0$.
+				
 		\subsection{Messung mit Stahlfeder als Kopplung}	
-										
-			%TODO
+					
+			\subsubsection{Statische Ermittlung des Kopplungsgrades}							
 			
-		\subsection{Relative Frequenzaufspaltung und Näherung dieser}
-										
-			%TODO
+				Der Kopplungsgrad wird durch Einsetzen in \refeq{statisch} statisch bestimmt. Dies liefert einen Wert von $k=$. Hierfür wurden neun Wertepaare verwendet. 
 			
-		\subsection{Ergebnisse}	
-		
-			%TODO
+			\subsubsection{Gleich-gesinnte Schwingung}
 			
+				Für die gleich-gesinnte Bewegung bei der Kupferfeder ergab sich, dass die Schwingungsdauer $T_\text{gl} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{gl}  = \SI{0}{\per\s}$ entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+			
+			\subsubsection{Gegen-gesinnte Schwingung}
+			
+				Bei der gegen-gesinnten Bewegung der Kupferfeder ergab sich, dass die Schwingungsdauer $T_\text{geg} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{geg}  = \SI{0}{\per\s}$ entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+			
+			\subsubsection{Schwebung}
+			
+				Die Messung ergab, dass die Schwingungsdauer $T_\text{S} = \SI{0}{\s}$ bzw. die Frequenz $\omega_\text{S} = \SI{0}{\per\s}$ im Falle der Schwebung entspricht. Hierzu wurden die Nullstellen der in \refabb{} aufgetragenen Messwerte genommen und gemittelt. 
+				%TODO
+				% Grafik, Referenz, Werte
+			
+			\subsubsection{Relative Frequenzaufspaltung}
+			
+				Einsetzten in \refeq{freqfrac} liefert eine relative Frequenzaufspaltung von $\frac{\Delta\omega}{\omega_0} = 0$ über die ermittelten Schwingungsdauern. Über die Näherung aus \refeq{freqfrac2} erhalten wir hierbei eine Aufspaltung von $\frac{\Delta\omega}{\omega_0} = 0$.
+													
+			
+		\subsection{Ergebnisse und Diskussion}	
+			
+			Die folgende Tabelle \reftab{} zeigt die Ergebnisse der Messungen für die verschiedenen Kopplungen. Hier ist ebenfalls der dynamisch bestimmte Kopplungsgrad aufgelistet, welcher sich durch Einsetzen in \refeq{dynamisch} berechnen ließ, sowie die durch:
+			\begin{equation}
+				T_\text{S} = \frac{4\pi}{\omega_\text{geg} - \omega_\text{gl}} 
+			\end{equation}
+			berechneten Schwebungsdauern.
+			
+			%TODO
+			% Table, Diskussion
 		\subsection{Schlussfolgerung}
-							
+			
+			1 nice Messung				
 			%TODO
 			
 	\section{Doppelpendel}
@@ -134,5 +205,6 @@
 			Die Ausnahmen hierzu bilden die Schwingungen, bei Auslenkungen ähnlich zu den, wie sie in \refabb{DP_Ruhe}) und \refabb{DP_ausgelenkt}) dargestellt sind. Bei der ersten linearen Bewegung bewegt sich der Massepunkt des unteren Pendels auf einer Kreisbahn um den Aufhängepunkt des Oberen. Die beiden Pendel liegen bei dieser Bewegung parallel. Für den zweiten Fall einer linearen Bewegung sind die beide Pendel um den gleichen Winkel, jedoch in entgegengesetzte Richtung ausgelenkt, wie es in \refabb{DP_ausgelenkt} dargestellt ist (hier $\pm \ang{45}$). Hier bewegt sich der Massepunkt des unteren Pendels weder nach links noch nach rechts, sondern nur näher dem Aufhängepunkt des oberen Pendels. Dieser Effekt war jedoch nur bei einem Auslenkungswinkel von ca. $\pm \ang{10}$ zu beobachten. Bei größeren Auslenkungen traten erneut nichtlineare Bewegungen auf.
 			
 			Diese linearen Bewegung ähneln der gleich- bzw. gegen-gesinnten Bewegung der gekoppelten Fadenpendel.  
-		
+
+
 \end{document} 
