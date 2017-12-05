@@ -4,7 +4,7 @@
 2.[34].3 Gegenschwingung
 
 1 Z2 zusammenführen: Dazu werden das gekoppelte Fadenpendel und das Doppelpendel herangezogen und die Schwingungsperiodendauern untersucht.
-p2 zusammen: An zwei Fadenpendeln wird eine Reihe von Messungen durchgeführt, bei denen die Kopplung durch zwei verschiedene Federn realisiert ist. Zudem werden die Fälle der Gleichschwingung, der Gegenschwingung und der Schwebung separat untersucht.
+p2 zusammen: An zwei Fadenpendeln wird eine Reihe von Messungen durchgeführt, bei denen die Kopplung durch zwei verschiedene Federn realisiert wird. Zudem werden die Fälle der Gleichschwingung, der Gegenschwingung und der Schwebung separat untersucht.
 next s: Aus den Messungen wird der Kopplungsgrad k statisch und dynamisch bestimmt und mit der Näherung des Taylorpolynoms 3. grades verglichen.
 nest s: in Verbindung gebracht/ Zusammenhänge dargestellt.
 
