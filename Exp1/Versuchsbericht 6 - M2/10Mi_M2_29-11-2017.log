@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  5 DEC 2017 18:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  5 DEC 2017 21:19
 entering extended mode
 **./10Mi_M2_29-11-2017.tex
 (10Mi_M2_29-11-2017.tex
@@ -843,19 +843,19 @@ Package: wrapfig 2003/01/31  v 3.6
 (10Mi_M2_29-11-2017.aux)
 \openout1 = `10Mi_M2_29-11-2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1007,42 +1007,42 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c__siunitx_mathsf_int=\count282
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 18.
+(Font)              <6> on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 27.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count283
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 27.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -1057,115 +1057,109 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <gFadenpendel.png, id=14, 72.27pt x 69.25874pt>
 File: gFadenpendel.png Graphic file (type png)
  <use gFadenpendel.png>
-Package pdftex.def Info: gFadenpendel.png used on input line 55.
+Package pdftex.def Info: gFadenpendel.png used on input line 64.
 (pdftex.def)             Requested size: 360.0pt x 345.09438pt.
  [2]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 86.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+[3 <./gFadenpendel.png>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 96.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 86.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 96.
+
+LaTeX Warning: Reference `' on page 4 undefined on input line 123.
 
 
-LaTeX Warning: Reference `abb:' on page 3 undefined on input line 93.
-
-[3 <./gFadenpendel.png>]
-
-LaTeX Warning: Reference `abb:' on page 4 undefined on input line 105.
-
-
-LaTeX Warning: Reference `abb:' on page 4 undefined on input line 111.
-
-
-LaTeX Warning: Reference `abb:' on page 4 undefined on input line 117.
-
-
-LaTeX Warning: Reference `abb:' on page 4 undefined on input line 133.
+Overfull \hbox (79.17265pt too wide) in paragraph at lines 127--128
+\T1/lmr/m/n/10.95 Schwin-gungs-dau-er $\OML/lmm/m/it/10.95 T[] \OT1/lmr/m/n/10.
+95 = [] []$ \T1/lmr/m/n/10.95 bzw. die Fre-quenz $\OML/lmm/m/it/10.95 ![] \OT1/
+lmr/m/n/10.95 = [][][] []$
+ []
 
 [4]
 
-LaTeX Warning: Reference `abb:' on page 5 undefined on input line 139.
+LaTeX Warning: Reference `' on page 5 undefined on input line 145.
 
 
-LaTeX Warning: Reference `abb:' on page 5 undefined on input line 145.
+Overfull \hbox (79.17265pt too wide) in paragraph at lines 149--150
+\T1/lmr/m/n/10.95 Schwin-gungs-dau-er $\OML/lmm/m/it/10.95 T[] \OT1/lmr/m/n/10.
+95 = [] []$ \T1/lmr/m/n/10.95 bzw. die Fre-quenz $\OML/lmm/m/it/10.95 ![] \OT1/
+lmr/m/n/10.95 = [][][] []$
+ []
 
-
-LaTeX Warning: Reference `tab:' on page 5 undefined on input line 156.
-
-<Doppelpendel_Ruhelage.png, id=35, 60.225pt x 90.3375pt>
+[5] <Doppelpendel_Ruhelage.png, id=38, 60.225pt x 90.3375pt>
 File: Doppelpendel_Ruhelage.png Graphic file (type png)
 
 <use Doppelpendel_Ruhelage.png>
-Package pdftex.def Info: Doppelpendel_Ruhelage.png used on input line 177.
+Package pdftex.def Info: Doppelpendel_Ruhelage.png used on input line 222.
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_P2.png, id=36, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_P2.png, id=39, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_P2.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_P2.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png used on input line 183.
+Package pdftex.def Info: Doppelpendel_Auslenkung_P2.png used on input line 228.
 
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_P1.png, id=37, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_P1.png, id=40, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_P1.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_P1.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png used on input line 189.
+Package pdftex.def Info: Doppelpendel_Auslenkung_P1.png used on input line 234.
 
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-<Doppelpendel_Auslenkung_beide.png, id=38, 60.225pt x 90.3375pt>
+<Doppelpendel_Auslenkung_beide.png, id=41, 60.225pt x 90.3375pt>
 File: Doppelpendel_Auslenkung_beide.png Graphic file (type png)
 
 <use Doppelpendel_Auslenkung_beide.png>
-Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png used on input line 1
-95.
+Package pdftex.def Info: Doppelpendel_Auslenkung_beide.png used on input line 2
+40.
 (pdftex.def)             Requested size: 90.0pt x 135.0124pt.
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 175--199
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 220--244
 []$[]$ $[]$
  []
 
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 175--199
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 220--244
 []$ $[]$ 
  []
 
-[5] [6 <./Doppelpendel_Ruhelage.png> <./Doppelpendel_Auslenkung_P2.png> <./Dopp
-elpendel_Auslenkung_P1.png> <./Doppelpendel_Auslenkung_beide.png>] [7]
+[6] [7] [8 <./Doppelpendel_Ruhelage.png> <./Doppelpendel_Auslenkung_P2.png> <./
+Doppelpendel_Auslenkung_P1.png> <./Doppelpendel_Auslenkung_beide.png>]
 (10Mi_M2_29-11-2017.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 14829 strings out of 493333
- 297866 string characters out of 3139197
- 316712 words of memory out of 3000000
- 18211 multiletter control sequences out of 15000+200000
+ 14832 strings out of 493333
+ 297896 string characters out of 3139197
+ 324711 words of memory out of 3000000
+ 18214 multiletter control sequences out of 15000+200000
  602198 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,40p,10391b,772s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+ 42i,18n,40p,10391b,1009s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/l
+m-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M2_29-11-2017.pdf (8 pages, 541911 bytes).
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M2_29-11-2017.pdf (9 pages, 540651 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
