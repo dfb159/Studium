@@ -1,21 +1,21 @@
 \contentsline {section}{\numberline {1}Kurzfassung}{2}
 \contentsline {section}{\numberline {2}Gekoppelte Fadenpendel}{2}
 \contentsline {subsection}{\numberline {2.1}Methoden}{2}
-\contentsline {subsection}{\numberline {2.2}Messung ohne Kopplung}{4}
-\contentsline {subsection}{\numberline {2.3}Messung mit Kupferfeder als Kopplung}{4}
-\contentsline {subsubsection}{\numberline {2.3.1}Statische Ermittlung des Kopplungsgrades}{4}
+\contentsline {subsection}{\numberline {2.2}Eigenschwingung eines ungekoppelten Pendels}{4}
+\contentsline {subsection}{\numberline {2.3}Messung mit Kupferfeder als Kopplung}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}Statische Ermittlung des Kopplungsgrades}{5}
 \contentsline {subsubsection}{\numberline {2.3.2}Gleich-gesinnte Schwingung}{5}
 \contentsline {subsubsection}{\numberline {2.3.3}Gegen-gesinnte Schwingung}{5}
-\contentsline {subsubsection}{\numberline {2.3.4}Schwebung}{5}
+\contentsline {subsubsection}{\numberline {2.3.4}Schwebung}{6}
 \contentsline {subsubsection}{\numberline {2.3.5}Relative Frequenzaufspaltung}{6}
 \contentsline {subsection}{\numberline {2.4}Messung mit Stahlfeder als Kopplung}{6}
 \contentsline {subsubsection}{\numberline {2.4.1}Statische Ermittlung des Kopplungsgrades}{6}
-\contentsline {subsubsection}{\numberline {2.4.2}Gleich-gesinnte Schwingung}{6}
+\contentsline {subsubsection}{\numberline {2.4.2}Gleich-gesinnte Schwingung}{7}
 \contentsline {subsubsection}{\numberline {2.4.3}Gegen-gesinnte Schwingung}{7}
 \contentsline {subsubsection}{\numberline {2.4.4}Schwebung}{7}
 \contentsline {subsubsection}{\numberline {2.4.5}Relative Frequenzaufspaltung}{7}
-\contentsline {subsection}{\numberline {2.5}Ergebnisse und Diskussion}{7}
-\contentsline {subsection}{\numberline {2.6}Schlussfolgerung}{7}
-\contentsline {section}{\numberline {3}Doppelpendel}{8}
-\contentsline {subsection}{\numberline {3.1}Aufbau und Funktionsweise}{8}
+\contentsline {subsection}{\numberline {2.5}Ergebnisse}{7}
+\contentsline {subsection}{\numberline {2.6}Schlussfolgerung}{8}
+\contentsline {section}{\numberline {3}Doppelpendel}{9}
+\contentsline {subsection}{\numberline {3.1}Aufbau und Funktionsweise}{9}
 \contentsline {subsection}{\numberline {3.2}Beobachtung bei Auslenkung}{9}

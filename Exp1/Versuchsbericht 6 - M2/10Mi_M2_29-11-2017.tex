@@ -50,10 +50,11 @@
 	
 	\section{Kurzfassung}
 		
-		Dieser Bericht beschäftigt sich mit der Betrachtung von gekoppelten Pendeln. Dazu wird auf zwei verschiedene Arten solcher Pendel genauer eingegangen. Dabei handelt es sich einerseits um gekoppelte Fadenpendel und andererseits um das sogenannte Doppelpendel. 
+		Dieser Bericht beschäftigt sich mit der Betrachtung von gekoppelten Pendeln. Dazu werden das gekoppelte Fadenpendel und das Doppelpendel herangezogen und die verschiedenen Schwingungstypen untersucht.
 		
-		Zu den gekoppelten Fadenpendeln wird eine Reihe von Messungen durchgeführt. Bei diesen variieren die Kopplungen und Anfangsauslenkungen. Die verschiedenen erhaltenen Schwingungsdauern werden miteinander verglichen und die Kopplungsgrade $k$ des Systems statisch und dynamisch bestimmt. Zudem wird die Bewegung des Doppelpendels beschrieben und kurz mit der Bewegung der gekoppelten Fadenpendel verglichen.
-		
+		An zwei Fadenpendeln wird eine Reihe von Messungen durchgeführt, bei denen die Kopplung durch zwei verschiedene Federn realisiert wird. Für diese werden unterschiedliche Schwingungstypen separat untersucht. Die verschiedenen erhaltenen Schwingungsdauern werden dann miteinander verglichen und die Kopplungsgrade $k$ des Systems statisch und dynamisch bestimmt. Zudem wird die Bewegung des Doppelpendels beschrieben und kurz mit der Bewegung der gekoppelten Fadenpendel in Verbindung gebracht.
+	
+	\vspace{2cm}	
 	\section{Gekoppelte Fadenpendel}
 		
 		\subsection{Methoden}
@@ -65,14 +66,14 @@
 				\caption{gekoppelte Fadenpendel}
 				\label{abb:gFadenpendel}	
 			\end{figure}
-			Hier besitzen beide Pendel die gleiche Länge $l$, hier bei ca. \SI{159}{\cm} (von dem Aufhängepunkt zum Schwerpunkt der Pendel), und Gewichte der Masse $m$. Des Weiteren werden die Fäden für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn, welche bei ungefähr $z=d=\SI{113}{\cm}$ zwischen den Pendeln angebracht werden. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
+			Hier besitzen beide Pendel die gleiche Länge $l$, hier bei ca. \SI{159}{\cm} (von dem Aufhängepunkt zum Schwerpunkt der Pendel), und Gewichte der Masse $m$. Des Weiteren werden die Stangen (\glqq Fäden\grqq) für die Berechnung als masselos angenommen. Zur Kopplung der beiden Fadenpendel dienen hierbei zwei verschiedene Federn, welche bei ungefähr $z=d=\SI{113}{\cm}$ zwischen den Pendeln angebracht werden. Bei diesen handelt es sich um eine Kupfer- und um eine Stahlfeder.
 			
-			Gemessen wird die Auslenkung des Pendels mit Hilfe eines Ultraschall-Entfernungssensors. Diese wird gegen die Zeit aufgetragen, um die Schwingungsdauer $T$ bzw. die Frequenz $\omega$ zu ermitteln. Der Sensor misst mit \SI{50}{\Hz}. Die Messung wird für die Schwingungsdauer ohne Kopplung, für gleich- und gegen-gesinnte Bewegungen sowie für den Fall der Schwebung bei beiden Feder.
-			Zudem wird die Auslenkung beider Pendel zur statischen Bestimmung des Kopplungsgrades mit einem Maßband gemessen. 
+			Die Auslenkung des Pendels wird mit Hilfe eines Ultraschall-Entfernungssensors gemessen. Diese wird gegen die Zeit aufgetragen, um die Schwingungsdauer $T$ bzw. die Frequenz $\omega$ zu ermitteln. Der Sensor misst mit \SI{50}{\Hz}. Die Messung wird für die Schwingungsdauer ohne Kopplung, für gleich- und gegen-gesinnte Bewegungen sowie für den Fall der Schwebung für beide Federn durchgeführt.
+			Zur statischen Bestimmung des Kopplungsgrades wird die Auslenkung mit einem Maßstab gemessen. 
 
 			Zur Berechnung des Kopplungsgrades wird folgende Formel für den statischen Fall verwendet: 
 			\begin{equation}
-				k = \frac{x_1}{x_2}. \label{eq:statisch}
+				k = \frac{x_2}{x_1}. \label{eq:statisch}
 			\end{equation}
 			Für den dynamischen Fall werden die gemessenen Schwingungsdauern für die gleich- und gegen-gesinnte Bewegung verwendet:
 			\begin{align}
@@ -88,21 +89,20 @@
 				\frac{\Delta\omega}{\omega_0} = \sqrt\frac{1+k}{1-k}-1 = k + \frac{k^2}{2} + \frac{k^3}{2}. \label{eq:freqfrac2} 
 			\end{equation}
 		
-		\newpage			
 		\subsection*{Unsicherheiten}
 			
 			Die Unsicherheiten wurden wie folgt festgelegt:
 			\begin{itemize}
 				\item Messgerät: Aus der Messrate von $\SI{50}{\hertz}$ folgt $u_C(T) = \frac{\SI{0,02}{\second}}{2\sqrt{3}}$.
 				Zudem ist die Ausgabe der gemessenen Werte auf zwei Nachkommastellen bzw. auf \SI{1}{\cm} genau. Daraus folgt $u_C(x) = \frac{\SI{0,01}{m}}{2\sqrt{3}}$.
-				\item Maßband: Von diesem ließ sich mit einer Ungenauigkeit von \SI{0,5}{mm} ablesen. Demnach ist $u(x) = \frac{\SI{0,001}{m}}{2\sqrt{6}}$.
+				\item Maßstab: Von diesem ließ sich mit einer Ungenauigkeit von \SI{0,5}{mm} ablesen. Demnach ist $u(x) = \frac{\SI{0,0005}{m}}{2\sqrt{6}}$.
 				\item Messung über mehrere Perioden: Der Mittelwert ist gegeben durch $T = \frac{T_j - T_i}{j-i}$.
 				Da $T_i$ und $T_j$ jeweils einzelne Messpunkte sind, gilt $u(T_i) = u(T_j) = u(T)$, somit folgt:
 				\begin{equation}
 					u(T) = \sqrt{\left( \frac{\partial\, T}{\partial\, T_i} u(T)\right)^2 + \left( \frac{\partial\, T}{\partial\, T_j} u(T)\right)^2}
-					=\frac{u(T)}{j-i}
+					=\frac{u(T)}{j-i}.
 				\end{equation}
-				\item Schwebung: Da sich das Pendel bei der Schwebung an den Knoten nicht bewegt, ist eine entsprechend große Unsicherheit für einen einzelnen Schwingungsbauch zu wählen (gemäß der Breite des Intervalls der nahezu gleichen Werte).
+				\item Schwebung: Da sich das Pendel bei der Schwebung an den Knoten über längere Zeit nicht bewegt, ist eine entsprechend große Unsicherheit für einen einzelnen Schwingungsbauch zu wählen (gemäß der Breite des Intervalls der nahezu gleichen Werte).
 				Die gemittelte Zeit ist gegeben durch $T_S = 2\frac{T_j - T_i}{j-i}$. Der Faktor $2$ stammt daher, dass eine Periode jeweils zwei Schwingungsbäuche umfasst.
 				Mit der Formel für kombinierte Unsicherheiten ergibt sich:
 				\begin{equation}
@@ -112,7 +112,7 @@
 				$T_i$ beschreibt hierbei die Zeit bei dem $i$-ten Knotenpunkt.
 			\end{itemize}
 			
-		\subsection{Messung ohne Kopplung}
+		\subsection{Eigenschwingung eines ungekoppelten Pendels}
 										
 			Die Messung ergab für den ungekoppelten Fall, dass die Schwingungsdauer $T_0 = \SI{2,4833 +- 0,0001}{\second}$ bzw. die Frequenz $\omega_0 = \SI{2,5301 +- 0,0005}{\s^{-1}}$ entspricht. Hierzu wurden die Differenzen der Nullstellen bei der Messung gebildet und gemittelt. 
 			
@@ -173,7 +173,7 @@
 			
 				Einsetzten in \refeq{freqfrac} liefert eine relative Frequenzaufspaltung von $\Delta\omega / \omega_0 = \SI{0,047260 +- 0,000107}{}$ über die ermittelten Schwingungsdauern. Über die Näherung aus \refeq{freqfrac2} erhält man hierbei eine Aufspaltung von $\Delta\omega / \omega_0 = \SI{0,042587 +- 0,000329}{}$.
 																
-		\subsection{Ergebnisse und Diskussion}	
+		\subsection{Ergebnisse}	
 			
 			\reftab{result} zeigt die Ergebnisse der Messungen für die verschiedenen Kopplungen, damit diese besser verglichen werden können. Hier ist ebenfalls der dynamisch bestimmte Kopplungsgrad aufgelistet, welcher sich durch Einsetzen in \refeq{dynamisch} berechnen ließ, sowie die durch:
 			\begin{equation}
@@ -217,15 +217,15 @@
 				\end{tabular}
 			\end{table}
 			
-			Vergleicht man die Schwingungsdauern für die Schwebung bei direkter Messung mit den berechneten, so ist zu erkennen, dass der Unterschied bei der Kupferfeder minimal ist 0,2\%, bei der Stahlfeder jedoch mit 18,9\% recht stark abweicht.
+			Vergleicht man die Schwingungsdauern für die Schwebung bei direkter Messung mit den berechneten, so ist zu erkennen, dass der Unterschied bei der Kupferfeder minimal ist 0,2\%, bei der Stahlfeder jedoch mit 18,9\% im Verhältnis zu der vorausgegangenen Feder stark abweicht.
 			
 			Bei den Kopplungsgraden besteht bei der statistischen Berechnung ein 7,8\% Unterschied zu den Dynamischen bei der Kupferfeder und 7,0\% bei der Stahlfeder.
 			
 			Für die Näherung der relativen Frequenzaufspaltung weichen die Werte von den Berechneten um 7,7\% für die Kupferfeder und um 9,9\% für die Stahlfeder ab.
+			
 		\subsection{Schlussfolgerung}
 			
-			1 nice Messung				
-			%TODO
+			Da die Werte für die Schwebungsdauer der Stahlfeder stark voneinander abweichen, sollte die Messung zu dieser wiederholt werden. Für die Kopplungsgrade $k$ und der relativen Frequenzaufspaltung $\Delta\omega / \omega_0$ sind die Unsicherheiten sehr gering, was den hohen prozentualen Unterschied der verschiedenen Ergebnisse erklären könnte. Demnach müsste die Berechnung der Unsicherheiten hier erneut überprüft werden. Dass die Stangen, als masselos angenommen werden, hat ebenfalls Einfluss auf die Genauigkeit der Messung, jedoch nicht genug um die starken Abweichungen zu erklären.
 			
 	\section{Doppelpendel}
 	
@@ -257,15 +257,22 @@
 					\caption{Beide Pendel ausgelenkt}
 					\label{abb:DP_ausgelenkt}
 				\end{subfigure}		
+				\begin{subfigure}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{Doppelpendel_stabil.png}
+					\caption{Doppelpendel in stabiler Lage}
+					\label{abb:DP_stabil}	
+				\end{subfigure}
+				\caption{Auslenkungsmöglichkeiten des Doppelpendels}
 			\end{figure}
 		
 		\subsection{Beobachtung bei Auslenkung}
 		
 			Bei der Auslenkung des Doppelpendels lässt sich ein nichtlineares bzw. chaotisches Verhalten erkennen, da nach nur wenigen Schwingungen, bei nahezu gleichen Anfangsbedingungen, bereits stark unterschiedliche Bewegungen beobachtet wurden. Ein periodisches Verhalten ließ sich hierbei nicht erkennen.
 		
-			Die Ausnahmen hierzu bilden die Schwingungen, bei Auslenkungen ähnlich zu den, wie sie in \refabb{DP_Ruhe}) und \refabb{DP_ausgelenkt}) dargestellt sind. Bei der ersten linearen Bewegung bewegt sich der Massepunkt des unteren Pendels auf einer Kreisbahn um den Aufhängepunkt des Oberen. Die beiden Pendel liegen bei dieser Bewegung parallel. Für den zweiten Fall einer linearen Bewegung sind die beide Pendel um den gleichen Winkel, jedoch in entgegengesetzte Richtung ausgelenkt, wie es in \refabb{DP_ausgelenkt} dargestellt ist (hier $\pm \ang{45}$). Hier bewegt sich der Massepunkt des unteren Pendels weder nach links noch nach rechts, sondern nur näher dem Aufhängepunkt des oberen Pendels. Dieser Effekt war jedoch nur bei einem Auslenkungswinkel von ca. $\pm \ang{10}$ zu beobachten. Bei größeren Auslenkungen traten erneut nichtlineare Bewegungen auf.
+			Die Ausnahmen hierzu bilden die Schwingungen, bei Auslenkungen ähnlich zu den, wie sie in \refabb{DP_stabil}) und \refabb{DP_ausgelenkt}) dargestellt sind. Bei der ersten linearen Bewegung bewegt sich der Massepunkt des unteren Pendels auf einer Kreisbahn um den Aufhängepunkt des Oberen. Die beiden Pendel liegen bei dieser Bewegung parallel. Für den zweiten Fall einer linearen Bewegung sind die beide Pendel um den gleichen Winkel, jedoch in entgegengesetzte Richtung ausgelenkt, wie es in \refabb{DP_ausgelenkt} dargestellt ist (hier $\pm \ang{45}$). Hier bewegt sich der Massepunkt des unteren Pendels weder nach links noch nach rechts, sondern nur näher dem Aufhängepunkt des oberen Pendels. Dieser Effekt war jedoch nur bei einem Auslenkungswinkel von ca. $\pm \ang{10}$ zu beobachten. Bei größeren Auslenkungen traten erneut nichtlineare Bewegungen auf.
 			
-			Diese linearen Bewegung ähneln der gleich- bzw. gegen-gesinnten Bewegung der gekoppelten Fadenpendel.  
+			Diese linearen Bewegung ähneln der gleich- (\refabb{DP_stabil}) bzw. gegen-gesinnten Bewegung (\refabb{DP_ausgelenkt}) der gekoppelten Fadenpendel.  
 
 
 \end{document} 
