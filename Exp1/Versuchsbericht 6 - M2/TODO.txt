@@ -1,0 +1,20 @@
+2.2 Eigenschwingung eines ungekoppelten Pendels
+(?) 2.3 Kupferfeder als Kopplung genauso Eisen
+2.[34].2 Gleichschwingung
+2.[34].3 Gegenschwingung
+
+1 Z2 zusammenführen: Dazu werden das gekoppelte Fadenpendel und das Doppelpendel herangezogen und die Schwingungsperiodendauern untersucht.
+p2 zusammen: An zwei Fadenpendeln wird eine Reihe von Messungen durchgeführt, bei denen die Kopplung durch zwei verschiedene Federn realisiert ist. Zudem werden die Fälle der Gleichschwingung, der Gegenschwingung und der Schwebung separat untersucht.
+next s: Aus den Messungen wird der Kopplungsgrad k statisch und dynamisch bestimmt und mit der Näherung des Taylorpolynoms 3. grades verglichen.
+nest s: in Verbindung gebracht/ Zusammenhänge dargestellt.
+
+\newpage
+
+2.1 S2: Beide Pendel sind mit einer Metallstange der Länge l = 159cm mit der Aufhängung verbunden und haben die Masse m.
+next s: Zudem ... Stangen
+next p: Die Auslenkung wird gemessen... (damit man sich besser drauf beziehen kann)
+	next s: Trägt man diese ... kann man relevante Stellen, wie z. B. Maxima identifizieren und die Schwingungsdauer T (und w) bestimmen.
+next s: für beide Federn durchgeführt und miteinander verglichen.
+next s: zudem weg: Zur statischen Best. ... wird die Auslenkung mit einem Maßstab ....
+formel(1): x = x_2 / x_1
+
