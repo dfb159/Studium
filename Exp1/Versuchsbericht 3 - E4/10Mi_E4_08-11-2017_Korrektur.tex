@@ -8,6 +8,7 @@
 \usepackage{url}					% Zur Darstellung von Webadressen
 \usepackage{siunitx}
 \usepackage{amsmath}			% für equation*
+\usepackage{xfrac}
 \usepackage{subcaption}
 \usepackage{wrapfig}
 
@@ -40,8 +41,6 @@
 		
 		\vfill
 		
-		%TODO Grafikbeschriftungen an die Messung/Versuch anpassen und keine nummer
-		
 		{\large \today\par}
 	\end{titlepage}
 		
@@ -61,19 +60,21 @@
 		Die Abhängigkeit des Widerstands von der Temperatur wird dann in dem zweiten Versuch für einen Kupferdraht betrachtet.
 		Dazu wird der Draht in Öl zunächst erhitzt und danach abgekühlt. Währenddessen wird durchgehend der Widerstand des Drahtes mit Hilfe einer Wheatstone'schen Brücke ermittelt. Die Ergebnisse für den Kupferdraht werden dann mit der elektrischen Leitfähigkeit von Metallen verglichen.
 
-	\section{Versuch 1: Strom-Spannungs-Charakteristik}
+		\newpage
+
+	\section{Versuch 1: Strom-Spannungs-Kennlinien}
 		
-		In diesem Versuch werden die Kennlinien von verschiedenen Bauteilen betrachtet. Dafür wird der Strom gemessen und gegen die Eingangsspannung aufgetragen. Den sich daraus ergebenen Verlauf, die Kennlinie, wird dann theoretisch eingeordnet. 
+		In diesem Versuch werden die Kennlinien von verschiedenen Bauteilen betrachtet. Dafür wird der Strom gemessen und gegen die Eingangsspannung aufgetragen. Der sich daraus ergebenen Verlauf, die Kennlinie, wird dann theoretisch eingeordnet. 
 		
 		\subsection{Methoden} 
 		
 		Der Versuchsaufbau ist in Abb. \ref{Schaltskizze1} skizziert. Dabei fließt der Strom nur über jeweils eine Teilschaltung \textbf{a)} bis \textbf{e)}. 
-		Da die Spannungsquelle keine genaue Angabe der Eingangsspannung liefert und Vorwiderstände die Spannung beeinflussen, wird diese mit einem Multimeter über das relevante Bauteil gemessen.
+		Da die Spannungsquelle keine genaue Angabe der Eingangsspannung liefert und Vorwiderstände die Spannung zusätzlich beeinflussen, wird diese mit einem Multimeter über das relevante Bauteil gemessen.
 		Der Strom wird mit einem zweiten Multimeter, gemessen welches in Reihe geschaltet ist.
 		
-		Für die Teilversuche \textbf{a)} bis \textbf{d)} wird eine Eingangsspannungen im Bereich von \SIrange{0}{20}{\V} und für die Glimmlampe in \textbf{e)} Eingangsspannungen von \SIrange{0}{150}{\V} verwendet.
+		Für die Teilversuche \textbf{a)} bis \textbf{d)} wird eine Eingangsspannungen im Bereich von \SIrange{0}{20}{\volt} und für die Glimmlampe in \textbf{e)} Eingangsspannungen von \SIrange{0}{150}{\volt} verwendet.
 		
-		\begin{figure}
+		\begin{figure}[ht]
 			\includegraphics[width=\textwidth]{Versuch1.png}
 			\caption{Schaltskizze zu Versuch 1}
 			\label{Schaltskizze1}
@@ -96,19 +97,19 @@
 			\subsubsection*{Messung}
 				
 				Die Messwerte sind in Abb. \ref{KL a} zu sehen. Die Kennlinie verläuft bei dieser Diode in Durchflussrichtung exponentiell.
-				Ein messbarer Strom wurde erst ab ca. \SI{0.5}{\V} erhalten und es ließen sich ab ungefähr \SI{0.72}{\V} keine weiteren Werte messen. Höhere Spannungen konnten durch Regulierung an der Spannungsquelle nicht erreicht werden. Im Bereich \SIrange{0,65}{07}{\V} wurde das Einstellen besonders schwierig.
+				Ein messbarer Strom wurde erst ab ca. \SI{0.5}{\volt} erhalten und es ließen sich ab ungefähr \SI{0.72}{\volt} keine weiteren Werte messen. Höhere Spannungen konnten durch Regulierung an der Spannungsquelle nicht erreicht werden. Im Bereich \SIrange{0,65}{07}{\volt} wurde das Einstellen besonders schwierig.
 				
-				\begin{figure}
+				\begin{figure}[ht]
 					\centering
-					\includegraphics[width=\textwidth]{KennlinieDiode.pdf}
+					\includegraphics[width=\textwidth]{KennlinieDiode_2.pdf}
 					\caption{U-I-Kennlinie einer Diode in Durchlassrichtung}
 					\label{KL a}
 				\end{figure}
 			
 			\subsubsection*{Einordnung der Ergebnisse}
 							
-				Die Ergebnisse deuten darauf hin, dass mindestens \SI{0.5}{\V} nötig sind, um den Übergangsbereich der Diode soweit zu verkleinern, dass überhaupt ein Strom fließen kann. 				
-				Dass sich ab ca. \SI{0.72}{\V} keine weiteren Werte messen  ließen, lag daran, dass keine höheren Eingangsspannungen möglich waren. Hierbei könnte der Innenwiderstand des Netzteils, sowie weitere Vorwiderstände eine Rolle spielen.
+				Die Ergebnisse deuten darauf hin, dass mindestens \SI{0.5}{\volt} nötig sind, um den Übergangsbereich der Diode soweit zu verkleinern, dass überhaupt ein Strom fließen kann. 				
+				Dass sich ab ca. \SI{0.72}{\volt} keine weiteren Werte messen  ließen, lag daran, dass keine höheren Eingangsspannungen möglich waren. Hierbei könnte der Innenwiderstand des Netzteils, sowie weitere Vorwiderstände eine Rolle spielen.
 
 				Die Größe des Übergangsbereichs steht in direktem Zusammenhang mit dem Widerstandswert der Diode.
 				Denn bei einer höheren Spannung ist auch der Übergangsbereich kleiner und freie Ladungsträger können leichter passieren.
@@ -131,12 +132,12 @@
 				 	\item Sperrrichtung: 
 				 	
 				 	Auch in Abb. \ref{KL b1} ist ein exponentieller Verlauf der Kennlinie zu erkennen.
-				 	Anders als in der vorausgehenden Messung, fließt hier jedoch erst ab ca. \SI{2.6}{\V} ein Strom, welcher sich dieses mal bis ungefähr \SI{5}{\V} messen ließ.
+				 	Anders als in der vorausgehenden Messung, fließt hier jedoch erst ab ca. \SI{2.6}{\volt} ein Strom, welcher sich dieses mal bis ungefähr \SI{5}{\volt} messen ließ.
 				 	Damit liegt die Durchbruchspannung deutlich über der Durchlassspannung.
 				 	
-				 	\begin{figure}
+				 	\begin{figure}[ht]
 				 		\centering
-				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeSperrrichtung.pdf}
+				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeSperrrichtung_2.pdf}
 				 		\caption{U-I-Kennlinie einer Zenerdiode in Sperrrichtung}
 				 		\label{KL b1}
 				 	\end{figure}
@@ -144,13 +145,13 @@
 				 	\item Durchlassrichtung:  
 				 	
 				 	Diese Messung verlief analog zu der in \ref{a)} durchgeführten Messung, wie in Abb. \ref{KL b2} zu sehen.
-				 	Auch hier beträgt die Durchlassspannung ca. \SI{0,55}{\V}.
+				 	Auch hier beträgt die Durchlassspannung ca. \SI{0,55}{\volt}.
 
 				 	Verglichen mit Abb. \ref{KL a}, ist diese gleichmäßiger und der zu erkennende exponentielle Anstieg wirkt minimal stärker.
 				 	
-				 	\begin{figure}
+				 	\begin{figure}[ht]
 				 		\centering
-				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeDurchlassrichtung.pdf}
+				 		\includegraphics[width=\textwidth]{KennlinieZenerdiodeDurchlassrichtung_2.pdf}
 				 		\caption{U-I-Kennlinie einer Zenerdiode in Durchlassrichtung}
 				 		\label{KL b2}
 				 	\end{figure}
@@ -160,9 +161,9 @@
 			\subsubsection*{Einordnung der Ergebnisse}
 				
 				Die Ergebnisse dieser Messung bezüglich der Durchlassrichtung stehen in direktem Zusammenhang zu dem Ergebnis aus \ref{a)}. 
-				Für die Sperrrichtung hingegen wurde ermittelt, dass die benötigte Spannung für einen Stromfluss bei ca. \SI{2.6}{\V} liegt. 
+				Für die Sperrrichtung hingegen wurde ermittelt, dass die benötigte Spannung für einen Stromfluss bei ca. \SI{2.6}{\volt} liegt. 
 				
-				Verglichen mit den \SI{0.5}{\V} in Durchflussrichtung ist dies ein beachtlicher und zu erwartender Unterschied.
+				Verglichen mit den \SI{0.5}{\volt} in Durchflussrichtung ist dies ein beachtlicher und zu erwartender Unterschied.
 				Im Gegenzug zu der Verkleinerung des Übergangsbereichs der Diode fließt in Sperrrichtung, wenn überhaupt, nur der Durchbruchstrom und für diesen benötigt man hohe Spannungen. 
 				
 				Dass auch in Sperrrichtung die Kennlinie exponentiell verläuft, hat einen ähnlichen Grund, wie in Durchflussrichtung.
@@ -176,37 +177,37 @@
 			
 			\subsubsection*{Messung}
 				
-				Die Kennlinie der Glühlampe verläuft zunächst logarithmisch, richtet sich im späteren Verlauf jedoch annähernd linear aus. Es lässt sich beobachten, dass die Glühlampe ab ca. \SI{2.6}{\V} anfängt schwach zu glühen. In Abb. \ref{KL c} ist zu sehen, dass die Kennlinie beginnt sich in diesem Bereich linear auszurichten.
-				Der Graph in Abb. \ref{R c} zeigt, dass auch ohne angelegte Spannung, also bei Zimmertemperatur, ein Widerstand vorliegt. Der weitere Verlauf ist annähernd linear, wobei sich die Steigung bei ca. \SI{2}{\V} ändert (kleiner wird).
+				Die Kennlinie der Glühlampe verläuft annähernd wurzelförmig und kann im späteren Verlauf sogar als linear bezeichnet werden. Es lässt sich beobachten, dass die Glühlampe ab ca. \SI{2.6}{\volt} anfängt schwach zu glühen. In Abb. \ref{KL c} ist zu sehen, dass die Kennlinie beginnt sich in diesem Bereich linear auszurichten.
+				Der Graph in Abb. \ref{R c} zeigt, dass auch ohne angelegte Spannung, also bei Zimmertemperatur, ein Widerstand vorliegt. Der weitere Verlauf ist annähernd linear, wobei sich die Steigung bei ca. \SI{2}{\volt} ändert (kleiner wird).
 				
-				Der letzte messbare Wert lag hier bei ca. \SI{7.2}{\V}.
+				Der letzte messbare Wert lag hier bei ca. \SI{7.2}{\volt}.
 				
-				\begin{figure}
+				\begin{figure}[ht]
 					\centering
-					\includegraphics[width=\textwidth]{KennlinieGluehlampe.pdf}
+					\includegraphics[width=\textwidth]{KennlinieGluehlampe_2.pdf}
 					\caption{U-I-Kennlinie einer Glühlampe}
 					\label{KL c}
 				\end{figure}
-				\begin{figure}
+				\begin{figure}[ht]
 					\centering
-					\includegraphics[width=\textwidth]{KennlinieGluehlampeWiderstand.pdf}
+					\includegraphics[width=\textwidth]{KennlinieGluehlampeWiderstand_2.pdf}
 					\caption{R-U-Kennlinie einer Glühlampe}
 					\label{R c}
 				\end{figure}
 			
 			\subsubsection*{Einordnung der Ergebnisse}
 						
-				Der annähernd lineare Verlauf der Kennlinie bei Spannungen ab ca. \SI{2.6}{\V} deutet darauf hin, dass der Widerstand sich bei höheren Spannungen weniger ändert.
+				Der annähernd lineare Verlauf der Kennlinie bei Spannungen ab ca. \SI{2.6}{\volt} deutet darauf hin, dass der Widerstand sich bei höheren Spannungen weniger ändert.
 				In Abb. \ref{R c} ist zu erkennen, dass dies der Fall ist, wobei der Widerstand weiterhin langsam steigt.
 				
 				Das allgemeine Steigen des Widerstands lässt sich auf die steigende Temperatur zurückführen.
 				Bei dem Glühdraht handelt es sich um ein Metall, vermutlich Wolfram.
 				Metalle haben die Eigenschaft, dass ihre elektrische Leitfähigkeit mit steigender Temperatur abnimmt.
 				
-				Zu Beginn ist der Glühdraht bei Zimmertemperatur und wie in Abb. \ref{R c} zu erkennen ist, steigt der Widerstand zunächst stark an, weswegen die Kennlinie erst logarithmisch verläuft.
+				Zu Beginn ist der Glühdraht bei Zimmertemperatur und wie in Abb. \ref{R c} zu erkennen ist, steigt der Widerstand zunächst stark an, weswegen die Kennlinie bei niedrigen Spannungen wurzelförmig verläuft.
 				Ab dem Punkt, an dem der Draht glüht, steigt der Widerstand langsamer, da die Temperaturunterschiede schwächer werden.
 				
-				Durch Linearisierung der Messwerte zwischen \SI{0}{\V} und \SI{2}{\V} ist zu erkennen, dass der y-Achsenabschnitt, also der Widerstand bei Zimmertemperatur, bei ca. \SI{25}{\Omega} liegt.
+				Durch Linearisierung der Messwerte zwischen \SI{0}{\volt} und \SI{2}{\volt} ist zu erkennen, dass der y-Achsenabschnitt, also der Widerstand bei Zimmertemperatur, bei ca. \SI{25}{\ohm} liegt.
 				
 				Dieses Verhalten stimmt mit der Änderung der elektrischen Leitfähigkeit von Metallen bei erhöhten Temperaturen überein.
 				
@@ -221,19 +222,19 @@
 			\subsubsection*{Messung}
 			
 				In Abb. \ref{KL d} ist ähnlich zu den Dioden ein exponentiellen Verlauf der Kennlinie zu erkennen, wobei dieser Widerstand von Anfang an den Strom durchlässt und nicht erst ab einer gewissen Spannung.
-				Hier konnten nur Werte bis $U = \SI{8}{\V}$ Eingangsspannung aufgenommen werden.
+				Hier konnten nur Werte bis $U = \SI{8}{\volt}$ Eingangsspannung aufgenommen werden.
 				
-				\begin{figure}
+				\begin{figure}[ht]
 					\centering
-					\includegraphics[width=\textwidth]{KennlinieNTCsubgitter.pdf}
-					\caption{Messung zu Versuch 1d)}
+					\includegraphics[width=\textwidth]{KennlinieNTCsubgitter_2.pdf}
+					\caption{U-I-Kennlinie eines NTC Widerstandes}
 					\label{KL d}
 				\end{figure}
 			
 			\subsubsection*{Einordnung der Ergebnisse}
 			
 				Hier ist klar zu erkennen, dass der Widerstand mit steigender Temperatur (durch steigende Ströme) sinkt, was für NTC-Widerstände charakteristisch ist. 
-				Dass sich auch hier keine höheren Eingangsspannungen als \SI{8}{\V} einstellen ließen, könnte ebenfalls an dem Innenwiderstand des Netzteils gelegen haben.
+				Dass sich auch hier keine höheren Eingangsspannungen als \SI{8}{\volt} einstellen ließen, könnte ebenfalls an dem Innenwiderstand des Netzteils gelegen haben.
 			
 		\subsection{e) Glimmlampe} 
 			
@@ -258,32 +259,32 @@
 			\subsubsection*{Messung}
 			
 				Zunächst wird gemessen, welche Zündspannung notwendig ist, um die Glimmlampe zu zünden.
-				Für diese Spannung wurde ein Wert von ca. \SI{119}{\V} gemessen.
-				Danach fiel die gemessene Eingangsspannung schnell auf ca. \SI{88,4}{\V} ab und es ließ sich nun ein Strom messen.
+				Für diese Spannung wurde ein Wert von ca. \SI{119}{\volt} gemessen.
+				Danach fiel die gemessene Eingangsspannung sprunghaft auf ca. \SI{88,4}{\volt} ab und es ließ sich nun ein Strom messen.
 				Hier fing die Glimmlampe auch an zu leuchten.
 				Bis zum Erreichen der Zündspannung war der Strom gleich null, weswegen nur der relevante Bereich in Abb. \ref{KL e} dargestellt ist.
 				
-				Bis zu ca. \SI{92}{\V} ließ sich die Eingangsspannung erhöhen. In diesem Bereich sieht das Strom-Spannungs-Verhältnis nahezu linear aus.
+				Bis zu ca. \SI{92}{\volt} ließ sich die Eingangsspannung erhöhen. In diesem Bereich sieht das Strom-Spannungs-Verhältnis nahezu linear aus.
+				
+				\begin{figure}[ht]
+					\centering
+					\includegraphics[width=\textwidth]{KennlinieGlimmlampe_2.pdf}
+					\caption{U-I-Kennlinie einer Glimmlampe}
+					\label{KL e}
+				\end{figure}
 				
 				Das Herunterregeln der Eingangsspannung ergab unerwartete Effekte. Wie zum Beispiel, dass es teilweise zu höheren Spannungen an der Glimmlampe geführt hat, was zu dem Verlauf der Messpunkte in Abb. \ref{KL e} führte.				
 				Der Strom hingegen wurde mit dem Herunterregeln kleiner bis schließlich eine Stromstärke von null erreicht wurde\footnote{siehe dazu Reihenfolge der Messwerte im Laborbuch, Seite 2}.
 
 				Nachdem die Glimmlampe erloschen war, musste die angelegte Spannung wieder bis zur Zündspannung erhöht werden, um sie zu entzünden.
 			
-				\begin{figure}
-					\centering
-					\includegraphics[width=\textwidth]{KennlinieGlimmlampe.pdf}
-					\caption{U-I-Kennlinie einer Glimmlampe}
-					\label{KL e}
-				\end{figure}
-			
 			\subsubsection*{Einordnung der Ergebnisse}
 			
-				Der Messung lässt sich entnehmen, dass die Zündspannung der Glimmlampe bei ca. \SI{119}{\V} liegt.
+				Der Messung lässt sich entnehmen, dass die Zündspannung der Glimmlampe bei ca. \SI{119}{\volt} liegt.
 				
-				Die Löschspannung liegt zwischen \SI{86,5}{\V} und \SI{88}{\V}. Sie konnte nicht eindeutig festgelegt werden, da zwar bei \SI{87,7}{\V} die Lampe erlischt, es jedoch auch niedrigere Spannungen gab, bei denen die Lampe noch geleuchtet hat.
+				Die Löschspannung liegt zwischen \SI{86,5}{\volt} und \SI{88}{\volt}. Sie konnte nicht eindeutig festgelegt werden, da zwar bei \SI{87,7}{\volt} die Lampe erlischt, es jedoch auch niedrigere Spannungen gab, bei denen die Lampe noch geleuchtet hat.
 				
-				Für die Zündspannung wurde uns ein Wert von ungefähr \SI{120}{\V} vorgegeben, welcher mit unserer Messung weitgehend übereinstimmt, lediglich eine Differenz von \SI{1}{\V}.
+				Für die Zündspannung wurde uns ein Wert von ungefähr \SI{120}{\volt} vorgegeben, welcher mit unserer Messung weitgehend übereinstimmt, lediglich eine Differenz von \SI{1}{\volt}.
 					
 	\newpage	
 	\section{Versuch 2: Widerstand in Abhängigkeit der Temperatur}		
@@ -292,25 +293,25 @@
 		
 		\subsection{Methoden} 
 		
-			Der Kupferdraht wird in eine Wheatstone'sche Brückenschaltung integriert (siehe Abb. \ref{Schaltskizze2}). Hierbei bezeichnet $R_\text{x}(T)$ den Kupferdraht, $R_\text{v}$ einen einfachen \SI{5}{\Omega}-Widerstand und $R_\text{e}$ den \SI{11,3}{\Omega} Widerstand, welcher sich wie ein Potentiometer einstellen lässt. Bei diesem handelt es sich um einen Schiebewiderstand. Widerstände dieser Art sind proportional zur Länge $l$ des Metalls und antiproportional zur ihrer Querschnittsfläche $A$. 
+			Der Kupferdraht wird in eine Wheatstone'sche Brückenschaltung integriert (siehe Abb. \ref{Schaltskizze2}). Hierbei bezeichnet $R_\text{x}(T)$ den Kupferdraht, $R_\text{v}$ einen einfachen \SI{5}{\ohm}-Widerstand und $R_\text{e}$ den \SI{11,3}{\ohm} Widerstand, welcher sich wie ein Potentiometer einstellen lässt. Bei diesem handelt es sich um einen Schiebewiderstand. Widerstände dieser Art sind proportional zur Länge $l$ des Metalls und antiproportional zur ihrer Querschnittsfläche $A$:
 			
 			\begin{equation*}
-				R = \varrho \frac{l}{A} \Rightarrow R_e(x) = \frac{x}{l} R_0 = \SI{11,3} x \cdot \si{\Omega\per\meter}
+				R = \varrho \frac{l}{A} \Rightarrow R_e(x) = \frac{x}{l} R_0 = \SI{11,3} x \cdot \si{\ohm\per\meter},
 			\end{equation*}				
 			$x$ sei hierbei die Position des Schiebereglers und $l$ die gesammte Länge des Drahtes.	
 			
 			Das Prinzip der Wheatstone'schen Brücke ermöglicht mit Hilfe der Kirchhoff'schen Regeln einen unbekannten Widerstand zu berechnen.
-			Wird an dem Strommessgerät, wie es in Abb. \ref{Schaltskizze2} verbaut ist, kein Strom gemessen, dann gilt nach dem Abgleichverfahren
+			Wird an dem Strommessgerät, wie es in Abb. \ref{Schaltskizze2} verbaut ist, kein Strom gemessen, dann ist die Schaltung abgeglichen mit
 			\begin{equation*}
 				\frac{R_e(x)}{R_0-R_e(x)} = \frac{R_\nu}{R_x} \Rightarrow R_x = \frac{x}{l-x} R_\nu.
 			\end{equation*}
-			Der Widerstand $R_\text{e}$ über den Schieberegler wird für jede Messung so eingestellt, dass $I = \SI{0}{\A}$ erfüllt wird. Es wird erst über den \SI{20}{k\Omega} kalibriert und dann über den geschlossenen Schalter für genauere Messungen.
+			Der Widerstand $R_\text{e}$ über den Schieberegler wird für jede Messung so eingestellt, dass $I = \SI{0}{\ampere}$ erfüllt wird. Es wird erst über den \SI{20}{\kilo\ohm}-Widerstand kalibriert und dann über den geschlossenen Schalter für genauere Messungen.
 			
 			Vor Beginn der Messung, wird der Draht auf ca. \SI{0}{\celsius} abgekühlt.
 			Nun wird er langsam auf nahezu \SI{100}{\celsius} erhitzt und währenddessen kontinuierlich die Temperatur und die Position des Schiebereglers gemessen.
 			Das Gleiche wird für die Abkühlung bis \SI{15}{\celsius} wiederholt.
 						
-			\begin{figure}
+			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.6\textwidth]{Versuch2.png}
 				\caption{Schaltskizze zu Versuch 1}
@@ -319,11 +320,11 @@
 		
 		\subsection{Messung}
 			
-			Die Gesamtlänge des Drahts liegt bei \SI{100}{cm}. In Abb. \ref{fig:drahtRT} sind die umgerechneten Widerstände gegen die Temperatur aufgetragen. Die Ausgleichsgerade hat eine Steigung von $m = \SI{0,021335}{\Omega\per\celsius}$ und schneidet die y-Achse bei $y_0 = \SI{5,005}{\Omega}$.
+			Die Gesamtlänge des Drahts liegt bei \SI{100}{cm}. In Abb. \ref{fig:drahtRT} sind die umgerechneten Widerstände gegen die Temperatur aufgetragen. Die Ausgleichsgerade hat eine Steigung von $m = \SI{0,021335}{\ohm\per\celsius}$ und schneidet die y-Achse bei $y_0 = \SI{5,005}{\ohm}$.
 			
-			\begin{figure}
+			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=\textwidth]{KennlinieDrahtRT.pdf}
+				\includegraphics[width=\textwidth]{KennlinieDrahtRT_2.pdf}
 				\caption{Widerstand des Drahtes relativ zur Temperatur}
 				\label{fig:drahtRT}
 			\end{figure}
@@ -336,10 +337,10 @@
 			
 			Der Temperaturkoeffizient $\alpha$ entspricht:
 			\begin{equation*}
-				\alpha = \frac{R(T)-R_\text{Raum}}{R_\text{Raum}\cdot (T-T_\text{Raum})} \approx \SI{0,00426}{\K^{-1}}
+				\alpha = \frac{R(T)-R_\text{Raum}}{R_\text{Raum}\cdot (T-T_\text{Raum})} \approx \SI{0,00426}{\per\kelvin}
 			\end{equation*} 
-			Verglichen mit dem Literaturwert für Kupfer von \SI{0,00393}{\K^{-1}}, weicht dieser um 8,4\% ab. Eine genauere Messung wäre demnach angebracht.
-			Der y-Achsenabschnitt $y_0$ ist der Widerstand bei $T=\SI{0}{\celsius}$, also $R_x(T=\SI{0}{\celsius}) = \SI{5,005}{\Omega}$.
+			Verglichen mit dem Literaturwert für Kupfer von \SI{0,00393}{\per\kelvin}, weicht dieser um 8,4\% ab. Eine genauere Messung wäre demnach angebracht.
+			Der y-Achsenabschnitt $y_0$ ist der Widerstand bei $T=\SI{0}{\celsius}$, also $R_x(T=\SI{0}{\celsius}) = \SI{5,005}{\ohm}$.
 		
 	\begin{thebibliography}	{}
 		Die Abbildungen \ref{Schaltskizze1} und \ref{Schaltskizze2} wurden der Versuchsanleitung entnommen

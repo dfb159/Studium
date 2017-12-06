@@ -39,15 +39,15 @@ geometry	351	122	1244	382
 </table>
 <multiLayer>
 DiodeGrafik	1	1	13.11.2017 18:55:22
-geometry	0	0	514	438	minimized	
+geometry	0	0	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	6	489	369
-PlotTitle	Kennlinie der Diode im Durchlassrichtung	#000000	4
+ggeometry	5	6	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -89,15 +89,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 ZenerdiodeGrafikSperr	1	1	13.11.2017 19:08:51
-geometry	520	3	514	438	minimized	
+geometry	520	3	514	438	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	448	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Kennlinie der Zenerdiode im Sperrrichtung<br>	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -139,15 +139,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 ZenerdiodeGrafikDurch	1	1	13.11.2017 19:25:07
-geometry	3	440	514	438	minimized	
+geometry	123	162	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	448	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Kennlinie der Zenerdiode in Durchlassrichtung	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -189,15 +189,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 GluehlampeGrafik	1	1	13.11.2017 19:31:22
-geometry	0	0	514	438	minimized	
+geometry	0	0	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Kennlinie der Glühlampe	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -239,15 +239,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 NTCGrafik	1	1	13.11.2017 19:35:06
-geometry	586	11	514	438	minimized	
+geometry	586	11	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Kennlinie des NTC-Widerstandes	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -289,15 +289,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 GlimmlampeGrafik	1	1	13.11.2017 20:24:57
-geometry	0	0	514	438	minimized	
+geometry	0	0	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	448	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	Messung der Glimmlampe	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -348,7 +348,7 @@ LayerCanvasSize	448	307
 Alignement	0	0
 <graph>
 ggeometry	5	5	490	370
-PlotTitle	Messergebnisse des Metalldrahtes	#000000	4
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -375,7 +375,7 @@ CanvasBackground	#ffffff	255
 curve	DrahtWerte_T	DrahtWerte_x	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 curve	DrahtWerte_T ab	DrahtWerte_x ab	1	0	1	0	1	7	2	1	1	0	0	14	0	2	0	0	29	1
 scale	0	48	60	0	6	5	0	0
-scale	1	49	59	0	8	5	0	0
+scale	1	48	60	0	8	5	0	0
 scale	2	-20	100	0	7	5	0	0
 scale	3	0	100	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4	
@@ -391,7 +391,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 GluehlampeGrafikRU	1	1	13.11.2017 20:59:03
-geometry	195	185	514	438	minimized	
+geometry	195	185	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -399,14 +399,14 @@ LayerCanvasSize	432	307
 Alignement	0	0
 <graph>
 ggeometry	5	5	490	370
-PlotTitle	R-U Kennlinie der Glühlampe<br>	#000000	4
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
 Border	0	#000000
 grid	0	0	1	0	#0000ff	0	0	#a0a0a4	2	0	#a0a0a4	2	1	#a0a0a4	2	1	0	0	2	0
 EnabledAxes	1	0	1	0	
-AxesTitles	U / V	Widerstand R / Ω			
+AxesTitles	U / V	Widerstand R / kΩ			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	4	4	4	4
 TitleFont	MS Shell Dlg 2	10	75	0	0	0
@@ -441,15 +441,15 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 DrahtGrafikWiderstand	1	1	15.11.2017 02:02:35
-geometry	477	31	514	438	active
+geometry	477	31	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	444	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
-PlotTitle	R-T-Kennlinie für den Metalldraht	#000000	4
+ggeometry	5	5	490	370
+PlotTitle	 	#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
 Margin	0
@@ -475,12 +475,13 @@ AxesBaseline	0	0	0	0
 CanvasBackground	#ffffff	255
 curve	DrahtWerte_T	DrahtWerte_R	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	15	1
 curve	DrahtWerte_T ab	DrahtWerte_R ab	1	0	1	0	1	7	2	1	1	0	0	14	0	2	0	0	15	1
-FunctionCurve	0,NichtlinearAnpassung1,x,0.8,96.8	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95967856	1263159624	1
+FunctionCurve	0,NichtlinearAnpassung1,x,0.8,96.8	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	132574864	3538995	1
 <formula>
 m=0.021335104731157
 b=5.00479289236068
 
 m * x + b
+
 </formula>
 scale	0	4.5	7.5	0	8	5	0	0
 scale	1	4.5	7.5	0	8	5	0	0
@@ -494,7 +495,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	2.29885057471264	7.40066225165563	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Draht beim erwärmen	\c{2}Draht beim abkühlen	\c{3}Ausgleichsgerade mit	m=0,021335 und y<sub>0</sub> = 5,005	</legend>
+<legend>	2.29885057471264	7.40066225165563	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Draht beim erwärmen	\c{2}Draht beim abkühlen	\c{3}Ausgleichsgerade mit	m=0,021335 und y<sub>0</sub> = 5,005</legend>
 </graph>
 </multiLayer>
 <log>

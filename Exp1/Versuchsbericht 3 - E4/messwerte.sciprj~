@@ -16,7 +16,7 @@ geometry	1063	31	693	382	minimized
 <table>
 8157
 <table creation_time="2017-13-11 19:30:39:000" caption_spec="%n%C{ - }%c" name="GluehlampeWerte" columns="3" rows="30"><comment><![CDATA[]]></comment><column creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="U" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[Spannung Glühlampe]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:30:39:546" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">1.7999999999999999e-02</row><row type="TypeDouble" index="2" invalid="no">6.6000000000000003e-02</row><row type="TypeDouble" index="3" invalid="no">2.7600000000000002e-01</row><row type="TypeDouble" index="4" invalid="no">5.5800000000000005e-01</row><row type="TypeDouble" index="5" invalid="no">9.8799999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">3.2700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">1.2700000000000000e+00</row><row type="TypeDouble" index="8" invalid="no">1.5269999999999999e+00</row><row type="TypeDouble" index="9" invalid="no">2.1040000000000001e+00</row><row type="TypeDouble" index="10" invalid="no">2.5230000000000001e+00</row><row type="TypeDouble" index="11" invalid="no">2.6770000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">2.8190000000000000e+00</row><row type="TypeDouble" index="13" invalid="no">2.9880000000000000e+00</row><row type="TypeDouble" index="14" invalid="no">3.1400000000000001e+00</row><row type="TypeDouble" index="15" invalid="no">3.3940000000000001e+00</row><row type="TypeDouble" index="16" invalid="no">3.6720000000000002e+00</row><row type="TypeDouble" index="17" invalid="no">3.7709999999999999e+00</row><row type="TypeDouble" index="18" invalid="no">3.9510000000000001e+00</row><row type="TypeDouble" index="19" invalid="no">4.5850000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">4.8510000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">5.5179999999999998e+00</row><row type="TypeDouble" index="22" invalid="no">6.0549999999999997e+00</row><row type="TypeDouble" index="23" invalid="no">6.5099999999999998e+00</row><row type="TypeDouble" index="24" invalid="no">7.1699999999999999e+00</row></column><column creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="I" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[Strom Glühlampe]]></comment><input_filter><simple_filter creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 19:30:39:547" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">5.0000000000000000e-01</row><row type="TypeDouble" index="2" invalid="no">2.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">7.2999999999999998e+00</row><row type="TypeDouble" index="4" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">1.4100000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">8.0999999999999996e+00</row><row type="TypeDouble" index="7" invalid="no">1.5900000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">1.7399999999999999e+01</row><row type="TypeDouble" index="9" invalid="no">2.0500000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">2.2600000000000001e+01</row><row type="TypeDouble" index="11" invalid="no">2.3399999999999999e+01</row><row type="TypeDouble" index="12" invalid="no">2.4000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">2.4800000000000001e+01</row><row type="TypeDouble" index="14" invalid="no">2.5399999999999999e+01</row><row type="TypeDouble" index="15" invalid="no">2.6600000000000001e+01</row><row type="TypeDouble" index="16" invalid="no">2.7699999999999999e+01</row><row type="TypeDouble" index="17" invalid="no">2.8199999999999999e+01</row><row type="TypeDouble" index="18" invalid="no">2.8899999999999999e+01</row><row type="TypeDouble" index="19" invalid="no">3.1600000000000001e+01</row><row type="TypeDouble" index="20" invalid="no">3.2700000000000003e+01</row><row type="TypeDouble" index="21" invalid="no">3.5200000000000003e+01</row><row type="TypeDouble" index="22" invalid="no">3.7200000000000003e+01</row><row type="TypeDouble" index="23" invalid="no">3.8899999999999999e+01</row><row type="TypeDouble" index="24" invalid="no">4.1000000000000000e+01</row></column><column creation_time="2017-13-11 20:57:59:744" caption_spec="%n%C{ - }%c" name="R" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[R = U / I\nWiderstand]]></comment><input_filter><simple_filter creation_time="2017-13-11 20:57:59:744" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2017-13-11 20:57:59:744" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">col(&quot;U&quot;) / col(&quot;I&quot;)</formula><row type="TypeDouble" index="0" invalid="no">nan</row><row type="TypeDouble" index="1" invalid="no">3.5999999999999997e-02</row><row type="TypeDouble" index="2" invalid="no">3.3000000000000002e-02</row><row type="TypeDouble" index="3" invalid="no">3.7808219178082199e-02</row><row type="TypeDouble" index="4" invalid="no">5.0727272727272732e-02</row><row type="TypeDouble" index="5" invalid="no">7.0070921985815604e-02</row><row type="TypeDouble" index="6" invalid="no">4.0370370370370376e-02</row><row type="TypeDouble" index="7" invalid="no">7.9874213836477984e-02</row><row type="TypeDouble" index="8" invalid="no">8.7758620689655176e-02</row><row type="TypeDouble" index="9" invalid="no">1.0263414634146342e-01</row><row type="TypeDouble" index="10" invalid="no">1.1163716814159291e-01</row><row type="TypeDouble" index="11" invalid="no">1.1440170940170941e-01</row><row type="TypeDouble" index="12" invalid="no">1.1745833333333333e-01</row><row type="TypeDouble" index="13" invalid="no">1.2048387096774194e-01</row><row type="TypeDouble" index="14" invalid="no">1.2362204724409449e-01</row><row type="TypeDouble" index="15" invalid="no">1.2759398496240601e-01</row><row type="TypeDouble" index="16" invalid="no">1.3256317689530686e-01</row><row type="TypeDouble" index="17" invalid="no">1.3372340425531914e-01</row><row type="TypeDouble" index="18" invalid="no">1.3671280276816611e-01</row><row type="TypeDouble" index="19" invalid="no">1.4509493670886076e-01</row><row type="TypeDouble" index="20" invalid="no">1.4834862385321099e-01</row><row type="TypeDouble" index="21" invalid="no">1.5676136363636362e-01</row><row type="TypeDouble" index="22" invalid="no">1.6276881720430106e-01</row><row type="TypeDouble" index="23" invalid="no">1.6735218508997429e-01</row><row type="TypeDouble" index="24" invalid="no">1.7487804878048779e-01</row><row type="TypeDouble" index="25" invalid="no">nan</row><row type="TypeDouble" index="26" invalid="no">nan</row><row type="TypeDouble" index="27" invalid="no">nan</row><row type="TypeDouble" index="28" invalid="no">nan</row><row type="TypeDouble" index="29" invalid="no">nan</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width></table>
-geometry	691	86	874	382	minimized	
+geometry	691	86	874	382	
 
 </table>
 <table>
@@ -340,7 +340,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 DrahtGrafikMessung	1	1	13.11.2017 20:42:56
-geometry	44	57	514	438	minimized	
+geometry	44	57	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -440,8 +440,8 @@ LabelsRotation	0	0
 </graph>
 </multiLayer>
 <multiLayer>
-Grafik1	1	1	15.11.2017 02:02:35
-geometry	658	55	514	438	minimized	active
+DrahtGrafikWiderstand	1	1	15.11.2017 02:02:35
+geometry	477	31	514	438	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -475,6 +475,13 @@ AxesBaseline	0	0	0	0
 CanvasBackground	#ffffff	255
 curve	DrahtWerte_T	DrahtWerte_R	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	15	1
 curve	DrahtWerte_T ab	DrahtWerte_R ab	1	0	1	0	1	7	2	1	1	0	0	14	0	2	0	0	15	1
+FunctionCurve	0,NichtlinearAnpassung1,x,0.8,96.8	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95967856	1263159624	1
+<formula>
+m=0.021335104731157
+b=5.00479289236068
+
+m * x + b
+</formula>
 scale	0	4.5	7.5	0	8	5	0	0
 scale	1	4.5	7.5	0	8	5	0	0
 scale	2	0	100	0	7	5	0	0
@@ -487,8 +494,22 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	2.29885057471264	7.40066225165563	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Draht beim erwärmen	\c{2}Draht beim abkühlen	</legend>
+<legend>	2.29885057471264	7.40066225165563	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}Draht beim erwärmen	\c{2}Draht beim abkühlen	\c{3}Ausgleichsgerade mit	m=0,021335 und y<sub>0</sub> = 5,005	</legend>
 </graph>
 </multiLayer>
 <log>
+[15.11.2017 02:15:23	Diagramm: ''DrahtGrafikWiderstand'']
+Nichtlinear Anpassung an den Datensatz: DrahtWerte_R, unter Benutzung der Funktion: m * x + b
+Y Standardfehler: Unbekannt
+Skalierter Levenberg-Marquardt Algorithmus mit Toleranz = 0,0001
+Von x = 0,8 bis x = 96,8
+m  = 0,021335104731157 +/- 0,000562416435469307
+b  = 5,00479289236068 +/- 0,0344551614020747
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0770420362432593
+R^2 = 0,990365042839497
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
 </log>

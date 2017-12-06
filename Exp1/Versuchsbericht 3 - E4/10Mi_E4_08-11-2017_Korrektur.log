@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  6 DEC 2017 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.23)  7 DEC 2017 00:13
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./10Mi_E4_08-11-2017_Korrektur.tex
-(10Mi_E4_08-11-2017_Korrektur.tex
-LaTeX2e <2017/01/01> patch level 1
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+(./10Mi_E4_08-11-2017_Korrektur.tex
+LaTeX2e <2017-04-15>
+Babel <3.14> and hyphenation patterns for 84 language(s) loaded.
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,20 +23,20 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -246,6 +248,8 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -266,12 +270,14 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -311,8 +317,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -335,18 +341,20 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\german\ngerman.sty" v2.5e 1998-07-08
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/german/ngerman.sty
+v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-ngerman -- \language number for naustrian undefined, default 45 used.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+ngerman -- \language number for naustrian undefined, default 33 used.
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -381,60 +389,52 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx.sty
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2017/09/18 L3 programming layer (loader) 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/09/18 L3 programming layer (code)
-\c_max_int=\count88
-\l_tmpa_int=\count89
-\l_tmpb_int=\count90
-\g_tmpa_int=\count91
-\g_tmpb_int=\count92
-\g__intarray_font_int=\count93
-\g__prg_map_int=\count94
-\c_log_iow=\count95
-\l_iow_line_count_int=\count96
-\l__iow_line_target_int=\count97
-\l__iow_one_indent_int=\count98
-\l__iow_indent_int=\count99
+\c_max_int=\count87
+\l_tmpa_int=\count88
+\l_tmpb_int=\count89
+\g_tmpa_int=\count90
+\g_tmpb_int=\count91
+\g__intarray_font_int=\count92
+\g__prg_map_int=\count93
+\c_log_iow=\count94
+\l_iow_line_count_int=\count95
+\l__iow_line_target_int=\count96
+\l__iow_one_indent_int=\count97
+\l__iow_indent_int=\count98
 \c_zero_dim=\dimen106
 \c_max_dim=\dimen107
 \l_tmpa_dim=\dimen108
@@ -453,77 +453,77 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count100
-\c__fp_leading_shift_int=\count101
-\c__fp_middle_shift_int=\count102
-\c__fp_trailing_shift_int=\count103
-\c__fp_big_leading_shift_int=\count104
-\c__fp_big_middle_shift_int=\count105
-\c__fp_big_trailing_shift_int=\count106
-\c__fp_Bigg_leading_shift_int=\count107
-\c__fp_Bigg_middle_shift_int=\count108
-\c__fp_Bigg_trailing_shift_int=\count109
-\c__fp_rand_size_int=\count110
-\c__fp_rand_four_int=\count111
-\c__fp_rand_eight_int=\count112
-\l__sort_length_int=\count113
-\l__sort_min_int=\count114
-\l__sort_top_int=\count115
-\l__sort_max_int=\count116
-\l__sort_true_max_int=\count117
-\l__sort_block_int=\count118
-\l__sort_begin_int=\count119
-\l__sort_end_int=\count120
-\l__sort_A_int=\count121
-\l__sort_B_int=\count122
-\l__sort_C_int=\count123
-\l__tl_build_start_index_int=\count124
-\l__tl_build_index_int=\count125
-\l__tl_analysis_normal_int=\count126
-\l__tl_analysis_index_int=\count127
-\l__tl_analysis_nesting_int=\count128
-\l__tl_analysis_type_int=\count129
-\l__regex_internal_a_int=\count130
-\l__regex_internal_b_int=\count131
-\l__regex_internal_c_int=\count132
-\l__regex_balance_int=\count133
-\l__regex_group_level_int=\count134
-\l__regex_mode_int=\count135
-\c__regex_cs_in_class_mode_int=\count136
-\c__regex_cs_mode_int=\count137
-\l__regex_catcodes_int=\count138
-\l__regex_default_catcodes_int=\count139
-\c__regex_catcode_D_int=\count140
-\c__regex_catcode_S_int=\count141
-\c__regex_catcode_L_int=\count142
-\c__regex_catcode_O_int=\count143
-\c__regex_catcode_A_int=\count144
-\c__regex_all_catcodes_int=\count145
-\l__regex_show_lines_int=\count146
-\l__regex_min_state_int=\count147
-\l__regex_max_state_int=\count148
-\l__regex_left_state_int=\count149
-\l__regex_right_state_int=\count150
-\l__regex_capturing_group_int=\count151
-\l__regex_min_pos_int=\count152
-\l__regex_max_pos_int=\count153
-\l__regex_curr_pos_int=\count154
-\l__regex_start_pos_int=\count155
-\l__regex_success_pos_int=\count156
-\l__regex_curr_char_int=\count157
-\l__regex_curr_catcode_int=\count158
-\l__regex_last_char_int=\count159
-\l__regex_case_changed_char_int=\count160
-\l__regex_curr_state_int=\count161
-\l__regex_step_int=\count162
-\l__regex_min_active_int=\count163
-\l__regex_max_active_int=\count164
-\l__regex_replacement_csnames_int=\count165
-\l__regex_match_count_int=\count166
-\l__regex_min_submatch_int=\count167
-\l__regex_submatch_int=\count168
-\l__regex_zeroth_submatch_int=\count169
-\g__debug_trace_regex_int=\count170
+\l_keys_choice_int=\count99
+\c__fp_leading_shift_int=\count100
+\c__fp_middle_shift_int=\count101
+\c__fp_trailing_shift_int=\count102
+\c__fp_big_leading_shift_int=\count103
+\c__fp_big_middle_shift_int=\count104
+\c__fp_big_trailing_shift_int=\count105
+\c__fp_Bigg_leading_shift_int=\count106
+\c__fp_Bigg_middle_shift_int=\count107
+\c__fp_Bigg_trailing_shift_int=\count108
+\c__fp_rand_size_int=\count109
+\c__fp_rand_four_int=\count110
+\c__fp_rand_eight_int=\count111
+\l__sort_length_int=\count112
+\l__sort_min_int=\count113
+\l__sort_top_int=\count114
+\l__sort_max_int=\count115
+\l__sort_true_max_int=\count116
+\l__sort_block_int=\count117
+\l__sort_begin_int=\count118
+\l__sort_end_int=\count119
+\l__sort_A_int=\count120
+\l__sort_B_int=\count121
+\l__sort_C_int=\count122
+\l__tl_build_start_index_int=\count123
+\l__tl_build_index_int=\count124
+\l__tl_analysis_normal_int=\count125
+\l__tl_analysis_index_int=\count126
+\l__tl_analysis_nesting_int=\count127
+\l__tl_analysis_type_int=\count128
+\l__regex_internal_a_int=\count129
+\l__regex_internal_b_int=\count130
+\l__regex_internal_c_int=\count131
+\l__regex_balance_int=\count132
+\l__regex_group_level_int=\count133
+\l__regex_mode_int=\count134
+\c__regex_cs_in_class_mode_int=\count135
+\c__regex_cs_mode_int=\count136
+\l__regex_catcodes_int=\count137
+\l__regex_default_catcodes_int=\count138
+\c__regex_catcode_D_int=\count139
+\c__regex_catcode_S_int=\count140
+\c__regex_catcode_L_int=\count141
+\c__regex_catcode_O_int=\count142
+\c__regex_catcode_A_int=\count143
+\c__regex_all_catcodes_int=\count144
+\l__regex_show_lines_int=\count145
+\l__regex_min_state_int=\count146
+\l__regex_max_state_int=\count147
+\l__regex_left_state_int=\count148
+\l__regex_right_state_int=\count149
+\l__regex_capturing_group_int=\count150
+\l__regex_min_pos_int=\count151
+\l__regex_max_pos_int=\count152
+\l__regex_curr_pos_int=\count153
+\l__regex_start_pos_int=\count154
+\l__regex_success_pos_int=\count155
+\l__regex_curr_char_int=\count156
+\l__regex_curr_catcode_int=\count157
+\l__regex_last_char_int=\count158
+\l__regex_case_changed_char_int=\count159
+\l__regex_curr_state_int=\count160
+\l__regex_step_int=\count161
+\l__regex_min_active_int=\count162
+\l__regex_max_active_int=\count163
+\l__regex_replacement_csnames_int=\count164
+\l__regex_match_count_int=\count165
+\l__regex_min_submatch_int=\count166
+\l__regex_submatch_int=\count167
+\l__regex_zeroth_submatch_int=\count168
+\g__debug_trace_regex_int=\count169
 \c_empty_box=\box26
 \l_tmpa_box=\box27
 \l_tmpb_box=\box28
@@ -565,30 +565,30 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 \l__coffin_scaled_total_height_dim=\dimen135
 \l__coffin_scaled_width_dim=\dimen136
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count171
+\l__driver_color_stack_int=\count170
 \l__driver_tmp_box=\box41
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.st
+y
 Package: xparse 2017/09/18 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count172
-\g__xparse_grabber_int=\count173
-\l__xparse_m_args_int=\count174
-\l__xparse_mandatory_args_int=\count175
-\l__xparse_v_nesting_int=\count176
+\l__xparse_current_arg_int=\count171
+\g__xparse_grabber_int=\count172
+\l__xparse_m_args_int=\count173
+\l__xparse_mandatory_args_int=\count174
+\l__xparse_v_nesting_int=\count175
 )
 Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+ (c:/Program Files/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen137
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen138
 \extrarowheight=\dimen139
@@ -596,32 +596,33 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2
+e.sty
 Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box42
 \l__siunitx_tmp_dim=\dimen140
-\l__siunitx_tmp_int=\count177
-\l__siunitx_number_mantissa_length_int=\count178
-\l__siunitx_number_uncert_length_int=\count179
-\l__siunitx_round_int=\count180
-\l__siunitx_process_decimal_int=\count181
-\l__siunitx_process_uncertainty_int=\count182
-\l__siunitx_process_fixed_int=\count183
-\l__siunitx_process_integer_min_int=\count184
-\l__siunitx_process_precision_int=\count185
-\l__siunitx_group_min_int=\count186
+\l__siunitx_tmp_int=\count176
+\l__siunitx_number_mantissa_length_int=\count177
+\l__siunitx_number_uncert_length_int=\count178
+\l__siunitx_round_int=\count179
+\l__siunitx_process_decimal_int=\count180
+\l__siunitx_process_uncertainty_int=\count181
+\l__siunitx_process_fixed_int=\count182
+\l__siunitx_process_integer_min_int=\count183
+\l__siunitx_process_precision_int=\count184
+\l__siunitx_group_min_int=\count185
 \l__siunitx_angle_marker_box=\box43
 \l__siunitx_angle_unit_box=\box44
 \l__siunitx_angle_marker_dim=\dimen141
 \l__siunitx_angle_unit_dim=\dimen142
-\l__siunitx_unit_int=\count187
-\l__siunitx_unit_denominator_int=\count188
-\l__siunitx_unit_numerator_int=\count189
-\l__siunitx_unit_prefix_int=\count190
-\l__siunitx_unit_prefix_base_int=\count191
-\l__siunitx_unit_prefix_gram_int=\count192
-\l__siunitx_number_product_int=\count193
+\l__siunitx_unit_int=\count186
+\l__siunitx_unit_denominator_int=\count187
+\l__siunitx_unit_numerator_int=\count188
+\l__siunitx_unit_prefix_int=\count189
+\l__siunitx_unit_prefix_base_int=\count190
+\l__siunitx_unit_prefix_gram_int=\count191
+\l__siunitx_number_product_int=\count192
 \c__siunitx_one_fill_skip=\skip51
 \l__siunitx_table_unit_align_skip=\skip52
 \l__siunitx_table_exponent_dim=\dimen143
@@ -756,29 +757,31 @@ Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
 .................................................
 \g__file_internal_ior=\read1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\translator.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/beamer/translator/translato
+r.sty
 Package: translator 2010/06/12 ver 1.10
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\translator-language-m
-appings.tex"))) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/beamer/translator/translato
+r-language-mappings.tex)))
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count194
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count195
-\leftroot@=\count196
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count197
-\DOTSCASE@=\count198
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -787,15 +790,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count199
-\c@MaxMatrixCols=\count266
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip17
-\c@parentequation=\count267
-\dspbrk@lvl=\count268
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks19
-\row@=\count269
-\column@=\count270
-\maxfields@=\count271
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks20
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
@@ -810,119 +813,29 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen160
-\captionmargin@=\dimen161
-\captionwidth=\dimen162
-\caption@tempdima=\dimen163
-\caption@indent=\dimen164
-\caption@parindent=\dimen165
-\caption@hangindent=\dimen166
-)
-\c@ContinuedFloat=\count272
-)
-\c@subfigure=\count273
-\c@subtable=\count274
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen167
-\WF@size=\dimen168
-\c@WF@wrappedlines=\count275
-\WF@box=\box51
-\WF@everypar=\toks23
-Package: wrapfig 2003/01/31  v 3.6
-)
-(10Mi_E4_08-11-2017_Korrektur.aux)
-\openout1 = `10Mi_E4_08-11-2017_Korrektur.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen169
-\scratchbox=\box52
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen170
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks25
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -992,203 +905,445 @@ File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
-c-dictionary\translator-basic-dictionary-English.dict"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/l3packages/xtemplate/xtempl
+ate.sty
+Package: xtemplate 2017/09/18 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen160
+\l__xtemplate_tmp_int=\count271
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip58
+)
+Package: xfrac 2017/09/18 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box51
+\l__xfrac_tmp_box=\box52
+\l__xfrac_denominator_bot_sep_dim=\dimen161
+\l__xfrac_numerator_bot_sep_dim=\dimen162
+\l__xfrac_numerator_top_sep_dim=\dimen163
+\l__xfrac_slash_left_sep_dim=\dimen164
+\l__xfrac_slash_right_sep_dim=\dimen165
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 80.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sfrac with sig. 'omom' on line 419.
+.................................................
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen166
+\captionmargin@=\dimen167
+\captionwidth=\dimen168
+\caption@tempdima=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
+)
+\c@ContinuedFloat=\count272
+)
+\c@subfigure=\count273
+\c@subtable=\count274
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen173
+\WF@size=\dimen174
+\c@WF@wrappedlines=\count275
+\WF@box=\box53
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(./10Mi_E4_08-11-2017_Korrektur.aux)
+\openout1 = `10Mi_E4_08-11-2017_Korrektur.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 24.
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen175
+\scratchbox=\box54
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen176
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks25
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.s
+ty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/tra
+nslator-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\dicts\translator-basi
-c-dictionary\translator-basic-dictionary-German.dict"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/tra
+nslator-basic-dictionary/translator-basic-dictionary-German.dict
 Dictionary: translator-basic-dictionary, Language: German 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviatio
+ns.cfg
 File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c__siunitx_mathsf_int=\count282
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 23.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 24.
+ (c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 23.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 24.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 24.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 23.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 24.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 23.
+(Font)              <10.95> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 23.
+(Font)              <6> on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 24.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count283
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 24.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (10Mi_E4_08-11-2017_Korre
-ktur.toc)
+{c:/Program Files/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./10Mi_E4_08-11-2017_Korrektur.toc)
 \tf@toc=\write3
 \openout3 = `10Mi_E4_08-11-2017_Korrektur.toc'.
 
  [1]
-Overfull \hbox (22.94498pt too wide) in paragraph at lines 59--60
+Overfull \hbox (22.94498pt too wide) in paragraph at lines 58--59
 \T1/lmr/m/n/10.95 Bau-tei-len be-trach-tet. Ei-ne ein-fa-che Di-ode, ei-ne Zene
 r-di-ode, ein NTC-Widerstand,
  []
 
-<Versuch1.png, id=14, 436.63126pt x 249.18094pt>
+[2]
+<Versuch1.png, id=22, 436.63126pt x 249.18094pt>
 File: Versuch1.png Graphic file (type png)
- <use Versuch1.png>
-Package pdftex.def Info: Versuch1.png used on input line 77.
-(pdftex.def)             Requested size: 360.0pt x 205.44753pt.
- [2]
-<KennlinieDiode.pdf, id=23, 501.875pt x 381.425pt>
-File: KennlinieDiode.pdf Graphic file (type pdf)
- <use KennlinieDiode.pdf>
-Package pdftex.def Info: KennlinieDiode.pdf used on input line 103.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+<use Versuch1.png>
+Package pdftex.def Info: Versuch1.png  used on input line 78. on input line 78.
 
-[3 <./Versuch1.png>] [4 <./KennlinieDiode.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 131.
+Package pdftex.def Info: Requested size: 360.0pt x 205.44753pt on input line 78
+.
+ [3 <./Versuch1.png>]
+<KennlinieDiode_2.pdf, id=28, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieDiode_2.pdf Graphic file (type pdf)
+<use KennlinieDiode_2.pdf>
+Package pdftex.def Info: KennlinieDiode_2.pdf  used on input line 104. on input
+ line 104.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 10
+4.
+ [4 <./KennlinieDiode_2.pdf>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 132.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(c:/Program Files/texlive/2017/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 131.
-
-<KennlinieZenerdiodeSperrrichtung.pdf, id=46, 501.875pt x 381.425pt>
-File: KennlinieZenerdiodeSperrrichtung.pdf Graphic file (type pdf)
-
-<use KennlinieZenerdiodeSperrrichtung.pdf>
-Package pdftex.def Info: KennlinieZenerdiodeSperrrichtung.pdf used on input lin
-e 139.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
-
-<KennlinieZenerdiodeDurchlassrichtung.pdf, id=47, 501.875pt x 381.425pt>
-File: KennlinieZenerdiodeDurchlassrichtung.pdf Graphic file (type pdf)
-
-<use KennlinieZenerdiodeDurchlassrichtung.pdf>
-Package pdftex.def Info: KennlinieZenerdiodeDurchlassrichtung.pdf used on input
- line 153.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [5 <./KennlinieZenerdiodeSperrrichtung.pdf>] [6 <./KennlinieZenerdiodeDurchlas
-srichtung.pdf>]
-<KennlinieGluehlampe.pdf, id=86, 501.875pt x 381.425pt>
-File: KennlinieGluehlampe.pdf Graphic file (type pdf)
-
-<use KennlinieGluehlampe.pdf>
-Package pdftex.def Info: KennlinieGluehlampe.pdf used on input line 186.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
-
-<KennlinieGluehlampeWiderstand.pdf, id=87, 501.875pt x 381.425pt>
-File: KennlinieGluehlampeWiderstand.pdf Graphic file (type pdf)
-
-<use KennlinieGluehlampeWiderstand.pdf>
-Package pdftex.def Info: KennlinieGluehlampeWiderstand.pdf used on input line 1
-92.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [7 <./KennlinieGluehlampe.pdf>]
-[8 <./KennlinieGluehlampeWiderstand.pdf>]
-<KennlinieNTCsubgitter.pdf, id=124, 501.875pt x 381.425pt>
-File: KennlinieNTCsubgitter.pdf Graphic file (type pdf)
-
-<use KennlinieNTCsubgitter.pdf>
-Package pdftex.def Info: KennlinieNTCsubgitter.pdf used on input line 228.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [9 <./KennlinieNTCsubgitter.pdf>]
-Overfull \hbox (4.19037pt too wide) in paragraph at lines 260--265
+<KennlinieZenerdiodeSperrrichtung_2.pdf, id=47, pagebox=cropbox, 501.875pt x 38
+1.425pt>
+File: KennlinieZenerdiodeSperrrichtung_2.pdf Graphic file (type pdf)
+<use KennlinieZenerdiodeSperrrichtung_2.pdf>
+Package pdftex.def Info: KennlinieZenerdiodeSperrrichtung_2.pdf  used on input 
+line 140. on input line 140.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 14
+0.
+<KennlinieZenerdiodeDurchlassrichtung_2.pdf, id=48, pagebox=cropbox, 501.875pt 
+x 381.425pt>
+File: KennlinieZenerdiodeDurchlassrichtung_2.pdf Graphic file (type pdf)
+<use KennlinieZenerdiodeDurchlassrichtung_2.pdf>
+Package pdftex.def Info: KennlinieZenerdiodeDurchlassrichtung_2.pdf  used on in
+put line 154. on input line 154.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 15
+4.
+ [5] [6 <./KennlinieZenerdiodeSperrrichtung_2.pdf>]
+<KennlinieGluehlampe_2.pdf, id=72, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieGluehlampe_2.pdf Graphic file (type pdf)
+<use KennlinieGluehlampe_2.pdf>
+Package pdftex.def Info: KennlinieGluehlampe_2.pdf  used on input line 187. on 
+input line 187.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 18
+7.
+<KennlinieGluehlampeWiderstand_2.pdf, id=73, pagebox=cropbox, 501.875pt x 381.4
+25pt>
+File: KennlinieGluehlampeWiderstand_2.pdf Graphic file (type pdf)
+<use KennlinieGluehlampeWiderstand_2.pdf>
+Package pdftex.def Info: KennlinieGluehlampeWiderstand_2.pdf  used on input lin
+e 193. on input line 193.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 19
+3.
+ [7 <./KennlinieZenerdiodeDurchlassrichtung_2.pdf>] [8 <./KennlinieGluehlampe_2
+.pdf>]
+<KennlinieNTCsubgitter_2.pdf, id=110, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieNTCsubgitter_2.pdf Graphic file (type pdf)
+<use KennlinieNTCsubgitter_2.pdf>
+Package pdftex.def Info: KennlinieNTCsubgitter_2.pdf  used on input line 229. o
+n input line 229.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 22
+9.
+ [9 <./KennlinieGluehlampeWiderstand_2.pdf>] [10 <./KennlinieNTCsubgitter_2.pdf
+>]
+Overfull \hbox (4.19037pt too wide) in paragraph at lines 261--266
 \T1/lmr/m/n/10.95 Zunächst wird ge-mes-sen, wel-che Zünd-span-nung not-wen-dig 
 ist, um die Glimm-
  []
 
+<KennlinieGlimmlampe_2.pdf, id=147, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieGlimmlampe_2.pdf Graphic file (type pdf)
+<use KennlinieGlimmlampe_2.pdf>
+Package pdftex.def Info: KennlinieGlimmlampe_2.pdf  used on input line 271. on 
+input line 271.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 27
+1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 269.
-[10] <KennlinieGlimmlampe.pdf, id=146, 501.875pt x 381.425pt>
-File: KennlinieGlimmlampe.pdf Graphic file (type pdf)
-
-<use KennlinieGlimmlampe.pdf>
-Package pdftex.def Info: KennlinieGlimmlampe.pdf used on input line 275.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [11 <./KennlinieGlimmlampe.pdf>]
-Overfull \hbox (4.15504pt too wide) in paragraph at lines 289--289
+(Font)              <9> on input line 277.
+[11 <./KennlinieGlimmlampe_2.pdf>] [12]
+Overfull \hbox (4.15504pt too wide) in paragraph at lines 290--290
 []\T1/lmr/bx/n/14.4 Versuch 2: Wi-der-stand in Ab-hän-gig-keit der Tem-
  []
 
+LaTeX Font Info:    Calculating math sizes for size <7.66495> on input line 299
+.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.66495> on input line 299.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.36543> on input line 299.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <3.83247> on input line 299.
 
-Overfull \hbox (0.31256pt too wide) in paragraph at lines 302--304
+Overfull \hbox (0.31256pt too wide) in paragraph at lines 303--305
 []\T1/lmr/m/n/10.95 Das Prin-zip der Wheat-sto-ne'schen Brücke er-mög-licht mit
  Hil-fe der Kirch-
  []
 
-<Versuch2.png, id=168, 234.1247pt x 277.035pt>
+<Versuch2.png, id=174, 234.1247pt x 277.035pt>
 File: Versuch2.png Graphic file (type png)
- <use Versuch2.png>
-Package pdftex.def Info: Versuch2.png used on input line 315.
-(pdftex.def)             Requested size: 216.0022pt x 255.6066pt.
+<use Versuch2.png>
+Package pdftex.def Info: Versuch2.png  used on input line 316. on input line 31
+6.
+Package pdftex.def Info: Requested size: 216.0022pt x 255.6066pt on input line 
+316.
+<KennlinieDrahtRT_2.pdf, id=175, pagebox=cropbox, 501.875pt x 381.425pt>
+File: KennlinieDrahtRT_2.pdf Graphic file (type pdf)
+<use KennlinieDrahtRT_2.pdf>
+Package pdftex.def Info: KennlinieDrahtRT_2.pdf  used on input line 327. on inp
+ut line 327.
+Package pdftex.def Info: Requested size: 360.0pt x 273.61308pt on input line 32
+7.
+[13]
 
-<KennlinieDrahtRT.pdf, id=169, 501.875pt x 381.425pt>
-File: KennlinieDrahtRT.pdf Graphic file (type pdf)
+LaTeX Warning: Empty `thebibliography' environment on input line 347.
 
-<use KennlinieDrahtRT.pdf>
-Package pdftex.def Info: KennlinieDrahtRT.pdf used on input line 326.
-(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [12] [13 <./Versuch2.png> <./KennlinieDrahtRT.pdf>]
-
-LaTeX Warning: Empty `thebibliography' environment on input line 346.
-
-[14] (10Mi_E4_08-11-2017_Korrektur.aux) ) 
+[14 <./Versuch2.png>] [15 <./KennlinieDrahtRT_2.pdf>]
+(./10Mi_E4_08-11-2017_Korrektur.aux) ) 
 Here is how much of TeX's memory you used:
- 14857 strings out of 493333
- 298502 string characters out of 3139197
- 316681 words of memory out of 3000000
- 18228 multiletter control sequences out of 15000+200000
- 608849 words of font info for 65 fonts, out of 3000000 for 9000
+ 15857 strings out of 492990
+ 322928 string characters out of 6129797
+ 336247 words of memory out of 5000000
+ 19237 multiletter control sequences out of 15000+600000
+ 958594 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,40p,10420b,820s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
-nc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_E4_08-11-2017_Korrektur.pdf (15 pages, 419848 bytes).
+ 44i,24n,48p,10420b,822s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Program Files/texlive/2017/texmf-dist
+/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/Program Files/texlive/2017/texmf-dist/fon
+ts/enc/dvips/lm/lm-ec.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/d
+vips/lm/lm-ts1.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm
+/lm-mathit.enc}{c:/Program Files/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-
+rm.enc}<c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.p
+fb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><
+c:/Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/
+Program Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/Prog
+ram Files/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/Program F
+iles/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Program Files/
+texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Program Files/texli
+ve/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Program Files/texlive/20
+17/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Program Files/texlive/2017/tex
+mf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Program Files/texlive/2017/texmf-dis
+t/fonts/type1/public/lm/lmr9.pfb><c:/Program Files/texlive/2017/texmf-dist/font
+s/type1/public/lm/lmsy10.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/ty
+pe1/public/lm/lmsy5.pfb><c:/Program Files/texlive/2017/texmf-dist/fonts/type1/p
+ublic/lm/lmsy8.pfb>
+Output written on 10Mi_E4_08-11-2017_Korrektur.pdf (16 pages, 381989 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
