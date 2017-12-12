@@ -7,13 +7,13 @@
 \usepackage{graphicx}			
 \usepackage{url}				
 \usepackage{siunitx}
-\usepackage{amsmath}			
+\usepackage[intlimits]{amsmath}
+\usepackage{xfrac}
+\usepackage{commath}
+\usepackage{physics}			
 \usepackage{subcaption}
 \usepackage{wrapfig}
-
-\newcommand{\refeq}[1]{Gl. (\ref{eq:#1})}
-\newcommand{\refabb}[1]{Abb. \ref{abb:#1}}
-\newcommand{\reftab}[1]{Tab. \ref{tab:#1}}
+\usepackage{biblatex}
 
 % Setup SI unit environment
 \sisetup{separate-uncertainty = true}
@@ -25,7 +25,6 @@
 }
 
 \begin{document}
-
 	\begin{titlepage}
 		\centering
 		{\scshape\LARGE Versuchsbericht zu \par}
@@ -39,31 +38,27 @@
 		\vfill
 		durchgeführt am 06.12.2017\par
 		betreut von\par
-		{\large Christian \textsc{Thiede}}		
+		{\large Christian \textsc{Thiede}}
 		\vfill	
 		{\large \today\par}
 	\end{titlepage}
-		
+	
 	\tableofcontents
-		
+	
 	\newpage
 	
 	\section{Kurzfassung}
 	
-		Dieser Bericht befasst sich mit %TODO
+	Bericht geht über Rückstellkräfte durch elastische Biegung und Torsion.
 	
-	\section{Stäbe} % name to be changed
-	%TODO
-		\subsection{Methoden}
-		\subsection{Messung}
-		\subsection{Diskussion}
-		\subsection{Schlussfolgerung}
-			
-	\section{Pendel} % name to be changed
-	%TODO
-		\subsection{Methoden}
-		\subsection{Messung}
-		\subsection{Diskussion}
-		\subsection{Schlussfolgerung}
+	Ziel/Motivation: Welches Material?
+	% TODO am Ende richtige Kurzfassung
+	\vspace{2cm}	
+	
+	\input{staebe.tex} % TODO AL in extra file
+	\newpage
+	\input{torsion.tex} %TODO Joey in extra file
+	
+	\section*{Literatur}
 	
 \end{document} 
