@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Kurzfassung}{2}
+\contentsline {section}{\numberline {2}St\IeC {\"a}be}{2}
+\contentsline {subsection}{\numberline {2.1}Methoden}{2}
+\contentsline {subsection}{\numberline {2.2}Messung}{2}
+\contentsline {subsection}{\numberline {2.3}Diskussion}{2}
+\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{2}
+\contentsline {section}{\numberline {3}Pendel}{2}
+\contentsline {subsection}{\numberline {3.1}Methoden}{2}
+\contentsline {subsection}{\numberline {3.2}Messung}{2}
+\contentsline {subsection}{\numberline {3.3}Diskussion}{2}
+\contentsline {subsection}{\numberline {3.4}Schlussfolgerung}{2}
