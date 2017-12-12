@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{wrapfig}
 \usepackage{biblatex}
+\usepackage{hyperref}
 
 % Setup SI unit environment
 \sisetup{separate-uncertainty = true}
@@ -23,7 +24,7 @@
 	fraction-function=\sfrac
 	% or \frac, \tfrac
 }
-
+\bibliography{Literatur}
 \begin{document}
 	\begin{titlepage}
 		\centering
@@ -60,5 +61,5 @@
 	\input{torsion.tex} %TODO Joey in extra file
 	
 	\section*{Literatur}
-	
+	\printbibliography
 \end{document} 
