@@ -50,16 +50,85 @@
 	
 	\section{Kurzfassung}
 	
-	Bericht geht über Rückstellkräfte durch elastische Biegung und Torsion.
+	In diesem Versuchsbericht geht es um die elastischen Rückstellkräfte bei Deformationen von starren Körpern.
+	Es wird sich dabei ausschließlich auf die elastische Biegung und die Torsion beschränkt.
 	
-	Ziel/Motivation: Welches Material?
-	% TODO am Ende richtige Kurzfassung
+	In beiden Versuchen wird es darum gehen, die Materialkonstanten verschiedener Stäbe und Drähte zu bestimmen und so das Material eindeutig zu identifizieren.
+	Dazu werden gezielte Deformierungen in Form von Biegung einiger Metallstäbe und Torsion eines Drahtes in einem Torsionspendel genutzt.
+	
+	Es stellt sich heraus, dass in vielen Fällen keine eindeutige Zuordnung möglich ist.
+	Meistens liegt das an einer hohen Unsicherheit z. B. durch uneinheitliche Messmethoden.
+	Jedoch kann allgemein das Material eingeschätzt und mit, wenn auch teilweise mehrdeutigen Argumenten gestützt werden.
 	\vspace{2cm}	
 	
-	\input{staebe.tex} % TODO AL in extra file
+	\input{staebe.tex}
 	\newpage
-	\input{torsion.tex} %TODO Joey in extra file
+	\input{torsion.tex}
 	
-	\section*{Literatur}
-	\printbibliography
+	%\section*{Literatur}
+	%\printbibliography
+	
+	\newpage
+	
+	\section{Anhang}
+	
+	\begin{table}[h]
+		\centering
+		\caption{Schwingungsdauer einer Periode. Bei der Hantel sind die Positionen der Gewichte von innen nach außen zu betrachten.}
+		\label{tab:schwingungsperioden}
+		\begin{tabular}{l|S}
+			\hline
+			{Scheibe} & \SI{32,996667 +-0,002268}{\second}\\
+			{Hantel ohne Gewichte} & \SI{13,25+-0,006804}{\second}\\
+			{Hantel 1. Position} & \SI{15,053333+-0,006804}{\second}\\
+			{Hantel 2. Position} & \SI{19,19+-0,006804}{\second}\\
+			{Hantel 3. Position} & \SI{24,573333+-0,006804}{\second}\\
+			{Hantel 4. Position} & \SI{30,686667+-0,006804}{\second}\\
+			{Hantel 5. Position} & \SI{37,136667+-0,006804}{\second}\\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{align}
+		G =& \frac{4\pi L m_z R_z^2}{R^4 T^2}\\
+		\begin{split}
+		\label{eq:G-unc}
+		u(G) =& \sqrt{\left( \pdv{G}{T} u(T) \right) ^2 + \left( \pdv{G}{L} u(L) \right) ^2 + \left( \pdv{G}{R_z} u(R_z) \right) ^2 + \left( \pdv{G}{R} u(R) \right) ^2}\\
+		=& \frac{4\pi L m_z R_z^2}{R^4 T^2} \sqrt{\left(-\frac{2u(T)}{T} \right) ^2 + \left( \frac{u(L)}{L} \right) ^2 + \left( \frac{2u(R_z)}{R_z} \right) ^2 + \left( -\frac{4u(R)}{R} \right) ^2}\\
+		\approx & \SI{13,015385}{\giga\pascal}
+		\end{split}
+		\end{align}
+		\caption{Unsicherheitsrechnung für den Schubmodul des Drahtes mit der Torsionsschwingung der Scheibe.}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{align}
+		J_1 =& \frac{T^2 D^*}{4\pi^2}\\
+		\begin{split}
+		\label{eq:hantel-J1-unc}
+		u(J_1) =& \sqrt{\left( \pdv{J_1}{T} u(T) \right) ^2 + \left( \pdv{J_1}{D^*} u(D^*) \right) ^2}\\
+		=& \frac{T^2 D^*}{4\pi^2} \sqrt{\left( \frac{2 u(T)}{T} \right) ^2 + \left( \frac{u(D^*)}{D^*} \right)^2}\\
+		\approx & \SI{0,015290}{\kilogram\meter\squared}
+		\end{split}
+		\end{align}
+		\caption{Unsicherheitsrechnung für das Trägeitsmoment der Hantelachse ohne Gewichte.}
+	\end{figure}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{align}
+		J_2 =& \frac{\frac{y_0 D^*}{4 \pi^2} - J_1}{2}\\
+		\begin{split}
+		\label{eq:hantel-J2-unc}
+		u(J_2) =& \sqrt{\left( \pdv{J_2}{J_1} u(J_1) \right) ^2 + \left( \pdv{J_2}{D^*} u(D^*) \right) ^2 + \left( \pdv{J_2}{y_0} u(y_0) \right) ^2}\\
+		=& \frac{1}{2} \sqrt{\left( -u(J_1) \right) ^2 + \left( \frac{y_0}{4\pi^2} u(D^*) \right) ^2 + \left( \frac{D^*}{4\pi^2} u(y_0) \right) ^2}\\
+		\approx & \SI{0,010933}{\kilogram\meter\squared}
+		\end{split}
+		\end{align}
+		\caption{Unsicherheitsrechnung für das Trägeitsmoment der Hantelgewichte.}
+	\end{figure}
+
 \end{document} 
