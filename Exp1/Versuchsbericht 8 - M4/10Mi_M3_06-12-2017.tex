@@ -1,0 +1,74 @@
+\documentclass[11pt,a4paper,titlepage, ngerman]{article}
+
+\usepackage[utf8]{inputenc}	
+\usepackage[T1]{fontenc}	
+\usepackage{ngerman}			
+\usepackage{lmodern}			
+\usepackage{graphicx}			
+\usepackage{url}				
+\usepackage{siunitx}
+\usepackage[intlimits]{amsmath}
+\usepackage{xfrac}
+\usepackage{commath}
+\usepackage{physics}			
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{biblatex}
+\usepackage{hyperref}
+
+% Setup SI unit environment
+\sisetup{separate-uncertainty = true}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{
+	per-mode=fraction,
+	fraction-function=\sfrac
+	% or \frac, \tfrac
+}
+\bibliography{Literatur}
+\begin{document}
+	\begin{titlepage}
+		\centering
+		{\scshape\LARGE Versuchsbericht zu \par}
+		\vspace{1cm}
+		{\scshape\huge M4 -- Stoßprozesse\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de) \par}
+		\vfill
+		durchgeführt am 13.12.2017\par
+		betreut von\par
+		{\large Semir \textsc{Vrana}} %TODO true?
+		\vfill	
+		{\large \today\par}
+	\end{titlepage}
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Kurzfassung}
+	
+	%TODO at the end kurzfassung{ziel, ergebnisse, wie gemacht}
+
+	\vspace{2cm}	
+	
+	\input{kugeln.tex} %TODO Alex
+	\newpage
+	\input{rutsche.tex} %TODO Joey
+	
+	%\section*{Literatur}
+	%\printbibliography
+	
+	\newpage
+	
+	\section{Anhang}
+	
+	%TODO einfach einfuegen
+	
+	\section*{Literatur}
+	
+	%TODO einfach einfuege
+	
+\end{document} 
