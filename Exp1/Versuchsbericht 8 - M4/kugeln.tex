@@ -7,14 +7,14 @@
 		
 		\subsubsection{Aufbau}
 			
-		Zum Messen verwenden wir den im Folgenden dargestellten Aufbau. Hierbei handelt es sich um zwei Pendel an denen Kugeln mit unterschiedlicher Masse angehängt sind. Die Schwerpunkte dieser Kugeln liegen auf einer Geraden, sodass ein ballistischer zentraler Stoß durch das Auslenken eines Pendels möglich ist. Abbildung \ref{abb:VersuchsskizzeStoss} stellt dies dar. Dabei ist der Punkt in Ruhelage, wo die beiden Kugeln sich berühren durch $a_0$ gekennzeichnet. Des weiteren sind die Positionen der von $a_0$ gegenüber liegenden Punkte $a_1$ und $a_2$, welche um den Durchmesser der kleineren bzw. größeren Kugel, mit den Massen $m_1$ bzw. $m_2$, von $a_0$ verschieden sind, gekennzeichnet.
+		Zum Messen verwenden wir den im Folgenden dargestellten Aufbau. Hierbei handelt es sich um zwei Pendel an denen Kugeln mit unterschiedlicher Masse angehängt sind. Die Schwerpunkte dieser Kugeln liegen auf einer Geraden, sodass ein ballistischer zentraler Stoß durch das Auslenken eines Pendels möglich ist. Für die Pendel wurden die Massen an Fäden gehängt, deren Enden jeweils auf gleicher Höhe befestigt wurden, so dass die Auslenkungen in einer Ebene stattfinden. Abbildung \ref{abb:VersuchsskizzeStoss} stellt dies dar. Dabei ist der Punkt in Ruhelage, wo die beiden Kugeln sich berühren durch $a_0$ gekennzeichnet. Des weiteren sind die Positionen der von $a_0$ gegenüber liegenden Punkte $a_1$ und $a_2$, welche um den Durchmesser der kleineren bzw. größeren Kugel, mit den Massen $m_1$ bzw. $m_2$, von $a_0$ verschieden sind, gekennzeichnet.
 		\begin{figure}[ht]
 			\centering
 			\includegraphics[width=\textwidth]{Kugelstoss.png}
 			\caption{Skizzierung des Versuchsaufbaus}
 			\label{abb:VersuchsskizzeStoss}	
 		\end{figure}
-		Dies wurde so gewählt, damit das Messen leichter fällt. Hierzu werden Schiebeblöcke verwendet (vgl. Abb. \ref{abb:VersuchsaufbauStoss}), welche sich auf einem Maß frei bewegen lassen. Damit sind $a_1'$ und $a_2'$ nach dem initialen Stoß leicht zu bestimmen. Die gestrichenen Variablen sollen hierbei die Auslenkung nach dem Stoß beschreiben. Zur Betrachtung im Schwerpunktsystem werden dann die Radien der Kugeln auf die Auslenkungen addiert bzw. subtrahiert (abhängig von der Seite). 
+		Dies wurde so gewählt, damit das Messen leichter fällt. Hierzu werden Schiebeblöcke verwendet (vgl. Abb. \ref{abb:VersuchsaufbauStoss}), welche sich auf einem Maß frei bewegen lassen. Damit sind $a_1'$ und $a_2'$ nach dem initialen Stoß leicht zu bestimmen. Die gestrichenen Variablen sollen hierbei die Auslenkung nach dem Stoß beschreiben. Zur Betrachtung im Schwerpunktsystem werden dann die Radien der Kugeln auf die Auslenkungen addiert bzw. subtrahiert (abhängig von der Seite). % TODO ?
 		
 		Es werden bei dem Versuch die Auslenkungen $a_1'$ und $a_2'$ für fünf verschiedene Startauslenkungen von $a_1$ und $a_2$ jeweils fünf mal gemessen, wobei die fünf Messwerte für dieselben Auslenkungen gemittelt werden.
 		Zudem werden die Pendellänge und Masse der Kugeln bei beiden Pendeln gemessen. Ersteres mit Hilfe eines Maßbands und letzteres über eine Waage.	
@@ -29,18 +29,72 @@
 			Für die von dem Maß(band) abgelesenen Werte werden Unsicherheiten über eine Dreiecksverteilung und für die von der Waage gemessenen Werte eine Rechteckverteilung verwendet. 
 	
 	\subsection{Messung}
+	
+		\subsubsection{Aufnahme der Messwerte}
 		
-		\begin{table}[ht]
-			\caption{Messwerte}
-			\centering
-			\label{tab:Messwerte}
-			\begin{tabular}{c|c}
-				{$a_1$} & {}	\\
-				\hline
-				{}		& {}	\\
-				
-			\end{tabular}
-		\end{table}
+			Für die Pendellängen wurden die Abstände zwischen den Schwerpunkten und den Befestigungshöhen gemessen. 
+			Um die Radien der kugelförmigen Massen zu bestimmen, wurde der Umfang dieser gemessen. Die Werte der Pendellängen, der Radien, der gewogenen Massen und Startpunkte sind in Tabelle \ref{tab:Messwerte} dargestellt. Die Unsicherheit für die Radien steht in direktem Zusammenhang mit der Unsicherheit bei den Umfängen, also der des Maßbandes.
+			\begin{table}[ht]
+				\caption{Messwerte der Pendellänge, Masse und der Radien}
+				\centering
+				\label{tab:Messwerte}
+				\begin{tabular}{c|l|l}
+					{} & {Pendel 1} & {Pendel 2}	\\
+					\hline
+					{Pendellänge} & {$L_1 = \SI{185+-0,02}{\cm}$} & {$L_2 = \SI{189+-0,02}{\cm}$}	\\
+					\hline
+					{Kugelmasse} & {$m_1 = \SI{191,47+-0,003}{\g}$} & {$m_2 = \SI{510,21+-0,003}{\g}$}	\\	
+					\hline
+					{Kugelradien} & {$r_1 = \SI{1,83+-0,003}{\cm}$} & {$r_2 = \SI{2,55+-0,003}{\cm}$}	\\			
+				\end{tabular}
+			\end{table}
+			
+			Wie in Abb. \ref{abb:VersuchsskizzeStoss} eingezeichnet, beschreiben $a_0$, $a_1$ und $a_2$  die Positionen zu Beginn der Messung. Im Laborbuch sind jedoch nur die Positionen über dem Maß nach der Auslenkung notiert, jedoch nicht die Auslenkungen selber. Zur Bestimmung dieser für beide Massen wird die Differenz zwischen den Startwerten und den gemittelten Messwerten gebildet. Die dadurch ermittelten Werte sind in Tabelle \ref{tab:Messwerte2} zu finden. Dabei ergeben sich die Unsicherheiten durch die der Startwerte, beim differenzieren, sowie der bei dem Mitteln entstandenen kombinierten Unsicherheit, welche sich aus fünf mal der Unsicherheit des Maßes, sowie einer zusätzlichen Unsicherheit für das nach Augenmaß durchgeführte Schieben der Blöcke von \SI{0,05}{\cm} ergibt. Für die Auslenkungen in der Tabelle bezeichnen $a_{1/2}^{*}$ die Startauslenkungen und $a_{1/2}'$ die Auslenkungen nach dem Stoß. 	
+			\begin{table}[ht]
+				\caption{Auslenkungen nach Stoß}
+				\centering
+				\label{tab:Messwerte2}
+	
+				\begin{tabular}{c|c|c}
+					{$a_{1}^{*}$} & {$\bar{a_{1}}'$} & {$\bar{a_{2}}'$}	\\
+					\hline
+					{\SI{17,14+-0,03}{\cm}} & {\SI{6,66+-0,06}{\cm}} & {\SI{8,82+-0,06}{\cm}}\\
+					{\SI{13,14+-0,03}{\cm}} & {\SI{5,6+-0,06}{\cm}} & {\SI{6,40+-0,06}{\cm}}\\
+					{\SI{11,14+-0,03}{\cm}} & {\SI{4,76+-0,06}{\cm}} & {\SI{5,62+-0,06}{\cm}}\\
+					{\SI{9,14+-0,03}{\cm}} & {\SI{3,78+-0,06}{\cm}} & {\SI{4,40+-0,06}{\cm}}\\
+					{\SI{5,14+-0,03}{\cm}} & {\SI{2,3+-0,06}{\cm}} & {\SI{2,32+-0,06}{\cm}}\\		
+					\hline 
+					& & \\
+					{$a_{2}^{*}$} & {$\bar{a_{1}}'$} & {$\bar{a_{2}}'$}	\\
+					\hline
+					{\SI{10,1+-0,03}{\cm}} & {\SI{14,62+-0,06}{\cm}} & {\SI{4,98+-0,06}{\cm}}\\
+					{\SI{8,1+-0,03}{\cm}} & {\SI{11,74+-0,06}{\cm}} & {\SI{4,14+-0,06}{\cm}}\\
+					{\SI{6,1+-0,03}{\cm}} & {\SI{9,04+-0,06}{\cm}} & {\SI{3,22+-0,06}{\cm}}\\
+					{\SI{4,1+-0,03}{\cm}} & {\SI{6,04+-0,06}{\cm}} & {\SI{2,32+-0,06}{\cm}}\\
+					{\SI{2,1+-0,03}{\cm}} & {\SI{3,36+-0,06}{\cm}} & {\SI{1,4+-0,06}{\cm}}\\	
+				\end{tabular}	
+			\end{table}
+	
+		\subsubsection{Datenanalyse}	
+			
+			Nach den Gesetzen der Impuls- und Energieerhaltung gilt für den Stoßgeraden der folgende Zusammenhang zwischen stoßender und gestoßener Kugel:
+			\begin{equation}
+				a_2' = \frac{2m_\text{1}}{m_\text{1}+m_\text{2}} \cdot a_1^{*}.
+			\end{equation}
+			Zu beachten ist, dass hierbei $m_1$ die Masse der stoßenden Kugel ist. Umgekehrt lassen sich die Indizes tauschen, um den Fall mit $m_2$ als Masse der stoßenden Kugel abzudecken. Es folgt ein linearer Zusammenhang zwischen $a_2'$ und $a_1^{*}$ mit dem Faktor $\frac{2m_\text{1}}{m_\text{1}+m_\text{2}}$ bzw. umgekehrt. Ein Wert für diese Steigung ergibt sich, wenn man die ermittelten Werte für $a_2'$ gegen die von $a_1^{*}$ oder andersherum aufträgt.
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{AuslenkungMittel.pdf}
+				\caption{Auslenkung nach Stoß von $m_1$ auf $m_2$}
+				\label{abb:AuslenkungMittel}	
+			\end{figure}
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{AuslenkungGross.pdf}
+				\caption{Auslenkung nach Stoß von $m_2$ auf $m_1$}
+				\label{abb:AuslenkungGross}	
+			\end{figure}
+			\footnote{Der Fit wurde von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten der Auslenkung und die Methode der kleinsten Quadrate herangezogen}
 	\subsection{Diskussion}
 	
 	\subsection{Schlussfolgerung}
