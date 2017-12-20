@@ -4,10 +4,10 @@
 \contentsline {subsection}{\numberline {2.1}Methoden}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Aufbau}{2}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Unsicherheiten}{3}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Messung}{3}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Aufnahme der Messwerte}{3}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Messung}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Aufnahme der Messwerte}{4}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Datenanalyse}{4}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Diskussion}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{5}{subsection.2.4}
-\contentsline {section}{\numberline {3}Sto\IeC {\ss }prozesse auf einer Rutschbahn}{6}{section.3}
-\contentsline {section}{\numberline {4}Anhang}{7}{section.4}
+\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Sto\IeC {\ss }prozesse auf einer Rutschbahn}{7}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{8}{section.4}

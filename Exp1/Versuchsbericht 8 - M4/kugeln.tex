@@ -1,7 +1,6 @@
 \section{Stoßprozess zweier Kugeln unterschiedlicher Masse}
 	
-	% Problem/Hypothese, Ansatz 
-	Dieser Versuch dient zur Betrachtung der Stoßgesetze. Dazu wird ein ballistischer zentraler Stoß mit Hilfe von zwei aufgehängten Massen untersucht. Es stellt sich die Frage, wie genau die Stoßgesetze mit den gemessenen Werten übereinstimmen. Das Ergebnis dieser Messung zeigt, dass die Theorie mit den ermittelten Werten (nicht) übereinstimmt. % TODO 
+	Dieser Versuch dient zur Betrachtung der Stoßgesetze. Dazu wird ein ballistischer zentraler Stoß mit Hilfe von zwei aufgehängten Massen untersucht. Es stellt sich die Frage, wie genau die Stoßgesetze mit den gemessenen Werten übereinstimmen. Das Ergebnis dieser Messung zeigt, dass die Theorie mit den ermittelten Werten übereinstimmt. 
 	
 	\subsection{Methoden}
 		
@@ -49,7 +48,7 @@
 				\end{tabular}
 			\end{table}
 			
-			Wie in Abb. \ref{abb:VersuchsskizzeStoss} eingezeichnet, beschreiben $a_0$, $a_1$ und $a_2$  die Positionen zu Beginn der Messung. Im Laborbuch sind jedoch nur die Positionen über dem Maß nach der Auslenkung notiert, jedoch nicht die Auslenkungen selber. Zur Bestimmung dieser für beide Massen wird die Differenz zwischen den Startwerten und den gemittelten Messwerten gebildet. Die dadurch ermittelten Werte sind in Tabelle \ref{tab:Messwerte2} zu finden. Dabei ergeben sich die Unsicherheiten durch die der Startwerte, beim differenzieren, sowie der bei dem Mitteln entstandenen kombinierten Unsicherheit, welche sich aus fünf mal der Unsicherheit des Maßes, sowie einer zusätzlichen Unsicherheit für das nach Augenmaß durchgeführte Schieben der Blöcke von \SI{0,05}{\cm} ergibt. Für die Auslenkungen in der Tabelle bezeichnen $a_{1/2}^{*}$ die Startauslenkungen und $a_{1/2}'$ die Auslenkungen nach dem Stoß. 	
+			Wie in Abb. \ref{abb:VersuchsskizzeStoss} eingezeichnet, beschreiben $a_0$, $a_1$ und $a_2$  die Positionen zu Beginn der Messung. Im Laborbuch sind jedoch nur die Positionen über dem Maß nach der Auslenkung notiert, jedoch nicht die Auslenkungen selber. Zur Bestimmung dieser für beide Massen wird die Differenz zwischen den Startwerten und den gemittelten Messwerten gebildet. Die dadurch ermittelten Werte sind in Tabelle \ref{tab:Messwerte2} zu finden. Dabei ergeben sich die Unsicherheiten durch die der Startwerte, beim differenzieren, sowie der bei dem Mitteln entstandenen kombinierten Unsicherheit, welche sich aus fünf mal der Unsicherheit des Maßes, sowie einer zusätzlichen Unsicherheit für das nach Augenmaß durchgeführte Schieben der Blöcke von \SI{0,05}{\cm} ergibt. Für die Auslenkungen in der Tabelle bezeichnen $a_{1/2}^{*}$ die Startauslenkungen und $a_{1/2}'$ die Auslenkungen nach dem Stoß. Relevant sind hierbei jedoch nur die Startauslenkung der stoßenden Kugel und die Auslenkung der gestoßenen Kugel. 	
 			\begin{table}[ht]
 				\caption{Auslenkungen nach Stoß}
 				\centering
@@ -77,11 +76,17 @@
 	
 		\subsubsection{Datenanalyse}	
 			
-			Nach den Gesetzen der Impuls- und Energieerhaltung gilt für den Stoßgeraden der folgende Zusammenhang zwischen stoßender und gestoßener Kugel:
+			Ist $m_1$ die Masse der stoßenden Kugel, so gilt nach den Gesetzen der Impuls- und Energieerhaltung für den Stoß der folgende Zusammenhang zwischen den beiden Kugeln:
 			\begin{equation}
-				a_2' = \frac{2m_\text{1}}{m_\text{1}+m_\text{2}} \cdot a_1^{*}.
-			\end{equation}
-			Zu beachten ist, dass hierbei $m_1$ die Masse der stoßenden Kugel ist. Umgekehrt lassen sich die Indizes tauschen, um den Fall mit $m_2$ als Masse der stoßenden Kugel abzudecken. Es folgt ein linearer Zusammenhang zwischen $a_2'$ und $a_1^{*}$ mit dem Faktor $\frac{2m_\text{1}}{m_\text{1}+m_\text{2}}$ bzw. umgekehrt. Ein Wert für diese Steigung ergibt sich, wenn man die ermittelten Werte für $a_2'$ gegen die von $a_1^{*}$ oder andersherum aufträgt.
+				a_2' = \frac{2m_\text{1}}{m_\text{1}+m_\text{2}} \cdot a_1^{*}\footnote{Umgekehrt lassen sich die Indizes tauschen, um den Fall für $m_2$ abzudecken.}. \label{eq:ZusammenhangStoss}
+			\end{equation}	 
+			Aus der Gleichung folgt ein linearer Zusammenhang zwischen $a_2'$ und $a_1^{*}$ mit dem Faktor $\frac{2m_\text{1}}{m_\text{1}+m_\text{2}}$. Dieser wird im Folgenden als $m_\text{i}$ bezeichnet, wohingegen $m_\text{ii}$ durch den Faktor bei dem zweiten Fall, dass die große Kugel stößt, definiert wird. Aus den Messungen lassen sich also durch Auftragen von $a_2'$ gegen $a_1^{*}$ $m_\text{i}$ bzw. $m_\text{ii}$ für den zweiten Fall ermitteln. Diese sind in den Abbildungen \ref{abb:AuslenkungMittel} und \ref{abb:AuslenkungGross} dargestellt\footnote{Der Fit wurde von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten der Auslenkung und die Methode der kleinsten Quadrate herangezogen}. Addieren von $m_\text{i}$ und $m_\text{ii}$ liefert:
+			\begin{align}
+				m_\text{i} + m_\text{ii} \quad = \frac{2m_\text{1}}{m_\text{1}+m_\text{2}} + \frac{2m_\text{2}}{m_\text{2}+m_\text{1}}
+										 = \frac{2(m_\text{1}+m_\text{2})}{m_\text{1}+m_\text{2}} 
+										 = \quad 2 \label{eq:Add2}
+			\end{align}
+			Demnach sollte das Addieren der Steigungen ebenfalls 2 ergeben. Für den ersten Fall ergab sich beim Auftragen der Werte eine Steigung von $0,538 \pm 0,007$ und zusammen mit der Steigung aus dem zweiten Fall von $1,411\pm 0,009$ ergibt sich durch Addition ein Wert von $1,949 \pm 0,011 \approx 2$.
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=\textwidth]{AuslenkungMittel.pdf}
@@ -94,7 +99,19 @@
 				\caption{Auslenkung nach Stoß von $m_2$ auf $m_1$}
 				\label{abb:AuslenkungGross}	
 			\end{figure}
-			\footnote{Der Fit wurde von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten der Auslenkung und die Methode der kleinsten Quadrate herangezogen}
+		
+			Division von $m_\text{i}$ und $m_\text{ii}$ hingegen liefert den Zusammenhang zwischen den Massen:
+			\begin{align}
+				\frac{m_\text{i}}{m_\text{ii}} \quad = \frac{2m_\text{1}}{m_\text{1}+m_\text{2}} \cdot \frac{m_\text{2}+m_\text{1}}{2m_\text{2}}
+				= \quad  \frac{m_\text{1}}{m_\text{2}} \label{eq:Massenverhältnis}
+			\end{align}
+			Aus den Steigungen der Graphen folgt durch einsetzen in Gleichung \ref{eq:Massenverhältnis} ein Massenverhältnis von $0,381 \pm 0,006$ und bei dem dividieren der durch Wiegen gemessenen Massen, welche in Tab. \ref{tab:Messwerte} vorzufinden sind, ein Verhältnis von $0,375$ mit einer vernachlässigbar kleinen Unsicherheit.
+			
 	\subsection{Diskussion}
-	
+		
+		Betrachtet man zunächst den linearen Fit für die beiden Messungen, so fällt auf, dass der Y-Achsenabschnitt bei beiden um ungefähr 0,4 von 0 abweicht, was gemäß Gleichung \ref{eq:ZusammenhangStoss} nicht sein sollte. Eine Erklärung dafür wäre, dass bei dieser Messung einige der Startauslenkungen zu groß gewählt wurden und sich der Stoß somit nicht exakt durch die Gleichung \ref{eq:ZusammenhangStoss} beschreiben lässt, da es sich hierbei nicht um einen ballistischen und zentralen Stoß gehandelt haben könnte. Ebenso kann realistisch gesehen kein vollständig elastischer Stoß vorgelegen haben, da Reibung auch eine Rolle spielt und geringfügige Verformung der Metallkugeln zwar vernachlässigbar sind, jedoch auch Einfluss haben könnten.
+		Für das durch die Steigungen bestimmte Massenverhältnis ergab sich lediglich eine Abweichung von 1,6\% und bei der Addition nur eine Abweichung von 2,55\% von 2 aus Gleichung \ref{eq:Add2} . Beide Abweichungen sind nahe genug an den zu erwartenden Werten, um die Stoßgesetze mit dieser Messung zu unterstützen. 
+		
 	\subsection{Schlussfolgerung}
+	
+		Im Großen und Ganzen wurde das Ziel dieses Versuches, zu zeigen, dass die Ergebnisse mit der Theorie übereinstimmen. Eine Wiederholung des Versuches könnte zumindest zu besseren Y-Achsenabschnitten für die linearen Fits führen. Hierzu sollten weniger starke Auslenkungen gewählt werden und die Messung der Auslenkung, insofern möglich, digitalisiert werden, da das Messen nach Augenmaß mit den Schiebeblöcken als ungenau angenommen werden kann.
