@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  20 DEC 2017 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  21 DEC 2017 18:17
 entering extended mode
 **./10Mi_M4_13-12-2017.tex
 (10Mi_M4_13-12-2017.tex
@@ -2481,78 +2481,73 @@ been already used, duplicate ignored
                    \relax 
 l.49 	\newpage
                [1] (kugeln.tex
-Overfull \hbox (11.16238pt too wide) in paragraph at lines 1--1
-[]\T1/lmr/bx/n/14.4 Stoÿprozess zwei-er Ku-geln un-ter-schied-li-cher Mas-
- []
-
 <Kugelstoss.png, id=79, 649.67719pt x 384.6872pt>
 File: Kugelstoss.png Graphic file (type png)
  <use Kugelstoss.png>
-Package pdftex.def Info: Kugelstoss.png used on input line 12.
+Package pdftex.def Info: Kugelstoss.png used on input line 13.
 (pdftex.def)             Requested size: 360.0pt x 213.16933pt.
  [2]
 [3 <./Kugelstoss.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 81.
+(Font)              <9> on input line 82.
  [4]
-<AuslenkungMittel.pdf, id=120, 501.875pt x 381.425pt>
+<AuslenkungMittel.pdf, id=118, 501.875pt x 381.425pt>
 File: AuslenkungMittel.pdf Graphic file (type pdf)
 
 <use AuslenkungMittel.pdf>
-Package pdftex.def Info: AuslenkungMittel.pdf used on input line 92.
+Package pdftex.def Info: AuslenkungMittel.pdf used on input line 93.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-<AuslenkungGross.pdf, id=121, 501.875pt x 381.425pt>
+<AuslenkungGross.pdf, id=119, 501.875pt x 381.425pt>
 File: AuslenkungGross.pdf Graphic file (type pdf)
  <use AuslenkungGross.pdf>
-Package pdftex.def Info: AuslenkungGross.pdf used on input line 98.
+Package pdftex.def Info: AuslenkungGross.pdf used on input line 99.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
 
-[5]) [6 <./AuslenkungMittel.pdf>] (rutsche.tex) [7 <./AuslenkungGross.pdf>]
-<M4_1.jpg, id=175, 2490.30376pt x 1665.22125pt>
+[5]) [6 <./AuslenkungMittel.pdf>] [7 <./AuslenkungGross.pdf>] (rutsche.tex)
+[8] <M4_1.jpg, id=177, 2490.30376pt x 1665.22125pt>
 File: M4_1.jpg Graphic file (type jpg)
  <use M4_1.jpg>
-Package pdftex.def Info: M4_1.jpg used on input line 74.
+Package pdftex.def Info: M4_1.jpg used on input line 76.
 (pdftex.def)             Requested size: 360.0pt x 240.72673pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [8 <./M4_1.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
-(10Mi_M4_13-12-2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+ [9 <./M4_1.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
+ (10Mi_M4_13-12-2017.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `10Mi_M4_13-12-2017.out' has not changed.
-(rerunfilecheck)             Checksum: 1BF2572AE58E6937C33A21C63C290A06;787.
+(rerunfilecheck)             Checksum: EEFD1ACBBAD5080AD7E0A1F09EF3D951;766.
 Package logreq Info: Writing requests to '10Mi_M4_13-12-2017.run.xml'.
 \openout1 = `10Mi_M4_13-12-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25899 strings out of 493333
- 488349 string characters out of 3139197
+ 25900 strings out of 493333
+ 488355 string characters out of 3139197
  896296 words of memory out of 3000000
  29124 multiletter control sequences out of 15000+200000
  605868 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,15n,40p,10402b,976s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
-.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
+nc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M4_13-12-2017.pdf (9 pages, 4496618 bytes).
+type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M4_13-12-2017.pdf (10 pages, 4494205 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
