@@ -3,15 +3,15 @@
 \contentsline {section}{\numberline {2}Sto\IeC {\ss }prozess bei zwei Pendeln}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Methoden}{2}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Aufbau}{2}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Unsicherheiten}{3}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2}Unsicherheiten}{4}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Messung}{4}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Aufnahme der Messwerte}{4}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Datenanalyse}{4}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Diskussion}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{6}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2}Datenanalyse}{5}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Diskussion}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{7}{subsection.2.4}
 \contentsline {section}{\numberline {3}Sto\IeC {\ss }prozesse mit einer durch eine Fallrinne beschleunigten Kugel}{8}{section.3}
 \contentsline {subsection}{\numberline {3.1}Methoden}{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Messung}{9}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Datenanalyse}{9}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Schlussfolgerung}{11}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.4}Diskussion und Schlussfolgerung}{11}{subsection.3.4}
 \contentsline {section}{\numberline {4}Anhang}{12}{section.4}
