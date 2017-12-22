@@ -77,11 +77,30 @@
 		\caption{Versuchsaufbau$^{[1]}$}
 		\label{abb:VersuchsaufbauStoss}	
 	\end{figure}
+
+	\begin{equation}
+		\label{eq:unce_auslenkung2}
+		u(a^2) = \pdv{a^2}{a} \cdot u(a) = 2 a \cdot u(a)
+	\end{equation}
+
+	\begin{align}
+		\label{eq:epsilon}
+		\varepsilon &= -\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \sqrt{1+\frac{L^2}{H^2}}\\
+		\pdv{\varepsilon}{m} &= \frac{\varepsilon}{m}\\
+		\pdv{\varepsilon}{l} &= -\frac{\varepsilon}{l}\\
+		\pdv{\varepsilon}{m_1} &= +\frac{m}{4 l} \sqrt{1+\frac{L^2}{H^2}} \cdot \frac{m_1 + m_2}{m_1} \cdot \frac{m_2}{m_1^2}\\
+		\pdv{\varepsilon}{m_2} &= -\frac{m}{4 l} \sqrt{1+\frac{L^2}{H^2}} \frac{m_1 + m_2}{m_1} \frac{1}{m_1}\\
+		\pdv{\varepsilon}{L} &= -\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \frac{L}{H^2}\frac{1}{\sqrt{1+\frac{L^2}{H^2}}}\\
+		\pdv{\varepsilon}{H} &= +\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \frac{L^2}{H^3}\frac{1}{\sqrt{1+\frac{L^2}{H^2}}}
+		\label{eq:epsilonEnd}
+	\end{align}
 	
 	\section*{Literatur}
 	
 	%TODO einfach einfuegen
 	
-	[1] Abb. \ref*{abb:VersuchsaufbauStoss} stammt aus der Vorbereitung zu M4, welche im Learnweb zu finden ist.
+	[1] Abb. \ref{abb:VersuchsaufbauStoss} stammt aus der Vorbereitung zu M4, welche im Learnweb zu finden ist.
+	\newline
+	[2] Abb. \ref{fig:fallrinneSkizze} stammt aus der Vorbereitung zu M4, welche im Learnweb zu finden ist.
 	
 \end{document} 

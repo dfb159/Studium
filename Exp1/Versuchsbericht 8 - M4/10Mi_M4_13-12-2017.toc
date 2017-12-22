@@ -9,5 +9,9 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Datenanalyse}{4}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Diskussion}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{6}{subsection.2.4}
-\contentsline {section}{\numberline {3}Sto\IeC {\ss }prozesse auf einer Rutschbahn}{8}{section.3}
-\contentsline {section}{\numberline {4}Anhang}{9}{section.4}
+\contentsline {section}{\numberline {3}Sto\IeC {\ss }prozesse mit einer durch eine Fallrinne beschleunigten Kugel}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Methoden}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Messung}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Datenanalyse}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Schlussfolgerung}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Anhang}{12}{section.4}

@@ -1,16 +1,16 @@
-\section{Stoßprozesse mit einer Fallrinne}
+\section{Stoßprozesse mit einer durch eine Fallrinne beschleunigten Kugel}
 Der Versuch stellt einen Zusammenhang zwischen der Höhenenergie einer kleinen Kugel und der Auslenkung eines Pendels nach einem Stoß her.
 Dabei wird die kleine Metallkugel in einer Fallrinne bei verschiedenen Positionen losgelassen und der Energieübertrag bei dem Stoß mit der Pendelkugel untersucht.
 Es wird der theoretische Anteil der kinetischen Energie mit $\varepsilon = \frac{5}{9}$ der Gesammtenergie überprüft und begründet, dass die Rollreibung des Systems diesen Anteil verfälscht.
 
 	\subsection{Methoden}
-	Die Fallrinne sei so justiert, dass die kleine Kugel der Rinne in einem geraden, zentralen Stoß auf die großen Kugel des Pendels trifft.
+	Die Fallrinne sei so justiert, dass die kleine Kugel der Rinne in einem geraden, zentralen Stoß auf die große Kugel des Pendels trifft.
 	Die große Kugel ruht dabei vor dem Stoß direkt am Ende der Fallrinne.
-	Die kinetische Energie der kleinen Kugel wird bei dem Stoß an die große Kugel zu einem großen Teil übertragen.
+	Die kinetische Energie der kleinen Kugel wird bei dem Stoß zu einem großen Teil an die große Kugel übertragen.
 	Nach dem Stoß wird die Auslenkung der großen Kugel abgelesen.
 	
 	In Abb. \ref{fig:fallrinneSkizze} kann man $s$ als Abstand vom oberen Rand der Fallrinne identifizieren.
-	Es werden nun für die Abstände $s$ von \SIrange{0}{50}{\centi\meter}, jeweils in \SI{10}{\centi\meter}-Schritten mehrere Messungen der maximalen Auslenkung der großen Kugel nach dem Stoß durchgeführt.
+	Es werden nun für die Abstände $s$ von \SIrange{0}{50}{\centi\meter}, jeweils in \SI{10}{\centi\meter}-Schritten mehrere Messungen zur maximalen Auslenkung der großen Kugel nach dem Stoß durchgeführt.
 	
 	\begin{figure}[ht]
 		\centering
@@ -117,23 +117,8 @@ Es wird der theoretische Anteil der kinetischen Energie mit $\varepsilon = \frac
 	Die Differenz von der potentiellen Höhenenergie am Anfang und bei maximaler Auslenkung ist also größer, als von der Theorieannahme und $\varepsilon$ der nutzbaren Energie somit kleiner.
 	
 	Die Nachrechnung der Höhe $h'$ ist damit auch nicht mehr genau.
-	Mit dem theoretischen Wert von $\varepsilon = \frac{5}{9}$, ist $h' \approx \SI{5,4}{\centi\meter}$, also deutlich näher an der Realität.
+	Mit dem theoretischen Wert von $\varepsilon = \frac{5}{9}$, ist $h' \approx \SI{5,4}{\centi\meter}$ also deutlich näher an dem Realitätswert.
 	
-	\subsection{Formeln}
-	\begin{equation}
-	\label{eq:unce_auslenkung2}
-	u(a^2) = \pdv{a^2}{a} \cdot u(a) = 2 a \cdot u(a)
-	\end{equation}
-	
-	\begin{align}
-	\label{eq:epsilon}
-	\varepsilon &= -\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \sqrt{1+\frac{L^2}{H^2}}\\
-	\pdv{\varepsilon}{m} &= \frac{\varepsilon}{m}\\
-	\pdv{\varepsilon}{l} &= -\frac{\varepsilon}{l}\\
-	\pdv{\varepsilon}{m_1} &= +\frac{m}{4 l} \sqrt{1+\frac{L^2}{H^2}} \cdot \frac{m_1 + m_2}{m_1} \cdot \frac{m_2}{m_1^2}\\
-	\pdv{\varepsilon}{m_2} &= -\frac{m}{4 l} \sqrt{1+\frac{L^2}{H^2}} \frac{m_1 + m_2}{m_1} \frac{1}{m_1}\\
-	\pdv{\varepsilon}{L} &= -\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \frac{L}{H^2}\frac{1}{\sqrt{1+\frac{L^2}{H^2}}}\\
-	\pdv{\varepsilon}{H} &= +\frac{m}{2 l} \left( \frac{m_1 + m_2}{2 m_1}\right) ^2 \frac{L^2}{H^3}\frac{1}{\sqrt{1+\frac{L^2}{H^2}}}
-	\label{eq:epsilonEnd}
-	\end{align}
+	Man kann den Versuch noch einmal mit dem tatsächlichen gemessenen Wert für $h'$ durchführen.
+	Es würde jedoch wahrscheinlich auf ein ähnliches Ergebnis hinauslaufen.
 	
