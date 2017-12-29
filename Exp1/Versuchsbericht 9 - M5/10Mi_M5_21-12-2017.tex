@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper,titlepage, ngerman]{article}
+
+\usepackage[utf8]{inputenc}	
+\usepackage[T1]{fontenc}	
+\usepackage{ngerman}			
+\usepackage{lmodern}			
+\usepackage{graphicx}			
+\usepackage{url}				
+\usepackage{siunitx}
+\usepackage[intlimits]{amsmath}
+\usepackage{xfrac}
+\usepackage{commath}
+\usepackage{physics}			
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{biblatex}
+\usepackage{hyperref}
+
+% Setup SI unit environment
+\sisetup{separate-uncertainty = true}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{
+	per-mode=fraction,
+	fraction-function=\sfrac
+	% or \frac, \tfrac
+}
+\bibliography{Literatur}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		{\scshape\LARGE Versuchsbericht zu \par}
+		\vspace{1cm}
+		{\scshape\huge M5 -- Jo-Jo und Kreisel\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de) \par}
+		\vfill
+		durchgeführt am 21.12.2017\par
+		betreut von\par
+		{\large Lukas \textsc{Britt}} 
+		\vfill	
+		{\large \today\par}
+	\end{titlepage}
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Kurzfassung}
+	
+	%TODO
+	% Einleitung & Beschreibung der Versuche
+			
+	\vspace{2cm} 
+	
+	\input{fadenpendel.tex} 
+	\newpage
+	\input{kreisel.tex} 
+	
+	%\section*{Literatur}
+	%\printbibliography
+	
+	\newpage
+	
+	\section{Anhang} 
+		
+	%TODO
+	% Unsicherheitsrechnung & mehr
+	
+	\section*{Literatur}
+	
+	[1] 
+	
+\end{document} 
