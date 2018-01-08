@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  3 JAN 2018 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  6 JAN 2018 22:28
 entering extended mode
 **./10Mi_M5_21-12-2017.tex
 (10Mi_M5_21-12-2017.tex
@@ -2486,27 +2486,32 @@ been already used, duplicate ignored
                    \relax 
 l.50 	\newpage
                [1] (fallrad.tex
-<fallrad_skizze.png, id=123, 626.34pt x 655.69969pt>
+<fallrad_skizze.png, id=128, 626.34pt x 655.69969pt>
 File: fallrad_skizze.png Graphic file (type png)
  <use fallrad_skizze.png>
 Package pdftex.def Info: fallrad_skizze.png used on input line 11.
 (pdftex.def)             Requested size: 251.9989pt x 263.80602pt.
 
-<fallrad_frontal.png, id=127, 328.97906pt x 264.99pt>
+<fallrad_frontal.png, id=132, 328.97906pt x 264.99pt>
 File: fallrad_frontal.png Graphic file (type png)
 
 <use fallrad_frontal.png>
 Package pdftex.def Info: fallrad_frontal.png used on input line 20.
 (pdftex.def)             Requested size: 216.0022pt x 173.99225pt.
- [2 <./fallrad_skizze.png>] [3 <./fallrad_frontal.png>]) [4] (kreisel.tex) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+ [2 <./fallrad_skizze.png>] [3 <./fallrad_frontal.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 39.
+) [4] (kreisel.tex) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (10Mi_M5_21-12-2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `10Mi_M5_21-12-2017.out' has not changed.
-(rerunfilecheck)             Checksum: 031F2E4E4EC8E10235AB6F233436FBF8;1332.
+(rerunfilecheck)             Checksum: 41E060BE040F879766D55CA5F55338EA;1405.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2516,30 +2521,32 @@ Package logreq Info: Writing requests to '10Mi_M5_21-12-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25861 strings out of 493333
- 487951 string characters out of 3139197
+ 25892 strings out of 493333
+ 488297 string characters out of 3139197
  885964 words of memory out of 3000000
- 29102 multiletter control sequences out of 15000+200000
- 583633 words of font info for 51 fonts, out of 3000000 for 9000
+ 29119 multiletter control sequences out of 15000+200000
+ 605868 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,10402b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+ 42i,15n,40p,10402b,963s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmsy8.pfb>
-Output written on 10Mi_M5_21-12-2017.pdf (7 pages, 276607 bytes).
+type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M5_21-12-2017.pdf (7 pages, 328281 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

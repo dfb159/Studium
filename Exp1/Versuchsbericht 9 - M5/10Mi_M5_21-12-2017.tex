@@ -70,6 +70,24 @@
 	%TODO
 	% Unsicherheitsrechnung & mehr
 	
+	\subsection{Unsicherheiten Fallrad}
+	
+	\begin{table}[ht]
+		\centering
+		\caption{Unsicherheiten für die Werte bei der Berechnung für das Fallrad. Alle Unsicherheiten für Mittelwerte über fünf Werte}
+		\begin{tabular}{l|l|l}
+			\hline
+			{Unsicherheit $u$ der ...} & {Berechnung}  & {Ergebnis}\\
+			\hline 
+			{Stoppuhr} &  {$u_\text{Uhr}$ = $\frac{\SI{0,01}{\second}}{2\sqrt{3}}$} & {\SI{2,89}{\milli\second}} \\
+			{Reaktionszeit} & {$u_\text{Reaktion} = \frac{\SI{0,1}{\second}}{2\sqrt{6}}$} & {\SI{20,4}{\milli\second}} \\
+			{Zeitmessung} & {$u_\text{Zeit} = \sqrt{\left( u_\text{Uhr}\right) ^2+\left( u_\text{Reaktion}\right) ^2}$} & {\SI{20,6}{\milli\second}} \\
+			{gemittelten Zeitmessung} & {$u_\text{ZeitMitt} = \sqrt{5\cdot\left(u_\text{Zeit}\right) ^2}$} & {\SI{46,1}{\milli\second}} \\
+			
+			\hline
+		\end{tabular}
+	\end{table}
+	
 	\section*{Literatur}
 	
 	[1] 
