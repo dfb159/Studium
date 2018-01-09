@@ -42,7 +42,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
 EnabledAxes	1	0	1	0	
-AxesTitles	Fallzeit t in s	Fallhöhe h in mm			
+AxesTitles	Fallzeit t	Fallhöhe h			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	4	4	4	4
 TitleFont	MS Shell Dlg 2	10	75	0	0	0
@@ -62,14 +62,13 @@ CanvasBackground	#ffffff	255
 curve	hgegent_t	hgegent_h	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	0	hgegent_t	hgegent_h	hgegent_t-fehler	1	8	#000000	1	1	1
 ErrorBars	1	hgegent_t	hgegent_h	hgegent_h-fehler	1	8	#000000	1	1	1
-FunctionCurve	0,PolyFit1,x,3,7	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	94328744	95605960	1
+FunctionCurve	0,PolyFit1,x,3,7	100			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	70654312	3670073	1
 <formula>
 a0=-67.8106015868141
 a1=28.7625806980932
 a2=14.5943996021783
 
 a0+a1*x+a2*x^2
-
 
 </formula>
 scale	0	100	1000	0	9	5	0	0
@@ -90,7 +89,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Graph3	1	1	01/09/2018 15:35:39
-geometry	713	31	514	438	
+geometry	713	31	514	438	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -105,7 +104,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
 EnabledAxes	1	0	1	0	
-AxesTitles	Fallzeit zum Quardat t² in s²	Fallhöhe h in mm			
+AxesTitles	Fallzeit zum Quardat t²	Fallhöhe h			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	4	4	4	4
 TitleFont	MS Shell Dlg 2	10	75	0	0	0
@@ -125,13 +124,12 @@ CanvasBackground	#ffffff	255
 curve	Table2_1	Table2_3	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	0	Table2_1	Table2_3	Table2_2	1	8	#000000	1	1	1
 ErrorBars	1	Table2_1	Table2_3	Table2_4	1	8	#000000	1	1	1
-FunctionCurve	0,LinearFit1,x,0,50	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95383608	95606920	1
+FunctionCurve	0,LinearFit1,x,0,50	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95011520	3538996	1
 <formula>
 B=2.14609721746354
 A=17.3914313270365
 
 A*x+B
-
 
 </formula>
 scale	0	0	1000	0	8	5	0	0
@@ -152,7 +150,7 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 Graph4	1	1	01/09/2018 15:35:49
-geometry	1341	32	514	438	active
+geometry	1341	32	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -167,11 +165,11 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
 EnabledAxes	1	0	1	0	
-AxesTitles	Fallzeit t in s	Fallhöhe durch Fallzeit zum Quadrat h/t² in m/s²			
+AxesTitles	Fallzeit t	Fallhöhe durch Fallzeit zum Quadrat h/t²			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	4	4	4	4
 TitleFont	MS Shell Dlg 2	10	75	0	0	0
-ScaleFont0	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	11	75	0	0	0
 ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
 ScaleFont2	MS Shell Dlg 2	11	75	0	0	0
 ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
@@ -187,13 +185,12 @@ CanvasBackground	#ffffff	255
 curve	Table3_1	Table3_3	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	0	Table3_1	Table3_3	Table3_2	1	8	#000000	1	1	1
 ErrorBars	1	Table3_1	Table3_3	Table3_4	1	8	#000000	1	1	1
-FunctionCurve	0,LinearFit1,x,3,7	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95385048	768	1
+FunctionCurve	0,LinearFit1,x,3,7	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	94998720	3407924	1
 <formula>
 B=17.3007680144291
 A=0.0290282027338943
 
 A*x+B
-
 
 </formula>
 scale	0	0	50	0	7	5	0	0

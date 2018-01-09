@@ -37,15 +37,117 @@
 				u(s) = \pm \sqrt{\sum_{k=0}^{N}\left( \frac{\partial f}{\partial x_i}u(x_i)\right) ^2}. \label{eq:kombUnsicherheit}
 			\end{equation*}
 			Für die Messunsicherheit der Stoppuhr wird aufgrund der Digitalanzeige eine Rechtecksverteilung verwendet und diese dann mit der Unsicherheit für die Reaktionszeit\footnote{hierzu werden \SI{0.1}{\s} dreiecksverteilt verwendet} kombiniert. Die Schiebelehre besitzt eine Messgenauigkeit von \SI{0,02}{\mm}, da sich so genau jedoch nicht ablesen lässt, wird eine Dreicksverteilung über \SI{0,04}{\mm} verwendet. Für das Maß wird ebenfalls eine Dreiecksverteilung gewählt, hierbei über \SI{1}{\mm}.
-			Die Berechnung der Unsicherheiten liegt im Anhang vor, da diese für einige Größen umfangreicher ist.
+			Die Berechnung der Unsicherheiten liegt im Anhang (\ref{Anhang})  vor, da diese für einige Größen umfangreicher ist.
 			
 	\subsection{Messung}
 	
-		\subsubsection{Aufnahme der Messwerte}
-	
-		\subsubsection{Datenanalyse}	
-
+		\subsubsection{Messwerte}
+			
+			Die in Tab. \ref{tab:Messwerte} dargestellten Werte sind die (gemittelten) Messwerte, welche aufgenommen wurden. Dabei ist die Berechnung der verwendeten kombinierten Unsicherheiten, für z. B. die gemittelten Werte, dem Anhang zu entnehmen.
+			\begin{table}[ht]
+				\caption{In dieser Tabelle sind die gemessenen Werte verzeichnet. Die Größen welche mehrmals gemessen wurden, sind hier gemittelt.}
+				\centering
+				\label{tab:Messwerte}
+				\begin{tabular}{l c}
+					{Maße des Fallrads} &
+					\begin{tabular}{l l}
+						\begin{tabular}{l|l}
+							{Größe} & {Wert}	\\
+							\hline
+							{Dicke $H$ des Rings} & {\SI{11,68+-0,03}{\mm}} \\
+							{Außenradius $R_a$ des Rings} & {\SI{90,08+-0,01}{\mm}} \\
+							{Innenradius $R_i$  des Rings} & {\SI{77,59+-0,01}{\mm}} \\
+							{Speichenradius $R_S$} & {\SI{3,490+-0,006}{\mm}} \\
+							{Achsenradius $R_A$} & {\SI{4,090+-0,006}{\mm}} \\
+							{Achsenlänge $L_A$} & {\SI{200,3+-0,002}{\mm}} \\
+							{Masse $m$} & {\SI{768,16+-0,01}{\g}} \\
+							{Fadendicke $d$} & {\SI{1,027+-0,028}{\mm}} \\
+						\end{tabular}	
+					\end{tabular}
+					\\ & \\
+					{Fallhöhe und Fallzeit} &
+					\begin{tabular}{l|l}
+						{Fallhöhe $h$} & {Fallzeit $t$}	\\
+						\hline
+						{\SI{200+-0,29}{\mm}} & {\SI{3,402+-0,046}{\s}} \\
+						{\SI{350+-0,29}{\mm}} & {\SI{4,488+-0,046}{\s}} \\
+						{\SI{500+-0,29}{\mm}} & {\SI{5,286+-0,046}{\s}} \\
+						{\SI{650+-0,29}{\mm}} & {\SI{6,122+-0,046}{\s}} \\
+						{\SI{800+-0,29}{\mm}} & {\SI{6,782+-0,046}{\s}} \\
+					\end{tabular}
+				\end{tabular}					
+			\end{table}
+			
+		\subsubsection{Messergebnisse}	
+			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{h-gegen-t.pdf}
+				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der Fallzeit $t$.}
+				\label{fig:hgegent}	
+			\end{figure}
+			In dem Ersten der drei folgenden Diagrammen (Abb. \ref{fig:hgegent}) ist die Fallhöhe $h$ gegen die Fallzeit $t$ aufgetragen.
+			Aufgrund des leicht gekrümmten Verlaufs und der Formel zur Berechnung der Fallhöhe
+			\begin{equation}
+				h(t) = \frac{1}{2}g \frac{mR^2}{J_S + mR^2} t^2 = \frac{1}{2}g^{*}t^2 \label{eq:Fallbeschleunigung}
+			\end{equation}
+			wurde ein polynomialer Fit\footnote{Dieser Fit und seine Unsicherheit, wie auch die der nächsten beiden, wurde von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten (welche im Anhang zu finden sind) und die Methode der kleinsten Quadrate herangezogen} für das Diagramm gewählt.
+			Der Fit besitzt folgende Form: 
+			\begin{equation*}
+				h(t) = [(-67,81\pm 2,70)+(28,76\pm 1,10)t\cdot\si{s^{-1}}+(14,59\pm 0,11)t^2\cdot\si{s^{-2}}]\si{\mm}.
+			\end{equation*} 
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{h-gegen-t2.pdf}
+				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der Fallzeit $t$.}
+				\label{fig:hgegent2}	
+			\end{figure}	
+			Da im zweiten Diagramm die Fallhöhe $h$ gegen die quadrierte Fallzeit $t^2$ aufgetragen ist, sollte sich hierbei nach obiger Gleichung ein linearer Zusammenhang zeigen. Aus diesem Grund wurde für dieses Diagramm ein linearer Fit gewählt. Hierbei sollte die Steigung nach Gl. \ref{eq:Fallbeschleunigung} gerade gleich der halben Fallbeschleunigung $g^{*}$ entsprechen. Folgende Formel beschreibt den Fit:
+			\begin{equation*}
+				h(t) = [(2,15 \pm 0,33)+(17,39 \pm 0,01)t^2\cdot\si{s^{-2}}]\si{\mm}.
+			\end{equation*} 
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=\textwidth]{ht2-gegen-t.pdf}
+				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der Fallzeit $t$.}
+				\label{fig:ht2gegent}	
+			\end{figure}
+			Da diese Steigung nicht von der Zeit abhängt, ist wie in dem letzten Diagramm näherungsweise zu sehen $\frac{h}{t^2}$ konstant. Auch hier wurde aufgrund dieses Verhaltens ein linearer Fit gewählt. Da die ermittelten Punkte auf einer Horizontalen liegen zu scheinen ist die Steigung demnach $\approx 0$. Aufgrund der Unsicherheit, welche merklich von null entfernt ist, wird dies jedoch nicht ganz gestützt. Der Fit sieht wie folgt aus:
+			\begin{equation*}
+				\frac{h}{t^2} = [(17,30 \pm 6,40) + (0,03 \pm 1,20)t\cdot\si{s^{-1}}]\si{\mm}.
+			\end{equation*} 
+			Wählt man die Steigung gleich null und multipliziert man das Ergebnis mit zwei, so ergibt sich für $g^{*} = \SI{34,6+-12,8}{\m\per\s^2}$. 
+					
+			Zur Bestimmung des Trägheitsmoments $J_S$ des Fallrads werden die Trägheitsmomente der Bestandteile addiert. Diese lassen sich durch Zylinderträgheitsmomente bestimmen. Für den Ring wird die Formel für einen Hohlzylinder verwendet, welcher parallel zur Drehachse liegt:
+			\begin{align}
+					J_{parallel} = \frac{1}{2}\pi H\rho(R_a^4-R_i^4). \label{eq:Trägpar}
+			\end{align}
+			Ebenso lässt sich das Trägheitsmoment der Achse bestimmen, da es sich hierbei jedoch um einen Vollzylinder handelt wird der Innenradius in der Formel gleich null gesetzt.
+			Für die vier Speichen wird vereinfacht, so dass nur zwei Zylinder senkrecht zur Drehachse betrachtet werden.
+			Dieses bestimmt sich wie folgt: 
+			\begin{align}
+				J_{senkrecht} = \pi H\rho\left[\frac{1}{12}H^2R^2+\frac{1}{4}R^4\right]. \label{eq:Trägsenk}
+			\end{align} 
+			Zur Bestimmung der Dichte muss das Volumen bestimmt werden und die gemessene Masse dadurch geteilt werden. Das Volumen setzt sich wie auch das Trägheitsmomenten aus den Einzelteilen zusammen:
+			\begin{equation}
+				V = V_{Ring} + 2\cdot V_{Speiche} + V_{Achse} = H\cdot(\pi R_a^2 - \pi R_i^2) + 2(2\pi R_S\cdot 2 R_i) + 2\pi R_A\cdot L_A.
+			\end{equation}
+			Dabei bezeichnet $V_{Speiche}$ das Volumen von zwei der vier Speichen, welches durch einen Zylinder mit Radius $R_S$ und Höhe $R_i$ zusammengesetzt ist. Dies ist eine Näherung da hierbei das Volumen im Mittelpunkt des Fallrades drei mal, durch die zwei Speichenzylinder und die Achse, in der Rechnung auftaucht, jedoch auch das Volumen des Befestigungspunktes dieser Teile vernachlässigt wird.
+			Mit der Masse $m=$ und dem Volumen $V=$ ergibt sich eine Dichte $\rho = $. Auch hier wurden die verwendeten Unsicherheiten in dem Anhang hergeleitet.
+			Durch die Summe der Trägheitsmomente ergibt sich somit:
+			\begin{equation}
+				J_S = J_{Ring} + 2\cdot J_{Speiche} + J_{Achse} = = %Erg.
+			\end{equation}
+			
+			Aus dem ermittelten Trägheitsmoment und der Fallbeschleunigung lässt sich nun der Abrollradius durch Umformen von Gl. \ref{eq:Fallbeschleunigung} bestimmen.
+			\begin{equation}
+				R = \sqrt{\frac{J_S \cdot g^{*}}{m(g-g^{*})}} = %erg.
+			\end{equation}
+			Durch den Radius der Achse und dem des Fadens ergibt sich für den Abrollradius $R = \SI{4,604+-0,015}{\mm}$.
+			
 	\subsection{Diskussion}
+		
+		
 		
 	\subsection{Schlussfolgerung}
 	
