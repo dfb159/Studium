@@ -1,6 +1,6 @@
-\section{Fallrad} % vorläufiger Name
-	
-	Das Fallrad verhält sich wie das Jo-Jo Spielzeug. Lässt man das aufgewickelte Fallrad fallen, bei festgehaltener Schnur, so fällt es langsamer und und wickelt sich nach Abwickeln der Schnur von selbst wieder auf. In diesem Versuch werden die Fallbeschleunigung und das Trägheitsmoment eines Fallrades bestimmt und überprüft, ob die gemessenen und bestimmten Werte mit den aus der Theorie berechneten Werten übereinstimmen. Dazu wird angenommen, dass die aus der Theorie bekannten Formeln den Sachverhalt korrekt beschreiben. Das Ergebnis dieses Versuches stimmt mit diesen (nicht) überein. % TODO 
+\section{Fallbeschleunigung und Trägheitsmoment eines Fallrades} 
+
+	Das Fallrad verhält sich wie das Jo-Jo Spielzeug. Lässt man das aufgewickelte Fallrad fallen, bei festgehaltener Schnur, so fällt es langsamer und und wickelt sich nach Abwickeln der Schnur von selbst wieder auf. In diesem Versuch werden die Fallbeschleunigung und das Trägheitsmoment eines Fallrades bestimmt und überprüft, ob die gemessenen und bestimmten Werte mit den aus der Theorie berechneten Werten übereinstimmen. Dazu wird angenommen, dass die aus der Theorie bekannten Formeln den Sachverhalt korrekt beschreiben. Das Ergebnis dieses Versuches stimmt mit diesen überein. 
 	
 	\subsection{Methoden}
 		
@@ -9,7 +9,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.7\textwidth]{fallrad_skizze.png}
-				\caption{Versuchsskizze: Seitenansicht des Fallrades}
+				\caption{Die Versuchsskizze zeigt den Aufbau des Fallrades aus der Seitenansicht.}
 				\label{fig:FallradSkizze}	
 			\end{figure}
 			Es wird der in Abb. \ref{fig:FallradSkizze} dargestellte Aufbau betrachtet. 
@@ -18,7 +18,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.6\textwidth]{fallrad_frontal.png}
-				\caption{Frontalansicht des Fallrades}
+				\caption{Die Versuchsskizze zeigt die Frontalansicht des Aufbaus. Hierbei ist die Achse zu erkennen, auf der sich der Faden auf-/abrollt.}
 				\label{fig:FallradFrontal}	
 			\end{figure}
 			In der Ruhelage liegen keine Wicklungen der Schnur auf der Achse vor. Die Größe $h$ gibt die Höhe des Fallrades, als Abstand von der Ruhelage, an. 
@@ -99,7 +99,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=\textwidth]{h-gegen-t2.pdf}
-				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der Fallzeit $t$.}
+				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der quadrierten Fallzeit $t^2$.}
 				\label{fig:hgegent2}	
 			\end{figure}	
 			Da im zweiten Diagramm die Fallhöhe $h$ gegen die quadrierte Fallzeit $t^2$ aufgetragen ist, sollte sich hierbei nach obiger Gleichung ein linearer Zusammenhang zeigen. Aus diesem Grund wurde für dieses Diagramm ein linearer Fit gewählt. Hierbei sollte die Steigung nach Gl. \ref{eq:Fallbeschleunigung} gerade gleich der halben Fallbeschleunigung $g^{*}$ entsprechen. Folgende Formel beschreibt den Fit:
@@ -109,7 +109,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=\textwidth]{ht2-gegen-t.pdf}
-				\caption{Graphische Darstellung der Fallhöhe $h$ in Abhängigkeit der Fallzeit $t$.}
+				\caption{Graphische Darstellung der Fallhöhe geteilt durch die quadrierte Fallzeit $\frac{h}{t^2}$ in Abhängigkeit der Fallzeit $t$.}
 				\label{fig:ht2gegent}	
 			\end{figure}
 			Da diese Steigung nicht von der Zeit abhängt, ist wie in dem letzten Diagramm näherungsweise zu sehen $\frac{h}{t^2}$ konstant. Auch hier wurde aufgrund dieses Verhaltens ein linearer Fit gewählt. Da die ermittelten Punkte auf einer Horizontalen liegen zu scheinen ist die Steigung demnach $\approx 0$. Aufgrund der Unsicherheit, welche merklich von null entfernt ist, wird dies jedoch nicht ganz gestützt. Der Fit sieht wie folgt aus:
@@ -136,18 +136,21 @@
 			Mit der Masse $m=$ und dem Volumen $V=$ ergibt sich eine Dichte $\rho = $. Auch hier wurden die verwendeten Unsicherheiten in dem Anhang hergeleitet.
 			Durch die Summe der Trägheitsmomente ergibt sich somit:
 			\begin{equation}
-				J_S = J_{Ring} + 2\cdot J_{Speiche} + J_{Achse} = = %Erg.
+				J_S = J_{Ring} + 2\cdot J_{Speiche} + J_{Achse} = \SI{4726135,09+-344402,84}{\g\mm^2}.
 			\end{equation}
 			
 			Aus dem ermittelten Trägheitsmoment und der Fallbeschleunigung lässt sich nun der Abrollradius durch Umformen von Gl. \ref{eq:Fallbeschleunigung} bestimmen.
 			\begin{equation}
-				R = \sqrt{\frac{J_S \cdot g^{*}}{m(g-g^{*})}} = %erg.
+				R = \sqrt{\frac{J_S \cdot g^{*}}{m(g-g^{*})}} = \SI{4,679+-0,303}{\mm}.
 			\end{equation}
 			Durch den Radius der Achse und dem des Fadens ergibt sich für den Abrollradius $R = \SI{4,604+-0,015}{\mm}$.
 			
 	\subsection{Diskussion}
-		
-		
-		
+			
+			Die in diesem Versuch ermittelten Größen entsprechend weitgehend den Erwartungen. Dass die Größe $g^{*}$, wenn man sie dem dritten Diagramm entnimmt eine äußerst Große Unsicherheit besitzt, muss an der kombinierten Unsicherheit für $\frac{h}{t^2}$ liegen, da sich $g^{*}$ auch als Steigung des zweiten Diagramms entnehmen lässt und die von dem Fit-Programm berechnete Unsicherheit dort äußerst gering ist. Dass das Trägheitsmoment des Rings den größten Anteil von $J_S$ ausmacht liegt daran, dass das Trägheitsmoment quadratisch mit dem Abstand von der Rotationsachse zunimmt und seine ganze Masse am weitesten von der Achse entfernt liegt.
+			Die Näherung des Abrollradius über das Trägheitsmoment und der Fallbeschleunigung des Fallrades liefert einen Wert welcher sehr nahe an dem gemessenen liegt. Er unterscheidet sich lediglich um 1,6\% von diesem. Somit lässt sich die Korrektheit der Formeln aus der Theorie bestätigen.
+			
 	\subsection{Schlussfolgerung}
 	
+			Die Messergebnisse stimmen mit der Theorie überein. Da dies der Fall ist, ist eine Wiederholung des Versuches nicht nötig.
+			Lediglich die Berechnung der Unsicherheiten in diesem Versuch ist aufgrund des großen Umfangs äußerst fehleranfällig und sollte ggf. erneut überprüft werden.

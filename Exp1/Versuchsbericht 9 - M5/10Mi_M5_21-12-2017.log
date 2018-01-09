@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  9 JAN 2018 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  9 JAN 2018 23:09
 entering extended mode
 **./10Mi_M5_21-12-2017.tex
 (10Mi_M5_21-12-2017.tex
@@ -2493,44 +2493,43 @@ File: fallrad_frontal.png Graphic file (type png)
 <use fallrad_frontal.png>
 Package pdftex.def Info: fallrad_frontal.png used on input line 20.
 (pdftex.def)             Requested size: 216.0022pt x 173.99225pt.
- [2 <./fallrad_skizze.png>] [3 <./fallrad_frontal.png>]
+ [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 39.
-
+ [3 <./fallrad_skizze.png>]
 Overfull \hbox (19.25424pt too wide) in paragraph at lines 51--79
  [][] 
  []
 
-<h-gegen-t.pdf, id=151, 501.875pt x 381.425pt>
+<h-gegen-t.pdf, id=154, 501.875pt x 381.425pt>
 File: h-gegen-t.pdf Graphic file (type pdf)
  <use h-gegen-t.pdf>
 Package pdftex.def Info: h-gegen-t.pdf used on input line 85.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
-
-<h-gegen-t2.pdf, id=154, 501.875pt x 381.425pt>
+ [4 <./fallrad_frontal.png>] <h-gegen-t2.pdf, id=171, 501.875pt x 381.425pt>
 File: h-gegen-t2.pdf Graphic file (type pdf)
- <use h-gegen-t2.pdf>
+
+<use h-gegen-t2.pdf>
 Package pdftex.def Info: h-gegen-t2.pdf used on input line 101.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [4]
-<ht2-gegen-t.pdf, id=174, 501.875pt x 381.425pt>
+ <ht2-gegen-t.pdf, id=173, 501.875pt x 381.425pt>
 File: ht2-gegen-t.pdf Graphic file (type pdf)
- <use ht2-gegen-t.pdf>
+
+<use ht2-gegen-t.pdf>
 Package pdftex.def Info: ht2-gegen-t.pdf used on input line 111.
 (pdftex.def)             Requested size: 360.0pt x 273.61308pt.
- [5]
-[6 <./h-gegen-t.pdf>]) [7 <./h-gegen-t2.pdf>] (kreisel.tex) [8 <./ht2-gegen-t.p
-df>] [9]
-Overfull \hbox (2.05765pt too wide) in paragraph at lines 77--92
+ [5] [6 <./h-gegen-t.pdf>] [7 <./h-gegen-t2.pdf>])
+[8 <./ht2-gegen-t.pdf>] [9] (kreisel.tex) [10]
+Overfull \hbox (2.05765pt too wide) in paragraph at lines 80--95
  [][] 
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2539,7 +2538,7 @@ Try to go on, since this might almost work.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2548,7 +2547,7 @@ Try to go on, since this might almost work.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -2557,7 +2556,7 @@ Try to go on, since this might almost work.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2568,7 +2567,7 @@ my insertion and my current dilemma will both disappear.
 ! Misplaced \omit.
 \math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
                                                   \kern -\alignsep@ \iftag@ ...
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -2576,268 +2575,272 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.111 	\end{align*}
+l.114 	\end{align*}
                    
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
-
-[10]
-Overfull \hbox (42.05664pt too wide) in paragraph at lines 117--117
-[] 
- []
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.139 	\end{align*}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.139 	\end{align*}
-                   
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.139 	\end{align*}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.139 	\end{align*}
-                   
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.139 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (8.60057pt too wide) in paragraph at lines 139--139
-[] 
- []
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.156 	\end{align*}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.156 	\end{align*}
-                   
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.156 	\end{align*}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \omit.
-\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
-                                                  \kern -\alignsep@ \iftag@ ...
-l.156 	\end{align*}
-                   
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.156 	\end{align*}
-                   
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Overfull \hbox (46.79372pt too wide) in paragraph at lines 156--156
-[] 
- []
 
 [11]
-Overfull \hbox (32.85223pt too wide) in paragraph at lines 165--165
+Overfull \hbox (42.05664pt too wide) in paragraph at lines 120--120
 [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.142 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.142 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.142 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.142 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Overfull \hbox (8.60057pt too wide) in paragraph at lines 142--142
+[] 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.159 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.159 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Overfull \hbox (46.79372pt too wide) in paragraph at lines 159--159
+[] 
+ []
+
 [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Overfull \hbox (32.85223pt too wide) in paragraph at lines 168--168
+[] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (10Mi_M5_21-12-2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `10Mi_M5_21-12-2017.out' has not changed.
-(rerunfilecheck)             Checksum: A215A148B3A89BF24CAFCF7EBC5D460D;1394.
+(rerunfilecheck)             Checksum: AF550E25459FFFE34F644FC8CAD2BD51;1444.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to '10Mi_M5_21-12-2017.run.xml'.
 \openout1 = `10Mi_M5_21-12-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25934 strings out of 493333
- 488881 string characters out of 3139197
- 894546 words of memory out of 3000000
+ 25935 strings out of 493333
+ 488888 string characters out of 3139197
+ 894735 words of memory out of 3000000
  29140 multiletter control sequences out of 15000+200000
  608849 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2858,9 +2861,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
 /lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_M5_21-12-2017.pdf (13 pages, 414431 bytes).
+Output written on 10Mi_M5_21-12-2017.pdf (14 pages, 420145 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
