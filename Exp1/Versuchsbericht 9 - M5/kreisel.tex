@@ -137,26 +137,3 @@ Die relative Unsicherheit des graphisch ermittelten Trägheitsmoment ist mit $10
 Um weitere Übereinstimmungen zu erhalten, muss das Experiment ggf. noch einmal wiederholt werden, um einen schärferen graphischen Wert zu bekommen.
 Dabei wäre es besonders wichtig, die Präzessionszeit über mehrere Perioden zu bestimmen und dabei die Eigenfrequenz des Kreisels konstant zu halten.
 Das könnte z. B. durch eine längere Einpendelzeit vor der Messung eingebracht werden.
-
-\subsection{Anhang}
-
-\begin{equation}
-	\label{eq:unc_t}
-	u(t) = \sqrt{u(t_R)^2 + u(t_D)^2} \approx \SI{0,020615}{\second}
-\end{equation}
-
-\begin{align}
-	\label{eq:unc_traeg}
-	u(J) = u(J_2) &= \frac{2}{5} \sqrt{\left( \pdv{m_k r_k^2}{m_k} u(m_k)\right) ^2 + \left( \pdv{m_k r_k^2}{r_k} u(r_k)\right) ^2}\\
-	&= \frac{2}{5} \sqrt{(r_k^2 u(m_k))^2 + (2r_k m_k u(r_k))^2} \approx \SI{15,010472}{g\,\centi\meter\squared}
-\end{align}
-
-\begin{equation}
-	\label{eq:unc_length}
-	u(l) = \sqrt{u(L)^2 + u(r_k)^2 + u(h)^2} \approx \SI{0,015215}{\centi\meter}
-\end{equation}
-
-\begin{equation}
-	\label{eq:unc_traeg2}
-	u(J) = \frac{1}{2\pi} \pdv{m'}{m'} u(m') = \frac{u(m')}{2\pi}
-\end{equation}
