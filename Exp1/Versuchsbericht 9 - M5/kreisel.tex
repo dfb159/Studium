@@ -7,30 +7,29 @@ Dazu wird es zuerst direkt durch die geometrische Form berechnet und dann mit Hi
 
 	\subsubsection{Aufbau}
 	
-	Ein Kreisel besteht aus einer Metallkugel, einer Verbindungsstange und einem an dieser verschiebbaren Gewicht.
-	Der Kreisel wird auf ein Luftkissen annähernd reibungsfrei gelagert.
+	Der Kreisel besteht aus einer Metallkugel, einer Verbindungsstange und einem verschiebbaren Gewicht, welches an der Stange angebracht ist.
+	Mit Hilfe von Pressluft wird der Kreise annähernd reibungsfrei gelagert.
 	Zudem wird so der Unterstützungspunkt im Kugelmittelpunkt gehalten.
 	Zunächst stehe der Kreisel aufrecht.
 	Die Kugel wird nun tangential mit Druckluft angeblasen, bis der Kreisel stabil rotiert.
-	Der Kreisel wird in etwa um den Winkel $\frac{\pi}{4}$ gekippt und präzessiert nun zusätzlich um die Senkrechte.
-	Für eine weitere Stabilisierung kann der Kreisel einmal am Finger entlang geleitet werden, um unregelmäßige Bewegungen weitgehend zu vermeiden.
+	Dann wird dieser in etwa um den Winkel $\frac{\pi}{4}$ geschwenkt und nun zusätzlich um die Senkrechte präzessiert .
+	Um unregelmäßige Bewegungen weitgehend zu vermeiden, kann der Kreisel für weitere Stabilisierung an einem Finger entlang geleitet werden.
 	
-	Ein Stroboskoplicht wird eingeschaltet und auf eine bestimmte Frequenz eingestellt.
-	Durch einen kleinen weißen Punkt auf der Kugel kann die Rotation des Kreisels mit der Frequenz des Stroboskoplichtes synchronisiert werden.
-	Dies ist dann erreicht, wenn sich der Punkt scheinbar nicht mehr bewegt.
+	Ein Stroboskop-licht wird eingeschaltet und auf eine bestimmte Frequenz eingestellt.
+	Durch einen kleinen weißen Punkt auf der Kugel kann die Rotation des Kreisels mit der Frequenz des Stroboskop-lichtes synchronisiert werden.
+	Dies wird dann erreicht, wenn sich der Punkt scheinbar nicht mehr bewegt.
 	Dabei kann eine feine Abstimmung durch Variation des Abstandes und des Winkels der Druckluftdüse zu der Metallkugel erreicht werden.
 	
 	\subsubsection{Komplikationen}
 	
 	Der erste verwendete Kreisel war nicht ganz stabil und die Präzessionsbewegung wies stets nach kurzer Zeit unruhige Bewegungen auf.
-	Das kommt wahrscheinlich von einer Unwucht, also einer Deformation des Kreisels.
+	Dies lag wahrscheinlich an einer Unwucht, also einer Deformation des Kreisels.
 	
-	Der Kreisel ist beim Abbremsen von einer hohen Frequenz von über \SI{3500}{\hertz} von der Platform geflogen.
-	Bei allen weiteren Messungen wurde die Kugel immer erst mit Druckluft abgebremmst und senkrecht aufgerichtet, bevor sie gestoppt wurde.
+	Der Kreisel ist beim Abbremsen von einer hohen Frequenz von über \SI{3500}{\hertz} von der Plattform geflogen.
+	Bei allen weiteren Messungen wurde die Kugel immer erst mit Druckluft abgebremst und senkrecht aufgerichtet, bevor sie gestoppt wurde.
 	
 	\subsubsection{Unsicherheiten}
 	
-<<<<<<< HEAD
 	Das Stroboskoplicht sei relativ zur Frequenz auf $1\%$ ungenau.
 	Also $u(f) = 0,01 f$.
 	
@@ -54,29 +53,28 @@ Dazu wird es zuerst direkt durch die geometrische Form berechnet und dann mit Hi
 	\end{equation}
 	Für kombinierte Unsicherheiten folgt aus dieser $u(b) = \sqrt{\sum_{k=1}^n u(b_k)^2}$.
 	Bei graphisch ermittelten Werten wird die Unsicherheit automatisch errechnet\footnote{Z. B. im Programm SciDaVis beim erstellen eines Fits.}.
-=======
-		%TODO
-		Zur Berechnung der Unsicherheiten für die gemessenen und ermittelten Werte dient folgende Formel: 
-		\begin{equation*}
+
+	Zur Berechnung der Unsicherheiten für die gemessenen und ermittelten Werte dient folgende Formel: 
+	\begin{equation*}
 		u(s) = \pm \sqrt{\sum_{k=0}^{N}\left( \frac{\partial f}{\partial x_i}u(x_i)\right) ^2}. 
-		\end{equation*}
->>>>>>> 3f5ad67e9305bed0e93a2f8e917dbeff04d1a0d9
+	\end{equation*}
+
 
 \subsection{Messung}
 	
 	Der Kugeldurchmesser wurde fünf mal mit der Schieblehre vermessen.
-	Es ergibt sich ein Kugelradius $r_k = \SI{2,5292 +- 0,0145}{\centi\meter}$.
+	Es ergibt sich somit ein gemittelter Kugelradius $r_k = \SI{2,5292 +- 0,0145}{\centi\meter}$.
 	Die Kugel hat ein Gewicht von $m_r = \SI{511,08 +- 0,003}{g}$.
 	
-	Die Kugel hat ein Trägheitsmoment von $J = J_1 + J_2$.
-	Dabei war angegeben, dass $J_1 = \SI{15}{g\,\centi\meter\squared}$.
+	Das Trägheitsmoment des Kreisels bestimmt sich aus den Trägheitsmomenten der Kugel und der Stange: $J = J_1 + J_2$.
+	Dabei war angegeben, dass das der Stange $J_1 = \SI{15}{g\,\centi\meter\squared}$ entspricht.
 	Das Trägheitsmoment der massiven Metallkugel mit Masse $m_k$ und Radius $r_k$ ist $J_2 = \frac{2}{5} m_k r_k^2 \approx \SI{1307,72 +- 15,01}{g\,\centi\meter\squared}$ und somit folgt ein gesammtes Trägheitsmoment von $J = \SI{1322,72 +- 15,01}{g\,\centi\meter\squared}$\footnote{Unsicherheitsrechnung siehe Gl. (\ref{eq:unc_traeg}) im Anhang.}.
 	
 	
 	Nun werden für die drei unterschiedlichen Positionen der Zusatzmasse die Kräfte ermittelt.
 	In Tab. \ref{tab:mess_kraefte} sind die Mittelwerte mit ihren Unsicherheiten aufgelistet.
 	\begin{table}[ht]
-		\caption{Gemessene Kräfte des Kreisels am äußeren Rand der Stange. Zusätzlich das daraus resultiernde Drehmoment.}
+		\caption{Gemessene Kräfte des Kreisels am äußeren Rand der Stange. Zusätzlich das daraus resultierende Drehmoment.}
 		\centering
 		\label{tab:mess_kraefte}
 		\begin{tabular}{c|S|S}
@@ -89,14 +87,14 @@ Dazu wird es zuerst direkt durch die geometrische Form berechnet und dann mit Hi
 		\end{tabular}
 	\end{table}
 	Je weiter innen das Zusatzgewicht liegt, desto kleiner ist auch die resultierende Kraft.
-	Die Länge vom Kugelmittelpunkt bis zum Newtonmeteransatzpunkt kann durch $l = L - h + r_k$ angegeben.
-	Dabei ist $L = \SI{9,214 +- 0,004}{\centi\meter}$ die gesammte Stablänge (bis zum Gewinde) und $h = \SI{0,306 +- 0,002}{\centi\meter}$ die Diche des Halteringes am Ende des Stabes.
+	Die Länge vom Kugelmittelpunkt bis zum Ansatzpunkt des Newtonmeters kann durch $l = L - h + r_k$ angegeben werden.
+	Dabei ist $L = \SI{9,214 +- 0,004}{\centi\meter}$ die gesamte Stablänge (bis zum Gewinde) und $h = \SI{0,306 +- 0,002}{\centi\meter}$ die Dicke des Halteringes am Ende des Stabes.
 	Es folgt $l = \SI{11,44 +- 0,02}{\centi\meter}$\footnote{Es handelt sich um eine kombinierte Unsicherheit, Rechnung im Anhang Gl. (\ref{eq:unc_length}).}.
 	
-	Aus den Kräften $F$ und der Läge $l$ kann nun mit der Beziehung $amg = lF$ das Drehmoment für die drei Positionen des Zusatzgewichtes berechnet werden.
+	Aus den Kräften $F$ und der Länge $l$ kann nun mit der Beziehung $amg = lF$ das Drehmoment für die drei Positionen des Zusatzgewichtes berechnet werden.
 	Die zugehörigen Werte finden sich in Tab. \ref{tab:mess_kraefte}.
 	
-	Bei der Präzession wird graphisch ausgewertet.
+	Für die Präzession wird nun graphisch ausgewertet.
 	Dazu werden die erhaltenen Werte $T_P$ gegen $\omega = 2\pi f$ ($u(\omega) = 2\pi u(f)$) aufgetragen.
 	\begin{figure}[ht]
 		\centering
@@ -114,8 +112,8 @@ Dazu wird es zuerst direkt durch die geometrische Form berechnet und dann mit Hi
 		\caption{Darstellung und Linearisierung der drei Datensätze für unterschiedliche Gewichtspositionen. Es sei anzumerken, dass die Steigung die Einheit $\si{\newton\,\centi\meter\,\second\squared} = 10^5\cdot \si{g\,\centi\meter^2}$ hat.}
 		\label{abb:gewichte}	
 	\end{figure}
-	Für die dort erhaltene Steigung gilt gerade eben $m' = \SI{0,07602 +- 0,00880}{\newton\,\centi\meter\,\second\squared} = 2\pi J$, bzw. umgestellt $J = \frac{m'}{2\pi}$.
-	Nach beachten der Einheiten folgt:
+	Für die dort erhaltene Steigung gilt $m' = \SI{0,07602 +- 0,00880}{\newton\,\centi\meter\,\second\squared} = 2\pi J$, bzw. umgestellt $J = \frac{m'}{2\pi}$.
+	Nach Betrachtung der Einheiten folgt:
 	\begin{equation}
 		J = \frac{m'}{2\pi} \approx \SI{1209,8 +- 140,1}{g\,\centi\meter\squared}
 	\end{equation}
@@ -129,7 +127,6 @@ Zum anderen konnte es durch die Präzession bei verschiedenen Positionen eines Z
 
 Vergleicht man das graphisch ermittelte Trägheitsmoment mit dem geometrisch errechneten, so liegt letzteres in einem guten Vertrauensbereich.
 Andersherum liegt aber der graphisch ermittelte Wert weit außerhalb des Vertrauensbereich des errechneten Wertes.
-
 
 \subsection{Schlussfolgerung}
 
