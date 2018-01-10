@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  3 JAN 2018 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  9 JAN 2018 23:09
 entering extended mode
 **./10Mi_M5_21-12-2017.tex
 (10Mi_M5_21-12-2017.tex
@@ -2330,11 +2330,7 @@ File: english.lbx 2017/11/21 v3.9 biblatex localization (PK/JW/AB)
 \@quotelevel=\count409
 \@quotereset=\count410
 
-(10Mi_M5_21-12-2017.aux
-
-LaTeX Warning: Label `eq:kombUnsicherheit' multiply defined.
-
-)
+(10Mi_M5_21-12-2017.aux)
 \openout1 = `10Mi_M5_21-12-2017.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -2358,8 +2354,7 @@ LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 29.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -2486,60 +2481,389 @@ been already used, duplicate ignored
                    \relax 
 l.50 	\newpage
                [1] (fallrad.tex
-<fallrad_skizze.png, id=123, 626.34pt x 655.69969pt>
+<fallrad_skizze.png, id=128, 626.34pt x 655.69969pt>
 File: fallrad_skizze.png Graphic file (type png)
  <use fallrad_skizze.png>
 Package pdftex.def Info: fallrad_skizze.png used on input line 11.
 (pdftex.def)             Requested size: 251.9989pt x 263.80602pt.
 
-<fallrad_frontal.png, id=127, 328.97906pt x 264.99pt>
+<fallrad_frontal.png, id=132, 328.97906pt x 264.99pt>
 File: fallrad_frontal.png Graphic file (type png)
 
 <use fallrad_frontal.png>
 Package pdftex.def Info: fallrad_frontal.png used on input line 20.
 (pdftex.def)             Requested size: 216.0022pt x 173.99225pt.
- [2 <./fallrad_skizze.png>] [3 <./fallrad_frontal.png>]) [4] (kreisel.tex) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+ [2]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 39.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 39.
+ [3 <./fallrad_skizze.png>]
+Overfull \hbox (19.25424pt too wide) in paragraph at lines 51--79
+ [][] 
+ []
+
+<h-gegen-t.pdf, id=154, 501.875pt x 381.425pt>
+File: h-gegen-t.pdf Graphic file (type pdf)
+ <use h-gegen-t.pdf>
+Package pdftex.def Info: h-gegen-t.pdf used on input line 85.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ [4 <./fallrad_frontal.png>] <h-gegen-t2.pdf, id=171, 501.875pt x 381.425pt>
+File: h-gegen-t2.pdf Graphic file (type pdf)
+
+<use h-gegen-t2.pdf>
+Package pdftex.def Info: h-gegen-t2.pdf used on input line 101.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ <ht2-gegen-t.pdf, id=173, 501.875pt x 381.425pt>
+File: ht2-gegen-t.pdf Graphic file (type pdf)
+
+<use ht2-gegen-t.pdf>
+Package pdftex.def Info: ht2-gegen-t.pdf used on input line 111.
+(pdftex.def)             Requested size: 360.0pt x 273.61308pt.
+ [5] [6 <./h-gegen-t.pdf>] [7 <./h-gegen-t2.pdf>])
+[8 <./ht2-gegen-t.pdf>] [9] (kreisel.tex) [10]
+Overfull \hbox (2.05765pt too wide) in paragraph at lines 80--95
+ [][] 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.114 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.114 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.114 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.114 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.114 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.114 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+[11]
+Overfull \hbox (42.05664pt too wide) in paragraph at lines 120--120
+[] 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.142 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.142 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.142 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.142 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.142 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Overfull \hbox (8.60057pt too wide) in paragraph at lines 142--142
+[] 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.159 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.159 	\end{align*}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.159 	\end{align*}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing { inserted.
+<inserted text> 
+                {
+l.159 	\end{align*}
+                   
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Overfull \hbox (46.79372pt too wide) in paragraph at lines 159--159
+[] 
+ []
+
+[12]
+Overfull \hbox (32.85223pt too wide) in paragraph at lines 168--168
+[] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (10Mi_M5_21-12-2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `10Mi_M5_21-12-2017.out' has not changed.
-(rerunfilecheck)             Checksum: 031F2E4E4EC8E10235AB6F233436FBF8;1332.
+(rerunfilecheck)             Checksum: AF550E25459FFFE34F644FC8CAD2BD51;1444.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to '10Mi_M5_21-12-2017.run.xml'.
 \openout1 = `10Mi_M5_21-12-2017.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25861 strings out of 493333
- 487951 string characters out of 3139197
- 885964 words of memory out of 3000000
- 29102 multiletter control sequences out of 15000+200000
- 583633 words of font info for 51 fonts, out of 3000000 for 9000
+ 25935 strings out of 493333
+ 488888 string characters out of 3139197
+ 894735 words of memory out of 3000000
+ 29140 multiletter control sequences out of 15000+200000
+ 608849 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,10402b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,24n,40p,10402b,1056s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+nc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmsy8.pfb>
-Output written on 10Mi_M5_21-12-2017.pdf (7 pages, 276607 bytes).
+type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_M5_21-12-2017.pdf (14 pages, 420145 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
