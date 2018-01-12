@@ -9,18 +9,18 @@
 % deutsche Texte benutzt werden.
 % Natürlich gibt es noch weitere Klassen, z.B. beamer für Präsentationen.
 \documentclass[
-	a4paper,                % Papierformat (DIN A4)
-	titlepage=firstiscover, % Separate Titelseite
-	captions=tableheading,  % \caption bei Tabellen immer als Überschrift setzen
-	toc=bibliography,       % Literaturverzeichnis im Inhaltsverzeichnis aufführen
-	toc=listof,             % Abbildungsverzeichnis etc. im Inhaltsverzeichnis aufführen
-	oneside,                % Einseitig
-	%twoside,               % Zweiseitig
-	%twocolumn,             % Zweispaltig
-	automark,               % Abschnittstitel automatisch in Kopfzeile einfügen
-	12pt,                   % Schriftgröße (beliebige Größen mit „fontsize=Xpt“)
-	english, ngerman,       % Sprache für z.B. Babel; ausgewählt: ngerman (letztgenannt)
-	%draft=true             % Entwurf-Modus; markiert zu lange und zu kurze Zeilen
+a4paper,                % Papierformat (DIN A4)
+titlepage=firstiscover, % Separate Titelseite
+captions=tableheading,  % \caption bei Tabellen immer als Überschrift setzen
+toc=bibliography,       % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+toc=listof,             % Abbildungsverzeichnis etc. im Inhaltsverzeichnis aufführen
+oneside,                % Einseitig
+%twoside,               % Zweiseitig
+%twocolumn,             % Zweispaltig
+automark,               % Abschnittstitel automatisch in Kopfzeile einfügen
+12pt,                   % Schriftgröße (beliebige Größen mit „fontsize=Xpt“)
+english, ngerman,       % Sprache für z.B. Babel; ausgewählt: ngerman (letztgenannt)
+%draft=true             % Entwurf-Modus; markiert zu lange und zu kurze Zeilen
 ]{scrartcl}
 
 % --- Pakete einbinden
@@ -41,65 +41,69 @@
 \setboolean{showBibliography}{\varZeigeLiteraturverzeichnis}
 
 \begin{document}
+	
+	% Römische Seitenzahlen für Titelseite/Inhaltsverzeichnis
+	\pagenumbering{roman}
+	% Zunächst ohne Kopf-/Fußzeile
+	\pagestyle{scrplain}
+	
+	% --- Titelseite einbinden
+	%     Falls die Datei „res/titelbild.pdf“ existiert, wird sie auf der Titelseite
+	%     eingefügt
+	\IfFileExists{tex/04_Titelseite.tex}{
+		\input{tex/04_Titelseite.tex}
+	}{}
+	
+	% --- Inhaltsverzeichnis einbinden
+	\ifthenelse{\boolean{showTOC}}{
+		\tableofcontents
+		\clearpage
+	}{}
+	
+	% Zurücksetzen der Seitenzahlen auf arabische Ziffern
+	\pagenumbering{arabic}
+	% Ab hier mit Kopf- und Fußzeile
+	\pagestyle{scrheadings}
+	
+	% --- Den Inhalt der Arbeit einbinden
+	% --- Kurzfassung des gesammten Berichts (abstract)
+	\input{tex/10_Kurzfassung.tex}
+	\vspace{2cm}
+	% --- Einzelne Teilversuche einbinden
+	\input{tex/11_Versuch1.tex}
+	\IfFileExists{tex/12_Versuch2.tex}{
+		\clearpage
+		\input{tex/12_Versuch2.tex}
+	}{}
+	\IfFileExists{tex/13_Versuch3.tex}{
+		\clearpage
+		\input{tex/13_Versuch3.tex}
+	}{}
+	\IfFileExists{tex/14_Versuch4.tex}{
+		\clearpage
+		\input{tex/14_Versuch4.tex}
+	}{}
+	%\input{tex/name.tex}
+	% --- Fazit des gesammten Versuchs einbinden, falls nötig
+	\IfFileExists{tex/19_Fazit.tex}{
+		\clearpage
+		\input{tex/19_Fazit.tex}
+	}{}
 
-% Römische Seitenzahlen für Titelseite/Inhaltsverzeichnis
-\pagenumbering{roman}
-% Zunächst ohne Kopf-/Fußzeile
-\pagestyle{scrplain}
-
-% --- Titelseite einbinden
-%     Falls die Datei „res/titelbild.pdf“ existiert, wird sie auf der Titelseite
-%     eingefügt
-\IfFileExists{tex/04_Titelseite.tex}{
-	\input{tex/04_Titelseite.tex}
-}{}
-
-% --- Inhaltsverzeichnis einbinden
-\ifthenelse{\boolean{showTOC}}{
-	\tableofcontents
+	% --- Anhang einbinden
+	\IfFileExists{tex/20_Anhang.tex}{
 	\clearpage
-}{}
-
-% Zurücksetzen der Seitenzahlen auf arabische Ziffern
-\pagenumbering{arabic}
-% Ab hier mit Kopf- und Fußzeile
-\pagestyle{scrheadings}
-
-% --- Den Inhalt der Arbeit einbinden
-% --- Kurzfassung des gesammten Berichts (abstract)
-\input{tex/10_Kurzfassung.tex}
-% --- Einzelne Teilversuche einbinden
-\input{tex/11_Versuch1.tex}
-\IfFileExists{tex/12_Versuch2.tex}{
-	\input{tex/12_Versuch2.tex}
-}{}
-\IfFileExists{tex/13_Versuch3.tex}{
-\input{tex/13_Versuch3.tex}
-}{}
-\IfFileExists{tex/14_Versuch4.tex}{
-\input{tex/14_Versuch4.tex}
-}{}
-%\input{tex/name.tex}
-% --- Fazit des gesammten Versuchs einbinden, falls nötig
-\IfFileExists{tex/19_Fazit.tex}{
-	\input{tex/19_Fazit.tex}
-}{}
-
-
-% --- Anhang einbinden
-\IfFileExists{tex/20_Anhang.tex}{
-	\clearpage
-	\appendix
+	%\appendix
 	\section{Anhang}
 	\label{sec:anhang}
 	\input{tex/20_Anhang.tex}
-}{}
-
-% --- Literaturverzeichnis mit BibLaTeX
-%\ifthenelse{\boolean{showBibliography}}{
-%	\clearpage
-%	\printbibliography
-%}{}
-
+	}{}
+	
+	% --- Literaturverzeichnis mit BibLaTeX
+	%\ifthenelse{\boolean{showBibliography}}{
+	%	\clearpage
+	%	\printbibliography
+	%}{}
+	
 \end{document}
 

@@ -66,16 +66,34 @@
 \pagestyle{scrheadings}
 
 % --- Den Inhalt der Arbeit einbinden
-\input{tex/10_Zusammenfassung.tex}
-\input{tex/11_Methoden.tex}
+% --- Kurzfassung des gesammten Berichts (abstract)
+\input{tex/10_Kurzfassung.tex}
+\vspace{2cm}
+% --- Einzelne Teilversuche einbinden
+\input{tex/11_Versuch1.tex}
+\IfFileExists{tex/12_Versuch2.tex}{
+	\clearpage
+	\input{tex/12_Versuch2.tex}
+}{}
+\IfFileExists{tex/13_Versuch3.tex}{
+	\clearpage
+	\input{tex/13_Versuch3.tex}
+}{}
+\IfFileExists{tex/14_Versuch4.tex}{
+	\clearpage
+	\input{tex/14_Versuch4.tex}
+}{}
 %\input{tex/name.tex}
-\input{tex/19_Fazit.tex}
-
+% --- Fazit des gesammten Versuchs einbinden, falls nötig
+\IfFileExists{tex/19_Fazit.tex}{
+	\clearpage
+	\input{tex/19_Fazit.tex}
+}{}
 
 % --- Anhang einbinden
 \IfFileExists{tex/20_Anhang.tex}{
 	\clearpage
-	\appendix
+	%\appendix
 	\section{Anhang}
 	\label{sec:anhang}
 	\input{tex/20_Anhang.tex}
