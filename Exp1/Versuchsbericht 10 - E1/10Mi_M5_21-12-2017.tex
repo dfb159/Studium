@@ -1,0 +1,203 @@
+\documentclass[11pt,a4paper,titlepage, ngerman]{article}
+
+\usepackage[utf8]{inputenc}	
+\usepackage[T1]{fontenc}	
+\usepackage{ngerman}			
+\usepackage{lmodern}			
+\usepackage{graphicx}			
+\usepackage{url}				
+\usepackage{siunitx}
+\usepackage[intlimits]{amsmath}
+\usepackage{xfrac}
+\usepackage{commath}
+\usepackage{physics}			
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{biblatex}
+\usepackage{hyperref}
+\usepackage{textcomp}
+
+% Setup SI unit environment
+\sisetup{separate-uncertainty = true}
+\sisetup{output-decimal-marker = {,}}
+\sisetup{
+	per-mode=fraction,
+	fraction-function=\sfrac
+	% or \frac, \tfrac
+}
+\bibliography{Literatur}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		{\scshape\LARGE Versuchsbericht zu \par}
+		\vspace{1cm}
+		{\scshape\huge M5 -- Jo-Jo und Kreisel\par}
+		\vspace{2.5cm}
+		{\LARGE Gruppe 10 Mi\par}
+		\vspace{0.5cm}
+		{\large Alex Oster (E-Mail: a\_oste16@uni--muenster.de) \par}
+		{\large Jonathan Sigrist (E-Mail: j\_sigr01@uni--muenster.de) \par}
+		\vfill
+		durchgeführt am 21.12.2017\par
+		betreut von\par
+		{\large Lukas \textsc{Britt}} 
+		\vfill	
+		{\large \today\par}
+	\end{titlepage}
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Kurzfassung}
+	
+	% Einleitung & Beschreibung der Versuche
+	
+	Dieser Bericht beschäftigt sich mit der Untersuchung der Trägheit. Dazu werden zwei Versuche herangeführt, welche diese auf verschiedene Weisen darstellen.
+	
+	Der erste Versuch zu dem Fallrad zeigt ein Verhalten, welches einem Jo-Jo ähnelt. Ein langsames Abrollen und darauffolgendes Aufrollen. Hierbei wird jedoch das Abrollen genauer betrachtet. Es werden die Fallbeschleunigung und das Trägheitsmoment bestimmt und mit theoretischen Zusammenhängen, wie z. B. mit dem Abrollradius in Verbindung gebracht und die Theorie mit übereinstimmenden Werten bestätigt.
+	
+	Der zweite Versuch zeigt, dass ein Kugelkreisel durch seine Trägheit im rotierenden Zustand eine gleichförmige Bewegung durchführt.
+	Es tritt eine Präzessionsbewegung auf, mit welcher sich die Figurenachse des Kreisels langsam aber gleichmäßig um die Senkrechte dreht.
+	Durch die Präzessionseffekte wird das Trägheitsmoment bestimmt und mit weiteren theoretischen Werten verglichen.
+			
+	\vspace{2cm} 
+	
+	\input{fallrad.tex} 
+	\newpage
+	\input{kreisel.tex} 
+	
+	%\section*{Literatur}
+	%\printbibliography
+	
+	\newpage
+	
+	\section{Anhang} \label{Anhang}
+		
+	% Unsicherheitsrechnung & mehr
+	
+	\subsection{Unsicherheiten Fallrad}
+	
+	\begin{table}[ht]
+		\centering
+		\caption{einfache Unsicherheiten für die Werte bei der Berechnung für das Fallrad. Alle Unsicherheiten für Mittelwerte über fünf Werte (außer bei der Fadendicke, hier wurden sechs Werte aufgenommen). Da zur Vereinfachung der Messung Durchmesser und nicht Radien gemessen wurden, sind die Unsicherheiten in \ref{tab:Messwerte} um den Faktor 0.5 verschieden.}
+		\begin{tabular}{l|l|l}
+			{Unsicherheit $u$ der/des ...} & {Berechnung}  & {Ergebnis}\\
+			\hline 
+			{Stoppuhr} &  {$u_\text{Uhr}$ = $\frac{\SI{0,01}{\second}}{2\sqrt{3}}$} & {\SI{2,89}{\milli\second}} \\
+			{Reaktionszeit} & {$u_\text{Reaktion} = \frac{\SI{0,1}{\second}}{2\sqrt{6}}$} & {\SI{20,4}{\milli\second}} \\
+			{Zeitmessung} & {$u_\text{Zeit} = \sqrt{\left( u_\text{Uhr}\right) ^2+\left( u_\text{Reaktion}\right) ^2}$} & {\SI{20,6}{\milli\second}} \\
+			{gemittelten Zeitmessung} & {$u_\text{ZeitMitt} = \sqrt{5\cdot\left(u_\text{Zeit}\right) ^2}$} & {\SI{46,1}{\milli\second}} \\
+			\hline 
+			{Maßes} &  {$u_\text{Maß}$ = $\frac{\SI{1}{\mm}}{2\sqrt{3}}$} & {\SI{0,29}{\mm}} \\
+			{Schiebelehre} &  {$u_\text{Schiebe}$ = $\frac{\SI{0,04}{\mm}}{2\sqrt{3}}$} & {\SI{0,012}{\mm}} \\
+			{gemittelten Längenmessung} &  {$u_\text{LängeMitt} = \sqrt{5\cdot\left(u_\text{Schiebe}\right) ^2}$} & {\SI{0,026}{\mm}} \\
+			{Fadendicke} &  {$u_\text{FadenDicke} = \sqrt{6\cdot\left(u_\text{Schiebe}\right) ^2}$} & {\SI{0,028}{\mm}} \\
+			\hline
+			{Waage} & {$u_\text{Waage} = \frac{\SI{0,01}{\g}}{2\sqrt{6}}$} & \SI{0,002}{\g}{}
+		\end{tabular}
+	\end{table}
+
+	Für die Unsicherheit der Fallhöhe $h$ wird die des Maßes $u_\text{Maß}$ und für die Fallzeit die Unsicherheit der gemittelten Zeitmessung $u_\text{ZeitMitt}$ verwendet. Für die Fallzeit zum Quadrat ergibt sich der folgende Zusammenhang:
+	\begin{align*}
+		u(t^2) = \sqrt{\left( \frac{\partial t^2}{\partial t}\cdot u_\text{ZeitMitt}\right) ^2}\\
+			   = \sqrt{\left( 2 t\cdot u_\text{ZeitMitt}\right) ^2}.
+	\end{align*}
+	Ähnlich gilt für $\frac{h}{t^2}$:
+	\begin{align*}
+		u\left( \frac{h}{t^2}\right) = \sqrt{\left( \frac{\partial \frac{h}{t^2}}{\partial h}\cdot u_\text{Maß}\right) ^2 + \left( \frac{\partial \frac{h}{t^2}}{\partial t}\cdot u_\text{ZeitMitt}\right) ^2}\\
+		= \sqrt{\left( \frac{1}{t^2}\cdot u_\text{Maß} \right) ^2 + \left(-2 \frac{h}{t^3}\cdot u_\text{ZeitMitt} \right) ^2}.
+	\end{align*}
+	Bei dem Trägheitsmoment sieht die Unsicherheitsberechnung komplizierter aus. Aus Gl. \ref{eq:Trägpar} folgt:
+	\begin{align*}
+		u(J_\text{parallel}) &= 
+		\left[\left( \frac{\partial J_\text{parallel}}{\partial H}u(H)\right)^2  				
+			+ \left( \frac{\partial J_\text{parallel}}{\partial \rho}u(\rho)\right)^2 \right.\\ 
+			&\quad\left.+ \left( \frac{\partial J_\text{parallel}}{\partial R_a}u(R_a)\right)^2 
+			+ \left( \frac{\partial J_\text{parallel}}{\partial R_i}u(R_i)\right)^2\right]^{\frac{1}{2}}.			 
+	\end{align*}
+	Beziehungsweise für das Trägheitsmoment für senkrecht zur Rotationsachse liegende Vollzylinder:
+	\begin{align*}
+		u(J_\text{senkrecht}) = \sqrt{\left( \frac{\partial J_\text{senkrecht}}{\partial H}u(H)\right)^2 				
+			+ \left( \frac{\partial J_\text{senkrecht}}{\partial \rho}u(\rho)\right)^2 + 
+			+ \left( \frac{\partial J_\text{senkrecht}}{\partial R}u(R)\right)^2}.			 
+	\end{align*}
+	$H$ ist bei beiden Gleichungen die Höhe bzw. Dicke des Zylinders. Für den Ring ist $u(H) =  u_\text{LängeMitt}$, für die Speichenzylinder ebenso, da deren Höhe $R_i$ entspricht und auch diese Größe fünf mal gemessen wurde. Für die Achse ist $u(H) =  u_\text{Schiebe}$. Zudem ist $u(R) = u_\text{Schiebe}$ für die Achse ($R_a = R, R_i = 0$ für diese), wie auch für die Speichenzylinder. Bei dem Ring ist $u(R_a) = u(R_i) = u(H) = u_\text{LängeMitt}$.
+	Für alle Größen ist $u(\rho)$ gleich. Es setzt sich aus der Massenunsicherheit und der Volumenunsicherheit zusammen:
+	\begin{align*}
+		u(\rho) = \sqrt{\left( \frac{\partial \frac{m}{V}}{\partial m}u(m)\right)^2 + \left( \frac{\partial \frac{m}{V}}{\partial V}u(V)\right)^2} \\
+			= \sqrt{\left(\frac{1}{V}u_\text{Waage}\right)^2 + \left(- \frac{m}{V^2}u(V)\right)^2}. 
+	\end{align*}
+	Dabei setzt sich $u(V)$ wie folgt zusammen aus V zusammen:
+	\begin{align*}
+		V &= H\cdot(\pi R_a^2 - \pi R_i^2) + 2(2\pi R_S\cdot 2 R_i) + 2\pi R_A\cdot L_A. \\		
+		\Rightarrow u(V) &= \left[\left( \frac{\partial V}{\partial H}u(H)\right)^2 
+			+ \left( \frac{\partial V}{\partial R_a}u(R_a)\right)^2 
+			+ \left( \frac{\partial V}{\partial R_i}u(R_i)\right)^2 \right.\\ 
+			&\quad\left.+ \left( \frac{\partial V}{\partial R_S}u(R_S)\right)^2 
+			+ \left( \frac{\partial V}{\partial R_A}u(R_A)\right)^2 
+			+ \left( \frac{\partial V}{\partial L_A}u(L_A)\right)^2\right]^{\frac{1}{2}} \\		
+		&= \left[\left( (\pi R_a^2 - \pi R_i^2)u(H)\right)^2 
+			+ \left( (2\pi H R_a)u(R_a)\right)^2 
+			+ \left( (-2\pi H R_i+8\pi R_S)u(R_i)\right)^2 \right.\\ 
+			&\quad\left.+ \left( (8\pi R_i)u(R_S)\right)^2 
+			+ \left( (2\pi)u(R_A)\right)^2 
+			+ \left( (1)u(L_A)\right)^2\right]^{\frac{1}{2}}		
+	\end{align*}
+	Dabei sind $u(H)=u(R_a)=u(r_i)=u_\text{LängeMitt}$ und $u(R_S)=u(R_A)=u(L_A)=u_\text{Schiebe}$.
+	So ergeben sich für die drei verschiedenen Teile folgende Unsicherheiten für die Trägheitsmomente:
+	\begin{align*}
+	u(J_\text{Ring}) &= 
+	\left[\left( (\frac{1}{2}\pi\rho (R_a^4 - R_i^4))u_\text{LängeMitt}\right)^2  				
+		+ \left( (\frac{1}{2}\pi H (R_a^4 - R_i^4))u(\rho)\right)^2 \right.\\ 
+		&\quad\left.+ \left( (2\pi H \rho R_a^3)u_\text{LängeMitt}\right)^2
+		+ \left( (2\pi H \rho R_i^3)u_\text{LängeMitt}\right)^2\right]^{\frac{1}{2}}\\
+	u(J_\text{Achse}) &= 
+	\left[\left( (\frac{1}{2}\pi\rho R_S^4)u_\text{Schiebe}\right)^2  				
+		+ \left( (\frac{1}{2}\pi L_A R_S^4)u(\rho)\right)^2  
+		+ \left( (2\pi L_A \rho R_S^3)u_\text{Schiebe}\right)^2\right]^{\frac{1}{2}}\\
+	u(J_\text{Speiche}) &= 
+	\left[\left( (\frac{1}{4}\pi\rho R_i^2 R_S^2+\frac{1}{4}\pi\rho R_S^4)u_\text{LängeMitt}\right)^2  				
+		+ \left( (\frac{1}{12}\pi R_i^3 R_S^2 + \frac{1}{4}\pi R_i R_S^4)u(\rho)\right)^2\right. \\ 
+		&\quad\left.+ \left( (\frac{1}{6}\pi \rho R_i^3 R_S + \pi \rho R_i R_S^3)u_\text{LängeMitt}\right)^2\right]^{\frac{1}{2}}.	  
+	\end{align*}
+	Und somit schließlich für $J_S$:
+	\begin{equation*}
+		u(J_S)= \sqrt{u(J_\text{Ring})^2 + u(J_\text{Achse})^2 + u(J_\text{Speiche})^2}.
+	\end{equation*}
+	Für die Unsicherheit des Abrollradius' ergibt sich:
+	\begin{align*}
+		u(R) = \sqrt{\left( \frac{\partial R}{\partial J_S}u(J_S)\right)^2 + \left(\frac{\partial R}{\partial g^{*}}u(g^{*})\right) ^2} \\
+		= \sqrt{\left( \frac{1}{2\sqrt{J_S g^{*} m(g-g^{*})}}u(J_S)\right)^2 + \left(\frac{1}{2\sqrt{J_S g^{*} m(g-g^{*})}}+\frac{m\sqrt{J_S g^{*}}}{2\sqrt{m(g-g^{*})}^3} u(g^{*})\right) ^2}.
+	\end{align*}
+	
+	\subsection{Unsicherheiten für Kreisel}
+	
+	
+	\begin{equation}
+	\label{eq:unc_t}
+	u(t) = \sqrt{u(t_R)^2 + u(t_D)^2} \approx \SI{0,020615}{\second}
+	\end{equation}
+	
+	\begin{align}
+	\label{eq:unc_traeg}
+	u(J) = u(J_2) &= \frac{2}{5} \sqrt{\left( \pdv{m_k r_k^2}{m_k} u(m_k)\right) ^2 + \left( \pdv{m_k r_k^2}{r_k} u(r_k)\right) ^2}\\
+	&= \frac{2}{5} \sqrt{(r_k^2 u(m_k))^2 + (2r_k m_k u(r_k))^2} \approx \SI{15,010472}{g\,\centi\meter\squared}
+	\end{align}
+	
+	\begin{equation}
+	\label{eq:unc_length}
+	u(l) = \sqrt{u(L)^2 + u(r_k)^2 + u(h)^2} \approx \SI{0,015215}{\centi\meter}
+	\end{equation}
+	
+	\begin{equation}
+	\label{eq:unc_traeg2}
+	u(J) = \frac{1}{2\pi} \pdv{m'}{m'} u(m') = \frac{u(m')}{2\pi}
+	\end{equation}
+	
+\section*{Literatur}
+	
+	[1] Abb. \ref{fig:FallradSkizze} wurde der Einführung des Versuches aus dem LearnWeb entnommen.
+	
+\end{document} 
