@@ -44,19 +44,22 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>10Mi_M5_21-12-2017.bcf</file>
+      <file>protokoll.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>10Mi_M5_21-12-2017.bbl</file>
+      <file>protokoll.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
-      <file>numeric.bbx</file>
+      <file>verbose.bbx</file>
+      <file>authortitle.bbx</file>
       <file>standard.bbx</file>
-      <file>numeric.cbx</file>
+      <file>verbose.cbx</file>
       <file>biblatex.cfg</file>
+      <file>ngerman.lbx</file>
+      <file>german.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
@@ -64,22 +67,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>10Mi_M5_21-12-2017</infile>
+      <infile>protokoll</infile>
     </cmdline>
     <input>
-      <file>10Mi_M5_21-12-2017.bcf</file>
+      <file>protokoll.bcf</file>
     </input>
     <output>
-      <file>10Mi_M5_21-12-2017.bbl</file>
+      <file>protokoll.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>10Mi_M5_21-12-2017.bbl</file>
+      <file>protokoll.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>10Mi_M5_21-12-2017.bcf</file>
+      <file>protokoll.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Literatur.bib</file>
+      <file>res/literatur.bib</file>
     </requires>
   </external>
 </requests>
