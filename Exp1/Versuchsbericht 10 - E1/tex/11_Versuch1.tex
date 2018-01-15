@@ -1,63 +1,62 @@
-\section{Versuch1} 
+\section{Untersuchung von Akkumulatorzellen} 
 
-Dies ist ein Teilversuch.
-Der Abschnitt sagt grundsätzliches über den konkreten Versuch aus.
-Es werden relevante physikalische Effekte qualitativ beleuchtet.
-Es wird das Ziel des Versuchs angegeben.
+% TODO
+% Dies ist ein Teilversuch.
+% Der Abschnitt sagt grundsätzliches über den konkreten Versuch aus.
+% Es werden relevante physikalische Effekte qualitativ beleuchtet.
+% Es wird das Ziel des Versuchs angegeben.
 
-Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
-Dann werden diese in den Kontext kurz eingebunden.
+% Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
+% Dann werden diese in den Kontext kurz eingebunden.
 
 \subsection{Methoden}
 
 \subsubsection{Aufbau}
 
-Beschreibung des Aufbaus des Versuches.
-Gegebenenfalls weitere Beschreibung einzelner Komponenten.
-Falls Abweichung von der Versuchsvorschrift Begründung.
-Bei Verwechlungsgefahr kann  auf diese noch einmal genauer darauf eingegangen werden.
+Der Aufbau dieses Versuchs beschränkt sich auf einen simplen Schaltkreis, welcher zunächst nur aus einer Akkumulatorzelle und einem regulierbaren Widerstand $R_a$ besteht. 
+Zusätzlich dazu ist ein Multimeter an die Akkumulatorzelle geschlossen, sodass die dort anliegende Spannung gemessen werden kann. 
+Mit diesem Aufbau wird zuerst die Leerlaufspannung $U_0$ der Akkumulatorzelle und dann der Innenwiderstand $R_i$ dieser bestimmt.
+Dazu wird die Klemmspannung $U_kl$ gemessen und in Abhängigkeit des elektrischen Stroms $I$ gesetzt, welcher sich durch die Spannung und dem anliegenden Widerstand bestimmen lässt.
 
-Beschreibung der Durchführung.
-In welcher Reihenfolge wurde wie was gemacht.
-Kurz halten, denn ist ja schon in Anleitung drin.
-Bei schwierigen Stellen kann auch hier ein kurzer Vermerk eingebracht werden.
+Dieser Vorgang wird dann für drei in Reihe- und drei parallel geschaltete Akkumulatorzellen wiederholt. 
 
 \subsubsection{Unsicherheiten}
 
-Alle primären Unsicherheiten der im Versuch verwendeten Messinstrumente.
-Dazu eine Begründung zu jedem (Rechteck, Dreieck, Gauß; z. B. Waagegenauigkeit, Reaktionszeit).
-Grundsätzliche Fehlerfortpflanzung nach GUM (kombinierte und fortpflanzende Fehler).
+Im Allgemeinen dient zur Berechnung der Unsicherheiten für die gemessenen und ermittelten Werte nach GUM die folgende Formel: 
+\begin{equation*}
+	u(s) = \pm \sqrt{\sum_{k=0}^{N}\left( \frac{\partial f}{\partial x_i}u(x_i)\right) ^2}. \label{eq:kombUnsicherheit}
+\end{equation*}
+Die Berechnung kombinierter Unsicherheiten erfolgt im Anhang\ref*{sec:anhang}.
+Bei diesem Versuch treten lediglich die Unsicherheit des Multimeters und des Lastwiderstands $R_a$ auf. Da das Multimeter eine analoge Darstellung der Messwerte verwendet, und sich je nach verwendeter Größenordnung mit einer Genauigkeit von \SI{1}{V} bzw. \SI{0,1}{V} ablesen ließen, werden diese Werte mit einer Dreiecksverteilung für die Unsicherheit des Geräts verwendet.
+Für die Unsicherheit des Widerstands wird, da es sich hierbei um einen alten Stöpselwiderstand, eine prozentuale Abweichung des dargestellten Werts von 5\% gewählt.
 
-\subsubsection{Komplikationen}
-
-Falls erwähnungsbedürftige oder den Versuchsablauf behindernde Sachverhalte aufgetreten sind, kann man das hier der Welt mitteilen.
-Darauf kann später im Fazit noch einmal eingegangen werden.
+% TODO?
 
 \subsection{Datenanalyse}
 
-Alle Messwerte und Daten (Laborbuch und weitere Datenfiles) anbeilegen und ggf. darauf Bezug nehmen.
-Alle primären Messwerte, soweit nicht völlig sinnfrei, in graphischer Form einfügen.
-Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
-Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
-Vollständige Fehlerberechnung in den Anhang.
-Da grundsätzlich schon vorher erläutert (GUM) reicht hier eine kurze Anmerkung auf die Fehlerrechnung.
-Ergebnis graphisch darstellen und auf passende Darstellungsweise (Unsicherheiten, signifikante Stellen) achten.
+% Alle Messwerte und Daten (Laborbuch und weitere Datenfiles) anbeilegen und ggf. darauf Bezug nehmen.
+% Alle primären Messwerte, soweit nicht völlig sinnfrei, in graphischer Form einfügen.
+% Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
+% Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
+% Vollständige Fehlerberechnung in den Anhang.
+% Da grundsätzlich schon vorher erläutert (GUM) reicht hier eine kurze Anmerkung auf die Fehlerrechnung.
+% Ergebnis graphisch darstellen und auf passende Darstellungsweise (Unsicherheiten, signifikante Stellen) achten.
 
-Falls mehrere voneinander unabhängige Lösungen existieren (z. B. bei der geometrischen Bestimmung des Trägheitsmomentes des Kreisels), können diese in Unterkapitel gegliedert werden.
+% Falls mehrere voneinander unabhängige Lösungen existieren (z. B. bei der geometrischen Bestimmung des Trägheitsmomentes des Kreisels), können diese in Unterkapitel gegliedert werden.
 
 \subsection{Diskussion}
 
-Die Ergebnisse in den Kontext einbinden.
-Zusammenhänge noch einmal darstellen.
-Jegliche Aussagen durch Ergebnisse oder Vorwissen untermauern.
-Ergebnisse mit Referenzwerten/Literaturwerten vergleichen und auf Unsicherheiten eingehen (Vertrauensgrad).
+% Die Ergebnisse in den Kontext einbinden.
+% Zusammenhänge noch einmal darstellen.
+% Jegliche Aussagen durch Ergebnisse oder Vorwissen untermauern.
+% Ergebnisse mit Referenzwerten/Literaturwerten vergleichen und auf Unsicherheiten eingehen (Vertrauensgrad).
 
 \subsection{Schlussfolgerung}
 
-Das Ziel noch einmal erläutern.
-Fazit des Versuchs angeben (untermauert die These; weicht von den Literaturwerten ab; ...).
-Warum folgt aus den Ergebnissen das Fazit.
-Mit ermittelten Daten und Unsicherheiten begründen.
-Auf Unsicherheiten weiter eingehen und Vertrauensgrad bzw. Relevanz der Schlussfolgerung auf die derzeitige Wissenslage angeben (meistens nicht relevant).
-Verbesserungsvorschläge für das nächste Mal und allgemeine Rekapitulierung über das durchgeführte Experiment.
-Warum muss man das Experiment unbedingt noch mal durchführen.
+% Das Ziel noch einmal erläutern.
+% Fazit des Versuchs angeben (untermauert die These; weicht von den Literaturwerten ab; ...).
+% Warum folgt aus den Ergebnissen das Fazit.
+% Mit ermittelten Daten und Unsicherheiten begründen.
+% Auf Unsicherheiten weiter eingehen und Vertrauensgrad bzw. Relevanz der Schlussfolgerung auf die derzeitige Wissenslage angeben (meistens nicht relevant).
+% Verbesserungsvorschläge für das nächste Mal und allgemeine Rekapitulierung über das durchgeführte Experiment.
+% Warum muss man das Experiment unbedingt noch mal durchführen.
