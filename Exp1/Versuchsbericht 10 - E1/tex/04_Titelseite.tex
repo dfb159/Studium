@@ -10,17 +10,23 @@
 }
 \makeatother
 
-\title{Versuchsprotokoll \varNum}
-\subtitle{\varName}
-\subject{Experimentelle Übungen~I}
-\date{\DTMdate{\varDatum}}
-\ifthenelse{\boolean{showEmail}}{%
-	\author{\vfill\varAutor\\\normalsize\varGruppe\\\protokollemailparse{\varEmail} \vfill \varBetreuer}%
-}{%
-	\author{\varAutor\\\normalsize\varGruppe \\ \varBetreuer}%
-}
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Versuchsbericht zu \par}
+	\vspace{1cm}
+	{\scshape\huge \varNum {} --\varName\par}
+	\vspace{2.5cm}
+	{\LARGE \varGruppe\par}
+	\vspace{0.5cm}
+	{\large Alex Oster (a\_oste16@uni--muenster.de) \par}
+	{\large Jonathan Sigrist (j\_sigr01@uni--muenster.de) \par}
+	\vfill
+	durchgeführt am \varDatum\par
 
-
+	{\large \varBetreuer} 
+	\vfill	
+	{\large \today\par}
+\end{titlepage}
 
 
 % Falls die Datei „res/titelbild.pdf“ existiert, wird sie hier eingefügt

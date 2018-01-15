@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>protokoll.bcf</file>
+      <file>10Mi_E1_10-01-2018.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>protokoll.bbl</file>
+      <file>10Mi_E1_10-01-2018.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,22 +67,23 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>protokoll</infile>
+      <infile>10Mi_E1_10-01-2018</infile>
     </cmdline>
     <input>
-      <file>protokoll.bcf</file>
+      <file>10Mi_E1_10-01-2018.bcf</file>
     </input>
     <output>
-      <file>protokoll.bbl</file>
+      <file>10Mi_E1_10-01-2018.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>protokoll.bbl</file>
+      <file>10Mi_E1_10-01-2018.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>protokoll.bcf</file>
+      <file>10Mi_E1_10-01-2018.bcf</file>
     </requires>
     <requires type="editable">
       <file>res/literatur.bib</file>
+      <file>Literatur.bib</file>
     </requires>
   </external>
 </requests>

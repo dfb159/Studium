@@ -1,13 +1,7 @@
+% Autor: Alex Oster, Jonathan Sigrist
+% Datum: 2018-01-15
+% basiert auf der Vorlage für Versuchsprotokolle von Simon May
 
-% LaTeX-Vorlage für Versuchsprotokolle
-% Autor: Simon May
-% Datum: 2017-10-05
-
-% Es gibt die Dokumenttypen scrartcl („Artikel“), scrreprt („Bericht“),
-% scrbook („Buch“) und scrlttr2 („Brief“). Diese gehören zum KOMA-Script,
-% bieten mehr Optionen als die „Standardklassen“ und sollten besonders für
-% deutsche Texte benutzt werden.
-% Natürlich gibt es noch weitere Klassen, z.B. beamer für Präsentationen.
 \documentclass[
 	a4paper,                % Papierformat (DIN A4)
 	titlepage=firstiscover, % Separate Titelseite
@@ -23,14 +17,10 @@
 	%draft=true             % Entwurf-Modus; markiert zu lange und zu kurze Zeilen
 ]{scrartcl}
 
-% --- Pakete einbinden
 \input{tex/01_PaketeEinstellungen.tex}
-
-% --- Eigene Befehle einbinden
 \input{tex/02_EigeneBefehle.tex}
-
-% --- Variablen importieren
 \input{tex/03_Variablen.tex}
+
 \newboolean{showEmail}
 \setboolean{showEmail}{\varZeigeEmail}
 \newboolean{showHeader}
@@ -40,70 +30,77 @@
 \newboolean{showBibliography}
 \setboolean{showBibliography}{\varZeigeLiteraturverzeichnis}
 
+\renewcommand\maketitle{}
+
+\bibliography{Literatur}
+
 \begin{document}
+	
+	% Römische Seitenzahlen für Titelseite/Inhaltsverzeichnis
+	\pagenumbering{roman}
+	% Zunächst ohne Kopf-/Fußzeile
+	\pagestyle{scrplain}
+	
+	% --- Titelseite einbinden
+	%     Falls die Datei „res/titelbild.pdf“ existiert, wird sie auf der Titelseite
+	%     eingefügt
+	\IfFileExists{tex/04_Titelseite.tex}{
+		\input{tex/04_Titelseite.tex}
+	}{}
 
-% Römische Seitenzahlen für Titelseite/Inhaltsverzeichnis
-\pagenumbering{roman}
-% Zunächst ohne Kopf-/Fußzeile
-\pagestyle{scrplain}
+	
+	% --- Inhaltsverzeichnis einbinden
+	\ifthenelse{\boolean{showTOC}}{
+		\tableofcontents
+		\clearpage
+	}{}
+	
+	% Zurücksetzen der Seitenzahlen auf arabische Ziffern
+	\pagenumbering{arabic}
+	% Ab hier mit Kopf- und Fußzeile
+	\pagestyle{scrheadings}
+	
+	\newpage
+	
+	% --- Den Inhalt der Arbeit einbinden
+	% --- Kurzfassung des gesammten Berichts (abstract)
+	\input{tex/10_Kurzfassung.tex}
+	\vspace{2cm}
+	% --- Einzelne Teilversuche einbinden
+	\input{tex/11_Versuch1.tex}
+	\IfFileExists{tex/12_Versuch2.tex}{
+		\clearpage
+		\input{tex/12_Versuch2.tex}
+	}{}
+	\IfFileExists{tex/13_Versuch3.tex}{
+		\clearpage
+		\input{tex/13_Versuch3.tex}
+	}{}
+	\IfFileExists{tex/14_Versuch4.tex}{
+		\clearpage
+		\input{tex/14_Versuch4.tex}
+	}{}
+	%\input{tex/name.tex}
+	% --- Fazit des gesammten Versuchs einbinden, falls nötig
+	\IfFileExists{tex/19_Fazit.tex}{
+		\clearpage
+		\input{tex/19_Fazit.tex}
+	}{}
+	
+	% --- Anhang einbinden
+	\IfFileExists{tex/20_Anhang.tex}{
+		\clearpage
+		%\appendix
+		\section{Anhang}
+		\label{sec:anhang}
+		\input{tex/20_Anhang.tex}
+	}{}
+	
+	% --- Literaturverzeichnis mit BibLaTeX
+	%\ifthenelse{\boolean{showBibliography}}{
+	%	\clearpage
+	%	\printbibliography
+	%}{}
+	
 
-% --- Titelseite einbinden
-%     Falls die Datei „res/titelbild.pdf“ existiert, wird sie auf der Titelseite
-%     eingefügt
-\IfFileExists{tex/04_Titelseite.tex}{
-	\input{tex/04_Titelseite.tex}
-}{}
-
-% --- Inhaltsverzeichnis einbinden
-\ifthenelse{\boolean{showTOC}}{
-	\tableofcontents
-	\clearpage
-}{}
-
-% Zurücksetzen der Seitenzahlen auf arabische Ziffern
-\pagenumbering{arabic}
-% Ab hier mit Kopf- und Fußzeile
-\pagestyle{scrheadings}
-
-% --- Den Inhalt der Arbeit einbinden
-% --- Kurzfassung des gesammten Berichts (abstract)
-\input{tex/10_Kurzfassung.tex}
-\vspace{2cm}
-% --- Einzelne Teilversuche einbinden
-\input{tex/11_Versuch1.tex}
-\IfFileExists{tex/12_Versuch2.tex}{
-	\clearpage
-	\input{tex/12_Versuch2.tex}
-}{}
-\IfFileExists{tex/13_Versuch3.tex}{
-	\clearpage
-	\input{tex/13_Versuch3.tex}
-}{}
-\IfFileExists{tex/14_Versuch4.tex}{
-	\clearpage
-	\input{tex/14_Versuch4.tex}
-}{}
-%\input{tex/name.tex}
-% --- Fazit des gesammten Versuchs einbinden, falls nötig
-\IfFileExists{tex/19_Fazit.tex}{
-	\clearpage
-	\input{tex/19_Fazit.tex}
-}{}
-
-% --- Anhang einbinden
-\IfFileExists{tex/20_Anhang.tex}{
-	\clearpage
-	%\appendix
-	\section{Anhang}
-	\label{sec:anhang}
-	\input{tex/20_Anhang.tex}
-}{}
-
-% --- Literaturverzeichnis mit BibLaTeX
-%\ifthenelse{\boolean{showBibliography}}{
-%	\clearpage
-%	\printbibliography
-%}{}
-
-\end{document}
-
+\end{document} 
