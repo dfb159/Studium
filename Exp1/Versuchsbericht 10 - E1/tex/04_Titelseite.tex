@@ -10,6 +10,7 @@
 }
 \makeatother
 
+<<<<<<< HEAD
 \begin{titlepage}
 	\centering
 	{\scshape\LARGE Versuchsbericht zu \par}
@@ -22,6 +23,18 @@
 	{\large Jonathan Sigrist (j\_sigr01@uni--muenster.de) \par}
 	\vfill
 	durchgeführt am \varDatum\par
+=======
+\title{Versuchsprotokoll \varNum}
+\subtitle{\varName}
+\subject{Experimentelle Übungen~I}
+\date{\DTMdate{\varDatum}}
+\ifthenelse{\boolean{showEmail}}{%
+	\author{\varAutor\\\normalsize\varGruppe\\\protokollemailparse{\varEmail} \varBetreuer}%
+}{%
+	\author{\varAutor\\\normalsize\varGruppe \\ \varBetreuer}%
+}
+
+>>>>>>> 6ccc0c3e1ae16409205b83e2acdd59de8e60f867
 
 	{\large \varBetreuer} 
 	\vfill	
