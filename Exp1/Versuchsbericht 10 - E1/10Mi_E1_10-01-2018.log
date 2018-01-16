@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  17 JAN 2018 00:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  17 JAN 2018 00:44
 entering extended mode
 **./10Mi_E1_10-01-2018.tex
 (10Mi_E1_10-01-2018.tex
@@ -3241,7 +3241,7 @@ Package pdftex.def Info: auswertung/widerstand_gleichstrom_Leistung.pdf used on
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 66.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 67.
 
 
 <auswertung/widerstand_wechselstrom_Widerstand.pdf, id=287, 501.875pt x 381.425
@@ -3250,7 +3250,7 @@ File: auswertung/widerstand_wechselstrom_Widerstand.pdf Graphic file (type pdf)
 
  <use auswertung/widerstand_wechselstrom_Widerstand.pdf>
 Package pdftex.def Info: auswertung/widerstand_wechselstrom_Widerstand.pdf used
- on input line 72.
+ on input line 73.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/widerstand_wechselstrom_Leistung.pdf, id=288, 501.875pt x 381.425pt
@@ -3258,18 +3258,18 @@ Package pdftex.def Info: auswertung/widerstand_wechselstrom_Widerstand.pdf used
 File: auswertung/widerstand_wechselstrom_Leistung.pdf Graphic file (type pdf)
  <use auswertung/widerstand_wechselstrom_Leistung.pdf>
 Package pdftex.def Info: auswertung/widerstand_wechselstrom_Leistung.pdf used o
-n input line 78.
+n input line 79.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 63.40388pt on input line 83.
+LaTeX Warning: Float too large for page by 63.40388pt on input line 85.
 
 <auswertung/spule-gleich-Widerstand.pdf, id=289, 501.875pt x 381.425pt>
 File: auswertung/spule-gleich-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/spule-gleich-Widerstand.pdf>
 Package pdftex.def Info: auswertung/spule-gleich-Widerstand.pdf used on input l
-ine 89.
+ine 91.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/spule-gleich-Leistung.pdf, id=290, 501.875pt x 381.425pt>
@@ -3277,18 +3277,18 @@ File: auswertung/spule-gleich-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/spule-gleich-Leistung.pdf>
 Package pdftex.def Info: auswertung/spule-gleich-Leistung.pdf used on input lin
-e 95.
+e 97.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 100.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 103.
 
 <auswertung/spule-wechsel-Widerstand.pdf, id=291, 501.875pt x 381.425pt>
 File: auswertung/spule-wechsel-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/spule-wechsel-Widerstand.pdf>
 Package pdftex.def Info: auswertung/spule-wechsel-Widerstand.pdf used on input 
-line 106.
+line 109.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/spule-wechsel-Leistung.pdf, id=292, 501.875pt x 381.425pt>
@@ -3296,11 +3296,11 @@ File: auswertung/spule-wechsel-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/spule-wechsel-Leistung.pdf>
 Package pdftex.def Info: auswertung/spule-wechsel-Leistung.pdf used on input li
-ne 112.
+ne 115.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 117.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 121.
 
 
 <auswertung/kondensator-wechsel-Widerstand.pdf, id=293, 501.875pt x 381.425pt>
@@ -3308,7 +3308,7 @@ File: auswertung/kondensator-wechsel-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/kondensator-wechsel-Widerstand.pdf>
 Package pdftex.def Info: auswertung/kondensator-wechsel-Widerstand.pdf used on 
-input line 123.
+input line 127.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/kondensator-wechsel-Leistung.pdf, id=294, 501.875pt x 381.425pt>
@@ -3316,47 +3316,31 @@ File: auswertung/kondensator-wechsel-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/kondensator-wechsel-Leistung.pdf>
 Package pdftex.def Info: auswertung/kondensator-wechsel-Leistung.pdf used on in
-put line 129.
+put line 133.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 134.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 139.
 
-
-Package caption Warning: \label without proper reference on input line 51.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:R_gleich' on page 12 undefined on input line 138.
-
-
-
-Package caption Warning: \label without proper reference on input line 119.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:schwing_wechsel' on page 12 undefined on input li
-ne 138.
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 154.
+Package cleveref Info: loaded `ngerman' language definitions on input line 159.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 159.
 [12]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 180.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 192.
+(babel)             in language  on input line 197.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3505,34 +3489,34 @@ Package logreq Info: Writing requests to '10Mi_E1_10-01-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42312 strings out of 493333
- 811511 string characters out of 3139197
- 1395993 words of memory out of 3000000
- 45072 multiletter control sequences out of 15000+200000
- 643659 words of font info for 174 fonts, out of 3000000 for 9000
+ 42308 strings out of 493333
+ 811444 string characters out of 3139197
+ 1396601 words of memory out of 3000000
+ 45069 multiletter control sequences out of 15000+200000
+ 640661 words of font info for 173 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,24n,106p,10410b,2230s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
 .enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on 10Mi_E1_10-01-2018.pdf (23 pages, 678755 bytes).
+fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
+8.pfb>
+Output written on 10Mi_E1_10-01-2018.pdf (23 pages, 658769 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
+ 585 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
- 40678 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 40166 words of extra memory for PDF output out of 42996 (max. 10000000)
 
