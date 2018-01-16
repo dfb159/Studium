@@ -1,63 +1,76 @@
 \section{Verbraucher bei Gleich- und Wechselstrom} 
 
-Dies ist ein Teilversuch.
-Der Abschnitt sagt grundsätzliches über den konkreten Versuch aus.
-Es werden relevante physikalische Effekte qualitativ beleuchtet.
-Es wird das Ziel des Versuchs angegeben.
+% TODO
+%Dies ist ein Teilversuch.
+%Der Abschnitt sagt grundsätzliches über den konkreten Versuch aus.
+%Es werden relevante physikalische Effekte qualitativ beleuchtet.
+%Es wird das Ziel des Versuchs angegeben.
 
-Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
-Dann werden diese in den Kontext kurz eingebunden.
+%Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
+%Dann werden diese in den Kontext kurz eingebunden.
 
 \subsection{Methoden}
 
 \subsubsection{Aufbau}
 
-Beschreibung des Aufbaus des Versuches.
-Gegebenenfalls weitere Beschreibung einzelner Komponenten.
-Falls Abweichung von der Versuchsvorschrift Begründung.
-Bei Verwechslungsgefahr kann  auf diese noch einmal genauer darauf eingegangen werden.
-
-Beschreibung der Durchführung.
-In welcher Reihenfolge wurde wie was gemacht.
-Kurz halten, denn ist ja schon in Anleitung drin.
-Bei schwierigen Stellen kann auch hier ein kurzer Vermerk eingebracht werden.
+Der Aufbau des Versuches ist in Abb. \ref{fig:Schaltskizze} dargestellt. %TODO auf Bildquelle referenzieren
+Dieser besteht aus einem Schaltkreis, in dem sich die Spannungsquelle, ein regulierbarer Widerstand  $R_1$ mit bis zu \SI{27}{\Omega}, sowie Messgeräte für den Leistungsverbrauch, die Spannung und den elektrischen Strom befinden. 
+Die Spannungsquelle liefert nach ihrer Angabe \SI{24}{\V}.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{auswertung/Schaltung2.png}
+	\caption{Diese Schaltskizze stellt den Aufbau des Versuchs dar. Eingezeichnet sind die verschiedenen Verbraucher a), b) und c), welche in dem Versuch betrachtet werden.}
+	\label{fig:Schaltskizze}	
+\end{figure}
+Zunächst wird die Leistung ohne angeschlossenen Verbraucher, also die Verlustleistung, für Gleich- und Wechselstrom gemessen. 
+Dann werden verschiedene Verbraucher angeschlossen und für diese die Leistung, die Spannung und der elektrische Strom gemessen.
+Auch dies erfolgt für Gleich- und Wechselstrom.
+Bei den verwendeten Verbrauchern handelt es sich um einen Widerstand $R_2$, dann um eine Spule $L$ mit Innenwiderstand $R_i$ und zuletzt um dieselbe Spule, jedoch mit zusätzlich angeschlossenem Kondensator.
+Für den letzten Fall wird nur bei Wechselstrom gemessen, da bei diesem Fall zusätzliche Effekte zum Tragen kommen.
 
 \subsubsection{Unsicherheiten}
 
-Alle primären Unsicherheiten der im Versuch verwendeten Messinstrumente.
-Dazu eine Begründung zu jedem (Rechteck, Dreieck, Gauß; z. B. Waagegenauigkeit, Reaktionszeit).
-Grundsätzliche Fehlerfortpflanzung nach GUM (kombinierte und fortpflanzende Fehler).
+Die bei der Aufnahme der Messwerte zu berücksichtigenden Unsicherheiten treten hier bei den Angaben der Spannungsquelle, der Widerstände, des Kondensators, sowie bei dem Ablesen von den Messgeräten auf. 
+Da es sich bei letzteren immer um Analoganzeigen gehandelt hat, wird die Unsicherheit dieser durch eine Dreiecksverteilung abhängig von der Genauigkeit der Skala bestimmt. 
+Ansonsten werden die angegebenen Unsicherheiten verwendet, welche alle bei 10\% des dargestellten Werts liegen. Für die Spannungsquelle gab es keine Angabe, weswegen auch hier mit 10\% der angegebenen \SI{24}{\V} gerechnet werden.
+Im Allgemeinen werden zur Berechnung der kombinierten Unsicherheiten die nach GUM vorgesehenen Formeln verwendet. 
+Die Berechnung dieser für diesen Versuch erfolgt im Anhang (\ref*{sec:anhang}).
 
 \subsubsection{Komplikationen}
 
-Falls erwähnungsbedürftige oder den Versuchsablauf behindernde Sachverhalte aufgetreten sind, kann man das hier der Welt mitteilen.
-Darauf kann später im Fazit noch einmal eingegangen werden.
+Trotz Korrektheit der Schaltung, welche von der Betreuerin geprüft wurde, konnten keine Werte gemessen werden. 
+Der Austausch des Gerätes zur Messung der Leistung löste dieses Problem.
+Allerdings war es nicht möglich mit dem Multimeter, welches bereits bei den Akkumulatorzellen verwendet wurde, ohne angeschlossenen Verbraucher, eine Spannung und die zugehörige Verlustleistung zu messen.
+Das Messgerät für die Leistung schlug in den negativen Bereich aus, was aus physikalischer Sicht unlogisch war.
+Aus diesem Grund wurde statt des Multimeters ein einfaches Voltmeter angeschlossen.
+Damit ließen sich Werte messen, jedoch auch eine Spannung von ca. \SI{25,5}{\V}, was mehr als der Eingangsspannung entsprechen würde. Da dieser Wert jedoch innerhalb der angenommenen 10\% Unsicherheit liegt, wird er akzeptiert.
 
 \subsection{Datenanalyse}
 
-Alle Messwerte und Daten (Laborbuch und weitere Datenfiles) anbeilegen und ggf. darauf Bezug nehmen.
-Alle primären Messwerte, soweit nicht völlig sinnfrei, in graphischer Form einfügen.
-Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
-Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
-Vollständige Fehlerberechnung in den Anhang.
-Da grundsätzlich schon vorher erläutert (GUM) reicht hier eine kurze Anmerkung auf die Fehlerrechnung.
-Ergebnis graphisch darstellen und auf passende Darstellungsweise (Unsicherheiten, signifikante Stellen) achten.
+Alle aufgenommenen Werte sind dem Laborbuch zu entnehmen. 
+Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt.
 
-Falls mehrere voneinander unabhängige Lösungen existieren (z. B. bei der geometrischen Bestimmung des Trägheitsmomentes des Kreisels), können diese in Unterkapitel gegliedert werden.
+%Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
+%Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
+%Vollständige Fehlerberechnung in den Anhang.
+%Da grundsätzlich schon vorher erläutert (GUM) reicht hier eine kurze Anmerkung auf die Fehlerrechnung.
+%Ergebnis graphisch darstellen und auf passende Darstellungsweise (Unsicherheiten, signifikante Stellen) achten.
+
+%Falls mehrere voneinander unabhängige Lösungen existieren (z. B. bei der geometrischen Bestimmung des Trägheitsmomentes des Kreisels), können diese in Unterkapitel gegliedert werden.
 
 \subsection{Diskussion}
 
-Die Ergebnisse in den Kontext einbinden.
-Zusammenhänge noch einmal darstellen.
-Jegliche Aussagen durch Ergebnisse oder Vorwissen untermauern.
-Ergebnisse mit Referenzwerten/Literaturwerten vergleichen und auf Unsicherheiten eingehen (Vertrauensgrad).
+%Die Ergebnisse in den Kontext einbinden.
+%Zusammenhänge noch einmal darstellen.
+%Jegliche Aussagen durch Ergebnisse oder Vorwissen untermauern.
+%Ergebnisse mit Referenzwerten/Literaturwerten vergleichen und auf Unsicherheiten eingehen (Vertrauensgrad).
 
 \subsection{Schlussfolgerung}
 
-Das Ziel noch einmal erläutern.
-Fazit des Versuchs angeben (untermauert die These; weicht von den Literaturwerten ab; ...).
-Warum folgt aus den Ergebnissen das Fazit.
-Mit ermittelten Daten und Unsicherheiten begründen.
-Auf Unsicherheiten weiter eingehen und Vertrauensgrad bzw. Relevanz der Schlussfolgerung auf die derzeitige Wissenslage angeben (meistens nicht relevant).
-Verbesserungsvorschläge für das nächste Mal und allgemeine Rekapitulierung über das durchgeführte Experiment.
-Warum muss man das Experiment unbedingt noch mal durchführen.
+%Das Ziel noch einmal erläutern.
+%Fazit des Versuchs angeben (untermauert die These; weicht von den Literaturwerten ab; ...).
+%Warum folgt aus den Ergebnissen das Fazit.
+%Mit ermittelten Daten und Unsicherheiten begründen.
+%Auf Unsicherheiten weiter eingehen und Vertrauensgrad bzw. Relevanz der Schlussfolgerung auf die derzeitige Wissenslage angeben (meistens nicht relevant).
+%Verbesserungsvorschläge für das nächste Mal und allgemeine Rekapitulierung über das durchgeführte Experiment.
+%Warum muss man das Experiment unbedingt noch mal durchführen.
