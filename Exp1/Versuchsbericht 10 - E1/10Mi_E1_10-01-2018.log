@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  16 JAN 2018 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.10.6)  17 JAN 2018 00:39
 entering extended mode
 **./10Mi_E1_10-01-2018.tex
 (10Mi_E1_10-01-2018.tex
@@ -3001,14 +3001,26 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 56.
 [2] (tex/10_Kurzfassung.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
+(babel)             in language  on input line 2.
 ) (tex/11_Versuch1.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+Package cleveref Info: loaded `ngerman' language definitions on input line 10.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 10.
+ [1
+
+]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3030,15 +3042,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 29.
- [1
-
-]
+ [2]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
 
-<auswertung/I-U1.pdf, id=122, 501.875pt x 381.425pt>
+<auswertung/I-U1.pdf, id=121, 501.875pt x 381.425pt>
 File: auswertung/I-U1.pdf Graphic file (type pdf)
  <use auswertung/I-U1.pdf>
 Package pdftex.def Info: auswertung/I-U1.pdf used on input line 36.
@@ -3046,35 +3056,46 @@ Package pdftex.def Info: auswertung/I-U1.pdf used on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 37.
 
-<auswertung/I-U2.pdf, id=123, 501.875pt x 381.425pt>
+<auswertung/I-U2.pdf, id=122, 501.875pt x 381.425pt>
 File: auswertung/I-U2.pdf Graphic file (type pdf)
  <use auswertung/I-U2.pdf>
 Package pdftex.def Info: auswertung/I-U2.pdf used on input line 42.
 (pdftex.def)             Requested size: 403.31511pt x 306.53722pt.
 
-<auswertung/I-U3.pdf, id=124, 501.875pt x 381.425pt>
+<auswertung/I-U3.pdf, id=123, 501.875pt x 381.425pt>
 File: auswertung/I-U3.pdf Graphic file (type pdf)
  <use auswertung/I-U3.pdf>
 Package pdftex.def Info: auswertung/I-U3.pdf used on input line 48.
 (pdftex.def)             Requested size: 403.31511pt x 306.53722pt.
 
-<auswertung/R-P1.pdf, id=125, 501.875pt x 381.425pt>
+<auswertung/R-P1.pdf, id=124, 501.875pt x 381.425pt>
 File: auswertung/R-P1.pdf Graphic file (type pdf)
  <use auswertung/R-P1.pdf>
 Package pdftex.def Info: auswertung/R-P1.pdf used on input line 54.
 (pdftex.def)             Requested size: 403.31511pt x 306.53722pt.
 
-<auswertung/R-P2.pdf, id=126, 501.875pt x 381.425pt>
+<auswertung/R-P2.pdf, id=125, 501.875pt x 381.425pt>
 File: auswertung/R-P2.pdf Graphic file (type pdf)
  <use auswertung/R-P2.pdf>
 Package pdftex.def Info: auswertung/R-P2.pdf used on input line 60.
 (pdftex.def)             Requested size: 403.31511pt x 306.53722pt.
 
-<auswertung/R-P3.pdf, id=127, 501.875pt x 381.425pt>
+<auswertung/R-P3.pdf, id=126, 501.875pt x 381.425pt>
 File: auswertung/R-P3.pdf Graphic file (type pdf)
  <use auswertung/R-P3.pdf>
 Package pdftex.def Info: auswertung/R-P3.pdf used on input line 66.
 (pdftex.def)             Requested size: 403.31511pt x 306.53722pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 73.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 73.
+
+[3 <./auswertung/I-U1.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 85.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -3088,29 +3109,27 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 88.
-
-[2]
-Package cleveref Info: loaded `ngerman' language definitions on input line 93.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 93.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 93.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 93.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 93.
- [3 <./auswertung/I-U1.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 102.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
  [4 <./auswertung/I-U2.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 88.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 88.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 88.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 88.
+ [5 <./auswertung/I-U3.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 98.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
+ [6 <./auswertung/R-P1.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 103.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3125,7 +3144,18 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 112.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 112.
- [5 <./auswertung/I-U3.pdf>]
+ [7 <./auswertung/R-P2.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 113.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+ [8 <./auswertung/R-P3.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3140,72 +3170,62 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 74.
- [6 <./auswertung/R-P1.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 74.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
- [7 <./auswertung/R-P2.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 74.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
- [8 <./auswertung/R-P3.pdf>] (tex/12_Versuch2.tex
+ [9] (tex/12_Versuch2.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 11.
+(babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 12.
 
-<auswertung/Schaltung2.png, id=272, 1260.96094pt x 423.08063pt>
+<auswertung/Schaltung2.png, id=271, 1260.96094pt x 423.08063pt>
 File: auswertung/Schaltung2.png Graphic file (type png)
 
 <use auswertung/Schaltung2.png>
-Package pdftex.def Info: auswertung/Schaltung2.png used on input line 20.
+Package pdftex.def Info: auswertung/Schaltung2.png used on input line 19.
 (pdftex.def)             Requested size: 403.31511pt x 135.31755pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 29.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 29.
+Package cleveref Info: loaded `ngerman' language definitions on input line 36.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 29.
- [9
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 36.
+ [10
 
- <./auswertung/Schaltung2.png>]
+]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 37.
+Package cleveref Info: loaded `ngerman' language definitions on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
+ [11 <./auswertung/Schaltung2.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
 
-<auswertung/widerstand_gleichstrom_Widerstand.pdf, id=281, 501.875pt x 381.425p
+<auswertung/widerstand_gleichstrom_Widerstand.pdf, id=285, 501.875pt x 381.425p
 t>
 File: auswertung/widerstand_gleichstrom_Widerstand.pdf Graphic file (type pdf)
  <use auswertung/widerstand_gleichstrom_Widerstand.pdf>
@@ -3213,7 +3233,7 @@ Package pdftex.def Info: auswertung/widerstand_gleichstrom_Widerstand.pdf used
 on input line 55.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
-<auswertung/widerstand_gleichstrom_Leistung.pdf, id=282, 501.875pt x 381.425pt>
+<auswertung/widerstand_gleichstrom_Leistung.pdf, id=286, 501.875pt x 381.425pt>
 File: auswertung/widerstand_gleichstrom_Leistung.pdf Graphic file (type pdf)
 <use auswertung/widerstand_gleichstrom_Leistung.pdf>
 Package pdftex.def Info: auswertung/widerstand_gleichstrom_Leistung.pdf used on
@@ -3224,41 +3244,32 @@ Package pdftex.def Info: auswertung/widerstand_gleichstrom_Leistung.pdf used on
 LaTeX Warning: Float too large for page by 36.20387pt on input line 66.
 
 
-<auswertung/widerstand_wechselstrom_Widerstand.pdf, id=283, 501.875pt x 381.425
+<auswertung/widerstand_wechselstrom_Widerstand.pdf, id=287, 501.875pt x 381.425
 pt>
 File: auswertung/widerstand_wechselstrom_Widerstand.pdf Graphic file (type pdf)
 
  <use auswertung/widerstand_wechselstrom_Widerstand.pdf>
 Package pdftex.def Info: auswertung/widerstand_wechselstrom_Widerstand.pdf used
- on input line 71.
+ on input line 72.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
-<auswertung/widerstand_wechselstrom_Leistung.pdf, id=284, 501.875pt x 381.425pt
+<auswertung/widerstand_wechselstrom_Leistung.pdf, id=288, 501.875pt x 381.425pt
 >
 File: auswertung/widerstand_wechselstrom_Leistung.pdf Graphic file (type pdf)
  <use auswertung/widerstand_wechselstrom_Leistung.pdf>
 Package pdftex.def Info: auswertung/widerstand_wechselstrom_Leistung.pdf used o
-n input line 77.
+n input line 78.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 63.40388pt on input line 82.
+LaTeX Warning: Float too large for page by 63.40388pt on input line 83.
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 83.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
-[10] <auswertung/spule-gleich-Widerstand.pdf, id=289, 501.875pt x 381.425pt>
+<auswertung/spule-gleich-Widerstand.pdf, id=289, 501.875pt x 381.425pt>
 File: auswertung/spule-gleich-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/spule-gleich-Widerstand.pdf>
 Package pdftex.def Info: auswertung/spule-gleich-Widerstand.pdf used on input l
-ine 88.
+ine 89.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/spule-gleich-Leistung.pdf, id=290, 501.875pt x 381.425pt>
@@ -3266,18 +3277,18 @@ File: auswertung/spule-gleich-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/spule-gleich-Leistung.pdf>
 Package pdftex.def Info: auswertung/spule-gleich-Leistung.pdf used on input lin
-e 94.
+e 95.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 99.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 100.
 
 <auswertung/spule-wechsel-Widerstand.pdf, id=291, 501.875pt x 381.425pt>
 File: auswertung/spule-wechsel-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/spule-wechsel-Widerstand.pdf>
 Package pdftex.def Info: auswertung/spule-wechsel-Widerstand.pdf used on input 
-line 104.
+line 106.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/spule-wechsel-Leistung.pdf, id=292, 501.875pt x 381.425pt>
@@ -3285,11 +3296,11 @@ File: auswertung/spule-wechsel-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/spule-wechsel-Leistung.pdf>
 Package pdftex.def Info: auswertung/spule-wechsel-Leistung.pdf used on input li
-ne 110.
+ne 112.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 115.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 117.
 
 
 <auswertung/kondensator-wechsel-Widerstand.pdf, id=293, 501.875pt x 381.425pt>
@@ -3297,7 +3308,7 @@ File: auswertung/kondensator-wechsel-Widerstand.pdf Graphic file (type pdf)
 
 <use auswertung/kondensator-wechsel-Widerstand.pdf>
 Package pdftex.def Info: auswertung/kondensator-wechsel-Widerstand.pdf used on 
-input line 121.
+input line 123.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 <auswertung/kondensator-wechsel-Leistung.pdf, id=294, 501.875pt x 381.425pt>
@@ -3305,92 +3316,58 @@ File: auswertung/kondensator-wechsel-Leistung.pdf Graphic file (type pdf)
 
 <use auswertung/kondensator-wechsel-Leistung.pdf>
 Package pdftex.def Info: auswertung/kondensator-wechsel-Leistung.pdf used on in
-put line 127.
+put line 129.
 (pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
 
 
-LaTeX Warning: Float too large for page by 36.20387pt on input line 132.
+LaTeX Warning: Float too large for page by 36.20387pt on input line 134.
+
+
+Package caption Warning: \label without proper reference on input line 51.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:R_gleich' on page 12 undefined on input line 138.
+
+
+
+Package caption Warning: \label without proper reference on input line 119.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:schwing_wechsel' on page 12 undefined on input li
+ne 138.
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 154.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 149.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 149.
+(babel)             in language  on input line 154.
+[12]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 180.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 192.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 192.
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
+Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
- [11]
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
- [12 <./auswertung/widerstand_gleichstrom_Widerstand.pdf> <./auswertung/widerst
-and_gleichstrom_Leistung.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
- [13 <./auswertung/widerstand_wechselstrom_Widerstand.pdf> <./auswertung/widers
-tand_wechselstrom_Leistung.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
- [14 <./auswertung/spule-gleich-Widerstand.pdf> <./auswertung/spule-gleich-Leis
-tung.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-
-[15 <./auswertung/spule-wechsel-Widerstand.pdf> <./auswertung/spule-wechsel-Lei
-stung.pdf>]
-Package cleveref Info: loaded `ngerman' language definitions on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
- [16 <./auswertung/kondensator-wechsel-Widerstand.pdf> <./auswertung/kondensato
-r-wechsel-Leistung.pdf>] (tex/19_Fazit.tex
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 3.
-)
+(babel)             in language  on input line 89.
+ [13]
 Package cleveref Info: loaded `ngerman' language definitions on input line 97.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
@@ -3400,9 +3377,63 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 97.
- [17
+ [14]
+Package cleveref Info: loaded `ngerman' language definitions on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [15 <./auswertung/widerstand_gleichstrom_Widerstand.pdf> <./auswertung/widerst
+and_gleichstrom_Leistung.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [16 <./auswertung/widerstand_wechselstrom_Widerstand.pdf> <./auswertung/widers
+tand_wechselstrom_Leistung.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
 
-]
+[17 <./auswertung/spule-gleich-Widerstand.pdf> <./auswertung/spule-gleich-Leist
+ung.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [18 <./auswertung/spule-wechsel-Widerstand.pdf> <./auswertung/spule-wechsel-Le
+istung.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [19 <./auswertung/kondensator-wechsel-Widerstand.pdf> <./auswertung/kondensato
+r-wechsel-Leistung.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 97.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3412,6 +3443,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
+
+
+LaTeX Warning: Reference `eq:unc-I=U/R' on page 20 undefined on input line 41.
+
+
+LaTeX Warning: Reference `eq:unc-I=U/R' on page 20 undefined on input line 41.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
 Package cleveref Info: loaded `ngerman' language definitions on input line 106.
@@ -3424,9 +3474,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 106.
-[18
+ [20
 
 ]
+Package cleveref Info: loaded `ngerman' language definitions on input line 106.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 106.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 106.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 106.
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (10Mi_E1_10-01-2018.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 26.
@@ -3434,37 +3495,44 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `10Mi_E1_10-01-2018.out' has not changed.
-(rerunfilecheck)             Checksum: 990B85451675F12CF138C5285B6C7FD2;2488.
+(rerunfilecheck)             Checksum: 48CAE88817FB35C3A362E4749777B248;2355.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to '10Mi_E1_10-01-2018.run.xml'.
 \openout1 = `10Mi_E1_10-01-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42246 strings out of 493333
- 810601 string characters out of 3139197
- 1390869 words of memory out of 3000000
- 45042 multiletter control sequences out of 15000+200000
- 636719 words of font info for 161 fonts, out of 3000000 for 9000
+ 42312 strings out of 493333
+ 811511 string characters out of 3139197
+ 1395993 words of memory out of 3000000
+ 45072 multiletter control sequences out of 15000+200000
+ 643659 words of font info for 174 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,20n,106p,10410b,2237s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on 10Mi_E1_10-01-2018.pdf (20 pages, 626326 bytes).
+ 68i,24n,106p,10410b,2230s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
+mmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on 10Mi_E1_10-01-2018.pdf (23 pages, 678755 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 39662 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 40678 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -1,12 +1,11 @@
 \section{Verbraucher bei Gleich- und Wechselstrom} 
 
-% TODO
 Dieser Teilversuch beschäftigt sich mit der Untersuchung des Verhaltens von verschiedenen Verbrauchern bei Gleich- und Wechselstrom.
 Dazu werden verschiedene Verbraucher an einen Stromkreis geschlossen, in dem je nach Einstellung ein Gleich- bzw. Wechselstrom fließt.
 Es werden die bei den verschieden Strömen erhaltenen Spannungen, Stromstärken und Leistungen verglichen und Beziehungen mit der Theorie, insbesondere der Impedanzen für die Spule und den Kondensator behandelt. 
 Die Theorie zu bestätigen ist das Ziel dieses Versuches.
-%Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
-%Dann werden diese in den Kontext kurz eingebunden.
+Dies wird auch anhand der Ergebnisse gezeigt.
+Das Verhältnis der Widerstände bei Gleich- und Wechselstrom stimmt mit den Erwartungen überein und die ermittelte Kapazität des Kondensators entspricht bis auf eine kleine Unsicherheit exakt der angegebenen. \SI{0,060+-0,004}{\milli\farad} waren angegeben und \SI{0,060+-0,001}{\milli\farad} wurden ermittelt. 
 
 \subsection{Methoden}
 
@@ -42,13 +41,14 @@ Der Austausch des Gerätes zur Messung der Leistung löste dieses Problem.
 Allerdings war es nicht möglich mit dem Multimeter, welches bereits bei den Akkumulatorzellen verwendet wurde, ohne angeschlossenen Verbraucher, eine Spannung und die zugehörige Verlustleistung zu messen.
 Das Messgerät für die Leistung schlug in den negativen Bereich aus, was aus physikalischer Sicht unlogisch war.
 Aus diesem Grund wurde statt des Multimeters ein einfaches Voltmeter angeschlossen.
-Damit ließen sich Werte messen, jedoch auch eine Spannung von ca. \SI{25,5}{\V}, was mehr als der Eingangsspannung entsprechen würde. Da dieser Wert jedoch innerhalb der angenommenen 10\% Unsicherheit liegt, wird er akzeptiert.
+Damit ließen sich Werte messen, jedoch auch eine Spannung von ca. \SI{25,5}{\V}, was mehr als der Eingangsspannung entsprechen würde. Da dieser Wert jedoch innerhalb der angenommenen 10\% Unsicherheit dür die Quelle liegt, wird er akzeptiert.
 
 \subsection{Datenanalyse}
 
 Alle aufgenommenen Werte sind dem Laborbuch zu entnehmen. 
 Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt.
 \begin{figure}[ht]
+	\label{fig:R_gleich}
 	\centering	
 	\begin{subfigure}{0.70\textwidth}
 		\centering
@@ -65,6 +65,7 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Widerstand als Verbraucher bei Gleichstrom.}
 \end{figure}
 \begin{figure}[ht]
+	\label{fig:R_wechsel}
 	\centering	
 	\begin{subfigure}{0.70\textwidth}
 		\centering
@@ -80,8 +81,8 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 	\end{subfigure}
 	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Widerstand als Verbraucher bei Wechselstrom.}
 \end{figure}
-
 \begin{figure}[ht]
+	\label{fig:Spule_gleich}
 	\centering	
 	\begin{subfigure}{0.70\textwidth}
 		\centering
@@ -98,6 +99,7 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei der Spule als Verbraucher bei Gleichstrom.}
 \end{figure}
 \begin{figure}[ht]
+	\label{fig:Spule_wechsel}
 	\centering	
 	\begin{subfigure}{0.70\textwidth}
 		\centering
@@ -113,8 +115,8 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 	\end{subfigure}
 	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei der Spule als Verbraucher bei Wechselstrom.}
 \end{figure}
-
 \begin{figure}[ht]
+	\label{fig:schwing_wechsel}
 	\centering	
 	\begin{subfigure}{0.70\textwidth}
 		\centering
@@ -130,28 +132,66 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 	\end{subfigure}
 	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Kondensator und der Spule als Verbraucher bei Wechselstrom.}
 \end{figure}
+Zunächst wurde die Verlustleistung bestimmt, dazu wurde der Schaltkreis ohne Verbraucher verwendet. 
+Das Messgerät für die Leistung zeigte \SI{1,1+-0,2}{\W} bei \SI{23,5+-0,2}{\V} und Wechselstrom. 
+Bei Gleichstrom waren dies \SI{2,2+-0,2}{\W} bei \SI{25,5+-0,2}{\V}.
+Für die drei Verbraucher wurden in den Abbildungen \ref{fig:R_gleich} bis \ref{fig:schwing_wechsel} immer die $U$-$I$-Kennlinien und die Verhältnisse zwischen der gemessenen Leistung und der aus $P = UI$ berechneten graphisch dargestellt.
+Aus den $U$-$I$-Kennlinien lassen sich die Widerstände der Verbraucher ermitteln. Diese entsprechen der Steigung der berechneten linearen Fits. Für die Spule handelt es sich hierbei bei Wechselstrom um den Scheinwiderstand $|Z|$ und bei Gleichstrom um den ohm'schen Widerstand $R_i$.
+Da bei Wechselströmen die gemittelte Leistung über die effektiven Spannungen und Stromstärken gemäß der folgenden Formel definiert ist:
+\begin{align}
+	\bar{P} = U_{eff}I_{eff}\cos{\varphi} \\
+	\varphi = \arccos{\left( \frac{\bar{P}}{U_{eff}I_{eff}}\right) },
+\end{align}
+lässt sich der Phasenwinkel $\varphi$ aus dem Verhältnis der gemessenen Leistung und dem Produkt der gemessenen Spannung und Stromstärke bestimmen. Der Wirkwiderstand ist gleich dem Scheinwiderstand multipliziert mit dem Kosinus der Phase $R_W = |Z|\cos(\varphi)$.
+Mit der Frequenz der Spannugsquelle von \SI{50}{\Hz} ergibt sich eine Kreisfrequenz $\omega$ von \SI{314,16}{\s^{-1}}.
+Die Induktivität $L$ der Spule ergibt sich aus dem folgenden Zusammenhang:
+\begin{align}
+	L = \frac{|Z|}{\omega sin(\varphi)}. 
+\end{align}
+Und zuletzt die Kapazität des Kondensators:
+\begin{align}
+	C = \frac{1}{\omega}\frac{1}{(\omega L - |Z|\sin (\varphi))}. 
+\end{align} 
+Für die Phase des Kondensators wird die gleiche Formel wie oben verwendet, jedoch mit negativem Vorzeichen, da die Phasenverschiebung der Spule umgekehrt ist.
+In der folgenden Tabelle sind alle relevanten Ergebnisse der Messungen aufgezeichnet:
+\begin{table}[ht]
+	\caption{In dieser Tabelle sind die gemessenen und ermittelten Werte verzeichnet.}
+	\centering
+	\label{tab:Messwerte}
+	
+		\begin{tabular}{l l}
+			\begin{tabular}{l|c}
+				{Größe} & {Wert}	\\
+				\hline
+				{Verbraucherwiderstand bei Gleichstrom $R_{2,gl}$} & {\SI{17,141+-0,263}{\ohm}} \\
+				{Verbraucherwiderstand bei Wechselstrom $R_{2,w}$} & {\SI{18,282+-0,273}{\ohm}} \\
+				{Wirkwiderstand $R_w$ Spule} & {\SI{22,589+-0,419}{\ohm}} \\
+				{Ohm'scher Widerstand $R_i$ Spule} & {\SI{26,491+-0,376}{\ohm}} \\
+				{Phasenwinkel $\varphi$ Spule} & {\SI{0,745+-0,010}{}} \\
+				{Induktivität $L$ Spule} & {\SI{0,066+-0,001}{\henry}} \\
+				{Kapazität $C$ Kondensator} & {\SI{0,060+-0,001}{\milli\farad}} \\
+				{Scheinwiderstand $|Z|$ Kondensator + Spule} & {\SI{39,947+-0,410}{\ohm}} \\
+				{Phasenwinkel $\varphi$ Kondensator + Spule} & {\SI{-0,923+-0,005}{}} \\
+			\end{tabular}	
+		\end{tabular}
 
-%Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
-%Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
-%Vollständige Fehlerberechnung in den Anhang.
-%Da grundsätzlich schon vorher erläutert (GUM) reicht hier eine kurze Anmerkung auf die Fehlerrechnung.
-%Ergebnis graphisch darstellen und auf passende Darstellungsweise (Unsicherheiten, signifikante Stellen) achten.
-
-%Falls mehrere voneinander unabhängige Lösungen existieren (z. B. bei der geometrischen Bestimmung des Trägheitsmomentes des Kreisels), können diese in Unterkapitel gegliedert werden.
+\end{table}
 
 \subsection{Diskussion}
 
-%Die Ergebnisse in den Kontext einbinden.
-%Zusammenhänge noch einmal darstellen.
-%Jegliche Aussagen durch Ergebnisse oder Vorwissen untermauern.
-%Ergebnisse mit Referenzwerten/Literaturwerten vergleichen und auf Unsicherheiten eingehen (Vertrauensgrad).
+Die Betrachtung des Widerstands bei Gleich- und Wechselstrom zeigt, dass der Widerstand bei letzterem größer ist, dies liegt daran, dass bei Wechselstrom der Scheinwiderstand gemessen wird und zusätzlich noch der Imaginärteil zum Tragen kommt.
+Dasselbe gilt für die Spule. 
+Vergleicht man bei dieser jedoch den Wirkwiderstand mit dem ohm'schen, so fällt auf, dass dieser kleiner ist.
+Der Wirkwiderstand ist dabei der Realanteil des Scheinwiderstandes und abhängig von der Phase ändert sich dieses Verhältnis.
+Da der Kondensator aus drei parallel geschalteten Kondensatoren mit jeweils \SI{0,020+-0,002}{\milli\farad} bestand, addieren sich diese der Theorie nach für die Gesamtkapazität zusammen (\SI{0,060+-0,004}{\milli\farad}). 
+Dieser Wert stimmt eindeutig mit dem ermittelten überein.
+
+Demnach gibt es eine Übereinstimmung mit der Theorie. 
+Es sind also keine nennenswerte Abweichungen gemessen worden. 
 
 \subsection{Schlussfolgerung}
 
-%Das Ziel noch einmal erläutern.
-%Fazit des Versuchs angeben (untermauert die These; weicht von den Literaturwerten ab; ...).
-%Warum folgt aus den Ergebnissen das Fazit.
-%Mit ermittelten Daten und Unsicherheiten begründen.
-%Auf Unsicherheiten weiter eingehen und Vertrauensgrad bzw. Relevanz der Schlussfolgerung auf die derzeitige Wissenslage angeben (meistens nicht relevant).
-%Verbesserungsvorschläge für das nächste Mal und allgemeine Rekapitulierung über das durchgeführte Experiment.
-%Warum muss man das Experiment unbedingt noch mal durchführen.
+Die Messergebnisse deuten auf eine Bestätigung der Theorie hin. 
+Alle gemessenen Werte stimmen nämlich mit den Erwartungen überein. 
+Das Ziel dieses Versuches wurde demnach erreicht und eine Wiederholung ist somit nicht notwendig.
+Die Betrachtung der Unsicherheiten schließt ebenfalls starke Abweichungen aus, da diese sehr genau sind.

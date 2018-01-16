@@ -6,7 +6,7 @@ Es wird die anliegende Klemmspannung gemessen und in Abhängigkeit des Widerstan
 Mit Hilfe der Darstellung der Spannungsquelle als Reihenschaltung von einer idealen Quelle und einem Innenwiderstand, sowie den Kirchhoff'schen Regeln wird dann der letzterer bestimmt. 
 Das Ziel des Versuches ist die Übereinstimmung der gemessenen Werte mit den ermittelten. 
 Dies wird bestätigt, da die gemessene Leerlaufspannung von z.B. \SI{1,2+-0,2}{V} für eine einzelne Akkumulatorzelle mit dem ermittelten Wert von \SI{1,260+-0,194}{V} übereinstimmt. Auch die Werte für drei in Reihe bzw. parallel geschaltete Akkumulatorzellen stimmen mit den Erwartungen überein.
-Auch der Zusammenhang der Widerstände für die maximale Leistung wird bestätigt.  
+Zudem wird auch der Zusammenhang der Widerstände für die maximale Leistung bestätigt.  
 
 \subsection{Methoden}
 
@@ -69,7 +69,7 @@ Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt
 \end{figure}
 
 Zur Bestimmung der Leerlaufspannung wird ein "unendlich" großer Widerstand gewählt, der Stromkreis ist also nicht geschlossen.
-Für diese ergeben sich \SI{1,2+-0,2}{V} für die einzelne Akkumulatorzelle, \SI{3,7+-0,2}{V} drei in Reihe geschaltete Zellen und erneut \SI{1,2+-0,2}{V} drei parallel geschaltete Akkumulatorzellen. 
+Für diese ergeben sich \SI{1,2+-0,2}{V} für die einzelne Akkumulatorzelle, \SI{3,7+-0,2}{V} für drei in Reihe geschaltete Zellen und erneut \SI{1,2+-0,2}{V} für drei parallel geschaltete Akkumulatorzellen. 
 
 Da es sich bei der Akkumulatorzelle um keine ideale Spannungsquelle hält, was sich physikalisch auch nicht realisieren lässt, wird sie als Reihenschaltung von idealer Spannungsquelle $U_0$ und Innenwiderstand $R_i$ angenommen. 
 Nach dem zweiten Kirchhoff'schen Gesetz folgt mit Belastung eines äußeren Widerstands:
@@ -82,7 +82,7 @@ Zu Beachten ist hierbei, dass sich kein Wert für einen Außenwiderstand von \SI
 In diesem Falle kommt es zum Kurzschluss.
 Dabei ist der Strom maximal, aber endlich, kann jedoch zur Rechnung nicht verwendet werden.
 Ebenso führt die oben angegebene Formel für einen unendlich großen Außenwiderstand dazu, dass der Innenwiderstand gegen null geht, da sich $U_{kl}$ der Leerlaufspannung $U_0$ annähert und $R_i = R_a - R_a = 0$ übrig bleibt.
-Umformen der oberen Gleichung nach der Klemmspannung $U_{kl} = R_a I$ lässt darauf schließen, dass der Innenwiderstand $R_i$ sich auch als Steigung der Gleichung $U_{kl} = -R_i I + U_0$ identifizieren lässt. Dies ist in den Diagrammen \ref{fig:IU1} bis \ref{fig:IU3} für die drei Fälle dargestellt\footnote{Die Fits und deren Unsicherheiten wurden von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten (welche im Anhang zu finden sind) und die Methode der kleinsten Quadrate herangezogen}.
+Umformen der oberen Gleichung nach der Klemmspannung $U_{kl} = R_a I$ lässt darauf schließen, dass der Innenwiderstand $R_i$ sich auch als Steigung der Gleichung $U_{kl} = -R_i I + U_0$ identifizieren lässt. Dies ist in den Diagrammen \ref{fig:IU1} bis \ref{fig:IU3} für die drei Fälle dargestellt\footnote{Alle Fits und deren Unsicherheiten wurden von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten (welche im Anhang zu finden sind) und die Methode der kleinsten Quadrate herangezogen. Die linearen Fits besitzen alle die Form y=Ax+B.}.
 Somit ergibt sich ein Innenwiderstand von \SI{20,966+-5,905}{\Omega} für eine einzelne Akkumulatorzelle, \SI{52,568+-4,520}{\Omega} für drei in Reihe geschaltete Zellen und \SI{7,511+-4,280}{\Omega} für drei parallel geschaltete Akkumulatorzellen. 
 Daraus folgt, dass sich der Innenwiderstand in einer Größenordnung von einem zwei-stelligen \si{\Omega}-Bereich befindet. 
 
