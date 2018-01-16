@@ -1,11 +1,10 @@
 \section{Verbraucher bei Gleich- und Wechselstrom} 
 
 % TODO
-%Dies ist ein Teilversuch.
-%Der Abschnitt sagt grundsätzliches über den konkreten Versuch aus.
-%Es werden relevante physikalische Effekte qualitativ beleuchtet.
-%Es wird das Ziel des Versuchs angegeben.
-
+Dieser Teilversuch beschäftigt sich mit der Untersuchung des Verhaltens von verschiedenen Verbrauchern bei Gleich- und Wechselstrom.
+Dazu werden verschiedene Verbraucher an einen Stromkreis geschlossen, in dem je nach Einstellung ein Gleich- bzw. Wechselstrom fließt.
+Es werden die bei den verschieden Strömen erhaltenen Spannungen, Stromstärken und Leistungen verglichen und Beziehungen mit der Theorie, insbesondere der Impedanzen für die Spule und den Kondensator behandelt. 
+Die Theorie zu bestätigen ist das Ziel dieses Versuches.
 %Die Ergebnisse werden kurz, aber mit konkreten Werten erwähnt.
 %Dann werden diese in den Kontext kurz eingebunden.
 
@@ -13,9 +12,9 @@
 
 \subsubsection{Aufbau}
 
-Der Aufbau des Versuches ist in Abb. \ref{fig:Schaltskizze} dargestellt. %TODO auf Bildquelle referenzieren
+Der Aufbau des Versuches ist in Abb. \ref{fig:Schaltskizze} dargestellt\footnote{Die Schaltskizze wurde der Versuchsanleitung entnommen.}.
 Dieser besteht aus einem Schaltkreis, in dem sich die Spannungsquelle, ein regulierbarer Widerstand  $R_1$ mit bis zu \SI{27}{\Omega}, sowie Messgeräte für den Leistungsverbrauch, die Spannung und den elektrischen Strom befinden. 
-Die Spannungsquelle liefert nach ihrer Angabe \SI{24}{\V}.
+Die Spannungsquelle liefert nach ihrer Angabe \SI{24}{\V}. Gleich- und Wechselstrom sind hierbei beliebig einstellbar.
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=0.9\textwidth]{auswertung/Schaltung2.png}
@@ -49,6 +48,88 @@ Damit ließen sich Werte messen, jedoch auch eine Spannung von ca. \SI{25,5}{\V}
 
 Alle aufgenommenen Werte sind dem Laborbuch zu entnehmen. 
 Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt.
+\begin{figure}[ht]
+	\centering	
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/widerstand_gleichstrom_Widerstand.pdf}
+		\label{fig:1}
+		\caption{Graphische Darstellungen der $U$-$I$-Kennlinie bei Gleichstrom und Widerstand als Verbraucher.}	
+	\end{subfigure}
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/widerstand_gleichstrom_Leistung.pdf}
+		\label{fig:2}
+		\caption{Verhältnis der ermittelten und gemessenen Leistung bei Gleichstrom und Widerstand als Verbraucher.}	
+	\end{subfigure}
+	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Widerstand als Verbraucher bei Gleichstrom.}
+\end{figure}
+\begin{figure}[ht]
+	\centering	
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/widerstand_wechselstrom_Widerstand.pdf}
+		\label{fig:3}
+		\caption{Graphische Darstellungen der $U$-$I$-Kennlinie bei Wechselstrom und Widerstand als Verbraucher.}	
+	\end{subfigure}
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/widerstand_wechselstrom_Leistung.pdf}
+		\label{fig:4}
+		\caption{Verhältnis der ermittelten und gemessenen Leistung bei Wechselstrom und Widerstand als Verbraucher. Da der eine Messpunkt offensichtlich falsch aufgenommen wurde, wurde dieser nicht mit ausgewertet.}	
+	\end{subfigure}
+	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Widerstand als Verbraucher bei Wechselstrom.}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering	
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/spule-gleich-Widerstand.pdf}
+		\label{fig:5}
+		\caption{Graphische Darstellungen der $U$-$I$-Kennlinie bei Gleichstrom und Spule als Verbraucher.}	
+	\end{subfigure}
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/spule-gleich-Leistung.pdf}
+		\label{fig:6}
+		\caption{Verhältnis der ermittelten und gemessenen Leistung bei Gleichstrom und Spule als Verbraucher.}	
+	\end{subfigure}
+	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei der Spule als Verbraucher bei Gleichstrom.}
+\end{figure}
+\begin{figure}[ht]
+	\centering	
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/spule-wechsel-Widerstand.pdf}
+		\label{fig:7}
+		\caption{Graphische Darstellungen der $U$-$I$-Kennlinie bei Wechselstrom und Spule als Verbraucher.}	
+	\end{subfigure}
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/spule-wechsel-Leistung.pdf}
+		\label{fig:8}
+		\caption{Verhältnis der ermittelten und gemessenen Leistung bei Wechselstrom und Spule als Verbraucher.}	
+	\end{subfigure}
+	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei der Spule als Verbraucher bei Wechselstrom.}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering	
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/kondensator-wechsel-Widerstand.pdf}
+		\label{fig:9}
+		\caption{Graphische Darstellungen der $U$-$I$-Kennlinie bei Wechselstrom und Kondensator und Spule als Verbraucher.}	
+	\end{subfigure}
+	\begin{subfigure}{0.70\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{auswertung/kondensator-wechsel-Leistung.pdf}
+		\label{fig:10}
+		\caption{Verhältnis der ermittelten und gemessenen Leistung bei Wechselstrom und Kondensator und Spule als Verbraucher.}	
+	\end{subfigure}
+	\caption{Graphische Darstellungen der $U$-$I$-Kennlinie des Widerstands, sowie Verhältnis der ermittelten und gemessenen Leistung bei dem Kondensator und der Spule als Verbraucher bei Wechselstrom.}
+\end{figure}
 
 %Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
 %Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
