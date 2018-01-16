@@ -45,7 +45,7 @@ geometry	609	51	1167	382	minimized
 </table>
 <multiLayer>
 I-U1	1	1	01/16/2018 17:42:00
-geometry	19	25	514	438	active
+geometry	19	25	514	438	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -80,12 +80,13 @@ CanvasBackground	#ffffff	255
 curve	Table1_3	Table1_1	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	1	Table1_3	Table1_1	Table1_2	1	8	#000000	1	1	1
 ErrorBars	0	Table1_3	Table1_1	Table1_4	1	8	#000000	1	1	1
-FunctionCurve	0,LinearFit1,x,0.01,0.05	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	95702912	96469000	1
+FunctionCurve	0,LinearFit1,x,0.01,0.05	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	126750648	1024	1
 <formula>
 B=1.26013038725796
 A=-20.9663881948782
 
 A*x+B
+
 
 
 </formula>
@@ -158,14 +159,14 @@ LabelsRotation	0	0
 </multiLayer>
 <multiLayer>
 R-P3	1	1	01/16/2018 18:30:39
-geometry	1390	236	514	438	minimized	
+geometry	213	77	514	438	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	433	307
 Alignement	0	0
 <graph>
-ggeometry	5	5	489	369
+ggeometry	5	5	490	370
 PlotTitle		#000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffff	255
@@ -195,8 +196,8 @@ ErrorBars	0	Parallel_R	Parallel_P	Parallel_u(R)	1	8	#000000	1	1	1
 ErrorBars	1	Parallel_R	Parallel_P	Parallel_u(P)	1	8	#000000	1	1	1
 scale	0	0	0.1	0	7	5	0	0
 scale	1	0	0.1	0	8	5	0	0
-scale	2	0	225	0	6	5	0	0
-scale	3	0	225	0	8	5	0	0
+scale	2	0	55	0	7	5	0	0
+scale	3	0	55	0	8	5	0	0
 LabelsFormat	0	4	0	4	0	4	0	4	
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1	
@@ -205,7 +206,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	131.770833333333	0.0932659932659933	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}ermittelte Werte	\c{4}3 Akkumulatoren parallel</legend>
+<legend>	31.3741339491917	0.0934375	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	\c{1}ermittelte Werte	\c{4}3 Akkumulatoren parallel</legend>
 </graph>
 </multiLayer>
 <multiLayer>
@@ -297,12 +298,13 @@ CanvasBackground	#ffffff	255
 curve	Table3_1	Table3_3	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	0	Table3_1	Table3_3	Table3_2	1	8	#000000	1	1	1
 ErrorBars	1	Table3_1	Table3_3	Table3_4	1	8	#000000	1	1	1
-FunctionCurve	0,LinearFit1,x,0.006,0.166666666666667	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	97459712	97277872	1
+FunctionCurve	0,LinearFit1,x,0.006,0.166666666666667	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	126766368	128468768	1
 <formula>
 B=1.43587786259542
 A=-7.51145038167938
 
 A*x+B
+
 
 </formula>
 scale	0	0	1.6	0	10	5	0	0
@@ -357,12 +359,13 @@ CanvasBackground	#ffffff	255
 curve	Table4_1	Table4_3	1	0	0	0	1	7	1	0	0	0	0	14	0	2	0	0	29	1
 ErrorBars	0	Table4_1	Table4_3	Table4_2	1	8	#000000	1	1	1
 ErrorBars	1	Table4_1	Table4_3	Table4_4	1	8	#000000	1	1	1
-FunctionCurve	0,LinearFit1,x,0.0138095238095238,0.0666666666666667	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	97432192	3276848	1
+FunctionCurve	0,LinearFit1,x,0.0138095238095238,0.0666666666666667	2			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	128703832	128473040	1
 <formula>
 B=3.59904582902212
 A=-52.5681768474848
 
 A*x+B
+
 
 </formula>
 scale	0	0	3.5	0	9	5	0	0
