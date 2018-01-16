@@ -1,24 +1,73 @@
 
 
-\subsection{Verwendete Gleichungen}\label{VGuD}
-%und Definition der Variablen
+\subsection{Unsicherheitsrechnung}\label{VGuD}
 
+\begin{figure}[h]
+	\begin{equation*}
+		x = \sum_{i=1}^{N} x_i
+		;\quad
+		u(x) = \sqrt{\sum_{i = 1}^{N} u(x_i)^2}
+	\end{equation*}
+	\caption{Formel für kombinierte Unsicherheiten des selben Typs nach GUM.}
+	\label{eq:GUM_combine}
+\end{figure}
 
-%Zusammenhang zwischen Kreisfrequenz $\omega$ und Schwingungsdauer $T$:
+\begin{figure}[h]
+	\begin{equation*}
+		f = f(x_1, \dots , x_N)
+		;\quad
+		u(f) = \sqrt{\sum_{i = 1}^{N}\left(\pdv{f}{x_i} u(x_i)\right) ^2}
+	\end{equation*}
+	\caption{Formel für sich fortpflanzende Unsicherheiten nach GUM.}
+	\label{eq:GUM_formula}
+\end{figure}
 
-%\begin{align}
-%	T=\frac{2 \pi}{\omega} \pm \Delta t
-%	\label{eq:T}
-%\end{align} 
+\begin{figure}[h]
+	\begin{equation*}
+		I = \frac{U}{R}
+		;\quad
+		u(I) = \sqrt{\left( \frac{u(U)}{R}\right) ^2 + \left( -\frac{U}{R^2}\cdot u(R)\right) ^2}
+	\end{equation*}
+	\caption{Unsicherheit für den Strom eines ohm'schen Widerstandes. $U$ und $R$ sind direkt gemessen und deren Unsicherheiten sind gegeben mit $u(R) = 0,1 R$ und $u(U)$ (je nach Messbereich) $= \frac{\SI{0,1}{\volt}}{2\sqrt{6}} , \frac{\SI{0,2}{\volt}}{2\sqrt{6}} , \frac{\SI{1}{\volt}}{2\sqrt{6}}$.}
+	\label{eq:unc-I}
+\end{figure}
 
+\begin{figure}[h]
+	\begin{equation*}
+		P = U \cdot I
+		;\quad
+		u(P) = \sqrt{\left( U u(I)\right) ^2 + \left( I u(U)\right) ^2}
+	\end{equation*}
+	\caption{Unsicherheit für die abgegebene Leistung über einen ohm'schen Widerstand. $U$ und $I$ sind direkt gemessen und deren Unsicherheiten sind gegeben mit $u(I) = \frac{\SI{0,01}{\ampere}}{2\sqrt{6}}$ und $u(U)$ wie oben in Abb. \ref{eq:unc-I=U/R}.}
+	\label{eq:unc-P}
+\end{figure}
 
-%Alle anderen Unsicherheiten sind gemäß Kapitel \ref{sec:einzeln} so klein, dass sie zu vernachlässigen sind. Es sei $\Delta t={ 0,006} {s}$.\\
-%\frac{2 \pi}{\omega^2} \cdot\Delta \omega  \label{eq:T}
+\begin{figure}[h]
+	\begin{equation*}
+		\phi = \arccos(m)
+		;\quad
+		u(\phi) = \abs{-\frac{1}{\sqrt{1-m^2}}} = \frac{1}{\sqrt{1-m^2}}
+	\end{equation*}
+	\caption{Unsicherheit für den Phasenwinkel $\phi$ in Abhängigkeit zu der Steigung $m$ des dazugehörigen Leistungsgraphen. Die Unsicherheit für $m$ wurde aus dem linearen Fit entnommen. Da $m\leq 1$, entfällt der Betrag.}
+	\label{eq:unc-phi}
+\end{figure}
 
+\begin{figure}[h]
+		\begin{equation*}
+		L = \frac{\abs{Z}}{\omega} \sin\phi
+		;\quad
+		u(L) = \frac{1}{\omega}\sqrt{\left( u(\abs{Z}) \sin\phi \right) ^2 + \left( \abs{Z} \cos\phi u(\phi) \right) ^2}
+	\end{equation*}
+	\caption{Unsicherheit für die Induktivität der Spule. $\omega$ ist die Kreisfrequenz der Spannungsquelle und sei als ideal angenommen. $u(\abs{Z})$ ist der Steigung des jeweiligen $U$-$I$-Graphen zu entnehmen.}
+	\label{eq:unc-L}
+\end{figure}
 
-%Standardunsicherheit der Rechteckverteilung u für die Intervallbreite a:
-	%\begin{align}
-	%	u=\frac{a}{2\sqrt{3}}\label{eq:SR}
-	%\end{align} 
-
-
+\begin{figure}[h]
+	\begin{align*}
+		C &= \frac{1}{\omega}\frac{1}{\left( \omega L - \abs{Z}\sin\phi \right) }
+		\\
+		u(C) &=\frac{1}{\omega}\sqrt{\left( \frac{-\omega}{\left( \omega L - \abs{Z} \sin\phi \right) ^2}\right) ^2+\left( \frac{\sin\phi}{\left( \omega L - \abs{Z} \sin\phi \right) ^2}\right) ^2+\left( \frac{\abs{Z}\cos\phi}{\left( \omega L - \abs{Z} \sin\phi \right) ^2}\right) ^2}
+	\end{align*}
+	\caption{Unsicherheit für die Kapazität des Kondensators.}
+	\label{eq:unc-C}
+\end{figure}
