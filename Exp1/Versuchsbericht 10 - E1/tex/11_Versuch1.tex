@@ -33,7 +33,25 @@ Die Berechnung dieser für diesen Versuch erfolgt im Anhang (\ref*{sec:anhang}).
 Alle aufgenommenen Werte sind dem Laborbuch zu entnehmen. 
 Darüber hinaus sind die Daten in den folgenden Diagrammen graphisch dargestellt.
 
-Zur Bestimmung der Leerlaufspannung wird ein "unendlich"
+Zur Bestimmung der Leerlaufspannung wird ein "unendlich" großer Widerstand gewählt, der Stromkreis also nicht geschlossen.
+Für diese ergeben sich \SI{1,2+-0,2}{V} für die einzelne Akkumulatorzelle, \SI{3,7+-0,2}{V} drei in Reihe geschaltete Zellen und erneut \SI{1,2+-0,2}{V} drei parallel geschaltete Akkumulatorzellen. 
+
+Da es sich bei der Akkumulatorzelle um keine ideale Spannungsquelle hält, was sich physikalisch auch nicht realisieren lässt, wird sie als Reihenschaltung von idealer Spannungsquelle $U_0$ und Innenwiderstand $R_i$ angenommen. 
+Nach dem zweiten Kirchhoff'schen Gesetz folgt mit Belastung eines äußeren Widerstands:
+\begin{align}
+	U_0 = R_i I + R_a I \\
+	\text{und durch umformen nach $R_i$ folgt:} \quad R_i = \frac{U_0}{I}-R_a.
+\end{align}
+Der elektrische Strom $I$ lässt sich hierbei durch die gemessene Klemmspannung $U_{kl}$ und dem Widerstand $R_a$ ermitteln ($I=\frac{U_{kl}}{R_a}$).
+Zu Beachten ist hierbei, dass sich kein Wert für einen Außenwiderstand von \SI{0}{\Omega} ermitteln lässt, da dafür durch null geteilt werden müsste.
+In diesem Falle kommt es zum Kurzschluss.
+Dabei ist der Strom maximal, aber endlich, kann jedoch zur Rechnung nicht verwendet werden.
+Ebenso führt die oben angegebene Formel für einen unendlich großen Außenwiderstand dazu, dass der Innenwiderstand gegen null geht, da sich $U_{kl}$ der Leerlaufspannung $U_0$ annähert und $R_i = R_a - R_a = 0$ übrig bleibt.
+Umformen der oberen Gleichung nach der Klemmspannung $U_{kl} = R_a I$ lässt darauf schließen, dass der Innenwiderstand $R_i$ sich auch als Steigung der Gleichung $U_{kl} = -R_i I + U_0$ identifizieren lässt. Dies ist in den Diagrammen \ref{label} bis \ref{label} für die drei Fälle dargestellt\footnote{Die Fits und deren Unsicherheiten wurden von dem Programm SciDavis berechnet, dazu wurden die Unsicherheiten (welche im Anhang zu finden sind) und die Methode der kleinsten Quadrate herangezogen}.
+Somit ergibt sich ein Innenwiderstand von \SI{0}{\Omega} für eine einzelne Akkumulatorzelle, \SI{0}{\Omega} für drei in Reihe geschaltet und \SI{0}{\Omega} für drei parallelgeschaltete Zellen. %TODO Messwerte
+Daraus folgt, dass sich der Innenwiderstand in einer Größenordnung von \SI{0}{\Omega} befindet. %TODO folgern
+
+
 % Rechnungsweg zum Ergebnis angeben und begründen, warum z. B. linearer Fit genommen wurde.
 % Dazu auf die Theorie oder die Versuchsanleitung Bezug nehmen.
 % Vollständige Fehlerberechnung in den Anhang.
