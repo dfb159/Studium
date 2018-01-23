@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Unsicherheiten}{5}{subsubsection.2.2.2}
 \contentsline {subsection}{\numberline {2.3}Durchf\IeC {\"u}hrung und Datenanalyse}{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Diskussion}{6}{subsection.2.4}
-\contentsline {section}{\numberline {3}Schlussfolgerung}{8}{section.3}
-\contentsline {section}{\numberline {4}Anhang}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Unsicherheitsrechnung}{9}{subsection.4.1}
-\contentsline {section}{\nonumberline Literatur}{9}{section*.6}
+\contentsline {section}{\numberline {3}Schlussfolgerung}{9}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Unsicherheitsrechnung}{10}{subsection.4.1}
+\contentsline {section}{\nonumberline Literatur}{10}{section*.8}

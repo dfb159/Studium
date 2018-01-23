@@ -47,6 +47,7 @@ Die Bearbeitung dieser ist im Folgenden dargestellt:
 	Je nach Bewegungsrichtung wird für die Geschwindigkeit $v_{\downarrow}$ bzw. $v_{\uparrow}$ eingesetzt. Für die elektrische Feldkraft wurde die für Plattenkondensatoren bekannte Gleichung verwendet. Das verwendete $\eta$ in der Gleichung für die Reibungskraft entspricht der dynamischen Viskosität der Luft.
 	Einsetzen der Kräfte in Gl. \ref{eq:force1} und Gl. \ref{eq:force2} sowie Umformen nach $Q$ bzw. $r$ führt zu:
 	\begin{align}
+		\label{eq:Ladung}
 		Q = \frac{18\pi d}{U} \sqrt{\frac{\eta^3 v_\downarrow}{2(\rho_\text{Öl}-\rho_\text{Luft})g}}(v_\downarrow + v_\uparrow) \\
 		\text{und} \quad r = 3 \sqrt{\frac{\eta v_\downarrow}{2(\rho_\text{Öl}-\rho_\text{Luft})g}}
 	\end{align}
@@ -117,7 +118,7 @@ Diese besitzt eine Digitalanzeige und erhält deswegen eine Unsicherheit, welche
 Da jedoch auch die Reaktionszeit eine Rolle spielt, wird diese mit \SI{0,1}{\second} über eine Dreiecksverteilung bestimmt.
 Aus der kombinierten Unsicherheit der Stoppuhr und der Reaktionszeit folgt die der Zeitmessung.
 Bei der Unsicherheit des Ortes wird die des Maßes an dem Mikroskop verwendet.
-Hierbei handelt es sich um ein Mikrometermaß, welches eine Unsicherheit von \SI{0,1}{\micro\meter} dreiecksverteilt besitzt.
+Hierbei handelt es sich um ein Mikrometermaß, welches eine Unsicherheit von \SI{0,1}{\milli\meter} dreiecksverteilt besitzt.
 Die Berechnung der kombinierten Unsicherheiten erfolgt nach GUM und ist im Anhang aufgeführt.
 
 \subsection{Durchführung und Datenanalyse}
@@ -127,7 +128,31 @@ Dazu wird die Zeit gemessen, welche das Tröpfchen benötigt um zwei Skalen-abst
 Bei ausgeschaltetem Kondensator, wo die Gewichtskraft $F_\text{G}$ auf das Tröpfchen wirkt und dieses sich dadurch nach unten bewegt, wird die gemessene Geschwindigkeit $v_{\downarrow}$ genannt.
 Umgekehrt ist $v_{\uparrow}$ die Geschwindigkeit für den Fall, dass der Kondensator eingeschaltet ist und die elektrische Kraft $F_\text{E}$ auf das Tröpfchen wirkt, sodass es sich nach oben bewegt. 
 
-% TODO
+Für die Berechnung der Ladung wird die in Gl. \ref{eq:Ladung} dargestellte Formel verwendet.
+Die dafür verwendeten Werte sind in Tab. \ref{tab:werte} aufgeführt.
+\begin{table}
+	\centering
+	\caption{Für die Berechnung verwendete Werte. Temperaturabhängige Größen hier bei $\SI{21}{\celsius}$}
+	\label{tab:werte}
+	\begin{tabular}{l|l}
+		{Größe} & {Wert}	\\
+		\hline
+		{Plattenabstand $d$} & {\SI{6,00+-0,05}{\mm}} \\
+		{Spannung $U$ (eingeschalteter Kondensator)} & \SI{558+-0.3}{\volt}\\
+		{Länge der Mikrometerskala} & {\SI{10}{\mm}} \\
+		{Skaleneinteilung} & {\SI{0,01}{\mm}} \\
+		{Öldichte $\rho_\text{Öl}$} & {\SI{874}{\kg\per\m^3}} \\
+		{Luftdichte $\rho_\text{Luft}$} & {\SI{1,29}{\kg\per\m^3}} \\
+		{Dyn. Viskosität der Luft $\eta$} & \SI{1,819e-5}{\pascal\second}\\		
+	\end{tabular}
+\end{table}
+Einsetzen der für die Tröpfchen gemittelten Geschwindigkeiten ergibt die in Abb. \ref{fig:ergebnis} dargestellten Ladungen in Vielfachen der Elementarladung $e$.
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\textwidth]{auswertung/elementar_tropfen.pdf}
+	\caption{Ermittelte Ladungen der betrachteten Öltröpfchen.}
+	\label{fig:ergebnis}	
+\end{figure}
 
 \subsection{Diskussion}
 
