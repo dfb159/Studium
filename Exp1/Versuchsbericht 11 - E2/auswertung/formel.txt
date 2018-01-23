@@ -1,0 +1,8 @@
+sqrt((
+6*pi*col("visk_Air")*col("r")/col("E")*col("u(v_down)")
+)^2+(
+(4*pi*col("g")*(col("rho_Oil")-col("rho_Air"))/col("E")*col("r")^2 + 6*pi*col("visk_Air")*col("v_down")/col("E"))*col("u(r)")
+)^2+(
+(4/3*pi*col("r")^3*col("g")*(col("rho_Oil")-col("rho_Air"))/col("E")^2 + 6*pi*col("visk_Air")*col("r")*col("v_down")/col("E")^2)*col("u(E)")
+)^2
+)
