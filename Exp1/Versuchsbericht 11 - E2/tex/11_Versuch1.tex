@@ -37,14 +37,17 @@ Die Bearbeitung dieser ist im Folgenden dargestellt:
 		\label{eq:force2}
 		\text{und} \quad F_\text{G} + F_\text{R} = F_\text{E} + F_\text{A}.
 	\end{align}
-	Drückt man das Gewicht $m$ der Öltröpfchen durch ihre Dichte und Volumen\footnote{Dafür wird angenommen, dass die Dichte der Tröpfchen homogen verteilt ist und dass sie kugelförmig mit Radius $r$ sind. Ebenso mit dem Volumen von Luft bei der Auftriebskraft.} aus, sowie dass  so folgt:
+	Drückt man das Gewicht $m$ der Öltröpfchen durch ihre Dichte und Volumen\footnote{Dafür wird angenommen, dass die Dichte der Tröpfchen homogen verteilt ist und dass sie kugelförmig mit Radius $r$ sind. Ebenso mit dem Volumen von Luft bei der Auftriebskraft.} aus, so folgt:
 	\begin{align}
-		\frac{4}{3}\pi r^3 \cdot \rho_\text{Öl} \cdot g = F_\text{G}\\
-		\frac{4}{3}\pi r^3 \cdot \rho_\text{Luft} \cdot g = F_\text{A}\\
-		6\pi \cdot r \cdot \eta v = F_\text{R} \\
-		\frac{U}{d} \cdot Q = F_\text{E}. \label{eq:eForce}
+		F_\text{G} &= \frac{4}{3}\pi r^3 \cdot \rho_\text{Öl} \cdot g\\
+		F_\text{A} &= \frac{4}{3}\pi r^3 \cdot \rho_\text{Luft} \cdot g\\
+		F_\text{R} &= 6\pi \cdot r \cdot \eta v\\
+		F_\text{E} &= \frac{U}{d} \cdot Q. \label{eq:eForce} \\
+				   &= \frac{4\pi r^3g(\rho_\text{Öl}-\rho_\text{L})}{3E}+ \frac{6\pi \eta r v_\downarrow}{E} 
 	\end{align}
-	Je nach Bewegungsrichtung wird für die Geschwindigkeit $v_{\downarrow}$ bzw. $v_{\uparrow}$ eingesetzt. Für die elektrische Feldkraft wurde die für Plattenkondensatoren bekannte Gleichung verwendet. Das verwendete $\eta$ in der Gleichung für die Reibungskraft entspricht der dynamischen Viskosität der Luft.
+	$E$ ist hierbei $\frac{U}{d}$. 
+	Je nach Bewegungsrichtung wird für die Geschwindigkeit, wie in Abb. \ref{fig:force}, $v_{\downarrow}$ bzw. $v_{\uparrow}$ eingesetzt. 
+	Für die elektrische Feldkraft wurde die für Plattenkondensatoren bekannte Gleichung verwendet. Das verwendete $\eta$ in der Gleichung für die Reibungskraft entspricht der dynamischen Viskosität der Luft.
 	Einsetzen der Kräfte in Gl. \ref{eq:force1} und Gl. \ref{eq:force2} sowie Umformen nach $Q$ bzw. $r$ führt zu:
 	\begin{align}
 		\label{eq:Ladung}
@@ -116,7 +119,7 @@ Die bei diesem Versuch auftretenden Unsicherheiten setzen sich aus der Unsicherh
 Für die Zeitmessung dient eine handelsübliche Stoppuhr.
 Diese besitzt eine Digitalanzeige, die dabei auftretende Unsicherheit ist jedoch so klein, dass sie nicht weiter betrachtet wird.
 Da jedoch auch die Reaktionszeit eine Rolle spielt, wird diese mit \SI{0,2}{\second} über eine Dreiecksverteilung bestimmt.
-Aus der gemittelten Unsicherheit der Reaktionszeit für die verschiedenen Zeitmessungen folgt die der Zeitmessung.
+Durch die Mittlung der Zeitmessung und deren Standardabweichungen folgt die Unsicherheit für die Zeit der einzelnen gemessenen Tröpfchen.
 Bei der Unsicherheit des Ortes wird die des Maßes an dem Mikroskop verwendet.
 Hierbei handelt es sich um ein Mikrometermaß, welches eine Unsicherheit von \SI{0,1}{\milli\meter} dreiecksverteilt besitzt.
 Die Berechnung der kombinierten Unsicherheiten erfolgt nach GUM und ist im Anhang aufgeführt.
