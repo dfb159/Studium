@@ -19,3 +19,43 @@
 	\caption{Formel für sich fortpflanzende Unsicherheiten nach GUM.}
 	\label{eq:GUM_formula}
 \end{figure}
+
+\begin{figure}[h]
+	\begin{equation*}
+		v = \frac{\Delta x}{\Delta t}
+		;\quad
+		u(v) = \sqrt{\left( \frac{u(x)}{t} \right)^2 + \left( -\frac{x}{t^2} u(t) \right)^2}
+	\end{equation*}
+	\caption{Unsicherheitsrechnung für die Geschwindigkeit.}
+	\label{eq:unc_v}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{equation*}
+		E = \frac{U}{d}
+		;\quad
+		u(E) = \sqrt{\left( \frac{u(E)}{d} \right)^2 + \left( -\frac{E}{d^2} u(d) \right)^2}
+	\end{equation*}
+	\caption{Unsicherheitsrechnung für das elektrische Feld.}
+	\label{eq:unc_E}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{equation*}
+		r = \sqrt{\frac{9}{2} \frac{\eta}{g(\rho_\text{Öl}-\rho_\text{L})}} \sqrt{v_\uparrow}
+		;\quad
+		u(r) = \sqrt{\frac{9}{2} \frac{\eta}{g(\rho_\text{Öl}-\rho_\text{L})}} \frac{u(v_\uparrow)}{2\sqrt{v_\uparrow}}
+	\end{equation*}
+	\caption{Unsicherheitsrechnung für den Radius der Öltröpfchen durch Kräftegleichgewicht ohne anliegendes elektrisches Feld.}
+	\label{eq:unc_r}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{equation*}
+		Q = \frac{4\pi r^3g(\rho_\text{Öl}-\rho_\text{L})}{3E}+ \frac{6\pi \eta r v_\downarrow}{E}
+		;\quad
+		u(Q) = \left[ \left( \frac{6\pi \eta r}{E} u(v_\downarrow) \right)^2 + \left( \left( \frac{4\pi g (\rho_\text{Öl} - \rho_\text{L})}{3E} 3 r^2 + \frac{6\pi \eta v_\downarrow}{E} \right) u(r) \right)^2 + \left( - \left( \frac{4\pi r^3 g (\rho_\text{Öl} - \rho_\text{L}) {3E^2} + \frac{6\pi \eta r v_\downarrow}{E^2} \right) u(E) \right)^2  \right] \frac{1}{2}
+	\end{equation*}
+	\caption{Unsicherheitsrechnung für die Ladung der Öltröpfchen durch Kräftegleichgewicht in anliegendem elektrischen Feld.}
+	\label{eq:unc_Q}
+\end{figure}
