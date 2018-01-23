@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  23 JAN 2018 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  23 JAN 2018 16:50
 entering extended mode
 **./10Mi_E2_17-01-2018.tex
 (10Mi_E2_17-01-2018.tex
@@ -3019,71 +3019,127 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-Package cleveref Info: loaded `ngerman' language definitions on input line 21.
+(babel)             in language  on input line 3.
+<auswertung/force1.png, id=79, 292.09125pt x 220.57407pt>
+File: auswertung/force1.png Graphic file (type png)
+<use auswertung/force1.png>
+Package pdftex.def Info: auswertung/force1.png  used on input line 16.
+(pdftex.def)             Requested size: 224.06548pt x 169.2098pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 17.
+<auswertung/force2.png, id=83, 292.09125pt x 220.57407pt>
+File: auswertung/force2.png Graphic file (type png)
+<use auswertung/force2.png>
+Package pdftex.def Info: auswertung/force2.png  used on input line 22.
+(pdftex.def)             Requested size: 224.06548pt x 169.2098pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 39.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 39.
  [1
 
 ]
+Package cleveref Info: loaded `ngerman' language definitions on input line 39.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
-<auswertung/aufbau_1.png, id=85, 261.22594pt x 301.125pt>
+(babel)             in language  on input line 39.
+ [2 <./auswertung/force1.png> <./auswertung/force2.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 40.
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 57.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.39996> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.87994> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.19998> on input line 57.
+Package cleveref Info: loaded `ngerman' language definitions on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+ [3]
+Package cleveref Info: loaded `ngerman' language definitions on input line 78.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 78.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 78.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 78.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 78.
+ [4]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 84.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 84.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 86.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 86.
+<auswertung/aufbau_1.png, id=134, 261.22594pt x 301.125pt>
 File: auswertung/aufbau_1.png Graphic file (type png)
 <use auswertung/aufbau_1.png>
-Package pdftex.def Info: auswertung/aufbau_1.png  used on input line 52.
+Package pdftex.def Info: auswertung/aufbau_1.png  used on input line 92.
 (pdftex.def)             Requested size: 224.06548pt x 258.2916pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 53.
-<auswertung/aufbau_2.png, id=89, 324.21124pt x 401.5pt>
+<auswertung/aufbau_2.png, id=137, 324.21124pt x 401.5pt>
 File: auswertung/aufbau_2.png Graphic file (type png)
 <use auswertung/aufbau_2.png>
-Package pdftex.def Info: auswertung/aufbau_2.png  used on input line 58.
+Package pdftex.def Info: auswertung/aufbau_2.png  used on input line 98.
 (pdftex.def)             Requested size: 201.65755pt x 249.7361pt.
 
 
-LaTeX Warning: Float too large for page by 38.40494pt on input line 64.
+LaTeX Warning: Float too large for page by 38.40494pt on input line 104.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 73.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 81.
+(babel)             in language  on input line 112.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 120.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 123.
+Package cleveref Info: loaded `ngerman' language definitions on input line 129.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
- [2]
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 129.
+ [5]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 132.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 132.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3094,7 +3150,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 89.
- [3]
+ [6]
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
@@ -3104,7 +3160,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 89.
- [4 <./auswertung/aufbau_1.png> <./auswertung/aufbau_2.png>] (tex/19_Fazit.tex
+ [7 <./auswertung/aufbau_1.png> <./auswertung/aufbau_2.png>] (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3119,7 +3175,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
- [5
+ [8
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3158,7 +3214,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 105.
 
-[6
+[9
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
@@ -3168,39 +3224,41 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `10Mi_E2_17-01-2018.out' has not changed.
-(rerunfilecheck)             Checksum: 628E5DF30DA781E30FF22E84646D0855;1677.
+(rerunfilecheck)             Checksum: BA5C8AA4D1FFD2AD3A4F21694A09C41C;1677.
 Package logreq Info: Writing requests to '10Mi_E2_17-01-2018.run.xml'.
 \openout1 = `10Mi_E2_17-01-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42462 strings out of 493307
- 815516 string characters out of 3138825
- 1383325 words of memory out of 3000000
- 45375 multiletter control sequences out of 15000+200000
- 631262 words of font info for 118 fonts, out of 3000000 for 9000
+ 42872 strings out of 493307
+ 824089 string characters out of 3138825
+ 1386053 words of memory out of 3000000
+ 45734 multiletter control sequences out of 15000+200000
+ 796209 words of font info for 277 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,20n,106p,10410b,2232s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,20n,106p,10410b,2245s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
-.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program 
-Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fon
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.en
+c}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmtt12.pfb>
-Output written on 10Mi_E2_17-01-2018.pdf (8 pages, 394417 bytes).
+KTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmm
+i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 10Mi_E2_17-01-2018.pdf (11 pages, 445252 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 36971 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 75893 words of extra memory for PDF output out of 89155 (max. 10000000)
 

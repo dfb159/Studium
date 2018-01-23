@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{RCL}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1b3bb8ed2947f808a2984040cb385cb6}{%
+           family={Glas},
+           familyi={G\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \strng{fullhash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \strng{bibnamehash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \strng{authorbibnamehash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \strng{authornamehash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \strng{authorfullhash}{1b3bb8ed2947f808a2984040cb385cb6}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Millikan Versuch}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://137.193.65.91/ger/theory.htm
+      \endverb
+      \verb{url}
+      \verb http://137.193.65.91/ger/theory.htm
+      \endverb
+    \endentry
     \entry{Aufbau}{online}{}
       \name{author}{1}{}{%
         {{hash=e29a7c276662176a4d0371b99639c16a}{%
