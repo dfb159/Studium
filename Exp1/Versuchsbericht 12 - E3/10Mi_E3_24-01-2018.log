@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  30 JAN 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  31 JAN 2018 15:54
 entering extended mode
 **./10Mi_E3_24-01-2018.tex
 (10Mi_E3_24-01-2018.tex
@@ -3023,58 +3023,68 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 7.
 <auswertung/Serienresonanz.PNG, id=72, 745.28438pt x 587.94656pt>
 File: auswertung/Serienresonanz.PNG Graphic file (type png)
 <use auswertung/Serienresonanz.PNG>
-Package pdftex.def Info: auswertung/Serienresonanz.PNG  used on input line 12.
-(pdftex.def)             Requested size: 403.31511pt x 318.16824pt.
+Package pdftex.def Info: auswertung/Serienresonanz.PNG  used on input line 11.
+(pdftex.def)             Requested size: 246.47339pt x 194.43564pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 20.
 <auswertung/Parallelresonanz.PNG, id=75, 994.46532pt x 479.54156pt>
 File: auswertung/Parallelresonanz.PNG Graphic file (type png)
 <use auswertung/Parallelresonanz.PNG>
-Package pdftex.def Info: auswertung/Parallelresonanz.PNG  used on input line 27
+Package pdftex.def Info: auswertung/Parallelresonanz.PNG  used on input line 24
 .
-(pdftex.def)             Requested size: 403.31511pt x 194.48401pt.
+(pdftex.def)             Requested size: 313.69029pt x 151.26859pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 27.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 37.
-Package cleveref Info: loaded `ngerman' language definitions on input line 41.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 27.
  [1
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 42.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 42.
-Package cleveref Info: loaded `ngerman' language definitions on input line 52.
+(babel)             in language  on input line 33.
+Package cleveref Info: loaded `ngerman' language definitions on input line 37.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
- [2 <./auswertung/Serienresonanz.PNG>]
+(babel)             in language  on input line 37.
+ [2 <./auswertung/Serienresonanz.PNG> <./auswertung/Parallelresonanz.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 38.
+
+
+LaTeX Warning: Reference `label' on page 3 undefined on input line 48.
+
+
+LaTeX Warning: Reference `label' on page 3 undefined on input line 48.
+
+
+LaTeX Warning: Reference `label' on page 3 undefined on input line 59.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 63.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3085,7 +3095,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 89.
- [3 <./auswertung/Parallelresonanz.PNG>] (tex/19_Fazit.tex
+ [3] (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3100,8 +3110,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
-
-[4
+ [4
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3136,35 +3145,40 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `10Mi_E3_24-01-2018.out' has not changed.
 (rerunfilecheck)             Checksum: 2D0BAE93F86B1B313126078E2010C8D6;1390.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to '10Mi_E3_24-01-2018.run.xml'.
 \openout1 = `10Mi_E3_24-01-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42120 strings out of 493307
- 809033 string characters out of 3138825
- 1381362 words of memory out of 3000000
- 45068 multiletter control sequences out of 15000+200000
- 605812 words of font info for 95 fonts, out of 3000000 for 9000
+ 42138 strings out of 493307
+ 809253 string characters out of 3138825
+ 1381334 words of memory out of 3000000
+ 45074 multiletter control sequences out of 15000+200000
+ 612242 words of font info for 102 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,19n,106p,10410b,2234s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,19n,106p,10410b,2259s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program 
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmsy10.pfb>
-Output written on 10Mi_E3_24-01-2018.pdf (7 pages, 321436 bytes).
+fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
+>
+Output written on 10Mi_E3_24-01-2018.pdf (7 pages, 342734 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
- 26211 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27235 words of extra memory for PDF output out of 29859 (max. 10000000)
 
