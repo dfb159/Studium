@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  31 JAN 2018 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  1 FEB 2018 23:05
 entering extended mode
 **./10Mi_E3_24-01-2018.tex
 (10Mi_E3_24-01-2018.tex
@@ -2870,7 +2870,14 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '10Mi_E3_24-01-2018.bbl' found.
 
-(10Mi_E3_24-01-2018.bbl)
+(10Mi_E3_24-01-2018.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'widerstand':
+(biblatex)                - Entry 'widerstand' (res/literatur.bib): Invalid for
+mat '2018-02-1' of date field 'urldate' - ignoring.
+
+)
 Package biblatex Info: Reference section=0 on input line 37.
 Package biblatex Info: Reference segment=0 on input line 37.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2878,8 +2885,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box61
 Package hyperref Info: Link coloring OFF on input line 37.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -3026,7 +3032,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 7.
-<auswertung/Serienresonanz.PNG, id=72, 745.28438pt x 587.94656pt>
+<auswertung/Serienresonanz.PNG, id=77, 745.28438pt x 587.94656pt>
 File: auswertung/Serienresonanz.PNG Graphic file (type png)
 <use auswertung/Serienresonanz.PNG>
 Package pdftex.def Info: auswertung/Serienresonanz.PNG  used on input line 11.
@@ -3035,7 +3041,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
-<auswertung/Parallelresonanz.PNG, id=75, 994.46532pt x 479.54156pt>
+<auswertung/Parallelresonanz.PNG, id=82, 994.46532pt x 479.54156pt>
 File: auswertung/Parallelresonanz.PNG Graphic file (type png)
 <use auswertung/Parallelresonanz.PNG>
 Package pdftex.def Info: auswertung/Parallelresonanz.PNG  used on input line 24
@@ -3057,34 +3063,76 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 33.
-Package cleveref Info: loaded `ngerman' language definitions on input line 37.
+Package cleveref Info: loaded `ngerman' language definitions on input line 38.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
  [2 <./auswertung/Serienresonanz.PNG> <./auswertung/Parallelresonanz.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
-
-
-LaTeX Warning: Reference `label' on page 3 undefined on input line 48.
-
-
-LaTeX Warning: Reference `label' on page 3 undefined on input line 48.
-
-
-LaTeX Warning: Reference `label' on page 3 undefined on input line 59.
-
+(babel)             in language  on input line 39.
+<auswertung/Reihe-0ohm(algo).pdf, id=108, 501.875pt x 381.425pt>
+File: auswertung/Reihe-0ohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Reihe-0ohm(algo).pdf>
+Package pdftex.def Info: auswertung/Reihe-0ohm(algo).pdf  used on input line 57
+.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+<auswertung/Reihe-200ohm(algo).pdf, id=109, 501.875pt x 381.425pt>
+File: auswertung/Reihe-200ohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Reihe-200ohm(algo).pdf>
+Package pdftex.def Info: auswertung/Reihe-200ohm(algo).pdf  used on input line 
+63.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+<auswertung/Reihe-500ohm(algo).pdf, id=110, 501.875pt x 381.425pt>
+File: auswertung/Reihe-500ohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Reihe-500ohm(algo).pdf>
+Package pdftex.def Info: auswertung/Reihe-500ohm(algo).pdf  used on input line 
+69.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+<auswertung/Parallel-infohm(algo).pdf, id=111, 501.875pt x 381.425pt>
+File: auswertung/Parallel-infohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Parallel-infohm(algo).pdf>
+Package pdftex.def Info: auswertung/Parallel-infohm(algo).pdf  used on input li
+ne 75.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+<auswertung/Parallel-2kohm(algo).pdf, id=112, 501.875pt x 381.425pt>
+File: auswertung/Parallel-2kohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Parallel-2kohm(algo).pdf>
+Package pdftex.def Info: auswertung/Parallel-2kohm(algo).pdf  used on input lin
+e 81.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+<auswertung/Parallel-10kohm(algo).pdf, id=113, 501.875pt x 381.425pt>
+File: auswertung/Parallel-10kohm(algo).pdf Graphic file (type pdf)
+<use auswertung/Parallel-10kohm(algo).pdf>
+Package pdftex.def Info: auswertung/Parallel-10kohm(algo).pdf  used on input li
+ne 87.
+(pdftex.def)             Requested size: 313.69029pt x 238.41331pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 95.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 95.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 95.
+ [3]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 104.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 136.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3095,7 +3143,40 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 89.
- [3] (tex/19_Fazit.tex
+ [4 <./auswertung/Reihe-0ohm(algo).pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+ [5 <./auswertung/Reihe-200ohm(algo).pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+ [6 <./auswertung/Reihe-500ohm(algo).pdf> <./auswertung/Parallel-infohm(algo).p
+df>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 89.
+ [7 <./auswertung/Parallel-2kohm(algo).pdf> <./auswertung/Parallel-10kohm(algo)
+.pdf>]
+(tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3110,7 +3191,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
- [4
+ [8
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3123,6 +3204,39 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
+Package cleveref Info: loaded `ngerman' language definitions on input line 104.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+ [9
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 104.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 104.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 104.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (12.32973pt too wide) in paragraph at lines 105--105
+\T1/lmtt/m/n/12 LearnWeb / learnweb2 / mod / resource / view . php ? id = 88352
+3$[] \T1/lmr/m/n/12 (-20) (be-sucht am 25.01.2018). 
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
 Package cleveref Info: loaded `ngerman' language definitions on input line 106.
 
@@ -3134,7 +3248,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 106.
- [5
+[10
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
@@ -3144,41 +3258,40 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `10Mi_E3_24-01-2018.out' has not changed.
-(rerunfilecheck)             Checksum: 2D0BAE93F86B1B313126078E2010C8D6;1390.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: C5F9C6AF7CF74EAF8C65958E391917C0;1482.
 Package logreq Info: Writing requests to '10Mi_E3_24-01-2018.run.xml'.
 \openout1 = `10Mi_E3_24-01-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42138 strings out of 493307
- 809253 string characters out of 3138825
- 1381334 words of memory out of 3000000
- 45074 multiletter control sequences out of 15000+200000
- 612242 words of font info for 102 fonts, out of 3000000 for 9000
+ 42487 strings out of 493307
+ 816601 string characters out of 3138825
+ 1388215 words of memory out of 3000000
+ 45382 multiletter control sequences out of 15000+200000
+ 612581 words of font info for 111 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,19n,106p,10410b,2259s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
-.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
->
-Output written on 10Mi_E3_24-01-2018.pdf (7 pages, 342734 bytes).
+ 68i,20n,106p,10410b,2259s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
+dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
+c}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
+2.pfb>
+Output written on 10Mi_E3_24-01-2018.pdf (12 pages, 525075 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 27235 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 30345 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -16,5 +16,67 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{widerstand}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
+           family={Kompendium},
+           familyi={K\bibinitperiod},
+           given={Elektronik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{bibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorbibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Widerstandsfarbcode}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/bau/1109051.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/bau/1109051.htm
+      \endverb
+      \warn{\item Entry 'widerstand' (res/literatur.bib): Invalid format '2018-02-1' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WWU}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
+           family={Münster},
+           familyi={M\bibinitperiod},
+           given={WWU},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{fullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{bibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorbibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authornamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorfullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elektrische Resonanz}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/mod/resource/view.php?id=883523
+      \endverb
+      \verb{url}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/mod/resource/view.php?id=883523
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

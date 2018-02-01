@@ -9,7 +9,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.55\textwidth]{auswertung/Serienresonanz.PNG}
-				\caption{Schaltskizze für den Aufbau des Serienresonanzkreises.}
+				\caption{Schaltskizze für den Aufbau des Serienresonanzkreises.\cite{WWU}}
 				\label{fig:SerienResonanzSkizze}	
 			\end{figure}
 			
@@ -22,7 +22,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.7\textwidth]{auswertung/Parallelresonanz.PNG}
-				\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+				\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.\cite{WWU}}
 				\label{fig:ParallelResonanzSkizze}	
 			\end{figure}
 			
@@ -32,34 +32,107 @@
 
 	\subsection{Unsicherheiten} 
 
-		Die bei diesem Versuch auftretenden Unsicherheiten setzen sich aus der Unsicherheit für den Kondensator $U_\text{c}$, für die digitale Anzeige des Multimeters $U_\text{digital}$, ... %TODO weitere Unsicherheiten
+		Die bei diesem Versuch auftretenden Unsicherheiten setzen sich aus der Unsicherheit für den Kondensator $u_\text{c}$, für die digitale Anzeige des Multimeters und des Oszilloskops $u_\text{digital}$, sowie der Unsicherheit des \SI{10}{\ohm} Widerstandes von $0,5\%$ (nach den angegebenen Farbcodes\cite{widerstand}). 
+		Weitere Angaben, wie die Maße der großen Spule, bei denen keine Unsicherheit angegeben war, werden als absolut angenommen. 
 		Die Berechnung der kombinierten Unsicherheiten erfolgt nach GUM und ist im Anhang aufgeführt.
 
 \section{Durchführung und Datenanalyse}
 
-	Zur Bestimmung der Resonanzkurve $I(f)$, wird die Stromstärke $I$ in den Schaltkreisen über die gemessenen Spannung und die vorliegenden Widerstände bzw. Impedanzen ermittelt.
-	Dazu dienen folgende Formeln:
-	
-	%TODO Stromstärke Herleitung
-	
+	Zur Bestimmung der Resonanzkurve $I(f)$, wird die Stromstärke $I$ in den Schaltkreisen über die gemessenen Spannung $U$ und die vorliegenden Widerstände bzw. Impedanzen $Z$ ermittelt.
+	Dazu dient folgende Formel:
+	\begin{align}
+		I &= \frac{U}{Z}, \\
+		Z_\text{Serie} &= R_i + i\left(\omega L - \frac{1}{\omega C} \right) \\
+		Z_\text{Parallel} &= \left( \frac{1}{R_i} + \frac{1}{i\omega L} + i\omega C\right)^{-1} . 
+	\end{align}
+	Dabei ist $R_i$ der Innenwiderstand der Spule, $L$ die Induktivität dieser und $C$ die Kapazität des Kondensators.	
 	Die verwendete Frequenz der Wechselstromquelle für beide Schwingkreise betrug \SI{1000}{\hertz}.
 	Für die Eingangspannungen wurden für den Serienresonanzkreis \SI{2}{\volt} und \SI{5}{\volt} für den Parallelresonanzkreis verwendet.
-	Es wurden für verschiedene Widerstände $R_\text{v}$ (Serie, mit \SI{0}{\ohm}, \SI{200}{\ohm} und \SI{500}{\ohm}) und $R_\text{p}$ (parallel, mit $\infty$ \si{\ohm}, \SI{2}{\kilo\ohm} und \SI{10}{\kilo\ohm}) Messungen in Abhängigkeit der Kapazität des Kondensators $C$ durchgeführt.
-	Aus der Messreihe ergaben sich die in den Abb. \ref{label} bis \ref{label} dargestellten Resonanzkurven. %TODO label
-	
-	%TODO Diagramme
-	
+	Es wurden für verschiedene Widerstände $R_\text{v}$ (Serie, mit \SI{0}{\ohm}, \SI{200}{\ohm} und \SI{500}{\ohm}) und $R_\text{p}$ (parallel, mit $\infty$ \si{\ohm}, \SI{2}{\kilo\ohm} und \SI{10}{\kilo\ohm}) Messungen in Abhängigkeit der Kapazität des Kondensators $C$ durchgeführt. 
+	Dabei sind die aufgelisteten Widerstände solche, für die eine Messung durchgeführt werden sollte.
+	Die eigentlichen Widerstände welche für diesen Versuch verwendet wurden waren, nach der Messung mit dem Multimeter, \SI{0,3}{\ohm}, \SI{200,1}{\ohm} und \SI{500,3}{\ohm} für den Serienresonanzkreis und $\infty$ \si{\ohm}, \SI{2,001}{\kilo\ohm} und \SI{9,88}{\kilo\ohm} für den Parallelresonanzkreis.
+	Aus der Messreihe ergaben sich die in den Abb. \ref{fig:reihe0} bis \ref{fig:parallel10k} dargestellten Resonanzkurven in Abhängigkeit der Kapazität $C$ (Serie) bzw. deren Kehrwert (Parallel). 
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Reihe-0ohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:reihe0}	
+	\end{figure}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Reihe-200ohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:reihe200}	
+	\end{figure}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Reihe-500ohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:reihe500}	
+	\end{figure}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Parallel-infohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:parallelinf}	
+	\end{figure}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Parallel-2kohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:parallel2k}	
+	\end{figure}
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{auswertung/Parallel-10kohm(algo).pdf}
+		\caption{Schaltskizze für den Aufbau des Parallelresonanzkreises.}
+		\label{fig:parallel10k}	
+	\end{figure}	
 	Durch diese Diagramme lassen sich die Induktivitäten der verwendeten Spulen bestimmen.
-	Dazu dient folgender Zusammenhang:
-	
-	%TODO Induktivität aus Kurve
-	
-	Einsetzen liefert eine Induktivität $L = \SI{0}{\henry}$ für die Spule in dem Serienresonanzkreis und eine weitere von \SI{0}{\henry} für die kleinere Spule im Parallelresonanzkreis. %TODO Werte
-	Neben der Messung der Spannung wurde zudem der Spannungsabfall an verschiedenen Stellen im Schaltkreis bei Resonanz betrachtet.
-	Diese Spannungsabfälle sind in Tab. \ref{label} verzeichnet. %TODO label
-	
-	%TODO Tabelle
-	
+	Dazu dient folgender Zusammenhang, welcher aus $Z$ folgt:
+	\begin{equation}
+		L = \frac{1}{\omega_0^2 C}.
+	\end{equation}
+	In Tab. \ref{tab:L} sind die berechneten Induktivitäten, wie auch die Kapazitäten bei denen die Resonanzfrequenz bei \SI{1000}{\hertz} liegt, dargestellt.	
+	\begin{table}
+		\caption{moin}
+		\label{tab:L}
+		\centering
+		\begin{tabular}{c|c|c}
+			$R_\text{v}$ & 1/C & Induktivität $L$ \\
+			\hline
+			\SI{0,3}{\ohm} & \SI{93,446+-0,005}{\micro\farad} & \SI{2,3670+-0,0001}{\henry} \\
+			\SI{200,1}{\ohm} & \SI{93,268+-0,005}{\micro\farad} & \SI{2,3625+-0,0001}{\henry} \\ 
+			\SI{500,3}{\ohm} & \SI{99,088+-0,005}{\micro\farad} & \SI{2,5099+-0,0001}{\henry} \\ 
+		\end{tabular}
+		\begin{tabular}{c|c|c}
+			$R_\text{p}$ & $C$ & Induktivität $L$ \\
+			\hline
+			$\infty$ \si{\ohm} & \SI{0,375+-0,002}{\micro\farad} & \SI{0,0675+-0,0003}{\henry} \\
+			\SI{2,001}{\kilo\ohm} & \SI{0,375+-0,003}{\micro\farad} & \SI{0,0676+-0,0005}{\henry} \\ 
+			\SI{9,88}{\kilo\ohm} & \SI{0,374+-0,004}{\micro\farad} & \SI{0,0678+-0,0006}{\henry} \\
+		\end{tabular}
+	\end{table}
+	Neben der Messung der Spannung wurde zudem der Spannungsabfall über das Oszilloskop an verschiedenen Stellen im Serienkreis bei der Resonanzfrequenz betrachtet.
+	Diese Spannungsabfälle sind in Tab. \ref{tab:Abfall} verzeichnet. 
+	\begin{table}
+		\caption{moin}
+		\label{tab:Abfall}
+		\centering
+		\begin{tabular}{c|c|c|c}
+			Spannung & bei \SI{0,3}{\ohm} & bei \SI{200,1}{\ohm} & bei \SI{500,3}{\ohm}\\
+			\hline
+			$U_C$ (gemessen) & \SI{}{\volt} & \SI{}{\volt} & \SI{}{\volt} \\
+			$U_C$ (ermittelt) & \SI{33,338+-0,508}{\volt} & \SI{}{\volt} & \SI{}{\volt} \\
+			\hline
+			$U_L$ (gemessen)  & \SI{}{\volt} & \SI{}{\volt} & \SI{}{\volt} \\
+			$U_L$ (ermittelt)  & \SI{33,338+-0,237}{\volt} & \SI{}{\volt} & \SI{}{\volt} \\
+			\hline
+			$U_{R_\text{v}}$ (gemessen) & nicht messbar ("rauschen") & \SI{}{\volt}  & \SI{}{\volt} \\
+			$U_{R_\text{v}}$ (ermittelt) & \SI{}{\volt} & \SI{}{\volt} & \SI{}{\volt} \\
+		\end{tabular}
+	\end{table}
+
 \section{Diskussion}
 
 	%TODO
