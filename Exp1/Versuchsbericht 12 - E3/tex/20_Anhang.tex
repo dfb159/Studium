@@ -20,3 +20,85 @@
 	\label{eq:GUM_formula}
 \end{figure}
 
+\begin{figure}[h]
+\begin{equation*}
+I = \frac{U}{R}
+;\quad
+u(I) = \sqrt{\left( \frac{u(U)}{R} \right) ^2 + \left( -\frac{U}{R^2} u(R) \right) ^2}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Strom an einem ohm'schen Widerstand.}
+\label{eq:R=U/I}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+L = \frac{1}{\omega_0^2 C}
+;\quad
+u(L) = \frac{u(C)}{\omega_0^2 C^2}
+\end{equation*}
+\caption{Unsicherheitsrechnung für die Induktivität eines Schwingkreises im Resonanzfall.}
+\label{eq:L=1/w^2C}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{U_L} = \frac{\omega_0 L}{R} \abs{U}
+;\quad
+u(\abs{U_L}) = \left[ \left( \frac{\omega_0 L}{R} u(\abs{U}) \right) ^2+\left( \frac{\omega_0 \abs{U}}{R} u(L) \right) ^2+\left( -\frac{\omega_0 L \abs{U}}{R^2} u(R) \right) ^2 \right] ^{\frac{1}{2}}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Spannungsabfall über die Spule im Resonanzfall bei dem Serienschwingkreis. Dabei sei $\abs{U} = U_\text{Pk-Pk}$.}
+\label{eq:U_L=wLU/R}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{U_C} = \frac{1}{\omega_0 C R} \abs{U}
+;\quad
+u(\abs{U_L}) = \left[ \left( \frac{1}{\omega_0 C R} u(\abs{U}) \right) ^2+\left( -\frac{\abs{U}}{\omega_0 C^2 R} u(C) \right) ^2+\left( -\frac{\abs{U}}{\omega_0 C R^2} u(R) \right) ^2 \right] ^{\frac{1}{2}}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Spannungsabfall über den Kondensator im Resonsanzfall bei dem Serienschwingkreis.}
+\label{eq:U_C=U/wCR}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{R} = \frac{1}{2\omega_0}\left( \frac{1}{C_2} - \frac{1}{C_1} \right) 
+;\quad
+u(R) = \frac{1}{2\omega_0} \left[ u\left( \frac{1}{C_2 }\right) ^2 + u\left( \frac{1}{C_1} \right) ^2 \right] ^{\frac{1}{2}}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Verlustwiderstand des gesammten Serienschwingkreises.}
+\label{eq:R=dC/2w}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{R_i} = R - R_v
+;\quad
+u(R_i) = \sqrt{u(R)^2 + u(R_v)^2}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Innenwiderstand der Spule bei dem Serienschwingkreises.}
+\label{eq:R_i-serie}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{R_p'} = \frac{R_v \cdot R}{R_v-R}
+;\quad
+u(R_p') = u(R) R_v \left( \frac{1}{R_v - R + \frac{R}{(R_v - R)^2}} \right) 
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Ersatzwiderstand $R_p'$ bei dem Parallelschwingkreis. Dabei sei durch die kleine Unsicherheit des Messgerätes $u(R_v) = 0$.}
+\label{eq:R_p-parallel}
+\end{figure}
+
+\begin{figure}[h]
+\begin{equation*}
+\abs{R_i} = \frac{\omega_0^2 L^2}{R_p'}
+;\quad
+u(R_i) = \omega_0^2 \left[ \left( \frac{2 L}{R_p'} u(L) \right) ^2 + \left( -\frac{L^2}{R_p'^2} u(R_p') \right) ^2 \right] ^{\frac{1}{2}}
+\end{equation*}
+\caption{Unsicherheitsrechnung für den Innenwiderstand der Spule bei dem Parallelschwingkreis.}
+\label{eq:R_i-parallel}
+\end{figure}
+
+
+
