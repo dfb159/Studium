@@ -38,13 +38,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Widerstandsfarbcode}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.elektronik-kompendium.de/sites/bau/1109051.htm
       \endverb
       \verb{url}
       \verb https://www.elektronik-kompendium.de/sites/bau/1109051.htm
       \endverb
-      \warn{\item Entry 'widerstand' (res/literatur.bib): Invalid format '2018-02-1' of date field 'urldate' - ignoring}
     \endentry
     \entry{WWU}{online}{}
       \name{author}{1}{}{%
