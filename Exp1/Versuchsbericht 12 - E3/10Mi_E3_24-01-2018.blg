@@ -2,16 +2,14 @@
 [0] Config.pm:305> INFO - Logfile is '10Mi_E3_24-01-2018.blg'
 [25] biber-MSWIN64:313> INFO - === 
 [45] Biber.pm:371> INFO - Reading '10Mi_E3_24-01-2018.bcf'
-[120] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
-[132] Biber.pm:3976> INFO - Processing section 0
+[119] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
+[131] Biber.pm:3976> INFO - Processing section 0
 [143] Biber.pm:4136> INFO - Looking for bibtex format file 'res/literatur.bib' for section 0
-[145] bibtex.pm:1490> INFO - LaTeX decoding ...
+[144] bibtex.pm:1490> INFO - LaTeX decoding ...
 [149] bibtex.pm:1306> INFO - Found BibTeX data source 'res/literatur.bib'
-[156] Utils.pm:193> WARN - Entry 'widerstand' (res/literatur.bib): Invalid format '2018-02-1' of date field 'urldate' - ignoring
-[165] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[165] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[164] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[164] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
 [165] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
 [165] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
 [171] bbl.pm:617> INFO - Writing '10Mi_E3_24-01-2018.bbl' with encoding 'UTF-8'
 [172] bbl.pm:720> INFO - Output to 10Mi_E3_24-01-2018.bbl
-[173] Biber.pm:110> INFO - WARNINGS: 1
