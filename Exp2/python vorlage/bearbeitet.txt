@@ -1,0 +1,5 @@
+umgeschrieben ist die datei "fallrinne org autom fehler.ipynb"
+
+in "Fallrad Trägjheitsmoment Fehler autom Sympy .ipynb" stehen nette Informationen für die Verwendung von Latex bzw. die Ausgabe von Werten/Formeln etc. in Latexform
+
+"pyrefcard.pdf" ist ein Cheat Sheet mit Basis Befehlen für Python, weitere Links sind in "pythonlinks.txt"

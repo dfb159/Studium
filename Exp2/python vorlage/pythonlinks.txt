@@ -1,0 +1,21 @@
+uncertanties documentation
+https://pythonhosted.org/uncertainties/
+https://pythonhosted.org/uncertainties/numpy_guide.html
+
+jupyter notebook documentation
+https://jupyter.readthedocs.io/en/latest/running.html
+
+curve optimazion and statistics
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.leastsq.html
+
+useful values for a fit like R^2
+https://de.mathworks.com/help/curvefit/evaluating-goodness-of-fit.html
+
+error of parameters from curve fitting
+https://stackoverflow.com/questions/14581358/getting-standard-errors-on-fitted-parameters-using-the-optimize-leastsq-method-i
+
+
+
+CHEAT SHEET basics python
+http://www.physik.uzh.ch/local/teaching/PHY114/python/res/pyrefcard.pdf
