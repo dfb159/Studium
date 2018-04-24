@@ -1,0 +1,4 @@
+numpy - num:
+	- arrays, matrices
+	- use num.sqrt() etc. for math with numpyObjects
+	- 
