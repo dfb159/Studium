@@ -1,0 +1,4 @@
+- molare Verdampfungsenthalpie des Quecksilbers (bei 20°C - 200 °C; sollte konstant sein)
+- Sättigungsdampfdruck und Temperatur dabei
+- Einheit des Erhaltenen Drucks (Raum und Ofendruck) anpassen (für LaTeX gut nutzbar)
+- mittlere freie Weglänge der Elektronen aus Einführung übertragen (eZ)
