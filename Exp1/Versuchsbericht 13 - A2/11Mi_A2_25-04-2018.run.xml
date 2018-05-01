@@ -80,5 +80,8 @@
     <requires type="dynamic">
       <file>11Mi_A2_25-04-2018.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>res/literatur.bib</file>
+    </requires>
   </external>
 </requests>
