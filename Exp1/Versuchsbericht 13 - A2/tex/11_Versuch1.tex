@@ -24,7 +24,7 @@
 		
 	\subsection{Unsicherheiten}
 	
-		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang unter ... }. %TODO GUM-Formeln im Anhang verlinken.
+		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang unter \ref{fig:GUM_combine}, \ref{fig:GUM_formula}.}.
 		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$, bei analogen Messungen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$ angenommen.
 	
 		Bei diesem Versuch treten die Unsicherheiten primär bei den Digitalanzeigen der Messgeräte für Spannung und Temperatur auf.
@@ -94,17 +94,17 @@
 		p_2 &= \exp{\frac{H_\text{m,v}}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right) } \cdot p_1
 	\end{align}
 	Dabei dient der Siedepunkt von Quecksilber als Referenzpunkt\cite{boilingPoint}\footnote{Wie in der Quelle unter dem Punkt Conclusions angemerkt, kann den beiden Werten eine relative Unsicherheit von 1\% zugeordnet werden.}.
-	Die Werte sind $T_1 = \SI{629.77}{K}s$, sowie $p_1 = \SI{101.325}{\kilo\pascal}$.
-	$R = \SI{8.3145}{\joule\per\mol\per\kelvin}$ ist die allgemeine Gaskonstante\cite{Constants} und $H_\texttt{m,v} = \SI{59.3+-0.1}{\kilo\joule\per\mol}$ die molare Verdampfungsenthalpie bzw. spezifische Verdampfungswärme\cite{verdampfungswaerme}.
+	Die Werte sind $T_1 = \SI{629.77}{K}$, sowie $p_1 = \SI{101.325}{\kilo\pascal}$.
+	$R = \SI{8.3145}{\joule\per\mol\per\kelvin}$ ist die allgemeine Gaskonstante\cite{Constants} und $H_\text{m,v} = \SI{59.3+-0.1}{\kilo\joule\per\mol}$ die molare Verdampfungsenthalpie bzw. spezifische Verdampfungswärme\cite{verdampfungswaerme}.
 	Die Gleichung lässt sich dann nach $p_2$ umstellen und mit den gemessenen Temperaturen $T_2 = \SI{291.15}{\kelvin}$, also Raumtemperatur bzw. $T_2 = \SI{465.15}{\kelvin}$ ausrechnen.
-	Es folgen die Dampfdrücke $p_\text{Raumtemperatur} = \SI{0.193+-0.035}{\pascal}$, also ein sehr starkes Vakuum, sowie $p_\text{Ofentemperatur} = \SI{1.84+-0.20}{\kilo\pascal}\approx \SI{0.02}{\bar}$, was immer noch ein sehr geringer Druck ist.
+	Es folgen die Dampfdrücke $p_\text{kalt} = \SI{0.193+-0.035}{\pascal}$, also ein sehr starkes Vakuum, sowie $p_\text{warm} = \SI{1.84+-0.20}{\kilo\pascal}\approx \SI{0.02}{\bar}$, was immer noch ein sehr geringer Druck ist.
 	
 	Damit lässt sich nun die freie Weglänge der Elektronen in der Röhre berechnen.
 	Dazu die Gleichung \ref{eq:Weg}:
 	\begin{align} \label{eq:Weg}
 		\lambda_\text{frei} = \frac{k_\text{B}\cdot T}{\sigma\cdot p}.
 	\end{align}
- 	Einsetzen mit $\sigma = \pi r_e^2$\cite{Constants} ergibt bei Raumtemperatur $\lambda_\text{frei, Raumtemperatur} = \SI{8.4+-1.5}{10^8\meter}$ und erhitzt $\lambda_\text{frei, Ofentemperatur} = \SI{1.40+-0.15}{10^6\meter}$. 
+ 	Einsetzen mit $\sigma = \pi r_e^2$\cite{Constants} ergibt bei Raumtemperatur $\lambda_\text{frei, kalt} = \SI{8.4+-1.5}{10^8\meter}$ und erhitzt $\lambda_\text{frei, warm} = \SI{1.40+-0.15}{10^6\meter}$. 
 
 \section{Diskussion}
 	
