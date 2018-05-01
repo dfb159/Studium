@@ -19,6 +19,66 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{verdampfungswaerme}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0fc3a368e73178821c33da194cb5e104}{%
+           family={mai2014@andyhoppe.com},
+           familyi={m\bibinitperiod}}}%
+      }
+      \strng{namehash}{0fc3a368e73178821c33da194cb5e104}
+      \strng{fullhash}{0fc3a368e73178821c33da194cb5e104}
+      \strng{bibnamehash}{0fc3a368e73178821c33da194cb5e104}
+      \strng{authorbibnamehash}{0fc3a368e73178821c33da194cb5e104}
+      \strng{authornamehash}{0fc3a368e73178821c33da194cb5e104}
+      \strng{authorfullhash}{0fc3a368e73178821c33da194cb5e104}
+      \field{sortinit}{m}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quecksilber: Stoffeigenschaften}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.periodensystem.info/elemente/quecksilber
+      \endverb
+      \verb{url}
+      \verb http://www.periodensystem.info/elemente/quecksilber
+      \endverb
+    \endentry
+    \entry{boilingPoint}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b4e4f8e303ed03c059b90f5aeab8d348}{%
+           family={Marcia\bibnamedelimb L.\bibnamedelimi Huber},
+           familyi={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Daniel\bibnamedelimb G.\bibnamedelimi Friend},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim F\bibinitperiod},
+           suffix={Arno\bibnamedelima Laesecke},
+           suffixi={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \strng{fullhash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \strng{bibnamehash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \strng{authorbibnamehash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \strng{authornamehash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \strng{authorfullhash}{b4e4f8e303ed03c059b90f5aeab8d348}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Vapor Pressure of Mercury}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.physics.rutgers.edu/%7Eeandrei/389/NISTIR.6643.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.physics.rutgers.edu/%7Eeandrei/389/NISTIR.6643.pdf
+      \endverb
+    \endentry
     \entry{WWU}{online}{}
       \name{author}{1}{}{%
         {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
@@ -47,6 +107,41 @@
       \endverb
       \verb{url}
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/pluginfile.php/1334783/mod_resource/content/1/Franck-Hertz-Versuch_Einf.pdf
+      \endverb
+    \endentry
+    \entry{Constants}{online}{}
+      \name{author}{2}{}{%
+        {{hash=c292c085c72218d13e03c6181bd49905}{%
+           family={Standarts},
+           familyi={S\bibinitperiod},
+           given={National\bibnamedelima Institute},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+        {{hash=e7e767d7c0e58b16e57d3ab16150db80}{%
+           family={Technology},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d54ca09fd62651bf4326a31c6987a89c}
+      \strng{fullhash}{d54ca09fd62651bf4326a31c6987a89c}
+      \strng{bibnamehash}{d54ca09fd62651bf4326a31c6987a89c}
+      \strng{authorbibnamehash}{d54ca09fd62651bf4326a31c6987a89c}
+      \strng{authornamehash}{d54ca09fd62651bf4326a31c6987a89c}
+      \strng{authorfullhash}{d54ca09fd62651bf4326a31c6987a89c}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The NIST Reference on Constants, Units and Uncertainty}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/cuu/Constants/index.html
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/cuu/Constants/index.html
       \endverb
     \endentry
   \enddatalist
