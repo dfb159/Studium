@@ -24,11 +24,11 @@
 		
 	\subsection{Unsicherheiten}
 	
-		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang unter ... }. %TODO GUM-Formeln im Anhang verlinken.
+		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang}. 
 		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$, bei analogen Messungen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$ angenommen.
 	
 		Bei diesem Versuch treten die Unsicherheiten primär bei den Digitalanzeigen der Messgeräte für Spannung und Temperatur auf.
-		
+	
 		Die Beschleunigungsspannung wird analog eingestellt und mit einem digitalen Multimeter gemessen ($\Delta U = \SI{0.01}{\volt}$).
 	
 		Der Anodenstrom ist proportional zu der am Ausgang des Betriebsgerätes anliegenden Spannung.
@@ -59,10 +59,10 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/CharakteristikZusammen.pdf}
-		\caption{$I_A/U_B$-Charakteristiken der Franck-Hertz-Röhren\footnote{Darstellung mit der Python-Bibliothek 'matplotlib'.}.}
+		\caption{$I_A/U_B$-Charakteristiken der Franck-Hertz-Röhren.} 
 		\label{fig:Kurve}	
 	\end{figure}
-	Die aufgenommen Werte für die $I_A/U_B$-Charakteristiken sind in Abbildung \ref{fig:Kurve} dargestellt\footnote{Um den Verlauf zwischen einzelnen Maxima und Minima zu skizzieren, sind die Messpunkte leicht miteinander verbunden. Der Verlauf wurde im Experiment bestätigt. Da für die Messung allerdings nur der Abstand der Maxima und Minima von Bedeutung sind, wurden die Zwischenräume weitgehend übersprungen.}. 
+	Die aufgenommen Werte für die $I_A/U_B$-Charakteristiken sind in Abbildung \ref{fig:Kurve} dargestellt\footnote{Darstellung mit der Python-Bibliothek "matplotlib". Um den Verlauf zwischen einzelnen Maxima und Minima zu skizzieren, sind die Messpunkte leicht miteinander verbunden. Der Verlauf wurde im Experiment bestätigt. Da für die Messung allerdings nur der Abstand der Maxima und Minima von Bedeutung sind, wurden die Zwischenräume weitgehend übersprungen.}. 
 	Zu erkennen ist bereits, dass der Kurvenverlauf bei dem flüssigem Quecksilber der Kennlinie einen logarithmischen Verlauf annimmt, wohingegen bei dem Neon und noch ausgeprägter bei dem erhitzten Quecksilber der gemessene Anodenstrom wiederholt zu- und abnimmt, so dass ein "zackiges" Muster entsteht.\footnote{Die Linien zwischen den Messwerten dienen nur zur Verbildlichung und entsprechen nur genähert dem beobachteten Spannungsverlauf. Bei den Geraden handelt es sich eigentlich um  Kurven mit hoher Steigung (bzw. hohem Abfall)}. 
 	Bei dem heißen Quecksilber sind fünf Maxima erkennbar, bei dem Neon hingegen drei.
 	Dies zeigt, dass die Restenergie der Elektronen nach dem Stoß nicht ausreicht, um die Gegenspannung zu überwinden, weswegen der Anodenstrom geringer wird.
@@ -75,9 +75,9 @@
 	Die Wellenlänge des emittierten Lichts bestimmt sich über $\lambda = \frac{h \cdot c}{E}$.
 	Dabei ist $h$ das planck'sche Wirkungsquantum.
 	Ebenso lässt sich die Frequenz durch $f = \frac{c}{\lambda}$ ermitteln. 
-	In Tabelle \ref{tab:Werte} sind die benötigten Energien für die Anregungen der Atome in den Gasen, sowie auch die Frequenzen und Wellenlängen des daraufhin emittierten Lichts, verzeichnet.
+	In Tabelle \ref{tab:Werte} sind die benötigten Energien für die Anregungen der Atome in den Gasen, sowie auch die Frequenzen und Wellenlängen des daraufhin emittierten Lichts, verzeichnet.\footnote{Unsicherheitsformeln zu den einzelnen Werten im Anhang.}
 	\begin{table}
-		\caption{In dieser Tabelle sind die ermittelten Energien, Wellenlängen und Frequenzen dargestellt\footnote{Unsicherheitsformeln zu den einzelnen Werten im Anhang unter .}%TODO Anhang Unsicherheitsrechnungen referenz
+		\caption{In dieser Tabelle sind die ermittelten Energien, Wellenlängen und Frequenzen dargestellt.}
 		\label{tab:Werte}
 		\centering
 		\begin{tabular}{c|c|c|c}
@@ -98,7 +98,7 @@
 	$R = \SI{8.3145}{\joule\per\mol\per\kelvin}$ ist die allgemeine Gaskonstante\cite{Constants} und $H_\texttt{m,v} = \SI{59.3+-0.1}{\kilo\joule\per\mol}$ die molare Verdampfungsenthalpie bzw. spezifische Verdampfungswärme\cite{verdampfungswaerme}.
 	Die Gleichung lässt sich dann nach $p_2$ umstellen und mit den gemessenen Temperaturen $T_2 = \SI{291.15}{\kelvin}$, also Raumtemperatur bzw. $T_2 = \SI{465.15}{\kelvin}$ ausrechnen.
 	Es folgen die Dampfdrücke $p_\text{Raumtemperatur} = \SI{0.193+-0.035}{\pascal}$, also ein sehr starkes Vakuum, sowie $p_\text{Ofentemperatur} = \SI{1.84+-0.20}{\kilo\pascal}\approx \SI{0.02}{\bar}$, was immer noch ein sehr geringer Druck ist.
-	
+
 	Damit lässt sich nun die freie Weglänge der Elektronen in der Röhre berechnen.
 	Dazu die Gleichung \ref{eq:Weg}:
 	\begin{align} \label{eq:Weg}
@@ -134,5 +134,3 @@
 	Jedoch liegen die berechneten Werte der freien Weglänge deutlich über den erwarteten Werten.
 	Die mittlere freie Weglänge bei Raumtemperatur ist größer als der Abstand zwischen Kathode und Gitter, was sich mit dem niedrigen Druck bei Raumtemperatur deckt.
 	Während die Weglänge bei Ofentemperatur immerhin niedriger ist, als die bei Raumtemperatur, so ist sie immer noch viel größer als der Abstand Kathode-Gitter.
-	
-		

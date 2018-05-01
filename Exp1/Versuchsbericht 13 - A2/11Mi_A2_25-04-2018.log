@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  1 MAY 2018 23:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  2 MAY 2018 00:05
 entering extended mode
 **./11Mi_A2_25-04-2018.tex
 (11Mi_A2_25-04-2018.tex
@@ -3113,11 +3113,22 @@ Overfull \hbox (2.63246pt too wide) in paragraph at lines 106--108
 ur $\OML/lmm/m/it/12 [] \OT1/lmr/m/n/12 (-20) = [] []$
  []
 
+Package cleveref Info: loaded `ngerman' language definitions on input line 109.
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 109.
-<bilder/Uebergaenge.png, id=189, 1187.18532pt x 499.8675pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+[5]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+<bilder/Uebergaenge.png, id=207, 1187.18532pt x 499.8675pt>
 File: bilder/Uebergaenge.png Graphic file (type png)
 <use bilder/Uebergaenge.png>
 Package pdftex.def Info: bilder/Uebergaenge.png  used on input line 115.
@@ -3132,17 +3143,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 125.
-[5]
-Package cleveref Info: loaded `ngerman' language definitions on input line 129.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
  [6 <./bilder/Uebergaenge.png>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 89.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3182,23 +3182,23 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-<bilder/ne.jpg, id=222, 3505.095pt x 1991.44pt>
+(babel)             in language  on input line 23.
+<bilder/ne.jpg, id=226, 3505.095pt x 1991.44pt>
 File: bilder/ne.jpg Graphic file (type jpg)
 <use bilder/ne.jpg>
-Package pdftex.def Info: bilder/ne.jpg  used on input line 9.
+Package pdftex.def Info: bilder/ne.jpg  used on input line 27.
 (pdftex.def)             Requested size: 358.50612pt x 203.6833pt.
-<bilder/hgl.jpg, id=223, 3537.215pt x 2216.28pt>
+<bilder/hgl.jpg, id=227, 3537.215pt x 2216.28pt>
 File: bilder/hgl.jpg Graphic file (type jpg)
 <use bilder/hgl.jpg>
-Package pdftex.def Info: bilder/hgl.jpg  used on input line 16.
+Package pdftex.def Info: bilder/hgl.jpg  used on input line 34.
 (pdftex.def)             Requested size: 358.50612pt x 224.61693pt.
-<bilder/hgg.jpg, id=224, 3589.41pt x 2059.695pt>
+<bilder/hgg.jpg, id=228, 3589.41pt x 2059.695pt>
 File: bilder/hgg.jpg Graphic file (type jpg)
 <use bilder/hgg.jpg>
-Package pdftex.def Info: bilder/hgg.jpg  used on input line 23.
+Package pdftex.def Info: bilder/hgg.jpg  used on input line 41.
 (pdftex.def)             Requested size: 358.50612pt x 205.69872pt.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 104.
@@ -3257,19 +3257,19 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `11Mi_A2_25-04-2018.out' has not changed.
-(rerunfilecheck)             Checksum: 6B374659EAE0FF38F9F4AF9986ECF881;1287.
+(rerunfilecheck)             Checksum: F7E3325B25320F24558545A0F53AFE33;1288.
 Package logreq Info: Writing requests to '11Mi_A2_25-04-2018.run.xml'.
 \openout1 = `11Mi_A2_25-04-2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42975 strings out of 493307
- 826152 string characters out of 3138825
- 1390290 words of memory out of 3000000
- 45807 multiletter control sequences out of 15000+200000
- 846626 words of font info for 343 fonts, out of 3000000 for 9000
+ 42995 strings out of 493307
+ 826413 string characters out of 3138825
+ 1388499 words of memory out of 3000000
+ 45811 multiletter control sequences out of 15000+200000
+ 847156 words of font info for 349 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,20n,106p,10410b,2236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,20n,106p,10410b,2234s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
@@ -3288,9 +3288,9 @@ lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:
 MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 tt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb>
-Output written on 11Mi_A2_25-04-2018.pdf (13 pages, 6566110 bytes).
+Output written on 11Mi_A2_25-04-2018.pdf (13 pages, 6573029 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  86135 words of extra memory for PDF output out of 89155 (max. 10000000)
 
