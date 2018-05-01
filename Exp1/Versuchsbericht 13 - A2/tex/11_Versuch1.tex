@@ -10,21 +10,37 @@
 			\label{fig:Aufbau}	
 		\end{figure}	
 		Wie in Abbildung \ref{fig:Aufbau} dargestellt, besteht der Aufbau des Franck-Hertz-Versuches im Wesentlichen aus einer Triode, welche mit einem Neongas bzw. flüssigem Quecksilber gefüllt ist. 
-		Aus der Kathode werden Elektronen ausgesandt und zur Anode geschickt.		
+		Aus der Kathode werden Elektronen rausgelöst und zur Anode geschickt.
 		Vor dem Gitter, welches zwischen Kathode und Anode liegt, werden diese mit der Beschleunigungsspannung	$U_B$ beschleunigt und hinter dem Gitter mit der Gegenspannung $U_G$ abgebremst.
 		Bei der Neonröhre ist hinter der Kathode zusätzlich ein Steuergitter, um mit der Spannung $U_S$ die Raumladung in Kathodennähe zu verringern, sodass der Elektronenaustritt nicht verhindert wird.
 		
-		Da der elektrische Strom an der Anode sehr gering ist, wird stattdessen die eingehende Spannung gemessen, da diese über Operationsverstärker im Betriebsgerät einfacher zu messen ist und bei diesem Aufbau proportional zu dem Strom ist.
+		Da der elektrische Strom an der Anode sehr gering ist, wird stattdessen die dazu proportionale anliegende Spannung gemessen.
+		Diese wird über Operationsverstärker im Betriebsgerät verstärkt wird und ist einfacher zu messen.
 		  
 		Für das Quecksilber werden zwei Messungen durchgeführt.
-		Einmal bei Zimmertemperatur, im flüssigem Zustand und dann als Gas. 
-		Damit dieser gasförmige Zustand erreicht werden kann, befindet sich die Quecksilberröhre in einem Ofen, der auf ca. $\SI{200}{\celsius}$ erhitzt wird.
+		Zum einen bei Zimmertemperatur, wo sich das Quecksilber größtenteils im flüssigem Zustand befindet, zum anderen bei deutlich erhöhter Temperatur, wo der Dampfdruck höher ist.
+		Um das Quecksilber zu erhitzen, befindet sich die Quecksilberröhre in einem Ofen, der auf ca. $\SI{200}{\celsius}$ erhitzt wird
 		Ein hoher Druck ist notwendig um eine Reihe von Elektronenstößen an den Atomen zu ermöglichen, welche die zu messende Charakteristiken ausmachen.
 		
-	\subsection{Unsicherheiten} 
+	\subsection{Unsicherheiten}
 	
-		Bei diesem Versuch treten die Unsicherheiten primär bei den Digitalanzeigen der Messgeräte für Spannung und Temperatur auf. 
-		Die Gegenspannung wird analog eingestellt und erhält eine Unsicherheit von. %TODO Joey gib deine verwendete Unsicherheit an
+		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang unter ... }. %TODO GUM-Formeln im Anhang verlinken.
+		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$, bei analogen Messungen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$ angenommen.
+	
+		Bei diesem Versuch treten die Unsicherheiten primär bei den Digitalanzeigen der Messgeräte für Spannung und Temperatur auf.
+		
+		Die Beschleunigungsspannung wird analog eingestellt und wird mit einem digitalen Multimeter gemessen ($\Delta U = \SI{0.01}{\Volt}$).
+	
+		Der Anodenstrom ist proportional zu der am Ausgang des Betriebsgerätes anliegenden Spannung.
+		Diese wird ebenfalls mit einem digitalen Multimeter gemessen ($\Delta U = \SI{0.01}{\Volt}, \SI{0.1}{\Volt}$).
+		Dabei ist der benutzte Wertebereich in der Messung berücksichtigt.
+		
+		Die Temperatur im Ofen wurde mit Hilfe eines digitalen Thermometers gemessen.
+		Da die Temperatur im Ofen Schwankungen unterlag, wird die Unsicherheit etwas größer gewählt ($\Delta T = \SI{5}{\Kelvin}$).
+		
+		Die Minima und Maxima der Beschleunigungsspannung wurden aus den Daten gelesen und dementsprechend bewertet ($\Delta U = \SI{0.05}{\Volt}$) .
+		
+		Die Unsicherheiten von Konstanten und stoffspezifischen Eigenschaften, sowie dessen Quelle werden bei Bedarf angegeben.
 
 \section{Durchführung und Datenanalyse}
 	
@@ -74,16 +90,21 @@
 
 	Zur Bestimmung des Dampfdrucks in der Quecksilberröhre dient die Clausius-Clapeyron Formel (\ref{eq:Clausius}):
 	\begin{align} \label{eq:Clausius}
-		\ln(\frac{P}{P_0}) = -\frac{L}{R}\left( \frac{1}{T} - \frac{1}{T_0} \right) 
+		\ln(\frac{p_2}{p_1}) &= \frac{\Delta H_\text{m,v}}{R}\left( \frac{1}{T_2} - \frac{1}{T_1} \right) \\
+		p_2 &= \exp{\frac{H_\text{m,v}}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right) } \cdot p_1
 	\end{align}
-	Für die Starttemperatur wird die Zimmertemperatur von $T_0 = \SI{18+-2.89}{\celsius}$ verwendet und für die Endtemperatur $T = \SI{192+-2.89}{\celsius}$. 
-	Mit dem Startdruck von $P_0 = \SI{0.193+-0.035}{\micro\pascal}$ lässt sich nun der Druck in der erhitzten Quecksilberröhre berechnen: $P = \SI{1.84+-0.20}{10^3\pascal}$.
+	Dabei dient der Siedepunkt von Quecksilber als Referenzpunkt\site{boilingPoint}\footnote{Wie in der Quelle unter dem Punkt Conclusions angemerkt, kann den beiden Werten eine relative Unsicherheit von $1\%$ zugeordnet werden.}.
+	Die Werte sind $T_1 = \SI{629.77}{K}s$, sowie $p_1 = \SI{101.325}{\kilo\Pascal}$.
+	$R = \SI{8.3145}{\Joule\per\Mol\per\Kelvin}$ ist die allgemeine Gaskonstante\site{Constants} und $H_\texttt{m,v} = \SI{59.3+-0.1}{\kilo\Joule\per\Mol}$ die molare Verdamfpungsenthalpie bzw. spezifische Verdampfungswärme\site{verdampfungswaerme}.
+	Die Gleichung lässt sich dann nach $p_2$ umstellen und mit den gemessenen Temperaturen $T_2 = \SI{291.15}{\Kelvin}$, also Raumtemperatur bzw. $T_2 = \SI{465.15}{\Kelvin}$ ausrechnen.
+	Es folgen die Dampfdrücke $p_\text{Raumtemperatur} = \SI{0.193+-0.035}{\Pascal}$, also ein sehr starkes Vakuum, sowie $p_\text{Ofentemperatur} = \SI{1.84+-0.20}{\kilo\Pascal}\approx \SI{0.02}{\Bar}$, was immer noch ein sehr geringer Druck ist.
+	
 	Damit lässt sich nun die freie Weglänge der Elektronen in der Röhre berechnen.
 	Dazu die Gleichung \ref{eq:Weg}:
 	\begin{align} \label{eq:Weg}
 		\lambda_\text{frei} = \frac{k_\text{B}\cdot T}{\sigma\cdot p}.
 	\end{align}
- 	Einsetzen mit $\sigma = \pi r_e^2$ ergibt bei Raumtemperatur $\lambda_\text{frei,0} = \SI{8.4+-1.5}{10^8\meter}$ und erhitzt $\lambda_\text{frei} = \SI{1.40+-0.15}{10^6\meter}$. 
+ 	Einsetzen mit $\sigma = \pi r_e^2$\site{Constants} ergibt bei Raumtemperatur $\lambda_\text{frei, Raumtemperatur} = \SI{8.4+-1.5}{10^8\meter}$ und erhitzt $\lambda_\text{frei, Ofentemperatur} = \SI{1.40+-0.15}{10^6\meter}$. 
 
 \section{Diskussion}
 	
@@ -103,12 +124,14 @@
 	Vergleicht man die berechneten \SI{64.49+-0.34}{\nano\meter} stattdessen mit den bei einem Sprung einer tieferen Schale zum Ruhezustand entstehenden  \SI{74}{\nano\meter}, so ist zu folgern, dass der Sprung aus einer höheren Schale Licht mit größerer Energie emittiert, was sinngemäß erscheint.
 	
 	Betrachtet man nun die Sichtbarkeit des emittierten Lichts, so lassen sich die Beobachtungen anhand der Abbildung \ref{fig:Übergänge} einfach erklären:
-	Bei der Neonröhre war rötliches Licht zu sehen und häufige Übergänge führen zu emittiertem Licht mit Wellenlängen um \SI{600}{\nano\meter}, wo das rötliche Licht sich im sichtbaren Spektrum befindet.
-	Bei dem Quecksilber ist es zwar möglich Licht im sichtbaren Bereich zu emittieren, welches violett oder bläulich scheinen würde, jedoch sind diese Übergänge äußerst selten.
+	Bei der Neonröhre war rötliches Licht zu sehen und häufige Übergänge führen zu emittiertem Licht mit Wellenlängen um \SI{600}{\nano\meter}, wo sich das rötliche Licht im sichtbaren Spektrum befindet.
+	Bei dem Quecksilber ist es zwar möglich Licht im sichtbaren Bereich zu emittieren, welches violett oder bläulich scheinen würde, jedoch sind diese Übergänge deutlich seltener als solche im Ultraviolettbereich.
 	
-	Dass das Quecksilber bei Raumtemperatur die Charakteristiken nicht besitzt liegt daran, dass die freie Weglänge bei geringem Druck geringer ist als der Abstand zwischen Kathode und Gitter, weswegen die Atome sich nicht von den ELektronen beeinflussen lassen.
+	Dass das Quecksilber bei Raumtemperatur die Charakteristiken der Franck-Hertz-Kurve nicht besitzt liegt daran, dass sich bei solch niedrigen Temperaturen kaum Quecksilberatome im gasförmigen Zustand befinden.
+	Es kommt kaum zu Elektronenstößen und die Elektronen können beinahe ungehindert zur Kathode gelangen.
+	Dadurch bildet sich stattdessen die für eine Triode typische Charakteristikenkurve aus, welche einen ungefähren logarithmischen Verlauf hat.
 	
-	%TODO Joey fix mal
-	Entgegen den Erwartungen jedoch liegen die berechneten Werte der freien Weglänge. 
-	Die berechneten Längen liegen nicht nur sehr weit von der nötigen Weglänge, sie wird mit höherem Druck sogar größer, was bereits aus der Formel \ref{eq:Weg} nicht sinnvoll erscheint.
-	Zu erklären ist dies ...
+	Entgegen den Erwartungen jedoch liegen die berechneten Werte der freien Weglänge deutlich über den erwarteten Werten.
+	Die mittlere freie Weglänge bei Raumtemperatur ist größer als der Abstand zwischen Kathode und Gitter, was sich mit dem niedrigen Druck bei Raumtemperatur deckt.
+	Während die Weglänge bei Ofentemperatur immerhin niedriger ist, als die bei Raumtemeratur, so ist sie immer noch viel größer als der Abstand Kathode-Gitter.
+	
