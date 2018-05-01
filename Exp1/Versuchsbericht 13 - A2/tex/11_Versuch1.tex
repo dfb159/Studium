@@ -12,26 +12,32 @@
 		Wie in Abbildung \ref{fig:Aufbau} dargestellt, besteht der Aufbau des Franck-Hertz-Versuches im Wesentlichen aus einer Triode, welche mit einem Neongas bzw. flüssigem Quecksilber gefüllt ist. 
 		Aus der Kathode werden Elektronen ausgesandt und zur Anode geschickt.		
 		Vor dem Gitter, welches zwischen Kathode und Anode liegt, werden diese mit der Beschleunigungsspannung	$U_B$ beschleunigt und hinter dem Gitter mit der Gegenspannung $U_G$ abgebremst.
-		Bei der Neonröhre ist hinter der Kathode zusätzlich ein Steuergitter, um die Elektronen mit der Spannung $U_S$ für den Versuch besser zu verteilen.
-		Da der elektrische Strom an der Anode sehr gering ist, wird stattdessen die eingehende Spannung gemessen, da diese bei diesem Aufbau proportional zu dem Strom ist.
+		Bei der Neonröhre ist hinter der Kathode zusätzlich ein Steuergitter, um mit der Spannung $U_S$ die Raumladung in Kathodennähe zu verringern, sodass der Elektronenaustritt nicht verhindert wird.
+		
+		Da der elektrische Strom an der Anode sehr gering ist, wird stattdessen die eingehende Spannung gemessen, da diese über Operationsverstärker im Betriebsgerät einfacher zu messen ist und bei diesem Aufbau proportional zu dem Strom ist.
+		  
 		Für das Quecksilber werden zwei Messungen durchgeführt.
 		Einmal bei Zimmertemperatur, im flüssigem Zustand und dann als Gas. 
-		Damit der gasförmige Zustand erreicht werden kann, befindet sich die Quecksilberröhre in einem Ofen, der für die zweite Messung auf ca. $\SI{200}{\celsius}$ erhitzt wird.
-		Ein hoher Druck ist notwendig um eine Reihe von Elektronenstößen an den Atomen zu ermöglichen.
+		Damit dieser gasförmige Zustand erreicht werden kann, befindet sich die Quecksilberröhre in einem Ofen, der auf ca. $\SI{200}{\celsius}$ erhitzt wird.
+		Ein hoher Druck ist notwendig um eine Reihe von Elektronenstößen an den Atomen zu ermöglichen, welche die zu messende Charakteristiken ausmachen.
 		
 	\subsection{Unsicherheiten} 
 	
 		Bei diesem Versuch treten die Unsicherheiten primär bei den Digitalanzeigen der Messgeräte für Spannung und Temperatur auf. 
-		Die Gegenspannung wird analog eingestellt und erhält eine Unsicherheit von %TODO.
-		Die Berechnung der kombinierten Unsicherheiten erfolgt nach GUM und ist im Anhang aufgeführt.
+		Die Gegenspannung wird analog eingestellt und erhält eine Unsicherheit von. %TODO Joey gib deine verwendete Unsicherheit an
 
 \section{Durchführung und Datenanalyse}
 	
-	Vor der Aufnahme der Messungen wurde der Aufbau an ein Oszilloskop geschlossen, um den Verlauf der Franck-Hertz-Kurven zu verbildlichen (siehe Abb. \ref{label} im Anhang). 
-	Für eine optimale Aufnahme der $I_A/U_B$-Charakteristiken wurde mit Hilfe des Oszilloskop die Gegenspannung $U_G$ gesucht, bei der die Charakteristiken am deutlichsten erkennbar war.
+	Vor der Aufnahme der Messungen wurde der Aufbau an ein Oszilloskop geschlossen, um den Verlauf der Franck-Hertz-Kurven zu verbildlichen (siehe Abb. \ref{fig:kurveNe} und Folgende im Anhang).
+	Für eine optimale Aufnahme der $I_A/U_B$-Charakteristiken wurde mit Hilfe des Oszilloskop die Gegenspannung $U_G$ gesucht, bei der die Charakteristiken am deutlichsten erkennbar waren.
 	Diese Gegenspannung lag bei $\approx \SI{1}{\volt}$.
 	
-	Während der Aufnahme der Werte war bei der Neonröhre ein rötliches Leuchten zu erkennen, welches mit steigender Beschleunigungsspannung $U_B$ intensiver wurde.  
+	Während der Aufnahme der Werte war bei der Neonröhre ein rötliches Leuchten zu erkennen, welches mit steigender Beschleunigungsspannung $U_B$ intensiver wurde. 
+	Dies ist auf Elektronenstöße zurückzuführen.
+	Je nachdem wie viel Energie ein Elektron besitzt, führt es (in)elastische Stöße mit den Atomen des Gases aus. 
+	Hat es genug Energie um das Atom anzuregen, so gibt es diese an das Atom ab.
+	Nachdem das Atom angeregt wurde, fällt es schnell in seinen Ruhezustand zurück und emittiert dabei Licht mit je nach Elektronenübergang variierender Wellenlänge.
+	Die wahrscheinlichsten dieser Übergänge führen bei Neon zu einer Emission von rötlichem Licht 
 	Bei dem Quecksilber war bei den beiden Messungen keine solche Beobachtung möglich.
 	
 	\begin{figure}[ht]
@@ -41,65 +47,68 @@
 		\label{fig:Kurve}	
 	\end{figure}
 	Die aufgenommen Werte für die $I_A/U_B$-Charakteristiken sind in Abbildung \ref{fig:Kurve} dargestellt. 
-	Zu erkennen ist bereits, dass der Kurvenverlauf bei dem flüssigem Quecksilber der Kennlinie einen logarithmischen Verlauf annimmt, wohingegen bei dem Neon und noch ausgeprägter bei dem erhitzten Quecksilber der gemessene Anodenstrom wiederholt zu- und abnimmt, so dass ein "zackiges" Muster entsteht.\footnote{Die Linien zwischen den Messwerten dienen nur zur Verbildlichung und entsprechen nur genähert dem beobachteten Spannungsverlauf}. 
+	Zu erkennen ist bereits, dass der Kurvenverlauf bei dem flüssigem Quecksilber der Kennlinie einen logarithmischen Verlauf annimmt, wohingegen bei dem Neon und noch ausgeprägter bei dem erhitzten Quecksilber der gemessene Anodenstrom wiederholt zu- und abnimmt, so dass ein "zackiges" Muster entsteht.\footnote{Die Linien zwischen den Messwerten dienen nur zur Verbildlichung und entsprechen nur genähert dem beobachteten Spannungsverlauf. Bei den Geraden handelt es sich eigentlich um  Kurven mit hoher Steigung (bzw. hohem Abfall)}. 
 	Bei dem heißen Quecksilber sind fünf Maxima erkennbar, bei dem Neon hingegen drei.
-	
-	Mit Hilfe dieser Messungen lassen sich über die Minima (oder wie hier die Maxima) die Energien der Elektronen bestimmen, die nötig sind um die Atome der Gase anzuregen.
+	Dies zeigt, dass Elektronen nachdem sie ihre Energie an Atome abgegeben haben nicht mehr genügend besitzen um die Gegenspannung zu überwinden, weswegen der Anodenstrom geringer wird.
+	Erhöht man die Beschleunigungsspannung weiter, so steigt der Anodenstrom erneut, fällt jedoch wieder ab sobald die Elektronen genug Energie besitzen um zwei Atome anzuregen.
+	Dadurch ergibt sich der charakteristische Verlauf der Franck-Hertz-Kurve.
+	Die Anregungsspannungen entsprechen den Werten für die Energien, unterscheiden sich nur um den Faktor $\frac{1}{e}$.
+	 
+	Mit Hilfe dieser Messungen lassen sich über die Abstände der Minima bzw. Maxima (hier wurde der Mittelwert von beiden gebildet) die Energien der Elektronen bestimmen, die nötig sind um die Atome der Gase anzuregen.
 	Dazu dient $E=eU$. 
-	
-	Bei dem Zurückfallen eines angeregten Atoms in den Ruhezustand wird Licht emittiert. 
-	Dieses hat je nachdem von welchem Zustand zurückgefallen wird eine andere Wellenlänge. 
-	Über $\lambda = \frac{h \cdot c}{E}$ lässt sich diese Wellenlänge berechnen.
+	Die Wellenlänge des emittierten Lichts bestimmt sich über $\lambda = \frac{h \cdot c}{E}$.
 	Dabei ist $h$ das planck'sche Wirkungsquantum.
-	Zudem lässt sich über die Wellenlänge auch die Frequenz des emittierten Lichts über $f = \frac{c}{\lambda}$ ermitteln. 
-	In Tabelle \ref{tab:Werte} sind die Energien bei den verschiedenen Maxima, an denen die Anregung der Atome stattfindet, sowie auch die Frequenzen und Wellenlängen, welche dem darauf emittierten Licht zugehören, verzeichnet.
+	Ebenso lässt sich die Frequenz durch $f = \frac{c}{\lambda}$ ermitteln. 
+	In Tabelle \ref{tab:Werte} sind die benötigten Energien für die Anregungen der Atome in den Gasen, sowie auch die Frequenzen und Wellenlängen des daraufhin emittierten Lichts, verzeichnet.
 	\begin{table}
 		\caption{In dieser Tabelle sind die ermittelten Energien, Wellenlängen und Frequenzen dargestellt.}
 		\label{tab:Werte}
 		\centering
-		\begin{tabular}{c|c|c|c|c}
-			& Max. & E & $\lambda$ & $f$ \\			
+		\begin{tabular}{c|c|c|c}
+			& E & $\lambda$ & $f$ \\			
 			\hline		
-			Ne 	& 1. & & & \\
-				& 2. & & & \\
-				& 3. & & & \\
-			\hline
-			Hg(g) 	& 1. & & & \\
-					& 2. & & & \\
-					& 3. & & & \\
-					& 4. & & & \\
-					& 5. & & & \\					
+			Ne & \SI{19.23+-0.10}{\electronvolt} & \SI{64.49+-0.34}{\nano\meter} & \SI{4649+-25}{\tera\hertz} \\
+			Hg(g) & \SI{4.90+-0.05}{\electronvolt} & \SI{253.0+-2.6}{\nano\meter} & \SI{1185+-12}{\tera\hertz} \\				
 		\end{tabular}
 	\end{table}
 
 	Zur Bestimmung des Dampfdrucks in der Quecksilberröhre dient die Clausius-Clapeyron Formel (\ref{eq:Clausius}):
 	\begin{align} \label{eq:Clausius}
-		a = b	%TODO Formel
+		\ln(\frac{P}{P_0}) = -\frac{L}{R}\left( \frac{1}{T} - \frac{1}{T_0} \right) 
 	\end{align}
-	Mit Hilfe des dadurch ermittelten Drucks lässt sich nun die freie Weglänge der Elektronen in dem Quecksilbergas berechnen. 
-	Diese wird durch Gleichung \ref{eq:Weg} beschrieben:
+	Für die Starttemperatur wird die Zimmertemperatur von $T_0 = \SI{18+-2.89}{\celsius}$ verwendet und für die Endtemperatur $T = \SI{192+-2.89}{\celsius}$. 
+	Mit dem Startdruck von $P_0 = \SI{0.193+-0.035}{\micro\pascal}$ lässt sich nun der Druck in der erhitzten Quecksilberröhre berechnen: $P = \SI{1.84+-0.20}{10^3\pascal}$.
+	Damit lässt sich nun die freie Weglänge der Elektronen in der Röhre berechnen.
+	Dazu die Gleichung \ref{eq:Weg}:
 	\begin{align} \label{eq:Weg}
 		\lambda_\text{frei} = \frac{k_\text{B}\cdot T}{\sigma\cdot p}.
 	\end{align}
- 	Einsetzen mit $\sigma = \pi R^2$ und $T = \SI{192+-2}{\celsius}$ liefert eine freie Weglänge $\lambda_\text{frei} =$. %TODO Wert und Unsicherheit Temperatur korrigieren
+ 	Einsetzen mit $\sigma = \pi r_e^2$ ergibt bei Raumtemperatur $\lambda_\text{frei,0} = \SI{8.4+-1.5}{10^8\meter}$ und erhitzt $\lambda_\text{frei} = \SI{1.40+-0.15}{10^6\meter}$. 
 
 \section{Diskussion}
 	
+	Die Ergebnisse dieses Versuches stützen weitgehend die Beschreibung der Gesetzmäßigkeiten bei Elektronenstößen an Atomen von J. Franck und G. Hertz.
+	Es ließen sich bei dem Neon, wie auch bei dem erhitzten Quecksilber der charakteristische Verlauf der Franck-Hertz-Kurve erkennen.
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{bilder/Uebergaenge.png}
 		\caption{Diese Abbildung stellt das vereinfachte Termschemata von Quecksilber (links) und Neon (rechts) dar. Wahrscheinlichere Übergänge sind mit dickeren Pfeilen hervorgehoben.\cite{WWU}}
 		\label{fig:Übergänge}	
-	\end{figure}	
-
-		% Charakteristik Ne, Hg(l), Hg(g) 
-		% Anregungsspannung bestimmen
-		% Angabe Anregungsenergie = eU
-		% Wellenlänge
-		% Frequenzen der Strahlung
-		% Quecksilberdampfdruck nach Clausius
-		% mittlere frei Weglänge Hg (l & g)
-	% Leuchterscheinungen
-	% Quecksilberanregung diesdas
+	\end{figure}
+	Auch die Energien, die durch diese Kurven berechnet wurden korrelieren mit den in Abbildung \ref{fig:Übergänge} dargestellten Literaturwerten der Energien für die Übergänge von Neon und Quecksilber. 
+	Bei dem Quecksilber unterscheidet sich der berechnete Wert von \SI{4.90+-0.05}{\electronvolt} nur um 0,2\% von der ..6s6p-Übergangsenergie und die \SI{19.23+-0.10}{\electronvolt} von Neon nur um 1,7\% von der ..2p3p-Übergangsenergie.
+	Diese Übergänge gehören zudem zu den häufiger auftretenden, was ebenfalls zu erwarten war.
+	Vergleicht man nun die berechneten Wellenlängen, so unterscheidet sich die des Quecksilbers auch hier nur um 0,4\% von dem Literaturwert. 
+	Bei dem Neon ist jedoch keine Wellenlänge des Lichts gegeben, welches bei dem Zurückfallen aus ..2p3p nach 1s2s2p entstehen würde. 
+	Vergleicht man die berechneten \SI{64.49+-0.34}{\nano\meter} stattdessen mit den bei einem Sprung einer tieferen Schale zum Ruhezustand entstehenden  \SI{74}{\nano\meter}, so ist zu folgern, dass der Sprung aus einer höheren Schale Licht mit größerer Energie emittiert, was sinngemäß erscheint.
 	
-	%TODO
+	Betrachtet man nun die Sichtbarkeit des emittierten Lichts, so lassen sich die Beobachtungen anhand der Abbildung \ref{fig:Übergänge} einfach erklären:
+	Bei der Neonröhre war rötliches Licht zu sehen und häufige Übergänge führen zu emittiertem Licht mit Wellenlängen um \SI{600}{\nano\meter}, wo das rötliche Licht sich im sichtbaren Spektrum befindet.
+	Bei dem Quecksilber ist es zwar möglich Licht im sichtbaren Bereich zu emittieren, welches violett oder bläulich scheinen würde, jedoch sind diese Übergänge äußerst selten.
+	
+	Dass das Quecksilber bei Raumtemperatur die Charakteristiken nicht besitzt liegt daran, dass die freie Weglänge bei geringem Druck geringer ist als der Abstand zwischen Kathode und Gitter, weswegen die Atome sich nicht von den ELektronen beeinflussen lassen.
+	
+	%TODO Joey fix mal
+	Entgegen den Erwartungen jedoch liegen die berechneten Werte der freien Weglänge. 
+	Die berechneten Längen liegen nicht nur sehr weit von der nötigen Weglänge, sie wird mit höherem Druck sogar größer, was bereits aus der Formel \ref{eq:Weg} nicht sinnvoll erscheint.
+	Zu erklären ist dies ...
