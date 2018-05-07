@@ -1,16 +1,56 @@
 \section{Methoden}
 	
-	Dieser Abschnitt befasst sich mit dem Aufbau des Franck-Hertz-Versuches, so wie auch den dabei auftretenden Unsicherheiten.
+	Dieser Abschnitt befasst sich mit dem Aufbau des Versuches und den dabei auftretenden Unsicherheiten.
 	
 	\subsection{Aufbau}	
 		
+		Der Aufbau, wie er in in Abb. \ref{label} dargestellt ist, besteht im Wesentlichen aus einem Geiger-Müller-Zählrohr und einem radioaktiven Präparat, welches in geringem Abstand (ca. \SI{10}{\centi\meter}) von dem Zählrohr steht, sodass kleine Platten aus verschiedenen Stoffen dazwischen gesetzt werden können.
+		Mit Hilfe der Apparatur die an das Zählrohr geschlossen ist, lassen sich die Anzahl der Ereignisse und die vergangene Zeit einfach von einem Digitaldisplay ablesen.
+		Zudem lässt sich dort die Spannung an dem Zählrohr einstellen.
+		Bei den verwendeten radioaktiven Präparaten handelt es sich um den $\beta$-Strahler $^{90}$Sr und den $\gamma$-Strahler $^{137}$Cs.
+		Zur Messung der natürlichen Strahlung wird kein Präparat vor dem Zählrohr platziert.
+				
 	\subsection{Unsicherheiten}
 	
 		Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet\footnote{Die Gleichungen dazu finden sich im Anhang unter \ref{fig:GUM_combine}, \ref{fig:GUM_formula}.}.
-		Bei der Rechnung mit Werten mit Unsicherheiten wurde die Python Bibliohek "uncertainties" herangezogen, welche ihrerseits nach obigen Regeln rechnet.
+		Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
 	
-		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$, bei analogen Messungen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$ angenommen.
+		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$.
 
 \section{Durchführung und Datenanalyse}
-
+		
+	Zur Bestimmung der Zählrohrcharakteristik wurde der $\beta$-Strahler $^{90}$Sr verwendet und für verschiedene Spannungen die Anzahl der Ereignisse nach \SI{94}{\second} aufgetragen.
+	Die Zeit (oder die Zahl der Ereignisse) wurde bei allen Messungen so gewählt, dass die relative Unsicherheit unter 4\%, für alle Messwerte liegt.
+	Eine Darstellung der Messwerte ist der Abb. \ref{label} zu entnehmen.
+	Diese Kennlinie zeigt, dass zur Messung der Radioaktivität mindestens eine Spannung von x anliegen muss, diese nennt sich Einsatzspannung.
+	Auch das charakteristische Plateau ist der Kurve zu entnehmen.
+	Zudem ließen sich nur Werte bis zu \SI{500}{\volt} einstellen, da höhere Spannungen zur Beschädigung oder gar Zerstörung des Zählrohrs führen könnten.
+	
+	Zur Messung der natürlichen Radioaktivität wurde das radioaktive Präparat entfernt und 200 mal die Anzahl der Ereignisse innerhalb von \SI{10}{\second} aufgenommen.
+	Aus dieser Verteilung folgen der Mittelwert $ $ wie auch die empirische Standardabweichung $ $.
+	Diagramme der absoluten und relativen Häufigkeitsverteilung sind in Abb. \ref{label} vorzufinden.
+	Zur Bestimmung der Werte wurde die Poisson-Verteilung herangezogen. % TODO iwie
+	Mit Hilfe der mittleren Untergrundaktivität, die aus der natürlichen Radioaktivität hervorgegangen ist, ließ sich nun eine Korrektur, für die folgenden Messungen durchführen.
+	
+	Zur Bestimmung des Absorptionskoeffizienten $\mu_\gamma$ von Blei wurde die Impulsrate $a_\gamma (x)$ des $\gamma$-Präparats $^{137}$Cs in Abhängigkeit der Schichtdicke des Blei-Absorbers aufgenommen.	
+	Hierbei wurde die Zeit gemessen, die benötigt wurde um ca. 650 Ereignisse in dem Zählrohr auszulösen, um die Impulsrate mit einer relativen Unsicherheit unter 4\% aufzunehmen.
+	Nach jeder Messreihe wurde eine weitere Platte hinzugefügt und eine neue gestartet, sodass die Impulsrate in Abhängigkeit der Schichtdicke aufgetragen werden konnte.
+	Dazu standen vier Blei-Platten zur Verfügung.
+	Abb. \ref{label} stellt das Verhältnis logarithmisch aufgetragen dar.
+	Da es sich bei steigender Schichtdicke um einen exponentiellen Abfall der Ereignisse handeln sollte, lässt sich der Absorptionskoeffizient aus der Steigung des Graphen bestimmen.
+	Diese beläuft sich bei dem Blei auf $\mu_\gamma = $
+	
+	Analog verlief die Messung der Impulsraten $a_\beta (x)$ des $\beta$-Präparats $^{90}$Sr in Abhängigkeit der Schichtdicken von Aluminium, Plexiglas und Gummi.
+	Für die letzteren beiden, wurde die Messung jedoch nur für je eine Schicht durchgeführt.
+	Eine graphische Darstellung der Messung ist in Abb. \ref{label} vorzufinden.
+	Die sich dadurch berechneten Absorptionskoeffizienten sind in Tab. \ref{label} verzeichnet. 
+	
+	%TODO Bilder, Werte, Tabelle
+	
 \section{Diskussion}
+	
+	% Aufnahme der Zählrohr-Charakteristik
+	% Aufnahme der natürlichen Strahlung
+	% Gamma-Strahler, mit Blei
+	% Beta-Strahler mit Aluminium, Plexiglas und Gummi , Blei als Absorber?
+	
