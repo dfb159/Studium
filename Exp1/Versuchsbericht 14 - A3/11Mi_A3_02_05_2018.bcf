@@ -1924,6 +1924,10 @@
     <bcf:datasource type="file" datatype="bibtex">res/literatur.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">WWU</bcf:citekey>
+    <bcf:citekey order="2">WWU</bcf:citekey>
+    <bcf:citekey order="3">temp</bcf:citekey>
+    <bcf:citekey order="4">temp</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -16,5 +16,68 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{WWU}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
+           family={Münster},
+           familyi={M\bibinitperiod},
+           given={WWU},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{fullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{bibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorbibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authornamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorfullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A3 - Absorption von radioaktiver Strahlung}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=29
+      \endverb
+      \verb{url}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=29
+      \endverb
+    \endentry
+    \entry{temp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3d801aa532c1cec3ee82d87a99fdf63f}{%
+           family={temp},
+           familyi={t\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \strng{fullhash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \strng{bibnamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \strng{authorbibnamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \strng{authornamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \strng{authorfullhash}{3d801aa532c1cec3ee82d87a99fdf63f}
+      \field{sortinit}{t}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{temp}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb temp
+      \endverb
+      \verb{url}
+      \verb temp
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
