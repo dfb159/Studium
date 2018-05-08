@@ -16,7 +16,7 @@
 		Zur Messung der Dicke der Platten steht eine Schiebelehre (6) zur Verfügung.
 		
 		Mit Hilfe der Messapparatur die an das Zählrohr geschlossen ist, lassen sich die Anzahl der Impulse bzw. radioaktiven Ereignissen wie auch die vergangene Zeit einfach von einem Digitaldisplay ablesen.
-		Zudem lässt sich dort die Spannung an dem Zählrohr einstellen.
+		Zudem lässt sich dort durch einen Drehregler die Betriebsspannung des Zählrohres einstellen.
 		
 		Zur Messung der natürlichen Strahlung wird das Präparat, welches vor dem Zählrohr platziert ist, entfernt.
 				
@@ -26,7 +26,19 @@
 		Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
 	
 		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$.
-
+		
+		\begin{itemize}
+			\item Mit Hilfe des analogen Voltmeters an der Messapparatur konnte die Betriebsspannung mit $\Delta U = \SI{25}{\volt}$ eingestellt werden.
+			
+			\item Die Zeit wurde mit einem digitalen Sekundenzähler aufgenommen.
+			Dadurch ergibt sich $\Delta T = \SI{1}{\second}$.
+			
+			\item Die Dicken der einzelnen Absorberplatten wurden, soweit möglich, mit einer Schiebelehre nachgemessen.
+			Diese hatte eine Unsicherheitsangabe von $\Delta d = \SI{0.05}{\milli\meter}$.
+			Die Dicken aller dünnen Aluminiumfolien konnten durch die Schieblehre nicht erfasst werden.
+			Für diese wird eine Unsicherheit von $\Delta d = \SI{0.5}{\micro\meter}$ angenommen.
+		\end{itemize}
+		
 \section{Durchführung und Datenanalyse}
 		
 	Die Zeit bzw. die Zahl der Ereignisse wurde bei allen Messungen so gewählt, dass die relative Unsicherheit unter 4\%, für alle Messwerte liegt.
@@ -37,7 +49,7 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/CharakteristikZaehlrohr.pdf}
-		\caption{Impulsrate in Abhängigkeit der Spannung am Zählrohr bzw. Zählrohrcharakteristik}
+		\caption{Impulsrate in Abhängigkeit der Spannung am Zählrohr bzw. Zählrohrcharakteristik.}
 		\label{fig:Kennlinie}	
 	\end{figure}
 	Diese Kennlinie zeigt, dass zur Messung der Radioaktivität mindestens eine Spannung von $\approx \SI{275+-7,2}{\volt}$ anliegen muss, diese nennt sich Einsatzspannung. 
@@ -55,13 +67,13 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/bckgndHistogrammRelPoisson.pdf}
-		\caption{Histogramm der relativen Häufigkeitsverteilung der natürlichen Strahlung mit Poisson-Verteilung}
+		\caption{Histogramm der relativen Häufigkeitsverteilung der natürlichen Strahlung mit Poisson-Verteilung.}
 		\label{fig:relativ}	
 	\end{figure}
 	Diagramme der absoluten und relativen Häufigkeitsverteilung sind in Abb. \ref{fig:absolut} und Abb. \ref{fig:relativ} vorzufinden. 
 	Zur Berechnung der Kurve über der relativen Häufigkeitsverteilung wurde die Poisson-Verteilung herangezogen: 
 	\begin{align}
-		\psi (N) = \frac{\bar{N}^N\cdot e^{\bar{N}}}{N!}, \quad N = \text{Anzahl der Impulse}.
+		\psi (N) = \frac{\bar{N}^N\cdot e^{\bar{N}}}{N!}, \quad N = \text{Anzahl der Impulse}, \bar{N} = <N>.
 	\end{align} 
 	Mit Hilfe der mittleren Untergrundaktivität, die aus der natürlichen Radioaktivität hervorgegangen ist, wurde für die folgenden Messungen eine Korrektur durchgeführt.
 	
@@ -73,7 +85,7 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/GammaAbsorber.pdf}
-		\caption{Impulsrate in Abhängigkeit der Schichtdicke des Bleis}
+		\caption{Impulsrate in Abhängigkeit der Schichtdicke des Bleis. Dabei gilt für die Steigung des Fits $m = -\mu_\gamma$.}
 		\label{fig:gamma}	
 	\end{figure}
 	Abb. \ref{fig:gamma} stellt das Verhältnis logarithmisch aufgetragen dar. 
