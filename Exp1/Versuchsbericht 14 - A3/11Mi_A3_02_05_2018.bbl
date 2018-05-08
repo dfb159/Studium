@@ -49,33 +49,66 @@
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=29
       \endverb
     \endentry
-    \entry{temp}{online}{}
+    \entry{NIST}{online}{}
       \name{author}{1}{}{%
-        {{hash=3d801aa532c1cec3ee82d87a99fdf63f}{%
-           family={temp},
-           familyi={t\bibinitperiod}}}%
+        {{hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \strng{fullhash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \strng{bibnamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \strng{authorbibnamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \strng{authornamehash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \strng{authorfullhash}{3d801aa532c1cec3ee82d87a99fdf63f}
-      \field{sortinit}{t}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{temp}
+      \field{title}{X-Ray Mass Attenuation Coefficients}
       \field{urlday}{8}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb temp
+      \verb https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html
       \endverb
       \verb{url}
-      \verb temp
+      \verb https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html
       \endverb
+    \endentry
+    \entry{Tikrit}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1ebafe7618ee63c31ced68f587d6c435}{%
+           family={Sabah\bibnamedelimb M.\bibnamedelimi aman\bibnamedelima Allah},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Abdual\bibnamedelimb H.\bibnamedelimi G.\bibnamedelimi Mardan},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffix={yassen\bibnamedelimb H.\bibnamedelimi Mahmoud},
+           suffixi={y\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3c00d2c170cff929ff70f2019bcfd3d3}{%
+           family={shakour},
+           familyi={s\bibinitperiod},
+           given={Abdual\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {phy. Dep., college of sciences –Tikrit Uni.}%
+      }
+      \strng{namehash}{030e9f00a46aad29105e9c90ae5d180b}
+      \strng{fullhash}{030e9f00a46aad29105e9c90ae5d180b}
+      \strng{bibnamehash}{030e9f00a46aad29105e9c90ae5d180b}
+      \strng{authorbibnamehash}{030e9f00a46aad29105e9c90ae5d180b}
+      \strng{authornamehash}{030e9f00a46aad29105e9c90ae5d180b}
+      \strng{authorfullhash}{030e9f00a46aad29105e9c90ae5d180b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mass absorption coefficients and range of multi –energetic beta particles for some elements: comparative study}
+      \field{year}{2015}
+      \field{pages}{22\bibrangedash 23}
+      \range{pages}{2}
     \endentry
   \enddatalist
 \endrefsection

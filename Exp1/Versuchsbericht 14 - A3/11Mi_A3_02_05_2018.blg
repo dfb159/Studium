@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.10
 [0] Config.pm:305> INFO - Logfile is '11Mi_A3_02_05_2018.blg'
 [24] biber-MSWIN64:313> INFO - === 
-[44] Biber.pm:371> INFO - Reading '11Mi_A3_02_05_2018.bcf'
-[117] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
-[129] Biber.pm:3976> INFO - Processing section 0
-[140] Biber.pm:4136> INFO - Looking for bibtex format file 'res/literatur.bib' for section 0
-[141] bibtex.pm:1490> INFO - LaTeX decoding ...
-[144] bibtex.pm:1306> INFO - Found BibTeX data source 'res/literatur.bib'
-[159] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[159] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[159] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[159] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[165] bbl.pm:617> INFO - Writing '11Mi_A3_02_05_2018.bbl' with encoding 'UTF-8'
-[166] bbl.pm:720> INFO - Output to 11Mi_A3_02_05_2018.bbl
+[46] Biber.pm:371> INFO - Reading '11Mi_A3_02_05_2018.bcf'
+[120] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
+[132] Biber.pm:3976> INFO - Processing section 0
+[144] Biber.pm:4136> INFO - Looking for bibtex format file 'res/literatur.bib' for section 0
+[145] bibtex.pm:1490> INFO - LaTeX decoding ...
+[151] bibtex.pm:1306> INFO - Found BibTeX data source 'res/literatur.bib'
+[171] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[171] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[171] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[171] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[178] bbl.pm:617> INFO - Writing '11Mi_A3_02_05_2018.bbl' with encoding 'UTF-8'
+[180] bbl.pm:720> INFO - Output to 11Mi_A3_02_05_2018.bbl
