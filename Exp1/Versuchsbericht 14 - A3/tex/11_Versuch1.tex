@@ -61,7 +61,7 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/bckgndHistogrammAbs.pdf}
-		\caption{Histogramm der absoluten Häufigkeitsverteilung der natürlichen Strahlung}
+		\caption{Histogramm der absoluten Häufigkeitsverteilung der natürlichen Strahlung.}
 		\label{fig:absolut}	
 	\end{figure}
 	\begin{figure}[ht]
@@ -90,18 +90,24 @@
 	\end{figure}
 	Abb. \ref{fig:gamma} stellt das Verhältnis logarithmisch aufgetragen dar. 
 	Da es sich bei steigender Schichtdicke um einen exponentiellen Abfall der Ereignisse handeln sollte ($N(x) = N_0 e^{-\mu x}$), lässt sich der Absorptionskoeffizient aus der Steigung des Graphen bestimmen.
-	Diese beläuft sich bei dem Blei auf $\mu_\gamma = \SI{1.10+-0.09}{\per\centi\meter}$.
+	Dieser Koeffizient und der Massenabsorptionskoeffizient, der sich durch teilen ersteren durch die Dichte des Bleis ergibt sind in der Tabelle \ref{tab:Werte} aufgeführt.
 	
 	Analog verlief die Messung der Impulsraten $a_\beta (x)$ des $\beta$-Präparats $^{90}$Sr in Abhängigkeit der Schichtdicken von Aluminium, Plexiglas und Gummi.
 	Für die letzteren beiden, wurde die Messung jedoch nur für je eine Schicht durchgeführt.
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/BetaAbsorber.pdf}
-		\caption{Impulsrate in Abhängigkeit der Schichtdicken von Aluminium, Plexiglas und Gummi}
+		\caption{Impulsrate in Abhängigkeit der Schichtdicken von Aluminium. Hier wurden zwei mögliche Steigungen dargestellt, für die weitere Auswertung wurde jedoch nur die Steigung des orangefarbenen Fits betrachtet.}
 		\label{fig:beta}	
 	\end{figure}
-	Eine graphische Darstellung der Messung ist in Abb. \ref{fig:beta} vorzufinden. 
-	Die sich dadurch berechneten Absorptionskoeffizienten sind in Tab. \ref{tab:Werte} verzeichnet. 
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=\textwidth]{data/GummiPlexiAbsorber2.pdf}
+		\caption{Impulsrate in Abhängigkeit der Schichtdicken von Plexiglas und Gummi.}
+		\label{fig:beta2}	
+	\end{figure}
+	Eine graphische Darstellung der Messung ist in den Abb. \ref{fig:beta} und \ref{fig:beta2} vorzufinden. 
+	Die sich dadurch berechneten Koeffizienten sind ebenso in Tab. \ref{tab:Werte} verzeichnet. 
 	
 	\begin{table}
 		\caption{In dieser Tabelle sind die ermittelten Absorptions- und Massenabsorptionskoeffizienten aufgetragen. Zu letzteren sind zusätzlich Literaturwerte angegeben.\cite{NIST}\cite{Tikrit}}
@@ -110,11 +116,11 @@
 		\begin{tabular}{c|c|c|c|c}					
 			& Blei ($\mu_\gamma$) & Aluminium ($\mu_\beta$) & Plexiglas ($\mu_\beta$) & Gummi ($\mu_\beta$) \\
 			\hline	
-			$\mu$ & \SI{1.10+-0.09}{\per\centi\meter} & \SI{0}{} & \SI{0}{} & \SI{0}{} \\
-			$\mu_m$ & \SI{9.7+-0.8e-2}{\centi\meter^2\per\gram} & \SI{0}{} & \SI{0}{} & \SI{0}{} \\
-			$\mu_{m,Lit}$ & \SI{8.870e-2}{\centi\meter^2\per\gram} & \SI{33,99}{\centi\meter^2\per\gram} & &\\
+			$\mu$ (\si{\per\centi\meter}) & \SI{1.10+-0.09}{} & \SI{16.4+-1.0}{} & \SI{1.81+-0.12}{} & \SI{1.57+-0.25}{} \\
+			$\mu_m$ (\si{\centi\meter^2\per\gram}) & \SI{9.7+-0.8e-2}{} & \SI{6.08+-0.35}{} & \SI{1.95+-0.13}{} & \SI{1.69+-0.27}{} \\
+			$\mu_{m,Lit}$ (\si{\centi\meter^2\per\gram}) & \SI{8.870e-2}{} & \SI{33,99}{} & &\\
 			\hline
-			$\frac{\mu_m}{\mu_{m,Lit}}$ & 9,4\% & & &	
+			Abweichung & 9,4\% & 82.1\% & &	
 		\end{tabular}
 	\end{table}
 	
@@ -123,11 +129,24 @@
 	Nun stellt sich die Frage, ob die Ergebnisse dem Ziel dieser Untersuchung genügen.
 	
 	Wird dazu zunächst die aufgenommene Zählrohrcharakteristik betrachtet, so lässt sich der zu erwartende Verlauf klar in dieser erkennen.
-	Bis zur Einsatzspannung werden keine Impulses gemessen und die Werte, welche auf dem Plateau vorzufinden sind, liegen alle innerhalb ihrer Unsicherheiten.
+	Bis zur Einsatzspannung werden keine Impulses gemessen und die Werte, welche auf dem Plateau vorzufinden sind, liegen alle auf einer Ebene und weichen nur gering voneinander ab.
 	
-	Die 
+	Das Histogramm der relativen Häufigkeitsverteilung der natürlichen Strahlung zeigt, dass die Verteilung sich in guter Näherung durch die Poisson-Verteilung bestimmen lässt, da der Verlauf der Poisson-Kurve, um den Mittelwert von 2,92 Impulsen pro zehn Sekunden, das Histogramm nahezu lückenlos einschließt.
+	Nur am Erwartungswert selber hebt sich das Histogramm etwas von der Kurve ab, dies ist jedoch zu vernachlässigen.
 	
-	% Aufnahme der natürlichen Strahlung
-	% Gamma-Strahler, mit Blei
-	% Beta-Strahler mit Aluminium, Plexiglas und Gummi , Blei als Absorber?
+	Vergleicht man nun die Ergebnisse der Absorption, so erkennt man zunächst, dass die Messung der Impulsrate in Abhängigkeit der Schichtdicke des Bleis in etwa mit den Erwartungen übereinstimmt.
+	Es ließ sich bei logarithmischer Auftragung der Messwerte eine Gerade mit negativer Steigung durch die Messpunkte legen, was für den exponentiellen Abfall der Impulsrate spricht.
+	Der aus dieser Steigung entstehende Absorptionskoeffizient führte durch teilen durch die Dichte des Bleis zu einem Massenabsorptionskoeffizienten, der sich mit der Literatur vergleichen lässt.	
+	Bei dem Literaturwert handelt es sich um den, auf dem Energiespektrum der $^137$Cs-$\gamma$-Strahlung, der am stärksten mit dem ermittelten Wert übereinstimmt.
+	Der Vergleich zeigt eine Abweichung von 9,4\%, was  in grober Näherung dem Literaturwert entspricht.
+	
+	Bei dem Aluminium zeigt bereits die Messkurve, dass sich kein "passender" linearer Fit finden konnte.
+	Auch der Massenabsorptionskoeffizient der näher an dem Literaturwert liegt, weicht um 82,1\% von diesem ab.
+	Hier kann keine Übereinstimmung mit der Literatur gefunden werden, da diese Abweichung zu groß ist.
+	
+	Für das Plexiglas und Gummi ließen sich keine Literaturwerte finden. 
+	Zudem wurden für die Bestimmung der Absorptionskoeffizienten nur je zwei Messpunkte herangezogen.
+	Aus diesen lässt sich zumindest erkennen, dass das Plexiglas die $\beta$-Strahlung besser absorbiert als Gummi
+	
+	Würde Blei als Absorber für die $\beta$-Strahlung gewählt, so wären vermutlich keine Impulse neben denen der natürlichen Strahlung gemessen worden, was aus der Dichte von Blei und der bereits starken Absorption von deutlich mehr durchdringender $\gamma$-Strahlung hervorgeht.
 	
