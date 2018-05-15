@@ -1,0 +1,62 @@
+% Autor: Alex Oster, Jonathan Sigrist
+% Datum: 2018-01
+% basiert auf der Vorlage für Versuchsprotokolle von Simon May
+
+\documentclass[a4paper]{scrartcl}
+
+% Mathepaket (intlimits: Grenzen über/unter Integralzeichen)
+\usepackage[intlimits]{amsmath}
+% Mathe-Symbole, \mathbb etc.
+\usepackage{amssymb}
+% Weitere Mathebefehle
+\usepackage{mathtools}
+% „Schöne“ Brüche im Fließtext
+\usepackage{xfrac}
+% Ermöglicht die Nutzung von \SI{Zahl}{Einheit} u.a.
+\usepackage{siunitx}
+% Ermöglicht Nutzung von \pdv als Ableitungen
+\usepackage{physics}
+% Definition von Unicode-Symbolen; Nach [utf8]inputenc laden!
+\usepackage{newunicodechar}
+% Unicode-Formeln mit pdfLaTeX
+\input{tex/99_pdflatex_unicode-math.tex}
+
+% allgemein ist dW = (W pro sekunde) proportinal zu W = (W pro umdrehung) gesehen werden
+% im folgenden soll stets gelten $\rho \dot{=} \rho_\text{H2O}$ und $ c = c_\text{H2O}$
+\begin{document}
+	\begin{equation} % massenstrom des Kühlwassers [masse pro zeit]
+		\dot{M} = \rho \frac{V_\text{MB}}{t_\text{MB}}
+	\end{equation} % rho ist dichte, V ist volumen des Messbechers, t ist Füllzeit des volumens
+	
+	\begin{equation} % Reibungswaerme pro Zeit(ist negativ, weil Reibungsarbeit geleistet wird)
+		\dot{Q}_\text{R} = \dot{W}_\text{R} = c \dot{M} (T_\text{Zu} - T_\text{Ab})
+	\end{equation} % c ist spez. Wärme (von wasser), M wie oben, T_zu ist zulaufende Temperatur, T_ab ist ablaufende Temperatur
+	
+	\begin{equation} % analog dazu Wärme von kalt, warm machen
+	\dot{Q}_1 = c \dot{M} (T_\text{Zu} - T_\text{Ab})
+	\end{equation} % T_zu ist zulaufende Temperatur, T_ab ist ablaufende Temperatur bei kalt/warm machen
+	
+	\begin{equation} % Wärmeänderung der Probe pro Zeit
+		-\dot{Q}_2 = c \rho V_\text{P} \d{T}
+	\end{equation} % V_P = Volumen der Probe; dT Steigung des Graphen bei Raumtemp
+	
+	\begin{equation} % absolute Leistung der Maschine, ist dW < 0 so wird Energie aufgenommen, ist dW > 0 so wird Energie abgegeben/Arbeit von der Maschine geleistet; da wir hier Wärmepumpe/Kältemaschine haben ist dW < 0 und der Motor gibt Energie in das System ein
+		\dot{W} = \dot{Q}_1 - \dot{Q}_2 + \dot{W}_\text{R}
+	\end{equation} % Q_1 ist Wärme des Kühlwassers(negativ)[siehe (3)], Q_2 ist Wärme der Probe/gemessene Temperatur (4) -> Wärmeänderung(Kältemaschine: positiv, Wärmepumpe: negativ)
+	
+	\begin{equation} % kühlleistung/heizleistung
+		\varepsilon = \frac{\abs{Q_2}}{\abs{W}}
+	\end{equation} % Q_2 (4), W (5)
+	
+	\begin{equation} % Wärme beim Kristallisieren des Eises
+		Q = c \rho V_\text{P} (T_2 - T_1)
+	\end{equation} % T_2: Temperatur kurz nach dem Gefrierens; T_1: Temperatur kurz vor dem Gefrieren
+	
+	\begin{equation} % Schmelzwärme gefrieren
+		Q_\text{G} = Q_2 (t_2 - t_1) + Q
+	\end{equation} % t_1 Anfangszeitpunkt des Gefrierens nach kristallisieren(Stufe); t_2: Endzeitpunkt (durch linearisierung des theoretisch homogenen kühlprozesses bestimmt); Q von vorher(7); Q_2 beim gefrieren
+	
+	\begin{equation} % Schmelzwärme schmelzen (Q_S = Q_G)
+		Q_\text{S} = -Q_2 (t_2 - t_1)
+	\end{equation} % das gleiche nur ohne Q, weil keine stufe; *-1 weil Energie reingesteckt wird
+\end{document} 
