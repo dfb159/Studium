@@ -37,7 +37,7 @@
 	\end{equation} % T_zu ist zulaufende Temperatur, T_ab ist ablaufende Temperatur bei kalt/warm machen
 	
 	\begin{equation} % Wärmeänderung der Probe pro Zeit
-		-\dot{Q}_2 = c \rho V_\text{P} \d{T}
+		-\dot{Q}_2 = c \rho V_\text{P} \dd T
 	\end{equation} % V_P = Volumen der Probe; dT Steigung des Graphen bei Raumtemp
 	
 	\begin{equation} % absolute Leistung der Maschine, ist dW < 0 so wird Energie aufgenommen, ist dW > 0 so wird Energie abgegeben/Arbeit von der Maschine geleistet; da wir hier Wärmepumpe/Kältemaschine haben ist dW < 0 und der Motor gibt Energie in das System ein
@@ -59,4 +59,13 @@
 	\begin{equation} % Schmelzwärme schmelzen (Q_S = Q_G)
 		Q_\text{S} = -Q_2 (t_2 - t_1)
 	\end{equation} % das gleiche nur ohne Q, weil keine stufe; *-1 weil Energie reingesteckt wird
+	
+	\begin{align}
+		\dot{Q} &= c_\text{Eis} m_\text{P} \dd T\\
+		\Leftrightarrow c_\text{Eis} &= \frac{\dot{Q}}{m_\text{P}\dd T}
+	\end{align} % c_Eis spez. Wärme Eis; m_P masse Probe; dQ wie oben
+	
+	\begin{equation}
+		m_\text{P} = \rho V_{P}
+	\end{equation} % die masse der probe ändert sich nicht, auch wenn es zu eis wird
 \end{document} 
