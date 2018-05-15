@@ -25,9 +25,30 @@
 	
 		Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$.
 		
-		\begin{itemize}
-			\item hier konkrete Unsicherheiten beim Messen	%TODO Joey
-		\end{itemize}
+		\begin{description}
+			\item[Abtastrate] Für die zeitliche Abtastrate des Messprogramms wurde eine Unsicherheit entsprechend der Abtastfrequenz mit $\Delta t = \frac{1}{f}$ gewählt.
+			Die Messung erfolgt digital.
+			
+			\item[Position] Bei der Positionsbestimmung wurde durch die Schrittweite der Daten eine Unsicherheit von $\Delta x = \SI{0.1}{\milli\meter}$ festgelegt.
+			Die Messung ist digital.
+			
+			\item[Stopuhr] Die Unsicherheit setzt sich aus der analogen Reaktionszeit und der digitalen Stellengenauigkeit nach \ref{fig:GUM_combine} zusammen.
+			Die Zeit kann beim Messprozess gut abgeschätzt werden, da der Füllstand des Messzylinder linear zunimmt, also ist die Reaktionszeit auf $\Delta t_1 = \SI{0.1}{\second}$ abgeschätzt.
+			Die Stopuhr kann zwei Nachkommastellen angeben, also ist $\Delta t_2 = \SI{10}{\milli\second}$.
+			
+			\item[Messzylinder] Das Volumen des Zylinders ist in \SI{1}{\milli\liter} unterteilt.
+			Es wird analog abgelesen.
+			Also folgt $\Delta V = \SI{1}{\milli\liter}$.
+			
+			\item[Pipette] Die Pipette, mit welcher die Probemenge bestimmt wurde, hatte auf \SI{1}{\milli\liter} Einhundert Unterteilungen und wurde ebenfalls analog abgelesen.
+			Dementsprechend folgt $\Delta V = \SI{0.01}{\milli\liter}$.
+			
+			\item[Thermometer] Sowohl das Programm, als auch das manuelle Thermometer konnten auf eine Nachkommastelle genaue Angaben machen.
+			Beide sind digital.
+			Es ergibt sich die Unsicherheit $\Delta T = \SI{0.1}{\celsius}$.
+		\end{description}
+		
+		In Diagrammen mit vielen Messpunkten wurden aus Gründen der Übersichtlichkeit nicht für jeden Punkt Unsicherheitsbalken gezeichnet.
 		
 \section{Durchführung und Datenanalyse}	
 	\begin{figure}[ht]
