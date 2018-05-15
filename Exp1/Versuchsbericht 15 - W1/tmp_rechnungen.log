@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  15 MAY 2018 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  15 MAY 2018 22:16
 entering extended mode
 **./tmp_rechnungen.tex
 (tmp_rechnungen.tex
@@ -1749,29 +1749,26 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count294
+ [1
 
-
-LaTeX Warning: Command \d invalid in math mode on input line 40.
-
-[1
-
-{C:/Users/temp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(tmp_rechnungen.aux) ) 
+{C:/Users/temp/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (tmp_rechnun
+gen.aux) ) 
 Here is how much of TeX's memory you used:
- 16885 strings out of 493307
- 341608 string characters out of 3138825
+ 16884 strings out of 493307
+ 341589 string characters out of 3138825
  456373 words of memory out of 3000000
- 20315 multiletter control sequences out of 15000+200000
+ 20314 multiletter control sequences out of 15000+200000
  536329 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,6n,51p,10387b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on tmp_rechnungen.pdf (1 page, 42206 bytes).
+ 51i,11n,51p,10387b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on tmp_rechnungen.pdf (1 page, 50599 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

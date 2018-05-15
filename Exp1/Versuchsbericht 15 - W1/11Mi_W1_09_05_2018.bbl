@@ -49,6 +49,64 @@
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=26
       \endverb
     \endentry
+    \entry{NISTwater}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Water}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webbook.nist.gov/cgi/inchi?ID=C7732185&Type=JANAFL&Plot=on
+      \endverb
+      \verb{url}
+      \verb https://webbook.nist.gov/cgi/inchi?ID=C7732185&Type=JANAFL&Plot=on
+      \endverb
+    \endentry
+    \entry{Toolbox}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdd68c50e60316e0d4e3941d10da5b9a}{%
+           family={Toolbox},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima Engineering},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \strng{fullhash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \strng{bibnamehash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \strng{authorbibnamehash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \strng{authornamehash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \strng{authorfullhash}{bdd68c50e60316e0d4e3941d10da5b9a}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Water - Thermophysical Properties}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.engineeringtoolbox.com/water-thermal-properties-d_162.html
+      \endverb
+      \verb{url}
+      \verb https://www.engineeringtoolbox.com/water-thermal-properties-d_162.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
