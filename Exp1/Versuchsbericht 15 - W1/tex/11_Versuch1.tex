@@ -10,11 +10,11 @@
 		
 		Abb. \ref{fig:Aufbau} stellt die Funktionsweise des Stirling-Motors schematisch dar. 
 		Hierbei handelt es sich um einen Kreisprozess aus zwei isothermen und zwei isochoren Zustandsänderungen.
-		Je nachdem in welche Richtung das Schwungrad (bzw. der Motor) dreht, wird der Stirling-Motor zur Kältemaschine (entgegen des Uhrzeigersinn) oder zur Wärmepumpe (im Uhrzeigersinn). 
+		Je nachdem in welche Richtung das Schwungrad (bzw. der Motor) dreht, wird der Stirling-Motor als Kältemaschine (entgegen des Uhrzeigersinn) oder als Wärmepumpe (im Uhrzeigersinn) benutzt. 
 		\begin{figure}[ht]
 			\centering
 			\includegraphics[width=\textwidth]{Aufbau.png}
-			\caption{Darstellung der Takte des Stirling-Motors. Isotherme Expansion, isochore Abkühlung, isothemre Kompression und isochore Erwärmung (von links nach rechts).\cite{WWU}}
+			\caption{Darstellung der Takte des Stirling-Motors. Isotherme Expansion, isochore Abkühlung, isotherme Kompression und isochore Erwärmung (von links nach rechts).\cite{WWU}}
 			\label{fig:Aufbau}	
 		\end{figure}
 				
@@ -54,18 +54,25 @@
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/Position.pdf}
-		\caption{Sinus-Fit zur Rotation des Motors.}
+		\caption{Sinus-Fit zur Rotation des Motors. Der Parameter $f$ ist die gefittete Frequenz.}
 		\label{fig:Frequenz}	
 	\end{figure}
 	Damit der Motor mit einer Frequenz von $\approx$ \SI{3}{\hertz} arbeiten konnte, wurde seine Rotation aufgenommen und das Zeitbild am Computer fourier-transformiert, sodass eine passende Frequenz über Geschwindigkeitsänderung des Motors festgelegt werden konnte.
 	Diese Messung ist in Abb. \ref{fig:Frequenz} mit einem Sinus-Fit dargestellt.
-	Daraus folgte eine Frequenz von ca. \SI{3,09}{\hertz}, welche für die weiteren Berechnungen verwendet wurden.
+	Aus der FFT folgte eine Frequenz von ca. \SI{3,1}{\hertz}, welche durch den Fit bestätigt wurde.
+	Für die weiteren Berechnungen wird die gefittete Frequenz verwendet.
 	
 	Zur Bestimmung der Reibungsarbeit wurde zunächst der Zylinderkopf des Stirling-Motors abgenommen und die Temperatur $T_{Abfluss,0} = \SI{24,5+-0,03}{\celsius}$ des Kühlwassers an diesem gemessen.
 	Dann  wurde der Motor als Wärmepumpe in Betrieb genommen.
+<<<<<<< HEAD
 	Ab dem Punkt, an dem die Temperatur des Kühlwassers sich nicht mehr änderte, bei $T_{Abfluss} = \SI{25,0+-0,03}{\celsius}$, wurde der Volumendurchfluss an dem Kühlwasserreservoir gemessen.
 	Daraus ergab sich eine Zeit $t_{MZ} = \SI{11,47+-0,003}{\second}$ für $V_{MZ} = \SI{50+-0,2}{\milli\liter}$ (MZ steht für Messzylinder).	
 	Der Volumendurchfluss ergibt sich aus:
+=======
+	Ab dem Punkt, an dem die Temperatur des Kühlwassers sich nicht mehr änderte, bei $T_{max} = \SI{25,0+-0,03}{\celsius}$, wurde der Volumendurchfluss an dem Kühlwasserreservoir gemessen.
+	Daraus ergab sich eine Zeit $t_{MB} = \SI{11,47+-0,003}{\second}$ für $V_{MB} = \SI{50+-0,2}{\milli\liter}$.
+	Der Massendurchfluss ergibt sich aus:
+>>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
 	\begin{equation} % massenstrom des Kühlwassers [masse pro zeit]
 		\dot{M} = \rho \frac{V_\text{MB}}{t_\text{MB}}.
 	\end{equation} % rho ist dichte, V ist volumen des Messbechers, t ist Füllzeit des volumens
@@ -109,6 +116,7 @@
 		\caption{Genauere Darstellung des Sprungs in der Temperaturkurve der Kältemaschine.}
 		\label{fig:KaltSprung}	
 	\end{figure} 
+<<<<<<< HEAD
 	Auffällig daran ist der schlagartige Anstieg bzw. Sprung von ca. \SI{-8}{\celsius} auf ungefähr \SI{0}{\celsius} und der darauf folgende konstante Bereich, bis die Temperatur wieder anfängt zu sinken.
 	Der Sprung wird in Abbildung \ref{fig:KaltSprung} deutlicher dargestellt.
 	Nachdem eine Temperatur  von ca. \SI{-26,7}{\celsius} erreicht wurde, wurde zudem eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{26,6+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,3+-0,03}{\celsius}$ durchgeführt.
@@ -131,6 +139,14 @@
 	Dabei sind $Q_2$ und W den Gleichungen \ref{eq:Q2} und \ref{eq:W} zu entnehmen.
 	Aus dieser Messung folgt $\varepsilon = 0,0233\pm 0,0015$ für die Kühlleistung.
 		
+=======
+	Auffällig daran ist der schlagartige Anstieg von ca. \SI{-8}{\celsius} auf ungefähr \SI{0}{\celsius} und der darauf folgende konstante Bereich, bis die Temperatur wieder anfängt zu sinken.
+	Dieser Sprung wird in Abbildung \ref{fig:KaltSprung} deutlicher dargestellt.
+	Nachdem eine Temperatur von ca. \SI{-26,7}{\celsius} erreicht wurde, wurde zudem eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{26,6+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,3+-0,03}{\celsius}$ durchgeführt.
+	Die Schmelzwärme des Wassers lässt sich über ... abschätzen. %TODO Rechenweg ↓ Schmelzwärme
+	Für die Kühlleistung ...%TODO Rechenweg ↓ Leistung
+	
+>>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/warm_machen.pdf}
@@ -138,9 +154,15 @@
 		\label{fig:Wärmepumpe}	
 	\end{figure}
 	Analog zur Kältemaschine verlief die Untersuchung der Wärmepumpe. 
+<<<<<<< HEAD
 	Die Temperaturkurve des Wassers bei diesem Vorgang ist in Abb. \ref{fig:Wärmepumpe} aufgetragen.
 	Diese verzeichnet einen der Kältemaschine ähnlichen Verlauf.
 	Hier tritt jedoch kein Sprung auf, wobei die Temperatur jedoch wie zuvor bei ungefähr \SI{0}{\celsius} für einige Zeit konstant bleibt, bevor sie wieder ansteigt.
+=======
+	Die Temperatur des Wassers bei diesem Vorgang ist in Abb. \ref{fig:Wärmepumpe} aufgetragen.
+	Bei dieser Kurve wurde ein ähnlicher Verlauf verzeichnet.
+	Hier tritt jedoch kein Sprung auf, die Temperatur bleibt dennoch  bei ungefähr \SI{0}{\celsius} für einige Zeit konstant, bevor sie wieder ansteigt.
+>>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
 	Auch hier wurde erneut eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{25,5+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,5+-0,03}{\celsius}$ durchgeführt.
 	Dies geschah bei der Temperatur des Wassers von ca. $T_\text{Probe} = \SI{40,4}{\celsius}$.
 	Die Berechnung der Heizleistung aus dieser Kurve verlief analog zu der bei der Kältemaschine vgl. Gl. \ref{eq:eps}.
