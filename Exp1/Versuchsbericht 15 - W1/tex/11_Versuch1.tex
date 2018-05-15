@@ -125,7 +125,10 @@
 		Q = c \rho V_\text{Probe} (T_2 - T_1)
 	\end{equation} % T_2: Temperatur kurz nach dem Gefrierens; T_1: Temperatur kurz vor dem Gefrieren
 	bestimmen.
-	Dabei sind $t_{1/2}$ die Zeiten und $T_{1/2}$ die Temperaturen kurz vor dem Gefrieren und direkt nach Ende des konstanten Bereichs.
+	Dabei sind $t_{1/2}$ die Zeiten am Anfang und Ende des Gefrierprozesses und $T_{1/2}$ die Temperaturen kurz vor und direkt nach dem Sprung.
+	Es ist zu beachten, dass $t_2$ durch Extrapolation des Graphen einige Zeit nach dem erneuten abfallen der Temperatur ermittelt wurde.
+	Das inhomogene Abkühlen der Probe, welches durch die Kühlung von Außen auftritt, soll somit umgangen werden.
+	
 	$Q_2$ folgt aus Gl. \ref{eq:Q2}.
 	Einsetzen führt zu einer Schmelzwärme $Q_\text{G} = \SI{215.8+-1.2}{\joule\per\gram}$ 
 	Für die Kühlleistung $\varepsilon$ dient folgender Zusammenhang:
@@ -153,7 +156,7 @@
 	\begin{equation} % Schmelzwärme schmelzen (Q_S = Q_G)
 		Q_\text{S} = -Q_2 (t_2 - t_1).
 	\end{equation} % das gleiche nur ohne Q, weil keine stufe; *-1 weil Energie reingesteckt wird
-	Auch hier ist $Q_2$ wieder der Gl. \ref{eq:Q2} zu entnehmen. 
+	Auch hier ist $Q_2$ wieder der Gl. \ref{eq:Q2} zu entnehmen und die Zeiten wurden ggf. extrapoliert.
 	Dies führt zu einem Ergebnis der Schmelzwärme von ebenfalls $Q_\text{S} = \SI{215.8+-1.2}{\joule\per\gram}$.
 	Letztlich sollte für diese Messung noch die spezifische Wärme von Eis bestimmt werden.
 	Diese ergibt sich aus:
