@@ -64,19 +64,15 @@
 	
 	Zur Bestimmung der Reibungsarbeit wurde zunächst der Zylinderkopf des Stirling-Motors abgenommen und die Temperatur $T_{Abfluss,0} = \SI{24,5+-0,03}{\celsius}$ des Kühlwassers an diesem gemessen.
 	Dann  wurde der Motor als Wärmepumpe in Betrieb genommen.
-<<<<<<< HEAD
+
 	Ab dem Punkt, an dem die Temperatur des Kühlwassers sich nicht mehr änderte, bei $T_{Abfluss} = \SI{25,0+-0,03}{\celsius}$, wurde der Volumendurchfluss an dem Kühlwasserreservoir gemessen.
 	Daraus ergab sich eine Zeit $t_{MZ} = \SI{11,47+-0,003}{\second}$ für $V_{MZ} = \SI{50+-0,2}{\milli\liter}$ (MZ steht für Messzylinder).	
-	Der Volumendurchfluss ergibt sich aus:
-=======
-	Ab dem Punkt, an dem die Temperatur des Kühlwassers sich nicht mehr änderte, bei $T_{max} = \SI{25,0+-0,03}{\celsius}$, wurde der Volumendurchfluss an dem Kühlwasserreservoir gemessen.
-	Daraus ergab sich eine Zeit $t_{MB} = \SI{11,47+-0,003}{\second}$ für $V_{MB} = \SI{50+-0,2}{\milli\liter}$.
 	Der Massendurchfluss ergibt sich aus:
->>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
 	\begin{equation} % massenstrom des Kühlwassers [masse pro zeit]
 		\dot{M} = \rho \frac{V_\text{MB}}{t_\text{MB}}.
 	\end{equation} % rho ist dichte, V ist volumen des Messbechers, t ist Füllzeit des volumens
 	Dabei ist $\rho$ die Dichte des Wassers.
+	
 	Allgemein gilt für das System:
 	\begin{equation} \label{eq:W}% absolute Leistung der Maschine, ist dW < 0 so wird Energie aufgenommen, ist dW > 0 so wird Energie abgegeben/Arbeit von der Maschine geleistet; da wir hier Wärmepumpe/Kältemaschine haben ist dW < 0 und der Motor gibt Energie in das System ein
 		\dot{W} = \dot{Q}_1 - \dot{Q}_2 + \dot{W}_\text{R},
@@ -115,8 +111,8 @@
 		\includegraphics[width=\textwidth]{data/kalt_sprung.pdf}
 		\caption{Genauere Darstellung des Sprungs in der Temperaturkurve der Kältemaschine.}
 		\label{fig:KaltSprung}	
-	\end{figure} 
-<<<<<<< HEAD
+	\end{figure}
+
 	Auffällig daran ist der schlagartige Anstieg bzw. Sprung von ca. \SI{-8}{\celsius} auf ungefähr \SI{0}{\celsius} und der darauf folgende konstante Bereich, bis die Temperatur wieder anfängt zu sinken.
 	Der Sprung wird in Abbildung \ref{fig:KaltSprung} deutlicher dargestellt.
 	Nachdem eine Temperatur  von ca. \SI{-26,7}{\celsius} erreicht wurde, wurde zudem eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{26,6+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,3+-0,03}{\celsius}$ durchgeführt.
@@ -138,15 +134,7 @@
 	\end{equation} % Q_2 (4), W (5)
 	Dabei sind $Q_2$ und W den Gleichungen \ref{eq:Q2} und \ref{eq:W} zu entnehmen.
 	Aus dieser Messung folgt $\varepsilon = 0,0233\pm 0,0015$ für die Kühlleistung.
-		
-=======
-	Auffällig daran ist der schlagartige Anstieg von ca. \SI{-8}{\celsius} auf ungefähr \SI{0}{\celsius} und der darauf folgende konstante Bereich, bis die Temperatur wieder anfängt zu sinken.
-	Dieser Sprung wird in Abbildung \ref{fig:KaltSprung} deutlicher dargestellt.
-	Nachdem eine Temperatur von ca. \SI{-26,7}{\celsius} erreicht wurde, wurde zudem eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{26,6+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,3+-0,03}{\celsius}$ durchgeführt.
-	Die Schmelzwärme des Wassers lässt sich über ... abschätzen. %TODO Rechenweg ↓ Schmelzwärme
-	Für die Kühlleistung ...%TODO Rechenweg ↓ Leistung
 	
->>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\textwidth]{data/warm_machen.pdf}
@@ -154,15 +142,9 @@
 		\label{fig:Wärmepumpe}	
 	\end{figure}
 	Analog zur Kältemaschine verlief die Untersuchung der Wärmepumpe. 
-<<<<<<< HEAD
 	Die Temperaturkurve des Wassers bei diesem Vorgang ist in Abb. \ref{fig:Wärmepumpe} aufgetragen.
 	Diese verzeichnet einen der Kältemaschine ähnlichen Verlauf.
-	Hier tritt jedoch kein Sprung auf, wobei die Temperatur jedoch wie zuvor bei ungefähr \SI{0}{\celsius} für einige Zeit konstant bleibt, bevor sie wieder ansteigt.
-=======
-	Die Temperatur des Wassers bei diesem Vorgang ist in Abb. \ref{fig:Wärmepumpe} aufgetragen.
-	Bei dieser Kurve wurde ein ähnlicher Verlauf verzeichnet.
-	Hier tritt jedoch kein Sprung auf, die Temperatur bleibt dennoch  bei ungefähr \SI{0}{\celsius} für einige Zeit konstant, bevor sie wieder ansteigt.
->>>>>>> f6c324de111802f641739e958ee7a2cb2aa1c42c
+	Hier tritt jedoch kein Sprung auf, die Temperatur bleibt dennoch bei ungefähr \SI{0}{\celsius} für einige Zeit konstant, bevor sie wieder ansteigt.
 	Auch hier wurde erneut eine Messung der Temperatur des abfließenden Kühlwassers $T_\text{Abfluss} = \SI{25,5+-0,03}{\celsius}$ und der im Reservoir $T_\text{Reservoir} = \SI{25,5+-0,03}{\celsius}$ durchgeführt.
 	Dies geschah bei der Temperatur des Wassers von ca. $T_\text{Probe} = \SI{40,4}{\celsius}$.
 	Die Berechnung der Heizleistung aus dieser Kurve verlief analog zu der bei der Kältemaschine vgl. Gl. \ref{eq:eps}.
