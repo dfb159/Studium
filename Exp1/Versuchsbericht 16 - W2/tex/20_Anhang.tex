@@ -1,0 +1,22 @@
+\subsection{Unsicherheitsrechnung}\label{VGuD}
+
+\begin{figure}[h]
+	\begin{equation*}
+		x = \sum_{i=1}^{N} x_i
+		;\quad
+		u(x) = \sqrt{\sum_{i = 1}^{N} u(x_i)^2}
+	\end{equation*}
+	\caption{Formel für kombinierte Unsicherheiten des selben Typs nach GUM.}
+	\label{fig:GUM_combine}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{align*}
+		f = f(x_1, \dots , x_N)
+		;\quad
+		u(f) = \sqrt{\sum_{i = 1}^{N}\left(\pdv{f}{x_i} u(x_i)\right) ^2}
+	\end{align*}
+	\caption{Formel für sich fortpflanzende Unsicherheiten nach GUM.}
+	\label{fig:GUM_formula}
+\end{figure}
+
