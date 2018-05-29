@@ -3,14 +3,33 @@
 Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet.
 Die Gleichungen dazu finden sich in \ref{fig:GUM_combine} und \ref{fig:GUM_formula}.
 Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
+Alle konkreten Unsicherheitsformeln stehen weiter unten.
+Für Unsicherheiten in graphischen Fits wurden die $y$-Unsicherheiten beachtet und die Methode der kleinsten Quadrate angewandt.
+Dafür steht in der Bibliothek die Methode "scipy.optimize.curve_fit()" zur Verfügung.
 
-Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$.
+
+Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[Abtastrate] g
+	\item[Schieblehre] Die Schieblehre hatte eine angegebene analoge Unsicherheit von $\Delta d = \SI{0.05}{\milli\meter}$.
+	Mit ihr wurde die Dicke der Separationsscheiben und somit die Spaltdicke sowie der Innendurchmesser des Glasröhrchens gemessen.
+		
+	\item[Messstab] Hier konnte der Wert mit einer Genauigkeit von $\Delta h = \SI{1}{\milli\meter}$ analog abgelesen werden.
+	Die Unsicherheit wurde bei der Höhe des Schlitzes über dem Flaschenrand und bei dem Wasserstand im Manometer verwendet.
+	
+	\item[Waage] Die Digitalwaage konnte Gewichte auf $\Delta m = \SI{0.1}{\gramm}$ unterscheiden.
+	Sie wurde zur Bestimmung des Schwingkörpergewichtes benutzt.
+	
+	\item[Barometer] Hier ließen sich Werte analog bis auf $\Delta p = \SI{0.1}{\milli\bar}$ ablesen.
+	Es wurde bei der Messung des statischen Außendrucks benötigt.
+	
+	\item[Glasflasche] Das Volumen der Glasflasche war angegeben.
+	Dabei wurde eine Unsicherheit von $\Delta V = \SI{10}{\centi\meter\cubed}$ angenommen.
+	
+	\item[Stopuhr] Die Unsicherheit der Zeitmessung setzt dich aus der analogen Reaktionszeit mit $\Delta t_\text{R} = \SI{0.1}{\second}$ und der digitalen Anzeigegenauigkeit von $\Delta t_\text{Uhr} = \SI{0.01}{\second}$ nach \ref{unc:time} zusammen.
+		
 \end{description}
 
-In Diagrammen mit vielen Messpunkten wurden aus Gründen der Übersichtlichkeit nicht für jeden Punkt Unsicherheitsbalken gezeichnet.
 \begin{figure}[h]
 	\begin{equation*}
 		x = \sum_{i=1}^{N} x_i
@@ -31,3 +50,72 @@ In Diagrammen mit vielen Messpunkten wurden aus Gründen der Übersichtlichkeit 
 	\label{fig:GUM_formula}
 \end{figure}
 
+\begin{figure}[h]
+	\begin{equation*}
+		u(t) = \sqrt{u^2(t_\text{R}) + u^2(t_\text{Uhr})}
+	\end{equation*}
+	\caption{Formel für Zeitmessungen nach \ref{fig:GUM_combine}.} 
+	% sonst: \caption{Formel für Zeitmessungen nach GUM mit Unsicherheiten desselben Typs.}
+	\label{unc:time}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{align*}
+		A = \frac{\pi}{4} d^2
+		;\quad
+		u(A) = \frac{\pi}{2} d u(d)
+		}
+	\end{align*}
+	\caption{Formel für die Fehlerfortpflanzung der Querschnittsfläche des Glasrohrs.}
+	\label{unc:querschnitt}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{align*}
+		p_0 = p_{L} + \frac{m g}{A}
+		;\quad
+		u(p_0) = \sqrt{u^2(p_\text{L}) + \left( \frac{g u(m)}{A}\right)^2 + \left( \frac{m g u(A)}{A^2}\right)^2}
+	}
+	\end{align*}
+	\caption{Fehlerfortpflanzung bei der Dichtekombination..}
+	\label{unc:dichte}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{align*}
+		V_0 = V_\text{F} + A \Delta x
+		;\quad
+		u(V_0) = \sqrt{u^2(V_\text{L}) + u^2(A) (\Delta x)^2 + A^2 u^2(\Delta x)}
+	}
+	\end{align*}
+	\caption{Formel für die Fehlerfortpflanzung des Volumens der Glasflasche. $\Delta x$ ist die Höhe des Schlitzes über dem Flaschenhalz.}
+	\label{unc:volumen}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{align*}
+		\kappa = \frac{4 \pi^2 m V}{p_0 A^2 T^2} \\
+		u(\kappa) = 4 \pi^2 \sqrt{
+			\left( \frac{V}{p_0 A^2 T^2} u(m) \right)^2 + 
+			\left( \frac{m}{p_0 A^2 T^2} u(V) \right)^2 + 
+			\left( \frac{-m V}{p_0^2 A^2 T^2} u(p_0) \right)^2 + 
+			\left( \frac{ -2 m V}{p_0 A^3 T^2} u(A) )^2 + 
+			\left( \frac{ -2 m V}{p_0 A^2 T^3} u(T)\right)^2 
+		}
+	\end{align*}
+	\caption{Formel für die Fehlerfortpflanzung bei der Bestimmung von $\kappa$ nach Rückhardt-Flammersfeld.}
+	\label{unc:schwingung}
+\end{figure}
+
+
+\begin{figure}[h]
+	\begin{align*}
+		\kappa = \frac{h_1}{h_1 - h_3} \\
+		u(\kappa) = \sqrt{
+			\left( -\frac{h_3 u(h_1)}{(h_1 - h_3)^2} \right)^2 + 
+			\left( \frac{h_1 u(h_3)}{(h_1 - h_3)^2} \right)^2
+		} = \frac{1}{(h_1 - h_3)^2} \sqrt{h_3^2 u^2(h_1) + h_1^2 u^2(h_3)}
+	\end{align*}
+	\caption{Formel für die Fehlerfortpflanzung bei der Bestimmung von $\kappa$ nach Clément-Desormes.}
+	\label{unc:pumpe}
+\end{figure}
