@@ -1,5 +1,16 @@
-\subsection{Unsicherheitsrechnung}\label{VGuD}
+\subsection{Unsicherheiten}\label{VGuD}
 
+Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet.
+Die Gleichungen dazu finden sich in \ref{fig:GUM_combine} und \ref{fig:GUM_formula}.
+Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
+
+Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{\sqrt{6}}$.
+
+\begin{description}
+	\item[Abtastrate] g
+\end{description}
+
+In Diagrammen mit vielen Messpunkten wurden aus Gründen der Übersichtlichkeit nicht für jeden Punkt Unsicherheitsbalken gezeichnet.
 \begin{figure}[h]
 	\begin{equation*}
 		x = \sum_{i=1}^{N} x_i

@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Kurzfassung}{1}{section.1}
+\contentsline {section}{\numberline {2}Bestimmung von $\kappa $ nach R\IeC {\"u}chardt-Flammersfeld}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Methoden}{1}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Aufbau}{1}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Funktionsweise}{2}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Datenanalyse}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Diskussion}{4}{subsection.2.4}
+\contentsline {section}{\numberline {3}Bestimmung von $\kappa $ nach Cl\IeC {\'e}ment-Desormes}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Methoden}{6}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Aufbau}{6}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Funktionsweise}{6}{subsubsection.3.1.2}
+\contentsline {subsection}{\numberline {3.2}Durchf\IeC {\"u}hrung}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Datenanalyse}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Diskussion}{8}{subsection.3.4}
+\contentsline {section}{\numberline {4}Schlussfolgerung}{9}{section.4}
+\contentsline {section}{\numberline {5}Anhang}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Unsicherheiten}{10}{subsection.5.1}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.8}
