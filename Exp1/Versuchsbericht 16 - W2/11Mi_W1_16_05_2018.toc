@@ -6,8 +6,8 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Aufbau}{1}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Funktionsweise}{2}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{3}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Datenanalyse}{3}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Diskussion}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.3}Datenanalyse}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Diskussion}{5}{subsection.2.4}
 \contentsline {section}{\numberline {3}Bestimmung von $\kappa $ nach Cl\IeC {\'e}ment-Desormes}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Methoden}{6}{subsection.3.1}
 \contentsline {subsubsection}{\numberline {3.1.1}Aufbau}{6}{subsubsection.3.1.1}
@@ -18,4 +18,4 @@
 \contentsline {section}{\numberline {4}Schlussfolgerung}{9}{section.4}
 \contentsline {section}{\numberline {5}Anhang}{10}{section.5}
 \contentsline {subsection}{\numberline {5.1}Unsicherheiten}{10}{subsection.5.1}
-\contentsline {section}{\nonumberline Literatur}{11}{section*.8}
+\contentsline {section}{\nonumberline Literatur}{13}{section*.14}

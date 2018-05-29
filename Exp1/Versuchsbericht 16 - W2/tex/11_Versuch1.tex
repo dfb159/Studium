@@ -9,7 +9,7 @@
 			\begin{figure}[ht]
 				\centering
 				\includegraphics[width=0.8\textwidth]{bilder/aufbau_v1.png}
-				\caption{.\cite{WWU}} %TODO caption
+				\caption{Aufbau zur Bestimmung von $\kappa$ nach Rüchardt-Flammersfeld.\cite{WWU}}
 				\label{fig:AufbauV1}	
 			\end{figure}
 			Der Versuchsaufbau ist in Abbildung \ref{fig:AufbauV1} graphisch dargestellt.
@@ -49,14 +49,14 @@
 			
 	\subsection{Durchführung}
 		
-		Zur Bestimmung des Adiabatenkoeffizienten $\kappa$ für die Gase/Gasverbindungen Luft, Argon und Kohlenstoffdioxid wurden die Schwingungsdauern $T$ für 100 Schwingungen pro Gas, bei Spaltbreiten von \SIrange{0,5}{3}{\milli\meter} in Abständen von \SI{0,5}{\milli\meter}, verzeichnet. % TODO Unsicherheiten
+		Zur Bestimmung des Adiabatenkoeffizienten $\kappa$ für die Gase/Gasverbindungen Luft, Argon und Kohlenstoffdioxid wurden die Schwingungsdauern $T$ für 100 Schwingungen pro Gas, bei Spaltbreiten von \SIrange{0,5}{3}{\milli\meter} in Abständen von \SI{0,5}{\milli\meter}, verzeichnet. 
 		Da die Schwingungen auch bei schwacher Gaszufuhr schnell verliefen, lag die Schwierigkeit an diesem Versuch daran, die Zeit bei der verwendeten Stoppuhr nach genau 100 Schwingungen zu stoppen.
 		Der Gasstrom wurde so gewählt, dass die Schwingung symmetrisch zu dem Schlitz erfolgte.
 		Nach jeder Messung wurden Rohr und Schwingkörper durch Putzen von störenden elektrischen Aufladungen befreit.
 		
-		Das Gewicht des Schwingkörpers wurde mit einer Waage auf $m = \SI{7,1}{\gram}$ bestimmt. % TODO Unsicherheit
-		Der Luftdruck $P_L$ befand sich während des Versuches bei $P_L = \SI{1008,7}{\milli\bar}$. % TODO Unsicherheit
-		Und für die Querschnittsfläche wurde über den Durchmesser von \SI{15,9}{\milli\meter} des Flaschenhalses eine Fläche von $A = \SI{}{\milli\meter^2}$ bestimmt. % TODO Wert A, Unsicherheit
+		Das Gewicht des Schwingkörpers wurde mit einer Waage auf $m = \SI{7,1+-0,03}{\gram}$ bestimmt. 
+		Der Luftdruck $P_L$ befand sich während des Versuches bei $P_L = \SI{1008,7+-0,1}{\milli\bar}$.
+		Und für die Querschnittsfläche wurde über den gemessenen Durchmesser des Flaschenhalses eine Fläche von $A = \SI{1,986+-0,005}{\centi\meter^2}$ bestimmt.
 		Das Volumen der Flasche war auf dieser angegeben: $V_\text{Flasche} = \SI{5450}{\centi\meter^3}$ und das des Rohres entspricht obigem $\Delta V$.
 		$V_0$ ergibt sich aus der Summe der beiden Volumina.
 		
@@ -66,45 +66,42 @@
 		Da diese sich für verschiedene Größen des Schlitzes bei gleichem Gas jedoch nur minimal voneinander unterscheiden und keine Proportionalität zu erkennen ist (vgl. Abb. \ref{fig:T/d}), sind nur die Mittelewerte in Tabelle \ref{tab:Werte1} aufgeführt.
 		\begin{figure}[ht]
 			\centering
-			\includegraphics[width=0.8\textwidth]{bilder/aufbau_v1.png}
-			\caption{.\cite{WWU}}
+			\includegraphics[width=0.8\textwidth]{data/linearisierungen.pdf}
+			\caption{Graphische Darstellung der Schwingungsdauern für verschiedene Spaltbreiten.}
 			\label{fig:T/d}	
 		\end{figure}
 		In dieser Tabelle sind zudem die aus Gleichung \ref{eq:kappav1} berechneten Adiabatenexponenten $\kappa$ für die jeweiligen Gase eingetragen.
-		Da $\kappa$ gerade dem Verhältnis von spezifischer isobaren und spezifischer isochoren Wärmekapazität $c_p/c_V$ entspricht und diese in molarer Größe in direkter Verbindung mit dem Freiheitsgrad der Gase stehen folgt:
-		\begin{equation} \label{eq:Freiheit}
-		\kappa = \frac{c_p}{c_V} = \frac{f+2}{f}.
-		\end{equation}
-		Hierbei entspricht $f$ dem Freiheitsgrad des Gases.
-		Aus Umformung lässt sich der Freiheitsgrad $f$ in Abhängigkeit von $\kappa$ bestimmen.
-		Auch diese sind für die verschiedenen Gase in Tab. \ref{tab:Werte1} verzeichnet.
 		\begin{table}
-			\caption{In dieser Tabelle sind die Mittelwerte für die Schwingungsdauern $\bar{T}$ bei den verschiedenen verwendeten Gasen verzeichnet, sowie die zugehörigen Werte für die Adiabatenexponenten $\kappa$ und den daraus folgenden Freiheitsgraden}
+			\caption{In dieser Tabelle sind die Mittelwerte für die Schwingungsdauern $\bar{T}$ bei den verschiedenen verwendeten Gasen verzeichnet, sowie die zugehörigen Werte für die Adiabatenexponenten $\kappa$}
 			\label{tab:Werte1}
 			\centering
 			\begin{tabular}{c|c|c|c}					
 				& Luft & Argon & Kohlenstoffdioxid\\
 				\hline
 				&&&\\ % Weil sonst der Mittelwertsbalken exakt auf der hline liegt
-				$\bar{T}$ & & & \\ %TODO Werte
-				$\kappa$ & & & \\ %TODO Werte
-				$f$ & & & \\ %TODO Werte
+				$\bar{T}$ & \SI{52,73+-0,18}{\second} & \SI{49,28+-0,09}{\second} & \SI{55,45+-0,15}{\second} \\
+				$\kappa$ & $1,426\pm 0,017$ & $1,633\pm 0,017$ & $1,289\pm 0,014$\\
 			\end{tabular}
 		\end{table} 
+		Da $\kappa$ gerade dem Verhältnis von spezifischer isobaren und spezifischer isochoren Wärmekapazität $c_p/c_V$ entspricht und diese in molarer Größe in direkter Verbindung mit dem Freiheitsgrad der Gase stehen folgt:
+		\begin{equation} \label{eq:Freiheit}
+			\kappa = \frac{c_p}{c_V} = \frac{f+2}{f}.
+		\end{equation}
+		Hierbei entspricht $f$ dem Freiheitsgrad des Gases.
+		Die Betrachtung der Unsicherheiten erfolgt vollständig im Anhang.
 		
 	\subsection{Diskussion}
 	
 		Nun stellt sich die Frage, ob die Ziele der Untersuchung erreicht wurden.
-		Dazu wird zunächst betrachtet, ob die ermittelten Freiheitsgrade sinngemäß sind.
+		Dazu werden aus den Freiheitsgraden für die verschiedenen Gase die entsprechenden Adiabatenexponenten bestimmt.
 		Für das einatomige Argon gehen nur die Freiheitsgrade der Translation, also drei ein.
-		Berechnet wurden % TODO Wert, Erklärung
-		Bei Luft, welches im Wesentlichen aus den zweiatomigen Molekülen $N_2$ und $O_2$ besteht gehen auch zwei zusätzliche Freiheitsgrade der Rotation ein. 
-		Da hier jedoch auch bis zu zwei weitere über Schwingung möglich wären, ist zu erwarten, dass der berechnete Wert zwischen fünf und sieben Freiheitsgrade besitzt.
-		Dies ist % TODO Wert, Erklärung
-		Für das dreiatomige Kohlenstoffdioxid verläuft die Betrachtung ähnlich, hier sind jedoch mehr Freiheitsgrade über Schwingungen möglich.
-		Zu erwarten wären hier für das (nicht) gestreckte $CO_2$ fünf bis dreizehn / sechs bis zwölf Freiheitsgrade.
-		Mit % TODO Wert, Erklärung
-		Da die Ergebnisse in Abhängigkeit von $\kappa$ berechnet wurden, ist eine mögliche Fehlerquelle ein falsch bestimmter Adiabatenexponent.
-		Für die verschiedenen Gase finden sich folgende Literaturwerte: % TODO Werte
-		Verglichen mit den Berechneten, liegen Abweichungen von % TODO Werte, Erklärung
-		Dies zeigt, dass die Ziele der Untersuchung % TODO (nicht) erreicht wurden
+		Zu erwarten wäre nach Gleichung \ref{eq:Freiheit} also ein $\kappa = 5/3 \approx 1,67$.
+		Der berechnete Wert von $1,633\pm 0,017$ weicht also nur um 2,02\% von der Erwartung ab.
+		Der Erwartungswert liegt zwar nicht innerhalb der Unsicherheiten, ist mit der geringen Abweichung jedoch noch sehr nah an dem berechneten Wert.
+		Bei Luft, welches im Wesentlichen aus den zweiatomigen Molekülen $N_2$ und $O_2$ besteht gehen zudem zwei zusätzliche Freiheitsgrade der Rotation ein. 
+		Hierfür folgt aus der Gleichung mit $f = 5$ also, dass $\kappa = 7/5 \approx 1,4$ sein sollte.
+		Mit $1,426\pm 0,017$ weicht dieser Wert nur um 1,86\% von dem Erwartungswert ab, welcher bei diesem Wert noch näher als bei dem Argon liegt und in der doppelten Unsicherheit liegt.
+		Für das dreiatomige und nicht gestreckte Kohlenstoffdioxid verläuft die Betrachtung ähnlich, hier ist der Freiheitsgrad $f = 6$ und der Erwartungswert für $\kappa = 8/6 \approx 1,33$.
+		Bei diesem Erwartungswert weichen die berechneten $1,289\pm 0,014$ um 3,32\% ab.
+		Diese Abweichung liegt zumindest unter 5\% und ist somit ebenfalls nicht weit entfernt.
+		Somit sind alle ermittelten Adiabatenexponenten $\kappa$ nah an den Erwartungen und die Ergebnisse dieses Teilversuches genügen den Zielen der Untersuchung.

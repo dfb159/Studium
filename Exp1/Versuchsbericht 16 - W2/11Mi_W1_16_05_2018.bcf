@@ -1928,8 +1928,6 @@
     <bcf:citekey order="2">WWU</bcf:citekey>
     <bcf:citekey order="3">WWU</bcf:citekey>
     <bcf:citekey order="4">WWU</bcf:citekey>
-    <bcf:citekey order="5">WWU</bcf:citekey>
-    <bcf:citekey order="6">WWU</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
