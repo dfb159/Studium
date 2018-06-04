@@ -10,10 +10,16 @@ Dafür steht in der Bibliothek die Methode "scipy.optimize.curve\_fit()" zur Ver
 Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[TODO] 
+	\item[Bodenlinien] Auf der magnetischen Unterlage sind zum genauen platzieren und ausrichten der Komponenten Gitterlinien aufgetragen.
+	Diese hatten einen regelmäßigen Abstand und eine analoge Unsicherheit von $\Delta h = \SI{2}{\centi\meter}$.
+	
+	\item[Messleiste] Die Messleiste wurde senkrecht zum vom Laser ausgesendeten Lichtstrahls ausgerichtet.
+	Es konnten Werte analog auf $\Delta x = \SI{0.1}{\milli\meter}$ genau abgelesen werden.
+	
+	\item[Grad] Auf der Gradskala des Wasserbeckens konnten Winkel auf $\Delta \varphi = \SI{1}{\degree}$ abgelesen werden.
 \end{description}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\begin{equation*}
 		x = \sum_{i=1}^{N} x_i
 		;\quad
@@ -23,7 +29,7 @@ Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqr
 	\label{fig:GUM_combine}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
 	\begin{align*}
 		f = f(x_1, \dots , x_N)
 		;\quad
@@ -33,3 +39,40 @@ Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqr
 	\label{fig:GUM_formula}
 \end{figure}
 
+\begin{figure}[ht]
+	\begin{align*}
+		\tan \delta_m &= \frac{h}{x} \Leftrightarrow \delta_m = \arctan \frac{h}{x}\\
+		u(\delta_m) &= \frac{1}{1 + \frac{h^2}{x^2}} \frac{h}{x} 
+		\sqrt{\frac{u^2(h)}{h^2} + \frac{u^2(x)}{4x^2}}
+	\end{align*}
+	\caption{Unsicherheitsformel des Ablenkwinkels nach dem Prisma.}
+	\label{unc:winkel}
+\end{figure}
+
+\begin{figure}[ht]
+	\begin{align*}
+		n &= \frac{\sin[(\delta_m + \alpha) / 2]}{\sin [\alpha / 2]}\\
+		u(n) &= \frac{\cos[(\delta_m + \alpha) / 2]}{\sin[\alpha / 2]} \frac{u(\delta_m)}{2}
+	\end{align*}
+	\caption{Unsicherheitsformel des Brechungsindexes von dem Prisma (Flintglas).}
+	\label{unc:prisma}
+\end{figure}
+
+\begin{figure}[ht]
+	\begin{align*}
+		n_1 \sin \alpha_1 = n_2 \sin \alpha_2 \Leftrightarrow n_2 &= n_1 \frac{\sin \alpha_1}{\alpha_2}\\
+		u(n_2) &= n_1 \frac{\sin \alpha_1}{\sin \alpha_2} \sqrt{\cot^2 \alpha_1 + \cot^2 \alpha_2} u(\alpha)\\
+		&= n_2 \cdot \sqrt{\cot^2 \alpha_1 + \cot^2 \alpha_2} u(\alpha)
+	\end{align*}
+	\caption{Unsicherheitsformel für den Brechungsindex von destiliertem Wasser nach Snellius. $n_1$ ist dabei der Brechungsindex von Luft $n_1 = n_\text{L} \approx 1$. Beide Winkel haben die gleiche Unsicherheit $u(\alpha_1) = u(\alpha_2) = u(\alpha)$.}
+	\label{unc:gitter}
+\end{figure}
+
+\begin{figure}[ht]
+	\begin{align*}
+		f_\text{konkav} &= f_\text{konvex} - \Delta h\\
+		u(f_\text{konkav}) &= \sqrt{2} u(h)
+	\end{align*}
+	\caption{Unsicherheitsformel für die Brennweite der konkaven Linse.\\ Dabei ist $u(f_\text{konkav}) = u(Delta h) = u(h)$.}
+	\label{unc:differenz}
+\end{figure}
