@@ -1,0 +1,83 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{WWU}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
+           family={Münster},
+           familyi={M\bibinitperiod},
+           given={WWU},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{fullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{bibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorbibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authornamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorfullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{01 - Geometrische Optik}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=19
+      \endverb
+      \verb{url}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=19
+      \endverb
+    \endentry
+    \entry{Refrac}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca04976d6a18169ba65f08080d2f6d82}{%
+           family={RefractiveDatabase.INFO},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{fullhash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{bibnamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authorbibnamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authornamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authorfullhash}{ca04976d6a18169ba65f08080d2f6d82}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Refracted Index Database}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refractiveindex.info/?shelf=main&book=H2O&page=Hale
+      \endverb
+      \verb{url}
+      \verb https://refractiveindex.info/?shelf=main&book=H2O&page=Hale
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
