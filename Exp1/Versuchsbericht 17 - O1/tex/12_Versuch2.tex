@@ -9,14 +9,14 @@
 			 	\label{fig:Aufbau2}	
 			\end{figure}
 			Abbildung \ref{fig:Aufbau2} zeigt die für diesen Versuch verwendeten Materialien.
-			Alle dieser befinden sich auf einer magnetischen Unterlage, sodass diese nicht einfach während der Messung verrutschen können.
+			Alle diese befinden sich auf einer magnetischen Unterlage, sodass diese während der Messung nicht verrutschen können.
 			Zu den Materialien gehören ein roter Laser ($\lambda = \SI{650}{\nano\meter}$), ein blauer Laser ($\lambda = \SI{405}{\nano\meter}$) und eine Lochblende zur Ausrichtung eines geraden Strahlengangs, welcher parallel zu dem Raster auf der magnetischen Unterlage verlaufen soll.
-			Für beide Laser soll dieser durch das Prisma und das Gitter verlaufen und für einen einzelnen durch die Linsen.
+			Für beide Laser soll dieser durch das Prisma und das Gitter verlaufen und für einen einzelnen durch die Linsen. % TODO ist das nicht eher durchführung (1)
 			
-			Das Prisma besteht aus Flintglas und besitzt von vorne betrachtet die Form eines gleichseitigen Dreiecks ($\alpha = \SI{60}{\degree}$).
-			Die Strahlen der beiden Laser sollen so gerichtet werden, dass sie durch den Apex des Prismas verlaufen.
+			Das Prisma besteht aus Flintglas und besitzt von oben betrachtet die Form eines gleichseitigen Dreiecks ($\alpha = \SI{60}{\degree}$).
+			Die Strahlen der beiden Laser sollen so gerichtet werden, dass sie durch den Apex des Prismas verlaufen. %TODO [1]
 			Als Schirm zur Messung der Ablenkung dient die horizontal ausgerichtete Messleiste.
-			Zu beobachten ist die Änderung der Ablenkung bei dem Drehen des Prismas.
+			Zu beobachten ist die Änderung der Ablenkung bei dem Drehen des Prismas. %TODO beobachtung [1]
 			Bei symmetrischem Strahlengang ist die Ablenkung minimal.
 			Aus Abstand zur Messleiste $h$ und Ablenkung $x$ von der Nulllage (keine Ablenkung) lässt sich über
 			\begin{equation} \label{eq:Winkler}
@@ -32,8 +32,9 @@
 			Zur Veranschaulichung dient Abb. \ref{fig:Prisma}.
 			Für den symmetrischen Durchgang des Lichtstrahls durch das Prisma entfällt das $\vartheta$ in der Skizze und  es lässt sich für den Brechungsindex $n_\text{Prisma}$ des Prismas folgendes aufstellen:
 			\begin{equation} \label{eq:nPrisma}
-				n = \frac{\sin[(\delta_m + \alpha) / 2]}{\sin [\alpha / 2]}.
+				n = \frac{\sin[(\delta_m + \alpha) / 2]}{\sin [\alpha / 2]},
 			\end{equation} 
+			wobei $\delta_m$ der Austrittswinkel nach dem Prisma ist.
 			
 			Das Gitter ist an einem offenen flachen Halbzylinder bzw. einer Halbkreisküvette angebracht, sodass die Ablenkung des Strahlengangs auf dem Gradmaß zu messen ist, welches auf der Innenseite dieser Küvette angebracht ist.
 			Da diese offen ist, lässt sie sich mit einem anderem Material, hier destilliertes Wasser, füllen und daher eine andere Ablenkung des Strahls auf dem Gradmaß messen.
@@ -46,7 +47,9 @@
 			Danach sollen die Linsen so kombiniert werden, dass der Strahl vergrößert wird und dabei noch kollimiert ist.
 			Hierfür ist der richtige Abstand zwischen den Linsen relevant.
 			Aus diesem und der Brennweite der Sammellinse lässt sich die Brennweite der Streulinse einfach dadurch ermitteln, dass beide Brennpunkte aufeinander liegen müssen.  
-			Zuletzt soll noch betrachtet werden wie sich der Strahlengang bei Drehung und Verkippung der Sammellinse verhält, wenn der Strahl mit einer Strahlenaufweitung aufgeweitet wird.
+			Zuletzt soll noch betrachtet werden wie sich der Strahlengang bei Verschiebung und Verkippung der Sammellinse verhält, diese also nicht ideal positioniert ist.
+			Dazu wird der Strahl mit einer Strahlenaufweitung aufgeweitet um ein Flächenbild als Referenz zu haben und so den Strahlenverlauf direkt beschreiben zu können.
+			Die Strahlenaufweitung wird zunächst so eingestellt, dass der Laserstrahl nach dieser kollimiert ist.
 			
 	\subsection{Durchführung}
 		
@@ -58,16 +61,27 @@
 		Bei dem blauen Laser mit gleichem $h$ war dies bei $x = \SI{12,2+-0,03}{\centi\meter}$ der Fall. 
 		
 		Für den roten Laser bei dem Gitter ergab sich eine Ablenkung von \SI{24+-0,29}{\degree} ohne destilliertem Wasser in der Küvette und \SI{15+-0,29}{\degree} mit.
-		Hingegen bei dem blauen Laser \SI{18+-0,29}{\degree} ohne und \SI{11+-0,29}{\degree} mit.
+		Hingegen bei dem blauen Laser \SI{18+-0,29}{\degree} ohne und \SI{11+-0,29}{\degree} mit Wasserfüllung.
 		
 		Da für die Linsen nur einer der Laser verwendet werden sollte, wurde dafür der rote gewählt, da dessen Lichtpunkt auf einem Schirm schärfer zu erkennen war.
 		Die beiden Linsen ließen sich schnell anhand ihres Strahlengangs erkennen.
-		Bei der größeren handelt es sich um eine Sammel- und bei der kleineren um eine Streulinse.
+		Hält man ein Stück Papier hinter die Linse in den Strahl, so kann dieser sichtbar gemacht werden.
+		Bei der größeren Linse handelt es sich um eine Sammellinse.
+		Der Strahl verjüngt sich zunächst, bevor er nach dem Brennpunkt wieder auseinanderläuft.
+		Bei der kleineren Linse handelt es sich um eine Streulinse, bei welcher der Strahlengang bereits direkt hinter der Linse divergiert. %TODO ist in Ordnung so?
 		Der Brennpunkt der Sammellinse ließ sich bei ca. $f_\text{konvex} = \SI{12+-0,4}{\centi\meter}$ ausmachen.
 		Zur Aufweitung des Strahls wurde zuerst die Streulinse vor den Laser gesetzt und der Abstand zur Sammellinse dahinter gesucht, für den der aufgeweitete Laser kollimiert war.
 		Dies war bei einem Abstand von ungefähr \SI{5+-0,58}{\centi\meter} der Fall.
-		Nach dem Aufsetzen der Strahlenaufweitung ließ sich erkennen, dass der beobachtete Punkt auf dem Schirm, bei nur einer Sammellinse in dem Strahlengang, statt kreis- ellipsenförmig wurde und der Brennpunkt der Linse näher an diese rückte.
-		Bei der Verkippung der Linse um ca. \SI{45}{\degree} war zusätzlich %TODO Joey Linien keine Ahnung wie erklären,zu erkennen
+		
+		Nachdem die Strahlenaufweitung angebracht war, zeigte sich hinter der Sammellinse wie gewohnt der Brennpunkt.
+		Bei der Verschiebung der Linse läuft der Laserstrahl nun jedoch nicht mehr in der Mitte durch diese.
+		Der Brennpunkt verschiebt sich ein wenig in Richtung der Linse und auf dem Schirm zeigt sich ein elliptisches Bild des Strahls.
+		Nun wurde die Linse um ca. \SI{45}{\degree} vertikal verkippt, also aus dem Strahl gedreht.
+		Direkt hinter der Linse bleibt der Laser scheinbar rund.
+		Kurz danach jedoch fällt er in einer Achse zusammen und bildet ca. \SI{6}{\centi\meter} hinter der Linse einen vertikalen, also zur Verkippung parallelen, Strich.
+		Nach ca. \SI{8{\centi\meter} fällt auch die andere Achse zusammen und bildet einen horizontalen, zur Verkippung senkrechten Strich.
+		Bei größeren Abständen von der Linse ist wieder eine elliptische Verzerrung zur Kipprichtung hin zu erkennen.
+		Allerdings bleibt diesmal das Bild annähernd mittig und öffnet sich bei zunehmender Verkippung zu dieser Seite hin.
 		
 	\subsection{Datenanalyse}
 		
@@ -83,6 +97,9 @@
 		
 		Die Brennweite der Streulinse bestimmt sich über die Differenz der Brennweite der Sammellinse mit dem Abstand zwischen den beiden Linsen.
 		Dies ergibt $f_\text{konkav} = \SI{7+-0,6}{\centi\meter}$ für die Brennweite der Streulinse.
+		
+		Bei Verschiebung der Sammellinse treten sphärische Abberationen auf, welche das Bild verzerren.
+		Bei einer Verkippung dieser tritt hingegen Astigmatismus auf.
 		
 	\subsection{Diskussion}
 		
