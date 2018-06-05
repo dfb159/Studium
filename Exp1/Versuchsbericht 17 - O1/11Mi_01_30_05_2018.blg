@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.10
 [0] Config.pm:305> INFO - Logfile is '11Mi_01_30_05_2018.blg'
-[26] biber-MSWIN64:313> INFO - === 
-[46] Biber.pm:371> INFO - Reading '11Mi_01_30_05_2018.bcf'
-[120] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
-[131] Biber.pm:3976> INFO - Processing section 0
-[143] Biber.pm:4136> INFO - Looking for bibtex format file 'res/literatur.bib' for section 0
-[145] bibtex.pm:1490> INFO - LaTeX decoding ...
-[150] bibtex.pm:1306> INFO - Found BibTeX data source 'res/literatur.bib'
-[162] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[162] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[162] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[162] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[168] bbl.pm:617> INFO - Writing '11Mi_01_30_05_2018.bbl' with encoding 'UTF-8'
-[168] bbl.pm:720> INFO - Output to 11Mi_01_30_05_2018.bbl
+[29] biber-MSWIN64:313> INFO - === 
+[50] Biber.pm:371> INFO - Reading '11Mi_01_30_05_2018.bcf'
+[127] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[139] Biber.pm:3976> INFO - Processing section 0
+[151] Biber.pm:4136> INFO - Looking for bibtex format file 'res/literatur.bib' for section 0
+[153] bibtex.pm:1490> INFO - LaTeX decoding ...
+[158] bibtex.pm:1306> INFO - Found BibTeX data source 'res/literatur.bib'
+[170] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[170] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[171] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[171] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[176] bbl.pm:617> INFO - Writing '11Mi_01_30_05_2018.bbl' with encoding 'UTF-8'
+[177] bbl.pm:720> INFO - Output to 11Mi_01_30_05_2018.bbl
