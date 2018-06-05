@@ -3,14 +3,14 @@
 \contentsline {section}{\numberline {1}Kurzfassung}{1}{section.1}
 \contentsline {section}{\numberline {2}Demonstrationsversuch}{1}{section.2}
 \contentsline {subsection}{\numberline {2.1}Methoden}{1}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{1}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{2}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Diskussion}{2}{subsection.2.3}
 \contentsline {section}{\numberline {3}Untersuchung optischer Elemente}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Methoden}{4}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Durchf\IeC {\"u}hrung}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Datenanalyse}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Diskussion}{6}{subsection.3.4}
-\contentsline {section}{\numberline {4}Schlussfolgerung}{7}{section.4}
-\contentsline {section}{\numberline {5}Anhang}{8}{section.5}
-\contentsline {subsection}{\numberline {5.1}Unsicherheiten}{8}{subsection.5.1}
-\contentsline {section}{\nonumberline Literatur}{10}{section*.12}
+\contentsline {subsection}{\numberline {3.3}Datenanalyse}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Diskussion}{7}{subsection.3.4}
+\contentsline {section}{\numberline {4}Schlussfolgerung}{9}{section.4}
+\contentsline {section}{\numberline {5}Anhang}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Unsicherheiten}{10}{subsection.5.1}
+\contentsline {section}{\nonumberline Literatur}{12}{section*.12}

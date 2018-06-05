@@ -49,6 +49,34 @@
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=19
       \endverb
     \endentry
+    \entry{Refrac}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca04976d6a18169ba65f08080d2f6d82}{%
+           family={RefractiveDatabase.INFO},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{fullhash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{bibnamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authorbibnamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authornamehash}{ca04976d6a18169ba65f08080d2f6d82}
+      \strng{authorfullhash}{ca04976d6a18169ba65f08080d2f6d82}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Refracted Index Database}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refractiveindex.info/?shelf=main&book=H2O&page=Hale
+      \endverb
+      \verb{url}
+      \verb https://refractiveindex.info/?shelf=main&book=H2O&page=Hale
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

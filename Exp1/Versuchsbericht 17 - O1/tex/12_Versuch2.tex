@@ -19,7 +19,7 @@
 			Zu beobachten ist die Änderung der Ablenkung bei dem Drehen des Prismas.
 			Bei symmetrischem Strahlengang ist die Ablenkung minimal.
 			Aus Abstand zur Messleiste $h$ und Ablenkung $x$ von der Nulllage (keine Ablenkung) lässt sich über
-			\begin{equation}
+			\begin{equation} \label{eq:Winkler}
 				\tan \delta_m = \frac{h}{x} \Leftrightarrow \delta_m = \arctan \frac{h}{x}
 			\end{equation}
 			der minimale Ablenkwinkel $\delta_m$ bestimmen.
@@ -31,7 +31,7 @@
 			\end{figure}
 			Zur Veranschaulichung dient Abb. \ref{fig:Prisma}.
 			Für den symmetrischen Durchgang des Lichtstrahls durch das Prisma entfällt das $\vartheta$ in der Skizze und  es lässt sich für den Brechungsindex $n_\text{Prisma}$ des Prismas folgendes aufstellen:
-			\begin{equation}
+			\begin{equation} \label{eq:nPrisma}
 				n = \frac{\sin[(\delta_m + \alpha) / 2]}{\sin [\alpha / 2]}.
 			\end{equation} 
 			
@@ -50,14 +50,59 @@
 			
 	\subsection{Durchführung}
 		
-		% TODO
-		 
+		Angefangen wurde mit dem roten Laser.
+		Dazu wurde zunächst die Lochblende verwendet um den Strahlengang parallel zu der magnetischen Unterlage auszurichten.
+		In diesen Strahlengang wurde dann das Prisma und dahinter die Messleiste, in einem Abstand von $h = \SI{10+-0,58}{\centi\meter}$, gesetzt.
+		Das Drehen des Prismas führte dazu, dass die Ablenkung $x$, welche auf dem Schirm größer bzw. kleiner wurde.
+		Um $x = \SI{11,0+-0,03}{\centi\meter}$ auf der Messleiste veränderte sich die Ablenkung beim leichten Drehen des Prismas nur noch kaum.
+		Bei dem blauen Laser mit gleichem $h$ war dies bei $x = \SI{12,2+-0,03}{\centi\meter}$ der Fall. 
+		
+		Für den roten Laser bei dem Gitter ergab sich eine Ablenkung von \SI{24+-0,29}{\degree} ohne destilliertem Wasser in der Küvette und \SI{15+-0,29}{\degree} mit.
+		Hingegen bei dem blauen Laser \SI{18+-0,29}{\degree} ohne und \SI{11+-0,29}{\degree} mit.
+		
+		Da für die Linsen nur einer der Laser verwendet werden sollte, wurde dafür der rote gewählt, da dessen Lichtpunkt auf einem Schirm schärfer zu erkennen war.
+		Die beiden Linsen ließen sich schnell anhand ihres Strahlengangs erkennen.
+		Bei der größeren handelt es sich um eine Sammel- und bei der kleineren um eine Streulinse.
+		Der Brennpunkt der Sammellinse ließ sich bei ca. $f_\text{konvex} = \SI{12+-0,4}{\centi\meter}$ ausmachen.
+		Zur Aufweitung des Strahls wurde zuerst die Streulinse vor den Laser gesetzt und der Abstand zur Sammellinse dahinter gesucht, für den der aufgeweitete Laser kollimiert war.
+		Dies war bei einem Abstand von ungefähr \SI{5+-0,58}{\centi\meter} der Fall.
+		Nach dem Aufsetzen der Strahlenaufweitung ließ sich erkennen, dass der beobachtete Punkt auf dem Schirm, bei nur einer Sammellinse in dem Strahlengang, statt kreis- ellipsenförmig wurde und der Brennpunkt der Linse näher an diese rückte.
+		Bei der Verkippung der Linse um ca. \SI{45}{\degree} war zusätzlich %TODO Joey Linien keine Ahnung wie erklären,zu erkennen
+		
 	\subsection{Datenanalyse}
 		
-		% TODO
+		Die Winkel $\delta_m$ an dem Prisma für die beiden Laser ergeben sich durch Einsetzen von $h$ und $x$ in Gleichung \ref{eq:Winkler}.
+		Es ergeben sich: $\delta_{m,\text{rot}} = \SI{39,36+-1,15}{\degree}$ und $\delta_{m,\text{blau}} = \SI{42,28+-1,15}{\degree}$.
+		Einsetzen dieser Werte in Gleichung \ref{eq:nPrisma} liefert die Brechungsindizes $n_\text{Prisma,rot} = \SI{1.525+-0.013}{}$ und $n_\text{Prisma,blau} = \SI{1.557+-0.013}{}$.
+		
+		Für den Brechungsindex des destillierten Wassers ergibt sich nach Einsetzen der gemessenen Winkel in das Snelliussche Brechungsgesetz
+		\begin{equation}
+			n_\text{Wasser} = n_\text{Luft} \cdot \frac{\sin \alpha_\text{Luft}}{\sin \alpha_\text{Wasser}} 
+		\end{equation}
+		mit $n_\text{Luft} \approx 1$ gerade $n_\text{Wasser,rot} = \SI{1.317+-0.018}{}$ für den roten Laser und $n_\text{Wasser,blau} = \SI{1.357+-0.031}{}$ für den blauen Laser.  
+		
+		Die Brennweite der Streulinse bestimmt sich über die Differenz der Brennweite der Sammellinse mit dem Abstand zwischen den beiden Linsen.
+		Dies ergibt $f_\text{konkav} = \SI{7+-0,6}{\centi\meter}$ für die Brennweite der Streulinse.
 		
 	\subsection{Diskussion}
 		
-		Auch hier stellt sich nun die Frage, ob die Ziele der Untersuchung erreicht wurden.
-		% TODO
+		Nun stellt sich die Frage, ob die hier durchgeführten Beobachtungen und Auswertungen mit der Theorie übereinstimmen.
+		Zunächst zu der Betrachtung der Brechungsindizes von dem Flintglas des Prismas, sowie des destillierten Wassers.
+		Bei beiden ist zu erkennen, dass diese sich für rotes und blaues Laserlicht unterscheiden.
+		Für beide ist der Brechungsindex für den roten Laser, also bei höherer Wellenlänge, kleiner als bei dem blauen Laser.
+		Da es in Materie Resonanzfrequenzen gibt, ist die Phasenverschiebung und damit der Brechungsindex Frequenzabhängig.
+		Diese Frequenzabhängigkeit wird Dispersion genannt.
+		Die hier berechneten Werte bei dem Prisma weichen von den gegebenen\cite{WWU} von $n_\text{Prisma,rot} = \SI{1,632}{}$ um 6,5\% und von $n_\text{Prisma,blau} = \SI{1,669}{}$ um 6,7\% ab.
+		Das Verhalten in Abhängigkeit der Wellenlänge stimmt an dieser Stelle zwar überein, jedoch liegen die Literaturwerte nicht annähernd in den Unsicherheiten der berechneten Werte.
+		Dies könnte daran liegen, dass die Unsicherheiten die hier verwendet wurden recht genau sind (nur ca. 0,8\% des Wertes) und eher größere zu erwarten wären, weswegen eine Abweichung von ungefähr 7\% zwar eher unwahrscheinlich jedoch nicht auszuschließen wäre und auch Fehler bei dem Ablesen von $x$ nicht auszuschließen sind, da besonders der blaue Laser das Ablesen durch seine Helligkeit erschwert hat.
+		Eine genaue Übereinstimmung liegt also nicht vor, jedoch verhalten sich die Werte in ihrer Abhängigkeit zumindest wie erwartet, somit sind diese Ergebnisse in keiner Weise ein Widerspruch zur Theorie.
+		Für das destillierte Wasser mit Literaturwerten\cite{Refrac} von $n_\text{Wasser,rot} = \SI{1.331}{}$ und $n_\text{Wasser,blau} = \SI{1.339}{}$ liegen die Abweichungen nur bei 1,1\% für das rote Licht und 1,3\%.
+		Wie zuvor liegen diese Werte nicht in den kleinen Unsicherheiten.
+		Da diese Abweichungen jedoch nur um 1\% liegen, ist dennoch eine Übereinstimmung mit der Literatur zu finden.
 		
+		Dass die Brennweiten der Linsen mit der verwendeten Methode bestimmt werden konnten, zeigt zumindest, dass es möglich ist diese so zu bestimmen, jedoch auch sehr ungenau ist.
+		Die Beobachtungen bei dem aufgeweiteten Strahl, das Näherrücken des Brennpunkts an die Linse, bei dem Drehen dieser bzw. bei dem Durchgang des Strahls durch den Rand der Linse deutet auf eine sphärische Aberration, ein Linsenfehler der diesen Effekt im Wesentlichen erklärt.
+		Bei den Beobachtung beim Neigen der Linse hingegen werden durch einen anderen Linsenfehler, den Astigmatismus erklärt.
+		Dieser besagt, das schräg durch die Linse tretende Lichtbündel kein Bild mehr, sondern zwei Bildlinien erzeugen.
+		
+		Somit lassen sich die Beobachtungen und Auswertungen alle durch die Theorie erklären, wenn auch die Abweichungen von den Literaturwerten bei dem Prisma ein wenig höher liegen.
