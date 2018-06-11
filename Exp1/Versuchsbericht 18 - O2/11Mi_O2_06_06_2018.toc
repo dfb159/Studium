@@ -1,0 +1,12 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Kurzfassung}{1}{section.1}
+\contentsline {section}{\numberline {2}Untersuchung optischer Elemente}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Methoden}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Durchf\IeC {\"u}hrung}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Datenanalyse}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Diskussion}{2}{subsection.2.4}
+\contentsline {section}{\numberline {3}Schlussfolgerung}{2}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Unsicherheiten}{3}{subsection.4.1}
+\contentsline {section}{\nonumberline Literatur}{4}{section*.4}
