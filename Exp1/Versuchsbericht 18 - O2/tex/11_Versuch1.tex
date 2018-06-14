@@ -12,6 +12,7 @@
 			\caption{Aufbau zur Messung der Strahlendivergenz.\cite{WWU}}
 			\label{fig:Aufbau1}	
 		\end{figure}
+	
 		Zur Bestimmung der Strahlendivergenz wird wie in Abb. \ref{fig:Aufbau1} dargestellt, die Position des Empfängers über zwei Schienen verändert. 
 		Jeweils eine horizontal und eine vertikal zu dem Sender liegende. 
 		Damit lässt sich der virtuelle Quellfleck des Senders bestimmen.
@@ -98,6 +99,23 @@
 			\caption{Gemessene Strahlenprofile für die verschiedenen Abstände des Empfängers von dem Sender. Mit Gauß-Kurven gefittet (Fit-Details im Anhang).}
 			\label{fig:divergenz}	
 		\end{figure}
+	
+		\begin{table}[ht]
+			\centering
+			\begin{tabular}{r|SSSS}
+				\hline
+				& $x_0$ & $A$ & $d$ & $y_0$ \\
+				\hline
+				{Profil 1} & \SI{0.21+-0.30}{\centi\meter} & \SI{1.04+-0.04}{\volt} & \SI{12.8+-0.7}{\centi\meter} & \SI{0.05+-0.04}{\centi\meter}\\
+				{Profil 2} & \SI{0.18+-0.13}{\centi\meter} & \SI{2.12+-0.10}{\volt} & \SI{10.4+-0.5}{\centi\meter} & \SI{0.02+-0.10}{\centi\meter}\\
+				{Profil 3} & \SI{0.07+-0.05}{\centi\meter} & \SI{4.45+-0.06}{\volt} & \SI{8.07+-0.13}{\centi\meter} & \SI{0.08+-0.06}{\centi\meter}\\
+				{Profil 4} & \SI{0.143+-0.027}{\centi\meter} & \SI{11.68+-0.08}{\volt} & \SI{5.56+-0.05}{\centi\meter} & \SI{0.16+-0.07}{\centi\meter}\\
+				\hline
+			\end{tabular}
+			\caption{Fit-Parameter der Strahlprofile mit $y = A \exp\left\lbrace \frac{(x-x_0)^2}{2 d^2} \right\rbrace + y_0$.}
+			\label{tab:strahlendivFit}
+		\end{table}
+
 		Zur Bestimmung der Wellenlänge, wurden bei dem Teilversuch mit der stehenden Welle vier Minima verzeichnet.
 		Der mittlere Abstand dieser betrug \SI{1,567+-0,009}{\centi\meter}.
 		Um den Brechungsindex des PVC-Halbzylinders zu bestimmen, wurden fünf verschiedene Einfallswinkel, in \SI{10+-1}{\degree} Abständen, und die zugehörigen Winkel des transmittierten Strahl aufgenommen.
