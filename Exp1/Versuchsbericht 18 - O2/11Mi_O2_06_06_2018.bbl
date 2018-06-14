@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{GF}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1082124830ea8d3e0e808b4497345a5}{%
+           family={GoodFellow},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1082124830ea8d3e0e808b4497345a5}
+      \strng{fullhash}{e1082124830ea8d3e0e808b4497345a5}
+      \strng{bibnamehash}{e1082124830ea8d3e0e808b4497345a5}
+      \strng{authorbibnamehash}{e1082124830ea8d3e0e808b4497345a5}
+      \strng{authornamehash}{e1082124830ea8d3e0e808b4497345a5}
+      \strng{authorfullhash}{e1082124830ea8d3e0e808b4497345a5}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Polyvinylchlorid - unplastifizert (UPVC)}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.goodfellow.com/G/Polyvinylchlorid-unplastifiziert.html
+      \endverb
+      \verb{url}
+      \verb http://www.goodfellow.com/G/Polyvinylchlorid-unplastifiziert.html
+      \endverb
+    \endentry
     \entry{WWU}{online}{}
       \name{author}{1}{}{%
         {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
@@ -37,20 +65,19 @@
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{01 - Geometrische Optik}
-      \field{urlday}{4}
+      \field{title}{02 - Mikrowellen}
+      \field{urlday}{11}
       \field{urlmonth}{6}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=19
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=20
       \endverb
       \verb{url}
-      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=19
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=20
       \endverb
     \endentry
   \enddatalist
-  \missing{Refrac}
 \endrefsection
 \endinput
 
