@@ -10,7 +10,13 @@ Dafür steht in der Bibliothek die Methode "scipy.optimize.curve\_fit()" zur Ver
 Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[name]	% TODO Joey
+	\item[Maßstäbe]	Jegliche Maßstäbe waren gleich skaliert und wiesen daher gleiche analoge Unsicherheiten von $\Delta x = \SI{0.1}{\centi\meter}$ auf.
+	Teilweise wurden Strecken aus Teilstrecken zusammengesetzt. Die Unsicherheit erhöht sich dann um den Faktor $\sqrt{n}$, wobei n die Anzahl an Teilstrecken ist.
+	
+	\item[Spannung] Die Spannung wurde mit einem Multimeter gemessen.
+	Dieses hatte eine Digitalanzeige mit einer Stellengenauigkeit von $\Delta U = \SI{10}{\milli\volt}$ bei Betrieb bis \SI{20}{Volt} bzw. $\Delta U = \SI{1}{\milli\volt}$ bis \SI{6}{\milli\volt}.
+	
+	\item[Winkel] Die aufgezeichneten Winkelstriche hatten einen Abstand von $\Delta \phi = \SI{1}{\degree}$.
 	
 \end{description}
 
@@ -34,3 +40,43 @@ Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqr
 	\label{fig:GUM_formula}
 \end{figure}
 
+\begin{figure}[ht]
+	\begin{align*}
+		x_\text{Quell} = \frac{y_2 - y_1}{m_1 - m_2}
+		;\quad
+		u(x_\text{Quell}) = x_\text{Quell} \sqrt{\frac{u^2(y_1) + u^2(y_2)}{(y_2 - y_1)^2} + \frac{u^2(m_1) + u^2(m_2)}{(m_2 - m_1)^2}}
+	\end{align*}
+	\caption{Formel für die $x$-Koordinate des virtuellen Quellflecks. $y_{1,2}$ und $m_{1,2}$ sind dabei die aus dem Fit entnommenen Werte für die beiden Geraden mit $f(x) = m x + y$.}
+	\label{unc:xquell}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{align*}
+	\phi = \arctan \abs m_1 + \arctan \abs m_2
+	;\quad
+	u(\phi) = \sqrt{\frac{u^2(m_1)}{\left(1 + m_1^2 \right) ^2} + \frac{u^2(m_2)}{\left(1 + m_2^2 \right) ^2}}
+\end{align*}
+\caption{Formel für die Aufweitung der Quelle. $m_{1,2}$ sind dabei die aus dem Fit entnommenen Werte für die beiden Geraden mit $f(x) = m x + y$.}
+	\label{unc:quellWinkel}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{align*}
+	\lambda = \frac{2(x_4 - x_1)}{3}
+	;\quad
+	u(\lambda) = \frac{2}{3} \sqrt{u^2(x_1) + u^2(x_4)}
+\end{align*}
+\caption{Formel für Wellenlänge der Mikrowellen gemittelt über vier Minima.}
+	\label{unc:wellenlaenge}
+\end{figure}
+
+
+\begin{figure}[ht]
+	\begin{align*}
+		n = \frac{\sin \varphi_2}{\sin \varphi_1}
+		;\quad
+		u(n) = n \sqrt{\cot^2 \varphi_1 u^2(\varphi_1) + \cot^2 \varphi_2 u^2(\varphi_2)}
+	\end{align*}
+	\caption{Formel für Wellenlänge der Mikrowellen gemittelt über vier Minima.}
+	\label{unc:nIndexPVC}
+\end{figure}
