@@ -53,7 +53,7 @@
 		\begin{figure}[ht]
 			\centering
 			\includegraphics[width=0.6\textwidth]{bilder/Mikrowelle_4.png}
-			\caption{Aufbau zur Messung der Intensität bei frustrierte Totalreflexion.\cite{WWU}}
+			\caption{Aufbau zur Messung der Intensität bei der frustrierten Totalreflexion.\cite{WWU}}
 			\label{fig:Aufbau4}	
 		\end{figure}
 		Für den Winkel $\phi_\text{PVC}$, bei dem $\phi_\text{Luft}$ bei \SI{90}{\degree} liegt, tritt das Phänomen der Totalreflexion auf, was bedeutet, dass die elektromagnetische Welle keinen transmittierten Teil mehr besitzt, sondern vollständig an der Grenzfläche reflektiert wird. 
@@ -96,12 +96,13 @@
 		\begin{figure}[ht]
 			\centering
 			\includegraphics[width=\textwidth]{data/profil.pdf}
-			\caption{Gemessene Strahlenprofile für die verschiedenen Abstände des Empfängers von dem Sender. Mit Gauß-Kurven gefittet (Fit-Details im Anhang).}
+			\caption{Gemessene Strahlenprofile für die verschiedenen Abstände des Empfängers von dem Sender. Mit Gauß-Kurven gefittet.}
 			\label{fig:divergenz}	
 		\end{figure}
 	
 		\begin{table}[ht]
 			\centering
+			\caption{Fit-Parameter der Strahlprofile mit $y = A \exp\left\lbrace \frac{(x-x_0)^2}{2 d^2} \right\rbrace + y_0$.}
 			\begin{tabular}{r|cccc}
 				\hline
 				& $x_0$ & $A$ & $d$ & $y_0$ \\
@@ -112,7 +113,6 @@
 				{Profil 4} & \SI{0.143+-0.027}{\centi\meter} & \SI{11.68+-0.08}{\volt} & \SI{5.56+-0.05}{\centi\meter} & \SI{0.16+-0.07}{\centi\meter}\\
 				\hline
 			\end{tabular}
-			\caption{Fit-Parameter der Strahlprofile mit $y = A \exp\left\lbrace \frac{(x-x_0)^2}{2 d^2} \right\rbrace + y_0$.}
 			\label{tab:strahlendivFit}
 		\end{table}
 
