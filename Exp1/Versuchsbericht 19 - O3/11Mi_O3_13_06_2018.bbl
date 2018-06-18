@@ -1,0 +1,83 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{wikiBrewster}{online}{}
+      \name{author}{1}{}{%
+        {{hash=93f1cf628361fef5295250487ea6d01f}{%
+           family={Cepheiden(https://commons.wikimedia.org/wiki/User:Cepheiden)},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{93f1cf628361fef5295250487ea6d01f}
+      \strng{fullhash}{93f1cf628361fef5295250487ea6d01f}
+      \strng{bibnamehash}{93f1cf628361fef5295250487ea6d01f}
+      \strng{authorbibnamehash}{93f1cf628361fef5295250487ea6d01f}
+      \strng{authornamehash}{93f1cf628361fef5295250487ea6d01f}
+      \strng{authorfullhash}{93f1cf628361fef5295250487ea6d01f}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brewster-Winkel}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Brewster-Winkel#/media/File:Frensel-Relexionskoeffizienten_vs_Winkel_DE.svg
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Brewster-Winkel#/media/File:Frensel-Relexionskoeffizienten_vs_Winkel_DE.svg
+      \endverb
+    \endentry
+    \entry{WWU}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
+           family={Münster},
+           familyi={M\bibinitperiod},
+           given={WWU},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{fullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{bibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorbibnamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authornamehash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \strng{authorfullhash}{f2c1adb053fe38e8e29a6f9bee3d2f55}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{03 - Polarisation}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=21
+      \endverb
+      \verb{url}
+      \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=21
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

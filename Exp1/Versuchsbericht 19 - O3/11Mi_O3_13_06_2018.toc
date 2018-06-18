@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Kurzfassung}{1}{section.1}
+\contentsline {section}{\numberline {2}Untersuchung von Polarisation}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Allgemeines zu dem Aufbau}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Versuchsmaterialien}{2}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Polarisation von Licht}{3}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Teilversuch 1: Gesetz von Malus}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Teilversuch 2: $ \lambda / 2 $-Pl\IeC {\"a}ttchen}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Teilversuch 3: Brewsterwinkel}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Teilversuch 4: Strahlenversatz}{11}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Teilversuch 5: Kristallpolarisation}{12}{subsection.2.6}
+\contentsline {section}{\numberline {3}Schlussfolgerung}{13}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Unsicherheiten}{14}{subsection.4.1}
+\contentsline {section}{\nonumberline Literatur}{16}{section*.32}

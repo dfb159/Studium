@@ -69,6 +69,8 @@
 
 	% --- Einzelne Teilversuche einbinden
 	\clearpage
+	\input{tex/10_Versuch0.tex}
+	\clearpage
 	\input{tex/11_Versuch1.tex}
 	\IfFileExists{tex/12_Versuch2.tex}{
 		\clearpage
@@ -82,9 +84,14 @@
 		\clearpage
 		\input{tex/14_Versuch4.tex}
 	}{}
+	\IfFileExists{tex/15_Versuch5.tex}{
+		\clearpage
+		\input{tex/15_Versuch5.tex}
+	}{}
 	%\input{tex/name.tex}
 	% --- Fazit des gesammten Versuchs einbinden, falls nötig
-	\IfFileExists{tex/19_Fazit.tex}{		
+	\IfFileExists{tex/19_Fazit.tex}{	
+		\clearpage	
 		\input{tex/19_Fazit.tex}
 	}{}
 	
