@@ -1930,8 +1930,15 @@
     <bcf:citekey order="4">WWU</bcf:citekey>
     <bcf:citekey order="5">WWU</bcf:citekey>
     <bcf:citekey order="6">WWU</bcf:citekey>
-    <bcf:citekey order="7">wikiBrewster</bcf:citekey>
-    <bcf:citekey order="8">wikiBrewster</bcf:citekey>
+    <bcf:citekey order="7">WWU</bcf:citekey>
+    <bcf:citekey order="8">WWU</bcf:citekey>
+    <bcf:citekey order="9">wikiBrewster</bcf:citekey>
+    <bcf:citekey order="10">wikiBrewster</bcf:citekey>
+    <bcf:citekey order="11">Refrac</bcf:citekey>
+    <bcf:citekey order="12">WWU</bcf:citekey>
+    <bcf:citekey order="13">WWU</bcf:citekey>
+    <bcf:citekey order="14">WWU</bcf:citekey>
+    <bcf:citekey order="15">WWU</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

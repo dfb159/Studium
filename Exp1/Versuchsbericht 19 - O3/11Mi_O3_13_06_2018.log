@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  18 JUN 2018 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  19 JUN 2018 19:00
 entering extended mode
 **./11Mi_O3_13_06_2018.tex
 (11Mi_O3_13_06_2018.tex
@@ -3038,7 +3038,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
-<bilder/s_Materialien.png, id=94, 301.125pt x 146.79843pt>
+<bilder/s_Materialien.png, id=95, 301.125pt x 146.79843pt>
 File: bilder/s_Materialien.png Graphic file (type png)
 <use bilder/s_Materialien.png>
 Package pdftex.def Info: bilder/s_Materialien.png  used on input line 9.
@@ -3074,7 +3074,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Polarisation.png, id=121, 401.5pt x 260.975pt>
+<bilder/Polarisation.png, id=122, 401.5pt x 260.975pt>
 File: bilder/Polarisation.png Graphic file (type png)
 <use bilder/Polarisation.png>
 Package pdftex.def Info: bilder/Polarisation.png  used on input line 7.
@@ -3193,12 +3193,43 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/wikiBrewster.png, id=302, 542.025pt x 261.22594pt>
+<bilder/Brewster-Winkel.png, id=302, 401.5pt x 172.645pt>
+File: bilder/Brewster-Winkel.png Graphic file (type png)
+<use bilder/Brewster-Winkel.png>
+Package pdftex.def Info: bilder/Brewster-Winkel.png  used on input line 7.
+(pdftex.def)             Requested size: 448.13095pt x 192.71037pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 24.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+ [10
+
+ <./bilder/Brewster-Winkel.png>]
+<data/Spiegel.pdf, id=314, 722.7pt x 433.62pt>
+File: data/Spiegel.pdf Graphic file (type pdf)
+<use data/Spiegel.pdf>
+Package pdftex.def Info: data/Spiegel.pdf  used on input line 29.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+<bilder/wikiBrewster.png, id=317, 283.0575pt x 261.22594pt>
 File: bilder/wikiBrewster.png Graphic file (type png)
 <use bilder/wikiBrewster.png>
-Package pdftex.def Info: bilder/wikiBrewster.png  used on input line 10.
-(pdftex.def)             Requested size: 448.13095pt x 215.9804pt.
-)
+Package pdftex.def Info: bilder/wikiBrewster.png  used on input line 46.
+(pdftex.def)             Requested size: 268.8813pt x 248.16321pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 58.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 58.
+ [11 <./data/Spiegel.pdf>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 86.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 86.
@@ -3208,14 +3239,41 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 86.
- [10
-
- <./bilder/wikiBrewster.png>] (tex/14_Versuch4.tex
+ [12 <./bilder/wikiBrewster.png>] (tex/14_Versuch4.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
+<bilder/Zucker.png, id=390, 401.5pt x 243.91125pt>
+File: bilder/Zucker.png Graphic file (type png)
+<use bilder/Zucker.png>
+Package pdftex.def Info: bilder/Zucker.png  used on input line 7.
+(pdftex.def)             Requested size: 448.13095pt x 272.25945pt.
+<data/konzentration.pdf, id=394, 722.7pt x 433.62pt>
+File: data/konzentration.pdf Graphic file (type pdf)
+<use data/konzentration.pdf>
+Package pdftex.def Info: data/konzentration.pdf  used on input line 21.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 28.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.39996> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.87994> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.19998> on input line 28.
+Package cleveref Info: loaded `ngerman' language definitions on input line 29.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 29.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 29.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 29.
+ [13
+
+ <./bilder/Zucker.png>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 90.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 90.
@@ -3225,15 +3283,28 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
-
-[11
-
-] (tex/15_Versuch5.tex
+ [14 <./data/konzentration.pdf>] (tex/15_Versuch5.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-)
+<bilder/Kalkspat.png, id=464, 401.5pt x 217.81375pt>
+File: bilder/Kalkspat.png Graphic file (type png)
+<use bilder/Kalkspat.png>
+Package pdftex.def Info: bilder/Kalkspat.png  used on input line 7.
+(pdftex.def)             Requested size: 448.13095pt x 243.1288pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+ [15
+
+ <./bilder/Kalkspat.png>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 96.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 96.
@@ -3243,9 +3314,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 96.
- [12
-
-] (tex/19_Fazit.tex
+ [16] (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3261,7 +3330,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 105.
- [13
+ [17
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3275,14 +3344,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
 
-LaTeX Warning: Reference `fig:bragg' on page 14 undefined on input line 22.
+LaTeX Warning: Reference `fig:bragg' on page 18 undefined on input line 22.
 
 
-LaTeX Warning: Reference `fig:konzentration' on page 14 undefined on input line
+LaTeX Warning: Reference `fig:konzentration' on page 18 undefined on input line
  64.
 
 
-LaTeX Warning: Reference `fig:konzentration' on page 14 undefined on input line
+LaTeX Warning: Reference `fig:konzentration' on page 18 undefined on input line
  64.
 
 )
@@ -3296,7 +3365,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [14
+ [18
 
 ]
 Package cleveref Info: loaded `ngerman' language definitions on input line 111.
@@ -3309,7 +3378,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [15]
+ [19]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3334,7 +3403,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
- [16
+ [20
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
@@ -3345,7 +3414,7 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `11Mi_O3_13_06_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 8EDE1F1E0414265B1A846A83B6B7CFE8;2368.
+(rerunfilecheck)             Checksum: BBCEAD281A54922F7FF9B0D11F2E63B2;2890.
 
 
 LaTeX Warning: There were undefined references.
@@ -3355,11 +3424,11 @@ Package logreq Info: Writing requests to '11Mi_O3_13_06_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42682 strings out of 493307
- 819513 string characters out of 3138825
- 1385315 words of memory out of 3000000
- 45472 multiletter control sequences out of 15000+200000
- 649479 words of font info for 168 fonts, out of 3000000 for 9000
+ 43171 strings out of 493307
+ 830460 string characters out of 3138825
+ 1385976 words of memory out of 3000000
+ 45923 multiletter control sequences out of 15000+200000
+ 852371 words of font info for 361 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,20n,106p,10410b,2369s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -3380,9 +3449,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 11Mi_O3_13_06_2018.pdf (18 pages, 762015 bytes).
+Output written on 11Mi_O3_13_06_2018.pdf (22 pages, 1122300 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 47247 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
+ 89768 words of extra memory for PDF output out of 106986 (max. 10000000)
 

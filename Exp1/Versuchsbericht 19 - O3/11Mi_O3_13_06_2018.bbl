@@ -77,6 +77,36 @@
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=21
       \endverb
     \endentry
+    \entry{Refrac}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cb241639f716d1db90afcac2d3d90cb9}{%
+           family={Polyanskiy},
+           familyi={P\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb241639f716d1db90afcac2d3d90cb9}
+      \strng{fullhash}{cb241639f716d1db90afcac2d3d90cb9}
+      \strng{bibnamehash}{cb241639f716d1db90afcac2d3d90cb9}
+      \strng{authorbibnamehash}{cb241639f716d1db90afcac2d3d90cb9}
+      \strng{authornamehash}{cb241639f716d1db90afcac2d3d90cb9}
+      \strng{authorfullhash}{cb241639f716d1db90afcac2d3d90cb9}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Refractive Index Database}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refractiveindex.info/?shelf=3d&book=glass&page=BK7
+      \endverb
+      \verb{url}
+      \verb https://refractiveindex.info/?shelf=3d&book=glass&page=BK7
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
