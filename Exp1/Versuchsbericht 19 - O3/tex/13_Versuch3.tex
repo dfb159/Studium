@@ -12,12 +12,13 @@
 		Hier steht statt des $\lambda/2$-Plättchens nun eine Glasplatte in dem Strahlengang.
 		Nun soll betrachtet werden wie sich das Reflexionsvermögen der Glasplatte für Einstrahlung von senkrecht bzw. parallel polarisiertem Licht verhält.
 		Senkrechtes (s) und paralleles (p) polarisiertes Licht sind die Anteile des polarisierten Lichts, die selbsterklärend senkrecht bzw. parallel zu der Glasplatte eingestrahlt werden.
-		Dazu wird die Photodiode an einem Ende und der Laser an dem anderen angebracht, sodass diese an dem beweglichen Bereich mit der Glasplatte um einen variablen Winkel $\Theta$ versetzt werden können.
+		Dazu wird die Photodiode an einem Ende und der Laser an dem anderen angebracht, sodass diese an dem beweglichen Gelenk mit der Glasplatte um einen variablen Winkel $\Theta$ versetzt werden können.
 		Für die Winkel \SIrange{30}{85}{\degree} soll dafür in \SI{5}{\degree} Schritten die Intensität gemessen werden.
-		Den Sonderfall hierbei beschreibt der Brewster-Winkel, bei dem reflektierter und transmittierter Strahl senkrecht zueinander verlaufen bzw. der E-Feld Vektor parallel zu der Einfallsebene schwingt, weswegen auch nur der p-polarisierte Anteil in der Messung eine Rolle spielt.
-		Aus dem Snellius'schen Brechungsgesetz folgt für die Brewster-Beziehung:
+		Besonders ist hierbei der Brewster-Winkel, bei dem der reflektierte und der transmittierte Strahl senkrecht zueinander verlaufen bzw. der E-Feld Vektor ausschließlich senkrecht zu der Einfallsebene schwingt.
+		Dadurch spielt in der Messung auch nur der parallele Anteil des Laserlichts eine Rolle.
+		Aus dem Snellius'schen Brechungsgesetz folgt für die Brewster-Beziehung dann
 		\begin{equation} \label{eq:Brewster}
-			\tan{\Theta_\text{B}} = n
+			\tan{\Theta_\text{B}} = n,
 		\end{equation}
 		für den Fall dass einer der Brechungsindizes eins entspricht (wie hier bei Luft).
 		Die Größe $n$ beschreibt hier dann den Brechungsindex der Glasplatte.
@@ -27,16 +28,16 @@
 		\begin{figure}[ht]
 			\centering
 			\includegraphics[width=\textwidth]{data/Spiegel.pdf}
-			\caption{Aufgenommene Spannungen in Abhängigkeit des Winkels $\Theta$.}
+			\caption{Aufgenommene Spannungen in Abhängigkeit des Winkels $\Theta$. Die Spannung ist logarithmisch aufgetragen, um das Minima beim Brewster-Winkel $\Theta_\text{B}$ deutlicher erkennen zu können.}
 			\label{fig:GlasplatteWinkel}	
 		\end{figure}
 		Für die Winkel \SIrange{30+-0,4}{85+-0,4}{\degree} wurden in \SI{5+-0,4}{\degree} die zugehörigen Spannungen an der Photodiode gemessen.
 		Diese sind in \ref{fig:GlasplatteWinkel} aufgetragen.
-		Die geringste Spannung unter den Messpunkten ließ sich bei \SI{55+-0,4}{\degree} beobachten.
 	
 	\subsubsection*{Datenanalyse}
 		
-		Aus den Messpunkten lässt sich der Brewster-Winkel bei \SI{57,18+-0,05}{\degree} identifizieren. % TODO wie genau, Joey?
+		Die geringste Spannung unter den Messpunkten ließ sich bei \SI{55+-0,4}{\degree} beobachten.
+		Damit liegt der Brewster-Winkel für die Glasplatte bei $\Theta_\text{B} =  \SI{55+-0,4}{\degree}$.
 		Einsetzen dieses Winkels in Gl. \ref{eq:Brewster} führt zu dem Brechungsindex $n = \SI{1,5508+-0,0008}{}$ für die Glasplatte.
 	
 	\subsubsection*{Diskussion}
@@ -53,7 +54,7 @@
 		Des Weiteren stellt sich die Frage ob der ermittelte Wert für den Brechungsindex der Glasplatte  einen passenden darstellt.
 		Für Kronglas dient der Literaturwert\cite{Refrac} von $n = \SI{1.5145}{}$ und für Flintglas $n = \SI{1.6661}{}$.
 		Eine genaue Beschreibung, um welches Glas es sich bei der Platte handelte, war nicht gegeben und zu keinem der beiden Literaturwerte liegt eine genaue Übereinstimmung vor.
-		Da der $n$ jedoch zwischen beiden liegt, lässt sich zumindest folgern, dass die Glasplatte tatsächlich aus einem Glas besteht.
-		Ein Widerspruch zu der Theorie lässt sich an dieser Stelle nicht finden.
+		Da der $n$ jedoch zwischen beiden liegt, lässt sich zumindest vermuten, dass die Glasplatte tatsächlich aus einem Glas besteht.
+		Ein Widerspruch zu den Fresnel'schen Formeln und der Beugungstheorie lässt sich an dieser Stelle nicht finden.
 		
 		
