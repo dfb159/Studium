@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  19 JUN 2018 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  19 JUN 2018 22:22
 entering extended mode
 **./11Mi_O3_13_06_2018.tex
 (11Mi_O3_13_06_2018.tex
@@ -3254,26 +3254,36 @@ File: data/konzentration.pdf Graphic file (type pdf)
 <use data/konzentration.pdf>
 Package pdftex.def Info: data/konzentration.pdf  used on input line 21.
 (pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
-LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 28.
+LaTeX Font Info:    Calculating math sizes for size <8.39996> on input line 29.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.39996> on input line 28.
+(Font)              <8.39996> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.87994> on input line 28.
+(Font)              <5.87994> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <4.19998> on input line 28.
-Package cleveref Info: loaded `ngerman' language definitions on input line 29.
+(Font)              <4.19998> on input line 29.
+Package cleveref Info: loaded `ngerman' language definitions on input line 30.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 30.
  [13
 
- <./bilder/Zucker.png>])
+ <./bilder/Zucker.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 44.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 44.
+ [14 <./data/konzentration.pdf>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 90.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 90.
@@ -3283,12 +3293,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 90.
- [14 <./data/konzentration.pdf>] (tex/15_Versuch5.tex
+ [15] (tex/15_Versuch5.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Kalkspat.png, id=454, 401.5pt x 217.81375pt>
+<bilder/Kalkspat.png, id=456, 401.5pt x 217.81375pt>
 File: bilder/Kalkspat.png Graphic file (type png)
 <use bilder/Kalkspat.png>
 Package pdftex.def Info: bilder/Kalkspat.png  used on input line 7.
@@ -3302,7 +3312,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 23.
- [15
+ [16
 
  <./bilder/Kalkspat.png>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 96.
@@ -3314,7 +3324,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 96.
- [16] (tex/19_Fazit.tex
+ [17] (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3330,7 +3340,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 105.
- [17
+ [18
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3344,14 +3354,14 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
 
-LaTeX Warning: Reference `fig:bragg' on page 18 undefined on input line 22.
+LaTeX Warning: Reference `fig:bragg' on page 19 undefined on input line 22.
 
 
-LaTeX Warning: Reference `fig:konzentration' on page 18 undefined on input line
+LaTeX Warning: Reference `fig:konzentration' on page 19 undefined on input line
  64.
 
 
-LaTeX Warning: Reference `fig:konzentration' on page 18 undefined on input line
+LaTeX Warning: Reference `fig:konzentration' on page 19 undefined on input line
  64.
 
 )
@@ -3365,7 +3375,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [18
+ [19
 
 ]
 Package cleveref Info: loaded `ngerman' language definitions on input line 111.
@@ -3378,7 +3388,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [19]
+ [20]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3403,7 +3413,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
- [20
+ [21
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
@@ -3424,11 +3434,11 @@ Package logreq Info: Writing requests to '11Mi_O3_13_06_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43169 strings out of 493307
- 830438 string characters out of 3138825
- 1386097 words of memory out of 3000000
+ 43172 strings out of 493307
+ 830469 string characters out of 3138825
+ 1386189 words of memory out of 3000000
  45923 multiletter control sequences out of 15000+200000
- 852268 words of font info for 360 fonts, out of 3000000 for 9000
+ 852359 words of font info for 361 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,20n,106p,10410b,2367s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -3449,9 +3459,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 11Mi_O3_13_06_2018.pdf (22 pages, 1119257 bytes).
+Output written on 11Mi_O3_13_06_2018.pdf (23 pages, 1121004 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
- 85 named destinations out of 1000 (max. 500000)
+ 591 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
  89768 words of extra memory for PDF output out of 106986 (max. 10000000)
 

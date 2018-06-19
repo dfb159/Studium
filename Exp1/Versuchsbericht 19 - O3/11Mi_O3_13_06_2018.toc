@@ -9,8 +9,8 @@
 \contentsline {subsection}{\numberline {2.3}Teilversuch 2: $ \lambda / 2 $-Pl\IeC {\"a}ttchen}{7}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Teilversuch 3: Reflexionsverm\IeC {\"o}gen einer Glasplatte und Brewster Winkel}{10}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Teilversuch 4: Strahlenversatz bei Zuckerl\IeC {\"o}sungen}{13}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Teilversuch 5: Kristallpolarisation an einem Kalkspat}{15}{subsection.2.6}
-\contentsline {section}{\numberline {3}Schlussfolgerung}{17}{section.3}
-\contentsline {section}{\numberline {4}Anhang}{18}{section.4}
-\contentsline {subsection}{\numberline {4.1}Unsicherheiten}{18}{subsection.4.1}
-\contentsline {section}{\nonumberline Literatur}{20}{section*.36}
+\contentsline {subsection}{\numberline {2.6}Teilversuch 5: Kristallpolarisation an einem Kalkspat}{16}{subsection.2.6}
+\contentsline {section}{\numberline {3}Schlussfolgerung}{18}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Unsicherheiten}{19}{subsection.4.1}
+\contentsline {section}{\nonumberline Literatur}{21}{section*.36}
