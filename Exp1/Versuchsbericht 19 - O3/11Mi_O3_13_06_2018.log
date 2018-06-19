@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  19 JUN 2018 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  19 JUN 2018 21:22
 entering extended mode
 **./11Mi_O3_13_06_2018.tex
 (11Mi_O3_13_06_2018.tex
@@ -3043,15 +3043,15 @@ File: bilder/s_Materialien.png Graphic file (type png)
 <use bilder/s_Materialien.png>
 Package pdftex.def Info: bilder/s_Materialien.png  used on input line 9.
 (pdftex.def)             Requested size: 448.13095pt x 218.48576pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 24.
+Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 23.
  [2
 
  <./bilder/s_Materialien.png>]
@@ -3074,7 +3074,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Polarisation.png, id=122, 401.5pt x 260.975pt>
+<bilder/Polarisation.png, id=125, 401.5pt x 260.975pt>
 File: bilder/Polarisation.png Graphic file (type png)
 <use bilder/Polarisation.png>
 Package pdftex.def Info: bilder/Polarisation.png  used on input line 7.
@@ -3096,7 +3096,7 @@ Package babel Info: Redefining ngerman shorthand "~
  [4
 
  <./bilder/Polarisation.png>]
-<data/laserPolarisation.pdf, id=137, 722.7pt x 433.62pt>
+<data/laserPolarisation.pdf, id=139, 722.7pt x 433.62pt>
 File: data/laserPolarisation.pdf Graphic file (type pdf)
 <use data/laserPolarisation.pdf>
 Package pdftex.def Info: data/laserPolarisation.pdf  used on input line 34.
@@ -3146,7 +3146,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-<bilder/LambdaHalbe.png, id=213, 401.5pt x 209.78375pt>
+<bilder/LambdaHalbe.png, id=215, 401.5pt x 209.78375pt>
 File: bilder/LambdaHalbe.png Graphic file (type png)
 <use bilder/LambdaHalbe.png>
 Package pdftex.def Info: bilder/LambdaHalbe.png  used on input line 7.
@@ -3163,20 +3163,20 @@ Package babel Info: Redefining ngerman shorthand "~
 [7
 
  <./bilder/LambdaHalbe.png>]
-<data/lambdaPolarisation.pdf, id=224, 722.7pt x 433.62pt>
+<data/lambdaPolarisation.pdf, id=226, 722.7pt x 433.62pt>
 File: data/lambdaPolarisation.pdf Graphic file (type pdf)
 <use data/lambdaPolarisation.pdf>
 Package pdftex.def Info: data/lambdaPolarisation.pdf  used on input line 36.
 (pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 45.
+Package cleveref Info: loaded `ngerman' language definitions on input line 44.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 44.
  [8 <./data/lambdaPolarisation.pdf>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 82.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3193,42 +3193,42 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Brewster-Winkel.png, id=302, 401.5pt x 172.645pt>
+<bilder/Brewster-Winkel.png, id=291, 401.5pt x 172.645pt>
 File: bilder/Brewster-Winkel.png Graphic file (type png)
 <use bilder/Brewster-Winkel.png>
 Package pdftex.def Info: bilder/Brewster-Winkel.png  used on input line 7.
 (pdftex.def)             Requested size: 448.13095pt x 192.71037pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 24.
+Package cleveref Info: loaded `ngerman' language definitions on input line 25.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 25.
  [10
 
  <./bilder/Brewster-Winkel.png>]
-<data/Spiegel.pdf, id=314, 722.7pt x 433.62pt>
+<data/Spiegel.pdf, id=303, 722.7pt x 433.62pt>
 File: data/Spiegel.pdf Graphic file (type pdf)
 <use data/Spiegel.pdf>
-Package pdftex.def Info: data/Spiegel.pdf  used on input line 29.
+Package pdftex.def Info: data/Spiegel.pdf  used on input line 30.
 (pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
-<bilder/wikiBrewster.png, id=317, 283.0575pt x 261.22594pt>
+<bilder/wikiBrewster.png, id=306, 283.0575pt x 261.22594pt>
 File: bilder/wikiBrewster.png Graphic file (type png)
 <use bilder/wikiBrewster.png>
-Package pdftex.def Info: bilder/wikiBrewster.png  used on input line 46.
+Package pdftex.def Info: bilder/wikiBrewster.png  used on input line 47.
 (pdftex.def)             Requested size: 268.8813pt x 248.16321pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 58.
+Package cleveref Info: loaded `ngerman' language definitions on input line 50.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 50.
  [11 <./data/Spiegel.pdf>])
 Package cleveref Info: loaded `ngerman' language definitions on input line 86.
 Package babel Info: Redefining ngerman shorthand "|
@@ -3244,12 +3244,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Zucker.png, id=390, 401.5pt x 243.91125pt>
+<bilder/Zucker.png, id=379, 401.5pt x 243.91125pt>
 File: bilder/Zucker.png Graphic file (type png)
 <use bilder/Zucker.png>
 Package pdftex.def Info: bilder/Zucker.png  used on input line 7.
 (pdftex.def)             Requested size: 448.13095pt x 272.25945pt.
-<data/konzentration.pdf, id=394, 722.7pt x 433.62pt>
+<data/konzentration.pdf, id=383, 722.7pt x 433.62pt>
 File: data/konzentration.pdf Graphic file (type pdf)
 <use data/konzentration.pdf>
 Package pdftex.def Info: data/konzentration.pdf  used on input line 21.
@@ -3288,7 +3288,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<bilder/Kalkspat.png, id=464, 401.5pt x 217.81375pt>
+<bilder/Kalkspat.png, id=454, 401.5pt x 217.81375pt>
 File: bilder/Kalkspat.png Graphic file (type png)
 <use bilder/Kalkspat.png>
 Package pdftex.def Info: bilder/Kalkspat.png  used on input line 7.
@@ -3424,13 +3424,13 @@ Package logreq Info: Writing requests to '11Mi_O3_13_06_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43171 strings out of 493307
- 830460 string characters out of 3138825
- 1385976 words of memory out of 3000000
+ 43169 strings out of 493307
+ 830438 string characters out of 3138825
+ 1386097 words of memory out of 3000000
  45923 multiletter control sequences out of 15000+200000
- 852371 words of font info for 361 fonts, out of 3000000 for 9000
+ 852268 words of font info for 360 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 68i,20n,106p,10410b,2369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,20n,106p,10410b,2367s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
@@ -3449,9 +3449,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 11Mi_O3_13_06_2018.pdf (22 pages, 1122300 bytes).
+Output written on 11Mi_O3_13_06_2018.pdf (22 pages, 1119257 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
+ 589 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
  89768 words of extra memory for PDF output out of 106986 (max. 10000000)
 
