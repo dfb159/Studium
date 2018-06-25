@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is '11Mi_O4_20_06_2018.blg'
+[30] biber-MSWIN64:313> INFO - === 
+[56] Biber.pm:371> INFO - Reading '11Mi_O4_20_06_2018.bcf'
+[131] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[137] Utils.pm:193> WARN - The file '11Mi_O4_20_06_2018.bcf' does not contain any citations!
+[143] bbl.pm:617> INFO - Writing '11Mi_O4_20_06_2018.bbl' with encoding 'UTF-8'
+[144] bbl.pm:720> INFO - Output to 11Mi_O4_20_06_2018.bbl
+[144] Biber.pm:110> INFO - WARNINGS: 1
