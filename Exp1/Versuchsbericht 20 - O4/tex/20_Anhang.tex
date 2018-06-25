@@ -10,21 +10,10 @@ Dafür steht in der Bibliothek die Methode "scipy.optimize.curve\_fit()" zur Ver
 Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[Spannung]	Es wird einheitlich im Bereich bis \SI{20}{\volt} gemessen.
-	Das Voltmeter hatte eine digitale Anzeigegenauigkeit von $\Delta U = \SI{0.01}{\volt}$.
-	
-	\item[Polariseur] Beide Polariseure hatten angegebene analoge Gradstriche mit $\Delta \phi = \SI{1}{\degree}$.
-	
-	\item[Standbein] Das Standbein auf welchem der Spiegel gedreht wurde, hatte ebenfalls eine Schrittweite von $\Delta \Theta = \SI{1}{\degree}$ und konnte analog abgelesen werden.
-	
-	\item[$\lambda/2$-Platte] Die Winkelmarkierungen auf der $\lambda/2$-Platte waren in einem Abstand von $\Delta \varphi_{\lambda/2} = \SI{2}{\degree}$ analog abzulesen.
-	
-	\item[Brewster-Winkel] Der Reflektionswinkel mit minimalem parallelen Anteil wurde aus der Abb, \ref{fig:bragg} abgelesen.
-	Dabei kann der Wert auf ein Intervall der Breite $\Delta \varphi_\text{B} = \SI{10}{\degree}$ abgeschätzt werden.
-	Anhand der theoretischen Vorhersage nach Abb. \ref{fig:wiki_brewster} kann er als analog angesehen werden.
-	
+	\item[item] item
 \end{description}
 
+% Die hier weg? Semir meinte unnötig
 \begin{figure}[ht]
 	\begin{equation*}
 		x = \sum_{i=1}^{N} x_i
@@ -43,25 +32,5 @@ Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqr
 	\end{align*}
 	\caption{Formel für sich fortpflanzende Unsicherheiten nach GUM.}
 	\label{fig:GUM_formula}
-\end{figure}
-
-\begin{figure}[ht]
-	\begin{align*}
-		n = \arctan(\varphi_\text{B})
-		;\quad
-		u(n) = \frac{u(\varphi_\text{B})}{1 + \varphi_\text{B}^2}
-	\end{align*}
-	\caption{Unsicherheitsformel für den Brechungsindex des Glases.}
-	\label{unc:n_glas}
-\end{figure}
-
-\begin{figure}[ht]
-	\begin{align*}
-		\rho = \frac{U - b}{m}
-		;\quad
-		u(\rho) = \rho \sqrt{\frac{u^2(U) + u^2(b)}{(U - b)^2} + \frac{u^2(m)}{m^2}}
-	\end{align*}
-	\caption{Unsicherheitsformel für die Konzentration der unbekannten Zuckerlösung. $m, b$ sind dabei die Fitparameter der Geraden aus Abb. \ref{fig:konzentration}.}
-	\label{unc:U_konzentration}
 \end{figure}
 

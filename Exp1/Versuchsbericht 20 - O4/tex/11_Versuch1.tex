@@ -1,48 +1,34 @@
-\subsection{Teilversuch 1: Polarisatoren und Gesetz von Malus}
+\section{Methoden} \label{sec:Methoden}
+			
+	Zum Versuchsaufbau gehören ein Elektromagnet, eine Stromquelle, eine Hall-Sonde, zwei Polarisatoren, ein (roter) Laser, ein Lichtintensitätsmessgerät und eine Co/Pt-Probe.
+	Der Elektromagnet besteht aus einem hufeisenförmigen Eisenkern, auf dessen Seiten Spulen mit je 600 Windungen angebracht sind, durch die ein Strom aus der Stromquelle fließen kann. 
+	Zudem sind an den Enden des Eisenkerns Polschuhe angebracht, zwischen denen sich ein Magnetfeld bei Stromfluss durch die Spulen bilden sollte.
+	Für den ersten Versuchsteil soll die Feldstärke $B$ dieses Magnetfeldes in Abhängigkeit der Stromstärke $I$ über die Hall-Sonde gemessen werden.
+	Dazu wird die Sonde so ausgerichtet, dass möglichst parallel zu dem Magnetfeld gemessen werden kann.
+	Bei dem zweiten Versuchsteil soll die Hall-Sonde entfernt und die Co/Pt-Probe zwischen den Polschuhen platziert werden.
+	Der Laser wird so aufgestellt, dass ein gerader Strahlengang durch den ersten Polarisator auf die Probe und des reflektierten Strahls durch den zweiten Polarisator stattfinden kann.
+	Hinter letzterem soll dann die Lichtintensität in Abhängigkeit der Stromstärke $I$ (der magnetischen Feldstärke $B$) gemessen werden.
+	Für höhere Empfindlichkeit sollen die Polarisatoren um \SI{45}{\degree} versetzt polarisieren, da die Änderung der Intensität nach dem Gesetz von Malus dann am größten ist.
+	Bei beiden Messungen sollen die Messgrößen in Abhängigkeit Stromstärke von \SIrange{-1}{1}{\ampere}	und wieder zurück von \SIrange{1}{-1}{\ampere} in \SI{0,1}{\ampere} Schritten aufgetragen werden.
+	% TODO Theorie?
 	
-		\subsubsection*{Methoden}
-			
-			\begin{figure}[ht]
-				\centering
-				\includegraphics[width=\textwidth]{bilder/Polarisation.png}
-				\caption{Aufbau des ersten Teilversuches\cite{WWU}}
-				\label{fig:Polarisation}	
-			\end{figure}
-			Der Aufbau des ersten Teilversuches ist in Abb. \ref{fig:Polarisation} dargestellt.
-			Zunächst soll jedoch nur einer der Polarisatoren zwischen dem Laser und der Photodiode stehen.
-			Diese soll so gedreht werden, dass die gemessene Spannung maximal ist.
-			Dann soll der zweite Polarisator hinzugefügt werden und ausgehend von dem gleichen Winkel wie bei dem ersten in \SI{10}{\degree} Schritten bis \SI{+-90}{\degree} von dem Ausgangswinkel die Spannung gemessen werden.
-			Dies dient zu der Überprüfung des Gesetzes von Malus, welches sich wie folgt definiert:
-			\begin{equation}
-				I = I_0 \cos^2{\phi}.
-			\end{equation}
-			Dabei ist $I$ die gemessene Intensität, $I_0$ die Ausgangsintensität und $\phi = \phi_\text{p2}$ der Winkel um den der zweite Polarisator gedreht sein soll.
-			Da jedoch Spannung betrachtet werden sollen, werden statt $I$ und $I_0$ gerade $U$ und $U_0$ betrachtet, was aufgrund der Proportionalität von $I$ und $U$ ebenfalls dem Gesetz von Malus genügen sollte.
-			
-		\subsubsection*{Durchführung}
+\section{Durchführung}
 		
-			Der Winkel, bei dem die gemessene Spannung bei nur einem Polarisator maximal war, belief sich auf $\phi_0 = \SI{106+-0,4}{\degree}$.
-			So wurden nach dem Einfügen des zweiten Polarisators die Spannungen für die Winkel $\phi_\text{p2} = $\SIrange{16+-0,4}{196+-0,4}{\degree} gemessen.
-			Hierbei ließ sich beobachten, dass ausgehend von $\phi_0$ bei zunehmendem und abnehmendem Winkel die Intensität kleiner wurde.
-			Zudem wurden die Minima an den beiden Enden der Messungen, also gerade bei \SI{+-90}{\degree} verzeichnet.
-			Abb. \ref{fig:PolarisationFit} beinhaltet die gemessenen Werte.
+	Die Messung der Feldstärke $B$ und der Lichtintensität wurden analog zu der Beschreibung in Abschnitt \ref{sec:Methoden} durchgeführt.
+	An der Stromquelle ließen sich keine negativen Ströme einstellen, weswegen bei dem Erreichen von \SI{0}{\ampere} einfach die Eingänge getauscht wurden.
+	Für beide Messungen fand die Ausgabe der Messwerte auf einem Computer statt, an den die Messinstrumente angeschlossen waren.
+	Da das System sehr empfindlich gegenüber dem Licht in dem Versuchsraum und leichten Erschütterungen war, wurde nach Aufnahme einer Messung der zugehörige Graph geplotted, um zu versichern dass die Messwerte aufgrund kleiner Einflüsse nicht unnatürlich weit voneinander abweichen.
+	Dies war bei den aufgenommenen Werten nicht der Fall, weswegen keine zusätzliche Messreihe durchgeführt wurde. 
 		
-		\subsubsection*{Datenanalyse}
+\section{Datenanalyse}
 			
-			\begin{figure}[ht]
-				\centering
-				\includegraphics[width=\textwidth]{data/laserPolarisation.pdf}
-				\caption{Messpunkte für die Polarisation und $\cos^2$-Fit zur Überprüfung des Gesetzes von Malus.}
-				\label{fig:PolarisationFit}	
-			\end{figure}
-			Über die Messpunkte in Abb. \ref{fig:PolarisationFit} wurde zusätzlich ein $\cos^2$-Fit gelegt, um die Form des Gesetzes von Malus zu überprüfen.
-			Der Fit verläuft dabei durch jeden Messpunkt bzw. einer Unsicherheit dieser Punkte.
-			Dabei ergibt sich für $U_0 = \SI{1,662+-0,006}{\volt}$ und für den Polarisationswinkel $\phi_{p1} = \SI{106+-0,4}{\degree}$.
-			Hinzu kommt ein Korrekturfaktor $k=0,994+-0,004$ um Fehler beim Fitten zu reduzieren.
-		
-		\subsubsection*{Diskussion}
+	Eine graphische Darstellung der aufgenommenen Messwerte für den ersten Teilversuch ist Abb. \ref{} zu entnehmen.
+	Dabei sind ... (Farben)
+	Zu erkennen ist ein ... Verlauf
+	Die Messkurve für den zweiten Teilversuch ist in Abb. \ref{label} dargestellt.
+	Wie bei der ersten Messung sind die Messpunkte in (Farben) getrennt.
+	% TODO
 			
-			Nun zu der Überprüfung der Hypothese, dass die Ergebnisse dieses Teilversuches mit dem Gesetz von Malus übereinstimmen.
-			Die Größe $k$ wird hierfür als 1 angenommen, da nahezu keine Abweichung davon vorliegt und nur dem Fit dient.
-			Da die Messpunkte alle auf dem $\cos^2$-Fit liegen und die Intensität $I$ proportional zu der gemessenen Spannung $U$ ist, lässt sich die Hypothese bestätigen.
-			Auch ohne Einstrahlung des Laserlichts von außen eine geringfügige Spannung von \SI{3+-0,21}{\milli\volt} durch das Licht in dem Raum aufgenommen wurde, diese hatte jedoch keinen nennenswerten Einfluss auf das Ergebnis.
+\section{Diskussion}
+			
+	% TODO
