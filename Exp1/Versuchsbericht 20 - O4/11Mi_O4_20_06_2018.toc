@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \contentsline {section}{\numberline {1}Kurzfassung}{1}{section.1}
 \contentsline {section}{\numberline {2}Methoden}{1}{section.2}
 \contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{2}{section.3}
