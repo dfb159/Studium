@@ -19,6 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Mo14}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d2002141c1e99539049cba8fe4f28930}{%
+           family={Mo14},
+           familyi={M\bibinitperiod},
+           given={Gruppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2002141c1e99539049cba8fe4f28930}
+      \strng{fullhash}{d2002141c1e99539049cba8fe4f28930}
+      \strng{bibnamehash}{d2002141c1e99539049cba8fe4f28930}
+      \strng{authorbibnamehash}{d2002141c1e99539049cba8fe4f28930}
+      \strng{authornamehash}{d2002141c1e99539049cba8fe4f28930}
+      \strng{authorfullhash}{d2002141c1e99539049cba8fe4f28930}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Laborbuch O5 - Gruppe Mo14}
+    \endentry
     \entry{WWU}{online}{}
       \name{author}{1}{}{%
         {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%
@@ -47,6 +67,90 @@
       \endverb
       \verb{url}
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=23
+      \endverb
+    \endentry
+    \entry{NISTNa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The NIST Reference on Constants, Units and Uncertainty}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/PhysRefData/Handbook/Tables/sodiumtable2.htm
+      \endverb
+    \endentry
+    \entry{NISTHg}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The NIST Reference on Constants, Units and Uncertainty}
+      \field{urlday}{3}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/PhysRefData/Handbook/Tables/mercurytable2.htm
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/PhysRefData/Handbook/Tables/mercurytable2.htm
+      \endverb
+    \endentry
+    \entry{NIST}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a44b6b00e5eebd7494e1fd00658685e2}{%
+           family={NIST},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{fullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{bibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorbibnamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authornamehash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \strng{authorfullhash}{a44b6b00e5eebd7494e1fd00658685e2}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The NIST Reference on Constants, Units and Uncertainty}
+      \field{urlday}{15}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://physics.nist.gov/cuu/Constants/index.html
+      \endverb
+      \verb{url}
+      \verb https://physics.nist.gov/cuu/Constants/index.html
       \endverb
     \endentry
   \enddatalist
