@@ -1,0 +1,39 @@
+Datum: 03.05.2018, Münster
+Jonathan Max Sigrist <441760>
+
+Einführung in das wissenschaftliche Programmieren - Physik
+Do, 14:00-16:00; Raum ACP W410
+
+Übung 3 - Programmieren in Fortran, Teil 3
+
+1)
+a: Das Programm 'aufgabe1a.f90' nimmt eine ganze Zahl und rechnet die Fakultät dieser Zahl aus.
+	Dabei sind negative Werte nicht berücksichtigt und geben 1 aus.
+
+b: Mithilfe von 'aufgabe1b.f90' wird die Fakultät der ersten 20 ganzen Zahlen ausgegeben.
+	Man kann erkennen, dass der 13te Wert scheinbar der letzte korrekte Wert ist.
+	Der nächste Wert ist dann kleiner, was ein falscher Wert ist.
+	Die höchste durch einen Integer darstellbare Zahl ist jedoch 2^31 - 1, was kleiner als 13! ist.
+	Also kann auch 13! nicht mehr korrekt dargestellt werden.
+
+	Rechnet man die Fakultät mit einem Real, so ist erst der 35ste Wert falsch.
+	Das liegt an der Speicherweise in Exponentialform.
+	Der 34ste Wert passt gerade noch in den Bereich, der von den 8 bits des Exponenten und der Mantisse erlaubt ist.
+	Durch die Beschränkung der Mantisse auf 24 bits kann bei dieser Berechnungen die Zahl allerdings nur zur 7ten Nachkommastelle korrekt dargestellt werden.
+
+2)
+Das Programm 'aufgabe2.f90' berechnet die geforderte Reihe bis zum vom Benutzer eingegebenen Index.
+	Gibt man als Index eine hohe Zahl ein (z. B. 1024), so gibt das Programm 2. als Ergebnis aus.
+	Die Reihe konvergiert also gegen 2.
+
+3)
+Das Programm 'aufgabe3.f90' berechnet für x = k * PI / 10, k = [1, 10] den Sinus durch Taylorapproximation bei x0 = 0.
+	Danach wird der errechnete Wert mit der intrinsischen Sinus Funktion des Compilers verglichen.
+	Man kann erkennen, dass die benötigten Iterationen mit steigendem x ebenso zunimmt.
+	Gerade um die Punkte sin(x) = 0, also x = PI*k, k = 1, 2, ... werden besonders viele Iterationen benötigt.
+	Der relative Fehler liegt bei diesen Werten stets under der absoluten Fehlergrenze.
+
+	Um weitere Werte einzeln zu testen, kann das Programm 'sinTest.f90' benutzt werden.
+
+	Die Teilaufgabe b) kann als Zeile 15 aufgefasst werden.
+	In dieser wird der Formatierungsstring gebildet, welcher später für die Ausgabe verantwortlich ist.

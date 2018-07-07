@@ -1,0 +1,6 @@
+<project version="1">
+  <file name="arrayMod.f90" />
+  <file name="myType.f90" />
+  <file name="test.f90" />
+  <settings hasProjectSettings="False" />
+</project>

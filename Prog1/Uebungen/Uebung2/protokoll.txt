@@ -1,0 +1,62 @@
+Datum: 26.04.2018, Münster
+Jonathan Max Sigrist <441760>
+
+Einführung in das wissenschaftliche Programmieren - Physik
+Do, 14:00-16:00; Raum ACP W410
+
+Übung 2 - Programmieren in Fortran, Teil 2
+
+1)
+a: x**y ist grundsächlich ein korrekter Ausdruck.
+	Während der Laufzeit kann es aber zu einem Error kommen, wenn x negativ ist und y einen Nachkommaanteil besitzt.
+	Es wird in diesem Falle 'NaN' (Not a Number) ausgegeben.
+	(getestet mit aufgabe1.f90)
+
+b: 3*x ist ein korrekter Ausdruck.
+	Bei hohen Werten für x kann ein Overflow auftreten.
+
+c: 3x ist kein korrekter Ausdruck.
+	Der Compiler versucht den Ausdruck als Zahl zu interpretieren und gibt einen Error aus, da x keine Zahl ist.
+	Stattdessen muss 3*x geschrieben werden.
+
+d: 2/-1 ist ein korrekter Ausdruck. Er liefert als Ergebnis -2.
+	Es wird zuerst -1 ausgewertet und dann wird 2 durch diesen Wert dividiert.
+	Es handelt sich bei beiden Werten um ganze Zahlen, sodass auch das Ergebnis eine ganze Zahl ist.
+
+e: 10^5 ist kein korrekter Ausdruck.
+	Das '^' ist in Fortran nicht belegt.
+	Stattdessen ist wahrscheinlich '10**5' oder '10 .XOR. 5' gemeint.
+
+
+2)
+a: 2*3+(4/5)**7 == 6
+	4/5 == 0	=> 2*3+0**7, es handelt sich um eine Integerdivision
+	0**7 == 0	=> 2*3+0
+	2*3 == 6 	=> 6+0
+	6+0 == 6 	=> 6
+
+b: (4.-2.)/1**3/2 == 1.
+	4.-2. == 2.	=> 2./1**3/2
+	1**3 == 1	=> 2./1/2
+	2./1 == 2.	=> 2./2, die 1 wird zuvor in eine reele Zahl konvertiert
+	2./2 == 1.	=> 1., wie zuvor
+
+Die hier errechneten Werte sind mit dem Programm 'aufgabe2.f90' bestätigt.
+
+
+3)
+Das Programm 'aufgabe3.f90' nimmt die geforderten Werte auf und berechnet die Hypotenuse aus Ankathete und Gegenkathete.
+Es gibt beide Werte für die Hypotenuse aus und gibt zusätzlich eine Differenz der beiden Werte aus.
+In allen Testfällen war diese Differenz stets 0., auch bei komplizierten Eingaben.
+Auch bei Rechnungen wie 1./3*3 wird stets 1. ausgegeben.
+In anderen Sprachen (wie z. B. Java) tritt bei dieser Rechnung ein Rundungsfehler auf und es wird 0.9999... ausgegeben.
+Entweder wird die Rechnung beim kompilieren vereinfacht oder es wird intern mit höherer Genauigkeit gerechnet und die Ausgabe rundet das errechnete Ergebnis auf.
+
+4)
+Das Programm 'aufgabe4.f90' fragt den Nutzer nach zwei Werten und berechnet den Wert der gefragten Funktion durch zwei verschiedene Methoden.
+Die erste Methode ist durch das Unterprogramm 'f1' realisiert.
+Es geht alle möglichen Fälle durch und testet jedes Mal beide Variablen auf ihren Wert.
+Die zweite Methode ist in dem Unterprogramm 'f2' umgesetzt.
+Es wird zuerst die x-Variable getestet.
+Da der x-Wert entweder größer oder kleiner sein kann, ist der andere Fall immer durch den Else-Block abgedeckt.
+Das gleiche gilt für die y-Variable, welche nach der x-Variablen getestet wird.

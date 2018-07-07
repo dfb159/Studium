@@ -1,0 +1,5 @@
+<project version="1">
+  <file name="..\Algorithm\diff.f90" />
+  <file name="diffTest.f90" />
+  <settings hasProjectSettings="False" />
+</project>

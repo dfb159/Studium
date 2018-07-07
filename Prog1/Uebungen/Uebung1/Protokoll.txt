@@ -1,0 +1,41 @@
+Datum: 19.04.2018, Münster
+Alexander Puck Neuwirth <439218>
+Jonathan Max Sigrist <441760>
+
+Einführung in das wissenschaftliche Programmieren - Physik
+Do, 14:00-16:00; Raum: ACP 410
+
+Übung 1 - Programmieren in Fortran
+
+
+1)
+Das Programm 'welcome.f90' gibt in der Konsole den String "Guten Tag!" aus
+
+
+2a)
+Das Programm 'quadrat.f90' erwartet eine ganze Zahl als Eingabe und berechnet das Quadrat dieser.
+Danach wird das Ergebnis als Meldung in der Konsole ausgegeben.
+
+2b)
+Man kann die Berechnung des Quadrates in die Write-Methode schreiben.
+Dadurch wird nur noch eine Variable benötigt.
+Da die Read-Methode nicht in die Write-Methode integriert werden kann, muss zuerst die Eingabe in einer Variable zwischengespeichert werden.
+Weniger als eine Variable sind also nicht möglich.
+
+2c)
+Das Ergebnis von 50_000 ist nach dem Programm -1_794_967_296.
+Das eigentliche Ergebnis von 2_500_000_000 ist größer als die maximal darstellbare Zahl von knapp über 2,1e9.
+Es findet ein Overflow statt und es wird bei negativen Zahlen weitergezählt.
+
+
+3a) richtig
+
+3b) falsch, startet mit einer Zahl
+
+3c) falsch, enthält nicht erlaubtes Symbol ('*')
+
+3d) falsch, enthält nicht erlaubtes Symbol ('-')
+
+3e) richtig
+
+Die Dompilerausgaben des Beispielprogramms ('names.f90') bestätigen diese Annahmen.
