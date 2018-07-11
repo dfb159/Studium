@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  10 JUL 2018 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  11 JUL 2018 23:13
 entering extended mode
 **./11Mi_O6_04_07_2018.tex
 (11Mi_O6_04_07_2018.tex
@@ -3107,46 +3107,46 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 133.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 138.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 138.
+Package cleveref Info: loaded `ngerman' language definitions on input line 154.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 161.
+(babel)             in language  on input line 154.
+ [6]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 163.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 177.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 177.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 179.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 183.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 193.
 ) (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
-Package cleveref Info: loaded `ngerman' language definitions on input line 102.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
- [6]
 Package cleveref Info: loaded `ngerman' language definitions on input line 102.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -3168,13 +3168,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 36.
-<bilder/testbild.png, id=182, 401.5pt x 354.32375pt>
+(babel)             in language  on input line 41.
+<bilder/testbild.png, id=190, 401.5pt x 354.32375pt>
 File: bilder/testbild.png Graphic file (type png)
 <use bilder/testbild.png>
-Package pdftex.def Info: bilder/testbild.png  used on input line 40.
+Package pdftex.def Info: bilder/testbild.png  used on input line 45.
 (pdftex.def)             Requested size: 313.69029pt x 276.84718pt.
 )
 Package cleveref Info: loaded `ngerman' language definitions on input line 108.
@@ -3242,11 +3242,11 @@ Package logreq Info: Writing requests to '11Mi_O6_04_07_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42433 strings out of 493307
- 814368 string characters out of 3138825
- 1382933 words of memory out of 3000000
- 45316 multiletter control sequences out of 15000+200000
- 605347 words of font info for 111 fonts, out of 3000000 for 9000
+ 42464 strings out of 493307
+ 814839 string characters out of 3138825
+ 1386981 words of memory out of 3000000
+ 45336 multiletter control sequences out of 15000+200000
+ 615542 words of font info for 121 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,20n,106p,10410b,2244s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -3267,9 +3267,9 @@ onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 tt12.pfb>
-Output written on 11Mi_O6_04_07_2018.pdf (12 pages, 601830 bytes).
+Output written on 11Mi_O6_04_07_2018.pdf (12 pages, 611892 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 27307 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 29355 words of extra memory for PDF output out of 29859 (max. 10000000)
 

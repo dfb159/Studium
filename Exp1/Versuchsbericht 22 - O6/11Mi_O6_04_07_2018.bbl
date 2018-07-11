@@ -19,6 +19,34 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Gimp}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4080603d44e41e483be2c09a8033dbfc}{%
+           family={Gimp},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4080603d44e41e483be2c09a8033dbfc}
+      \strng{fullhash}{4080603d44e41e483be2c09a8033dbfc}
+      \strng{bibnamehash}{4080603d44e41e483be2c09a8033dbfc}
+      \strng{authorbibnamehash}{4080603d44e41e483be2c09a8033dbfc}
+      \strng{authornamehash}{4080603d44e41e483be2c09a8033dbfc}
+      \strng{authorfullhash}{4080603d44e41e483be2c09a8033dbfc}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GNU IMAGE MANIPULATION PROGRAM}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gimp.org/
+      \endverb
+      \verb{url}
+      \verb https://www.gimp.org/
+      \endverb
+    \endentry
     \entry{WWU}{online}{}
       \name{author}{1}{}{%
         {{hash=f2c1adb053fe38e8e29a6f9bee3d2f55}{%

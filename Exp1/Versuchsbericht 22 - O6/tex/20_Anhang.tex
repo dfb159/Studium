@@ -1,7 +1,7 @@
 \subsection{Unsicherheiten}\label{subsec:unc}
 
 Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet.
-Die Gleichungen dazu finden sich in \ref{fig:GUM_combine} und \ref{fig:GUM_formula}.
+Die Gleichungen dazu finden sich in Abb. \ref{fig:GUM_combine} und Abb. \ref{fig:GUM_formula}.
 Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
 Alle konkreten Unsicherheitsformeln stehen weiter unten.
 Für Unsicherheiten in graphischen Fits wurden die $y$-Unsicherheiten beachtet und die Methode der kleinsten Quadrate angewandt.
@@ -10,7 +10,12 @@ Dafür steht in der Bibliothek die Methode "scipy.optimize.curve\_fit()" zur Ver
 Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[item] % TODO0
+	\item[Millimeter pro 16 Pixel] Für die Millimeter pro 16 Pixel wurde eine Unsicherheit von $\SI{0,2}{\milli\meter}$ gewählt.
+	\item[Schräge Skala] Für die Unsicherheit bei dem Ablesen der Skala auf dem schrägen Schirm wurde eine größere Unsicherheit von $\SI{5}{\milli\meter}$ gewählt, da der genaue Punkt des Übergangs zwischen scharf und unscharf nicht eindeutig zu bestimmen war.
+	\item[Höhe des scharfen Bereichs] Analog zu der schrägen Skala wird hier eine große Unsicherheit angenommen, hier hingegen $\SI{2,5}{\milli\meter}$.
+	\item[Subjektive Schärfentiefe] Diese Unsicherheit folgt aus letzteren und Abb. \ref{fig:GUM_combine}.
+	Sie beläuft sich auf \SI{6,61}{\milli\meter}		
+		% TODO0
 	
 \end{description}
 \begin{figure}[ht]

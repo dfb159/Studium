@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Aufnahmen mit dem Nikkor Objektiv}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Aufnahmen mit der Einzellinse}{6}{subsection.3.2}
-\contentsline {section}{\numberline {4}Datenanalyse}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Sch\IeC {\"a}rfentiefe bei dem Nikkor Objektiv}{7}{subsection.4.1}
+\contentsline {section}{\numberline {4}Datenanalyse}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sch\IeC {\"a}rfentiefe bei dem Nikkor Objektiv}{6}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Aufl\IeC {\"o}sung bei dem Nikkor-Objektiv}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Aufl\IeC {\"o}sung bei der Einzellinse}{7}{subsection.4.3}
 \contentsline {subsubsection}{\numberline {4.3.1}einfache Blenden}{7}{subsubsection.4.3.1}
