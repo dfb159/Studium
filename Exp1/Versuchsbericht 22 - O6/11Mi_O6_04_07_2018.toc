@@ -10,13 +10,13 @@
 \contentsline {subsection}{\numberline {3.2}Aufnahmen mit der Einzellinse}{6}{subsection.3.2}
 \contentsline {section}{\numberline {4}Datenanalyse}{6}{section.4}
 \contentsline {subsection}{\numberline {4.1}Sch\IeC {\"a}rfentiefe bei dem Nikkor Objektiv}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Aufl\IeC {\"o}sung bei dem Nikkor-Objektiv}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Aufl\IeC {\"o}sung bei der Einzellinse}{7}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}einfache Blenden}{7}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Lochblende}{7}{subsubsection.4.3.2}
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}
-\contentsline {section}{\numberline {6}Schlussfolgerung}{7}{section.6}
-\contentsline {section}{\numberline {7}Anhang}{8}{section.7}
-\contentsline {subsection}{\numberline {7.1}Unsicherheiten}{8}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Zusatz}{10}{subsection.7.2}
-\contentsline {section}{\nonumberline Literatur}{11}{section*.5}
+\contentsline {subsection}{\numberline {4.2}Aufl\IeC {\"o}sung bei dem Nikkor-Objektiv}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Aufl\IeC {\"o}sung bei der Einzellinse}{8}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}einfache Blenden}{8}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Lochblende}{8}{subsubsection.4.3.2}
+\contentsline {section}{\numberline {5}Diskussion}{8}{section.5}
+\contentsline {section}{\numberline {6}Schlussfolgerung}{8}{section.6}
+\contentsline {section}{\numberline {7}Anhang}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}Unsicherheiten}{9}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Zusatz}{11}{subsection.7.2}
+\contentsline {section}{\nonumberline Literatur}{12}{section*.6}

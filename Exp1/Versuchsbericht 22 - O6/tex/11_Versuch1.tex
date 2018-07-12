@@ -43,7 +43,7 @@
 		\begin{equation} \label{eq:hyperfokal}
 			d_\text{h} = \frac{f^2}{k\cdot Z} + f = f \left( \frac{D}{Z}+1\right) .
 		\end{equation}
-		Der Nahpunkt errechnet sich für eine Gegenstandsweite (bzw. Fokusentfernung) $g$ durch
+		Der Nahpunkt errechnet sich für eine Gegenstandsweite $g$ durch
 		\begin{equation} \label{eq:nah}
 			d_\text{n} = \frac{g}{\frac{g-f}{d_h-f}+1}
 		\end{equation} 
@@ -117,7 +117,7 @@
 		Für die Blendzahlen $k=1,8$ und 2,8, 4, 5.6, 8, 11, 16, sowie 22 wurden je ein Foto von dem Testbild aufgenommen.
 		Bei der Aufnahme dieser Fotos war die Kamera auf "Zeitautomatik" eingestellt, sodass die Belichtungszeit automatisch angepasst wurde.
 		Damit beide Schirme auf den Fotos sichtbar wurden, wurde mit Hilfe der Liveview-funktion gearbeitet.
-		Der Abstand der Kamera zu dem vertikalen Schirm betrug hierbei \SI{102+-0,40}{\centi\meter}.
+		Der Abstand der Kamera zu dem vertikalen Schirm betrug hierbei $g = \SI{102+-0,40}{\centi\meter}$.
 		
 	\subsection{Aufnahmen mit der Einzellinse}
 	
@@ -128,7 +128,7 @@
 		Diese Histogramme zeigten die Belichtung.
 		Ihre Darstellung war eine der verschiedenen Kamerafunktionen.
 		Neben der Belichtung der Kamera wurde für dieses Objektiv zusätzlich eine externe Lampe auf den Schirm gerichtet, damit dieser heller und somit die Kontraste besser zu erkennen waren. 
-		Für diesen Versuchsteil war der Abstand zwischen den Schirmen und der Kamera \SI{46,5+-0,40}{\centi\meter}.
+		Für diesen Versuchsteil war der Abstand zwischen den Schirmen und der Kamera $g = \SI{46,5+-0,40}{\centi\meter}$.
 		
 \section{Datenanalyse} \label{sec:Analyse}
 	
@@ -143,33 +143,57 @@
 		Dazu wurde das Bildbearbeitungsprogramm "Gimp"\cite{Gimp} verwendet.
 		Auf den Fotos entsprach \SI{1+-0,2}{\milli\meter} gerade 16 Pixeln.
 		Alle Fotos besaßen die gleichen Maße von 6016 x 4000 Pixeln.
-		Daraus folgt eine Diagonale von \SI{451,53+-0,02}{\milli\meter}.
-		Die Werte für die theoretische Schärfentiefe $S$ Ergibt sich durch $S = |d_\text{f}-d_\text{n}|$ welche aus Einsetzen in die Gleichungen \ref{eq:fern} und \ref{eq:nah} folgen.
-		Diese sind in Tabelle \ref{tab:Schärfentiefe} aufgelistet.
-		Zudem sind die subjektiven Schärfentiefen in dieser Tabelle aufgefasst.
+		Daraus folgt eine Diagonale von $D_\text{B} = \SI{451,53+-0,02}{\milli\meter}$.
+		Die Werte für die theoretische Schärfentiefe $S$ Ergibt sich durch
+		\begin{equation}
+			S = |d_\text{f}-d_\text{n}| = g\cdot (d_\text{h}-f) \cdot \left( \frac{1}{d_\text{h} - g} - \frac{1}{d_\text{h} + g -2f} \right),
+		\end{equation}
+		welche aus Einsetzen der Gleichungen \ref{eq:fern} und \ref{eq:nah} folgen.
+		Diese sind in Tab. \ref{tab:Schärfentiefe_theo} aufgelistet.
+		
+		Die subjektiv empfundenen Schärfentiefen sind in Tab. \ref{tab:Schärfentiefe_subj} aufgefasst.
 		Diese ergeben sich wie in Abschnitt \ref{subsec:Theorie} beschrieben aus $S_\text{sub}^2 = d^2 - h^2$.
 		Dabei wurde $h$ aus der Pixelhöhe des scharfen Bereichs an der Zentimeterskala aus den Fotos entnommen und $d$ dem Abstand auf der Skala selber.
-		Auch diese Größen sind in Tabelle \ref{tab:Schärfentiefe}.
+		Auch diese Größen sind in Tab. \ref{tab:Schärfentiefe_subj}.
 		Da für die letzten beiden Blendzahlen $k$ die ganze Skala scharf zu erkennen war, wurde die subjektive Schärfentiefe $S_\text{sub}$ dort nur in einer Mindestgröße tabulliert.
+			
+		\begin{table}[ht]
+			\centering
+			\begin{tabular}{c|c|c|}
+				$k$ & $d_\text{h}$ & $S$ \\
+				\hline
+				1,8 &  \SI{5113.94+-50.20}{\milli\meter} &  \SI{31.55+-105.76}{\milli\meter} \\
+				2,8 &  \SI{3466.11+-50.13}{\milli\meter} &  \SI{84.27+-105.61}{\milli\meter} \\
+				4 &  \SI{2576.27+-50.09}{\milli\meter} &  \SI{116.04+-105.52}{\milli\meter} \\
+				5,6 &  \SI{1983.05+-50.07}{\milli\meter} &  \SI{180.15+-105.47}{\milli\meter} \\
+				8 &  \SI{1538.14+-50.05}{\milli\meter} &  \SI{267.33+-105.43}{\milli\meter} \\
+				11 &  \SI{1255.01+-50.03}{\milli\meter} &  \SI{427.37+-105.40}{\milli\meter} \\
+				16 &  \SI{1019.07+-50.02}{\milli\meter} & $\infty$ da $ g > d_\text{h}$ \\
+				22 &  \SI{877.50+-50.02}{\milli\meter} & $\infty$ da $ g > d_\text{h}$ \\
+			\end{tabular}
+			\caption{sample.}
+			\label{tab:Schärfentiefe_theo}
+		\end{table}
 		
 		\begin{table}[ht]
 			\centering
-			\begin{tabular}{c|c|c|c|c}
-				$k$ & $h$ & $d$ & $S_\text{sub}$ & $S$ \\
+			\begin{tabular}{c|c|c|c}
+				$k$ & $h$ & $d$ & $S_\text{sub}$\\
 				\hline
-				1,8 & \SI{27,19+-2,5}{\milli\meter} & \SI{65+-7,1}{\milli\meter} & \SI{59,04+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				2,8 & \SI{36,44+-2,5}{\milli\meter} & \SI{90+-7,1}{\milli\meter} & \SI{82,29+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				4 & \SI{42,50+-2,5}{\milli\meter} & \SI{105+-7,1}{\milli\meter} & \SI{96,01+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				5,6 & \SI{54,06+-2,5}{\milli\meter} & \SI{135+-7,1}{\milli\meter} & \SI{123,70+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				8 & \SI{69,94+-2,5}{\milli\meter} & \SI{175+-7,1}{\milli\meter} & \SI{160,42+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				11 & \SI{103,06+-2,5}{\milli\meter} & \SI{245+-7,1}{\milli\meter} & \SI{222,27+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				16 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
-				22 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-6,61}{\milli\meter} & \SI{}{\milli\meter} \\
+				1,8 & \SI{27,19+-2,5}{\milli\meter} & \SI{65+-7,1}{\milli\meter} & \SI{59,04+-7,90}{\milli\meter}\\
+				2,8 & \SI{36,44+-2,5}{\milli\meter} & \SI{90+-7,1}{\milli\meter} & \SI{82,29+-7,84}{\milli\meter}\\
+				4 & \SI{42,50+-2,5}{\milli\meter} & \SI{105+-7,1}{\milli\meter} & \SI{96,01+-7,84}{\milli\meter}\\
+				5,6 & \SI{54,06+-2,5}{\milli\meter} & \SI{135+-7,1}{\milli\meter} & \SI{123,70+-7,83}{\milli\meter}\\
+				8 & \SI{69,94+-2,5}{\milli\meter} & \SI{175+-7,1}{\milli\meter} & \SI{160,42+-7,82}{\milli\meter} \\
+				11 & \SI{103,06+-2,5}{\milli\meter} & \SI{245+-7,1}{\milli\meter} & \SI{222,27+-7,91}{\milli\meter}\\
+				16 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-7,98}{\milli\meter}\\
+				22 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-7,98}{\milli\meter}\\
 			\end{tabular}
 			\caption{sample.}
-			\label{tab:Schärfentiefe}
+			\label{tab:Schärfentiefe_subj}
 		\end{table}
-	
+			
+		
 	\subsection{Auflösung bei dem Nikkor-Objektiv}
 		
 		% TODO
