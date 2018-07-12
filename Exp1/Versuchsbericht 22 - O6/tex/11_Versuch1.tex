@@ -1,17 +1,16 @@
-\section{Methoden} \label{sec:Methoden}
-	
-	\subsection{Aufbau}	
-		
-		\begin{figure}[ht]
-			\centering
-			\includegraphics[width=0.8\textwidth]{bilder/aufbau.png}
-			\caption{sample.\cite{WWU}} %TODO alex
-			\label{fig:aufbau}	
-		\end{figure}	
+\section{Methoden} \label{sec:Methoden}	
+	\subsection{Aufbau}			
+			
 		Der Versuchsaufbau ist in Abb. \ref{fig:aufbau} dargestellt.
 		Zu erkennen sind eine digitale Kamera und zwei Schirme, von denen einer verkippt liegt.
 		Neben dem Objektiv auf der Kamera liegt ein weiteres mit einer Reihe an Blenden vor.
-		
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[width=0.8\textwidth]{bilder/aufbau.png}
+			\caption{Der Versuchsaufbau bestehend aus einer Digitalkamera und zwei Schirmen, von denen einer gekippt liegt.\cite{WWU}}
+			\label{fig:aufbau}	
+		\end{figure}
+	
 		Auf beiden Schirmen sind Testabbildungen aufgedruckt.
 		Diese sind im Anhang in Abb. \ref{fig:testbild} dargestellt.
 		
@@ -189,7 +188,7 @@
 				16 & $\geq$ \SI{138,00+-7,34}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{232,07+-9,34}{\milli\meter}\\
 				22 & $\geq$ \SI{138,00+-7,34}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{232,07+-9,34}{\milli\meter}\\
 			\end{tabular}
-			\caption{Subjektive Schärfentiefe $S_\text{Sub}$ für verschiedene Blendenzahlen $k$.} %TODO alex: details
+			\caption{Subjektive Schärfentiefe $S_\text{Sub}$ für verschiedene Blendenzahlen $k$. Zudem die beiden abgelesenen Größen $h$ und $d$ aus denen sich die subjektiv empfundene Schärfentiefe $S_\text{Sub}$ zusammensetzt.}
 			\label{tab:Schärfentiefe_subj}
 		\end{table}		
 		
@@ -197,107 +196,123 @@
 		
 		Die von dem ImageJ-Plugin berechneten MTF-Kurven sind für die verschiedenen Blendenzahlen $k$ in Abb. \ref{fig:kStufen} aufgetragen.
 		Für alle Kurven ist ein schneller Abfall auf einen MTF-Wert von null zu erkennen.
-		Je höher $k$ desto niedriger sind die Frequenzen, bei denen null erreicht wird.
 		Bei einigen Kurven ist zudem noch eine schwache Überschwingung nach dem erstmaligen Erreichen von null zu beobachten.
+		
+		Ein rascher Abfall bedeutet, dass dem Bild die hohen Frequenzen fehlen und so scharfe Kanten nicht abgebildet werden können. 
+		Eine hohe Halbwertsfrequenz (MTF-Wert = 0,5) zieht also eine hohe Schärfe und Qualität mit sich. 
+		Das schärfste Bild wurde somit bei $k=5,6$ bzw. $k = 8$ geschossen.
 		\begin{figure}[ht]
 			\centering
-			\includegraphics[width=1\textwidth]{data/kStufen.pdf}
-			\caption{MTF-Kurven aller 8 Blendenzahlen $k$ sowie die Halbwertsfrequenzen dieser. Ein rascher Abfall bedeutet, dass dem Bild die hohen Frequenzen fehlen und so scharfe Kanten nicht abgebildet werden können. Eine hohe Halbwertsfrequenz zieht also eine hohe Schärfe und Qualität mit sich. Das schärfste Bild wurde somit mit $k=5,6$ bis $k = 8$ geschossen.}
+			\includegraphics[width=0.95\textwidth]{data/kStufen.pdf}
+			\caption{MTF-Kurven aller acht Blendenzahlen $k$ sowie die Halbwertsfrequenzen dieser. }
 			\label{fig:kStufen}	
 		\end{figure}
-		Bei der Grenzfrequenz $f_{1/2}$ ist der MTF-Wert auf die Hälfte abgefallen.
-		Diese Frequenzen sind in Abhängigkeit der Blendenzahl $k$ in Abb. \ref{fig:kStufen} dargestellt.
-		Aus dieser Abbildung lässt sich entnehmen, dass die Grenzfrequenz zwischen $k = 5,6$ und $k = 8,0$ am höchsten sein muss.
+		
+		Die Halbwertsfrequenzen wurden in Abb. \ref{fig:kStufen} in Abhängigkeit der Blendenzahl $k$ dargestellt.
+		Aus dieser Abbildung lässt sich entnehmen, dass die Auflösung tatsächlich zwischen $k=5,6$ und $k = 8$.
 		\begin{figure}[ht]
 			\centering
-			\includegraphics[width=1\textwidth]{data/kHalbe.pdf}
-			\caption{Die Halbwertsfrequenz aufgetragen gegen die Blendenzahl $k$. Der Hochpunkt bei $k = 8$ ist der Punkt des schärfsten Bildes.}
+			\includegraphics[width=0.95\textwidth]{data/kHalbe.pdf}
+			\caption{Die Halbwertsfrequenz aufgetragen gegen die Blendenzahl $k$. Der Hochpunkt bei $k=5,6$ bzw. $k = 8$ ist der Punkt des schärfsten Bildes.}
 			\label{fig:kHalbe}	
 		\end{figure}
 	
 	\subsection{Auflösung bei der Einzellinse}
 
 		\subsubsection{einfache Blenden}
-						
+			
+			Für die Einzellinse ergaben sich bei den der Betrachtung der Streifenpaare, welche auf dem Testbild (vgl. Abb. \ref{fig:testbild}) zu sehen sind, für die verschiedenen Blenden die in den Abbildungen \ref{fig:FFT1} und \ref{fig:FFT2} dargestellte Frequenzanteile.
+			Dazu wurde in ImageJ eine Rechteck über viele Streifen (mit gleicher Rate) möglichst gleichmäßig gezogen und ein Profil erstellt.
+			Dieses sinusförmige Profil wurde dann über python mit dem scipy.fftpack.fft fouriertransformiert.
+			Für die breiten Streifen ergab sich die Darstellung in Abb. \ref{fig:FFT1} und die in \ref{fig:FFT2} für die dünnsten Streifen.			
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=1\textwidth]{data/FFTLinie1.pdf}
+				\includegraphics[width=0.95\textwidth]{data/FFTLinie1.pdf}
 				\caption{Die Frequenzen der breiten Streifenpaare aller vier Blenden. Diese wurden mittels FFT bestimmt. Die Peaks aller Blenden sind erkennbar.}
 				\label{fig:FFT1}
-			\end{figure}
-			
+			\end{figure}		
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=1\textwidth]{data/FFTLinie4.pdf}
+				\includegraphics[width=0.95\textwidth]{data/FFTLinie4.pdf}
 				\caption{Die Frequenzen der engsten Streifenpaare aller vier Blenden. Im Vergleich zu Abb. \ref{fig:FFT1} sind diese deutlich kleiner und reichen nicht mehr so weit in den Frequenzraum hinein.}
 				\label{fig:FFT2}	
 			\end{figure}
 			
+			Neben den Streifenprofilen wurden auch für die Einzellinse MTF-Kurven durch das zugehörige ImageJ-Plugin bestimmt.
+			Diese sind in Abb. \ref{fig:MTF} vorzufinden.
+			Ohne Blende und für die drei mit gegebener Größe sind die MTF-Kurven dargestellt und die den Kurven entsprechenden Halbwertsbreiten in Pixeln angegeben.
+			Diese bestimmen das Auflösungsvermögen, je kleiner die Halbwertsbreite (/größer die Halbwertsfrequenz) desto größer die Auflösung.
+			Die \SI{3.75}{\milli\meter}-Blende zeigt das beste Auflösungsvermögen.
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=1\textwidth]{data/MTFKanteLinsen.pdf}
-				\caption{Die MTF-Kurven für die Einzelblenden. Dabei ist die Halbwertsbreite in Pixeln angegeben, was das Auflösungsvermögen bestimmt. Je höher diese Halbwertsbreite ist, desto größer die Auflösung.}
+				\includegraphics[width=0.95\textwidth]{data/MTFKanteLinsen.pdf}
+				\caption{Die MTF-Kurven für die Einzelblenden. Dabei ist die Halbwertsbreite in Pixeln angegeben, welche das Auflösungsvermögen bestimmt. Je höher diese Halbwertsbreite ist, desto größer die Auflösung.}
 				\label{fig:MTF}	
 			\end{figure}
-					
+			
+			Bei den Siemenssternen wurde wie auch bei den Linienpaaren pro Stern ein Profil erstellt, wobei jeweils ein Profil durch ein weißes und ein schwarzes Segment gezogen wurde.
+			In Abb. \ref{fig:Sterne1} sind die beiden Profile für die Graudifferenz der \SI{3.75}{\milli\meter}-Blende und des Fotos ohne Blende dargestellt.	
+			Zu erkennen ist, dass am Rand des Siemenssterns Störungen auftreten.
+			In der Mitte liegt ein nicht eingefärbtes weißes Gebiet, weshalb die Differenz hier null wird.
+			Die Werte wurden in ihrer Umgebung gemittelt, um Rauschen zu unterdrücken.
+			Die kleinere Blende hat eine deutlich höhere Differenz und demnach einen höheren Kontrast.
+			Zusätzlich fällt die Differenz in Richtung Mitte nicht so schnell ab und die Halbwertsbreite ist so kleiner, was auf einen schärferen Übergang und somit höhere Auflösung hindeutet.	
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=1\textwidth]{data/Sterne.pdf}
-				\caption{Differenz der Grauwerte von einem Profil durch ein weißes und ein Profil durch ein schwarzes Segment.
-					 Dargestellt sind die beiden Profile der \SI{3.75}{\milli\meter}-Blende und des Fotos ohne Blende.
-					 Am Rand des Siemenssternes treten Störungen auf.
-					 In der Mitte liegt ein nicht eingefärbtes weißes Gebiet, weshalb die Differenz hier null wird.
-					 Die Werte wurden in ihrer Umgebung gemittelt, um Rauschen zu unterdrücken.
-					 Die kleinere Blende hat allgemein eine deutlich höhere Differenz, also einen höheren Kontrast.
-					 Zusätzlich fällt die Differenz in Richtung Mitte nicht so schnell ab und die Halbwertsbreite ist so kleiner, was auf einen schärferen Ubergang und somit höhere Auflösung hindeutet.
+				\includegraphics[width=0.95\textwidth]{data/Sterne.pdf}
+				\caption{Differenz der Grauwerte von einem Profil durch ein weißes und ein Profil durch ein schwarzes Segment.}
 				\label{fig:Sterne1}	
 			\end{figure}
 		
-			%TODO kann sein das das wo anders hin kommt
-			Die in Abb. \ref{fig:FFT2} gezeigten Frequenzen deuten darauf hin, dass die Streifen nicht mehr gut aufgelöst werden können.
-			Die Peaks für $d = \SI{3.75}{\milli\meter}$ und $d = \SI{7.5}{\milli\meter}$ sind deutlich kleiner als in Abb. \ref{fig:FFT1} und für größere $d$ lassen diese sich fast nicht mehr ausmachen.
-			Das die Frequenzen nicht mehr so weit in den Frequenzraum ragen, deutet auf einen weicheren Übergang zwischen den einzelnen Streifen hin, also einem Verwischen der Bereiche.
-			Die kleinste Blende weist hier den größten Peak und den kleinsten Abfall auf, also ist die Auflösung mit dieser Blende am höchsten.
-			
-			In Abb. \ref{fig:MTF} sind die MTF-Kurven für die vier verschiedenen Blenden angegeben.
-			Man kann wie erwartet sehen, dass die \SI{3.75}{\milli\meter}-Blende das beste Auflösungsvermögen zeigt.
-			Dies untermauert obige Aussage, dass diese Blende die höchste Auflösung ermöglicht.
-			
 		\subsubsection{Lochblende}
 			
+			Bei der Lochblende war die Bestimmung der Auflösung nicht möglich, da das Bild so unscharf war, dass das MTF-Plugin keine Linie zwischen der großen schwarzen und weißen Fläche ziehen konnte (siehe Abb. \ref{fig:fail}).
+			Auch über die Linienpaare zu gehen war hier nicht zielführend.
+			
+			Aus der Belichtungszeit ließ sich die Größe der Lochblendenöffnung ermitteln.
+			Dazu sind die benötigten Beleichtungszeiten $T$ in Abhängigkeit des Blendendurchmessers $d$ in Abb. \ref{fig:Belichtung} aufgetragen.
+			Dem annähernd linearen Verlauf der logarithmisch aufgetragenen Datenpunkte lässt sich eine Blendengröße von ca. \SI{0,235+-0,035}{\milli\meter} entnehmen.
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=1\textwidth]{data/Zeitvergleich.pdf}
-				\caption{Die Belichtungszeit gegen den Blendendurchmesser aufgetragen. Die Achsen sind logarithmisch skalliert. Es folgt ein linearer Verlauf und der Blendendurchmesser der Lochblende kann etwa auf \SI{0.3}{\milli\meter} abgeschätzt werden.
+				\includegraphics[width=0.85\textwidth]{data/Zeitvergleich.pdf}
+				\caption{Die Belichtungszeit gegen den Blendendurchmesser aufgetragen. Die Achsen sind logarithmisch skalliert. Es folgt ein linearer Verlauf und der Blendendurchmesser der Lochblende kann etwa auf \SI{0.3}{\milli\meter} abgeschätzt werden.}
 				\label{fig:Belichtung}	
 			\end{figure}
-			
-			% TODO
-	
-	% Datenanalyse:
-	% - alle Messungen darstellen
-	% - wichtige Beobachtungen beschreiben (Bedeutung dieser erklären)
-	% - Aufführung der Formeln/Rechnungen zur Datenanalyse (nachvollziehbar ~ Quellen)
-	% - Alle Originaldaten zur Verfügung stellen (~ Laborbuch)
-		
+
 \section{Diskussion}
 	
-	% TODO
-	% Bezug:
-	% - Rückgriff auf Hypothese/Problemstellung (Unterstützung?)
-	% - Rolle der Ergebnisse in der Bewertung einbringen
-	% 
-	% Argumentation:
-	% - Daten/Ergebnisse überzeugend für Argumentation verwenden
-	% 
-	% Logik: 
-	% - Schlussfolgerungen logisch aus den Daten/Ergebnisse und Vorwissen ziehen
-	% 
-	% Unsicherheiten:
-	% - Quellen für Unsicherheiten identifizieren
-	% - Auswirkungen dieser auf Ergebnisse erläutern
-	% 
-	% Zusammenhang:
-	% - Ergebnisse in wissenschaftlichen Kontext einordnen
-	% - Auswirkungen diskutieren
-	% - weiterführende Unterstützungen oder Verbesserungen vorschlagen
+	Es stellt sich die Frage, ob die Ergebnisse mit den Zielen übereinstimmen.
+	Dazu zunächst der Vergleich zwischen der theoretischen und subjektiv empfunden Schärfentiefe bei dem Nikkor Objektiv.
+	Für die ersten beiden Werte lässt sich definitiv die gewünschte Übereinstimmung finden, da diese innerhalb einer Standardabweichung voneinander liegen.
+	Siehe $S = \SI{50.2+-2.5}{\milli\meter}$ und $S_\text{sub} = \SI{56,67+-8,31}{\milli\meter}$ und noch näher $S = \SI{78+-4}{\milli\meter}$ und $S_\text{sub} = \SI{79,25+-8,26}{\milli\meter}$ für die Blendenzahlen $k = 1,8$ und $k = 2,8$.
+	Bei größeren $k$ jedoch wird die Abweichung immer größer.
+	Die Werte sind jedoch auch mit großen Unsicherheiten behaftet, da verschiedene Größen den Fotos entnommen werden mussten und z. B. die Messung des scharfen Bereichs auf den Fotos mit steigender Blendenzahl $k$ schwerfälliger wurde.
+	Zumindest übersteigen die theoretischen Schärfentiefen für die Blendenzahlen $k = 16$ und $k = 22$ die ermittelte Mindestschärfentiefe, die für diese bestimmt wurde, da die ganze Skala scharf zu erkennen war.
+	Für das vorgegebene $Z = D_\text{B}/1500$ lässt sich also keine genaue Aussage treffen.
+	Die ersten Werte stimmen überein und für die weiteren sind die Unsicherheiten zu groß. 
+	
+	Bei den Auflösungsvermögen, weiterhin bei dem Nikkor Objektiv, ließen sich die optimalen Blendenzahlen $k = 5,6$ und $k = 8$ ermitteln.
+	Diese zeichnen sich dadurch aus, dass sie die kleinste Halbwertsbreite und somit die größten Halbwertsfrequenzen haben und deswegen schwächer von Rauschen beeinflusst werden.
+	Abb. \ref{fig:kStufen} und \ref{fig:kHalbe} zeigen dies.
+	
+	Ein ähnliches Verhalten wurde bei der Einzellinse und den verschiedenen Blenden betrachtet.
+	Hier zeigte die \SI{3,75}{\milli\meter}-Blende die besten Ergebnisse, also die geringste Halbwertsbreite.
+	Verglichen mit der Siemenssternmethode liefert die MTF-Methode das gleiche Ergebnis.
+	In Abb. \ref{fig:Sterne1} ist das Verhältnis der erkennbaren Graudifferenz bzw. des Kontrastes für die \SI{3,75}{\milli\meter}-Blende und ohne Blende zueinander dargestellt.
+	Dabei ist deutlich zu erkennen, dass die Blende das bessere Auflösungsvermögen zeigt, da der Kontrast wesentlich stärker zu erkennen ist.
+	
+	Auch bei den Linienpaaren lässt sich dies beobachten.
+	Die in Abb. \ref{fig:FFT2} dargestellten Frequenzen deuten darauf hin, dass die Streifen nicht mehr gut aufgelöst werden können.
+	Verglichen mit Abb. \ref{fig:FFT1} sind die Peaks für $d = \SI{3.75}{\milli\meter}$ und $d = \SI{7.5}{\milli\meter}$ deutlich kleiner und für größere $d$ lassen diese sich fast nicht mehr ausmachen.
+	Dass die Frequenzen nicht mehr so weit in den Frequenzraum ragen, deutet auf einen weicheren Übergang zwischen den einzelnen Streifen hin, also einem Verwischen der Bereiche.
+	Die \SI{3,75}{\milli\meter}-Blende weist hier den größten Peak und den kleinsten Abfall auf, demnach ist die Auflösung mit dieser Blende am höchsten.
+	
+	Dass keine MTF-Kurve aus dem Foto mit der Lochblende bestimmt werden konnte, lässt darauf schließen, dass das Foto suboptimal aufgenommen wurde.
+	Dies kann u. A. an der zusätzlichen Beleuchtung des Schirms gelegen haben oder beispielsweise an dem Abstand zu dem Schirm.
+	Eine erneute Aufnahme dieses Fotos erscheint an dieser Stelle sinnvoll.
+	
+	Zumindest ließen sich die Belichtungszeiten für alle Blenden aufnehmen, die für die gleiche Belichtung benötigt wurden.
+	Daraus konnte die Größe der Lochblendenöffnung auf \SI{0,235+-0,035}{\milli\meter} approximiert werden.
+	
+	Bis auf die Abweichungen bei Schärfentiefen $S_\text{(sub)}$ bei höheren Blendenzahlen $k$ und dem Lochblenden-Foto ließen sich die restlichen Ziele decken.
+	Dass Blenden dazu genutzt werden können Linsenfehler, wie Unschärfe am Rand, zu minimieren konnte insbesondere durch die \SI{3,75}{\milli\meter}-Blende gezeigt werden.
