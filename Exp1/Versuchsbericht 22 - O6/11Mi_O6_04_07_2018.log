@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  12 JUL 2018 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  12 JUL 2018 20:58
 entering extended mode
 **./11Mi_O6_04_07_2018.tex
 (11Mi_O6_04_07_2018.tex
@@ -3110,6 +3110,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 138.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 138.
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! siunitx error: "duplicate-decimal-token"
+! 
+! Duplicate decimal marker token ',' in input.
+! 
+! See the siunitx documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.146 ...t{B} = \SI{528,61+-0,26,43}{\milli\meter}
+                                                  $.
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| Only one decimal marker token can appear in a single number.
+|...............................................
+
 Package cleveref Info: loaded `ngerman' language definitions on input line 148.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -3120,7 +3139,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 148.
- [6]
+[6]
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! siunitx error: "misplaced-sign-token"
+! 
+! Misplaced sign token '119,24+-'.
+! 
+! See the siunitx documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.186 ...illi\meter} & \SI{119,24+-}{\milli\meter}
+                                                  \\
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| Sign tokens can only come at the beginning of a number.
+|...............................................
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 197.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3220,16 +3257,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
-
-[11 <./bilder/testbild.png>]
+ [11 <./bilder/testbild.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 108.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3264,11 +3299,11 @@ Package logreq Info: Writing requests to '11Mi_O6_04_07_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42497 strings out of 493307
- 815275 string characters out of 3138825
+ 42495 strings out of 493307
+ 815255 string characters out of 3138825
  1389954 words of memory out of 3000000
  45346 multiletter control sequences out of 15000+200000
- 624519 words of font info for 129 fonts, out of 3000000 for 9000
+ 624432 words of font info for 128 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,20n,106p,10410b,2354s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
@@ -3289,7 +3324,7 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
 /MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 msy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 11Mi_O6_04_07_2018.pdf (14 pages, 636766 bytes).
+Output written on 11Mi_O6_04_07_2018.pdf (14 pages, 637242 bytes).
 PDF statistics:
  313 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
