@@ -1,7 +1,7 @@
-\subsection{Unsicherheiten}\label{VGuD}
+\subsection{Unsicherheiten}\label{subsec:unc}
 
 Jegliche Unsicherheiten werden nach GUM bestimmt und berechnet.
-Die Gleichungen dazu finden sich in \ref{fig:GUM_combine} und \ref{fig:GUM_formula}.
+Die Gleichungen dazu finden sich in Abb. \ref{fig:GUM_combine} und Abb. \ref{fig:GUM_formula}.
 Für die Unsicherheitsrechnungen wurde die Python Bibliothek "uncertainties" herangezogen, welche den Richtlinien des GUM folgt.
 Alle konkreten Unsicherheitsformeln stehen weiter unten.
 Für Unsicherheiten in graphischen Fits wurden die $y$-Unsicherheiten beachtet und die Methode der kleinsten Quadrate angewandt.
@@ -10,11 +10,12 @@ Dafür steht in der Bibliothek die Methode "scipy.optimize.curve\_fit()" zur Ver
 Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqrt{3}}$ angenommen, bei analogen eine von $u(X) = \frac{\Delta X}{2\sqrt{6}}$.
 
 \begin{description}
-	\item[Winkelskala] Die Winkelskala ist in Halbgradschritte eingeteilt.
-	Eine anliegende Noniusskala erhöht die Genauigkeit auf $\Delta \vartheta = \SI{1}{'}$. %TODO
-	Für die Winkel bei den LED, wird auf Grund der großen Verschmierung $\Delta \vartheta_\text{LED} = \SI{30}{'}$ angenommen.
-	
-	\item[Spannung] Das digitale Voltmeter konnte Werte auf $\Delta U = \SI{0.01}{\volt}$ angeben.
+	\item[Millimeter pro 16 Pixel] Für die Millimeter pro 16 Pixel wurde eine Unsicherheit von $\SI{0,2}{\milli\meter}$ gewählt.
+	\item[Schräge Skala] Für die Unsicherheit bei dem Ablesen der Skala auf dem schrägen Schirm wurde eine größere Unsicherheit von $\SI{5}{\milli\meter}$ gewählt, da der genaue Punkt des Übergangs zwischen scharf und unscharf nicht eindeutig zu bestimmen war.
+	\item[Höhe des scharfen Bereichs] Analog zu der schrägen Skala wird hier eine große Unsicherheit angenommen, hier hingegen $\SI{2,5}{\milli\meter}$.
+	\item[Subjektive Schärfentiefe] Diese Unsicherheit folgt aus letzteren und Abb. \ref{fig:GUM_combine}.
+	Sie beläuft sich auf \SI{6,61}{\milli\meter}		
+		% TODO0
 	
 \end{description}
 \begin{figure}[ht]
@@ -37,22 +38,11 @@ Für digitale Messungen wird eine Unsicherheit von $u(X) = \frac{\Delta X}{2\sqr
 	\label{fig:GUM_formula}
 \end{figure}
 
-\begin{figure}[ht]
-	\begin{align*}
-		\lambda = \frac{g}{m} \sin \vartheta_m
-		;\quad
-		u(\lambda) = \lambda \cot \vartheta_m u(\vartheta_m)
-	\end{align*}
-	\caption{Unsicherheitsformel für die Wellenlänge bei einem optischen Gitter mit Gitterkonstante $g$ und Ordnung $m$. $g$ wird dabei als genau angenommen.}
-	\label{unc:lambda}
-\end{figure}
+\subsection{Zusatz}\label{subsec:Zusatz}
 
 \begin{figure}[ht]
-\begin{align*}
-	\frac{1}{\lambda} = \frac{m}{g} \frac{1}{\sin \vartheta_m}
-	;\quad
-	u(\frac{1}{\lambda}) = \frac{1}{\lambda} \cot \vartheta_m u(\vartheta_m)
-\end{align*}
-\caption{Unsicherheitsformel für den Kehrwert der Wellenlänge bei einem optischen Gitter mit Gitterkonstante $g$ und Ordnung $m$.}
-\label{unc:1-lambda}
-\end{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{bilder/testbild.png}
+	\caption{sample.\cite{WWU}}
+	\label{fig:testbild}	
+\end{figure}	
