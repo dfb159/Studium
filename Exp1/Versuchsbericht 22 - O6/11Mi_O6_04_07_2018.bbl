@@ -77,6 +77,36 @@
       \verb https://sso.uni-muenster.de/LearnWeb/learnweb2/course/view.php?id=28561&section=24
       \endverb
     \endentry
+    \entry{ImageJ}{online}{}
+      \name{author}{1}{}{%
+        {{hash=04718466509a4bd41171195453c5f87a}{%
+           family={Worldwide},
+           familyi={W\bibinitperiod},
+           given={Contributors},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{04718466509a4bd41171195453c5f87a}
+      \strng{fullhash}{04718466509a4bd41171195453c5f87a}
+      \strng{bibnamehash}{04718466509a4bd41171195453c5f87a}
+      \strng{authorbibnamehash}{04718466509a4bd41171195453c5f87a}
+      \strng{authornamehash}{04718466509a4bd41171195453c5f87a}
+      \strng{authorfullhash}{04718466509a4bd41171195453c5f87a}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Image J}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://imagej.net/Welcome
+      \endverb
+      \verb{url}
+      \verb https://imagej.net/Welcome
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

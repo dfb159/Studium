@@ -67,7 +67,7 @@
 		Dabei gilt: $S^2 = d^2 - h^2$, wobei $S$ der Schärfentiefe, $h$ der Höhe des scharfen Bereichs auf dem Foto und $d$ der Bereich auf der Zenitmeterskala, der scharf wahrgenommen wird, entsprechen.
 		Aus den Gleichungen \ref{eq:nah} und \ref{eq:fern} soll zudem die theoretische Schärfentiefe bestimmt werden und mit der subjektiven verglichen werden.
 		
-		Des weiteren sollen die Fotos mit dem Programm "ImageJ" und einem von der Universität bereitgestellten Plugin, welches MTF-Kurven anhand schräger Kanten berechnet, analysiert werden.
+		Des weiteren sollen die Fotos mit dem Programm "ImageJ"\cite{ImageJ} und einem von der Universität bereitgestellten Plugin, welches MTF-Kurven anhand schräger Kanten berechnet, analysiert werden.
 		Dabei steht MTF für "Modulübertragungsfunktion" und in Abhängigkeit der Raumfrequenz $\nu$ bestimmt sich eine MTF-kurve durch:
 		\begin{align}
 			\text{MTF}(\nu) = \frac{C(\nu)}{C(0)}, \quad C(\nu) = \frac{V_\text{max}-V_\text{min}}{V_\text{max}+V_\text{min}},
@@ -143,7 +143,7 @@
 		Dazu wurde das Bildbearbeitungsprogramm "Gimp"\cite{Gimp} verwendet.
 		Auf den Fotos entsprach \SI{1+-0,05}{\milli\meter} gerade $\frac 41/3 \approx 13,67$ Pixeln.
 		Alle Fotos besaßen die gleichen Maße von 6016 x 4000 Pixeln.
-		Daraus folgt eine Diagonale von $D_\text{B} = \SI{528,61+-0,26,43}{\milli\meter}$.
+		Daraus folgt eine Diagonale von $D_\text{B} = \SI{528,61+-26,43}{\milli\meter}$.
 		Die Werte für die theoretische Schärfentiefe $S$ Ergibt sich durch
 		\begin{equation}
 			S = |d_\text{f}-d_\text{n}| = g\cdot (d_\text{h}-f) \cdot \left( \frac{1}{d_\text{h} - g} - \frac{1}{d_\text{h} + g -2f} \right),
@@ -162,14 +162,14 @@
 			\begin{tabular}{c|c|c|}
 				$k$ & $d_\text{h}$ & $S$ \\
 				\hline
-				1,8 &  \SI{39461,1+-1970,6}{\milli\meter} &  \SI{31.55+-105.76}{\milli\meter} \\
-				2,8 &  \SI{25385,69}{\milli\meter} &  \SI{84.27+-105.61}{\milli\meter} \\
-				4 &  \SI{2576.27+-50.09}{\milli\meter} &  \SI{116.04+-105.52}{\milli\meter} \\
-				5,6 &  \SI{1983.05+-50.07}{\milli\meter} &  \SI{180.15+-105.47}{\milli\meter} \\
-				8 &  \SI{1538.14+-50.05}{\milli\meter} &  \SI{267.33+-105.43}{\milli\meter} \\
-				11 &  \SI{1255.01+-50.03}{\milli\meter} &  \SI{427.37+-105.40}{\milli\meter} \\
-				16 &  \SI{1019.07+-50.02}{\milli\meter} & $\infty$ da $ g > d_\text{h}$ \\
-				22 &  \SI{877.50+-50.02}{\milli\meter} & $\infty$ da $ g > d_\text{h}$ \\
+				1,8 &  \SI{3.95+-0.20e+04}{\milli\meter} &  \SI{50.2+-2.5}{\milli\meter} \\
+				2,8 &  \SI{2.54+-0.13e+04}{\milli\meter} &  \SI{78+-4}{\milli\meter} \\
+				4 &  \SI{1.78+-0.09e+04}{\milli\meter} &  \SI{112+-6}{\milli\meter} \\
+				5,6 &  \SI{1.27+-0.06e+04}{\milli\meter} &  \SI{157+-8}{\milli\meter} \\
+				8 &  \SI{8.9+-0.4e+03}{\milli\meter} &  \SI{226+-12}{\milli\meter} \\
+				11 &  \SI{6.50+-0.32e+03}{\milli\meter} &  \SI{314+-17}{\milli\meter} \\
+				16 &  \SI{4.48+-0.22e+03}{\milli\meter} &  \SI{469+-26}{\milli\meter} \\
+				22 &  \SI{3.27+-0.16e+03}{\milli\meter} &  \SI{670+-40}{\milli\meter} \\
 			\end{tabular}
 			\caption{sample.}
 			\label{tab:Schärfentiefe_theo}
@@ -183,29 +183,81 @@
 				1,8 & \SI{31,83+-2,96}{\milli\meter} & \SI{65+-7,1}{\milli\meter} & \SI{56,67+-8,31}{\milli\meter}\\
 				2,8 & \SI{42,66+-3,29}{\milli\meter} & \SI{90+-7,1}{\milli\meter} & \SI{79,25+-8,26}{\milli\meter}\\
 				4 & \SI{49,76+-3,53}{\milli\meter} & \SI{105+-7,1}{\milli\meter} & \SI{92,46+-8,28}{\milli\meter}\\
-				5,6 & \SI{54,06+-2,5}{\milli\meter} & \SI{135+-7,1}{\milli\meter} & \SI{119,24+-}{\milli\meter}\\
-				8 & \SI{69,94+-2,5}{\milli\meter} & \SI{175+-7,1}{\milli\meter} & \SI{160,42+-7,82}{\milli\meter} \\
-				11 & \SI{103,06+-2,5}{\milli\meter} & \SI{245+-7,1}{\milli\meter} & \SI{222,27+-7,91}{\milli\meter}\\
-				16 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-7,98}{\milli\meter}\\
-				22 & $\geq$ \SI{117,88+-2,5}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{242,91+-7,98}{\milli\meter}\\
+				5,6 & \SI{63,29+-4,03}{\milli\meter} & \SI{135+-7,1}{\milli\meter} & \SI{119,24+-8,32}{\milli\meter}\\
+				8 & \SI{81,88+-4,80}{\milli\meter} & \SI{175+-7,1}{\milli\meter} & \SI{154,66+-8,43}{\milli\meter} \\
+				11 & \SI{120,66+-6,53}{\milli\meter} & \SI{245+-7,1}{\milli\meter} & \SI{213,23+-8,96}{\milli\meter}\\
+				16 & $\geq$ \SI{138,00+-7,34}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{232,07+-9,34}{\milli\meter}\\
+				22 & $\geq$ \SI{138,00+-7,34}{\milli\meter} & $\geq$ \SI{270+-7,1}{\milli\meter} & $\geq$ \SI{232,07+-9,34}{\milli\meter}\\
 			\end{tabular}
 			\caption{sample.}
 			\label{tab:Schärfentiefe_subj}
-		\end{table}
-			
+		\end{table}		
 		
 	\subsection{Auflösung bei dem Nikkor-Objektiv}
 		
-		% TODO
-		
-	\subsection{Auflösung bei der Einzellinse}
+		Die von dem ImageJ-Plugin berechneten MTF-Kurven sind für die verschiedenen Blendenzahlen $k$ in Abb. \ref{fig:kStufen} aufgetragen.
+		Für alle Kurven ist ein schneller Abfall auf einen MTF-Wert von null zu erkennen.
+		Je höher $k$ desto niedriger sind die Frequenzen, bei denen null erreicht wird.
+		Bei einigen Kurven ist zudem noch eine schwache Überschwingung nach dem erstmaligen Erreichen von null zu beobachten.
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[width=1\textwidth]{data/kStufen.pdf}
+			\caption{sample.}
+			\label{fig:kStufen}	
+		\end{figure}
+		Bei der Grenzfrequenz $f_{1/2}$ ist der MTF-Wert auf die Hälfte abgefallen.
+		Diese Frequenzen sind in Abhängigkeit der Blendenzahl $k$ in Abb. \ref{fig:kStufen} dargestellt.
+		Aus dieser Abbildung lässt sich entnehmen, dass die Grenzfrequenz zwischen $k = 5,6$ und $k = 8,0$ am höchsten sein muss.
+		\begin{figure}[ht]
+			\centering
+			\includegraphics[width=1\textwidth]{data/kHalbe.pdf}
+			\caption{sample.}
+			\label{fig:kHalbe}	
+		\end{figure}
 	
+	\subsection{Auflösung bei der Einzellinse}
+
 		\subsubsection{einfache Blenden}
+						
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=1\textwidth]{data/FFTLinie1.pdf}
+				\caption{sample.}
+				\label{fig:FFT1}	
+			\end{figure}
 			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=1\textwidth]{data/FFTLinie4.pdf}
+				\caption{sample.}
+				\label{fig:FFT2}	
+			\end{figure}
+			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=1\textwidth]{data/MTFKanteLinsen.pdf}
+				\caption{sample.}
+				\label{fig:MTF}	
+			\end{figure}
+					
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=1\textwidth]{data/Sterne.pdf}
+				\caption{sample.}
+				\label{fig:Sterne1}	
+			\end{figure}
+		
 			% TODO
 			
 		\subsubsection{Lochblende}
-		
+			
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=1\textwidth]{data/Zeitvergleich.pdf}
+				\caption{sample.}
+				\label{fig:Belichtung}	
+			\end{figure}
+			
 			% TODO
 	
 	% Datenanalyse:

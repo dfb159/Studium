@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  12 JUL 2018 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  12 JUL 2018 21:56
 entering extended mode
 **./11Mi_O6_04_07_2018.tex
 (11Mi_O6_04_07_2018.tex
@@ -3110,25 +3110,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 138.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 138.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! siunitx error: "duplicate-decimal-token"
-! 
-! Duplicate decimal marker token ',' in input.
-! 
-! See the siunitx documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.146 ...t{B} = \SI{528,61+-0,26,43}{\milli\meter}
-                                                  $.
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| Only one decimal marker token can appear in a single number.
-|...............................................
-
 Package cleveref Info: loaded `ngerman' language definitions on input line 148.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -3139,45 +3120,73 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 148.
-[6]
+ [6]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
+<data/kStufen.pdf, id=185, 722.7pt x 433.62pt>
+File: data/kStufen.pdf Graphic file (type pdf)
+<use data/kStufen.pdf>
+Package pdftex.def Info: data/kStufen.pdf  used on input line 204.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+<data/kHalbe.pdf, id=187, 722.7pt x 433.62pt>
+File: data/kHalbe.pdf Graphic file (type pdf)
+<use data/kHalbe.pdf>
+Package pdftex.def Info: data/kHalbe.pdf  used on input line 213.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 217.
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! siunitx error: "misplaced-sign-token"
-! 
-! Misplaced sign token '119,24+-'.
-! 
-! See the siunitx documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.186 ...illi\meter} & \SI{119,24+-}{\milli\meter}
-                                                  \\
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| Sign tokens can only come at the beginning of a number.
-|...............................................
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 197.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 197.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 201.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 201.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 203.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 203.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 207.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 207.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 217.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 217.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 217.
+ [7]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 218.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 220.
+<data/FFTLinie1.pdf, id=196, 722.7pt x 433.62pt>
+File: data/FFTLinie1.pdf Graphic file (type pdf)
+<use data/FFTLinie1.pdf>
+Package pdftex.def Info: data/FFTLinie1.pdf  used on input line 224.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+<data/FFTLinie4.pdf, id=197, 722.7pt x 433.62pt>
+File: data/FFTLinie4.pdf Graphic file (type pdf)
+<use data/FFTLinie4.pdf>
+Package pdftex.def Info: data/FFTLinie4.pdf  used on input line 231.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+<data/MTFKanteLinsen.pdf, id=198, 722.7pt x 433.62pt>
+File: data/MTFKanteLinsen.pdf Graphic file (type pdf)
+<use data/MTFKanteLinsen.pdf>
+Package pdftex.def Info: data/MTFKanteLinsen.pdf  used on input line 238.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+<data/Sterne.pdf, id=199, 722.7pt x 433.62pt>
+File: data/Sterne.pdf Graphic file (type pdf)
+<use data/Sterne.pdf>
+Package pdftex.def Info: data/Sterne.pdf  used on input line 245.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 252.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 252.
+<data/Zeitvergleich.pdf, id=200, 722.7pt x 433.62pt>
+File: data/Zeitvergleich.pdf Graphic file (type pdf)
+<use data/Zeitvergleich.pdf>
+Package pdftex.def Info: data/Zeitvergleich.pdf  used on input line 256.
+(pdftex.def)             Requested size: 448.13095pt x 268.88132pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 269.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 269.
 ) (tex/19_Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3194,7 +3203,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
- [7]
+ [8 <./data/kStufen.pdf>]
 Package cleveref Info: loaded `ngerman' language definitions on input line 102.
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -3205,12 +3214,68 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
- [8]
+ [9 <./data/kHalbe.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 102.
- (tex/20_Anhang.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [10 <./data/FFTLinie1.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [11 <./data/FFTLinie4.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [12 <./data/MTFKanteLinsen.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [13 <./data/Sterne.pdf>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 102.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [14 <./data/Zeitvergleich.pdf>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+
+(tex/20_Anhang.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3224,7 +3289,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 39.
- [9
+ [15
 
 ]
 Package cleveref Info: loaded `ngerman' language definitions on input line 58.
@@ -3236,12 +3301,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 58.
- [10]
+ [16]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 63.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 63.
-<bilder/testbild.png, id=212, 401.5pt x 354.32375pt>
+<bilder/testbild.png, id=567, 401.5pt x 354.32375pt>
 File: bilder/testbild.png Graphic file (type png)
 <use bilder/testbild.png>
 Package pdftex.def Info: bilder/testbild.png  used on input line 67.
@@ -3257,14 +3322,15 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
- [11 <./bilder/testbild.png>]
+ [17 <./bilder/testbild.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 108.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -3282,7 +3348,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
- [12
+ [18
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
@@ -3293,16 +3359,16 @@ Package cleveref Info: loaded `ngerman' language definitions on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `11Mi_O6_04_07_2018.out' has not changed.
-(rerunfilecheck)             Checksum: 4D3D004BADC318B6A1EF7AFF22E11C3F;2840.
+(rerunfilecheck)             Checksum: AA27F7A142F3C85F77686911BD66D1FC;2841.
 Package logreq Info: Writing requests to '11Mi_O6_04_07_2018.run.xml'.
 \openout1 = `11Mi_O6_04_07_2018.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42495 strings out of 493307
- 815255 string characters out of 3138825
- 1389954 words of memory out of 3000000
- 45346 multiletter control sequences out of 15000+200000
+ 42553 strings out of 493307
+ 816544 string characters out of 3138825
+ 1392429 words of memory out of 3000000
+ 45390 multiletter control sequences out of 15000+200000
  624432 words of font info for 128 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  68i,20n,106p,10410b,2354s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3324,9 +3390,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
 /MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 msy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 11Mi_O6_04_07_2018.pdf (14 pages, 637242 bytes).
+Output written on 11Mi_O6_04_07_2018.pdf (20 pages, 788661 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 30891 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 673 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 30926 words of extra memory for PDF output out of 35830 (max. 10000000)
 
